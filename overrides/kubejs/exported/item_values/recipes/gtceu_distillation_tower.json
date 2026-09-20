@@ -1,0 +1,4289 @@
+{
+	"type": "gtceu:distillation_tower",
+	"recipes": [
+		{
+			"id": "gtceu:distillation_tower/distill_severely_hydro_cracked_gas",
+			"category": "distillation_tower",
+			"duration": 120,
+			"voltage": 120,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:severely_hydro_cracked_gas"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:methane"
+					],
+					"amount": 1400,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 4340,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:helium"
+					],
+					"amount": 20,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:distillation_tower/distill_acetone",
+			"category": "distillation_tower",
+			"duration": 80,
+			"voltage": 640,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:acetone"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:ethenone"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:methane"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:distillation_tower/distill_lightly_steam_cracked_light_fuel",
+			"category": "distillation_tower",
+			"duration": 120,
+			"voltage": 120,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:lightly_steam_cracked_light_fuel"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:carbon_dust"
+					],
+					"amount": 1,
+					"chanced": true,
+					"chance": 1111,
+					"maxChance": 9999,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:heavy_fuel"
+					],
+					"amount": 150,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:naphtha"
+					],
+					"amount": 400,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:toluene"
+					],
+					"amount": 40,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:benzene"
+					],
+					"amount": 200,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:butene"
+					],
+					"amount": 75,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:butadiene"
+					],
+					"amount": 60,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:propane"
+					],
+					"amount": 20,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:propene"
+					],
+					"amount": 150,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:ethane"
+					],
+					"amount": 10,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:ethylene"
+					],
+					"amount": 50,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:methane"
+					],
+					"amount": 50,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:distillation_tower/distill_wood_vinegar",
+			"category": "distillation_tower",
+			"duration": 40,
+			"voltage": 256,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:wood_vinegar"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:acetic_acid"
+					],
+					"amount": 100,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water"
+					],
+					"amount": 500,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:ethanol"
+					],
+					"amount": 10,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:methanol"
+					],
+					"amount": 300,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:acetone"
+					],
+					"amount": 50,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:methyl_acetate"
+					],
+					"amount": 10,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:distillation_tower/distill_liquid_air",
+			"category": "distillation_tower",
+			"duration": 2000,
+			"voltage": 480,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:liquid_air"
+					],
+					"amount": 50000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "Ingredient",
+					"ids": [],
+					"amount": null,
+					"chanced": true,
+					"chance": 9000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:nitrogen"
+					],
+					"amount": 35000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:oxygen"
+					],
+					"amount": 11000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:carbon_dioxide"
+					],
+					"amount": 2500,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:helium"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:argon"
+					],
+					"amount": 500,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:distillation_tower/distill_severely_steam_cracked_naphtha",
+			"category": "distillation_tower",
+			"duration": 120,
+			"voltage": 120,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:severely_steam_cracked_naphtha"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:carbon_dust"
+					],
+					"amount": 1,
+					"chanced": true,
+					"chance": 3333,
+					"maxChance": 9999,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:heavy_fuel"
+					],
+					"amount": 25,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:light_fuel"
+					],
+					"amount": 50,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:toluene"
+					],
+					"amount": 20,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:benzene"
+					],
+					"amount": 100,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:butene"
+					],
+					"amount": 50,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:butadiene"
+					],
+					"amount": 50,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:propane"
+					],
+					"amount": 15,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:propene"
+					],
+					"amount": 300,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:ethane"
+					],
+					"amount": 65,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:ethylene"
+					],
+					"amount": 500,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:methane"
+					],
+					"amount": 500,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:distillation_tower/distill_severely_steam_cracked_heavy_fuel",
+			"category": "distillation_tower",
+			"duration": 120,
+			"voltage": 120,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:severely_steam_cracked_heavy_fuel"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:carbon_dust"
+					],
+					"amount": 1,
+					"chanced": true,
+					"chance": 3333,
+					"maxChance": 9999,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:light_fuel"
+					],
+					"amount": 100,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:naphtha"
+					],
+					"amount": 125,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:toluene"
+					],
+					"amount": 80,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:benzene"
+					],
+					"amount": 400,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:butene"
+					],
+					"amount": 80,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:butadiene"
+					],
+					"amount": 50,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:propane"
+					],
+					"amount": 10,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:propene"
+					],
+					"amount": 100,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:ethane"
+					],
+					"amount": 15,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:ethylene"
+					],
+					"amount": 150,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:methane"
+					],
+					"amount": 150,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:distillation_tower/distill_hydro_cracked_propane",
+			"category": "distillation_tower",
+			"duration": 120,
+			"voltage": 120,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydro_cracked_propane"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:ethane"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:methane"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:distillation_tower/distill_dilute_sulfuric",
+			"category": "distillation_tower",
+			"duration": 600,
+			"voltage": 120,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:diluted_sulfuric_acid"
+					],
+					"amount": 3000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:sulfuric_acid"
+					],
+					"amount": 2000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:distillation_tower/distill_seed_oil",
+			"category": "distillation_tower",
+			"duration": 16,
+			"voltage": 96,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:seed_oil"
+					],
+					"amount": 24,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:lubricant"
+					],
+					"amount": 12,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:distillation_tower/distill_hydro_cracked_butane",
+			"category": "distillation_tower",
+			"duration": 120,
+			"voltage": 120,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydro_cracked_butane"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:propane"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:ethane"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:methane"
+					],
+					"amount": 500,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:distillation_tower/distill_raw_oil",
+			"category": "distillation_tower",
+			"duration": 20,
+			"voltage": 96,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:oil_medium"
+					],
+					"amount": 100,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:sulfuric_heavy_fuel"
+					],
+					"amount": 10,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:sulfuric_light_fuel"
+					],
+					"amount": 50,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:sulfuric_naphtha"
+					],
+					"amount": 150,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:sulfuric_gas"
+					],
+					"amount": 60,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:distillation_tower/distill_severely_steam_cracked_light_fuel",
+			"category": "distillation_tower",
+			"duration": 120,
+			"voltage": 120,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:severely_steam_cracked_light_fuel"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:carbon_dust"
+					],
+					"amount": 1,
+					"chanced": true,
+					"chance": 3333,
+					"maxChance": 9999,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:heavy_fuel"
+					],
+					"amount": 50,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:naphtha"
+					],
+					"amount": 100,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:toluene"
+					],
+					"amount": 30,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:benzene"
+					],
+					"amount": 150,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:butene"
+					],
+					"amount": 65,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:butadiene"
+					],
+					"amount": 50,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:propane"
+					],
+					"amount": 50,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:propene"
+					],
+					"amount": 250,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:ethane"
+					],
+					"amount": 50,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:ethylene"
+					],
+					"amount": 250,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:methane"
+					],
+					"amount": 250,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:distillation_tower/distill_severely_hydro_cracked_heavy_fuel",
+			"category": "distillation_tower",
+			"duration": 120,
+			"voltage": 120,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:severely_hydro_cracked_heavy_fuel"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:light_fuel"
+					],
+					"amount": 200,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:naphtha"
+					],
+					"amount": 250,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:butane"
+					],
+					"amount": 300,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:propane"
+					],
+					"amount": 300,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:ethane"
+					],
+					"amount": 175,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:methane"
+					],
+					"amount": 175,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:distillation_tower/distill_heavy_oil",
+			"category": "distillation_tower",
+			"duration": 20,
+			"voltage": 288,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:oil_heavy"
+					],
+					"amount": 100,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:sulfuric_heavy_fuel"
+					],
+					"amount": 250,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:sulfuric_light_fuel"
+					],
+					"amount": 45,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:sulfuric_naphtha"
+					],
+					"amount": 15,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:sulfuric_gas"
+					],
+					"amount": 60,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:distillation_tower/distill_light_oil",
+			"category": "distillation_tower",
+			"duration": 20,
+			"voltage": 96,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:oil_light"
+					],
+					"amount": 150,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:sulfuric_heavy_fuel"
+					],
+					"amount": 10,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:sulfuric_light_fuel"
+					],
+					"amount": 20,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:sulfuric_naphtha"
+					],
+					"amount": 30,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:sulfuric_gas"
+					],
+					"amount": 240,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:distillation_tower/distill_hydro_cracked_butene",
+			"category": "distillation_tower",
+			"duration": 120,
+			"voltage": 120,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydro_cracked_butene"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:butane"
+					],
+					"amount": 500,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:propene"
+					],
+					"amount": 250,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:ethane"
+					],
+					"amount": 250,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:ethylene"
+					],
+					"amount": 250,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:methane"
+					],
+					"amount": 250,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:distillation_tower/distill_wood_gas",
+			"category": "distillation_tower",
+			"duration": 40,
+			"voltage": 256,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:wood_gas"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:carbon_dioxide"
+					],
+					"amount": 490,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:ethylene"
+					],
+					"amount": 20,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:methane"
+					],
+					"amount": 130,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:carbon_monoxide"
+					],
+					"amount": 340,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 20,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:distillation_tower/distill_lightly_steam_cracked_heavy_fuel",
+			"category": "distillation_tower",
+			"duration": 120,
+			"voltage": 120,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:lightly_steam_cracked_heavy_fuel"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:carbon_dust"
+					],
+					"amount": 1,
+					"chanced": true,
+					"chance": 1111,
+					"maxChance": 9999,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:light_fuel"
+					],
+					"amount": 300,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:naphtha"
+					],
+					"amount": 50,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:toluene"
+					],
+					"amount": 25,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:benzene"
+					],
+					"amount": 125,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:butene"
+					],
+					"amount": 25,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:butadiene"
+					],
+					"amount": 15,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:propane"
+					],
+					"amount": 3,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:propene"
+					],
+					"amount": 30,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:ethane"
+					],
+					"amount": 5,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:ethylene"
+					],
+					"amount": 50,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:methane"
+					],
+					"amount": 50,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:distillation_tower/distill_lightly_hydro_cracked_gas",
+			"category": "distillation_tower",
+			"duration": 120,
+			"voltage": 120,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:lightly_hydro_cracked_gas"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:methane"
+					],
+					"amount": 1400,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 1340,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:helium"
+					],
+					"amount": 20,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:distillation_tower/distill_steam_cracked_butane",
+			"category": "distillation_tower",
+			"duration": 120,
+			"voltage": 120,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:steam_cracked_butane"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "Ingredient",
+					"ids": [],
+					"amount": null,
+					"chanced": true,
+					"chance": 2500,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:propane"
+					],
+					"amount": 125,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:ethane"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:ethylene"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:methane"
+					],
+					"amount": 500,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:distillation_tower/naquadria_waste_separation",
+			"category": "distillation_tower",
+			"duration": 300,
+			"voltage": 480,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:naquadria_waste"
+					],
+					"amount": 2000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "Ingredient",
+					"ids": [],
+					"amount": null,
+					"chanced": true,
+					"chance": 5000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:sulfuric_acid"
+					],
+					"amount": 500,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:naquadria_solution"
+					],
+					"amount": 250,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:enriched_naquadah_solution"
+					],
+					"amount": 100,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:distillation_tower/distill_lightly_hydro_cracked_light_fuel",
+			"category": "distillation_tower",
+			"duration": 120,
+			"voltage": 120,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:lightly_hydro_cracked_light_fuel"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:naphtha"
+					],
+					"amount": 800,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:octane"
+					],
+					"amount": 100,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:butane"
+					],
+					"amount": 150,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:propane"
+					],
+					"amount": 200,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:ethane"
+					],
+					"amount": 125,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:methane"
+					],
+					"amount": 125,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:distillation_tower/distill_water_large",
+			"category": "distillation_tower",
+			"duration": 160,
+			"voltage": 120,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water"
+					],
+					"amount": 576,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:distilled_water"
+					],
+					"amount": 520,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:distillation_tower/distill_biomass",
+			"category": "distillation_tower",
+			"duration": 32,
+			"voltage": 400,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:biomass"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:ethanol"
+					],
+					"amount": 600,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water"
+					],
+					"amount": 300,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:carbon_dust"
+					],
+					"amount": 1,
+					"chanced": true,
+					"chance": 5000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:distillation_tower/distill_severely_hydro_cracked_naphtha",
+			"category": "distillation_tower",
+			"duration": 120,
+			"voltage": 120,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:severely_hydro_cracked_naphtha"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:butane"
+					],
+					"amount": 125,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:propane"
+					],
+					"amount": 125,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:ethane"
+					],
+					"amount": 1500,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:methane"
+					],
+					"amount": 1500,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:distillation_tower/distill_hydro_cracked_ethane",
+			"category": "distillation_tower",
+			"duration": 120,
+			"voltage": 120,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydro_cracked_ethane"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:methane"
+					],
+					"amount": 2000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 2000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:distillation_tower/distill_lightly_hydro_cracked_heavy_fuel",
+			"category": "distillation_tower",
+			"duration": 120,
+			"voltage": 120,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:lightly_hydro_cracked_heavy_fuel"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:light_fuel"
+					],
+					"amount": 600,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:naphtha"
+					],
+					"amount": 100,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:butane"
+					],
+					"amount": 100,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:propane"
+					],
+					"amount": 100,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:ethane"
+					],
+					"amount": 75,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:methane"
+					],
+					"amount": 75,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:distillation_tower/distill_charcoal_byproducts",
+			"category": "distillation_tower",
+			"duration": 40,
+			"voltage": 256,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:charcoal_byproducts"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "Ingredient",
+					"ids": [],
+					"amount": null,
+					"chanced": true,
+					"chance": 2500,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:wood_tar"
+					],
+					"amount": 250,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:wood_vinegar"
+					],
+					"amount": 400,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:wood_gas"
+					],
+					"amount": 250,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:dimethylbenzene"
+					],
+					"amount": 100,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:distillation_tower/distill_steam_cracked_propene",
+			"category": "distillation_tower",
+			"duration": 120,
+			"voltage": 120,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:steam_cracked_propene"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "Ingredient",
+					"ids": [],
+					"amount": null,
+					"chanced": true,
+					"chance": 5000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:ethylene"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:methane"
+					],
+					"amount": 500,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:distillation_tower/methanol_distil_propylene",
+			"category": "distillation_tower",
+			"duration": 600,
+			"voltage": 480,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:methanol"
+					],
+					"amount": 6000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 10000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:oxygen"
+					],
+					"amount": 6000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:methane"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:ethylene"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:propene"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:distillation_tower/distill_oil",
+			"category": "distillation_tower",
+			"duration": 20,
+			"voltage": 96,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:oil"
+					],
+					"amount": 50,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:sulfuric_heavy_fuel"
+					],
+					"amount": 15,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:sulfuric_light_fuel"
+					],
+					"amount": 50,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:sulfuric_naphtha"
+					],
+					"amount": 20,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:sulfuric_gas"
+					],
+					"amount": 60,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:distillation_tower/distill_steam_cracked_butadiene",
+			"category": "distillation_tower",
+			"duration": 120,
+			"voltage": 120,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:steam_cracked_butadiene"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "Ingredient",
+					"ids": [],
+					"amount": null,
+					"chanced": true,
+					"chance": 5000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:propene"
+					],
+					"amount": 125,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:ethylene"
+					],
+					"amount": 250,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:methane"
+					],
+					"amount": 1125,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:distillation_tower/distill_steam_cracked_ethylene",
+			"category": "distillation_tower",
+			"duration": 120,
+			"voltage": 120,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:steam_cracked_ethylene"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:carbon_dust"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:methane"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:distillation_tower/distill_hydro_cracked_ethylene",
+			"category": "distillation_tower",
+			"duration": 120,
+			"voltage": 120,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydro_cracked_ethylene"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:ethane"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:distillation_tower/distill_wood_tar",
+			"category": "distillation_tower",
+			"duration": 40,
+			"voltage": 256,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:wood_tar"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:creosote"
+					],
+					"amount": 300,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:phenol"
+					],
+					"amount": 75,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:benzene"
+					],
+					"amount": 350,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:toluene"
+					],
+					"amount": 75,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:dimethylbenzene"
+					],
+					"amount": 200,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:distillation_tower/enriched_naquadah_waste_separation",
+			"category": "distillation_tower",
+			"duration": 300,
+			"voltage": 480,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:enriched_naquadah_waste"
+					],
+					"amount": 2000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "Ingredient",
+					"ids": [],
+					"amount": null,
+					"chanced": true,
+					"chance": 5000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:sulfuric_acid"
+					],
+					"amount": 500,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:enriched_naquadah_solution"
+					],
+					"amount": 250,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:naquadria_solution"
+					],
+					"amount": 100,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:distillation_tower/distill_severely_hydro_cracked_light_fuel",
+			"category": "distillation_tower",
+			"duration": 120,
+			"voltage": 120,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:severely_hydro_cracked_light_fuel"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:naphtha"
+					],
+					"amount": 200,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:octane"
+					],
+					"amount": 20,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:butane"
+					],
+					"amount": 125,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:propane"
+					],
+					"amount": 125,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:ethane"
+					],
+					"amount": 1500,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:methane"
+					],
+					"amount": 1500,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:distillation_tower/distill_lightly_steam_cracked_gas",
+			"category": "distillation_tower",
+			"duration": 120,
+			"voltage": 120,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:lightly_steam_cracked_gas"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:carbon_dust"
+					],
+					"amount": 1,
+					"chanced": true,
+					"chance": 1111,
+					"maxChance": 9999,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:propene"
+					],
+					"amount": 45,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:ethane"
+					],
+					"amount": 8,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:ethylene"
+					],
+					"amount": 85,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:methane"
+					],
+					"amount": 1026,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:helium"
+					],
+					"amount": 20,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:distillation_tower/distill_steam_cracked_butene",
+			"category": "distillation_tower",
+			"duration": 120,
+			"voltage": 120,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:steam_cracked_butene"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "Ingredient",
+					"ids": [],
+					"amount": null,
+					"chanced": true,
+					"chance": 2500,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:propene"
+					],
+					"amount": 250,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:ethylene"
+					],
+					"amount": 1500,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:methane"
+					],
+					"amount": 250,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:distillation_tower/distill_hydro_cracked_butadiene",
+			"category": "distillation_tower",
+			"duration": 120,
+			"voltage": 120,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydro_cracked_butadiene"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:butene"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:ethylene"
+					],
+					"amount": 500,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:distillation_tower/distill_coal_tar",
+			"category": "distillation_tower",
+			"duration": 80,
+			"voltage": 120,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:coal_tar"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "Ingredient",
+					"ids": [],
+					"amount": null,
+					"chanced": true,
+					"chance": 2500,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:naphthalene"
+					],
+					"amount": 400,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen_sulfide"
+					],
+					"amount": 300,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:creosote"
+					],
+					"amount": 200,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:phenol"
+					],
+					"amount": 100,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:distillation_tower/distill_dissolved_calcium_acetate",
+			"category": "distillation_tower",
+			"duration": 80,
+			"voltage": 120,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:dissolved_calcium_acetate"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:quicklime_dust"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:acetone"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:carbon_dioxide"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:distillation_tower/distill_lightly_hydro_cracked_naphtha",
+			"category": "distillation_tower",
+			"duration": 120,
+			"voltage": 120,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:lightly_hydro_cracked_naphtha"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:butane"
+					],
+					"amount": 800,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:propane"
+					],
+					"amount": 300,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:ethane"
+					],
+					"amount": 250,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:methane"
+					],
+					"amount": 250,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:distillation_tower/distill_fermented_biomass",
+			"category": "distillation_tower",
+			"duration": 75,
+			"voltage": 180,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:fermented_biomass"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:fertilizer"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:acetic_acid"
+					],
+					"amount": 25,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water"
+					],
+					"amount": 375,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:ethanol"
+					],
+					"amount": 150,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:methanol"
+					],
+					"amount": 150,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:ammonia"
+					],
+					"amount": 100,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:carbon_dioxide"
+					],
+					"amount": 400,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:methane"
+					],
+					"amount": 600,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:distillation_tower/distill_liquid_mars_air",
+			"category": "distillation_tower",
+			"duration": 2000,
+			"voltage": 1920,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:liquid_mars_air"
+					],
+					"amount": 100000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:ammonium_chloride_dust"
+					],
+					"amount": 1,
+					"chanced": true,
+					"chance": 2250,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:carbon_dioxide"
+					],
+					"amount": 80000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:nitrogen"
+					],
+					"amount": 7000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:argon"
+					],
+					"amount": 5000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:oxygen"
+					],
+					"amount": 3000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:krypton"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:neon"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:xenon"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:distillation_tower/distill_steam_cracked_ethane",
+			"category": "distillation_tower",
+			"duration": 120,
+			"voltage": 120,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:steam_cracked_ethane"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "Ingredient",
+					"ids": [],
+					"amount": null,
+					"chanced": true,
+					"chance": 2500,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:ethylene"
+					],
+					"amount": 250,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:methane"
+					],
+					"amount": 1250,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:distillation_tower/distill_steam_cracked_propane",
+			"category": "distillation_tower",
+			"duration": 120,
+			"voltage": 120,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:steam_cracked_propane"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "Ingredient",
+					"ids": [],
+					"amount": null,
+					"chanced": true,
+					"chance": 2500,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:ethylene"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:methane"
+					],
+					"amount": 1250,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:distillation_tower/distill_dilute_hcl",
+			"category": "distillation_tower",
+			"duration": 600,
+			"voltage": 64,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:diluted_hydrochloric_acid"
+					],
+					"amount": 2000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrochloric_acid"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:distillation_tower/distill_fish_oil",
+			"category": "distillation_tower",
+			"duration": 16,
+			"voltage": 96,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:fish_oil"
+					],
+					"amount": 1200,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:lubricant"
+					],
+					"amount": 500,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:distillation_tower/distill_creosote",
+			"category": "distillation_tower",
+			"duration": 160,
+			"voltage": 96,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:creosote"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:lubricant"
+					],
+					"amount": 500,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:phenol"
+					],
+					"amount": 50,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:carbon_dioxide"
+					],
+					"amount": 200,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:methane"
+					],
+					"amount": 250,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:distillation_tower/vinegar_distillation",
+			"category": "distillation_tower",
+			"duration": 80,
+			"voltage": 120,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfc:vinegar"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:acetic_acid"
+					],
+					"amount": 50,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water"
+					],
+					"amount": 950,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:distillation_tower/distill_lightly_steam_cracked_naphtha",
+			"category": "distillation_tower",
+			"duration": 120,
+			"voltage": 120,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:lightly_steam_cracked_naphtha"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:carbon_dust"
+					],
+					"amount": 1,
+					"chanced": true,
+					"chance": 1111,
+					"maxChance": 9999,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:heavy_fuel"
+					],
+					"amount": 75,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:light_fuel"
+					],
+					"amount": 150,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:toluene"
+					],
+					"amount": 40,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:benzene"
+					],
+					"amount": 150,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:butene"
+					],
+					"amount": 80,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:butadiene"
+					],
+					"amount": 150,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:propane"
+					],
+					"amount": 15,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:propene"
+					],
+					"amount": 200,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:ethane"
+					],
+					"amount": 35,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:ethylene"
+					],
+					"amount": 200,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:methane"
+					],
+					"amount": 200,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:distillation_tower/distill_organic_degradation_slurry",
+			"category": "distillation_tower",
+			"duration": 100,
+			"voltage": 7680,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:organic_degradation_slurry"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:ethanol"
+					],
+					"amount": 3000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:toluene"
+					],
+					"amount": 3000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:dichlorobenzene"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:distillation_tower/distill_refinery_gas",
+			"category": "distillation_tower",
+			"duration": 240,
+			"voltage": 120,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:refinery_gas"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:butane"
+					],
+					"amount": 60,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:propane"
+					],
+					"amount": 70,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:ethane"
+					],
+					"amount": 100,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:methane"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:helium"
+					],
+					"amount": 20,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:distillation_tower/distill_hydro_cracked_propene",
+			"category": "distillation_tower",
+			"duration": 120,
+			"voltage": 120,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydro_cracked_propene"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:propane"
+					],
+					"amount": 500,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:ethylene"
+					],
+					"amount": 500,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:methane"
+					],
+					"amount": 500,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:distillation_tower/distill_severely_steam_cracked_gas",
+			"category": "distillation_tower",
+			"duration": 120,
+			"voltage": 120,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:severely_steam_cracked_gas"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:carbon_dust"
+					],
+					"amount": 1,
+					"chanced": true,
+					"chance": 1111,
+					"maxChance": 9999,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:propene"
+					],
+					"amount": 8,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:ethane"
+					],
+					"amount": 45,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:ethylene"
+					],
+					"amount": 92,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:methane"
+					],
+					"amount": 1018,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:helium"
+					],
+					"amount": 20,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:distillation_tower/acidic_osmium_solution_separation",
+			"category": "distillation_tower",
+			"duration": 400,
+			"voltage": 120,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:acidic_osmium_solution"
+					],
+					"amount": 2000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:osmium_tetroxide_dust"
+					],
+					"amount": 5,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrochloric_acid"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:distillation_tower/distill_coal_gas",
+			"category": "distillation_tower",
+			"duration": 80,
+			"voltage": 120,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:coal_gas"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "Ingredient",
+					"ids": [],
+					"amount": null,
+					"chanced": true,
+					"chance": 2500,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:coal_tar"
+					],
+					"amount": 200,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:ammonia"
+					],
+					"amount": 300,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:ethylbenzene"
+					],
+					"amount": 250,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:carbon_dioxide"
+					],
+					"amount": 250,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		}
+	]
+}

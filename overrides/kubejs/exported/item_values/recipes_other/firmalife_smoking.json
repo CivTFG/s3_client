@@ -1,0 +1,50 @@
+{
+	"type": "firmalife:smoking",
+	"recipes": [
+		{
+			"id": "firmalife:smoking/cheese",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"firmalife:food/gouda",
+						"firmalife:food/chevre",
+						"firmalife:food/shosha",
+						"firmalife:food/feta",
+						"firmalife:food/rajya_metok",
+						"firmalife:food/cheddar",
+						"ad_astra:cheese"
+					]
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": true,
+			"extraOutputs": []
+		},
+		{
+			"id": "firmalife:smoking/meat",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:food/beef",
+						"tfc:food/pork",
+						"tfc:food/chicken",
+						"tfc:food/mutton",
+						"tfc:food/bluegill",
+						"tfc:food/rainbow_trout",
+						"tfc:food/lake_trout",
+						"tfc:food/largemouth_bass"
+					]
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": true,
+			"extraOutputs": []
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"type": "gtceu:ostrum_harvester",
+	"recipes": [
+		{
+			"id": "tfg:ostrum_harvester/ostrum_harvesting",
+			"category": "ostrum_harvester",
+			"duration": 600,
+			"voltage": 30,
+			"inputs": [],
+			"outputs": [
+				{
+					"cap": "IntProviderIngredient",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		}
+	]
+}

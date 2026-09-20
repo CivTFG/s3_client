@@ -1,0 +1,19 @@
+{
+  "feature": "tfc:plant/wild_crop/cabbage_patch",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 16
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "tfc:climate",
+      "min_temperature": -10,
+      "max_temperature": 25,
+      "min_rainfall": 60,
+      "max_rainfall": 245
+    }
+  ]
+}

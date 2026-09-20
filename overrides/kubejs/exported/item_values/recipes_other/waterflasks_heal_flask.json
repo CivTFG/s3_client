@@ -1,0 +1,47 @@
+{
+	"type": "waterflasks:heal_flask",
+	"recipes": [
+		{
+			"id": "waterflasks:crafting/repair_broken_leather",
+			"mod": "waterflasks",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"waterflasks:broken_leather_flask"
+					]
+				},
+				{
+					"ids": [
+						"waterflasks:bladder"
+					]
+				}
+			],
+			"resultId": "waterflasks:leather_flask",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "waterflasks:crafting/repair_leather",
+			"mod": "waterflasks",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"waterflasks:leather_flask"
+					]
+				},
+				{
+					"ids": [
+						"waterflasks:bladder"
+					]
+				}
+			],
+			"resultId": "waterflasks:leather_flask",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		}
+	]
+}

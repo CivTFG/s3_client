@@ -1,0 +1,3589 @@
+{
+	"type": "vintageimprovements:hammering",
+	"recipes": [
+		{
+			"id": "tfg:vi/hammer/tfc_raw_iron_bloom_on_blue_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:raw_iron_bloom"
+					]
+				}
+			],
+			"resultId": "tfc:refined_iron_bloom",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/cobalt_plate_on_red_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:cobalt_double_ingot"
+					]
+				}
+			],
+			"resultId": "vintageimprovements:cobalt_sheet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/gtceu_thermochemically_treated_hardwood_dust_on_black_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:thermochemically_treated_hardwood_dust"
+					]
+				}
+			],
+			"resultId": "tfg:soaked_unrefined_paper",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/rose_gold_plate_on_bismuth_bronze_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:rose_gold_double_ingot"
+					]
+				}
+			],
+			"resultId": "vintageimprovements:rose_gold_sheet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/nickel_plate_on_bronze_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:nickel_double_ingot"
+					]
+				}
+			],
+			"resultId": "vintageimprovements:nickel_sheet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/bronze_plate_on_wrought_iron_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:bronze_double_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:bronze_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/steel_plate_on_black_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:steel_double_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:steel_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/gold_plate_on_bronze_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:gold_double_ingot"
+					]
+				}
+			],
+			"resultId": "create:golden_sheet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/tin_alloy_plate_on_blue_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:tin_alloy_double_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:tin_alloy_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/black_bronze_plate_on_red_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:black_bronze_double_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:black_bronze_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/bronze_plate_on_black_bronze_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:bronze_double_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:bronze_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/tfc_metal_ingot_pig_iron_on_black_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/ingot/pig_iron"
+					]
+				}
+			],
+			"resultId": "tfc:metal/ingot/high_carbon_steel",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/cobalt_brass_plate_on_red_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:cobalt_brass_double_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:cobalt_brass_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/tfc_raw_iron_bloom_on_wrought_iron_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:raw_iron_bloom"
+					]
+				}
+			],
+			"resultId": "tfc:refined_iron_bloom",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/tfc_raw_iron_bloom_on_bismuth_bronze_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:raw_iron_bloom"
+					]
+				}
+			],
+			"resultId": "tfc:refined_iron_bloom",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/tfc_raw_iron_bloom_on_bronze_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:raw_iron_bloom"
+					]
+				}
+			],
+			"resultId": "tfc:refined_iron_bloom",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/lead_plate_on_copper_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:lead_double_ingot"
+					]
+				}
+			],
+			"resultId": "vintageimprovements:lead_sheet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/zinc_plate_on_blue_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:zinc_double_ingot"
+					]
+				}
+			],
+			"resultId": "vintageimprovements:zinc_sheet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/gold_plate_on_wrought_iron_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:gold_double_ingot"
+					]
+				}
+			],
+			"resultId": "create:golden_sheet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/silver_plate_on_wrought_iron_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:silver_double_ingot"
+					]
+				}
+			],
+			"resultId": "vintageimprovements:silver_sheet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/black_bronze_plate_on_bismuth_bronze_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:black_bronze_double_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:black_bronze_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/tfc_metal_ingot_high_carbon_red_steel_on_red_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/ingot/high_carbon_red_steel"
+					]
+				}
+			],
+			"resultId": "tfc:metal/ingot/red_steel",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/black_bronze_plate_on_bronze_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:black_bronze_double_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:black_bronze_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/red_steel_plate_on_blue_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/double_ingot/red_steel"
+					]
+				}
+			],
+			"resultId": "gtceu:red_steel_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/tfc_metal_ingot_pig_iron_on_red_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/ingot/pig_iron"
+					]
+				}
+			],
+			"resultId": "tfc:metal/ingot/high_carbon_steel",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/sterling_silver_plate_on_copper_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:sterling_silver_double_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:sterling_silver_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/tin_plate_on_bronze_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:tin_double_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:tin_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/bronze_plate_on_black_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:bronze_double_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:bronze_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/cobalt_plate_on_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:cobalt_double_ingot"
+					]
+				}
+			],
+			"resultId": "vintageimprovements:cobalt_sheet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/bismuth_bronze_plate_on_bronze_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:bismuth_bronze_double_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:bismuth_bronze_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/zinc_plate_on_bronze_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:zinc_double_ingot"
+					]
+				}
+			],
+			"resultId": "vintageimprovements:zinc_sheet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/tfc_refined_iron_bloom_on_black_bronze_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:refined_iron_bloom"
+					]
+				}
+			],
+			"resultId": "gtceu:wrought_iron_ingot",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/rose_gold_plate_on_copper_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:rose_gold_double_ingot"
+					]
+				}
+			],
+			"resultId": "vintageimprovements:rose_gold_sheet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/bismuth_plate_on_bronze_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:bismuth_double_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:bismuth_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/tfc_metal_ingot_high_carbon_blue_steel_on_blue_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/ingot/high_carbon_blue_steel"
+					]
+				}
+			],
+			"resultId": "tfc:metal/ingot/blue_steel",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/wrought_iron_plate_on_blue_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:wrought_iron_double_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:wrought_iron_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/copper_plate_on_red_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:copper_double_ingot"
+					]
+				}
+			],
+			"resultId": "create:copper_sheet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/nickel_plate_on_copper_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:nickel_double_ingot"
+					]
+				}
+			],
+			"resultId": "vintageimprovements:nickel_sheet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/lead_plate_on_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:lead_double_ingot"
+					]
+				}
+			],
+			"resultId": "vintageimprovements:lead_sheet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/tin_plate_on_red_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:tin_double_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:tin_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/gold_plate_on_black_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:gold_double_ingot"
+					]
+				}
+			],
+			"resultId": "create:golden_sheet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/silver_plate_on_red_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:silver_double_ingot"
+					]
+				}
+			],
+			"resultId": "vintageimprovements:silver_sheet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/tfc_refined_iron_bloom_on_blue_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:refined_iron_bloom"
+					]
+				}
+			],
+			"resultId": "gtceu:wrought_iron_ingot",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/tfc_metal_ingot_high_carbon_steel_on_red_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/ingot/high_carbon_steel"
+					]
+				}
+			],
+			"resultId": "gtceu:steel_ingot",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/gtceu_thermochemically_treated_hardwood_dust_on_copper_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:thermochemically_treated_hardwood_dust"
+					]
+				}
+			],
+			"resultId": "tfg:soaked_unrefined_paper",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/rose_gold_plate_on_red_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:rose_gold_double_ingot"
+					]
+				}
+			],
+			"resultId": "vintageimprovements:rose_gold_sheet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/copper_plate_on_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:copper_double_ingot"
+					]
+				}
+			],
+			"resultId": "create:copper_sheet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/silver_plate_on_bronze_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:silver_double_ingot"
+					]
+				}
+			],
+			"resultId": "vintageimprovements:silver_sheet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/bronze_plate_on_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:bronze_double_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:bronze_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/zinc_plate_on_black_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:zinc_double_ingot"
+					]
+				}
+			],
+			"resultId": "vintageimprovements:zinc_sheet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/black_bronze_plate_on_wrought_iron_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:black_bronze_double_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:black_bronze_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/red_alloy_plate_on_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:red_alloy_double_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:red_alloy_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/tin_plate_on_blue_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:tin_double_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:tin_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/iron_plate_on_red_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/double_ingot/cast_iron"
+					]
+				}
+			],
+			"resultId": "vintageimprovements:cast_iron_sheet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/zinc_plate_on_black_bronze_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:zinc_double_ingot"
+					]
+				}
+			],
+			"resultId": "vintageimprovements:zinc_sheet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/copper_plate_on_copper_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:copper_double_ingot"
+					]
+				}
+			],
+			"resultId": "create:copper_sheet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/gtceu_thermochemically_treated_hardwood_dust_on_black_bronze_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:thermochemically_treated_hardwood_dust"
+					]
+				}
+			],
+			"resultId": "tfg:soaked_unrefined_paper",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/bismuth_plate_on_wrought_iron_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:bismuth_double_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:bismuth_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/red_alloy_plate_on_wrought_iron_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:red_alloy_double_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:red_alloy_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/iron_plate_on_black_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/double_ingot/cast_iron"
+					]
+				}
+			],
+			"resultId": "vintageimprovements:cast_iron_sheet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/gtceu_thermochemically_treated_hardwood_dust_on_blue_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:thermochemically_treated_hardwood_dust"
+					]
+				}
+			],
+			"resultId": "tfg:soaked_unrefined_paper",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/invar_plate_on_black_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:invar_double_ingot"
+					]
+				}
+			],
+			"resultId": "vintageimprovements:invar_sheet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/sterling_silver_plate_on_black_bronze_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:sterling_silver_double_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:sterling_silver_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/zinc_plate_on_wrought_iron_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:zinc_double_ingot"
+					]
+				}
+			],
+			"resultId": "vintageimprovements:zinc_sheet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/tfc_raw_iron_bloom_on_red_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:raw_iron_bloom"
+					]
+				}
+			],
+			"resultId": "tfc:refined_iron_bloom",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/bismuth_plate_on_black_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:bismuth_double_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:bismuth_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/tfc_metal_ingot_pig_iron_on_wrought_iron_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/ingot/pig_iron"
+					]
+				}
+			],
+			"resultId": "tfc:metal/ingot/high_carbon_steel",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/invar_plate_on_red_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:invar_double_ingot"
+					]
+				}
+			],
+			"resultId": "vintageimprovements:invar_sheet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/iron_plate_on_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/double_ingot/cast_iron"
+					]
+				}
+			],
+			"resultId": "vintageimprovements:cast_iron_sheet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/wrought_iron_plate_on_black_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:wrought_iron_double_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:wrought_iron_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/tfc_metal_ingot_high_carbon_black_steel_on_black_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/ingot/high_carbon_black_steel"
+					]
+				}
+			],
+			"resultId": "tfc:metal/ingot/black_steel",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/red_alloy_plate_on_black_bronze_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:red_alloy_double_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:red_alloy_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/nickel_plate_on_bismuth_bronze_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:nickel_double_ingot"
+					]
+				}
+			],
+			"resultId": "vintageimprovements:nickel_sheet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/tfc_metal_ingot_high_carbon_red_steel_on_black_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/ingot/high_carbon_red_steel"
+					]
+				}
+			],
+			"resultId": "tfc:metal/ingot/red_steel",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/nickel_plate_on_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:nickel_double_ingot"
+					]
+				}
+			],
+			"resultId": "vintageimprovements:nickel_sheet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/brass_plate_on_bismuth_bronze_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:brass_double_ingot"
+					]
+				}
+			],
+			"resultId": "create:brass_sheet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/tfc_refined_iron_bloom_on_wrought_iron_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:refined_iron_bloom"
+					]
+				}
+			],
+			"resultId": "gtceu:wrought_iron_ingot",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/red_alloy_plate_on_black_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:red_alloy_double_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:red_alloy_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/potin_plate_on_bismuth_bronze_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:potin_double_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:potin_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/bismuth_plate_on_copper_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:bismuth_double_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:bismuth_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/brass_plate_on_black_bronze_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:brass_double_ingot"
+					]
+				}
+			],
+			"resultId": "create:brass_sheet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/silver_plate_on_black_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:silver_double_ingot"
+					]
+				}
+			],
+			"resultId": "vintageimprovements:silver_sheet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/steel_plate_on_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:steel_double_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:steel_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/tfc_metal_ingot_high_carbon_black_steel_on_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/ingot/high_carbon_black_steel"
+					]
+				}
+			],
+			"resultId": "tfc:metal/ingot/black_steel",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/potin_plate_on_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:potin_double_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:potin_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/gtceu_thermochemically_treated_hardwood_dust_on_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:thermochemically_treated_hardwood_dust"
+					]
+				}
+			],
+			"resultId": "tfg:soaked_unrefined_paper",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/bismuth_plate_on_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:bismuth_double_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:bismuth_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/lead_plate_on_wrought_iron_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:lead_double_ingot"
+					]
+				}
+			],
+			"resultId": "vintageimprovements:lead_sheet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/tfc_metal_ingot_high_carbon_blue_steel_on_red_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/ingot/high_carbon_blue_steel"
+					]
+				}
+			],
+			"resultId": "tfc:metal/ingot/blue_steel",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/rose_gold_plate_on_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:rose_gold_double_ingot"
+					]
+				}
+			],
+			"resultId": "vintageimprovements:rose_gold_sheet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/black_bronze_plate_on_black_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:black_bronze_double_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:black_bronze_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/bismuth_bronze_plate_on_black_bronze_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:bismuth_bronze_double_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:bismuth_bronze_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/tin_alloy_plate_on_red_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:tin_alloy_double_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:tin_alloy_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/tin_plate_on_wrought_iron_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:tin_double_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:tin_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/red_alloy_plate_on_bronze_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:red_alloy_double_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:red_alloy_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/lead_plate_on_black_bronze_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:lead_double_ingot"
+					]
+				}
+			],
+			"resultId": "vintageimprovements:lead_sheet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/nickel_plate_on_wrought_iron_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:nickel_double_ingot"
+					]
+				}
+			],
+			"resultId": "vintageimprovements:nickel_sheet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/blue_steel_plate_on_red_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/double_ingot/blue_steel"
+					]
+				}
+			],
+			"resultId": "gtceu:blue_steel_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/nickel_plate_on_red_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:nickel_double_ingot"
+					]
+				}
+			],
+			"resultId": "vintageimprovements:nickel_sheet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/red_steel_plate_on_red_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/double_ingot/red_steel"
+					]
+				}
+			],
+			"resultId": "gtceu:red_steel_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/red_alloy_plate_on_blue_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:red_alloy_double_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:red_alloy_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/rose_gold_plate_on_black_bronze_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:rose_gold_double_ingot"
+					]
+				}
+			],
+			"resultId": "vintageimprovements:rose_gold_sheet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/tfc_refined_iron_bloom_on_bronze_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:refined_iron_bloom"
+					]
+				}
+			],
+			"resultId": "gtceu:wrought_iron_ingot",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/rose_gold_plate_on_bronze_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:rose_gold_double_ingot"
+					]
+				}
+			],
+			"resultId": "vintageimprovements:rose_gold_sheet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/tin_alloy_plate_on_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:tin_alloy_double_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:tin_alloy_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/tfc_raw_iron_bloom_on_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:raw_iron_bloom"
+					]
+				}
+			],
+			"resultId": "tfc:refined_iron_bloom",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/tin_plate_on_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:tin_double_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:tin_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/bismuth_bronze_plate_on_red_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:bismuth_bronze_double_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:bismuth_bronze_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/rose_gold_plate_on_black_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:rose_gold_double_ingot"
+					]
+				}
+			],
+			"resultId": "vintageimprovements:rose_gold_sheet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/tfc_metal_ingot_high_carbon_red_steel_on_blue_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/ingot/high_carbon_red_steel"
+					]
+				}
+			],
+			"resultId": "tfc:metal/ingot/red_steel",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/wrought_iron_plate_on_wrought_iron_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:wrought_iron_double_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:wrought_iron_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/black_bronze_plate_on_black_bronze_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:black_bronze_double_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:black_bronze_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/gtceu_thermochemically_treated_hardwood_dust_on_red_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:thermochemically_treated_hardwood_dust"
+					]
+				}
+			],
+			"resultId": "tfg:soaked_unrefined_paper",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/tfc_metal_ingot_high_carbon_steel_on_black_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/ingot/high_carbon_steel"
+					]
+				}
+			],
+			"resultId": "gtceu:steel_ingot",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/tin_plate_on_copper_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:tin_double_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:tin_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/bismuth_bronze_plate_on_wrought_iron_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:bismuth_bronze_double_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:bismuth_bronze_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/potin_plate_on_bronze_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:potin_double_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:potin_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/cobalt_plate_on_black_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:cobalt_double_ingot"
+					]
+				}
+			],
+			"resultId": "vintageimprovements:cobalt_sheet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/tin_plate_on_black_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:tin_double_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:tin_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/nickel_plate_on_black_bronze_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:nickel_double_ingot"
+					]
+				}
+			],
+			"resultId": "vintageimprovements:nickel_sheet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/cobalt_brass_plate_on_blue_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:cobalt_brass_double_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:cobalt_brass_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/tfc_metal_ingot_pig_iron_on_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/ingot/pig_iron"
+					]
+				}
+			],
+			"resultId": "tfc:metal/ingot/high_carbon_steel",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/potin_plate_on_red_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:potin_double_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:potin_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/blue_steel_plate_on_blue_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/double_ingot/blue_steel"
+					]
+				}
+			],
+			"resultId": "gtceu:blue_steel_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/copper_plate_on_bismuth_bronze_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:copper_double_ingot"
+					]
+				}
+			],
+			"resultId": "create:copper_sheet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/tfc_metal_ingot_high_carbon_steel_on_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/ingot/high_carbon_steel"
+					]
+				}
+			],
+			"resultId": "gtceu:steel_ingot",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/tfc_refined_iron_bloom_on_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:refined_iron_bloom"
+					]
+				}
+			],
+			"resultId": "gtceu:wrought_iron_ingot",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/cobalt_plate_on_blue_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:cobalt_double_ingot"
+					]
+				}
+			],
+			"resultId": "vintageimprovements:cobalt_sheet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/lead_plate_on_black_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:lead_double_ingot"
+					]
+				}
+			],
+			"resultId": "vintageimprovements:lead_sheet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/zinc_plate_on_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:zinc_double_ingot"
+					]
+				}
+			],
+			"resultId": "vintageimprovements:zinc_sheet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/sterling_silver_plate_on_red_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:sterling_silver_double_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:sterling_silver_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/brass_plate_on_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:brass_double_ingot"
+					]
+				}
+			],
+			"resultId": "create:brass_sheet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/sterling_silver_plate_on_blue_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:sterling_silver_double_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:sterling_silver_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/tfc_metal_ingot_high_carbon_blue_steel_on_black_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/ingot/high_carbon_blue_steel"
+					]
+				}
+			],
+			"resultId": "tfc:metal/ingot/blue_steel",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/invar_plate_on_blue_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:invar_double_ingot"
+					]
+				}
+			],
+			"resultId": "vintageimprovements:invar_sheet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/gtceu_thermochemically_treated_hardwood_dust_on_bronze_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:thermochemically_treated_hardwood_dust"
+					]
+				}
+			],
+			"resultId": "tfg:soaked_unrefined_paper",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/bismuth_bronze_plate_on_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:bismuth_bronze_double_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:bismuth_bronze_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/brass_plate_on_black_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:brass_double_ingot"
+					]
+				}
+			],
+			"resultId": "create:brass_sheet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/cobalt_plate_on_wrought_iron_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:cobalt_double_ingot"
+					]
+				}
+			],
+			"resultId": "vintageimprovements:cobalt_sheet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/copper_plate_on_black_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:copper_double_ingot"
+					]
+				}
+			],
+			"resultId": "create:copper_sheet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/tin_plate_on_bismuth_bronze_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:tin_double_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:tin_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/tfc_refined_iron_bloom_on_red_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:refined_iron_bloom"
+					]
+				}
+			],
+			"resultId": "gtceu:wrought_iron_ingot",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/gold_plate_on_red_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:gold_double_ingot"
+					]
+				}
+			],
+			"resultId": "create:golden_sheet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/rose_gold_plate_on_blue_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:rose_gold_double_ingot"
+					]
+				}
+			],
+			"resultId": "vintageimprovements:rose_gold_sheet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/sterling_silver_plate_on_bronze_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:sterling_silver_double_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:sterling_silver_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/gold_plate_on_copper_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:gold_double_ingot"
+					]
+				}
+			],
+			"resultId": "create:golden_sheet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/tfc_refined_iron_bloom_on_black_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:refined_iron_bloom"
+					]
+				}
+			],
+			"resultId": "gtceu:wrought_iron_ingot",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/black_bronze_plate_on_blue_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:black_bronze_double_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:black_bronze_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/bismuth_plate_on_blue_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:bismuth_double_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:bismuth_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/tfc_metal_ingot_high_carbon_steel_on_blue_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/ingot/high_carbon_steel"
+					]
+				}
+			],
+			"resultId": "gtceu:steel_ingot",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/steel_plate_on_red_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:steel_double_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:steel_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/silver_plate_on_blue_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:silver_double_ingot"
+					]
+				}
+			],
+			"resultId": "vintageimprovements:silver_sheet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/sterling_silver_plate_on_wrought_iron_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:sterling_silver_double_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:sterling_silver_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/invar_plate_on_wrought_iron_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:invar_double_ingot"
+					]
+				}
+			],
+			"resultId": "vintageimprovements:invar_sheet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/tfc_metal_ingot_high_carbon_black_steel_on_red_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/ingot/high_carbon_black_steel"
+					]
+				}
+			],
+			"resultId": "tfc:metal/ingot/black_steel",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/cobalt_brass_plate_on_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:cobalt_brass_double_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:cobalt_brass_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/rose_gold_plate_on_wrought_iron_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:rose_gold_double_ingot"
+					]
+				}
+			],
+			"resultId": "vintageimprovements:rose_gold_sheet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/nickel_plate_on_black_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:nickel_double_ingot"
+					]
+				}
+			],
+			"resultId": "vintageimprovements:nickel_sheet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/silver_plate_on_copper_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:silver_double_ingot"
+					]
+				}
+			],
+			"resultId": "vintageimprovements:silver_sheet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/bronze_plate_on_bronze_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:bronze_double_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:bronze_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/gold_plate_on_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:gold_double_ingot"
+					]
+				}
+			],
+			"resultId": "create:golden_sheet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/brass_plate_on_wrought_iron_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:brass_double_ingot"
+					]
+				}
+			],
+			"resultId": "create:brass_sheet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/cobalt_brass_plate_on_wrought_iron_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:cobalt_brass_double_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:cobalt_brass_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/tfc_raw_iron_bloom_on_black_bronze_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:raw_iron_bloom"
+					]
+				}
+			],
+			"resultId": "tfc:refined_iron_bloom",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/tfc_metal_ingot_high_carbon_black_steel_on_blue_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/ingot/high_carbon_black_steel"
+					]
+				}
+			],
+			"resultId": "tfc:metal/ingot/black_steel",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/gold_plate_on_black_bronze_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:gold_double_ingot"
+					]
+				}
+			],
+			"resultId": "create:golden_sheet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/brass_plate_on_blue_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:brass_double_ingot"
+					]
+				}
+			],
+			"resultId": "create:brass_sheet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/black_steel_plate_on_blue_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/double_ingot/black_steel"
+					]
+				}
+			],
+			"resultId": "gtceu:black_steel_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/silver_plate_on_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:silver_double_ingot"
+					]
+				}
+			],
+			"resultId": "vintageimprovements:silver_sheet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/copper_plate_on_blue_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:copper_double_ingot"
+					]
+				}
+			],
+			"resultId": "create:copper_sheet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/lead_plate_on_red_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:lead_double_ingot"
+					]
+				}
+			],
+			"resultId": "vintageimprovements:lead_sheet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/copper_plate_on_bronze_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:copper_double_ingot"
+					]
+				}
+			],
+			"resultId": "create:copper_sheet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/tfc_metal_ingot_high_carbon_steel_on_wrought_iron_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/ingot/high_carbon_steel"
+					]
+				}
+			],
+			"resultId": "gtceu:steel_ingot",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/sterling_silver_plate_on_black_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:sterling_silver_double_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:sterling_silver_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/zinc_plate_on_red_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:zinc_double_ingot"
+					]
+				}
+			],
+			"resultId": "vintageimprovements:zinc_sheet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/gtceu_thermochemically_treated_hardwood_dust_on_bismuth_bronze_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:thermochemically_treated_hardwood_dust"
+					]
+				}
+			],
+			"resultId": "tfg:soaked_unrefined_paper",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/bismuth_plate_on_bismuth_bronze_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:bismuth_double_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:bismuth_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/bismuth_plate_on_black_bronze_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:bismuth_double_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:bismuth_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/potin_plate_on_black_bronze_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:potin_double_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:potin_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/bismuth_bronze_plate_on_black_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:bismuth_bronze_double_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:bismuth_bronze_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/black_bronze_plate_on_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:black_bronze_double_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:black_bronze_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/tfc_refined_iron_bloom_on_bismuth_bronze_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:refined_iron_bloom"
+					]
+				}
+			],
+			"resultId": "gtceu:wrought_iron_ingot",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/silver_plate_on_bismuth_bronze_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:silver_double_ingot"
+					]
+				}
+			],
+			"resultId": "vintageimprovements:silver_sheet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/iron_plate_on_blue_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/double_ingot/cast_iron"
+					]
+				}
+			],
+			"resultId": "vintageimprovements:cast_iron_sheet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/potin_plate_on_blue_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:potin_double_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:potin_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/sterling_silver_plate_on_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:sterling_silver_double_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:sterling_silver_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/black_steel_plate_on_black_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/double_ingot/black_steel"
+					]
+				}
+			],
+			"resultId": "gtceu:black_steel_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/brass_plate_on_red_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:brass_double_ingot"
+					]
+				}
+			],
+			"resultId": "create:brass_sheet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/lead_plate_on_blue_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:lead_double_ingot"
+					]
+				}
+			],
+			"resultId": "vintageimprovements:lead_sheet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/sterling_silver_plate_on_bismuth_bronze_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:sterling_silver_double_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:sterling_silver_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/copper_plate_on_black_bronze_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:copper_double_ingot"
+					]
+				}
+			],
+			"resultId": "create:copper_sheet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/potin_plate_on_wrought_iron_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:potin_double_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:potin_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/potin_plate_on_black_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:potin_double_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:potin_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/tin_alloy_plate_on_wrought_iron_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:tin_alloy_double_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:tin_alloy_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/tfc_metal_ingot_pig_iron_on_blue_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/ingot/pig_iron"
+					]
+				}
+			],
+			"resultId": "tfc:metal/ingot/high_carbon_steel",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/zinc_plate_on_copper_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:zinc_double_ingot"
+					]
+				}
+			],
+			"resultId": "vintageimprovements:zinc_sheet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/gold_plate_on_blue_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:gold_double_ingot"
+					]
+				}
+			],
+			"resultId": "create:golden_sheet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/black_steel_plate_on_red_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/double_ingot/black_steel"
+					]
+				}
+			],
+			"resultId": "gtceu:black_steel_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/tin_plate_on_black_bronze_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:tin_double_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:tin_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/lead_plate_on_bronze_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:lead_double_ingot"
+					]
+				}
+			],
+			"resultId": "vintageimprovements:lead_sheet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/wrought_iron_plate_on_red_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:wrought_iron_double_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:wrought_iron_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/silver_plate_on_black_bronze_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:silver_double_ingot"
+					]
+				}
+			],
+			"resultId": "vintageimprovements:silver_sheet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/cobalt_brass_plate_on_black_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:cobalt_brass_double_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:cobalt_brass_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/red_alloy_plate_on_red_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:red_alloy_double_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:red_alloy_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/zinc_plate_on_bismuth_bronze_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:zinc_double_ingot"
+					]
+				}
+			],
+			"resultId": "vintageimprovements:zinc_sheet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/brass_plate_on_bronze_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:brass_double_ingot"
+					]
+				}
+			],
+			"resultId": "create:brass_sheet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/steel_plate_on_blue_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:steel_double_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:steel_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/bismuth_bronze_plate_on_bismuth_bronze_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:bismuth_bronze_double_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:bismuth_bronze_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/red_alloy_plate_on_bismuth_bronze_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:red_alloy_double_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:red_alloy_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/gold_plate_on_bismuth_bronze_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:gold_double_ingot"
+					]
+				}
+			],
+			"resultId": "create:golden_sheet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/bismuth_plate_on_red_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:bismuth_double_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:bismuth_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/bismuth_bronze_plate_on_blue_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:bismuth_bronze_double_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:bismuth_bronze_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/bronze_plate_on_blue_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:bronze_double_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:bronze_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/gtceu_thermochemically_treated_hardwood_dust_on_wrought_iron_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:thermochemically_treated_hardwood_dust"
+					]
+				}
+			],
+			"resultId": "tfg:soaked_unrefined_paper",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/copper_plate_on_wrought_iron_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:copper_double_ingot"
+					]
+				}
+			],
+			"resultId": "create:copper_sheet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/tin_alloy_plate_on_black_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:tin_alloy_double_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:tin_alloy_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/nickel_plate_on_blue_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:nickel_double_ingot"
+					]
+				}
+			],
+			"resultId": "vintageimprovements:nickel_sheet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/lead_plate_on_bismuth_bronze_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:lead_double_ingot"
+					]
+				}
+			],
+			"resultId": "vintageimprovements:lead_sheet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/tfc_raw_iron_bloom_on_black_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:raw_iron_bloom"
+					]
+				}
+			],
+			"resultId": "tfc:refined_iron_bloom",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/bronze_plate_on_bismuth_bronze_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:bronze_double_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:bronze_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/iron_plate_on_wrought_iron_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/double_ingot/cast_iron"
+					]
+				}
+			],
+			"resultId": "vintageimprovements:cast_iron_sheet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/bronze_plate_on_red_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:bronze_double_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:bronze_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/wrought_iron_plate_on_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:wrought_iron_double_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:wrought_iron_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/hammer/invar_plate_on_steel_anvil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:invar_double_ingot"
+					]
+				}
+			],
+			"resultId": "vintageimprovements:invar_sheet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		}
+	]
+}

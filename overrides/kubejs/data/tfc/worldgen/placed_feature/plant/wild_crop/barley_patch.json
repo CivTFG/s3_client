@@ -1,0 +1,20 @@
+{
+  "feature": "tfc:plant/wild_crop/barley_patch",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 16
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "tfc:climate",
+      "min_temperature": -8,
+      "max_temperature": 25,
+      "min_rainfall": 70,
+      "max_rainfall": 280,
+      "max_forest": "edge"
+    }
+  ]
+}

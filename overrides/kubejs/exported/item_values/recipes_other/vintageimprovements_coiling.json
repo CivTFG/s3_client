@@ -1,0 +1,2117 @@
+{
+	"type": "vintageimprovements:coiling",
+	"recipes": [
+		{
+			"id": "tfg:vi/coiling/rhodium_fine_wire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:rhodium_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:fine_rhodium_wire",
+			"resultCount": 8,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/tin_small_spring",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:tin_rod"
+					]
+				}
+			],
+			"resultId": "gtceu:small_tin_spring",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/red_alloy_small_spring",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:red_alloy_rod"
+					]
+				}
+			],
+			"resultId": "gtceu:small_red_alloy_spring",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/mercury_barium_calcium_cuprate_fine_wire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:mercury_barium_calcium_cuprate_single_wire"
+					]
+				}
+			],
+			"resultId": "gtceu:fine_mercury_barium_calcium_cuprate_wire",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi_spin_flax_line",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:flax_line"
+					]
+				}
+			],
+			"resultId": "tfg:linen_thread",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/uranium_triplatinum_single_wire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:uranium_triplatinum_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:uranium_triplatinum_single_wire",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/niobium_titanium_single_wire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:niobium_titanium_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:niobium_titanium_single_wire",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/europium_small_spring",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:europium_rod"
+					]
+				}
+			],
+			"resultId": "gtceu:small_europium_spring",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/indium_tin_barium_titanium_cuprate_fine_wire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:indium_tin_barium_titanium_cuprate_single_wire"
+					]
+				}
+			],
+			"resultId": "gtceu:fine_indium_tin_barium_titanium_cuprate_wire",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/blue_alloy_single_wire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:blue_alloy_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:blue_alloy_single_wire",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/osmiridium_fine_wire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:osmiridium_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:fine_osmiridium_wire",
+			"resultCount": 8,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/gold_fine_wire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:gold_single_wire"
+					]
+				}
+			],
+			"resultId": "gtceu:fine_gold_wire",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/gold_single_wire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:gold_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:gold_single_wire",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/cupronickel_fine_wire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:cupronickel_single_wire"
+					]
+				}
+			],
+			"resultId": "gtceu:fine_cupronickel_wire",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/naquadah_alloy_single_wire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:naquadah_alloy_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:naquadah_alloy_single_wire",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/tungsten_small_spring",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:tungsten_rod"
+					]
+				}
+			],
+			"resultId": "gtceu:small_tungsten_spring",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/blue_steel_spring",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:long_blue_steel_rod"
+					]
+				}
+			],
+			"resultId": "gtceu:blue_steel_spring",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/enriched_naquadah_trinium_europium_duranide_single_wire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:enriched_naquadah_trinium_europium_duranide_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:enriched_naquadah_trinium_europium_duranide_single_wire",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/yttrium_barium_cuprate_spring",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:long_yttrium_barium_cuprate_rod"
+					]
+				}
+			],
+			"resultId": "gtceu:yttrium_barium_cuprate_spring",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/lead_fine_wire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:lead_single_wire"
+					]
+				}
+			],
+			"resultId": "gtceu:fine_lead_wire",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/tritanium_fine_wire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:tritanium_single_wire"
+					]
+				}
+			],
+			"resultId": "gtceu:fine_tritanium_wire",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/silver_fine_wire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:silver_single_wire"
+					]
+				}
+			],
+			"resultId": "gtceu:fine_silver_wire",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/rtm_alloy_single_wire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:rtm_alloy_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:rtm_alloy_single_wire",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/platinum_single_wire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:platinum_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:platinum_single_wire",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/osmium_single_wire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:osmium_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:osmium_single_wire",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/aluminium_spring",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:long_aluminium_rod"
+					]
+				}
+			],
+			"resultId": "gtceu:aluminium_spring",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/ruridit_fine_wire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:ruridit_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:fine_ruridit_wire",
+			"resultCount": 8,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/steel_spring",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:long_steel_rod"
+					]
+				}
+			],
+			"resultId": "gtceu:steel_spring",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/copper_small_spring",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:copper_rod"
+					]
+				}
+			],
+			"resultId": "gtceu:small_copper_spring",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/vanadium_gallium_single_wire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:vanadium_gallium_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:vanadium_gallium_single_wire",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/phantom_thread",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:phantom_membrane"
+					]
+				}
+			],
+			"resultId": "tfg:phantom_thread",
+			"resultCount": 8,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/gold_spring",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:long_gold_rod"
+					]
+				}
+			],
+			"resultId": "gtceu:gold_spring",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/yttrium_barium_cuprate_small_spring",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:yttrium_barium_cuprate_rod"
+					]
+				}
+			],
+			"resultId": "gtceu:small_yttrium_barium_cuprate_spring",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/samarium_iron_arsenic_oxide_fine_wire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:samarium_iron_arsenic_oxide_single_wire"
+					]
+				}
+			],
+			"resultId": "gtceu:fine_samarium_iron_arsenic_oxide_wire",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/cobalt_single_wire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:cobalt_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:cobalt_single_wire",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/uranium_triplatinum_fine_wire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:uranium_triplatinum_single_wire"
+					]
+				}
+			],
+			"resultId": "gtceu:fine_uranium_triplatinum_wire",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/iron_small_spring",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:iron_rod"
+					]
+				}
+			],
+			"resultId": "gtceu:small_iron_spring",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/tungsten_steel_fine_wire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:tungsten_steel_single_wire"
+					]
+				}
+			],
+			"resultId": "gtceu:fine_tungsten_steel_wire",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/cobalt_fine_wire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:cobalt_single_wire"
+					]
+				}
+			],
+			"resultId": "gtceu:fine_cobalt_wire",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/platinum_small_spring",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:platinum_rod"
+					]
+				}
+			],
+			"resultId": "gtceu:small_platinum_spring",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/copper_fine_wire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:copper_single_wire"
+					]
+				}
+			],
+			"resultId": "gtceu:fine_copper_wire",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/electrum_fine_wire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:electrum_single_wire"
+					]
+				}
+			],
+			"resultId": "gtceu:fine_electrum_wire",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/trinium_spring",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:long_trinium_rod"
+					]
+				}
+			],
+			"resultId": "gtceu:trinium_spring",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/nylon_string",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:polycaprolactam_ingot"
+					]
+				}
+			],
+			"resultId": "tfg:polycaprolactam_string",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/ruthenium_trinium_americium_neutronate_single_wire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:ruthenium_trinium_americium_neutronate_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:ruthenium_trinium_americium_neutronate_single_wire",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/tungsten_bismuth_oxide_composite_fine_wire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:tungsten_bismuth_oxide_composite_ingot"
+					]
+				}
+			],
+			"resultId": "tfg:fine_tungsten_bismuth_oxide_composite_wire",
+			"resultCount": 8,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/borosilicate_glass_fine_wire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:borosilicate_glass_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:fine_borosilicate_glass_wire",
+			"resultCount": 8,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/uranium_rhodium_dinaquadide_single_wire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:uranium_rhodium_dinaquadide_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:uranium_rhodium_dinaquadide_single_wire",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/copper_spring",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:long_copper_rod"
+					]
+				}
+			],
+			"resultId": "gtceu:copper_spring",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/kanthal_spring",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:long_kanthal_rod"
+					]
+				}
+			],
+			"resultId": "gtceu:kanthal_spring",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/steel_single_wire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:steel_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:steel_single_wire",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/cupronickel_single_wire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:cupronickel_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:cupronickel_single_wire",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/manganese_phosphide_fine_wire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:manganese_phosphide_single_wire"
+					]
+				}
+			],
+			"resultId": "gtceu:fine_manganese_phosphide_wire",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/magnesium_diboride_fine_wire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:magnesium_diboride_single_wire"
+					]
+				}
+			],
+			"resultId": "gtceu:fine_magnesium_diboride_wire",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/europium_spring",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:long_europium_rod"
+					]
+				}
+			],
+			"resultId": "gtceu:europium_spring",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/yttrium_barium_cuprate_single_wire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:yttrium_barium_cuprate_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:yttrium_barium_cuprate_single_wire",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/cupronickel_spring",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:long_cupronickel_rod"
+					]
+				}
+			],
+			"resultId": "gtceu:cupronickel_spring",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/iron_single_wire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:iron_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:iron_single_wire",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/tungsten_steel_single_wire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:tungsten_steel_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:tungsten_steel_single_wire",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/pineapple_yarn",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"firmalife:pineapple_fiber"
+					]
+				}
+			],
+			"resultId": "firmalife:pineapple_yarn",
+			"resultCount": 8,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/hssg_spring",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:long_hssg_rod"
+					]
+				}
+			],
+			"resultId": "gtceu:hssg_spring",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/annealed_copper_single_wire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:annealed_copper_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:annealed_copper_single_wire",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/uranium_rhodium_dinaquadide_fine_wire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:uranium_rhodium_dinaquadide_single_wire"
+					]
+				}
+			],
+			"resultId": "gtceu:fine_uranium_rhodium_dinaquadide_wire",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/aluminium_single_wire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:aluminium_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:aluminium_single_wire",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/samarium_iron_arsenic_oxide_single_wire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:samarium_iron_arsenic_oxide_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:samarium_iron_arsenic_oxide_single_wire",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/graphene_single_wire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:graphene_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:graphene_single_wire",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/naquadah_alloy_spring",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:long_naquadah_alloy_rod"
+					]
+				}
+			],
+			"resultId": "gtceu:naquadah_alloy_spring",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/niobium_titanium_small_spring",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:niobium_titanium_rod"
+					]
+				}
+			],
+			"resultId": "gtceu:small_niobium_titanium_spring",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi_spin_cotton_string",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:cotton_product"
+					]
+				}
+			],
+			"resultId": "tfc_textile:cotton_string",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/red_alloy_fine_wire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:red_alloy_single_wire"
+					]
+				}
+			],
+			"resultId": "gtceu:fine_red_alloy_wire",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/nichrome_single_wire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:nichrome_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:nichrome_single_wire",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/manganese_phosphide_single_wire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:manganese_phosphide_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:manganese_phosphide_single_wire",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/niobium_nitride_single_wire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:niobium_nitride_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:niobium_nitride_single_wire",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/copper_single_wire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:copper_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:copper_single_wire",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/nichrome_spring",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:long_nichrome_rod"
+					]
+				}
+			],
+			"resultId": "gtceu:nichrome_spring",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/iridium_fine_wire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:iridium_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:fine_iridium_wire",
+			"resultCount": 8,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/niobium_titanium_spring",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:long_niobium_titanium_rod"
+					]
+				}
+			],
+			"resultId": "gtceu:niobium_titanium_spring",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/indium_tin_barium_titanium_cuprate_single_wire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:indium_tin_barium_titanium_cuprate_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:indium_tin_barium_titanium_cuprate_single_wire",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/europium_single_wire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:europium_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:europium_single_wire",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/europium_fine_wire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:europium_single_wire"
+					]
+				}
+			],
+			"resultId": "gtceu:fine_europium_wire",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/enriched_naquadah_trinium_europium_duranide_fine_wire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:enriched_naquadah_trinium_europium_duranide_single_wire"
+					]
+				}
+			],
+			"resultId": "gtceu:fine_enriched_naquadah_trinium_europium_duranide_wire",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/tin_single_wire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:tin_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:tin_single_wire",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/tungsten_single_wire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:tungsten_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:tungsten_single_wire",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/aluminium_fine_wire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:aluminium_single_wire"
+					]
+				}
+			],
+			"resultId": "gtceu:fine_aluminium_wire",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/black_steel_fine_wire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:black_steel_single_wire"
+					]
+				}
+			],
+			"resultId": "gtceu:fine_black_steel_wire",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/vanadium_gallium_small_spring",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:vanadium_gallium_rod"
+					]
+				}
+			],
+			"resultId": "gtceu:small_vanadium_gallium_spring",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/yttrium_barium_cuprate_fine_wire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:yttrium_barium_cuprate_single_wire"
+					]
+				}
+			],
+			"resultId": "gtceu:fine_yttrium_barium_cuprate_wire",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/lead_spring",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:long_lead_rod"
+					]
+				}
+			],
+			"resultId": "gtceu:lead_spring",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/naquadah_fine_wire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:naquadah_single_wire"
+					]
+				}
+			],
+			"resultId": "gtceu:fine_naquadah_wire",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/electrum_single_wire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:electrum_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:electrum_single_wire",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/lead_single_wire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:lead_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:lead_single_wire",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/wool_yarn",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:wool"
+					]
+				}
+			],
+			"resultId": "tfc:wool_yarn",
+			"resultCount": 8,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/red_alloy_single_wire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:red_alloy_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:red_alloy_single_wire",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/magnesium_diboride_single_wire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:magnesium_diboride_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:magnesium_diboride_single_wire",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/trinium_single_wire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:trinium_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:trinium_single_wire",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/mercury_barium_calcium_cuprate_single_wire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:mercury_barium_calcium_cuprate_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:mercury_barium_calcium_cuprate_single_wire",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/kanthal_single_wire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:kanthal_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:kanthal_single_wire",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/glacian_wool_yarn",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:glacian_wool"
+					]
+				}
+			],
+			"resultId": "tfc:wool_yarn",
+			"resultCount": 8,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/vanadium_gallium_spring",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:long_vanadium_gallium_rod"
+					]
+				}
+			],
+			"resultId": "gtceu:vanadium_gallium_spring",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/hsla_steel_spring",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:long_hsla_steel_rod"
+					]
+				}
+			],
+			"resultId": "gtceu:hsla_steel_spring",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/rtm_alloy_spring",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:long_rtm_alloy_rod"
+					]
+				}
+			],
+			"resultId": "gtceu:rtm_alloy_spring",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/gold_small_spring",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:gold_rod"
+					]
+				}
+			],
+			"resultId": "gtceu:small_gold_spring",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/black_steel_single_wire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/ingot/black_steel"
+					]
+				}
+			],
+			"resultId": "gtceu:black_steel_single_wire",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/hssg_fine_wire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:hssg_single_wire"
+					]
+				}
+			],
+			"resultId": "gtceu:fine_hssg_wire",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/zinc_fine_wire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"create:zinc_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:fine_zinc_wire",
+			"resultCount": 8,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/molybdenum_disilicide_spring",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:long_molybdenum_disilicide_rod"
+					]
+				}
+			],
+			"resultId": "gtceu:molybdenum_disilicide_spring",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/ruthenium_trinium_americium_neutronate_fine_wire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:ruthenium_trinium_americium_neutronate_single_wire"
+					]
+				}
+			],
+			"resultId": "gtceu:fine_ruthenium_trinium_americium_neutronate_wire",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/zirconium_fine_wire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:zirconium_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:fine_zirconium_wire",
+			"resultCount": 8,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/wrought_iron_spring",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod"
+					]
+				}
+			],
+			"resultId": "gtceu:wrought_iron_spring",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/nickel_single_wire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:nickel_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:nickel_single_wire",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/naquadria_fine_wire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:naquadria_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:fine_naquadria_wire",
+			"resultCount": 8,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/aluminium_small_spring",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:aluminium_rod"
+					]
+				}
+			],
+			"resultId": "gtceu:small_aluminium_spring",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/niobium_titanium_fine_wire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:niobium_titanium_single_wire"
+					]
+				}
+			],
+			"resultId": "gtceu:fine_niobium_titanium_wire",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/hssg_single_wire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:hssg_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:hssg_single_wire",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/platinum_fine_wire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:platinum_single_wire"
+					]
+				}
+			],
+			"resultId": "gtceu:fine_platinum_wire",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/americium_fine_wire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:americium_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:fine_americium_wire",
+			"resultCount": 8,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/lead_small_spring",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:lead_rod"
+					]
+				}
+			],
+			"resultId": "gtceu:small_lead_spring",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/naquadah_spring",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:long_naquadah_rod"
+					]
+				}
+			],
+			"resultId": "gtceu:naquadah_spring",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/tritanium_single_wire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:tritanium_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:tritanium_single_wire",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/silver_single_wire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:silver_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:silver_single_wire",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/steel_fine_wire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:steel_single_wire"
+					]
+				}
+			],
+			"resultId": "gtceu:fine_steel_wire",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/tungsten_steel_spring",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:long_tungsten_steel_rod"
+					]
+				}
+			],
+			"resultId": "gtceu:tungsten_steel_spring",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/tin_fine_wire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:tin_single_wire"
+					]
+				}
+			],
+			"resultId": "gtceu:fine_tin_wire",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/iron_spring",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:long_iron_rod"
+					]
+				}
+			],
+			"resultId": "gtceu:iron_spring",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/platinum_spring",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:long_platinum_rod"
+					]
+				}
+			],
+			"resultId": "gtceu:platinum_spring",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/palladium_fine_wire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:palladium_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:fine_palladium_wire",
+			"resultCount": 8,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/tungsten_spring",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:long_tungsten_rod"
+					]
+				}
+			],
+			"resultId": "gtceu:tungsten_spring",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/tantalum_fine_wire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:tantalum_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:fine_tantalum_wire",
+			"resultCount": 8,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/steel_small_spring",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:steel_rod"
+					]
+				}
+			],
+			"resultId": "gtceu:small_steel_spring",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/annealed_copper_fine_wire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:annealed_copper_single_wire"
+					]
+				}
+			],
+			"resultId": "gtceu:fine_annealed_copper_wire",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/tin_spring",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:long_tin_rod"
+					]
+				}
+			],
+			"resultId": "gtceu:tin_spring",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/coiling/naquadah_single_wire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:naquadah_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:naquadah_single_wire",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		}
+	]
+}

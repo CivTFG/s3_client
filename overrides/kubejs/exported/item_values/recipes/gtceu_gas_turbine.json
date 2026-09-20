@@ -1,0 +1,425 @@
+{
+	"type": "gtceu:gas_turbine",
+	"recipes": [
+		{
+			"id": "gtceu:gas_turbine/propene",
+			"category": "gas_turbine",
+			"duration": 6,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:propene"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": []
+		},
+		{
+			"id": "gtceu:gas_turbine/sulfuric_naphtha",
+			"category": "gas_turbine",
+			"duration": 5,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:sulfuric_naphtha"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": []
+		},
+		{
+			"id": "gtceu:gas_turbine/coal_gas",
+			"category": "gas_turbine",
+			"duration": 3,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:coal_gas"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": []
+		},
+		{
+			"id": "tfg:gas_turbine/methane",
+			"category": "gas_turbine",
+			"duration": 3,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:methane"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": []
+		},
+		{
+			"id": "gtceu:gas_turbine/propane",
+			"category": "gas_turbine",
+			"duration": 29,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:propane"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": []
+		},
+		{
+			"id": "gtceu:gas_turbine/butane",
+			"category": "gas_turbine",
+			"duration": 37,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:butane"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": []
+		},
+		{
+			"id": "gtceu:gas_turbine/phenol",
+			"category": "gas_turbine",
+			"duration": 9,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:phenol"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": []
+		},
+		{
+			"id": "tfg:gas_turbine/reformate_gas",
+			"category": "gas_turbine",
+			"duration": 12,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:reformate_gas"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": []
+		},
+		{
+			"id": "gtceu:gas_turbine/ethane",
+			"category": "gas_turbine",
+			"duration": 21,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:ethane"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": []
+		},
+		{
+			"id": "gtceu:gas_turbine/lpg",
+			"category": "gas_turbine",
+			"duration": 10,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:lpg"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": []
+		},
+		{
+			"id": "gtceu:gas_turbine/refinery_gas",
+			"category": "gas_turbine",
+			"duration": 5,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:refinery_gas"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": []
+		},
+		{
+			"id": "tfg:gas_turbine/benzene",
+			"category": "gas_turbine",
+			"duration": 4,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:benzene"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": []
+		},
+		{
+			"id": "gtceu:gas_turbine/butadiene",
+			"category": "gas_turbine",
+			"duration": 102,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:butadiene"
+					],
+					"amount": 16,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": []
+		},
+		{
+			"id": "tfg:gas_turbine/syngas",
+			"category": "gas_turbine",
+			"duration": 4,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:syngas"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": []
+		},
+		{
+			"id": "gtceu:gas_turbine/sulfuric_gas",
+			"category": "gas_turbine",
+			"duration": 25,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:sulfuric_gas"
+					],
+					"amount": 32,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": []
+		},
+		{
+			"id": "gtceu:gas_turbine/butene",
+			"category": "gas_turbine",
+			"duration": 8,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:butene"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": []
+		},
+		{
+			"id": "gtceu:gas_turbine/ethylene",
+			"category": "gas_turbine",
+			"duration": 4,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:ethylene"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": []
+		},
+		{
+			"id": "gtceu:gas_turbine/natural_gas",
+			"category": "gas_turbine",
+			"duration": 5,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:natural_gas"
+					],
+					"amount": 8,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": []
+		},
+		{
+			"id": "tfg:gas_turbine/nitrobenzene",
+			"category": "gas_turbine",
+			"duration": 10,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:nitrobenzene"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": []
+		},
+		{
+			"id": "tfg:gas_turbine/btx_fuel",
+			"category": "gas_turbine",
+			"duration": 57,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:btx_fuel"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": []
+		},
+		{
+			"id": "gtceu:gas_turbine/wood_gas",
+			"category": "gas_turbine",
+			"duration": 6,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:wood_gas"
+					],
+					"amount": 8,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": []
+		}
+	]
+}

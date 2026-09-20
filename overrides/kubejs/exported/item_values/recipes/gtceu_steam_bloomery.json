@@ -1,0 +1,984 @@
+{
+	"type": "gtceu:steam_bloomery",
+	"recipes": [
+		{
+			"id": "gtceu:steam_bloomery/steam_raw_iron_bloom_coal_hematite",
+			"category": "steam_bloomery",
+			"duration": 2400,
+			"voltage": 2,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:hematite_dust"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:charcoal",
+						"tfc:ore/bituminous_coal",
+						"tfc:ore/lignite"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:raw_iron_bloom"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:steam_bloomery/steam_raw_iron_bloom_coalcoke_wrought_iron",
+			"category": "steam_bloomery",
+			"duration": 2400,
+			"voltage": 2,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:wrought_iron_dust"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:coke_gem",
+						"beneath:cursecoal"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:raw_iron_bloom"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:steam_bloomery/steam_raw_iron_bloom_coal_pyrite",
+			"category": "steam_bloomery",
+			"duration": 2400,
+			"voltage": 2,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:pyrite_dust"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:charcoal",
+						"tfc:ore/bituminous_coal",
+						"tfc:ore/lignite"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:raw_iron_bloom"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:steam_bloomery/steam_raw_iron_bloom_coal_goethite",
+			"category": "steam_bloomery",
+			"duration": 2400,
+			"voltage": 2,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:goethite_dust"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:charcoal",
+						"tfc:ore/bituminous_coal",
+						"tfc:ore/lignite"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:raw_iron_bloom"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:steam_bloomery/steam_raw_iron_bloom_coal",
+			"category": "steam_bloomery",
+			"duration": 2400,
+			"voltage": 2,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:iron_ingot"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:charcoal",
+						"tfc:ore/bituminous_coal",
+						"tfc:ore/lignite"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:raw_iron_bloom"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:steam_bloomery/steam_raw_iron_bloom_coalcoke_iron",
+			"category": "steam_bloomery",
+			"duration": 2400,
+			"voltage": 2,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:iron_dust"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:coke_gem",
+						"beneath:cursecoal"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:raw_iron_bloom"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:steam_bloomery/steam_raw_iron_bloom_coal_granitic_mineral_sand",
+			"category": "steam_bloomery",
+			"duration": 2400,
+			"voltage": 2,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:granitic_mineral_sand_dust"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:charcoal",
+						"tfc:ore/bituminous_coal",
+						"tfc:ore/lignite"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:raw_iron_bloom"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:steam_bloomery/steam_raw_iron_bloom_coalcoke",
+			"category": "steam_bloomery",
+			"duration": 2400,
+			"voltage": 2,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:iron_ingot"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:coke_gem",
+						"beneath:cursecoal"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:raw_iron_bloom"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:steam_bloomery/steam_raw_iron_bloom_coalcoke_magnetite",
+			"category": "steam_bloomery",
+			"duration": 2400,
+			"voltage": 2,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:magnetite_dust"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:coke_gem",
+						"beneath:cursecoal"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:raw_iron_bloom"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:steam_bloomery/steam_raw_iron_bloom_coalcoke_yellow_limonite",
+			"category": "steam_bloomery",
+			"duration": 2400,
+			"voltage": 2,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:yellow_limonite_dust"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:coke_gem",
+						"beneath:cursecoal"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:raw_iron_bloom"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:steam_bloomery/steam_raw_iron_bloom_coal_wrought_iron",
+			"category": "steam_bloomery",
+			"duration": 2400,
+			"voltage": 2,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:wrought_iron_dust"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:charcoal",
+						"tfc:ore/bituminous_coal",
+						"tfc:ore/lignite"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:raw_iron_bloom"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:steam_bloomery/steam_raw_iron_bloom_coalcoke_basaltic_mineral_sand",
+			"category": "steam_bloomery",
+			"duration": 2400,
+			"voltage": 2,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:basaltic_mineral_sand_dust"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:coke_gem",
+						"beneath:cursecoal"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:raw_iron_bloom"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:steam_bloomery/steam_raw_iron_bloom_coalcoke_pyrite",
+			"category": "steam_bloomery",
+			"duration": 2400,
+			"voltage": 2,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:pyrite_dust"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:coke_gem",
+						"beneath:cursecoal"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:raw_iron_bloom"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:steam_bloomery/steam_raw_iron_bloom_coal_basaltic_mineral_sand",
+			"category": "steam_bloomery",
+			"duration": 2400,
+			"voltage": 2,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:basaltic_mineral_sand_dust"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:charcoal",
+						"tfc:ore/bituminous_coal",
+						"tfc:ore/lignite"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:raw_iron_bloom"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:steam_bloomery/steam_raw_iron_bloom_coalcoke_hematite",
+			"category": "steam_bloomery",
+			"duration": 2400,
+			"voltage": 2,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:hematite_dust"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:coke_gem",
+						"beneath:cursecoal"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:raw_iron_bloom"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:steam_bloomery/steam_raw_iron_bloom_coal_vanadium_magnetite",
+			"category": "steam_bloomery",
+			"duration": 2400,
+			"voltage": 2,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:vanadium_magnetite_dust"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:charcoal",
+						"tfc:ore/bituminous_coal",
+						"tfc:ore/lignite"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:raw_iron_bloom"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:steam_bloomery/steam_raw_iron_bloom_coalcoke_goethite",
+			"category": "steam_bloomery",
+			"duration": 2400,
+			"voltage": 2,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:goethite_dust"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:coke_gem",
+						"beneath:cursecoal"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:raw_iron_bloom"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:steam_bloomery/steam_raw_iron_bloom_coal_magnetite",
+			"category": "steam_bloomery",
+			"duration": 2400,
+			"voltage": 2,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:magnetite_dust"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:charcoal",
+						"tfc:ore/bituminous_coal",
+						"tfc:ore/lignite"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:raw_iron_bloom"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:steam_bloomery/steam_raw_iron_bloom_coalcoke_vanadium_magnetite",
+			"category": "steam_bloomery",
+			"duration": 2400,
+			"voltage": 2,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:vanadium_magnetite_dust"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:coke_gem",
+						"beneath:cursecoal"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:raw_iron_bloom"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:steam_bloomery/steam_raw_iron_bloom_coalcoke_granitic_mineral_sand",
+			"category": "steam_bloomery",
+			"duration": 2400,
+			"voltage": 2,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:granitic_mineral_sand_dust"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:coke_gem",
+						"beneath:cursecoal"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:raw_iron_bloom"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:steam_bloomery/steam_raw_iron_bloom_coal_iron",
+			"category": "steam_bloomery",
+			"duration": 2400,
+			"voltage": 2,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:iron_dust"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:charcoal",
+						"tfc:ore/bituminous_coal",
+						"tfc:ore/lignite"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:raw_iron_bloom"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:steam_bloomery/steam_raw_iron_bloom_coal_yellow_limonite",
+			"category": "steam_bloomery",
+			"duration": 2400,
+			"voltage": 2,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:yellow_limonite_dust"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:charcoal",
+						"tfc:ore/bituminous_coal",
+						"tfc:ore/lignite"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:raw_iron_bloom"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		}
+	]
+}

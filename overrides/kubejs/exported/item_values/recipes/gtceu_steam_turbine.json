@@ -1,0 +1,39 @@
+{
+	"type": "gtceu:steam_turbine",
+	"recipes": [
+		{
+			"id": "gtceu:steam_turbine/steam",
+			"category": "steam_turbine",
+			"duration": 10,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"steampowered:steam",
+						"steampowered:flowing_steam",
+						"gtceu:steam"
+					],
+					"amount": 640,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:distilled_water"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,2229 @@
+{
+	"type": "firmalife:vat",
+	"recipes": [
+		{
+			"id": "firmalife:vat/cured_maize",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:food/maize_grain"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"tfc:limewater"
+					],
+					"fluidAmount": 100
+				}
+			],
+			"resultId": "firmalife:food/cured_maize",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "firmalife:vat/red_dye",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:red_dye",
+						"chalk:red_chalk",
+						"gtceu:chemical_red_dye"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"tfc:vinegar"
+					],
+					"fluidAmount": 250
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": true,
+			"extraOutputs": []
+		},
+		{
+			"id": "firmalife:vat/blackberry_jar",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:food/blackberry"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"firmalife:sugar_water"
+					],
+					"fluidAmount": 500
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": true,
+			"extraOutputs": []
+		},
+		{
+			"id": "firmalife:vat/cherry_jar",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:food/cherry"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"firmalife:sugar_water"
+					],
+					"fluidAmount": 500
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": true,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vat/jam/chorus_fruit",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:chorus_fruit"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"firmalife:sugar_water"
+					],
+					"fluidAmount": 500
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": true,
+			"extraOutputs": []
+		},
+		{
+			"id": "firmalife:vat/boiled_egg",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:egg",
+						"species:birt_egg",
+						"species:cruncher_egg",
+						"species:springling_egg",
+						"species:petrified_egg",
+						"tfg:sniffer_egg",
+						"tfg:wraptor_egg",
+						"wan_ancient_beasts:eater_egg"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 200
+				}
+			],
+			"resultId": "tfc:food/boiled_egg",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vat/thermochemically_treat_hardwood_dust",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:hardwood_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"tfc:lye"
+					],
+					"fluidAmount": 300
+				}
+			],
+			"resultId": "gtceu:thermochemically_treated_hardwood_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vat/sugar_water",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:sugar",
+						"afc:birch_sugar",
+						"afc:maple_sugar",
+						"firmalife:raw_honey",
+						"tfg:wraptor_sugar"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 2000
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": true,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vat/warpane",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:dry_ice"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"tfg:warpane"
+					],
+					"fluidAmount": 200
+				}
+			],
+			"resultId": "tfg:warpane_gem",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "firmalife:vat/elderberry_jar",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:food/elderberry"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"firmalife:sugar_water"
+					],
+					"fluidAmount": 500
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": true,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vat/jam/magmango",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:food/magmango"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"firmalife:sugar_water"
+					],
+					"fluidAmount": 500
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": true,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vat/tfc_food_maize_grain_boiled_into_tfg_food_popcorn",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:food/maize_grain"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"firmalife:soybean_oil",
+						"tfc:olive_oil",
+						"tfc:tallow",
+						"gtceu:seed_oil",
+						"gtceu:fish_oil",
+						"tfg:triglyceride_oil",
+						"tfg:peanut_oil",
+						"tfg:palm_oil"
+					],
+					"fluidAmount": 100
+				}
+			],
+			"resultId": "tfg:food/popcorn",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "firmalife:kjs/a9ak49w0u1qxt94crmpfd0w52",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [],
+					"amount": 0
+				},
+				{
+					"ids": [
+						"gtceu:ice"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": true,
+			"extraOutputs": []
+		},
+		{
+			"id": "firmalife:vat/green_dye",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:green_dye",
+						"chalk:green_chalk",
+						"gtceu:chemical_green_dye",
+						"tfc:powder/bismuthinite",
+						"tfc:powder/malachite"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"tfc:vinegar"
+					],
+					"fluidAmount": 250
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": true,
+			"extraOutputs": []
+		},
+		{
+			"id": "firmalife:vat/lye",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:powder/wood_ash"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 200
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": true,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vat/maple_concentrate_to_syrup",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:stick"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"afc:maple_sap_concentrate"
+					],
+					"fluidAmount": 1000
+				}
+			],
+			"resultId": "minecraft:stick",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vat/jam/shadow_berry",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"betterend:shadow_berry_cooked"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"firmalife:sugar_water"
+					],
+					"fluidAmount": 500
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": true,
+			"extraOutputs": []
+		},
+		{
+			"id": "firmalife:vat/peach_jar",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:food/peach"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"firmalife:sugar_water"
+					],
+					"fluidAmount": 500
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": true,
+			"extraOutputs": []
+		},
+		{
+			"id": "firmalife:vat/tallow",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:blubber"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 200
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": true,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vat/thermochemically_treat_tiny_hardwood_dust",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:tiny_hardwood_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"tfc:lye"
+					],
+					"fluidAmount": 33
+				}
+			],
+			"resultId": "gtceu:tiny_thermochemically_treated_hardwood_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vat/latex_soaked_gloves",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:prepared_leather_gloves"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"tfg:vulcanized_latex"
+					],
+					"fluidAmount": 1000
+				}
+			],
+			"resultId": "tfg:latex_soaked_gloves",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vat/bone_meal_boiled_into_crude_gelatin",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:bone_meal"
+					],
+					"amount": 5
+				},
+				{
+					"ids": [
+						"minecraft:water",
+						"tfc:river_water",
+						"tfc:spring_water"
+					],
+					"fluidAmount": 1000
+				}
+			],
+			"resultId": "tfg:food/crude_gelatin",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vat/latex_slime_ball_to_latex",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"jellies:jellie/slime_ball/latex"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"tfc:spring_water"
+					],
+					"fluidAmount": 200
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": true,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vat/tfc_food_rice_grain_boiled_into_tfc_food_cooked_rice",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:food/rice_grain"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water",
+						"tfc:river_water",
+						"tfc:spring_water"
+					],
+					"fluidAmount": 100
+				}
+			],
+			"resultId": "tfc:food/cooked_rice",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "firmalife:vat/olive_jar",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:food/olive"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"firmalife:sugar_water"
+					],
+					"fluidAmount": 500
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": true,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vat/spring_slime_ball_to_spring_water",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"jellies:jellie/slime_ball/spring"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:empty"
+					],
+					"fluidAmount": 0
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": true,
+			"extraOutputs": []
+		},
+		{
+			"id": "firmalife:vat/cranberry_jar",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:food/cranberry"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"firmalife:sugar_water"
+					],
+					"fluidAmount": 500
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": true,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vat/firmalife_food_raw_egg_noodles_boiled_into_firmalife_food_cooked_pasta",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"firmalife:food/raw_egg_noodles"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water",
+						"tfc:river_water",
+						"tfc:spring_water"
+					],
+					"fluidAmount": 100
+				}
+			],
+			"resultId": "firmalife:food/cooked_pasta",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "firmalife:vat/white_dye",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:white_dye",
+						"chalk:white_chalk",
+						"gtceu:chemical_white_dye"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"tfc:vinegar"
+					],
+					"fluidAmount": 250
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": true,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vat/birch_concentrate_to_syrup_half",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:stick"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"afc:birch_sap_concentrate"
+					],
+					"fluidAmount": 500
+				}
+			],
+			"resultId": "minecraft:stick",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vat/tannin_to_soda_ash",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:powder/soda_ash"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"tfc:tannin"
+					],
+					"fluidAmount": 500
+				}
+			],
+			"resultId": "tfg:pyrogallol_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "firmalife:vat/yellow_dye",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:yellow_dye",
+						"chalk:yellow_chalk",
+						"gtceu:chemical_yellow_dye",
+						"tfc:powder/limonite",
+						"tfc:powder/native_gold"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"tfc:vinegar"
+					],
+					"fluidAmount": 250
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": true,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vat/birch_concentrate_to_syrup",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:stick"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"afc:birch_sap_concentrate"
+					],
+					"fluidAmount": 1000
+				}
+			],
+			"resultId": "minecraft:stick",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "firmalife:vat/orange_dye",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:orange_dye",
+						"chalk:orange_chalk",
+						"gtceu:chemical_orange_dye",
+						"tfc:powder/sylvite"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"tfc:vinegar"
+					],
+					"fluidAmount": 250
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": true,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vat/birch_sap_to_concentrate",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:stick"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"afc:birch_sap"
+					],
+					"fluidAmount": 1000
+				}
+			],
+			"resultId": "minecraft:stick",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vat/jam/blossom_berry",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"betterend:blossom_berry_product"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"firmalife:sugar_water"
+					],
+					"fluidAmount": 500
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": true,
+			"extraOutputs": []
+		},
+		{
+			"id": "firmalife:vat/gray_dye",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:gray_dye",
+						"chalk:gray_chalk",
+						"gtceu:chemical_gray_dye",
+						"tfc:powder/cassiterite",
+						"tfc:powder/magnetite",
+						"tfc:powder/sphalerite",
+						"tfc:powder/tetrahedrite"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"tfc:vinegar"
+					],
+					"fluidAmount": 250
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": true,
+			"extraOutputs": []
+		},
+		{
+			"id": "firmalife:vat/cloudberry_jar",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:food/cloudberry"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"firmalife:sugar_water"
+					],
+					"fluidAmount": 500
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": true,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vat/thermochemically_treat_small_hardwood_dust",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:small_hardwood_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"tfc:lye"
+					],
+					"fluidAmount": 75
+				}
+			],
+			"resultId": "gtceu:small_thermochemically_treated_hardwood_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "firmalife:vat/black_dye",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:black_dye",
+						"chalk:black_chalk",
+						"gtceu:chemical_black_dye",
+						"tfc:powder/charcoal",
+						"tfc:powder/coke"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"tfc:vinegar"
+					],
+					"fluidAmount": 250
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": true,
+			"extraOutputs": []
+		},
+		{
+			"id": "firmalife:vat/blueberry_jar",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:food/blueberry"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"firmalife:sugar_water"
+					],
+					"fluidAmount": 500
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": true,
+			"extraOutputs": []
+		},
+		{
+			"id": "firmalife:vat/blue_dye",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:blue_dye",
+						"chalk:blue_chalk",
+						"gtceu:chemical_blue_dye",
+						"tfc:powder/lapis_lazuli",
+						"tfc:powder/graphite"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"tfc:vinegar"
+					],
+					"fluidAmount": 250
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": true,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vat/jam/date",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:food/date"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"firmalife:sugar_water"
+					],
+					"fluidAmount": 500
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": true,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vat/maple_sap_to_concentrate",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:stick"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"afc:maple_sap"
+					],
+					"fluidAmount": 1000
+				}
+			],
+			"resultId": "minecraft:stick",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "afc:vat/rubber",
+			"mod": "afc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:sulfur_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"afc:latex"
+					],
+					"fluidAmount": 1000
+				}
+			],
+			"resultId": "afc:rubber_bar",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "firmalife:vat/tomato_sauce",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"firmalife:food/tomato_sauce_mix"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 200
+				}
+			],
+			"resultId": "firmalife:food/tomato_sauce",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "firmalife:vat/snowberry_jar",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:food/snowberry"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"firmalife:sugar_water"
+					],
+					"fluidAmount": 500
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": true,
+			"extraOutputs": []
+		},
+		{
+			"id": "firmalife:vat/soy_mixture",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:food/soybean"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"tfc:salt_water"
+					],
+					"fluidAmount": 1000
+				}
+			],
+			"resultId": "firmalife:food/soy_mixture",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "firmalife:vat/cooked_rice",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:food/rice_grain"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 200
+				}
+			],
+			"resultId": "tfc:food/cooked_rice",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vat/jam/acai",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:food/acai"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"firmalife:sugar_water"
+					],
+					"fluidAmount": 500
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": true,
+			"extraOutputs": []
+		},
+		{
+			"id": "firmalife:vat/red_grapes_jar",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"firmalife:food/red_grapes"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"firmalife:sugar_water"
+					],
+					"fluidAmount": 500
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": true,
+			"extraOutputs": []
+		},
+		{
+			"id": "firmalife:vat/raspberry_jar",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:food/raspberry"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"firmalife:sugar_water"
+					],
+					"fluidAmount": 500
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": true,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vat/tfg_food_raw_fries_boiled_into_tfg_food_cooked_fries",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:food/raw_fries"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"firmalife:soybean_oil",
+						"tfc:olive_oil",
+						"tfc:tallow",
+						"gtceu:seed_oil",
+						"gtceu:fish_oil",
+						"tfg:triglyceride_oil",
+						"tfg:peanut_oil",
+						"tfg:palm_oil"
+					],
+					"fluidAmount": 100
+				}
+			],
+			"resultId": "tfg:food/cooked_fries",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "firmalife:vat/plum_jar",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:food/plum"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"firmalife:sugar_water"
+					],
+					"fluidAmount": 500
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": true,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vat/tfg_food_raw_beer_battered_cheese_curds_boiled_into_tfg_food_cooked_beer_battered_cheese_curds",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:food/raw_beer_battered_cheese_curds"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"firmalife:soybean_oil",
+						"tfc:olive_oil",
+						"tfc:tallow",
+						"gtceu:seed_oil",
+						"gtceu:fish_oil",
+						"tfg:triglyceride_oil",
+						"tfg:peanut_oil",
+						"tfg:palm_oil"
+					],
+					"fluidAmount": 100
+				}
+			],
+			"resultId": "tfg:food/cooked_beer_battered_cheese_curds",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "firmalife:vat/light_gray_dye",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:light_gray_dye",
+						"chalk:light_gray_chalk",
+						"gtceu:chemical_light_gray_dye"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"tfc:vinegar"
+					],
+					"fluidAmount": 250
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": true,
+			"extraOutputs": []
+		},
+		{
+			"id": "firmalife:vat/green_apple_jar",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:food/green_apple"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"firmalife:sugar_water"
+					],
+					"fluidAmount": 500
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": true,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vat/sea_water_to_salt",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [],
+					"amount": 0
+				},
+				{
+					"ids": [
+						"tfc:salt_water"
+					],
+					"fluidAmount": 625
+				}
+			],
+			"resultId": "gtceu:small_salt_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "firmalife:vat/beet_sugar",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:food/beet"
+					],
+					"amount": 5
+				},
+				{
+					"ids": [
+						"tfc:salt_water"
+					],
+					"fluidAmount": 1000
+				}
+			],
+			"resultId": "minecraft:sugar",
+			"resultCount": 3,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "firmalife:vat/pineapple_jar",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"firmalife:food/pineapple"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"firmalife:sugar_water"
+					],
+					"fluidAmount": 500
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": true,
+			"extraOutputs": []
+		},
+		{
+			"id": "firmalife:vat/strawberry_jar",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:food/strawberry"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"firmalife:sugar_water"
+					],
+					"fluidAmount": 500
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": true,
+			"extraOutputs": []
+		},
+		{
+			"id": "firmalife:vat/light_blue_dye",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:light_blue_dye",
+						"chalk:light_blue_chalk",
+						"gtceu:chemical_light_blue_dye"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"tfc:vinegar"
+					],
+					"fluidAmount": 250
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": true,
+			"extraOutputs": []
+		},
+		{
+			"id": "firmalife:vat/banana_jar",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:food/banana"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"firmalife:sugar_water"
+					],
+					"fluidAmount": 500
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": true,
+			"extraOutputs": []
+		},
+		{
+			"id": "firmalife:vat/bunchberry_jar",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:food/bunchberry"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"firmalife:sugar_water"
+					],
+					"fluidAmount": 500
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": true,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vat/glowberry_slime_ball_to_sugar",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"jellies:jellie/slime_ball/glowberry"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"tfc:spring_water"
+					],
+					"fluidAmount": 200
+				}
+			],
+			"resultId": "minecraft:sugar",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vat/firmalife_food_raw_rice_noodles_boiled_into_firmalife_food_cooked_rice_noodles",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"firmalife:food/raw_rice_noodles"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water",
+						"tfc:river_water",
+						"tfc:spring_water"
+					],
+					"fluidAmount": 100
+				}
+			],
+			"resultId": "firmalife:food/cooked_rice_noodles",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "firmalife:vat/red_apple_jar",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:food/red_apple"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"firmalife:sugar_water"
+					],
+					"fluidAmount": 500
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": true,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vat/crimsene",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:dry_ice"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"tfg:crimsene"
+					],
+					"fluidAmount": 200
+				}
+			],
+			"resultId": "tfg:crimsene_gem",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "firmalife:vat/lemon_jar",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:food/lemon"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"firmalife:sugar_water"
+					],
+					"fluidAmount": 500
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": true,
+			"extraOutputs": []
+		},
+		{
+			"id": "firmalife:vat/lime_dye",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:lime_dye",
+						"chalk:lime_chalk",
+						"gtceu:chemical_lime_dye"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"tfc:vinegar"
+					],
+					"fluidAmount": 250
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": true,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vat/vulcanized_latex",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:powder/sulfur"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"tfg:latex"
+					],
+					"fluidAmount": 1000
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": true,
+			"extraOutputs": []
+		},
+		{
+			"id": "firmalife:vat/wintergreen_berry_jar",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:food/wintergreen_berry"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"firmalife:sugar_water"
+					],
+					"fluidAmount": 500
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": true,
+			"extraOutputs": []
+		},
+		{
+			"id": "firmalife:vat/gooseberry_jar",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:food/gooseberry"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"firmalife:sugar_water"
+					],
+					"fluidAmount": 500
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": true,
+			"extraOutputs": []
+		},
+		{
+			"id": "firmalife:vat/melon_slice_jar",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:food/melon_slice"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"firmalife:sugar_water"
+					],
+					"fluidAmount": 500
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": true,
+			"extraOutputs": []
+		},
+		{
+			"id": "firmalife:vat/pumpkin_chunks_jar",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:food/pumpkin_chunks"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"firmalife:sugar_water"
+					],
+					"fluidAmount": 500
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": true,
+			"extraOutputs": []
+		},
+		{
+			"id": "firmalife:vat/olive_oil_water",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:olive_paste"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 200
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": true,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vat/tannin_to_pyrogallol_saltpeter",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:powder/saltpeter"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"tfc:tannin"
+					],
+					"fluidAmount": 500
+				}
+			],
+			"resultId": "tfg:pyrogallol_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vat/conifer_pitch_to_rosin",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:powder/charcoal"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"tfg:conifer_pitch"
+					],
+					"fluidAmount": 1000
+				}
+			],
+			"resultId": "tfg:conifer_rosin",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vat/jam/popped_chorus_fruit",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:popped_chorus_fruit"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"firmalife:sugar_water"
+					],
+					"fluidAmount": 500
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": true,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vat/jam/cave_pumpkin",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"betterend:cave_pumpkin_chunks"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"firmalife:sugar_water"
+					],
+					"fluidAmount": 500
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": true,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vat/conifer_pitch_to_sticky_resin",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:powder/wood_ash"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"tfg:conifer_pitch"
+					],
+					"fluidAmount": 1000
+				}
+			],
+			"resultId": "gtceu:sticky_resin",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "firmalife:vat/orange_jar",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:food/orange"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"firmalife:sugar_water"
+					],
+					"fluidAmount": 500
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": true,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vat/jam/glow_berries",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:glow_berries"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"firmalife:sugar_water"
+					],
+					"fluidAmount": 500
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": true,
+			"extraOutputs": []
+		},
+		{
+			"id": "firmalife:vat/magenta_dye",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:magenta_dye",
+						"chalk:magenta_chalk",
+						"gtceu:chemical_magenta_dye"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"tfc:vinegar"
+					],
+					"fluidAmount": 250
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": true,
+			"extraOutputs": []
+		},
+		{
+			"id": "firmalife:vat/brown_dye",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:brown_dye",
+						"chalk:brown_chalk",
+						"gtceu:chemical_brown_dye",
+						"tfc:powder/garnierite"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"tfc:vinegar"
+					],
+					"fluidAmount": 250
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": true,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vat/latex_to_sticky_resin",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:powder/wood_ash"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"tfg:latex"
+					],
+					"fluidAmount": 1000
+				}
+			],
+			"resultId": "gtceu:sticky_resin",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vat/maple_concentrate_to_syrup_half",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:stick"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"afc:maple_sap_concentrate"
+					],
+					"fluidAmount": 500
+				}
+			],
+			"resultId": "minecraft:stick",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "firmalife:vat/pink_dye",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:pink_dye",
+						"chalk:pink_chalk",
+						"gtceu:chemical_pink_dye",
+						"tfc:powder/kaolinite"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"tfc:vinegar"
+					],
+					"fluidAmount": 250
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": true,
+			"extraOutputs": []
+		},
+		{
+			"id": "firmalife:vat/purple_dye",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:purple_dye",
+						"chalk:purple_chalk",
+						"gtceu:chemical_purple_dye"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"tfc:vinegar"
+					],
+					"fluidAmount": 250
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": true,
+			"extraOutputs": []
+		},
+		{
+			"id": "firmalife:vat/white_grapes_jar",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"firmalife:food/white_grapes"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"firmalife:sugar_water"
+					],
+					"fluidAmount": 500
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": true,
+			"extraOutputs": []
+		},
+		{
+			"id": "firmalife:vat/cyan_dye",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:cyan_dye",
+						"chalk:cyan_chalk",
+						"gtceu:chemical_cyan_dye"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"tfc:vinegar"
+					],
+					"fluidAmount": 250
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": true,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vat/tfg_food_raw_instant_mac_boiled_into_tfg_food_cooked_instant_mac",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:food/raw_instant_mac"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:milk",
+						"firmalife:yak_milk",
+						"firmalife:goat_milk"
+					],
+					"fluidAmount": 200
+				}
+			],
+			"resultId": "tfg:food/cooked_instant_mac",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "firmalife:vat/fig_jar",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"firmalife:food/fig"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"firmalife:sugar_water"
+					],
+					"fluidAmount": 500
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": true,
+			"extraOutputs": []
+		}
+	]
+}

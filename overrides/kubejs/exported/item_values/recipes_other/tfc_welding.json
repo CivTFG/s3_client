@@ -1,0 +1,7872 @@
+{
+	"type": "tfc:welding",
+	"recipes": [
+		{
+			"id": "knightsofterrafirma:welding/armor/antique_bronze/bronze_murmillo_helmet_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:bronze_murmillo_helm"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:bronze_murmillo_visor"
+					]
+				}
+			],
+			"resultId": "antiquelegacy:murmillo_helmet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/maximilian/black_steel_helmet",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 5,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:black_steel_halfarmor_helmet"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:black_steel_maximilian_visor"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:black_steel_maximilian_helmet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/kastenbrust/blue_steel_chestplate",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 6,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:blue_steel_halfarmor_chestplate"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:blue_steel_kastenbrust_arms"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:blue_steel_kastenbrust_chestplate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/item_heads/claymore_blade/bismuth_bronze_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:bismuth_bronze_sword_head"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bismuth_bronze_double_ingot"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:bismuth_bronze_claymore_blade",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/iron_gear",
+			"mod": "tfc",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:double_iron_plate"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:double_iron_plate"
+					]
+				}
+			],
+			"resultId": "gtceu:iron_gear",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/item_heads/estoc_blade/bronze_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:bronze_sword_head"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bronze_knife_head"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:bronze_estoc_blade",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/halfarmor/black_steel_helmet",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 5,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:black_steel_halfarmor_helmet_unfinished"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:black_steel_plate"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:black_steel_halfarmor_helmet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/bismuth_bronze_longrod",
+			"mod": "tfc",
+			"tfcTier": 1,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:bismuth_bronze_rod"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bismuth_bronze_rod"
+					]
+				}
+			],
+			"resultId": "gtceu:long_bismuth_bronze_rod",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/red_steel_longrod",
+			"mod": "tfc",
+			"tfcTier": 5,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:red_steel_rod"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:red_steel_rod"
+					]
+				}
+			],
+			"resultId": "gtceu:long_red_steel_rod",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/kastenbrust/chestplate",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 4,
+			"inputs": [
+				{
+					"ids": [
+						"magistuarmory:halfarmor_chestplate"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:kastenbrust_arms"
+					]
+				}
+			],
+			"resultId": "magistuarmory:kastenbrust_chestplate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/sterling_silver_doubleplate",
+			"mod": "tfc",
+			"tfcTier": 0,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:sterling_silver_plate"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:sterling_silver_plate"
+					]
+				}
+			],
+			"resultId": "gtceu:double_sterling_silver_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/maximilian/black_steel_leggings",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 5,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:black_steel_maximilian_pants"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:black_steel_maximilian_knees"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:black_steel_maximilian_leggings",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/red_steel_chestplate",
+			"mod": "tfc",
+			"tfcTier": 5,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/unfinished_chestplate/red_steel"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:double_red_steel_plate"
+					]
+				}
+			],
+			"resultId": "tfc:metal/chestplate/red_steel",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/black_steel_helmet",
+			"mod": "tfc",
+			"tfcTier": 4,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/unfinished_helmet/black_steel"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:black_steel_plate"
+					]
+				}
+			],
+			"resultId": "tfc:metal/helmet/black_steel",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/knight/red_steel_helmet",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 6,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:red_steel_halfarmor_helmet"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:red_steel_knight_visor"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:red_steel_armet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/bronze_chestplate",
+			"mod": "tfc",
+			"tfcTier": 1,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/unfinished_chestplate/bronze"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:double_bronze_plate"
+					]
+				}
+			],
+			"resultId": "tfc:metal/chestplate/bronze",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:crafting/items/shields/target/blue_steel_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 6,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:blue_steel_plate"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:blue_steel_shield_brace"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:blue_steel_target",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/brass_longrod",
+			"mod": "tfc",
+			"tfcTier": 1,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:brass_rod"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:brass_rod"
+					]
+				}
+			],
+			"resultId": "gtceu:long_brass_rod",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/item_heads/estoc_blade/black_steel_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 5,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:black_steel_sword_head"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:black_steel_knife_head"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:black_steel_estoc_blade",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/sterling_silver_gear",
+			"mod": "tfc",
+			"tfcTier": 0,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:double_sterling_silver_plate"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:double_sterling_silver_plate"
+					]
+				}
+			],
+			"resultId": "gtceu:sterling_silver_gear",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/maximilian/red_steel_chestplate",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 6,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:red_steel_halfarmor_chestplate"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:red_steel_maximilian_arms"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:red_steel_maximilian_chestplate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/antique_black_bronze/black_bronze_musculata_lower_part_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:wrought_iron_plate"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:black_bronze_ingot"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:black_bronze_musculata_lower_part",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/cobalt_doubleingot",
+			"mod": "tfc",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:cobalt_ingot"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:cobalt_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:cobalt_double_ingot",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/black_steel_doubleingot",
+			"mod": "tfc",
+			"tfcTier": 4,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/ingot/black_steel"
+					]
+				},
+				{
+					"ids": [
+						"tfc:metal/ingot/black_steel"
+					]
+				}
+			],
+			"resultId": "tfc:metal/double_ingot/black_steel",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:crafting/items/shields/buckler/red_steel_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 6,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/double_ingot/red_steel"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:red_steel_shield_brace"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:red_steel_buckler",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/black_steel_greaves",
+			"mod": "tfc",
+			"tfcTier": 4,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/unfinished_greaves/black_steel"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:black_steel_plate"
+					]
+				}
+			],
+			"resultId": "tfc:metal/greaves/black_steel",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/tin_doubleingot",
+			"mod": "tfc",
+			"tfcTier": 0,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:tin_ingot"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:tin_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:tin_double_ingot",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/steel_gear",
+			"mod": "tfc",
+			"tfcTier": 3,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:double_steel_plate"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:double_steel_plate"
+					]
+				}
+			],
+			"resultId": "gtceu:steel_gear",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/crowns/red_steel_crown",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 0,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:red_steel_minicrown_decoration"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:amethyst_shard",
+						"minecraft:diamond",
+						"minecraft:emerald",
+						"minecraft:lapis_lazuli",
+						"minecraft:quartz",
+						"ae2:certus_quartz_crystal",
+						"ae2:charged_certus_quartz_crystal",
+						"ae2:fluix_crystal"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:red_steel_crown_decoration",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/item_heads/heavywarhammer_head/bismuth_bronze_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:bismuth_bronze_hammer_head"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bismuth_bronze_double_ingot"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:bismuth_bronze_heavy_war_hammer_head",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/zinc_longrod",
+			"mod": "tfc",
+			"tfcTier": 0,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:zinc_rod"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:zinc_rod"
+					]
+				}
+			],
+			"resultId": "gtceu:long_zinc_rod",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/gothic/chestplate",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 4,
+			"inputs": [
+				{
+					"ids": [
+						"magistuarmory:halfarmor_chestplate"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:gothic_arms"
+					]
+				}
+			],
+			"resultId": "magistuarmory:gothic_chestplate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/jousting/black_steel_chestplate",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 5,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:black_steel_halfarmor_chestplate"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:black_steel_jousting_arms"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:black_steel_jousting_chestplate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/wrought_iron_gear",
+			"mod": "tfc",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:double_wrought_iron_plate"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:double_wrought_iron_plate"
+					]
+				}
+			],
+			"resultId": "gtceu:wrought_iron_gear",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/red_alloy_doubleingot",
+			"mod": "tfc",
+			"tfcTier": 1,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:red_alloy_ingot"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:red_alloy_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:red_alloy_double_ingot",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/antique_black_bronze/black_bronze_secutor_helmet_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:black_bronze_secutor_helm"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:black_bronze_secutor_visor"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:black_bronze_secutor_helmet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/antique_bismuth_bronze/bismuth_bronze_musculata_upper_part_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:wrought_iron_plate"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bismuth_bronze_plate"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:bismuth_bronze_musculata_upper_part",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/sterling_silver_longrod",
+			"mod": "tfc",
+			"tfcTier": 0,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:sterling_silver_rod"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:sterling_silver_rod"
+					]
+				}
+			],
+			"resultId": "gtceu:long_sterling_silver_rod",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/bronze_shears",
+			"mod": "tfc",
+			"tfcTier": 1,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:bronze_knife_head"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bronze_knife_head"
+					]
+				}
+			],
+			"resultId": "tfc:metal/shears/bronze",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/invar_gear",
+			"mod": "tfc",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:double_invar_plate"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:double_invar_plate"
+					]
+				}
+			],
+			"resultId": "gtceu:invar_gear",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/copper_helmet",
+			"mod": "tfc",
+			"tfcTier": 0,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/unfinished_helmet/copper"
+					]
+				},
+				{
+					"ids": [
+						"create:copper_sheet"
+					]
+				}
+			],
+			"resultId": "tfc:metal/helmet/copper",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/gothic/black_steel_helmet",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 5,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:black_steel_halfarmor_helmet"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:black_steel_gothic_visor"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:black_steel_sallet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/antique_black_bronze/black_bronze_segmentata_lower_part_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:wrought_iron_plate"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:black_bronze_plate"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:black_bronze_segmentata_lower_part",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/red_steel_doubleingot",
+			"mod": "tfc",
+			"tfcTier": 5,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/ingot/red_steel"
+					]
+				},
+				{
+					"ids": [
+						"tfc:metal/ingot/red_steel"
+					]
+				}
+			],
+			"resultId": "tfc:metal/double_ingot/red_steel",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/potin_gear",
+			"mod": "tfc",
+			"tfcTier": 1,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:double_potin_plate"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:double_potin_plate"
+					]
+				}
+			],
+			"resultId": "gtceu:potin_gear",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/cobalt_brass_doubleingot",
+			"mod": "tfc",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:cobalt_brass_ingot"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:cobalt_brass_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:cobalt_brass_double_ingot",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/item_heads/bastardsword_blade/bronze_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:bronze_sword_head"
+					]
+				},
+				{
+					"ids": [
+						"antiquelegacy:bronze_ingot",
+						"gtceu:bronze_ingot"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:bronze_bastard_sword_blade",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/antique_black_bronze/black_bronze_bell_cuirass_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:black_bronze_bell_cuirass_upper_part"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:black_bronze_bell_cuirass_lower_part"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:black_bronze_bell_cuirass",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/red_steel_shears",
+			"mod": "tfc",
+			"tfcTier": 5,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:red_steel_knife_head"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:red_steel_knife_head"
+					]
+				}
+			],
+			"resultId": "tfc:metal/shears/red_steel",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/item_heads/flail_head/bronze_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:bronze_morningstar_head"
+					]
+				},
+				{
+					"ids": [
+						"tfc:metal/chain/bronze"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:bronze_flail_head",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/invar_doubleingot",
+			"mod": "tfc",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:invar_ingot"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:invar_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:invar_double_ingot",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/black_steel_chestplate",
+			"mod": "tfc",
+			"tfcTier": 4,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/unfinished_chestplate/black_steel"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:double_black_steel_plate"
+					]
+				}
+			],
+			"resultId": "tfc:metal/chestplate/black_steel",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:crafting/items/shields/buckler/blue_steel_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 6,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/double_ingot/blue_steel"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:blue_steel_shield_brace"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:blue_steel_buckler",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/item_heads/heavy_mace_head/bronze_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/mace_head/bronze"
+					]
+				},
+				{
+					"ids": [
+						"antiquelegacy:bronze_ingot",
+						"gtceu:bronze_ingot"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:bronze_heavy_mace_head",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/maximilian/blue_steel_chestplate",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 6,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:blue_steel_halfarmor_chestplate"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:blue_steel_maximilian_arms"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:blue_steel_maximilian_chestplate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/antique_bismuth_bronze/bismuth_bronze_sava_helmet_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:double_wrought_iron_plate"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bismuth_bronze_double_ingot"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:bismuth_bronze_sava_helmet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/crowns/blue_steel_crown",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 0,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:blue_steel_minicrown_decoration"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:amethyst_shard",
+						"minecraft:diamond",
+						"minecraft:emerald",
+						"minecraft:lapis_lazuli",
+						"minecraft:quartz",
+						"ae2:certus_quartz_crystal",
+						"ae2:charged_certus_quartz_crystal",
+						"ae2:fluix_crystal"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:blue_steel_crown_decoration",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/norman/helmet",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 4,
+			"inputs": [
+				{
+					"ids": [
+						"magistuarmory:barbute"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:norman_helmet_nose"
+					]
+				}
+			],
+			"resultId": "magistuarmory:norman_helmet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/item_heads/antique_black_bronze/black_bronze_retiarius_head_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/javelin_head/black_bronze"
+					]
+				},
+				{
+					"ids": [
+						"tfc:metal/javelin_head/black_bronze"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:black_bronze_retiarius_head",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/steel_boots",
+			"mod": "tfc",
+			"tfcTier": 3,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/unfinished_boots/steel"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:steel_plate"
+					]
+				}
+			],
+			"resultId": "tfc:metal/boots/steel",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/antique_black_bronze/black_bronze_musculata_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:black_bronze_musculata_upper_part"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:black_bronze_musculata_lower_part"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:black_bronze_musculata",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/black_bronze_boots",
+			"mod": "tfc",
+			"tfcTier": 1,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/unfinished_boots/black_bronze"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:black_bronze_plate"
+					]
+				}
+			],
+			"resultId": "tfc:metal/boots/black_bronze",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/antique_bronze/bronze_iron_thorax_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:double_wrought_iron_plate"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bronze_plate"
+					]
+				}
+			],
+			"resultId": "antiquelegacy:iron_thorax",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/item_heads/bastardsword_blade/iron_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 3,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:wrought_iron_sword_head"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:wrought_iron_ingot"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:iron_bastard_sword_blade",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/antique_bronze/bronze_musculata_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:bronze_musculata_upper_part"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:bronze_musculata_lower_part"
+					]
+				}
+			],
+			"resultId": "antiquelegacy:musculata",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/black_bronze_chestplate",
+			"mod": "tfc",
+			"tfcTier": 1,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/unfinished_chestplate/black_bronze"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:double_black_bronze_plate"
+					]
+				}
+			],
+			"resultId": "tfc:metal/chestplate/black_bronze",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/antique_black_bronze/black_bronze_provocator_helmet_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:black_bronze_provocator_helm"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:black_bronze_provocator_visor"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:black_bronze_provocator_helmet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/red_steel_gear",
+			"mod": "tfc",
+			"tfcTier": 5,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:double_red_steel_plate"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:double_red_steel_plate"
+					]
+				}
+			],
+			"resultId": "gtceu:red_steel_gear",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/knight/blue_steel_helmet",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 6,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:blue_steel_halfarmor_helmet"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:blue_steel_knight_visor"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:blue_steel_armet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/rose_gold_doubleplate",
+			"mod": "tfc",
+			"tfcTier": 0,
+			"inputs": [
+				{
+					"ids": [
+						"vintageimprovements:rose_gold_sheet"
+					]
+				},
+				{
+					"ids": [
+						"vintageimprovements:rose_gold_sheet"
+					]
+				}
+			],
+			"resultId": "gtceu:double_rose_gold_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/lead_doubleplate",
+			"mod": "tfc",
+			"tfcTier": 1,
+			"inputs": [
+				{
+					"ids": [
+						"vintageimprovements:lead_sheet"
+					]
+				},
+				{
+					"ids": [
+						"vintageimprovements:lead_sheet"
+					]
+				}
+			],
+			"resultId": "gtceu:double_lead_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/wrought_iron_boots",
+			"mod": "tfc",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/unfinished_boots/wrought_iron"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:wrought_iron_plate"
+					]
+				}
+			],
+			"resultId": "tfc:metal/boots/wrought_iron",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/item_heads/antique_bronze/bronze_retiarius_head_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/javelin_head/bronze"
+					]
+				},
+				{
+					"ids": [
+						"tfc:metal/javelin_head/bronze"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:bronze_retiarius_head",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/item_heads/heavy_mace_head/iron_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 3,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/mace_head/wrought_iron"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:wrought_iron_ingot"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:iron_heavy_mace_head",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/item_heads/zweihander_blade/steel_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 4,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:steel_sword_head"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:steel_sword_head"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:steel_zweihander_blade",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/brass_doubleingot",
+			"mod": "tfc",
+			"tfcTier": 1,
+			"inputs": [
+				{
+					"ids": [
+						"create:brass_ingot"
+					]
+				},
+				{
+					"ids": [
+						"create:brass_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:brass_double_ingot",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/copper_chestplate",
+			"mod": "tfc",
+			"tfcTier": 0,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/unfinished_chestplate/copper"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:double_copper_plate"
+					]
+				}
+			],
+			"resultId": "tfc:metal/chestplate/copper",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/kastenbrust/helmet",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 4,
+			"inputs": [
+				{
+					"ids": [
+						"magistuarmory:barbute"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:grand_bascinet_visor"
+					]
+				}
+			],
+			"resultId": "magistuarmory:grand_bascinet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/knight/red_steel_leggings",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 6,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:red_steel_knight_pants"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:red_steel_knight_knees"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:red_steel_knight_leggings",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:crafting/items/shields/buckler/bronze_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:bronze_double_ingot"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:bronze_shield_brace"
+					]
+				}
+			],
+			"resultId": "magistuarmory:bronze_buckler",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/zinc_doubleplate",
+			"mod": "tfc",
+			"tfcTier": 0,
+			"inputs": [
+				{
+					"ids": [
+						"vintageimprovements:zinc_sheet"
+					]
+				},
+				{
+					"ids": [
+						"vintageimprovements:zinc_sheet"
+					]
+				}
+			],
+			"resultId": "gtceu:double_zinc_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/jousting/red_steel_leggings",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 6,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:red_steel_jousting_pants"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:red_steel_jousting_knees"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:red_steel_jousting_leggings",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/item_heads/zweihander_blade/iron_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 3,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:wrought_iron_sword_head"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:wrought_iron_sword_head"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:iron_zweihander_blade",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/item_heads/heavy_mace_head/black_bronze_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/mace_head/black_bronze"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:black_bronze_ingot"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:black_bronze_heavy_mace_head",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/kastenbrust/black_steel_helmet",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 5,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:black_steel_halfarmor_helmet"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:black_steel_grand_bascinet_visor"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:black_steel_grand_bascinet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/halfarmor/blue_steel_helmet",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 6,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:blue_steel_halfarmor_helmet_unfinished"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:blue_steel_plate"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:blue_steel_halfarmor_helmet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/item_heads/flail_head/blue_steel_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 6,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:blue_steel_morningstar_head"
+					]
+				},
+				{
+					"ids": [
+						"tfc:metal/chain/blue_steel"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:blue_steel_flail_head",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/antique_bismuth_bronze/bismuth_bronze_musculata_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:bismuth_bronze_musculata_upper_part"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:bismuth_bronze_musculata_lower_part"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:bismuth_bronze_musculata",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/halfarmor/black_steel_chestplate",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 5,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:black_steel_halfarmor_chestplate_unfinished"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:black_steel_halfarmor_shoulder_pads"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:black_steel_halfarmor_chestplate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/bronze_doubleplate",
+			"mod": "tfc",
+			"tfcTier": 1,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:bronze_plate"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bronze_plate"
+					]
+				}
+			],
+			"resultId": "gtceu:double_bronze_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/maximilian/red_steel_helmet",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 6,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:red_steel_halfarmor_helmet"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:red_steel_maximilian_visor"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:red_steel_maximilian_helmet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/rose_gold_gear",
+			"mod": "tfc",
+			"tfcTier": 0,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:double_rose_gold_plate"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:double_rose_gold_plate"
+					]
+				}
+			],
+			"resultId": "gtceu:rose_gold_gear",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/item_heads/estoc_blade/iron_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 3,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:wrought_iron_sword_head"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:wrought_iron_knife_head"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:iron_estoc_blade",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/tin_longrod",
+			"mod": "tfc",
+			"tfcTier": 0,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:tin_rod"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:tin_rod"
+					]
+				}
+			],
+			"resultId": "gtceu:long_tin_rod",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/copper_shears",
+			"mod": "tfc",
+			"tfcTier": 0,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:copper_knife_head"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:copper_knife_head"
+					]
+				}
+			],
+			"resultId": "tfc:metal/shears/copper",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/jousting/helmet",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 4,
+			"inputs": [
+				{
+					"ids": [
+						"magistuarmory:barbute"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:jousting_visor"
+					]
+				}
+			],
+			"resultId": "magistuarmory:stechhelm",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/jousting/red_steel_helmet",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 6,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:red_steel_halfarmor_helmet"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:red_steel_jousting_visor"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:red_steel_stechhelm",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/crowns/silver_crown",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 0,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:silver_minicrown_decoration"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:amethyst_shard",
+						"minecraft:diamond",
+						"minecraft:emerald",
+						"minecraft:lapis_lazuli",
+						"minecraft:quartz",
+						"ae2:certus_quartz_crystal",
+						"ae2:charged_certus_quartz_crystal",
+						"ae2:fluix_crystal"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:silver_crown_decoration",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/chainmail/chainmail_leggings",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 4,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:chainmail_pants"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:chainmail_knees"
+					]
+				}
+			],
+			"resultId": "magistuarmory:chainmail_leggings",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/crowns/sterling_silver_crown",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 0,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:sterling_silver_minicrown_decoration"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:amethyst_shard",
+						"minecraft:diamond",
+						"minecraft:emerald",
+						"minecraft:lapis_lazuli",
+						"minecraft:quartz",
+						"ae2:certus_quartz_crystal",
+						"ae2:charged_certus_quartz_crystal",
+						"ae2:fluix_crystal"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:sterling_silver_crown_decoration",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/blue_steel_chestplate",
+			"mod": "tfc",
+			"tfcTier": 5,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/unfinished_chestplate/blue_steel"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:double_blue_steel_plate"
+					]
+				}
+			],
+			"resultId": "tfc:metal/chestplate/blue_steel",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/item_heads/bastardsword_blade/steel_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 4,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:steel_sword_head"
+					]
+				},
+				{
+					"ids": [
+						"magistuarmory:steel_ingot",
+						"gtceu:steel_ingot"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:steel_bastard_sword_blade",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/antique_black_bronze/black_bronze_muscle_cuirass_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:black_bronze_muscle_cuirass_upper_part"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:black_bronze_muscle_cuirass_lower_part"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:black_bronze_muscle_cuirass_unfinished",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:crafting/items/shields/target/copper_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 1,
+			"inputs": [
+				{
+					"ids": [
+						"create:copper_sheet"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:copper_shield_brace"
+					]
+				}
+			],
+			"resultId": "magistuarmory:copper_target",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/copper_greaves",
+			"mod": "tfc",
+			"tfcTier": 0,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/unfinished_greaves/copper"
+					]
+				},
+				{
+					"ids": [
+						"create:copper_sheet"
+					]
+				}
+			],
+			"resultId": "tfc:metal/greaves/copper",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/knight/helmet",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 4,
+			"inputs": [
+				{
+					"ids": [
+						"magistuarmory:barbute"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:knight_visor"
+					]
+				}
+			],
+			"resultId": "magistuarmory:armet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/chainmail/chainmail_helmet",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 4,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:chainmail_helmet_unfinished"
+					]
+				},
+				{
+					"ids": [
+						"magistuarmory:steel_chainmail"
+					]
+				}
+			],
+			"resultId": "magistuarmory:chainmail_helmet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/blue_steel_greaves",
+			"mod": "tfc",
+			"tfcTier": 5,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/unfinished_greaves/blue_steel"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:blue_steel_plate"
+					]
+				}
+			],
+			"resultId": "tfc:metal/greaves/blue_steel",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/black_steel_doubleplate",
+			"mod": "tfc",
+			"tfcTier": 4,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:black_steel_plate"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:black_steel_plate"
+					]
+				}
+			],
+			"resultId": "gtceu:double_black_steel_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/antique_bismuth_bronze/bismuth_bronze_segmentata_upper_part_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:wrought_iron_plate"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bismuth_bronze_double_ingot"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:bismuth_bronze_segmentata_upper_part",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/antique_bronze/bronze_segmentata_lower_part_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:wrought_iron_plate"
+					]
+				},
+				{
+					"ids": [
+						"antiquelegacy:bronze_plate"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:bronze_segmentata_lower_part",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/item_heads/heavywarhammer_head/blue_steel_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 6,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:blue_steel_hammer_head"
+					]
+				},
+				{
+					"ids": [
+						"tfc:metal/double_ingot/blue_steel"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:blue_steel_heavy_war_hammer_head",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/item_heads/bastardsword_blade/black_steel_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 5,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:black_steel_sword_head"
+					]
+				},
+				{
+					"ids": [
+						"tfc:metal/ingot/black_steel"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:black_steel_bastard_sword_blade",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/crowns/crown",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 0,
+			"inputs": [
+				{
+					"ids": [
+						"magistuarmory:minicrown_decoration"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:amethyst_shard",
+						"minecraft:diamond",
+						"minecraft:emerald",
+						"minecraft:lapis_lazuli",
+						"minecraft:quartz",
+						"ae2:certus_quartz_crystal",
+						"ae2:charged_certus_quartz_crystal",
+						"ae2:fluix_crystal"
+					]
+				}
+			],
+			"resultId": "magistuarmory:crown_decoration",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/black_steel_gear",
+			"mod": "tfc",
+			"tfcTier": 4,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:double_black_steel_plate"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:double_black_steel_plate"
+					]
+				}
+			],
+			"resultId": "gtceu:black_steel_gear",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/item_heads/claymore_blade/black_steel_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 5,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:black_steel_sword_head"
+					]
+				},
+				{
+					"ids": [
+						"tfc:metal/double_ingot/black_steel"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:black_steel_claymore_blade",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/gothic/black_steel_chestplate",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 5,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:black_steel_halfarmor_chestplate"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:black_steel_gothic_arms"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:black_steel_gothic_chestplate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/bronze_greaves",
+			"mod": "tfc",
+			"tfcTier": 1,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/unfinished_greaves/bronze"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bronze_plate"
+					]
+				}
+			],
+			"resultId": "tfc:metal/greaves/bronze",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/xivcentury/chestplate",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 4,
+			"inputs": [
+				{
+					"ids": [
+						"magistuarmory:halfarmor_chestplate"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:xivcenturyknight_arms"
+					]
+				}
+			],
+			"resultId": "magistuarmory:xivcenturyknight_chestplate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/gothic/blue_steel_helmet",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 6,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:blue_steel_halfarmor_helmet"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:blue_steel_gothic_visor"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:blue_steel_sallet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/blue_steel_gear",
+			"mod": "tfc",
+			"tfcTier": 5,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:double_blue_steel_plate"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:double_blue_steel_plate"
+					]
+				}
+			],
+			"resultId": "gtceu:blue_steel_gear",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/item_heads/bastardsword_blade/copper_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 1,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:copper_sword_head"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:copper_ingot"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:copper_bastard_sword_blade",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/silver_doubleingot",
+			"mod": "tfc",
+			"tfcTier": 0,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:silver_ingot"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:silver_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:silver_double_ingot",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/item_heads/bastardsword_blade/bismuth_bronze_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:bismuth_bronze_sword_head"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bismuth_bronze_ingot"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:bismuth_bronze_bastard_sword_blade",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/item_heads/heavywarhammer_head/iron_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 3,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:wrought_iron_hammer_head"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:wrought_iron_double_ingot"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:iron_heavy_war_hammer_head",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/antique_bronze/bronze_heddernheim_helmet_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:double_wrought_iron_plate"
+					]
+				},
+				{
+					"ids": [
+						"antiquelegacy:bronze_ingot",
+						"gtceu:bronze_ingot"
+					]
+				}
+			],
+			"resultId": "antiquelegacy:heddernheim_helmet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/silver_longrod",
+			"mod": "tfc",
+			"tfcTier": 0,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:silver_rod"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:silver_rod"
+					]
+				}
+			],
+			"resultId": "gtceu:long_silver_rod",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:welding/high_carbon_red_steel_ingot",
+			"mod": "tfg",
+			"tfcTier": 5,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/ingot/weak_red_steel"
+					]
+				},
+				{
+					"ids": [
+						"tfc:metal/ingot/black_steel"
+					]
+				}
+			],
+			"resultId": "tfc:metal/ingot/high_carbon_red_steel",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/item_heads/antique_iron/iron_retiarius_head_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 3,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/javelin_head/wrought_iron"
+					]
+				},
+				{
+					"ids": [
+						"tfc:metal/javelin_head/wrought_iron"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:iron_retiarius_head",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/black_bronze_longrod",
+			"mod": "tfc",
+			"tfcTier": 1,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:black_bronze_rod"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:black_bronze_rod"
+					]
+				}
+			],
+			"resultId": "gtceu:long_black_bronze_rod",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/antique_bronze/bronze_musculata_lower_part_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:wrought_iron_plate"
+					]
+				},
+				{
+					"ids": [
+						"antiquelegacy:bronze_ingot",
+						"gtceu:bronze_ingot"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:bronze_musculata_lower_part",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/item_heads/heavywarhammer_head/red_steel_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 6,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:red_steel_hammer_head"
+					]
+				},
+				{
+					"ids": [
+						"tfc:metal/double_ingot/red_steel"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:red_steel_heavy_war_hammer_head",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:crafting/items/shields/target/bismuth_bronze_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:bismuth_bronze_plate"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:bismuth_bronze_shield_brace"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:bismuth_bronze_target",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/jousting/red_steel_chestplate",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 6,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:red_steel_halfarmor_chestplate"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:red_steel_jousting_arms"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:red_steel_jousting_chestplate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/gothic/leggings",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 4,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:gothic_pants"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:gothic_knees"
+					]
+				}
+			],
+			"resultId": "magistuarmory:gothic_leggings",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/iron_doubleingot",
+			"mod": "tfc",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:iron_ingot"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:iron_ingot"
+					]
+				}
+			],
+			"resultId": "tfc:metal/double_ingot/cast_iron",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/item_heads/heavy_mace_head/bismuth_bronze_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/mace_head/bismuth_bronze"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bismuth_bronze_ingot"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:bismuth_bronze_heavy_mace_head",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/bismuth_bronze_helmet",
+			"mod": "tfc",
+			"tfcTier": 1,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/unfinished_helmet/bismuth_bronze"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bismuth_bronze_plate"
+					]
+				}
+			],
+			"resultId": "tfc:metal/helmet/bismuth_bronze",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/antique_bismuth_bronze/bismuth_bronze_secutor_helmet_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:bismuth_bronze_secutor_helm"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:bismuth_bronze_secutor_visor"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:bismuth_bronze_secutor_helmet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/item_heads/heavy_mace_head/steel_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 4,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/mace_head/steel"
+					]
+				},
+				{
+					"ids": [
+						"magistuarmory:steel_ingot",
+						"gtceu:steel_ingot"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:steel_heavy_mace_head",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/xivcentury/leggings",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 4,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:chainmail_pants"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:xivcenturyknight_knees"
+					]
+				}
+			],
+			"resultId": "magistuarmory:xivcenturyknight_leggings",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/black_bronze_helmet",
+			"mod": "tfc",
+			"tfcTier": 1,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/unfinished_helmet/black_bronze"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:black_bronze_plate"
+					]
+				}
+			],
+			"resultId": "tfc:metal/helmet/black_bronze",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/crowns/platinum_crown",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 0,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:platinum_minicrown_decoration"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:amethyst_shard",
+						"minecraft:diamond",
+						"minecraft:emerald",
+						"minecraft:lapis_lazuli",
+						"minecraft:quartz",
+						"ae2:certus_quartz_crystal",
+						"ae2:charged_certus_quartz_crystal",
+						"ae2:fluix_crystal"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:platinum_crown_decoration",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/item_heads/estoc_blade/bismuth_bronze_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:bismuth_bronze_sword_head"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bismuth_bronze_knife_head"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:bismuth_bronze_estoc_blade",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/gothic/red_steel_leggings",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 6,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:red_steel_gothic_pants"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:red_steel_gothic_knees"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:red_steel_gothic_leggings",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/halfarmor/red_steel_helmet",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 6,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:red_steel_halfarmor_helmet_unfinished"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:red_steel_plate"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:red_steel_halfarmor_helmet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/crowns/rose_gold_crown",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 0,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:rose_gold_minicrown_decoration"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:amethyst_shard",
+						"minecraft:diamond",
+						"minecraft:emerald",
+						"minecraft:lapis_lazuli",
+						"minecraft:quartz",
+						"ae2:certus_quartz_crystal",
+						"ae2:charged_certus_quartz_crystal",
+						"ae2:fluix_crystal"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:rose_gold_crown_decoration",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/platemail/black_steel_chainmail_helmet",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 5,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:black_steel_chainmail_helmet_unfinished"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:black_steel_platemail_helmet_unfinished"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:black_steel_kettlehat",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/kastenbrust/black_steel_leggings",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 5,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:black_steel_kastenbrust_pants"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:black_steel_kastenbrust_knees"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:black_steel_kastenbrust_leggings",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/antique_black_bronze/black_bronze_sava_helmet_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:double_wrought_iron_plate"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:black_bronze_double_ingot"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:black_bronze_sava_helmet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/wrought_iron_doubleplate",
+			"mod": "tfc",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:wrought_iron_plate"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:wrought_iron_plate"
+					]
+				}
+			],
+			"resultId": "gtceu:double_wrought_iron_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/wrought_iron_doubleingot",
+			"mod": "tfc",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:wrought_iron_ingot"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:wrought_iron_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:wrought_iron_double_ingot",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/item_heads/bastardsword_blade/black_bronze_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:black_bronze_sword_head"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:black_bronze_ingot"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:black_bronze_bastard_sword_blade",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/blue_steel_shears",
+			"mod": "tfc",
+			"tfcTier": 5,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:blue_steel_knife_head"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:blue_steel_knife_head"
+					]
+				}
+			],
+			"resultId": "tfc:metal/shears/blue_steel",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/gold_doubleplate",
+			"mod": "tfc",
+			"tfcTier": 0,
+			"inputs": [
+				{
+					"ids": [
+						"create:golden_sheet"
+					]
+				},
+				{
+					"ids": [
+						"create:golden_sheet"
+					]
+				}
+			],
+			"resultId": "gtceu:double_gold_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:welding/high_carbon_blue_steel_ingot",
+			"mod": "tfg",
+			"tfcTier": 5,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/ingot/weak_blue_steel"
+					]
+				},
+				{
+					"ids": [
+						"tfc:metal/ingot/black_steel"
+					]
+				}
+			],
+			"resultId": "tfc:metal/ingot/high_carbon_blue_steel",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/steel_longrod",
+			"mod": "tfc",
+			"tfcTier": 3,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:steel_rod"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:steel_rod"
+					]
+				}
+			],
+			"resultId": "gtceu:long_steel_rod",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/item_heads/zweihander_blade/red_steel_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 6,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:red_steel_sword_head"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:red_steel_sword_head"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:red_steel_zweihander_blade",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/maximilian/blue_steel_boots",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 6,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:blue_steel_knight_boots"
+					]
+				},
+				{
+					"ids": [
+						"tfc:metal/rod/blue_steel"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:blue_steel_maximilian_boots",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:crafting/items/shields/buckler/copper_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 1,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:copper_double_ingot"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:copper_shield_brace"
+					]
+				}
+			],
+			"resultId": "magistuarmory:copper_buckler",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/jousting/chestplate",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 4,
+			"inputs": [
+				{
+					"ids": [
+						"magistuarmory:halfarmor_chestplate"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:jousting_arms"
+					]
+				}
+			],
+			"resultId": "magistuarmory:jousting_chestplate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/item_heads/heavywarhammer_head/steel_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 4,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:steel_hammer_head"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:steel_double_ingot"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:steel_heavy_war_hammer_head",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:crafting/items/shields/target/bronze_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:bronze_plate"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:bronze_shield_brace"
+					]
+				}
+			],
+			"resultId": "magistuarmory:bronze_target",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/item_heads/claymore_blade/black_bronze_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:black_bronze_sword_head"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:black_bronze_double_ingot"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:black_bronze_claymore_blade",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/crowns/brass_crown",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 0,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:brass_minicrown_decoration"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:amethyst_shard",
+						"minecraft:diamond",
+						"minecraft:emerald",
+						"minecraft:lapis_lazuli",
+						"minecraft:quartz",
+						"ae2:certus_quartz_crystal",
+						"ae2:charged_certus_quartz_crystal",
+						"ae2:fluix_crystal"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:brass_crown_decoration",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/blue_steel_doubleplate",
+			"mod": "tfc",
+			"tfcTier": 5,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:blue_steel_plate"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:blue_steel_plate"
+					]
+				}
+			],
+			"resultId": "gtceu:double_blue_steel_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/bismuth_bronze_greaves",
+			"mod": "tfc",
+			"tfcTier": 1,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/unfinished_greaves/bismuth_bronze"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bismuth_bronze_plate"
+					]
+				}
+			],
+			"resultId": "tfc:metal/greaves/bismuth_bronze",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/kastenbrust/blue_steel_leggings",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 6,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:blue_steel_kastenbrust_pants"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:blue_steel_kastenbrust_knees"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:blue_steel_kastenbrust_leggings",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/invar_doubleplate",
+			"mod": "tfc",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"vintageimprovements:invar_sheet"
+					]
+				},
+				{
+					"ids": [
+						"vintageimprovements:invar_sheet"
+					]
+				}
+			],
+			"resultId": "gtceu:double_invar_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/jousting/blue_steel_helmet",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 6,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:blue_steel_halfarmor_helmet"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:blue_steel_jousting_visor"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:blue_steel_stechhelm",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/blue_steel_boots",
+			"mod": "tfc",
+			"tfcTier": 5,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/unfinished_boots/blue_steel"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:blue_steel_plate"
+					]
+				}
+			],
+			"resultId": "tfc:metal/boots/blue_steel",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/item_heads/flail_head/iron_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 3,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:iron_morningstar_head"
+					]
+				},
+				{
+					"ids": [
+						"tfc:metal/chain/wrought_iron"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:iron_flail_head",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/knight/black_steel_helmet",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 5,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:black_steel_halfarmor_helmet"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:black_steel_knight_visor"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:black_steel_armet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/maximilian/black_steel_boots",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 5,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:black_steel_knight_boots"
+					]
+				},
+				{
+					"ids": [
+						"tfc:metal/rod/black_steel"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:black_steel_maximilian_boots",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/bronze_helmet",
+			"mod": "tfc",
+			"tfcTier": 1,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/unfinished_helmet/bronze"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bronze_plate"
+					]
+				}
+			],
+			"resultId": "tfc:metal/helmet/bronze",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/antique_black_bronze/black_bronze_musculata_upper_part_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:wrought_iron_plate"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:black_bronze_plate"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:black_bronze_musculata_upper_part",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/gold_longrod",
+			"mod": "tfc",
+			"tfcTier": 0,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:gold_rod"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:gold_rod"
+					]
+				}
+			],
+			"resultId": "gtceu:long_gold_rod",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/antique_bronze/bronze_niederbieber_helmet_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:double_wrought_iron_plate"
+					]
+				},
+				{
+					"ids": [
+						"antiquelegacy:bronze_plate"
+					]
+				}
+			],
+			"resultId": "antiquelegacy:iron_niederbieber_helmet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/bronze_longrod",
+			"mod": "tfc",
+			"tfcTier": 1,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:bronze_rod"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bronze_rod"
+					]
+				}
+			],
+			"resultId": "gtceu:long_bronze_rod",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/black_steel_longrod",
+			"mod": "tfc",
+			"tfcTier": 4,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:black_steel_rod"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:black_steel_rod"
+					]
+				}
+			],
+			"resultId": "gtceu:long_black_steel_rod",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/steel_shears",
+			"mod": "tfc",
+			"tfcTier": 3,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:steel_knife_head"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:steel_knife_head"
+					]
+				}
+			],
+			"resultId": "tfc:metal/shears/steel",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/item_heads/claymore_blade/iron_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 3,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:wrought_iron_sword_head"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:wrought_iron_double_ingot"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:iron_claymore_blade",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/antique_bismuth_bronze/bismuth_bronze_iron_thorax_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:double_wrought_iron_plate"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bismuth_bronze_plate"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:bismuth_bronze_iron_thorax",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/item_heads/heavy_mace_head/blue_steel_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 6,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/mace_head/blue_steel"
+					]
+				},
+				{
+					"ids": [
+						"tfc:metal/ingot/blue_steel"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:blue_steel_heavy_mace_head",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/lead_doubleingot",
+			"mod": "tfc",
+			"tfcTier": 1,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:lead_ingot"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:lead_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:lead_double_ingot",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/bismuth_bronze_chestplate",
+			"mod": "tfc",
+			"tfcTier": 1,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/unfinished_chestplate/bismuth_bronze"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:double_bismuth_bronze_plate"
+					]
+				}
+			],
+			"resultId": "tfc:metal/chestplate/bismuth_bronze",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/antique_black_bronze/black_bronze_segmentata_upper_part_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:wrought_iron_plate"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:black_bronze_double_ingot"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:black_bronze_segmentata_upper_part",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/red_steel_helmet",
+			"mod": "tfc",
+			"tfcTier": 5,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/unfinished_helmet/red_steel"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:red_steel_plate"
+					]
+				}
+			],
+			"resultId": "tfc:metal/helmet/red_steel",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/knight/black_steel_chestplate",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 5,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:black_steel_halfarmor_chestplate"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:black_steel_knight_arms"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:black_steel_knight_chestplate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/platemail/black_steel_chainmail_chestplate",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 5,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:black_steel_chainmail_torso"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:black_steel_platemail_arms"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:black_steel_platemail_chestplate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/item_heads/flail_head/black_steel_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 5,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:black_steel_morningstar_head"
+					]
+				},
+				{
+					"ids": [
+						"tfc:metal/chain/black_steel"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:black_steel_flail_head",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/platemail/chainmail_chestplate",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 4,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:chainmail_torso"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:platemail_arms"
+					]
+				}
+			],
+			"resultId": "magistuarmory:platemail_chestplate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/potin_doubleplate",
+			"mod": "tfc",
+			"tfcTier": 1,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:potin_plate"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:potin_plate"
+					]
+				}
+			],
+			"resultId": "gtceu:double_potin_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/maximilian/boots",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 4,
+			"inputs": [
+				{
+					"ids": [
+						"magistuarmory:knight_boots"
+					]
+				},
+				{
+					"ids": [
+						"tfc:metal/rod/steel"
+					]
+				}
+			],
+			"resultId": "magistuarmory:maximilian_boots",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/item_heads/zweihander_blade/black_steel_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 5,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:black_steel_sword_head"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:black_steel_sword_head"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:black_steel_zweihander_blade",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/item_heads/zweihander_blade/bismuth_bronze_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:bismuth_bronze_sword_head"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bismuth_bronze_sword_head"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:bismuth_bronze_zweihander_blade",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/item_heads/heavywarhammer_head/bronze_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:bronze_hammer_head"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bronze_double_ingot"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:bronze_heavy_war_hammer_head",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/rose_gold_doubleingot",
+			"mod": "tfc",
+			"tfcTier": 0,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:rose_gold_ingot"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:rose_gold_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:rose_gold_double_ingot",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/crowns/bismuth_bronze_crown",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 0,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:bismuth_bronze_minicrown_decoration"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:amethyst_shard",
+						"minecraft:diamond",
+						"minecraft:emerald",
+						"minecraft:lapis_lazuli",
+						"minecraft:quartz",
+						"ae2:certus_quartz_crystal",
+						"ae2:charged_certus_quartz_crystal",
+						"ae2:fluix_crystal"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:bismuth_bronze_crown_decoration",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/cobalt_brass_doubleplate",
+			"mod": "tfc",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:cobalt_brass_plate"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:cobalt_brass_plate"
+					]
+				}
+			],
+			"resultId": "gtceu:double_cobalt_brass_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/wrought_iron_greaves",
+			"mod": "tfc",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/unfinished_greaves/wrought_iron"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:wrought_iron_plate"
+					]
+				}
+			],
+			"resultId": "tfc:metal/greaves/wrought_iron",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:crafting/items/shields/buckler/bismuth_bronze_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:bismuth_bronze_double_ingot"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:bismuth_bronze_shield_brace"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:bismuth_bronze_buckler",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/antique_bronze/bronze_segmentata_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:bronze_segmentata_upper_part"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:bronze_segmentata_lower_part"
+					]
+				}
+			],
+			"resultId": "antiquelegacy:segmentata",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/antique_bismuth_bronze/bismuth_bronze_murmillo_helmet_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:bismuth_bronze_murmillo_helm"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:bismuth_bronze_murmillo_visor"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:bismuth_bronze_murmillo_helmet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:crafting/items/shields/buckler/black_bronze_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:black_bronze_double_ingot"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:black_bronze_shield_brace"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:black_bronze_buckler",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/halfarmor/blue_steel_chestplate",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 6,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:blue_steel_halfarmor_chestplate_unfinished"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:blue_steel_halfarmor_shoulder_pads"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:blue_steel_halfarmor_chestplate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/bismuth_bronze_doubleingot",
+			"mod": "tfc",
+			"tfcTier": 1,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:bismuth_bronze_ingot"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bismuth_bronze_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:bismuth_bronze_double_ingot",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/knight/blue_steel_leggings",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 6,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:blue_steel_knight_pants"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:blue_steel_knight_knees"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:blue_steel_knight_leggings",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/kastenbrust/black_steel_chestplate",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 5,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:black_steel_halfarmor_chestplate"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:black_steel_kastenbrust_arms"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:black_steel_kastenbrust_chestplate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:crafting/items/shields/buckler/iron_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 3,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:wrought_iron_double_ingot"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:iron_shield_brace"
+					]
+				}
+			],
+			"resultId": "magistuarmory:iron_buckler",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/antique_bismuth_bronze/bismuth_bronze_niederbieber_helmet_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:double_wrought_iron_plate"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:bismuth_bronze_plate"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:bismuth_bronze_iron_niederbieber_helmet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/blue_steel_doubleingot",
+			"mod": "tfc",
+			"tfcTier": 5,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/ingot/blue_steel"
+					]
+				},
+				{
+					"ids": [
+						"tfc:metal/ingot/blue_steel"
+					]
+				}
+			],
+			"resultId": "tfc:metal/double_ingot/blue_steel",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/platemail/chainmail_leggings",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 4,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:chainmail_pants"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:platemail_knees"
+					]
+				}
+			],
+			"resultId": "magistuarmory:platemail_leggings",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/item_heads/flail_head/bismuth_bronze_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:bismuth_bronze_morningstar_head"
+					]
+				},
+				{
+					"ids": [
+						"tfc:metal/chain/bismuth_bronze"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:bismuth_bronze_flail_head",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/gold_doubleingot",
+			"mod": "tfc",
+			"tfcTier": 0,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:gold_ingot"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:gold_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:gold_double_ingot",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/halfarmor/chestplate",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 4,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:halfarmor_chestplate_unfinished"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:halfarmor_shoulder_pads"
+					]
+				}
+			],
+			"resultId": "magistuarmory:halfarmor_chestplate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/crusader/leggings",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 4,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:chainmail_pants"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:crusader_knees"
+					]
+				}
+			],
+			"resultId": "magistuarmory:crusader_leggings",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/antique_bronze/bronze_bell_cuirass_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:bronze_bell_cuirass_upper_part"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:bronze_bell_cuirass_lower_part"
+					]
+				}
+			],
+			"resultId": "antiquelegacy:bell_cuirass",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/potin_longrod",
+			"mod": "tfc",
+			"tfcTier": 1,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:potin_rod"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:potin_rod"
+					]
+				}
+			],
+			"resultId": "gtceu:long_potin_rod",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/maximilian/helmet",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 4,
+			"inputs": [
+				{
+					"ids": [
+						"magistuarmory:barbute"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:maximilian_visor"
+					]
+				}
+			],
+			"resultId": "magistuarmory:maximilian_helmet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/item_heads/flail_head/steel_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 4,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:steel_morningstar_head"
+					]
+				},
+				{
+					"ids": [
+						"tfc:metal/chain/steel"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:steel_flail_head",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/maximilian/black_steel_chestplate",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 5,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:black_steel_halfarmor_chestplate"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:black_steel_maximilian_arms"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:black_steel_maximilian_chestplate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/item_heads/estoc_blade/black_bronze_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:black_bronze_sword_head"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:black_bronze_knife_head"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:black_bronze_estoc_blade",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/iron_doubleplate",
+			"mod": "tfc",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"vintageimprovements:cast_iron_sheet"
+					]
+				},
+				{
+					"ids": [
+						"vintageimprovements:cast_iron_sheet"
+					]
+				}
+			],
+			"resultId": "gtceu:double_iron_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/knight/chestplate",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 4,
+			"inputs": [
+				{
+					"ids": [
+						"magistuarmory:halfarmor_chestplate"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:knight_arms"
+					]
+				}
+			],
+			"resultId": "magistuarmory:knight_chestplate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/copper_boots",
+			"mod": "tfc",
+			"tfcTier": 0,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/unfinished_boots/copper"
+					]
+				},
+				{
+					"ids": [
+						"create:copper_sheet"
+					]
+				}
+			],
+			"resultId": "tfc:metal/boots/copper",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/item_heads/antique_bismuth_bronze/bismuth_bronze_retiarius_head_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/javelin_head/bismuth_bronze"
+					]
+				},
+				{
+					"ids": [
+						"tfc:metal/javelin_head/bismuth_bronze"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:bismuth_bronze_retiarius_head",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/antique_bismuth_bronze/bismuth_bronze_segmentata_lower_part_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:wrought_iron_plate"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:bismuth_bronze_plate"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:bismuth_bronze_segmentata_lower_part",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/gothic/black_steel_leggings",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 5,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:black_steel_gothic_pants"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:black_steel_gothic_knees"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:black_steel_gothic_leggings",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/steel_chestplate",
+			"mod": "tfc",
+			"tfcTier": 3,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/unfinished_chestplate/steel"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:double_steel_plate"
+					]
+				}
+			],
+			"resultId": "tfc:metal/chestplate/steel",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/nickel_doubleingot",
+			"mod": "tfc",
+			"tfcTier": 0,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:nickel_ingot"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:nickel_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:nickel_double_ingot",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/crowns/copper_crown",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 0,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:copper_minicrown_decoration"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:amethyst_shard",
+						"minecraft:diamond",
+						"minecraft:emerald",
+						"minecraft:lapis_lazuli",
+						"minecraft:quartz",
+						"ae2:certus_quartz_crystal",
+						"ae2:charged_certus_quartz_crystal",
+						"ae2:fluix_crystal"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:copper_crown_decoration",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/halfarmor/helmet",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 4,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:halfarmor_helmet_unfinished"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:steel_plate"
+					]
+				}
+			],
+			"resultId": "magistuarmory:barbute",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/bismuth_bronze_shears",
+			"mod": "tfc",
+			"tfcTier": 1,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:bismuth_bronze_knife_head"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bismuth_bronze_knife_head"
+					]
+				}
+			],
+			"resultId": "tfc:metal/shears/bismuth_bronze",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/crowns/black_bronze_crown",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 0,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:black_bronze_minicrown_decoration"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:amethyst_shard",
+						"minecraft:diamond",
+						"minecraft:emerald",
+						"minecraft:lapis_lazuli",
+						"minecraft:quartz",
+						"ae2:certus_quartz_crystal",
+						"ae2:charged_certus_quartz_crystal",
+						"ae2:fluix_crystal"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:black_bronze_crown_decoration",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/item_heads/claymore_blade/bronze_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:bronze_sword_head"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bronze_double_ingot"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:bronze_claymore_blade",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:crafting/items/shields/target/black_bronze_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:black_bronze_plate"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:black_bronze_shield_brace"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:black_bronze_target",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:crafting/items/shields/buckler/steel_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 4,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:steel_double_ingot"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:steel_shield_brace"
+					]
+				}
+			],
+			"resultId": "magistuarmory:steel_buckler",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:welding/high_carbon_black_steel_ingot",
+			"mod": "tfg",
+			"tfcTier": 4,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/ingot/weak_steel"
+					]
+				},
+				{
+					"ids": [
+						"tfc:metal/ingot/pig_iron"
+					]
+				}
+			],
+			"resultId": "tfc:metal/ingot/high_carbon_black_steel",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/antique_black_bronze/black_bronze_heddernheim_helmet_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:double_wrought_iron_plate"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:black_bronze_ingot"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:black_bronze_heddernheim_helmet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/cobalt_brass_gear",
+			"mod": "tfc",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:double_cobalt_brass_plate"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:double_cobalt_brass_plate"
+					]
+				}
+			],
+			"resultId": "gtceu:cobalt_brass_gear",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/bronze_boots",
+			"mod": "tfc",
+			"tfcTier": 1,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/unfinished_boots/bronze"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bronze_plate"
+					]
+				}
+			],
+			"resultId": "tfc:metal/boots/bronze",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/item_heads/heavywarhammer_head/black_steel_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 5,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:black_steel_hammer_head"
+					]
+				},
+				{
+					"ids": [
+						"tfc:metal/double_ingot/black_steel"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:black_steel_heavy_war_hammer_head",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/antique_bismuth_bronze/bismuth_bronze_muscle_cuirass_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:bismuth_bronze_muscle_cuirass_upper_part"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:bismuth_bronze_muscle_cuirass_lower_part"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:bismuth_bronze_muscle_cuirass_unfinished",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/antique_black_bronze/black_bronze_segmentata_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:black_bronze_segmentata_upper_part"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:black_bronze_segmentata_lower_part"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:black_bronze_segmentata",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/kastenbrust/red_steel_leggings",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 6,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:red_steel_kastenbrust_pants"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:red_steel_kastenbrust_knees"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:red_steel_kastenbrust_leggings",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/antique_bronze/bronze_musculata_upper_part_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:wrought_iron_plate"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bronze_plate"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:bronze_musculata_upper_part",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/tin_alloy_doubleplate",
+			"mod": "tfc",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:tin_alloy_plate"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:tin_alloy_plate"
+					]
+				}
+			],
+			"resultId": "gtceu:double_tin_alloy_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/item_heads/zweihander_blade/bronze_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:bronze_sword_head"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bronze_sword_head"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:bronze_zweihander_blade",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/potin_doubleingot",
+			"mod": "tfc",
+			"tfcTier": 1,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:potin_ingot"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:potin_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:potin_double_ingot",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/red_steel_doubleplate",
+			"mod": "tfc",
+			"tfcTier": 5,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:red_steel_plate"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:red_steel_plate"
+					]
+				}
+			],
+			"resultId": "gtceu:double_red_steel_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/knight/black_steel_leggings",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 5,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:black_steel_knight_pants"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:black_steel_knight_knees"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:black_steel_knight_leggings",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/bismuth_doubleplate",
+			"mod": "tfc",
+			"tfcTier": 0,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:bismuth_plate"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bismuth_plate"
+					]
+				}
+			],
+			"resultId": "gtceu:double_bismuth_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/steel_helmet",
+			"mod": "tfc",
+			"tfcTier": 3,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/unfinished_helmet/steel"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:steel_plate"
+					]
+				}
+			],
+			"resultId": "tfc:metal/helmet/steel",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/black_bronze_greaves",
+			"mod": "tfc",
+			"tfcTier": 1,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/unfinished_greaves/black_bronze"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:black_bronze_plate"
+					]
+				}
+			],
+			"resultId": "tfc:metal/greaves/black_bronze",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/black_bronze_shears",
+			"mod": "tfc",
+			"tfcTier": 1,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:black_bronze_knife_head"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:black_bronze_knife_head"
+					]
+				}
+			],
+			"resultId": "tfc:metal/shears/black_bronze",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/chainmail/chainmail_chestplate",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 4,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:chainmail_torso"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:chainmail_arms"
+					]
+				}
+			],
+			"resultId": "magistuarmory:chainmail_chestplate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/item_heads/heavy_mace_head/red_steel_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 6,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/mace_head/red_steel"
+					]
+				},
+				{
+					"ids": [
+						"tfc:metal/ingot/red_steel"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:red_steel_heavy_mace_head",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/silver_doubleplate",
+			"mod": "tfc",
+			"tfcTier": 0,
+			"inputs": [
+				{
+					"ids": [
+						"vintageimprovements:silver_sheet"
+					]
+				},
+				{
+					"ids": [
+						"vintageimprovements:silver_sheet"
+					]
+				}
+			],
+			"resultId": "gtceu:double_silver_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/red_alloy_doubleplate",
+			"mod": "tfc",
+			"tfcTier": 1,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:red_alloy_plate"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:red_alloy_plate"
+					]
+				}
+			],
+			"resultId": "gtceu:double_red_alloy_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/iron_longrod",
+			"mod": "tfc",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:iron_rod"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:iron_rod"
+					]
+				}
+			],
+			"resultId": "gtceu:long_iron_rod",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/sterling_silver_doubleingot",
+			"mod": "tfc",
+			"tfcTier": 0,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:sterling_silver_ingot"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:sterling_silver_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:sterling_silver_double_ingot",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/bismuth_bronze_doubleplate",
+			"mod": "tfc",
+			"tfcTier": 1,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:bismuth_bronze_plate"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bismuth_bronze_plate"
+					]
+				}
+			],
+			"resultId": "gtceu:double_bismuth_bronze_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/item_heads/estoc_blade/red_steel_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 6,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:red_steel_sword_head"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:red_steel_knife_head"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:red_steel_estoc_blade",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/antique_black_bronze/black_bronze_murmillo_helmet_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:black_bronze_murmillo_helm"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:black_bronze_murmillo_visor"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:black_bronze_murmillo_helmet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/item_heads/zweihander_blade/copper_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 1,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:copper_sword_head"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:copper_sword_head"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:copper_zweihander_blade",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/wrought_iron_helmet",
+			"mod": "tfc",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/unfinished_helmet/wrought_iron"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:wrought_iron_plate"
+					]
+				}
+			],
+			"resultId": "tfc:metal/helmet/wrought_iron",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/bismuth_longrod",
+			"mod": "tfc",
+			"tfcTier": 0,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:bismuth_rod"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bismuth_rod"
+					]
+				}
+			],
+			"resultId": "gtceu:long_bismuth_rod",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:crafting/items/shields/target/red_steel_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 6,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:red_steel_plate"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:red_steel_shield_brace"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:red_steel_target",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/nickel_longrod",
+			"mod": "tfc",
+			"tfcTier": 0,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:nickel_rod"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:nickel_rod"
+					]
+				}
+			],
+			"resultId": "gtceu:long_nickel_rod",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/zinc_doubleingot",
+			"mod": "tfc",
+			"tfcTier": 0,
+			"inputs": [
+				{
+					"ids": [
+						"create:zinc_ingot"
+					]
+				},
+				{
+					"ids": [
+						"create:zinc_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:zinc_double_ingot",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/antique_black_bronze/black_bronze_niederbieber_helmet_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:double_wrought_iron_plate"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:black_bronze_plate"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:black_bronze_iron_niederbieber_helmet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/item_heads/estoc_blade/steel_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 4,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:steel_sword_head"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:steel_knife_head"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:steel_estoc_blade",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/gothic/red_steel_helmet",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 6,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:red_steel_halfarmor_helmet"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:red_steel_gothic_visor"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:red_steel_sallet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/wrought_iron_longrod",
+			"mod": "tfc",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:wrought_iron_rod"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:wrought_iron_rod"
+					]
+				}
+			],
+			"resultId": "gtceu:long_wrought_iron_rod",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/item_heads/flail_head/red_steel_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 6,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:red_steel_morningstar_head"
+					]
+				},
+				{
+					"ids": [
+						"tfc:metal/chain/red_steel"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:red_steel_flail_head",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/item_heads/heavy_mace_head/black_steel_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 5,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/mace_head/black_steel"
+					]
+				},
+				{
+					"ids": [
+						"tfc:metal/ingot/black_steel"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:black_steel_heavy_mace_head",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/knight/blue_steel_chestplate",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 6,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:blue_steel_halfarmor_chestplate"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:blue_steel_knight_arms"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:blue_steel_knight_chestplate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/jacks",
+			"mod": "tfc",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:brass_rod"
+					]
+				},
+				{
+					"ids": [
+						"create:brass_sheet"
+					]
+				}
+			],
+			"resultId": "tfc:jacks",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/gothic/blue_steel_leggings",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 6,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:blue_steel_gothic_pants"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:blue_steel_gothic_knees"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:blue_steel_gothic_leggings",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/nickel_doubleplate",
+			"mod": "tfc",
+			"tfcTier": 0,
+			"inputs": [
+				{
+					"ids": [
+						"vintageimprovements:nickel_sheet"
+					]
+				},
+				{
+					"ids": [
+						"vintageimprovements:nickel_sheet"
+					]
+				}
+			],
+			"resultId": "gtceu:double_nickel_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/maximilian/blue_steel_leggings",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 6,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:blue_steel_maximilian_pants"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:blue_steel_maximilian_knees"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:blue_steel_maximilian_leggings",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/wrought_iron_shears",
+			"mod": "tfc",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:wrought_iron_knife_head"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:wrought_iron_knife_head"
+					]
+				}
+			],
+			"resultId": "tfc:metal/shears/wrought_iron",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/jousting/blue_steel_leggings",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 6,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:blue_steel_jousting_pants"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:blue_steel_jousting_knees"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:blue_steel_jousting_leggings",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/red_steel_boots",
+			"mod": "tfc",
+			"tfcTier": 5,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/unfinished_boots/red_steel"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:red_steel_plate"
+					]
+				}
+			],
+			"resultId": "tfc:metal/boots/red_steel",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/item_heads/heavy_mace_head/copper_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 1,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/mace_head/copper"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:copper_ingot"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:copper_heavy_mace_head",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/antique_bronze/bronze_sava_helmet_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:double_wrought_iron_plate"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bronze_double_ingot"
+					]
+				}
+			],
+			"resultId": "antiquelegacy:sava_helmet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/bronze_gear",
+			"mod": "tfc",
+			"tfcTier": 1,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:double_bronze_plate"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:double_bronze_plate"
+					]
+				}
+			],
+			"resultId": "gtceu:bronze_gear",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/item_heads/bastardsword_blade/blue_steel_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 6,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:blue_steel_sword_head"
+					]
+				},
+				{
+					"ids": [
+						"tfc:metal/ingot/blue_steel"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:blue_steel_bastard_sword_blade",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/wrought_iron_chestplate",
+			"mod": "tfc",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/unfinished_chestplate/wrought_iron"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:double_wrought_iron_plate"
+					]
+				}
+			],
+			"resultId": "tfc:metal/chestplate/wrought_iron",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/antique_bismuth_bronze/bismuth_bronze_provocator_helmet_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:bismuth_bronze_provocator_helm"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:bismuth_bronze_provocator_visor"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:bismuth_bronze_provocator_helmet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/antique_bronze/bronze_muscle_cuirass_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:bronze_muscle_cuirass_upper_part"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:bronze_muscle_cuirass_lower_part"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:bronze_muscle_cuirass_unfinished",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/crowns/black_steel_crown",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 0,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:black_steel_minicrown_decoration"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:amethyst_shard",
+						"minecraft:diamond",
+						"minecraft:emerald",
+						"minecraft:lapis_lazuli",
+						"minecraft:quartz",
+						"ae2:certus_quartz_crystal",
+						"ae2:charged_certus_quartz_crystal",
+						"ae2:fluix_crystal"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:black_steel_crown_decoration",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/kastenbrust/leggings",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 4,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:kastenbrust_pants"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:kastenbrust_knees"
+					]
+				}
+			],
+			"resultId": "magistuarmory:kastenbrust_leggings",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/antique_black_bronze/black_bronze_iron_thorax_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:double_wrought_iron_plate"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:black_bronze_plate"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:black_bronze_iron_thorax",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/item_heads/heavywarhammer_head/copper_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 1,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:copper_hammer_head"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:copper_double_ingot"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:copper_heavy_war_hammer_head",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/invar_longrod",
+			"mod": "tfc",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:invar_rod"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:invar_rod"
+					]
+				}
+			],
+			"resultId": "gtceu:long_invar_rod",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/item_heads/flail_head/copper_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 1,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:copper_morningstar_head"
+					]
+				},
+				{
+					"ids": [
+						"tfc:metal/chain/copper"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:copper_flail_head",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/jousting/leggings",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 4,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:jousting_pants"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:jousting_knees"
+					]
+				}
+			],
+			"resultId": "magistuarmory:jousting_leggings",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/maximilian/chestplate",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 4,
+			"inputs": [
+				{
+					"ids": [
+						"magistuarmory:halfarmor_chestplate"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:maximilian_arms"
+					]
+				}
+			],
+			"resultId": "magistuarmory:maximilian_chestplate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/knight/leggings",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 4,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:knight_pants"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:knight_knees"
+					]
+				}
+			],
+			"resultId": "magistuarmory:knight_leggings",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/item_heads/estoc_blade/blue_steel_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 6,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:blue_steel_sword_head"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:blue_steel_knife_head"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:blue_steel_estoc_blade",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/antique_bismuth_bronze/bismuth_bronze_segmentata_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:bismuth_bronze_segmentata_upper_part"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:bismuth_bronze_segmentata_lower_part"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:bismuth_bronze_segmentata",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:crafting/items/shields/target/steel_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 4,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:steel_plate"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:steel_shield_brace"
+					]
+				}
+			],
+			"resultId": "magistuarmory:steel_target",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/kastenbrust/blue_steel_helmet",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 6,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:blue_steel_halfarmor_helmet"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:blue_steel_grand_bascinet_visor"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:blue_steel_grand_bascinet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/jousting/blue_steel_chestplate",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 6,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:blue_steel_halfarmor_chestplate"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:blue_steel_jousting_arms"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:blue_steel_jousting_chestplate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/antique_bismuth_bronze/bismuth_bronze_bell_cuirass_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:bismuth_bronze_bell_cuirass_upper_part"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:bismuth_bronze_bell_cuirass_lower_part"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:bismuth_bronze_bell_cuirass",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/antique_bismuth_bronze/bismuth_bronze_heddernheim_helmet_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:double_wrought_iron_plate"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bismuth_bronze_ingot"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:bismuth_bronze_heddernheim_helmet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/copper_doubleplate",
+			"mod": "tfc",
+			"tfcTier": 0,
+			"inputs": [
+				{
+					"ids": [
+						"create:copper_sheet"
+					]
+				},
+				{
+					"ids": [
+						"create:copper_sheet"
+					]
+				}
+			],
+			"resultId": "gtceu:double_copper_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/antique_bronze/bronze_secutor_helmet_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:bronze_secutor_helm"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:bronze_secutor_visor"
+					]
+				}
+			],
+			"resultId": "antiquelegacy:secutor_helmet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/tin_doubleplate",
+			"mod": "tfc",
+			"tfcTier": 0,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:tin_plate"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:tin_plate"
+					]
+				}
+			],
+			"resultId": "gtceu:double_tin_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:crafting/items/shields/target/black_steel_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 5,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:black_steel_plate"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:black_steel_shield_brace"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:black_steel_target",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/black_bronze_gear",
+			"mod": "tfc",
+			"tfcTier": 1,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:double_black_bronze_plate"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:double_black_bronze_plate"
+					]
+				}
+			],
+			"resultId": "gtceu:black_bronze_gear",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/black_steel_boots",
+			"mod": "tfc",
+			"tfcTier": 4,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/unfinished_boots/black_steel"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:black_steel_plate"
+					]
+				}
+			],
+			"resultId": "tfc:metal/boots/black_steel",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/maximilian/red_steel_leggings",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 6,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:red_steel_maximilian_pants"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:red_steel_maximilian_knees"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:red_steel_maximilian_leggings",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/knight/red_steel_chestplate",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 6,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:red_steel_halfarmor_chestplate"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:red_steel_knight_arms"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:red_steel_knight_chestplate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/platemail/black_steel_chainmail_leggings",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 5,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:black_steel_chainmail_pants"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:black_steel_platemail_knees"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:black_steel_platemail_leggings",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/copper_doubleingot",
+			"mod": "tfc",
+			"tfcTier": 0,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:copper_ingot"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:copper_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:copper_double_ingot",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/cobalt_doubleplate",
+			"mod": "tfc",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"vintageimprovements:cobalt_sheet"
+					]
+				},
+				{
+					"ids": [
+						"vintageimprovements:cobalt_sheet"
+					]
+				}
+			],
+			"resultId": "gtceu:double_cobalt_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/jousting/black_steel_leggings",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 5,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:black_steel_jousting_pants"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:black_steel_jousting_knees"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:black_steel_jousting_leggings",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/antique_bismuth_bronze/bismuth_bronze_musculata_lower_part_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:wrought_iron_plate"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bismuth_bronze_ingot"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:bismuth_bronze_musculata_lower_part",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/maximilian/red_steel_boots",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 6,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:red_steel_knight_boots"
+					]
+				},
+				{
+					"ids": [
+						"tfc:metal/rod/red_steel"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:red_steel_maximilian_boots",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/item_heads/claymore_blade/red_steel_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 6,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:red_steel_sword_head"
+					]
+				},
+				{
+					"ids": [
+						"tfc:metal/double_ingot/red_steel"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:red_steel_claymore_blade",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/item_heads/heavywarhammer_head/black_bronze_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:black_bronze_hammer_head"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:black_bronze_double_ingot"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:black_bronze_heavy_war_hammer_head",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/item_heads/bastardsword_blade/red_steel_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 6,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:red_steel_sword_head"
+					]
+				},
+				{
+					"ids": [
+						"tfc:metal/ingot/red_steel"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:red_steel_bastard_sword_blade",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/item_heads/claymore_blade/blue_steel_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 6,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:blue_steel_sword_head"
+					]
+				},
+				{
+					"ids": [
+						"tfc:metal/double_ingot/blue_steel"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:blue_steel_claymore_blade",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/blue_steel_longrod",
+			"mod": "tfc",
+			"tfcTier": 5,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:blue_steel_rod"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:blue_steel_rod"
+					]
+				}
+			],
+			"resultId": "gtceu:long_blue_steel_rod",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/red_steel_greaves",
+			"mod": "tfc",
+			"tfcTier": 5,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/unfinished_greaves/red_steel"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:red_steel_plate"
+					]
+				}
+			],
+			"resultId": "tfc:metal/greaves/red_steel",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/bismuth_doubleingot",
+			"mod": "tfc",
+			"tfcTier": 0,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:bismuth_ingot"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bismuth_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:bismuth_double_ingot",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/platemail/chainmail_helmet",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 4,
+			"inputs": [
+				{
+					"ids": [
+						"magistuarmory:chainmail_helmet"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:platemail_helmet_unfinished"
+					]
+				}
+			],
+			"resultId": "magistuarmory:kettlehat",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/antique_bronze/bronze_segmentata_upper_part_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:wrought_iron_plate"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bronze_double_ingot"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:bronze_segmentata_upper_part",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/gothic/blue_steel_chestplate",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 6,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:blue_steel_halfarmor_chestplate"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:blue_steel_gothic_arms"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:blue_steel_gothic_chestplate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/norman/shishak",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 4,
+			"inputs": [
+				{
+					"ids": [
+						"magistuarmory:barbute"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:shishak_helmet_mask"
+					]
+				}
+			],
+			"resultId": "magistuarmory:shishak",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/item_heads/zweihander_blade/black_bronze_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:black_bronze_sword_head"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:black_bronze_sword_head"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:black_bronze_zweihander_blade",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/item_heads/claymore_blade/copper_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 1,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:copper_sword_head"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:copper_double_ingot"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:copper_claymore_blade",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/crowns/bronze_crown",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 0,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:bronze_minicrown_decoration"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:amethyst_shard",
+						"minecraft:diamond",
+						"minecraft:emerald",
+						"minecraft:lapis_lazuli",
+						"minecraft:quartz",
+						"ae2:certus_quartz_crystal",
+						"ae2:charged_certus_quartz_crystal",
+						"ae2:fluix_crystal"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:bronze_crown_decoration",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/kastenbrust/red_steel_helmet",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 6,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:red_steel_halfarmor_helmet"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:red_steel_grand_bascinet_visor"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:red_steel_grand_bascinet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/crusader/helmet",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 4,
+			"inputs": [
+				{
+					"ids": [
+						"magistuarmory:barbute"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:crusader_visor"
+					]
+				}
+			],
+			"resultId": "magistuarmory:greathelm",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/halfarmor/red_steel_chestplate",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 6,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:red_steel_halfarmor_chestplate_unfinished"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:red_steel_halfarmor_shoulder_pads"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:red_steel_halfarmor_chestplate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/bronze_doubleingot",
+			"mod": "tfc",
+			"tfcTier": 1,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:bronze_ingot"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bronze_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:bronze_double_ingot",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/item_heads/estoc_blade/copper_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 1,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:copper_sword_head"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:copper_knife_head"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:copper_estoc_blade",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/cobalt_brass_longrod",
+			"mod": "tfc",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:cobalt_brass_rod"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:cobalt_brass_rod"
+					]
+				}
+			],
+			"resultId": "gtceu:long_cobalt_brass_rod",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/tin_alloy_doubleingot",
+			"mod": "tfc",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:tin_alloy_ingot"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:tin_alloy_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:tin_alloy_double_ingot",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/rose_gold_longrod",
+			"mod": "tfc",
+			"tfcTier": 0,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:rose_gold_rod"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:rose_gold_rod"
+					]
+				}
+			],
+			"resultId": "gtceu:long_rose_gold_rod",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:crafting/items/shields/target/iron_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 3,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:wrought_iron_plate"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:iron_shield_brace"
+					]
+				}
+			],
+			"resultId": "magistuarmory:iron_target",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/blue_steel_helmet",
+			"mod": "tfc",
+			"tfcTier": 5,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/unfinished_helmet/blue_steel"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:blue_steel_plate"
+					]
+				}
+			],
+			"resultId": "tfc:metal/helmet/blue_steel",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/item_heads/flail_head/black_bronze_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:black_bronze_morningstar_head"
+					]
+				},
+				{
+					"ids": [
+						"tfc:metal/chain/black_bronze"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:black_bronze_flail_head",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/bismuth_bronze_boots",
+			"mod": "tfc",
+			"tfcTier": 1,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/unfinished_boots/bismuth_bronze"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bismuth_bronze_plate"
+					]
+				}
+			],
+			"resultId": "tfc:metal/boots/bismuth_bronze",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:anvil/vanilla_bucket",
+			"mod": "tfg",
+			"tfcTier": 6,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/bucket/red_steel"
+					]
+				},
+				{
+					"ids": [
+						"tfc:metal/bucket/blue_steel"
+					]
+				}
+			],
+			"resultId": "minecraft:bucket",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/black_bronze_doubleplate",
+			"mod": "tfc",
+			"tfcTier": 1,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:black_bronze_plate"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:black_bronze_plate"
+					]
+				}
+			],
+			"resultId": "gtceu:double_black_bronze_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/gothic/red_steel_chestplate",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 6,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:red_steel_halfarmor_chestplate"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:red_steel_gothic_arms"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:red_steel_gothic_chestplate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/antique_bronze/bronze_provocator_helmet_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:bronze_provocator_helm"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:bronze_provocator_visor"
+					]
+				}
+			],
+			"resultId": "antiquelegacy:provocator_helmet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/jousting/black_steel_helmet",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 5,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:black_steel_halfarmor_helmet"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:black_steel_jousting_visor"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:black_steel_stechhelm",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/maximilian/leggings",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 4,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:maximilian_pants"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:maximilian_knees"
+					]
+				}
+			],
+			"resultId": "magistuarmory:maximilian_leggings",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/maximilian/blue_steel_helmet",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 6,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:blue_steel_halfarmor_helmet"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:blue_steel_maximilian_visor"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:blue_steel_maximilian_helmet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:crafting/items/shields/buckler/black_steel_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 5,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/double_ingot/black_steel"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:black_steel_shield_brace"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:black_steel_buckler",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/lead_longrod",
+			"mod": "tfc",
+			"tfcTier": 1,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:lead_rod"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:lead_rod"
+					]
+				}
+			],
+			"resultId": "gtceu:long_lead_rod",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/brass_doubleplate",
+			"mod": "tfc",
+			"tfcTier": 1,
+			"inputs": [
+				{
+					"ids": [
+						"create:brass_sheet"
+					]
+				},
+				{
+					"ids": [
+						"create:brass_sheet"
+					]
+				}
+			],
+			"resultId": "gtceu:double_brass_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/item_heads/zweihander_blade/blue_steel_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 6,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:blue_steel_sword_head"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:blue_steel_sword_head"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:blue_steel_zweihander_blade",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/steel_greaves",
+			"mod": "tfc",
+			"tfcTier": 3,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:metal/unfinished_greaves/steel"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:steel_plate"
+					]
+				}
+			],
+			"resultId": "tfc:metal/greaves/steel",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/copper_longrod",
+			"mod": "tfc",
+			"tfcTier": 0,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:copper_rod"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:copper_rod"
+					]
+				}
+			],
+			"resultId": "gtceu:long_copper_rod",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/gothic/helmet",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 4,
+			"inputs": [
+				{
+					"ids": [
+						"magistuarmory:barbute"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:gothic_visor"
+					]
+				}
+			],
+			"resultId": "magistuarmory:sallet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/steel_doubleplate",
+			"mod": "tfc",
+			"tfcTier": 3,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:steel_plate"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:steel_plate"
+					]
+				}
+			],
+			"resultId": "gtceu:double_steel_plate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/tin_alloy_longrod",
+			"mod": "tfc",
+			"tfcTier": 2,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:tin_alloy_rod"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:tin_alloy_rod"
+					]
+				}
+			],
+			"resultId": "gtceu:long_tin_alloy_rod",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/black_steel_shears",
+			"mod": "tfc",
+			"tfcTier": 4,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:black_steel_knife_head"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:black_steel_knife_head"
+					]
+				}
+			],
+			"resultId": "tfc:metal/shears/black_steel",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/steel_doubleingot",
+			"mod": "tfc",
+			"tfcTier": 3,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:steel_ingot"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:steel_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:steel_double_ingot",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:welding/black_bronze_doubleingot",
+			"mod": "tfc",
+			"tfcTier": 1,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:black_bronze_ingot"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:black_bronze_ingot"
+					]
+				}
+			],
+			"resultId": "gtceu:black_bronze_double_ingot",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/kastenbrust/red_steel_chestplate",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 6,
+			"inputs": [
+				{
+					"ids": [
+						"knightsofterrafirma:red_steel_halfarmor_chestplate"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:red_steel_kastenbrust_arms"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:red_steel_kastenbrust_chestplate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/armor/xivcentury/helmet",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 4,
+			"inputs": [
+				{
+					"ids": [
+						"magistuarmory:barbute"
+					]
+				},
+				{
+					"ids": [
+						"knightsofterrafirma:bascinet_visor"
+					]
+				}
+			],
+			"resultId": "magistuarmory:bascinet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:welding/item_heads/claymore_blade/steel_welding",
+			"mod": "knightsofterrafirma",
+			"tfcTier": 4,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:steel_sword_head"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:steel_double_ingot"
+					]
+				}
+			],
+			"resultId": "knightsofterrafirma:steel_claymore_blade",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		}
+	]
+}

@@ -1,0 +1,67 @@
+{
+	"type": "gtceu:large_solar_panel",
+	"recipes": [
+		{
+			"id": "gtceu:large_solar_panel/solar_panel_t1_emergency",
+			"category": "large_solar_panel",
+			"duration": 400,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:photo_cell_t1"
+					],
+					"amount": 1,
+					"chanced": true,
+					"chance": 100,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": []
+		},
+		{
+			"id": "gtceu:large_solar_panel/solar_panel_t1",
+			"category": "large_solar_panel",
+			"duration": 400,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:photo_cell_t1"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": []
+		}
+	]
+}

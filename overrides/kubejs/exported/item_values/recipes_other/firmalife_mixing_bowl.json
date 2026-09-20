@@ -1,0 +1,3384 @@
+{
+	"type": "firmalife:mixing_bowl",
+	"recipes": [
+		{
+			"id": "tfg:mixing_bowl/fire_resistance_salvo_with_herbal_slime_ball",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:sticky_resin"
+					]
+				},
+				{
+					"ids": [
+						"tfc:plant/cattail",
+						"tfc:plant/meads_milkweed",
+						"firmalife:plant/bay_laurel",
+						"beneath:ghost_pepper",
+						"tfg:plant/flame_vine"
+					]
+				},
+				{
+					"ids": [
+						"jellies:jellie/slime_ball/herbal"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:empty"
+					],
+					"fluidAmount": 0
+				}
+			],
+			"resultId": "tfg:fire_resistance_salvo",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:mixing_bowl/4x_tfg_food_brioche_dough",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:egg",
+						"species:birt_egg",
+						"species:cruncher_egg",
+						"species:springling_egg",
+						"species:petrified_egg",
+						"tfg:sniffer_egg",
+						"tfg:wraptor_egg",
+						"wan_ancient_beasts:eater_egg"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/barley_flour",
+						"tfc:food/maize_flour",
+						"tfc:food/oat_flour",
+						"tfc:food/rice_flour",
+						"tfc:food/rye_flour",
+						"tfc:food/wheat_flour"
+					]
+				},
+				{
+					"ids": [
+						"firmalife:tirage_mixture"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:milk",
+						"firmalife:yak_milk",
+						"firmalife:goat_milk"
+					],
+					"fluidAmount": 500
+				}
+			],
+			"resultId": "tfg:food/brioche_dough",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:mixing_bowl/pill_poison_with_herbal_slime_ball",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:wax_dust",
+						"tfg:paraffin_wax",
+						"firmalife:beeswax",
+						"tfg:conifer_rosin",
+						"tfg:crimsene_gem",
+						"tfg:warpane_gem"
+					]
+				},
+				{
+					"ids": [
+						"tfc:plant/butterfly_milkweed",
+						"tfc:plant/grape_hyacinth",
+						"tfc:plant/lily_of_the_valley",
+						"tfc:plant/pulsatilla",
+						"firmalife:food/nightshade_berry",
+						"tfg:food/fly_agaric",
+						"tfg:plant/wither_rose",
+						"minecraft:spider_eye"
+					]
+				},
+				{
+					"ids": [
+						"jellies:jellie/slime_ball/herbal"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:empty"
+					],
+					"fluidAmount": 0
+				}
+			],
+			"resultId": "tfg:poison_pill",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:mixing_bowl/cake",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"createaddition:cake_base_baked"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/strawberry"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/strawberry"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/strawberry"
+					]
+				},
+				{
+					"ids": [
+						"firmalife:spice/vanilla"
+					]
+				},
+				{
+					"ids": [
+						"tfcchannelcasting:white_chocolate"
+					],
+					"fluidAmount": 400
+				}
+			],
+			"resultId": "tfc:cake",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:mixing_bowl/wheat_flatbread_dough",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:food/wheat_flour"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 100
+				}
+			],
+			"resultId": "tfc:food/wheat_dough",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "firmalife:kjs/e17vh7jp5u7arjvx9injqc1p",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"ae2:sky_dust",
+						"gtceu:stone_dust",
+						"tfg:sedimentary_clastic_dust",
+						"tfg:sedimentary_carbonate_dust",
+						"tfg:sedimentary_organic_dust",
+						"tfg:metamorphic_dust",
+						"tfg:igneous_ultramafic_dust",
+						"tfg:igneous_mafic_dust"
+					]
+				},
+				{
+					"ids": [
+						"ae2:sky_dust",
+						"gtceu:stone_dust",
+						"tfg:sedimentary_clastic_dust",
+						"tfg:sedimentary_carbonate_dust",
+						"tfg:sedimentary_organic_dust",
+						"tfg:metamorphic_dust",
+						"tfg:igneous_ultramafic_dust",
+						"tfg:igneous_mafic_dust"
+					]
+				},
+				{
+					"ids": [
+						"ae2:sky_dust",
+						"gtceu:stone_dust",
+						"tfg:sedimentary_clastic_dust",
+						"tfg:sedimentary_carbonate_dust",
+						"tfg:sedimentary_organic_dust",
+						"tfg:metamorphic_dust",
+						"tfg:igneous_ultramafic_dust",
+						"tfg:igneous_mafic_dust"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:calcite_dust"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:gypsum_dust"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 1000
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": true,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:mixing_bowl/oat_dough",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:food/oat_flour"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:sugar",
+						"afc:birch_sugar",
+						"afc:maple_sugar",
+						"firmalife:raw_honey",
+						"tfg:wraptor_sugar"
+					]
+				},
+				{
+					"ids": [
+						"firmalife:yeast_starter"
+					],
+					"fluidAmount": 100
+				}
+			],
+			"resultId": "firmalife:food/oat_dough",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:mixing_bowl/luck_salvo_with_herbal_slime_ball",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:sticky_resin"
+					]
+				},
+				{
+					"ids": [
+						"tfc:plant/goldenrod",
+						"tfc:plant/heather"
+					]
+				},
+				{
+					"ids": [
+						"jellies:jellie/slime_ball/herbal"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:empty"
+					],
+					"fluidAmount": 0
+				}
+			],
+			"resultId": "tfg:luck_salvo",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:mixing_bowl/rice_dough",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:food/rice_flour"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:sugar",
+						"afc:birch_sugar",
+						"afc:maple_sugar",
+						"firmalife:raw_honey",
+						"tfg:wraptor_sugar"
+					]
+				},
+				{
+					"ids": [
+						"firmalife:yeast_starter"
+					],
+					"fluidAmount": 100
+				}
+			],
+			"resultId": "firmalife:food/rice_dough",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "firmalife:mixing_bowl/pie_dough",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"firmalife:food/butter"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/barley_flour",
+						"tfc:food/maize_flour",
+						"tfc:food/oat_flour",
+						"tfc:food/rice_flour",
+						"tfc:food/rye_flour",
+						"tfc:food/wheat_flour"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:sugar",
+						"afc:birch_sugar",
+						"afc:maple_sugar",
+						"firmalife:raw_honey",
+						"tfg:wraptor_sugar"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 1000
+				}
+			],
+			"resultId": "firmalife:food/pie_dough",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:mixing_bowl/pill_slowness",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:wax_dust",
+						"tfg:paraffin_wax",
+						"firmalife:beeswax",
+						"tfg:conifer_rosin",
+						"tfg:crimsene_gem",
+						"tfg:warpane_gem"
+					]
+				},
+				{
+					"ids": [
+						"tfc:plant/marigold",
+						"tfc:plant/nasturtium",
+						"tfc:plant/snapdragon_red",
+						"tfc:plant/snapdragon_white",
+						"tfc:plant/snapdragon_yellow"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:sulfur_dust"
+					]
+				},
+				{
+					"ids": [
+						"tfc:spring_water"
+					],
+					"fluidAmount": 250
+				}
+			],
+			"resultId": "tfg:slowness_pill",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:mixing_bowl/oat_flatbread_dough",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:food/oat_flour"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 100
+				}
+			],
+			"resultId": "tfc:food/oat_dough",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:mixing_bowl/cultured_milk_from_fruit_leaf",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"firmalife:fruit_leaf"
+					]
+				},
+				{
+					"ids": [
+						"firmalife:fruit_leaf"
+					]
+				},
+				{
+					"ids": [
+						"firmalife:fruit_leaf"
+					]
+				},
+				{
+					"ids": [
+						"firmalife:fruit_leaf"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:milk",
+						"firmalife:yak_milk",
+						"firmalife:goat_milk"
+					],
+					"fluidAmount": 1000
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": true,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:mixing_bowl/maize_dough",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:food/maize_flour"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:sugar",
+						"afc:birch_sugar",
+						"afc:maple_sugar",
+						"firmalife:raw_honey",
+						"tfg:wraptor_sugar"
+					]
+				},
+				{
+					"ids": [
+						"firmalife:yeast_starter"
+					],
+					"fluidAmount": 100
+				}
+			],
+			"resultId": "firmalife:food/maize_dough",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:mixing_bowl/chipboard_composite_glue",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:hardwood_dust",
+						"gtceu:wood_dust"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:hardwood_dust",
+						"gtceu:wood_dust"
+					]
+				},
+				{
+					"ids": [
+						"tfc:glue"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:empty"
+					],
+					"fluidAmount": 0
+				}
+			],
+			"resultId": "tfg:chipboard_composite",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:mixing_bowl/rye_dough",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:food/rye_flour"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:sugar",
+						"afc:birch_sugar",
+						"afc:maple_sugar",
+						"firmalife:raw_honey",
+						"tfg:wraptor_sugar"
+					]
+				},
+				{
+					"ids": [
+						"firmalife:yeast_starter"
+					],
+					"fluidAmount": 100
+				}
+			],
+			"resultId": "firmalife:food/rye_dough",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:mixing_bowl/combat_powder_with_herbal_slime_ball",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:plant/prickly_pear",
+						"tfg:plant/prickly_pear_purple",
+						"tfc:powder/sulfur"
+					]
+				},
+				{
+					"ids": [
+						"tfc:plant/hibiscus",
+						"tfg:plant/palash",
+						"gtceu:calcium_dust"
+					]
+				},
+				{
+					"ids": [
+						"jellies:jellie/slime_ball/herbal"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:empty"
+					],
+					"fluidAmount": 0
+				}
+			],
+			"resultId": "tfg:combat_powder",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:mixing_bowl/acrobat_powder",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:plant/penwortel",
+						"tfg:plant/qantu",
+						"tfc:plant/silver_spurflower"
+					]
+				},
+				{
+					"ids": [
+						"tfc:plant/reindeer_lichen",
+						"tfc:plant/spanish_moss",
+						"tfg:plant/mountain_hullwort"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:bone_meal"
+					]
+				},
+				{
+					"ids": [
+						"tfg:conifer_pitch"
+					],
+					"fluidAmount": 100
+				}
+			],
+			"resultId": "tfg:acrobat_powder",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:mixing_bowl/pill_haste",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:wax_dust",
+						"tfg:paraffin_wax",
+						"firmalife:beeswax",
+						"tfg:conifer_rosin",
+						"tfg:crimsene_gem",
+						"tfg:warpane_gem"
+					]
+				},
+				{
+					"ids": [
+						"tfg:wraptor_sugar",
+						"minecraft:sugar",
+						"afc:birch_sugar",
+						"afc:maple_sugar",
+						"wan_ancient_beasts:moonflower"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:tricalcium_phosphate_dust"
+					]
+				},
+				{
+					"ids": [
+						"tfc:spring_water"
+					],
+					"fluidAmount": 250
+				}
+			],
+			"resultId": "tfg:haste_pill",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "firmalife:kjs/cuc4wpbad9lr0omlb7gu2euu0",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"ae2:sky_dust",
+						"gtceu:stone_dust",
+						"tfg:sedimentary_clastic_dust",
+						"tfg:sedimentary_carbonate_dust",
+						"tfg:sedimentary_organic_dust",
+						"tfg:metamorphic_dust",
+						"tfg:igneous_ultramafic_dust",
+						"tfg:igneous_mafic_dust"
+					]
+				},
+				{
+					"ids": [
+						"ae2:sky_dust",
+						"gtceu:stone_dust",
+						"tfg:sedimentary_clastic_dust",
+						"tfg:sedimentary_carbonate_dust",
+						"tfg:sedimentary_organic_dust",
+						"tfg:metamorphic_dust",
+						"tfg:igneous_ultramafic_dust",
+						"tfg:igneous_mafic_dust"
+					]
+				},
+				{
+					"ids": [
+						"ae2:sky_dust",
+						"gtceu:stone_dust",
+						"tfg:sedimentary_clastic_dust",
+						"tfg:sedimentary_carbonate_dust",
+						"tfg:sedimentary_organic_dust",
+						"tfg:metamorphic_dust",
+						"tfg:igneous_ultramafic_dust",
+						"tfg:igneous_mafic_dust"
+					]
+				},
+				{
+					"ids": [
+						"tfg:sedimentary_carbonate_dust"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:gypsum_dust"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 1000
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": true,
+			"extraOutputs": []
+		},
+		{
+			"id": "firmalife:mixing_bowl/dark_chocolate_blend",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:sugar",
+						"afc:birch_sugar",
+						"afc:maple_sugar",
+						"firmalife:raw_honey",
+						"tfg:wraptor_sugar"
+					]
+				},
+				{
+					"ids": [
+						"firmalife:food/cocoa_powder"
+					]
+				},
+				{
+					"ids": [
+						"firmalife:food/cocoa_powder"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:milk",
+						"firmalife:yak_milk",
+						"firmalife:goat_milk"
+					],
+					"fluidAmount": 1000
+				}
+			],
+			"resultId": "firmalife:food/dark_chocolate_blend",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:mixing_bowl/instant_health_salvo_with_herbal_slime_ball",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:sticky_resin"
+					]
+				},
+				{
+					"ids": [
+						"tfc:plant/foxglove",
+						"tfc:plant/artists_conk"
+					]
+				},
+				{
+					"ids": [
+						"jellies:jellie/slime_ball/herbal"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:empty"
+					],
+					"fluidAmount": 0
+				}
+			],
+			"resultId": "tfg:instant_health_salvo",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:mixing_bowl/firmalife_food_chocolate_ice_cream",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"firmalife:food/vanilla_ice_cream"
+					]
+				},
+				{
+					"ids": [
+						"tfcchannelcasting:milk_chocolate"
+					],
+					"fluidAmount": 100
+				}
+			],
+			"resultId": "firmalife:food/chocolate_ice_cream",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "firmalife:mixing_bowl/milk_chocolate_blend",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:sugar",
+						"afc:birch_sugar",
+						"afc:maple_sugar",
+						"firmalife:raw_honey",
+						"tfg:wraptor_sugar"
+					]
+				},
+				{
+					"ids": [
+						"firmalife:food/cocoa_butter"
+					]
+				},
+				{
+					"ids": [
+						"firmalife:food/cocoa_powder"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:milk",
+						"firmalife:yak_milk",
+						"firmalife:goat_milk"
+					],
+					"fluidAmount": 1000
+				}
+			],
+			"resultId": "firmalife:food/milk_chocolate_blend",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "firmalife:mixing_bowl/cookie_dough_ice_cream",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"firmalife:food/vanilla_ice_cream"
+					]
+				},
+				{
+					"ids": [
+						"firmalife:food/chocolate_chip_cookie_dough"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:empty"
+					],
+					"fluidAmount": 0
+				}
+			],
+			"resultId": "firmalife:food/cookie_dough_ice_cream",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "firmalife:kjs/eez3h05w7zhygs6pkgigzsqx5",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"ae2:sky_dust",
+						"gtceu:stone_dust",
+						"tfg:sedimentary_clastic_dust",
+						"tfg:sedimentary_carbonate_dust",
+						"tfg:sedimentary_organic_dust",
+						"tfg:metamorphic_dust",
+						"tfg:igneous_ultramafic_dust",
+						"tfg:igneous_mafic_dust"
+					]
+				},
+				{
+					"ids": [
+						"ae2:sky_dust",
+						"gtceu:stone_dust",
+						"tfg:sedimentary_clastic_dust",
+						"tfg:sedimentary_carbonate_dust",
+						"tfg:sedimentary_organic_dust",
+						"tfg:metamorphic_dust",
+						"tfg:igneous_ultramafic_dust",
+						"tfg:igneous_mafic_dust"
+					]
+				},
+				{
+					"ids": [
+						"ae2:sky_dust",
+						"gtceu:stone_dust",
+						"tfg:sedimentary_clastic_dust",
+						"tfg:sedimentary_carbonate_dust",
+						"tfg:sedimentary_organic_dust",
+						"tfg:metamorphic_dust",
+						"tfg:igneous_ultramafic_dust",
+						"tfg:igneous_mafic_dust"
+					]
+				},
+				{
+					"ids": [
+						"tfg:sedimentary_carbonate_dust"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:clay_dust"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 500
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": true,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:mixing_bowl/pill_weakness_with_herbal_slime_ball",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:wax_dust",
+						"tfg:paraffin_wax",
+						"firmalife:beeswax",
+						"tfg:conifer_rosin",
+						"tfg:crimsene_gem",
+						"tfg:warpane_gem"
+					]
+				},
+				{
+					"ids": [
+						"tfc:plant/laminaria",
+						"tfc:plant/sea_palm",
+						"tfc:plant/sea_lavender",
+						"tfc:plant/canna",
+						"tfc:plant/water_canna"
+					]
+				},
+				{
+					"ids": [
+						"jellies:jellie/slime_ball/herbal"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:empty"
+					],
+					"fluidAmount": 0
+				}
+			],
+			"resultId": "tfg:weakness_pill",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:mixing_bowl/pill_regeneration",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:wax_dust",
+						"tfg:paraffin_wax",
+						"firmalife:beeswax",
+						"tfg:conifer_rosin",
+						"tfg:crimsene_gem",
+						"tfg:warpane_gem"
+					]
+				},
+				{
+					"ids": [
+						"tfc:plant/lilac",
+						"tfc:plant/field_horsetail",
+						"tfc:plant/licorice_fern",
+						"tfc:plant/sacred_datura"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:tricalcium_phosphate_dust"
+					]
+				},
+				{
+					"ids": [
+						"tfc:spring_water"
+					],
+					"fluidAmount": 250
+				}
+			],
+			"resultId": "tfg:regeneration_pill",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:mixing_bowl/recovery_powder_with_herbal_slime_ball",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:plant/foxglove",
+						"tfc:plant/artists_conk"
+					]
+				},
+				{
+					"ids": [
+						"tfc:plant/lilac",
+						"tfc:plant/field_horsetail",
+						"tfc:plant/licorice_fern",
+						"tfc:plant/sacred_datura"
+					]
+				},
+				{
+					"ids": [
+						"jellies:jellie/slime_ball/herbal"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:empty"
+					],
+					"fluidAmount": 0
+				}
+			],
+			"resultId": "tfg:recovery_powder",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:mixing_bowl/instant_health_salvo",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:sticky_resin"
+					]
+				},
+				{
+					"ids": [
+						"tfc:plant/foxglove",
+						"tfc:plant/artists_conk"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:tricalcium_phosphate_dust"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:creosote"
+					],
+					"fluidAmount": 500
+				}
+			],
+			"resultId": "tfg:instant_health_salvo",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:mixing_bowl/treated_chipboard_composite_resin",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:treated_wood_dust"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:treated_wood_dust"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:treated_wood_dust"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:treated_wood_dust"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:sticky_resin"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:empty"
+					],
+					"fluidAmount": 0
+				}
+			],
+			"resultId": "tfg:treated_chipboard_composite",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:mixing_bowl/luck_salvo",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:sticky_resin"
+					]
+				},
+				{
+					"ids": [
+						"tfc:plant/goldenrod",
+						"tfc:plant/heather"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:tricalcium_phosphate_dust"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:creosote"
+					],
+					"fluidAmount": 500
+				}
+			],
+			"resultId": "tfg:luck_salvo",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:mixing_bowl/pill_regeneration_with_herbal_slime_ball",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:wax_dust",
+						"tfg:paraffin_wax",
+						"firmalife:beeswax",
+						"tfg:conifer_rosin",
+						"tfg:crimsene_gem",
+						"tfg:warpane_gem"
+					]
+				},
+				{
+					"ids": [
+						"tfc:plant/lilac",
+						"tfc:plant/field_horsetail",
+						"tfc:plant/licorice_fern",
+						"tfc:plant/sacred_datura"
+					]
+				},
+				{
+					"ids": [
+						"jellies:jellie/slime_ball/herbal"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:empty"
+					],
+					"fluidAmount": 0
+				}
+			],
+			"resultId": "tfg:regeneration_pill",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:mixing_bowl/pill_slowness_with_herbal_slime_ball",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:wax_dust",
+						"tfg:paraffin_wax",
+						"firmalife:beeswax",
+						"tfg:conifer_rosin",
+						"tfg:crimsene_gem",
+						"tfg:warpane_gem"
+					]
+				},
+				{
+					"ids": [
+						"tfc:plant/marigold",
+						"tfc:plant/nasturtium",
+						"tfc:plant/snapdragon_red",
+						"tfc:plant/snapdragon_white",
+						"tfc:plant/snapdragon_yellow"
+					]
+				},
+				{
+					"ids": [
+						"jellies:jellie/slime_ball/herbal"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:empty"
+					],
+					"fluidAmount": 0
+				}
+			],
+			"resultId": "tfg:slowness_pill",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:mixing_bowl/pill_weakness",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:wax_dust",
+						"tfg:paraffin_wax",
+						"firmalife:beeswax",
+						"tfg:conifer_rosin",
+						"tfg:crimsene_gem",
+						"tfg:warpane_gem"
+					]
+				},
+				{
+					"ids": [
+						"tfc:plant/laminaria",
+						"tfc:plant/sea_palm",
+						"tfc:plant/sea_lavender",
+						"tfc:plant/canna",
+						"tfc:plant/water_canna"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:sulfur_dust"
+					]
+				},
+				{
+					"ids": [
+						"tfc:spring_water"
+					],
+					"fluidAmount": 250
+				}
+			],
+			"resultId": "tfg:weakness_pill",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:mixing_bowl/chipboard_composite_resin",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:hardwood_dust",
+						"gtceu:wood_dust"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:hardwood_dust",
+						"gtceu:wood_dust"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:hardwood_dust",
+						"gtceu:wood_dust"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:hardwood_dust",
+						"gtceu:wood_dust"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:sticky_resin"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:empty"
+					],
+					"fluidAmount": 0
+				}
+			],
+			"resultId": "tfg:chipboard_composite",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:mixing_bowl/pill_water_breathing",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:wax_dust",
+						"tfg:paraffin_wax",
+						"firmalife:beeswax",
+						"tfg:conifer_rosin",
+						"tfg:crimsene_gem",
+						"tfg:warpane_gem"
+					]
+				},
+				{
+					"ids": [
+						"tfc:powder/saltpeter",
+						"tfc:powder/charcoal",
+						"tfg:rapeseed_product"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:tricalcium_phosphate_dust"
+					]
+				},
+				{
+					"ids": [
+						"tfc:spring_water"
+					],
+					"fluidAmount": 250
+				}
+			],
+			"resultId": "tfg:water_breathing_pill",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "firmalife:mixing_bowl/pizza_dough",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:food/barley_dough",
+						"tfc:food/maize_dough",
+						"tfc:food/oat_dough",
+						"tfc:food/rice_dough",
+						"tfc:food/rye_dough",
+						"tfc:food/wheat_dough",
+						"firmalife:food/wheat_dough",
+						"firmalife:food/rye_dough"
+					]
+				},
+				{
+					"ids": [
+						"tfc:powder/salt"
+					]
+				},
+				{
+					"ids": [
+						"firmalife:spice/basil_leaves"
+					]
+				},
+				{
+					"ids": [
+						"firmalife:soybean_oil",
+						"tfc:olive_oil",
+						"tfc:tallow",
+						"gtceu:seed_oil",
+						"gtceu:fish_oil",
+						"tfg:triglyceride_oil",
+						"tfg:peanut_oil",
+						"tfg:palm_oil"
+					],
+					"fluidAmount": 100
+				}
+			],
+			"resultId": "firmalife:food/pizza_dough",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "firmalife:mixing_bowl/pumpkin_pie_dough",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:egg",
+						"species:birt_egg",
+						"species:cruncher_egg",
+						"species:springling_egg",
+						"species:petrified_egg",
+						"tfg:sniffer_egg",
+						"tfg:wraptor_egg",
+						"wan_ancient_beasts:eater_egg"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/pumpkin_chunks"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/pumpkin_chunks"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/barley_flour",
+						"tfc:food/maize_flour",
+						"tfc:food/oat_flour",
+						"tfc:food/rice_flour",
+						"tfc:food/rye_flour",
+						"tfc:food/wheat_flour"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:sugar",
+						"afc:birch_sugar",
+						"afc:maple_sugar",
+						"firmalife:raw_honey",
+						"tfg:wraptor_sugar"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 1000
+				}
+			],
+			"resultId": "firmalife:food/pumpkin_pie_dough",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:mixing_bowl/dark_chocolate_cake",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"createaddition:cake_base_baked"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/cherry"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/cherry"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/cherry"
+					]
+				},
+				{
+					"ids": [
+						"firmalife:food/cocoa_powder"
+					]
+				},
+				{
+					"ids": [
+						"tfcchannelcasting:dark_chocolate"
+					],
+					"fluidAmount": 400
+				}
+			],
+			"resultId": "createaddition:chocolate_cake",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:mixing_bowl/fire_resistance_salvo",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:sticky_resin"
+					]
+				},
+				{
+					"ids": [
+						"tfc:plant/cattail",
+						"tfc:plant/meads_milkweed",
+						"firmalife:plant/bay_laurel",
+						"beneath:ghost_pepper",
+						"tfg:plant/flame_vine"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:tricalcium_phosphate_dust"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:creosote"
+					],
+					"fluidAmount": 500
+				}
+			],
+			"resultId": "tfg:fire_resistance_salvo",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "firmalife:mixing_bowl/white_chocolate_blend",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:sugar",
+						"afc:birch_sugar",
+						"afc:maple_sugar",
+						"firmalife:raw_honey",
+						"tfg:wraptor_sugar"
+					]
+				},
+				{
+					"ids": [
+						"firmalife:food/cocoa_butter"
+					]
+				},
+				{
+					"ids": [
+						"firmalife:food/cocoa_butter"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:milk",
+						"firmalife:yak_milk",
+						"firmalife:goat_milk"
+					],
+					"fluidAmount": 1000
+				}
+			],
+			"resultId": "firmalife:food/white_chocolate_blend",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:mixing_bowl/2x_tfg_food_buttered_popcorn",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:food/popcorn"
+					]
+				},
+				{
+					"ids": [
+						"tfg:food/popcorn"
+					]
+				},
+				{
+					"ids": [
+						"firmalife:food/butter"
+					]
+				},
+				{
+					"ids": [
+						"tfc:powder/salt"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:empty"
+					],
+					"fluidAmount": 0
+				}
+			],
+			"resultId": "tfg:food/buttered_popcorn",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:mixing_bowl/absorption_salvo_with_herbal_slime_ball",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:sticky_resin"
+					]
+				},
+				{
+					"ids": [
+						"tfc:plant/poppy",
+						"tfg:plant/silver_bromeliad",
+						"tfg:plant/tank_bromeliad"
+					]
+				},
+				{
+					"ids": [
+						"jellies:jellie/slime_ball/herbal"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:empty"
+					],
+					"fluidAmount": 0
+				}
+			],
+			"resultId": "tfg:absorption_salvo",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:mixing_bowl/pill_antipoison",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:wax_dust",
+						"tfg:paraffin_wax",
+						"firmalife:beeswax",
+						"tfg:conifer_rosin",
+						"tfg:crimsene_gem",
+						"tfg:warpane_gem"
+					]
+				},
+				{
+					"ids": [
+						"tfc:plant/blood_lily",
+						"tfc:plant/pistia",
+						"tfc:powder/bismuthinite",
+						"gtceu:mica_dust",
+						"gtceu:fullers_earth_dust"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:tricalcium_phosphate_dust"
+					]
+				},
+				{
+					"ids": [
+						"tfc:spring_water"
+					],
+					"fluidAmount": 250
+				}
+			],
+			"resultId": "tfg:antipoison_pill",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:mixing_bowl/treated_chipboard_composite_glue",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:treated_wood_dust"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:treated_wood_dust"
+					]
+				},
+				{
+					"ids": [
+						"tfc:glue"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:empty"
+					],
+					"fluidAmount": 0
+				}
+			],
+			"resultId": "tfg:treated_chipboard_composite",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:mixing_bowl/mining_powder",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:wraptor_sugar",
+						"minecraft:sugar",
+						"afc:birch_sugar",
+						"afc:maple_sugar",
+						"wan_ancient_beasts:moonflower"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/carrot",
+						"beneath:gleamflower",
+						"tfg:sunflower_product"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:bone_meal"
+					]
+				},
+				{
+					"ids": [
+						"tfg:conifer_pitch"
+					],
+					"fluidAmount": 100
+				}
+			],
+			"resultId": "tfg:mining_powder",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:mixing_bowl/cultured_milk_from_yogurt",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:food/yogurt"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:milk",
+						"firmalife:yak_milk",
+						"firmalife:goat_milk"
+					],
+					"fluidAmount": 1000
+				}
+			],
+			"resultId": "tfc:empty_jar",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:mixing_bowl/pill_night_vision",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:wax_dust",
+						"tfg:paraffin_wax",
+						"firmalife:beeswax",
+						"tfg:conifer_rosin",
+						"tfg:crimsene_gem",
+						"tfg:warpane_gem"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/carrot",
+						"beneath:gleamflower",
+						"tfg:sunflower_product"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:tricalcium_phosphate_dust"
+					]
+				},
+				{
+					"ids": [
+						"tfc:spring_water"
+					],
+					"fluidAmount": 250
+				}
+			],
+			"resultId": "tfg:night_vision_pill",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:mixing_bowl/chipboard_composite_wax",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:hardwood_dust",
+						"gtceu:wood_dust"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:hardwood_dust",
+						"gtceu:wood_dust"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:wax_dust",
+						"tfg:paraffin_wax",
+						"firmalife:beeswax",
+						"tfg:conifer_rosin",
+						"tfg:crimsene_gem",
+						"tfg:warpane_gem"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:empty"
+					],
+					"fluidAmount": 0
+				}
+			],
+			"resultId": "tfg:chipboard_composite",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:mixing_bowl/barley_flatbread_dough",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:food/barley_flour"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 100
+				}
+			],
+			"resultId": "tfc:food/barley_dough",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:mixing_bowl/acrobat_powder_with_herbal_slime_ball",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:plant/penwortel",
+						"tfg:plant/qantu",
+						"tfc:plant/silver_spurflower"
+					]
+				},
+				{
+					"ids": [
+						"tfc:plant/reindeer_lichen",
+						"tfc:plant/spanish_moss",
+						"tfg:plant/mountain_hullwort"
+					]
+				},
+				{
+					"ids": [
+						"jellies:jellie/slime_ball/herbal"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:empty"
+					],
+					"fluidAmount": 0
+				}
+			],
+			"resultId": "tfg:acrobat_powder",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:mixing_bowl/cake_base",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:egg",
+						"species:birt_egg",
+						"species:cruncher_egg",
+						"species:springling_egg",
+						"species:petrified_egg",
+						"tfg:sniffer_egg",
+						"tfg:wraptor_egg",
+						"wan_ancient_beasts:eater_egg"
+					]
+				},
+				{
+					"ids": [
+						"tfg:wraptor_sugar",
+						"minecraft:sugar",
+						"afc:birch_sugar",
+						"afc:maple_sugar"
+					]
+				},
+				{
+					"ids": [
+						"tfg:wraptor_sugar",
+						"minecraft:sugar",
+						"afc:birch_sugar",
+						"afc:maple_sugar"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/barley_flour",
+						"tfc:food/maize_flour",
+						"tfc:food/oat_flour",
+						"tfc:food/rice_flour",
+						"tfc:food/rye_flour",
+						"tfc:food/wheat_flour"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/barley_flour",
+						"tfc:food/maize_flour",
+						"tfc:food/oat_flour",
+						"tfc:food/rice_flour",
+						"tfc:food/rye_flour",
+						"tfc:food/wheat_flour"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:milk",
+						"firmalife:yak_milk",
+						"firmalife:goat_milk"
+					],
+					"fluidAmount": 1000
+				}
+			],
+			"resultId": "createaddition:cake_base",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:mixing_bowl/betterend_cave_pumpkin_pie_dough",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"species:cruncher_egg",
+						"species:springling_egg",
+						"species:petrified_egg",
+						"tfg:sniffer_egg",
+						"tfg:wraptor_egg",
+						"wan_ancient_beasts:eater_egg",
+						"wan_ancient_beasts:walker_egg",
+						"wan_ancient_beasts:crusher_egg"
+					]
+				},
+				{
+					"ids": [
+						"betterend:cave_pumpkin_chunks"
+					]
+				},
+				{
+					"ids": [
+						"betterend:cave_pumpkin_chunks"
+					]
+				},
+				{
+					"ids": [
+						"betterend:amber_root_product"
+					]
+				},
+				{
+					"ids": [
+						"tfg:wraptor_sugar"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:water",
+						"tfc:river_water",
+						"tfc:spring_water"
+					],
+					"fluidAmount": 1000
+				}
+			],
+			"resultId": "betterend:cave_pumpkin_pie_dough",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:mixing_bowl/3x_tfg_food_raw_beer_battered_cheese_curds",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"firmalife:food/yak_curd",
+						"firmalife:food/goat_curd",
+						"firmalife:food/milk_curd"
+					]
+				},
+				{
+					"ids": [
+						"firmalife:food/yak_curd",
+						"firmalife:food/goat_curd",
+						"firmalife:food/milk_curd"
+					]
+				},
+				{
+					"ids": [
+						"firmalife:food/yak_curd",
+						"firmalife:food/goat_curd",
+						"firmalife:food/milk_curd"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/barley_flour",
+						"tfc:food/maize_flour",
+						"tfc:food/oat_flour",
+						"tfc:food/rice_flour",
+						"tfc:food/rye_flour",
+						"tfc:food/wheat_flour"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:egg",
+						"species:birt_egg",
+						"species:cruncher_egg",
+						"species:springling_egg",
+						"species:petrified_egg",
+						"tfg:sniffer_egg",
+						"tfg:wraptor_egg",
+						"wan_ancient_beasts:eater_egg"
+					]
+				},
+				{
+					"ids": [
+						"tfc:beer",
+						"tfcagedalcohol:aged_beer",
+						"tfg:vintage_beer"
+					],
+					"fluidAmount": 100
+				}
+			],
+			"resultId": "tfg:food/raw_beer_battered_cheese_curds",
+			"resultCount": 3,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:mixing_bowl/milk_chocolate_cake",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"createaddition:cake_base_baked"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/cherry"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/cherry"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/cherry"
+					]
+				},
+				{
+					"ids": [
+						"firmalife:food/cocoa_powder"
+					]
+				},
+				{
+					"ids": [
+						"tfcchannelcasting:milk_chocolate"
+					],
+					"fluidAmount": 400
+				}
+			],
+			"resultId": "createaddition:chocolate_cake",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:mixing_bowl/wicked_treat",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:antipoison_pill",
+						"tfg:haste_pill",
+						"tfg:night_vision_pill",
+						"tfg:poison_pill",
+						"tfg:regeneration_pill",
+						"tfg:slowness_pill",
+						"tfg:speed_pill",
+						"tfg:water_breathing_pill"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:bone_meal"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:bone_meal"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:empty"
+					],
+					"fluidAmount": 0
+				}
+			],
+			"resultId": "species:wicked_treat",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:mixing_bowl/invisibility_salvo",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:sticky_resin"
+					]
+				},
+				{
+					"ids": [
+						"tfc:plant/calendula",
+						"tfc:plant/snapdragon_pink",
+						"tfg:plant/eyeblossom"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:tricalcium_phosphate_dust"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:creosote"
+					],
+					"fluidAmount": 500
+				}
+			],
+			"resultId": "tfg:invisibility_salvo",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:mixing_bowl/pill_speed",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:wax_dust",
+						"tfg:paraffin_wax",
+						"firmalife:beeswax",
+						"tfg:conifer_rosin",
+						"tfg:crimsene_gem",
+						"tfg:warpane_gem"
+					]
+				},
+				{
+					"ids": [
+						"tfc:plant/labrador_tea",
+						"firmalife:raw_honey"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:tricalcium_phosphate_dust"
+					]
+				},
+				{
+					"ids": [
+						"tfc:spring_water"
+					],
+					"fluidAmount": 250
+				}
+			],
+			"resultId": "tfg:speed_pill",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:mixing_bowl/recovery_powder",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:plant/foxglove",
+						"tfc:plant/artists_conk"
+					]
+				},
+				{
+					"ids": [
+						"tfc:plant/lilac",
+						"tfc:plant/field_horsetail",
+						"tfc:plant/licorice_fern",
+						"tfc:plant/sacred_datura"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:bone_meal"
+					]
+				},
+				{
+					"ids": [
+						"tfg:conifer_pitch"
+					],
+					"fluidAmount": 100
+				}
+			],
+			"resultId": "tfg:recovery_powder",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:mixing_bowl/pill_antipoison_with_herbal_slime_ball",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:wax_dust",
+						"tfg:paraffin_wax",
+						"firmalife:beeswax",
+						"tfg:conifer_rosin",
+						"tfg:crimsene_gem",
+						"tfg:warpane_gem"
+					]
+				},
+				{
+					"ids": [
+						"tfc:plant/blood_lily",
+						"tfc:plant/pistia",
+						"tfc:powder/bismuthinite",
+						"gtceu:mica_dust",
+						"gtceu:fullers_earth_dust"
+					]
+				},
+				{
+					"ids": [
+						"jellies:jellie/slime_ball/herbal"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:empty"
+					],
+					"fluidAmount": 0
+				}
+			],
+			"resultId": "tfg:antipoison_pill",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:mixing_bowl/maize_flatbread_dough",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:food/maize_flour"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 100
+				}
+			],
+			"resultId": "tfc:food/maize_dough",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "firmalife:mixing_bowl/vanilla_ice_cream",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:sugar",
+						"afc:birch_sugar",
+						"afc:maple_sugar",
+						"firmalife:raw_honey",
+						"tfg:wraptor_sugar"
+					]
+				},
+				{
+					"ids": [
+						"firmalife:spice/vanilla"
+					]
+				},
+				{
+					"ids": [
+						"firmalife:ice_shavings"
+					]
+				},
+				{
+					"ids": [
+						"firmalife:cream"
+					],
+					"fluidAmount": 1000
+				}
+			],
+			"resultId": "firmalife:food/vanilla_ice_cream",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "chalk:mixing_bowl/unfired_chalk_stick_from_dust",
+			"mod": "chalk",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:clay_ball"
+					]
+				},
+				{
+					"ids": [
+						"tfg:sedimentary_carbonate_dust"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:empty"
+					],
+					"fluidAmount": 0
+				}
+			],
+			"resultId": "tfg:unfired_chalk",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:mixing_bowl/pill_poison",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:wax_dust",
+						"tfg:paraffin_wax",
+						"firmalife:beeswax",
+						"tfg:conifer_rosin",
+						"tfg:crimsene_gem",
+						"tfg:warpane_gem"
+					]
+				},
+				{
+					"ids": [
+						"tfc:plant/butterfly_milkweed",
+						"tfc:plant/grape_hyacinth",
+						"tfc:plant/lily_of_the_valley",
+						"tfc:plant/pulsatilla",
+						"firmalife:food/nightshade_berry",
+						"tfg:food/fly_agaric",
+						"tfg:plant/wither_rose",
+						"minecraft:spider_eye"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:sulfur_dust"
+					]
+				},
+				{
+					"ids": [
+						"tfc:spring_water"
+					],
+					"fluidAmount": 250
+				}
+			],
+			"resultId": "tfg:poison_pill",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:mixing_bowl/pill_water_breathing_with_herbal_slime_ball",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:wax_dust",
+						"tfg:paraffin_wax",
+						"firmalife:beeswax",
+						"tfg:conifer_rosin",
+						"tfg:crimsene_gem",
+						"tfg:warpane_gem"
+					]
+				},
+				{
+					"ids": [
+						"tfc:powder/saltpeter",
+						"tfc:powder/charcoal",
+						"tfg:rapeseed_product"
+					]
+				},
+				{
+					"ids": [
+						"jellies:jellie/slime_ball/herbal"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:empty"
+					],
+					"fluidAmount": 0
+				}
+			],
+			"resultId": "tfg:water_breathing_pill",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:mixing_bowl/maple_honey_cake",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"createaddition:cake_base_baked"
+					]
+				},
+				{
+					"ids": [
+						"firmalife:raw_honey"
+					]
+				},
+				{
+					"ids": [
+						"firmalife:raw_honey"
+					]
+				},
+				{
+					"ids": [
+						"firmalife:raw_honey"
+					]
+				},
+				{
+					"ids": [
+						"firmalife:raw_honey"
+					]
+				},
+				{
+					"ids": [
+						"afc:maple_syrup"
+					],
+					"fluidAmount": 1000
+				}
+			],
+			"resultId": "createaddition:honey_cake",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:mixing_bowl/wheat_dough",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:food/wheat_flour"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:sugar",
+						"afc:birch_sugar",
+						"afc:maple_sugar",
+						"firmalife:raw_honey",
+						"tfg:wraptor_sugar"
+					]
+				},
+				{
+					"ids": [
+						"firmalife:yeast_starter"
+					],
+					"fluidAmount": 100
+				}
+			],
+			"resultId": "firmalife:food/wheat_dough",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:mixing_bowl/treated_chipboard_composite_wax",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:treated_wood_dust"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:treated_wood_dust"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:wax_dust",
+						"tfg:paraffin_wax",
+						"firmalife:beeswax",
+						"tfg:conifer_rosin",
+						"tfg:crimsene_gem",
+						"tfg:warpane_gem"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:empty"
+					],
+					"fluidAmount": 0
+				}
+			],
+			"resultId": "tfg:treated_chipboard_composite",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:mixing_bowl/barley_dough",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:food/barley_flour"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:sugar",
+						"afc:birch_sugar",
+						"afc:maple_sugar",
+						"firmalife:raw_honey",
+						"tfg:wraptor_sugar"
+					]
+				},
+				{
+					"ids": [
+						"firmalife:yeast_starter"
+					],
+					"fluidAmount": 100
+				}
+			],
+			"resultId": "firmalife:food/barley_dough",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:mixing_bowl/birch_honey_cake",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"createaddition:cake_base_baked"
+					]
+				},
+				{
+					"ids": [
+						"firmalife:raw_honey"
+					]
+				},
+				{
+					"ids": [
+						"firmalife:raw_honey"
+					]
+				},
+				{
+					"ids": [
+						"firmalife:raw_honey"
+					]
+				},
+				{
+					"ids": [
+						"firmalife:raw_honey"
+					]
+				},
+				{
+					"ids": [
+						"afc:birch_syrup"
+					],
+					"fluidAmount": 1000
+				}
+			],
+			"resultId": "createaddition:honey_cake",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:mixing_bowl/pill_haste_with_herbal_slime_ball",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:wax_dust",
+						"tfg:paraffin_wax",
+						"firmalife:beeswax",
+						"tfg:conifer_rosin",
+						"tfg:crimsene_gem",
+						"tfg:warpane_gem"
+					]
+				},
+				{
+					"ids": [
+						"tfg:wraptor_sugar",
+						"minecraft:sugar",
+						"afc:birch_sugar",
+						"afc:maple_sugar",
+						"wan_ancient_beasts:moonflower"
+					]
+				},
+				{
+					"ids": [
+						"jellies:jellie/slime_ball/herbal"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:empty"
+					],
+					"fluidAmount": 0
+				}
+			],
+			"resultId": "tfg:haste_pill",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:mixing_bowl/absorption_salvo",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:sticky_resin"
+					]
+				},
+				{
+					"ids": [
+						"tfc:plant/poppy",
+						"tfg:plant/silver_bromeliad",
+						"tfg:plant/tank_bromeliad"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:tricalcium_phosphate_dust"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:creosote"
+					],
+					"fluidAmount": 500
+				}
+			],
+			"resultId": "tfg:absorption_salvo",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "firmalife:mixing_bowl/butter",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:powder/salt"
+					]
+				},
+				{
+					"ids": [
+						"firmalife:cream"
+					],
+					"fluidAmount": 1000
+				}
+			],
+			"resultId": "firmalife:food/butter",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "firmalife:mixing_bowl/rice_noodles",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:food/rice_flour"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/maize_flour"
+					]
+				},
+				{
+					"ids": [
+						"tfc:powder/salt"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:milk",
+						"firmalife:yak_milk",
+						"firmalife:goat_milk"
+					],
+					"fluidAmount": 1000
+				}
+			],
+			"resultId": "firmalife:food/raw_rice_noodles",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:mixing_bowl/invisibility_salvo_with_herbal_slime_ball",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:sticky_resin"
+					]
+				},
+				{
+					"ids": [
+						"tfc:plant/calendula",
+						"tfc:plant/snapdragon_pink",
+						"tfg:plant/eyeblossom"
+					]
+				},
+				{
+					"ids": [
+						"jellies:jellie/slime_ball/herbal"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:empty"
+					],
+					"fluidAmount": 0
+				}
+			],
+			"resultId": "tfg:invisibility_salvo",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "firmalife:mixing_bowl/hardtack_dough",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:food/barley_flour",
+						"tfc:food/maize_flour",
+						"tfc:food/oat_flour",
+						"tfc:food/rice_flour",
+						"tfc:food/rye_flour",
+						"tfc:food/wheat_flour"
+					]
+				},
+				{
+					"ids": [
+						"tfc:powder/salt"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 1000
+				}
+			],
+			"resultId": "firmalife:food/hardtack_dough",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "firmalife:mixing_bowl/strawberry_ice_cream",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"firmalife:food/vanilla_ice_cream"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/strawberry"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/strawberry"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:empty"
+					],
+					"fluidAmount": 0
+				}
+			],
+			"resultId": "firmalife:food/strawberry_ice_cream",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:mixing_bowl/resistance_salvo_with_herbal_slime_ball",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:sticky_resin"
+					]
+				},
+				{
+					"ids": [
+						"tfc:plant/hibiscus",
+						"tfg:plant/palash",
+						"gtceu:calcium_dust"
+					]
+				},
+				{
+					"ids": [
+						"jellies:jellie/slime_ball/herbal"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:empty"
+					],
+					"fluidAmount": 0
+				}
+			],
+			"resultId": "tfg:resistance_salvo",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:mixing_bowl/pill_speed_with_herbal_slime_ball",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:wax_dust",
+						"tfg:paraffin_wax",
+						"firmalife:beeswax",
+						"tfg:conifer_rosin",
+						"tfg:crimsene_gem",
+						"tfg:warpane_gem"
+					]
+				},
+				{
+					"ids": [
+						"tfc:plant/labrador_tea",
+						"firmalife:raw_honey"
+					]
+				},
+				{
+					"ids": [
+						"jellies:jellie/slime_ball/herbal"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:empty"
+					],
+					"fluidAmount": 0
+				}
+			],
+			"resultId": "tfg:speed_pill",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:mixing_bowl/firmalife_food_raw_egg_noodles",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:egg",
+						"species:birt_egg",
+						"species:cruncher_egg",
+						"species:springling_egg",
+						"species:petrified_egg",
+						"tfg:sniffer_egg",
+						"tfg:wraptor_egg",
+						"wan_ancient_beasts:eater_egg"
+					]
+				},
+				{
+					"ids": [
+						"tfc:powder/salt"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/barley_flour",
+						"tfc:food/maize_flour",
+						"tfc:food/oat_flour",
+						"tfc:food/rice_flour",
+						"tfc:food/rye_flour",
+						"tfc:food/wheat_flour"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:milk",
+						"firmalife:yak_milk",
+						"firmalife:goat_milk"
+					],
+					"fluidAmount": 1000
+				}
+			],
+			"resultId": "firmalife:food/raw_egg_noodles",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:mixing_bowl/resistance_salvo",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:sticky_resin"
+					]
+				},
+				{
+					"ids": [
+						"tfc:plant/hibiscus",
+						"tfg:plant/palash",
+						"gtceu:calcium_dust"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:tricalcium_phosphate_dust"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:creosote"
+					],
+					"fluidAmount": 500
+				}
+			],
+			"resultId": "tfg:resistance_salvo",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:mixing_bowl/combat_powder",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:plant/prickly_pear",
+						"tfg:plant/prickly_pear_purple",
+						"tfc:powder/sulfur"
+					]
+				},
+				{
+					"ids": [
+						"tfc:plant/hibiscus",
+						"tfg:plant/palash",
+						"gtceu:calcium_dust"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:bone_meal"
+					]
+				},
+				{
+					"ids": [
+						"tfg:conifer_pitch"
+					],
+					"fluidAmount": 100
+				}
+			],
+			"resultId": "tfg:combat_powder",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:mixing_bowl/pill_night_vision_with_herbal_slime_ball",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:wax_dust",
+						"tfg:paraffin_wax",
+						"firmalife:beeswax",
+						"tfg:conifer_rosin",
+						"tfg:crimsene_gem",
+						"tfg:warpane_gem"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/carrot",
+						"beneath:gleamflower",
+						"tfg:sunflower_product"
+					]
+				},
+				{
+					"ids": [
+						"jellies:jellie/slime_ball/herbal"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:empty"
+					],
+					"fluidAmount": 0
+				}
+			],
+			"resultId": "tfg:night_vision_pill",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:mixing_bowl/rice_flatbread_dough",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:food/rice_flour"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 100
+				}
+			],
+			"resultId": "tfc:food/rice_dough",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "firmalife:mixing_bowl/chocolate_chip_cookie_dough",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"firmalife:food/milk_chocolate",
+						"firmalife:food/dark_chocolate",
+						"firmalife:food/white_chocolate"
+					]
+				},
+				{
+					"ids": [
+						"firmalife:food/cookie_dough"
+					]
+				},
+				{
+					"ids": [
+						"firmalife:food/cookie_dough"
+					]
+				},
+				{
+					"ids": [
+						"firmalife:food/cookie_dough"
+					]
+				},
+				{
+					"ids": [
+						"firmalife:food/cookie_dough"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:empty"
+					],
+					"fluidAmount": 0
+				}
+			],
+			"resultId": "firmalife:food/chocolate_chip_cookie_dough",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "firmalife:mixing_bowl/cookie_dough",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:egg",
+						"species:birt_egg",
+						"species:cruncher_egg",
+						"species:springling_egg",
+						"species:petrified_egg",
+						"tfg:sniffer_egg",
+						"tfg:wraptor_egg",
+						"wan_ancient_beasts:eater_egg"
+					]
+				},
+				{
+					"ids": [
+						"firmalife:spice/vanilla"
+					]
+				},
+				{
+					"ids": [
+						"firmalife:food/butter"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:sugar",
+						"afc:birch_sugar",
+						"afc:maple_sugar",
+						"firmalife:raw_honey",
+						"tfg:wraptor_sugar"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/barley_flour",
+						"tfc:food/maize_flour",
+						"tfc:food/oat_flour",
+						"tfc:food/rice_flour",
+						"tfc:food/rye_flour",
+						"tfc:food/wheat_flour"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:empty"
+					],
+					"fluidAmount": 0
+				}
+			],
+			"resultId": "firmalife:food/cookie_dough",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:mixing_bowl/rye_flatbread_dough",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:food/rye_flour"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 100
+				}
+			],
+			"resultId": "tfc:food/rye_dough",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:mixing_bowl/mining_powder_with_herbal_slime_ball",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:wraptor_sugar",
+						"minecraft:sugar",
+						"afc:birch_sugar",
+						"afc:maple_sugar",
+						"wan_ancient_beasts:moonflower"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/carrot",
+						"beneath:gleamflower",
+						"tfg:sunflower_product"
+					]
+				},
+				{
+					"ids": [
+						"jellies:jellie/slime_ball/herbal"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:empty"
+					],
+					"fluidAmount": 0
+				}
+			],
+			"resultId": "tfg:mining_powder",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		}
+	]
+}

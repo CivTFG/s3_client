@@ -1,0 +1,272 @@
+{
+	"type": "create:milling",
+	"recipes": [
+		{
+			"id": "tfg:milling/orange_dye",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:plant/butterfly_milkweed",
+						"tfc:plant/canna",
+						"tfc:plant/nasturtium",
+						"tfc:plant/strelitzia",
+						"tfc:plant/tulip_orange",
+						"tfc:plant/water_canna",
+						"tfc:plant/marigold",
+						"tfg:plant/elegant_sunburst_lichen"
+					]
+				}
+			],
+			"resultId": "minecraft:orange_dye",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:milling/light_gray_dye",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:plant/yucca",
+						"tfg:plant/silver_bromeliad",
+						"tfg:plant/eyeblossom"
+					]
+				}
+			],
+			"resultId": "minecraft:light_gray_dye",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:milling/light_blue_dye",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:plant/labrador_tea",
+						"tfc:plant/sapphire_tower",
+						"tfg:plant/mountain_hullwort",
+						"tfg:plant/penwortel"
+					]
+				}
+			],
+			"resultId": "minecraft:light_blue_dye",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:milling/green_dye",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:plant/barrel_cactus",
+						"tfc:plant/reindeer_lichen",
+						"tfg:plant/prickly_pear",
+						"tfg:plant/prickly_pear_purple",
+						"tfg:plant/silken_pincushion_cactus"
+					]
+				}
+			],
+			"resultId": "minecraft:green_dye",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:milling/yellow_dye",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:plant/calendula",
+						"tfc:plant/dandelion",
+						"tfc:plant/meads_milkweed",
+						"tfc:plant/goldenrod",
+						"tfc:plant/snapdragon_yellow",
+						"tfc:plant/desert_flame",
+						"tfg:plant/buttercup",
+						"tfg:plant/yellow_saxifrage"
+					]
+				}
+			],
+			"resultId": "minecraft:yellow_dye",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:milling/brown_dye",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:plant/field_horsetail",
+						"tfc:plant/sargassum",
+						"tfg:plant/shawiash"
+					]
+				}
+			],
+			"resultId": "minecraft:brown_dye",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:milling/white_dye",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:plant/houstonia",
+						"tfc:plant/oxeye_daisy",
+						"tfc:plant/primrose",
+						"tfc:plant/snapdragon_white",
+						"tfc:plant/trillium",
+						"tfc:plant/spanish_moss",
+						"tfc:plant/tulip_white",
+						"tfc:plant/water_lily"
+					]
+				}
+			],
+			"resultId": "minecraft:white_dye",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:milling/magenta_dye",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:plant/athyrium_fern",
+						"tfc:plant/morning_glory",
+						"tfc:plant/pulsatilla",
+						"tfc:plant/lilac",
+						"tfc:plant/silver_spurflower",
+						"tfg:plant/azalea"
+					]
+				}
+			],
+			"resultId": "minecraft:magenta_dye",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:milling/purple_dye",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:plant/allium",
+						"tfc:plant/black_orchid",
+						"tfc:plant/perovskia",
+						"tfc:plant/blue_ginger",
+						"tfc:plant/pickerelweed",
+						"tfc:plant/heather",
+						"tfg:plant/ramirezella"
+					]
+				}
+			],
+			"resultId": "minecraft:purple_dye",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:milling/red_dye",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:plant/guzmania",
+						"tfc:plant/poppy",
+						"tfc:plant/rose",
+						"tfc:plant/snapdragon_red",
+						"tfc:plant/tropical_milkweed",
+						"tfc:plant/tulip_red",
+						"tfc:plant/vriesea",
+						"tfc:plant/anthurium"
+					]
+				}
+			],
+			"resultId": "minecraft:red_dye",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:milling/lime_dye",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:plant/moss"
+					]
+				}
+			],
+			"resultId": "minecraft:lime_dye",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:milling/blue_dye",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:plant/blue_orchid",
+						"tfc:plant/grape_hyacinth",
+						"tfg:plant/cornflower"
+					]
+				}
+			],
+			"resultId": "minecraft:blue_dye",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:milling/pink_dye",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:plant/foxglove",
+						"tfc:plant/sacred_datura",
+						"tfc:plant/tulip_pink",
+						"tfc:plant/snapdragon_pink",
+						"tfc:plant/hibiscus",
+						"tfc:plant/lotus",
+						"tfc:plant/maiden_pink",
+						"tfg:plant/ramunda"
+					]
+				}
+			],
+			"resultId": "minecraft:pink_dye",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		}
+	]
+}

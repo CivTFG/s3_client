@@ -1,0 +1,85 @@
+{
+	"type": "gtceu:budding_charger",
+	"recipes": [
+		{
+			"id": "tfg:budding_charger/tier_2",
+			"category": "budding_charger",
+			"duration": 100,
+			"voltage": 240,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"ae2:certus_quartz_dust"
+					],
+					"amount": 5,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": []
+		},
+		{
+			"id": "tfg:budding_charger/tier_4",
+			"category": "budding_charger",
+			"duration": 100,
+			"voltage": 3840,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"ae2:fluix_crystal"
+					],
+					"amount": 5,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": []
+		},
+		{
+			"id": "tfg:budding_charger/tier_3",
+			"category": "budding_charger",
+			"duration": 100,
+			"voltage": 960,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"ae2:charged_certus_quartz_crystal"
+					],
+					"amount": 5,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": []
+		},
+		{
+			"id": "tfg:budding_charger/tier_1",
+			"category": "budding_charger",
+			"duration": 400,
+			"voltage": 60,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": []
+		}
+	]
+}

@@ -1,0 +1,4339 @@
+{
+	"type": "tfc:casting",
+	"recipes": [
+		{
+			"id": "tfg:casting/bismuth_bronze_ingot_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/fire_ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bismuth_bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:bismuth_bronze_ingot",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/black_bronze_scraping_knife_blade_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfcscraping:ceramic/scraping_knife_blade_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:black_bronze"
+					],
+					"fluidAmount": 288
+				}
+			],
+			"resultId": "tfcscraping:metal/scraping_knife_blade/black_bronze",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/black_bronze_javelin_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/javelin_head_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:black_bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:metal/javelin_head/black_bronze",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/brass_small_gear_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:small_gear_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:brass"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:small_brass_gear",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/bronze_unfinished_lamp_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:lamp_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:metal/unfinished_lamp/bronze",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/bronze_ingot_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/fire_ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:bronze_ingot",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/black_bronze_rod_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:rod_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:black_bronze"
+					],
+					"fluidAmount": 72
+				}
+			],
+			"resultId": "gtceu:black_bronze_rod",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/gold_bell_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/bell_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:gold"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "minecraft:bell",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/bismuth_ingot_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/fire_ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bismuth"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:bismuth_ingot",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:casting/weak_blue_steel_fire_ingot",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/fire_ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"tfc:metal/weak_blue_steel"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:metal/ingot/weak_blue_steel",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:casting/high_carbon_blue_steel_ingot",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"tfc:metal/high_carbon_blue_steel"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:metal/ingot/high_carbon_blue_steel",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/iron_ingot_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:iron"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "minecraft:iron_ingot",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/black_bronze_knife_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/knife_blade_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:black_bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:black_bronze_knife_head",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/copper_propick_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/propick_head_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:copper"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:metal/propick_head/copper",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/bronze_saw_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/saw_blade_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:bronze_saw_head",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/copper_chisel_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/chisel_head_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:copper"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:metal/chisel_head/copper",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/lead_ingot_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:lead"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:lead_ingot",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/bismuth_bronze_small_gear_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:small_gear_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bismuth_bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:small_bismuth_bronze_gear",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/silver_ingot_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:silver"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:silver_ingot",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/bronze_chisel_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/chisel_head_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:metal/chisel_head/bronze",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/bismuth_bronze_hoe_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/hoe_head_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bismuth_bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:bismuth_bronze_hoe_head",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/copper_scraping_knife_blade_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfcscraping:ceramic/scraping_knife_blade_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:copper"
+					],
+					"fluidAmount": 288
+				}
+			],
+			"resultId": "tfcscraping:metal/scraping_knife_blade/copper",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/bronze_javelin_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/javelin_head_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:metal/javelin_head/bronze",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:casting/high_carbon_steel_ingot",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"tfc:metal/high_carbon_steel"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:metal/ingot/high_carbon_steel",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:casting/high_carbon_red_steel_ingot",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"tfc:metal/high_carbon_red_steel"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:metal/ingot/high_carbon_red_steel",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfcchannelcasting:casting/white_chocolate_bell",
+			"mod": "tfcchannelcasting",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/bell_mold"
+					]
+				},
+				{
+					"ids": [
+						"tfcchannelcasting:white_chocolate"
+					],
+					"fluidAmount": 100
+				}
+			],
+			"resultId": "tfcchannelcasting:food/white_chocolate_bell",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/red_steel_ingot_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/fire_ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:red_steel"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:metal/ingot/red_steel",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/sterling_silver_ingot_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/fire_ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:sterling_silver"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:sterling_silver_ingot",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/nickel_ingot_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:nickel"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:nickel_ingot",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/black_bronze_ingot_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:black_bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:black_bronze_ingot",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/black_bronze_spindle_head",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:spindle_head_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:black_bronze"
+					],
+					"fluidAmount": 72
+				}
+			],
+			"resultId": "tfg:black_bronze_spindle_head",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/bismuth_bronze_hammer_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/hammer_head_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bismuth_bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:bismuth_bronze_hammer_head",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/black_bronze_small_gear_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:small_gear_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:black_bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:small_black_bronze_gear",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/steel_ingot_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/fire_ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:steel"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:steel_ingot",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/brass_ingot_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/fire_ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:brass"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "create:brass_ingot",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/copper_scythe_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/scythe_blade_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:copper"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:copper_scythe_head",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/bismuth_bronze_spindle_head",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:spindle_head_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bismuth_bronze"
+					],
+					"fluidAmount": 72
+				}
+			],
+			"resultId": "tfg:bismuth_bronze_spindle_head",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/bronze_rod_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:rod_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bronze"
+					],
+					"fluidAmount": 72
+				}
+			],
+			"resultId": "gtceu:bronze_rod",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/bismuth_ingot_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bismuth"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:bismuth_ingot",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/black_bronze_hammer_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/hammer_head_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:black_bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:black_bronze_hammer_head",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/copper_knife_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/knife_blade_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:copper"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:copper_knife_head",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/copper_shovel_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/shovel_head_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:copper"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:copper_shovel_head",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/bronze_ingot_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:bronze_ingot",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/red_steel_ingot_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:red_steel"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:metal/ingot/red_steel",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/black_bronze_pickaxe_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/pickaxe_head_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:black_bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:black_bronze_pickaxe_head",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/red_alloy_ingot_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/fire_ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:red_alloy"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:red_alloy_ingot",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/blue_steel_ingot_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/fire_ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:blue_steel"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:metal/ingot/blue_steel",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:kjs/7pe1ymcx2n3o5acyici2w9rnl",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/fire_ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"tfcchannelcasting:dark_chocolate"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "firmalife:food/dark_chocolate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/bronze_nugget_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:nugget_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bronze"
+					],
+					"fluidAmount": 64
+				}
+			],
+			"resultId": "gtceu:bronze_nugget",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/bronze_scraping_knife_blade_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfcscraping:ceramic/scraping_knife_blade_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bronze"
+					],
+					"fluidAmount": 288
+				}
+			],
+			"resultId": "tfcscraping:metal/scraping_knife_blade/bronze",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/tin_alloy_ingot_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/fire_ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:tin_alloy"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:tin_alloy_ingot",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/bronze_pickaxe_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/pickaxe_head_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:bronze_pickaxe_head",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:casting/weak_red_steel_ingot",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"tfc:metal/weak_red_steel"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:metal/ingot/weak_red_steel",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/bronze_axe_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/axe_head_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:bronze_axe_head",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfcchannelcasting:casting/milk_chocolate_knife",
+			"mod": "tfcchannelcasting",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/knife_blade_mold"
+					]
+				},
+				{
+					"ids": [
+						"tfcchannelcasting:milk_chocolate"
+					],
+					"fluidAmount": 100
+				}
+			],
+			"resultId": "tfcchannelcasting:food/milk_chocolate_knife",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/copper_unfinished_lamp_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:lamp_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:copper"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:metal/unfinished_lamp/copper",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/iron_pickaxe_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/pickaxe_head_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:iron"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:iron_pickaxe_head",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:casting/weak_red_steel_fire_ingot",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/fire_ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"tfc:metal/weak_red_steel"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:metal/ingot/weak_red_steel",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/iron_rod_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:rod_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:iron"
+					],
+					"fluidAmount": 72
+				}
+			],
+			"resultId": "gtceu:iron_rod",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/aluminium_silicate_ingot_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/fire_ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:aluminium_silicate"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:aluminium_silicate_ingot",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/copper_hoe_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/hoe_head_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:copper"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:copper_hoe_head",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/cobalt_brass_ingot_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:cobalt_brass"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:cobalt_brass_ingot",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:casting/high_carbon_black_steel_fire_ingot",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/fire_ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"tfc:metal/high_carbon_black_steel"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:metal/ingot/high_carbon_black_steel",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/nickel_rod_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:rod_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:nickel"
+					],
+					"fluidAmount": 72
+				}
+			],
+			"resultId": "gtceu:nickel_rod",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/tin_alloy_ingot_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:tin_alloy"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:tin_alloy_ingot",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/black_bronze_sword_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/sword_blade_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:black_bronze"
+					],
+					"fluidAmount": 288
+				}
+			],
+			"resultId": "gtceu:black_bronze_sword_head",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/blue_steel_ingot_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:blue_steel"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:metal/ingot/blue_steel",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/lead_nugget_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:nugget_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:lead"
+					],
+					"fluidAmount": 64
+				}
+			],
+			"resultId": "gtceu:lead_nugget",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfcchannelcasting:casting/dark_chocolate_heart",
+			"mod": "tfcchannelcasting",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfcchannelcasting:heart_mold"
+					]
+				},
+				{
+					"ids": [
+						"tfcchannelcasting:dark_chocolate"
+					],
+					"fluidAmount": 100
+				}
+			],
+			"resultId": "tfcchannelcasting:food/dark_chocolate_heart",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/bismuth_bronze_sword_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/sword_blade_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bismuth_bronze"
+					],
+					"fluidAmount": 288
+				}
+			],
+			"resultId": "gtceu:bismuth_bronze_sword_head",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/zinc_ingot_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/fire_ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:zinc"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "create:zinc_ingot",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/invar_ingot_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/fire_ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:invar"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:invar_ingot",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/red_alloy_small_gear_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:small_gear_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:red_alloy"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:small_red_alloy_gear",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/bismuth_bronze_javelin_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/javelin_head_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bismuth_bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:metal/javelin_head/bismuth_bronze",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:casting/high_carbon_blue_steel_fire_ingot",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/fire_ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"tfc:metal/high_carbon_blue_steel"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:metal/ingot/high_carbon_blue_steel",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/bismuth_bronze_knife_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/knife_blade_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bismuth_bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:bismuth_bronze_knife_head",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/bismuth_rod_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:rod_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bismuth"
+					],
+					"fluidAmount": 72
+				}
+			],
+			"resultId": "gtceu:bismuth_rod",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/bismuth_bronze_pickaxe_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/pickaxe_head_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bismuth_bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:bismuth_bronze_pickaxe_head",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/black_bronze_mace_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/mace_head_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:black_bronze"
+					],
+					"fluidAmount": 288
+				}
+			],
+			"resultId": "tfc:metal/mace_head/black_bronze",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/gold_rod_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:rod_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:gold"
+					],
+					"fluidAmount": 72
+				}
+			],
+			"resultId": "gtceu:gold_rod",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/iron_small_gear_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:small_gear_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:iron"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:small_iron_gear",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/rose_gold_ingot_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:rose_gold"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:rose_gold_ingot",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/zinc_rod_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:rod_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:zinc"
+					],
+					"fluidAmount": 72
+				}
+			],
+			"resultId": "gtceu:zinc_rod",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/black_bronze_ingot_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/fire_ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:black_bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:black_bronze_ingot",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/copper_rod_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:rod_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:copper"
+					],
+					"fluidAmount": 72
+				}
+			],
+			"resultId": "gtceu:copper_rod",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/rose_gold_nugget_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:nugget_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:rose_gold"
+					],
+					"fluidAmount": 64
+				}
+			],
+			"resultId": "gtceu:rose_gold_nugget",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/bismuth_bronze_unfinished_lamp_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:lamp_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bismuth_bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:metal/unfinished_lamp/bismuth_bronze",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:casting/high_carbon_red_steel_fire_ingot",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/fire_ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"tfc:metal/high_carbon_red_steel"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:metal/ingot/high_carbon_red_steel",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:casting/unknown_ingot",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"tfc:metal/unknown"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:metal/ingot/unknown",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/tin_rod_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:rod_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:tin"
+					],
+					"fluidAmount": 72
+				}
+			],
+			"resultId": "gtceu:tin_rod",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/bronze_shovel_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/shovel_head_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:bronze_shovel_head",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/black_bronze_axe_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/axe_head_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:black_bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:black_bronze_axe_head",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/bismuth_bronze_propick_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/propick_head_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bismuth_bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:metal/propick_head/bismuth_bronze",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/tin_ingot_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:tin"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:tin_ingot",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/nickel_ingot_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/fire_ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:nickel"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:nickel_ingot",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/copper_mace_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/mace_head_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:copper"
+					],
+					"fluidAmount": 288
+				}
+			],
+			"resultId": "tfc:metal/mace_head/copper",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/bismuth_bronze_saw_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/saw_blade_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bismuth_bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:bismuth_bronze_saw_head",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfcchannelcasting:casting/dark_chocolate_bell",
+			"mod": "tfcchannelcasting",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/bell_mold"
+					]
+				},
+				{
+					"ids": [
+						"tfcchannelcasting:dark_chocolate"
+					],
+					"fluidAmount": 100
+				}
+			],
+			"resultId": "tfcchannelcasting:food/dark_chocolate_bell",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/bronze_spindle_head",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:spindle_head_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bronze"
+					],
+					"fluidAmount": 72
+				}
+			],
+			"resultId": "tfg:bronze_spindle_head",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/bronze_bell_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/bell_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:bronze_bell",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/bismuth_nugget_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:nugget_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bismuth"
+					],
+					"fluidAmount": 64
+				}
+			],
+			"resultId": "gtceu:bismuth_nugget",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/nickel_nugget_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:nugget_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:nickel"
+					],
+					"fluidAmount": 64
+				}
+			],
+			"resultId": "gtceu:nickel_nugget",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/zinc_nugget_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:nugget_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:zinc"
+					],
+					"fluidAmount": 64
+				}
+			],
+			"resultId": "create:zinc_nugget",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/sterling_silver_ingot_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:sterling_silver"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:sterling_silver_ingot",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/red_alloy_ingot_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:red_alloy"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:red_alloy_ingot",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfcchannelcasting:casting/milk_chocolate_bell",
+			"mod": "tfcchannelcasting",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/bell_mold"
+					]
+				},
+				{
+					"ids": [
+						"tfcchannelcasting:milk_chocolate"
+					],
+					"fluidAmount": 100
+				}
+			],
+			"resultId": "tfcchannelcasting:food/milk_chocolate_bell",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfcchannelcasting:casting/milk_chocolate_heart",
+			"mod": "tfcchannelcasting",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfcchannelcasting:heart_mold"
+					]
+				},
+				{
+					"ids": [
+						"tfcchannelcasting:milk_chocolate"
+					],
+					"fluidAmount": 100
+				}
+			],
+			"resultId": "tfcchannelcasting:food/milk_chocolate_heart",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/bismuth_bronze_scythe_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/scythe_blade_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bismuth_bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:bismuth_bronze_scythe_head",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:casting/high_carbon_steel_fire_ingot",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/fire_ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"tfc:metal/high_carbon_steel"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:metal/ingot/high_carbon_steel",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/black_bronze_nugget_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:nugget_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:black_bronze"
+					],
+					"fluidAmount": 64
+				}
+			],
+			"resultId": "gtceu:black_bronze_nugget",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/gold_nugget_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:nugget_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:gold"
+					],
+					"fluidAmount": 64
+				}
+			],
+			"resultId": "minecraft:gold_nugget",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/black_bronze_hoe_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/hoe_head_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:black_bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:black_bronze_hoe_head",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/tin_ingot_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/fire_ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:tin"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:tin_ingot",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/cobalt_ingot_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:cobalt"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:cobalt_ingot",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/black_bronze_saw_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/saw_blade_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:black_bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:black_bronze_saw_head",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/bismuth_bronze_mace_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/mace_head_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bismuth_bronze"
+					],
+					"fluidAmount": 288
+				}
+			],
+			"resultId": "tfc:metal/mace_head/bismuth_bronze",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/steel_ingot_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:steel"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:steel_ingot",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/bronze_mace_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/mace_head_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bronze"
+					],
+					"fluidAmount": 288
+				}
+			],
+			"resultId": "tfc:metal/mace_head/bronze",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/bismuth_bronze_rod_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:rod_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bismuth_bronze"
+					],
+					"fluidAmount": 72
+				}
+			],
+			"resultId": "gtceu:bismuth_bronze_rod",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:casting/weak_steel_ingot",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"tfc:metal/weak_steel"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:metal/ingot/weak_steel",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/bronze_propick_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/propick_head_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:metal/propick_head/bronze",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/cobalt_ingot_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/fire_ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:cobalt"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:cobalt_ingot",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:kjs/4e54zfs3kx3lurnfblp5cy4mv",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/fire_ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"tfcchannelcasting:milk_chocolate"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "firmalife:food/milk_chocolate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/copper_javelin_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/javelin_head_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:copper"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:metal/javelin_head/copper",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/copper_pickaxe_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/pickaxe_head_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:copper"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:copper_pickaxe_head",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/potin_ingot_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:potin"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:potin_ingot",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/black_bronze_chisel_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/chisel_head_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:black_bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:metal/chisel_head/black_bronze",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/copper_nugget_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:nugget_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:copper"
+					],
+					"fluidAmount": 64
+				}
+			],
+			"resultId": "create:copper_nugget",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:casting/pig_iron_ingot",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"tfc:metal/pig_iron"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:metal/ingot/pig_iron",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfcchannelcasting:casting/white_chocolate_heart",
+			"mod": "tfcchannelcasting",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfcchannelcasting:heart_mold"
+					]
+				},
+				{
+					"ids": [
+						"tfcchannelcasting:white_chocolate"
+					],
+					"fluidAmount": 100
+				}
+			],
+			"resultId": "tfcchannelcasting:food/white_chocolate_heart",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/red_alloy_rod_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:rod_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:red_alloy"
+					],
+					"fluidAmount": 72
+				}
+			],
+			"resultId": "gtceu:red_alloy_rod",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/rose_gold_ingot_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/fire_ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:rose_gold"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:rose_gold_ingot",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/brass_rod_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:rod_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:brass"
+					],
+					"fluidAmount": 72
+				}
+			],
+			"resultId": "gtceu:brass_rod",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/bismuth_bronze_shovel_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/shovel_head_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bismuth_bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:bismuth_bronze_shovel_head",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/rose_gold_rod_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:rod_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:rose_gold"
+					],
+					"fluidAmount": 72
+				}
+			],
+			"resultId": "gtceu:rose_gold_rod",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/iron_nugget_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:nugget_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:iron"
+					],
+					"fluidAmount": 64
+				}
+			],
+			"resultId": "minecraft:iron_nugget",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/bronze_hammer_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/hammer_head_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:bronze_hammer_head",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/bronze_hoe_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/hoe_head_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:bronze_hoe_head",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/copper_sword_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/sword_blade_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:copper"
+					],
+					"fluidAmount": 288
+				}
+			],
+			"resultId": "gtceu:copper_sword_head",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/weak_blue_steel_ingot_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/fire_ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"tfc:metal/weak_blue_steel"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:metal/ingot/weak_blue_steel",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:casting/pig_iron_fire_ingot",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/fire_ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"tfc:metal/pig_iron"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:metal/ingot/pig_iron",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/weak_red_steel_ingot_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/fire_ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"tfc:metal/weak_red_steel"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:metal/ingot/weak_red_steel",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/black_bronze_shovel_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/shovel_head_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:black_bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:black_bronze_shovel_head",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/bronze_scythe_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/scythe_blade_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:bronze_scythe_head",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/aluminium_silicate_ingot_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:aluminium_silicate"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:aluminium_silicate_ingot",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/black_bronze_scythe_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/scythe_blade_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:black_bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:black_bronze_scythe_head",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/brass_nugget_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:nugget_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:brass"
+					],
+					"fluidAmount": 64
+				}
+			],
+			"resultId": "create:brass_nugget",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/bismuth_bronze_scraping_knife_blade_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfcscraping:ceramic/scraping_knife_blade_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bismuth_bronze"
+					],
+					"fluidAmount": 288
+				}
+			],
+			"resultId": "tfcscraping:metal/scraping_knife_blade/bismuth_bronze",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:kjs/786s314yqus6gre1ejtiv5yvo",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/fire_ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"tfcchannelcasting:white_chocolate"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "firmalife:food/white_chocolate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:casting/weak_blue_steel_ingot",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"tfc:metal/weak_blue_steel"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:metal/ingot/weak_blue_steel",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/copper_hammer_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/hammer_head_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:copper"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:copper_hammer_head",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/black_bronze_unfinished_lamp_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:lamp_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:black_bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:metal/unfinished_lamp/black_bronze",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/copper_ingot_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:copper"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "minecraft:copper_ingot",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/tin_nugget_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:nugget_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:tin"
+					],
+					"fluidAmount": 64
+				}
+			],
+			"resultId": "gtceu:tin_nugget",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/weak_blue_steel_ingot_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"tfc:metal/weak_blue_steel"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:metal/ingot/weak_blue_steel",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:casting/weak_steel_fire_ingot",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/fire_ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"tfc:metal/weak_steel"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:metal/ingot/weak_steel",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:kjs/9yx0w87vv6gw0fd8f8g0u3pkb",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"tfcchannelcasting:white_chocolate"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "firmalife:food/white_chocolate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/cobalt_brass_ingot_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/fire_ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:cobalt_brass"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:cobalt_brass_ingot",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/black_bronze_propick_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/propick_head_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:black_bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:metal/propick_head/black_bronze",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:casting/high_carbon_black_steel_ingot",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"tfc:metal/high_carbon_black_steel"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:metal/ingot/high_carbon_black_steel",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/black_steel_ingot_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/fire_ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:black_steel"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:metal/ingot/black_steel",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/potin_rod_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:rod_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:potin"
+					],
+					"fluidAmount": 72
+				}
+			],
+			"resultId": "gtceu:potin_rod",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/lead_rod_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:rod_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:lead"
+					],
+					"fluidAmount": 72
+				}
+			],
+			"resultId": "gtceu:lead_rod",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/gold_ingot_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/fire_ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:gold"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "minecraft:gold_ingot",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/bismuth_bronze_ingot_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bismuth_bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:bismuth_bronze_ingot",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/brass_bell_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/bell_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:brass"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:brass_bell",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/bismuth_bronze_axe_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/axe_head_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bismuth_bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:bismuth_bronze_axe_head",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/bismuth_bronze_chisel_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/chisel_head_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bismuth_bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:metal/chisel_head/bismuth_bronze",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/zinc_ingot_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:zinc"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "create:zinc_ingot",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/potin_ingot_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/fire_ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:potin"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:potin_ingot",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:casting/unknown_fire_ingot",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/fire_ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"tfc:metal/unknown"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:metal/ingot/unknown",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/lead_ingot_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/fire_ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:lead"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:lead_ingot",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/silver_nugget_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:nugget_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:silver"
+					],
+					"fluidAmount": 64
+				}
+			],
+			"resultId": "gtceu:silver_nugget",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:kjs/1fzfexpbudvz23icng30hm53d",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"tfcchannelcasting:dark_chocolate"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "firmalife:food/dark_chocolate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/copper_saw_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/saw_blade_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:copper"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:copper_saw_head",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/silver_rod_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:rod_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:silver"
+					],
+					"fluidAmount": 72
+				}
+			],
+			"resultId": "gtceu:silver_rod",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/bronze_small_gear_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:small_gear_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:small_bronze_gear",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/bronze_knife_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/knife_blade_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:bronze_knife_head",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/bismuth_bronze_nugget_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:nugget_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bismuth_bronze"
+					],
+					"fluidAmount": 64
+				}
+			],
+			"resultId": "gtceu:bismuth_bronze_nugget",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/copper_ingot_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/fire_ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:copper"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "minecraft:copper_ingot",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/iron_ingot_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/fire_ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:iron"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "minecraft:iron_ingot",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/gold_ingot_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:gold"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "minecraft:gold_ingot",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfcchannelcasting:casting/white_chocolate_knife",
+			"mod": "tfcchannelcasting",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/knife_blade_mold"
+					]
+				},
+				{
+					"ids": [
+						"tfcchannelcasting:white_chocolate"
+					],
+					"fluidAmount": 100
+				}
+			],
+			"resultId": "tfcchannelcasting:food/white_chocolate_knife",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/silver_ingot_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/fire_ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:silver"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:silver_ingot",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/copper_axe_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/axe_head_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:copper"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:copper_axe_head",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/red_alloy_nugget_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:nugget_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:red_alloy"
+					],
+					"fluidAmount": 64
+				}
+			],
+			"resultId": "gtceu:red_alloy_nugget",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/brass_ingot_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:brass"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "create:brass_ingot",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/weak_red_steel_ingot_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"tfc:metal/weak_red_steel"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:metal/ingot/weak_red_steel",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/potin_nugget_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:nugget_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:potin"
+					],
+					"fluidAmount": 64
+				}
+			],
+			"resultId": "gtceu:potin_nugget",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/sterling_silver_rod_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:rod_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:sterling_silver"
+					],
+					"fluidAmount": 72
+				}
+			],
+			"resultId": "gtceu:sterling_silver_rod",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/copper_spindle_head",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:spindle_head_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:copper"
+					],
+					"fluidAmount": 72
+				}
+			],
+			"resultId": "tfg:copper_spindle_head",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/bronze_sword_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/sword_blade_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bronze"
+					],
+					"fluidAmount": 288
+				}
+			],
+			"resultId": "gtceu:bronze_sword_head",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfcchannelcasting:casting/dark_chocolate_knife",
+			"mod": "tfcchannelcasting",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/knife_blade_mold"
+					]
+				},
+				{
+					"ids": [
+						"tfcchannelcasting:dark_chocolate"
+					],
+					"fluidAmount": 100
+				}
+			],
+			"resultId": "tfcchannelcasting:food/dark_chocolate_knife",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/black_steel_ingot_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:black_steel"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:metal/ingot/black_steel",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/invar_ingot_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:invar"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:invar_ingot",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:casting/sterling_silver_nugget_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:nugget_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:sterling_silver"
+					],
+					"fluidAmount": 64
+				}
+			],
+			"resultId": "gtceu:sterling_silver_nugget",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:kjs/80vys1e37iwol9thool25h9dj",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"tfcchannelcasting:milk_chocolate"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "firmalife:food/milk_chocolate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		}
+	]
+}

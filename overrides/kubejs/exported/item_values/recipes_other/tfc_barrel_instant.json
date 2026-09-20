@@ -1,0 +1,9714 @@
+{
+	"type": "tfc:barrel_instant",
+	"recipes": [
+		{
+			"id": "tfg:instant_barrel/sapphire_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_sapphire_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_sapphire_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/apatite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_apatite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:apatite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/spessartine_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_spessartine_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_spessartine_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/garnet_sand_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_garnet_sand_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_garnet_sand_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/uraninite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_uraninite_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_uraninite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/rock_salt_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_rock_salt_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_rock_salt_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/opal_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_opal_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:opal_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/spessartine_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_spessartine_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:spessartine_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/alunite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_alunite_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_alunite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:barrel/dye/light_gray_concrete",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:light_gray_concrete_powder"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 100
+				}
+			],
+			"resultId": "minecraft:light_gray_concrete",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:barrel/cooling_freshwater",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:iron_block",
+						"minecraft:copper_block",
+						"minecraft:gold_block",
+						"minecraft:lapis_block",
+						"minecraft:clay",
+						"minecraft:white_terracotta",
+						"minecraft:orange_terracotta",
+						"minecraft:magenta_terracotta"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 1
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": true,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/powellite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_powellite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:powellite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/yellow_limonite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_yellow_limonite_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_yellow_limonite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/powellite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_powellite_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_powellite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/yellow_limonite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_yellow_limonite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:yellow_limonite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:barrel/dye/brown_concrete",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:brown_concrete_powder"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 100
+				}
+			],
+			"resultId": "minecraft:brown_concrete",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/electrotine_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_electrotine_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:electrotine_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/bauxite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_bauxite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:bauxite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/rose_quartz_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"greate:crushed_rose_quartz_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "greate:purified_rose_quartz_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/topaz_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_topaz_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:topaz_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/magnetite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_magnetite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:magnetite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/kyanite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_kyanite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:kyanite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/almandine_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_almandine_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:almandine_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/graphite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_graphite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:graphite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/palladium_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_palladium_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:palladium_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/saltpeter_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_saltpeter_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_saltpeter_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/beryllium_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_beryllium_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:beryllium_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "chalk:barrel/dye/wet_magenta_chalk",
+			"mod": "chalk",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:unfired_chalk"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"tfc:magenta_dye"
+					],
+					"fluidAmount": 36
+				}
+			],
+			"resultId": "tfg:wet_magenta_chalk",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/sapphire_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_sapphire_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:sapphire_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/olivine_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_olivine_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_olivine_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/saltpeter_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_saltpeter_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:saltpeter_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/galena_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_galena_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:galena_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/cooperite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_cooperite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:cooperite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/topaz_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_topaz_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:topaz_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/lazurite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_lazurite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:lazurite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/realgar_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_realgar_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:realgar_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:barrel_instant/clay_water_purification",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:clay_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"tfg:semiheavy_ammoniacal_water"
+					],
+					"fluidAmount": 1000
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": true,
+			"extraOutputs": []
+		},
+		{
+			"id": "chalk:barrel/dye/wet_black_chalk",
+			"mod": "chalk",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:unfired_chalk"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"tfc:black_dye"
+					],
+					"fluidAmount": 36
+				}
+			],
+			"resultId": "tfg:wet_black_chalk",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/yellow_garnet_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_yellow_garnet_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:yellow_garnet_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/cinnabar_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_cinnabar_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:cinnabar_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "chalk:barrel/dye/wet_light_gray_chalk",
+			"mod": "chalk",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:unfired_chalk"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"tfc:light_gray_dye"
+					],
+					"fluidAmount": 36
+				}
+			],
+			"resultId": "tfg:wet_light_gray_chalk",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/magnesite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_magnesite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:magnesite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/pentlandite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_pentlandite_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_pentlandite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/basaltic_mineral_sand_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_basaltic_mineral_sand_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_basaltic_mineral_sand_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:barrel/dye/lime_concrete",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:lime_concrete_powder"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 100
+				}
+			],
+			"resultId": "minecraft:lime_concrete",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/ruby_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_ruby_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:ruby_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/almandine_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_almandine_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_almandine_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/magnetite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_magnetite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:magnetite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/ruarsite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_ruarsite_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_ruarsite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/molybdenite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_molybdenite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:molybdenite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:barrel/water_to_salt_water",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:salt_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 1000
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": true,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/wulfenite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_wulfenite_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_wulfenite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/silver_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_silver_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "create:crushed_raw_silver",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/mica_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_mica_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:mica_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/copper_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_copper_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:copper_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/stibnite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_stibnite_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_stibnite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/pentlandite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_pentlandite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:pentlandite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/garnet_sand_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_garnet_sand_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:garnet_sand_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/beryllium_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_beryllium_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:beryllium_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/sphalerite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_sphalerite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:sphalerite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/talc_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_talc_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:talc_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "chalk:barrel/dye/wet_brown_chalk",
+			"mod": "chalk",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:unfired_chalk"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"tfc:brown_dye"
+					],
+					"fluidAmount": 36
+				}
+			],
+			"resultId": "tfg:wet_brown_chalk",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/lapis_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_lapis_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:lapis_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:barrel/opened_green_coconut_draining",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:food/opened_green_coconut"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:empty"
+					],
+					"fluidAmount": 0
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": true,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/certus_quartz_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_certus_quartz_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "ae2:certus_quartz_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/pyrite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_pyrite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:pyrite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/tricalcium_phosphate_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_tricalcium_phosphate_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_tricalcium_phosphate_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "chalk:barrel/dye/wet_yellow_chalk",
+			"mod": "chalk",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:unfired_chalk"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"tfc:yellow_dye"
+					],
+					"fluidAmount": 36
+				}
+			],
+			"resultId": "tfg:wet_yellow_chalk",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/opal_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_opal_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:opal_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/quartzite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_quartzite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:quartzite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/wulfenite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_wulfenite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:wulfenite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/blue_topaz_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_blue_topaz_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:blue_topaz_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/goethite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_goethite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:goethite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/red_garnet_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_red_garnet_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:red_garnet_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:barrel/limewater_from_lime",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:powder/lime"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 500
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": true,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/pyrochlore_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_pyrochlore_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_pyrochlore_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/blue_topaz_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_blue_topaz_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:blue_topaz_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/apatite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_apatite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:apatite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/graphite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_graphite_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_graphite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/trona_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_trona_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:trona_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/tin_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_tin_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:tin_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:barrel/tfg_food_smoothie_washing_with_tfg_clean_water_100",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:food/smoothie"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water",
+						"tfc:river_water",
+						"tfc:spring_water"
+					],
+					"fluidAmount": 100
+				}
+			],
+			"resultId": "tfc:empty_jar",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/diamond_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_diamond_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:diamond_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/aluminium_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_aluminium_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_aluminium_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/mica_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_mica_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_mica_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/tricalcium_phosphate_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_tricalcium_phosphate_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:tricalcium_phosphate_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/bentonite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_bentonite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:bentonite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/salt_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_salt_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:salt_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/kyanite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_kyanite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:kyanite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:barrel_instant/perlite_water_purification",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:perlite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"tfg:semiheavy_ammoniacal_water"
+					],
+					"fluidAmount": 1000
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": true,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/molybdenum_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_molybdenum_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:molybdenum_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/diatomite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_diatomite_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_diatomite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/platinum_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_platinum_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:platinum_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/pollucite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_pollucite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:pollucite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/molybdenite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_molybdenite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:molybdenite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/alunite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_alunite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:alunite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/olivine_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_olivine_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:olivine_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/borax_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_borax_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:borax_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/bismuth_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_bismuth_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:bismuth_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/magnesite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_magnesite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:magnesite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:barrel/water_to_salt_water_tfc",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:powder/salt"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 250
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": true,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/palladium_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_palladium_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_palladium_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/naquadah_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_naquadah_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:naquadah_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "chalk:barrel/dye/wet_white_chalk",
+			"mod": "chalk",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:unfired_chalk"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"tfc:white_dye"
+					],
+					"fluidAmount": 36
+				}
+			],
+			"resultId": "tfg:wet_white_chalk",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/tungstate_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_tungstate_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_tungstate_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/scheelite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_scheelite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:scheelite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/tarkianite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_tarkianite_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_tarkianite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/hematite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_hematite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:hematite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/pitchblende_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_pitchblende_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_pitchblende_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/ilmenite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_ilmenite_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_ilmenite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/naquadah_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_naquadah_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_naquadah_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/tricalcium_phosphate_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_tricalcium_phosphate_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:tricalcium_phosphate_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/malachite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_malachite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:malachite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/magnesite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_magnesite_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_magnesite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/pitchblende_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_pitchblende_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:pitchblende_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/sodalite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_sodalite_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_sodalite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/ferhodsite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_ferhodsite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:ferhodsite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/diamond_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_diamond_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_diamond_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/lorandite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:pure_lorandite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "tfg:lorandite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:barrel/dye/cyan_concrete",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:cyan_concrete_powder"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 100
+				}
+			],
+			"resultId": "minecraft:cyan_concrete",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/zeolite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_zeolite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:zeolite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/realgar_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_realgar_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_realgar_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/vanadium_magnetite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_vanadium_magnetite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:vanadium_magnetite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/diamond_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_diamond_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:diamond_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/cobalt_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_cobalt_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:cobalt_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/asbestos_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_asbestos_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:asbestos_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/spodumene_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_spodumene_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_spodumene_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/chromite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_chromite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:chromite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/amethyst_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_amethyst_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:amethyst_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/salt_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_salt_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:salt_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/galena_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_galena_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:galena_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/lithium_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_lithium_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:lithium_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/molybdenum_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_molybdenum_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_molybdenum_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/sulfur_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_sulfur_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:sulfur_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/pyrite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_pyrite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:pyrite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:barrel/dye/light_blue_concrete",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:light_blue_concrete_powder"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 100
+				}
+			],
+			"resultId": "minecraft:light_blue_concrete",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:barrel/dye/blue_concrete",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:blue_concrete_powder"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 100
+				}
+			],
+			"resultId": "minecraft:blue_concrete",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/zeolite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_zeolite_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_zeolite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/lepidolite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_lepidolite_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_lepidolite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/ruarsite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_ruarsite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:ruarsite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/oilsands_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_oilsands_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_oilsands_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "firmalife:barrel/clean_hematitic_wine_bottle",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"firmalife:hematitic_wine_bottle"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 100
+				}
+			],
+			"resultId": "firmalife:empty_hematitic_wine_bottle",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/oilsands_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_oilsands_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:oilsands_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "firmalife:barrel/clean_any_bowl",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"firmalife:food/filled_pie",
+						"firmalife:food/cooked_pie",
+						"firmalife:food/raw_pumpkin_pie",
+						"minecraft:pumpkin_pie",
+						"firmalife:food/stinky_soup",
+						"betterend:cave_pumpkin_pie_raw",
+						"betterend:cave_pumpkin_pie"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 100
+				}
+			],
+			"resultId": "firmalife:pie_pan",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:barrel/ice_slush_cooling",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:iron_block",
+						"minecraft:copper_block",
+						"minecraft:gold_block",
+						"minecraft:lapis_block",
+						"minecraft:clay",
+						"minecraft:white_terracotta",
+						"minecraft:orange_terracotta",
+						"minecraft:magenta_terracotta"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"gtceu:ice"
+					],
+					"fluidAmount": 1
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": true,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/quartzite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_quartzite_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_quartzite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/gold_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_gold_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "create:crushed_raw_gold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/spessartine_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_spessartine_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:spessartine_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/topaz_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_topaz_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_topaz_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/basaltic_mineral_sand_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_basaltic_mineral_sand_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:basaltic_mineral_sand_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/cobaltite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_cobaltite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:cobaltite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/amethyst_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_amethyst_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_amethyst_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/iron_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_iron_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:iron_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/basaltic_mineral_sand_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_basaltic_mineral_sand_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:basaltic_mineral_sand_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/lithium_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_lithium_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:lithium_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/bismuth_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_bismuth_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_bismuth_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/garnierite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_garnierite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:garnierite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/cinnabar_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_cinnabar_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:cinnabar_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/aluminium_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_aluminium_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:aluminium_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/phlogopite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_phlogopite_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_phlogopite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/tarkianite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_tarkianite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:tarkianite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/fullers_earth_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_fullers_earth_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:fullers_earth_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/silver_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_silver_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:silver_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/desh_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_desh_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_desh_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/yellow_limonite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_yellow_limonite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:yellow_limonite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/oilsands_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_oilsands_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:oilsands_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/lapis_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_lapis_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_lapis_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/pyrope_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_pyrope_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:pyrope_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/scheelite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_scheelite_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_scheelite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/ruarsite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_ruarsite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:ruarsite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/lead_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_lead_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:lead_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/pollucite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_pollucite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:pollucite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/pyrope_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_pyrope_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:pyrope_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/sphalerite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_sphalerite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:sphalerite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/glauconite_sand_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_glauconite_sand_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:glauconite_sand_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "chalk:barrel/dye/wet_gray_chalk",
+			"mod": "chalk",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:unfired_chalk"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"tfc:gray_dye"
+					],
+					"fluidAmount": 36
+				}
+			],
+			"resultId": "tfg:wet_gray_chalk",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/soapstone_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_soapstone_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:soapstone_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/cassiterite_sand_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_cassiterite_sand_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_cassiterite_sand_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/monazite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_monazite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:monazite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:barrel/cooling_olive_oil",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:iron_block",
+						"minecraft:copper_block",
+						"minecraft:gold_block",
+						"minecraft:lapis_block",
+						"minecraft:clay",
+						"minecraft:white_terracotta",
+						"minecraft:orange_terracotta",
+						"minecraft:magenta_terracotta"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"tfc:olive_oil"
+					],
+					"fluidAmount": 1
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": true,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/stibnite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_stibnite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:stibnite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/chromite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_chromite_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_chromite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/nether_quartz_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_nether_quartz_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:nether_quartz_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/chalcopyrite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_chalcopyrite_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_chalcopyrite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:barrel/waters_cooling",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:iron_block",
+						"minecraft:copper_block",
+						"minecraft:gold_block",
+						"minecraft:lapis_block",
+						"minecraft:clay",
+						"minecraft:white_terracotta",
+						"minecraft:orange_terracotta",
+						"minecraft:magenta_terracotta"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water",
+						"minecraft:flowing_water",
+						"tfc:river_water",
+						"tfc:salt_water",
+						"tfc:flowing_salt_water",
+						"tfc:spring_water",
+						"tfc:flowing_spring_water",
+						"tfg:semiheavy_ammoniacal_water"
+					],
+					"fluidAmount": 1
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": true,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/lepidolite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_lepidolite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:lepidolite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/thorium_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_thorium_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_thorium_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/trona_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_trona_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_trona_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/uraninite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_uraninite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:uraninite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:barrel/dye/black_concrete",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:black_concrete_powder"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 100
+				}
+			],
+			"resultId": "minecraft:black_concrete",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/cassiterite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_cassiterite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:cassiterite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/redstone_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_redstone_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "minecraft:redstone",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/gypsum_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_gypsum_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:gypsum_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "firmalife:barrel/clean_volcanic_wine_bottle",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"firmalife:volcanic_wine_bottle"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 100
+				}
+			],
+			"resultId": "firmalife:empty_volcanic_wine_bottle",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:barrel/olive_oil",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:jute_net"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"tfc:olive_oil_water"
+					],
+					"fluidAmount": 250
+				}
+			],
+			"resultId": "tfc:dirty_jute_net",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/copper_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_copper_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "create:crushed_raw_copper",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/armalcolite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_armalcolite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:armalcolite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/cobaltite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_cobaltite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:cobaltite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/pyrolusite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_pyrolusite_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_pyrolusite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/armalcolite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_armalcolite_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_armalcolite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/electrotine_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_electrotine_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_electrotine_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/tetrahedrite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_tetrahedrite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:tetrahedrite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/pollucite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_pollucite_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_pollucite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/green_sapphire_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_green_sapphire_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:green_sapphire_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "chalk:barrel/dye/wet_pink_chalk",
+			"mod": "chalk",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:unfired_chalk"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"tfc:pink_dye"
+					],
+					"fluidAmount": 36
+				}
+			],
+			"resultId": "tfg:wet_pink_chalk",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/granitic_mineral_sand_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_granitic_mineral_sand_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:granitic_mineral_sand_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:barrel/clean_sealed_jar",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:jar/blackberry",
+						"tfc:jar/raspberry",
+						"tfc:jar/blueberry",
+						"tfc:jar/elderberry",
+						"tfc:jar/bunchberry",
+						"tfc:jar/gooseberry",
+						"tfc:jar/snowberry",
+						"tfc:jar/cloudberry"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 100
+				}
+			],
+			"resultId": "tfc:empty_jar",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/neodymium_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_neodymium_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:neodymium_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/tantalite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_tantalite_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_tantalite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/alunite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_alunite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:alunite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/tetrahedrite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_tetrahedrite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:tetrahedrite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/mica_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_mica_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:mica_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/pyrolusite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_pyrolusite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:pyrolusite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/grossular_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_grossular_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:grossular_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:barrel_instant/zeolite_water_purification",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:zeolite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"tfg:semiheavy_ammoniacal_water"
+					],
+					"fluidAmount": 1000
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": true,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:barrel/tfg_food_yogurt_washing_with_tfg_clean_water_100",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:food/yogurt"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water",
+						"tfc:river_water",
+						"tfc:spring_water"
+					],
+					"fluidAmount": 100
+				}
+			],
+			"resultId": "tfc:empty_jar",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/phlogopite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_phlogopite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:phlogopite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/rose_quartz_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"greate:impure_rose_quartz_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "greate:rose_quartz_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/talc_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_talc_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_talc_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:barrel/limewater",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:powder/flux"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 500
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": true,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/goethite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_goethite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:goethite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/nether_quartz_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_nether_quartz_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_nether_quartz_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/malachite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_malachite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:malachite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/silver_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_silver_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:silver_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/rock_salt_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_rock_salt_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:rock_salt_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:barrel/dye/red_concrete",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:red_concrete_powder"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 100
+				}
+			],
+			"resultId": "minecraft:red_concrete",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/calcite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_calcite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:calcite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "chalk:barrel/dye/wet_lime_chalk",
+			"mod": "chalk",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:unfired_chalk"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"tfc:lime_dye"
+					],
+					"fluidAmount": 36
+				}
+			],
+			"resultId": "tfg:wet_lime_chalk",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/electrotine_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_electrotine_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:electrotine_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/tantalite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_tantalite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:tantalite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/nickel_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_nickel_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:nickel_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/chalcopyrite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_chalcopyrite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:chalcopyrite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/sodalite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_sodalite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:sodalite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/scheelite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_scheelite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:scheelite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/ilmenite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_ilmenite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:ilmenite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/emerald_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_emerald_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:emerald_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/monazite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_monazite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:monazite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/lepidolite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_lepidolite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:lepidolite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/lorandite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:crushed_lorandite_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "tfg:purified_lorandite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/bastnasite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_bastnasite_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_bastnasite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/sulfur_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_sulfur_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_sulfur_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/chalcopyrite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_chalcopyrite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:chalcopyrite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/molybdenum_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_molybdenum_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:molybdenum_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/salt_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_salt_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_salt_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:barrel/dye/orange_concrete",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:orange_concrete_powder"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 100
+				}
+			],
+			"resultId": "minecraft:orange_concrete",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/hematite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_hematite_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_hematite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/bastnasite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_bastnasite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:bastnasite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/armalcolite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_armalcolite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:armalcolite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/cooperite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_cooperite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:cooperite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/vanadium_magnetite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_vanadium_magnetite_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_vanadium_magnetite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/desh_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_desh_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:desh_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/lapis_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_lapis_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:lapis_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "chalk:barrel/dye/wet_orange_chalk",
+			"mod": "chalk",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:unfired_chalk"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"tfc:orange_dye"
+					],
+					"fluidAmount": 36
+				}
+			],
+			"resultId": "tfg:wet_orange_chalk",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/ferhodsite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_ferhodsite_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_ferhodsite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/garnierite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_garnierite_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_garnierite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:barrel/dye/yellow_concrete",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:yellow_concrete_powder"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 100
+				}
+			],
+			"resultId": "minecraft:yellow_concrete",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/irarsite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_irarsite_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_irarsite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/pyrolusite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_pyrolusite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:pyrolusite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/gypsum_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_gypsum_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_gypsum_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/molybdenite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_molybdenite_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_molybdenite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/yellow_garnet_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_yellow_garnet_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_yellow_garnet_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/pyrite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_pyrite_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_pyrite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:barrel/cooling_saltwater",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:iron_block",
+						"minecraft:copper_block",
+						"minecraft:gold_block",
+						"minecraft:lapis_block",
+						"minecraft:clay",
+						"minecraft:white_terracotta",
+						"minecraft:orange_terracotta",
+						"minecraft:magenta_terracotta"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"tfc:salt_water"
+					],
+					"fluidAmount": 1
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": true,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/goethite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_goethite_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_goethite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/green_sapphire_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_green_sapphire_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_green_sapphire_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:barrel/tfg_food_fruit_yogurt_washing_with_tfg_clean_water_100",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:food/fruit_yogurt"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water",
+						"tfc:river_water",
+						"tfc:spring_water"
+					],
+					"fluidAmount": 100
+				}
+			],
+			"resultId": "tfc:empty_jar",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/graphite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_graphite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:graphite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/naquadah_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_naquadah_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:naquadah_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/bentonite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_bentonite_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_bentonite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/glauconite_sand_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_glauconite_sand_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_glauconite_sand_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/cassiterite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_cassiterite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:cassiterite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/glauconite_sand_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_glauconite_sand_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:glauconite_sand_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/olivine_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_olivine_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:olivine_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/spodumene_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_spodumene_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:spodumene_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/powellite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_powellite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:powellite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/gypsum_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_gypsum_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:gypsum_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:barrel/tfg_food_juice_washing_with_tfg_clean_water_100",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:food/juice"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water",
+						"tfc:river_water",
+						"tfc:spring_water"
+					],
+					"fluidAmount": 100
+				}
+			],
+			"resultId": "tfc:empty_jar",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "firmalife:barrel/clean_olivine_wine_bottle",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"firmalife:olivine_wine_bottle"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 100
+				}
+			],
+			"resultId": "firmalife:empty_olivine_wine_bottle",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/garnierite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_garnierite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:garnierite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/malachite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_malachite_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_malachite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/almandine_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_almandine_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:almandine_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/tungstate_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_tungstate_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:tungstate_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/calcite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_calcite_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_calcite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:barrel/dye/white_concrete",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:white_concrete_powder"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 100
+				}
+			],
+			"resultId": "minecraft:white_concrete",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "chalk:barrel/dye/wet_red_chalk",
+			"mod": "chalk",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:unfired_chalk"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"tfc:red_dye"
+					],
+					"fluidAmount": 36
+				}
+			],
+			"resultId": "tfg:wet_red_chalk",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/borax_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_borax_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_borax_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/ferhodsite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_ferhodsite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:ferhodsite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/cobalt_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_cobalt_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:cobalt_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/asbestos_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_asbestos_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_asbestos_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/bauxite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_bauxite_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_bauxite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/saltpeter_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_saltpeter_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:saltpeter_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/cobalt_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_cobalt_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_cobalt_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/apatite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_apatite_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_apatite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:barrel/dye/pink_concrete",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:pink_concrete_powder"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 100
+				}
+			],
+			"resultId": "minecraft:pink_concrete",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/chalcocite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_chalcocite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:chalcocite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/cassiterite_sand_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_cassiterite_sand_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:cassiterite_sand_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/wulfenite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_wulfenite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:wulfenite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/calcite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_calcite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:calcite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/barite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_barite_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_barite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "chalk:barrel/dye/wet_blue_chalk",
+			"mod": "chalk",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:unfired_chalk"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"tfc:blue_dye"
+					],
+					"fluidAmount": 36
+				}
+			],
+			"resultId": "tfg:wet_blue_chalk",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/pyrochlore_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_pyrochlore_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:pyrochlore_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/cobaltite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_cobaltite_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_cobaltite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/lithium_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_lithium_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_lithium_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:barrel_instant/kaolin_water_purification",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:powder/kaolinite"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"tfg:semiheavy_ammoniacal_water"
+					],
+					"fluidAmount": 1000
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": true,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/emerald_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_emerald_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:emerald_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/zeolite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_zeolite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:zeolite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/bornite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_bornite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:bornite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/chalcocite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_chalcocite_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_chalcocite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/monazite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_monazite_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_monazite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:barrel/dye/purple_concrete",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:purple_concrete_powder"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 100
+				}
+			],
+			"resultId": "minecraft:purple_concrete",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/opal_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_opal_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_opal_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/amethyst_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_amethyst_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:amethyst_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/bentonite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_bentonite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:bentonite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:barrel/dye/green_concrete",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:green_concrete_powder"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 100
+				}
+			],
+			"resultId": "minecraft:green_concrete",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/lazurite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_lazurite_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_lazurite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/sapphire_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_sapphire_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:sapphire_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/redstone_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_redstone_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_redstone_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/cooperite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_cooperite_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_cooperite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/platinum_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_platinum_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_platinum_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/spodumene_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_spodumene_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:spodumene_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/certus_quartz_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_certus_quartz_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_certus_quartz_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "chalk:barrel/dye/wet_green_chalk",
+			"mod": "chalk",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:unfired_chalk"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"tfc:green_dye"
+					],
+					"fluidAmount": 36
+				}
+			],
+			"resultId": "tfg:wet_green_chalk",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/diatomite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_diatomite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:diatomite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/cassiterite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_cassiterite_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_cassiterite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/pyrochlore_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_pyrochlore_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:pyrochlore_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/thorium_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_thorium_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:thorium_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/copper_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_copper_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:copper_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/soapstone_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_soapstone_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:soapstone_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/tin_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_tin_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:tin_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/red_garnet_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_red_garnet_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:red_garnet_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/hematite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_hematite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:hematite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/bornite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_bornite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:bornite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/platinum_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_platinum_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:platinum_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/granitic_mineral_sand_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_granitic_mineral_sand_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_granitic_mineral_sand_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/pentlandite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_pentlandite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:pentlandite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/lead_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_lead_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:lead_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/redstone_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_redstone_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "minecraft:redstone",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/soapstone_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_soapstone_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_soapstone_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:barrel/clean_soup_bowl",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:food/grain_soup",
+						"tfc:food/fruit_soup",
+						"tfc:food/vegetables_soup",
+						"tfc:food/protein_soup",
+						"tfc:food/dairy_soup",
+						"tfc:food/grain_salad",
+						"tfc:food/fruit_salad",
+						"tfc:food/vegetables_salad"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 100
+				}
+			],
+			"resultId": "minecraft:bowl",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/emerald_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_emerald_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_emerald_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/bastnasite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_bastnasite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:bastnasite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "firmalife:barrel/tirage",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:sugar",
+						"afc:birch_sugar",
+						"afc:maple_sugar",
+						"firmalife:raw_honey",
+						"tfg:wraptor_sugar"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"firmalife:yeast_starter"
+					],
+					"fluidAmount": 100
+				}
+			],
+			"resultId": "firmalife:tirage_mixture",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/ruby_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_ruby_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:ruby_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/phlogopite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_phlogopite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:phlogopite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/bismuth_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_bismuth_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:bismuth_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/vanadium_magnetite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_vanadium_magnetite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:vanadium_magnetite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/irarsite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_irarsite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:irarsite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:barrel/dye/magenta_concrete",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:magenta_concrete_powder"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 100
+				}
+			],
+			"resultId": "minecraft:magenta_concrete",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/palladium_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_palladium_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:palladium_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/realgar_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_realgar_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:realgar_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/cinnabar_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_cinnabar_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_cinnabar_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/nickel_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_nickel_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_nickel_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/quartzite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_quartzite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:quartzite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/nickel_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_nickel_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:nickel_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/barite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_barite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:barite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/lead_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_lead_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "create:crushed_raw_lead",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/chromite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_chromite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:chromite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:barrel/clean_jar",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:jar/blackberry_unsealed",
+						"tfc:jar/raspberry_unsealed",
+						"tfc:jar/blueberry_unsealed",
+						"tfc:jar/elderberry_unsealed",
+						"tfc:jar/bunchberry_unsealed",
+						"tfc:jar/gooseberry_unsealed",
+						"tfc:jar/snowberry_unsealed",
+						"tfc:jar/cloudberry_unsealed"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 100
+				}
+			],
+			"resultId": "tfc:empty_jar",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/tungstate_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_tungstate_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:tungstate_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/chalcocite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_chalcocite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:chalcocite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/bornite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_bornite_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_bornite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/red_garnet_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_red_garnet_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_red_garnet_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/desh_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_desh_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:desh_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/tantalite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_tantalite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:tantalite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "chalk:barrel/dye/wet_purple_chalk",
+			"mod": "chalk",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:unfired_chalk"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"tfc:purple_dye"
+					],
+					"fluidAmount": 36
+				}
+			],
+			"resultId": "tfg:wet_purple_chalk",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/lorandite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:impure_lorandite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "tfg:lorandite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/neodymium_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_neodymium_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:neodymium_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/sphalerite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_sphalerite_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_sphalerite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/tarkianite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_tarkianite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:tarkianite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/ruby_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_ruby_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_ruby_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/fullers_earth_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_fullers_earth_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:fullers_earth_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/iron_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_iron_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:iron_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:kjs/3mgjbkw82x67vr6lsgfyn3yif",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:jute_net"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"tfg:muddy_water"
+					],
+					"fluidAmount": 1000
+				}
+			],
+			"resultId": "tfc:dirty_jute_net",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/gold_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_gold_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:gold_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/diatomite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_diatomite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:diatomite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/bauxite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_bauxite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:bauxite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/galena_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_galena_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_galena_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/fullers_earth_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_fullers_earth_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_fullers_earth_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/yellow_garnet_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_yellow_garnet_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:yellow_garnet_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/asbestos_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_asbestos_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:asbestos_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/pitchblende_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_pitchblende_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:pitchblende_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/lazurite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_lazurite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:lazurite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:barrel/oils_cooling",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:iron_block",
+						"minecraft:copper_block",
+						"minecraft:gold_block",
+						"minecraft:lapis_block",
+						"minecraft:clay",
+						"minecraft:white_terracotta",
+						"minecraft:orange_terracotta",
+						"minecraft:magenta_terracotta"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"firmalife:soybean_oil",
+						"tfc:olive_oil",
+						"tfc:tallow",
+						"gtceu:seed_oil",
+						"gtceu:fish_oil",
+						"tfg:triglyceride_oil",
+						"tfg:peanut_oil",
+						"tfg:palm_oil"
+					],
+					"fluidAmount": 1
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": true,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/trona_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_trona_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:trona_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/green_sapphire_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_green_sapphire_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:green_sapphire_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/grossular_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_grossular_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_grossular_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/rock_salt_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_rock_salt_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:rock_salt_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/thorium_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_thorium_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:thorium_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/talc_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_talc_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:talc_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/borax_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_borax_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:borax_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/certus_quartz_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_certus_quartz_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "ae2:certus_quartz_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/uraninite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_uraninite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:uraninite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/stibnite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_stibnite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:stibnite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "chalk:barrel/dye/wet_cyan_chalk",
+			"mod": "chalk",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:unfired_chalk"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"tfc:cyan_dye"
+					],
+					"fluidAmount": 36
+				}
+			],
+			"resultId": "tfg:wet_cyan_chalk",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/pyrope_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_pyrope_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_pyrope_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/sodalite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_sodalite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:sodalite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/barite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_barite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:barite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/iron_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_iron_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_iron_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/garnet_sand_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_garnet_sand_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:garnet_sand_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/tetrahedrite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_tetrahedrite_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_tetrahedrite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/rose_quartz_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"greate:pure_rose_quartz_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "greate:rose_quartz_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/aluminium_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_aluminium_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:aluminium_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/granitic_mineral_sand_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_granitic_mineral_sand_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:granitic_mineral_sand_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/cassiterite_sand_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_cassiterite_sand_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:cassiterite_sand_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/neodymium_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_neodymium_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_neodymium_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/magnetite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_magnetite_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_magnetite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/gold_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_gold_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:gold_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/blue_topaz_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_blue_topaz_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_blue_topaz_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/tin_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_tin_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "create:crushed_raw_tin",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/beryllium_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_beryllium_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_beryllium_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/ilmenite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_ilmenite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:ilmenite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/irarsite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_irarsite_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:irarsite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:barrel/dye/gray_concrete",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:gray_concrete_powder"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 100
+				}
+			],
+			"resultId": "minecraft:gray_concrete",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/nether_quartz_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_nether_quartz_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:nether_quartz_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/grossular_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_grossular_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:grossular_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "chalk:barrel/dye/wet_light_blue_chalk",
+			"mod": "chalk",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:unfired_chalk"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"tfc:light_blue_dye"
+					],
+					"fluidAmount": 36
+				}
+			],
+			"resultId": "tfg:wet_light_blue_chalk",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/kyanite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_kyanite_ore"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:purified_kyanite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:instant_barrel/sulfur_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_sulfur_dust"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"minecraft:water"
+					],
+					"fluidAmount": 10
+				}
+			],
+			"resultId": "gtceu:sulfur_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		}
+	]
+}

@@ -1,0 +1,445 @@
+{
+	"type": "afc:tree_tapping",
+	"recipes": [
+		{
+			"id": "tfg:tree_tapping/ancient_kapok_latex",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"afc:wood/log/ancient_kapok"
+					]
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": false,
+			"extraOutputs": [
+				{
+					"cap": "fluid",
+					"id": "tfg:latex",
+					"amount": 4
+				}
+			]
+		},
+		{
+			"id": "tfg:tree_tapping/warped_log",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"beneath:wood/log/warped"
+					]
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": false,
+			"extraOutputs": [
+				{
+					"cap": "fluid",
+					"id": "tfg:warpane",
+					"amount": 1
+				}
+			]
+		},
+		{
+			"id": "tfg:tree_tapping/ancient_white_cedar_resin",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"afc:wood/log/ancient_white_cedar"
+					]
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": false,
+			"extraOutputs": [
+				{
+					"cap": "fluid",
+					"id": "tfg:conifer_pitch",
+					"amount": 3
+				}
+			]
+		},
+		{
+			"id": "tfg:tree_tapping/ancient_aspen_resin",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"afc:wood/log/ancient_aspen"
+					]
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": false,
+			"extraOutputs": [
+				{
+					"cap": "fluid",
+					"id": "tfg:conifer_pitch",
+					"amount": 2
+				}
+			]
+		},
+		{
+			"id": "tfg:tree_tapping/birch_log",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:wood/log/birch"
+					]
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": false,
+			"extraOutputs": [
+				{
+					"cap": "fluid",
+					"id": "afc:birch_sap",
+					"amount": 5
+				}
+			]
+		},
+		{
+			"id": "tfg:tree_tapping/douglas_fir_resin",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:wood/log/douglas_fir"
+					]
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": false,
+			"extraOutputs": [
+				{
+					"cap": "fluid",
+					"id": "tfg:conifer_pitch",
+					"amount": 2
+				}
+			]
+		},
+		{
+			"id": "tfg:tree_tapping/kapok_latex",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:wood/log/kapok"
+					]
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": false,
+			"extraOutputs": [
+				{
+					"cap": "fluid",
+					"id": "tfg:latex",
+					"amount": 4
+				}
+			]
+		},
+		{
+			"id": "tfg:tree_tapping/white_cedar_resin",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:wood/log/white_cedar"
+					]
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": false,
+			"extraOutputs": [
+				{
+					"cap": "fluid",
+					"id": "tfg:conifer_pitch",
+					"amount": 3
+				}
+			]
+		},
+		{
+			"id": "tfg:tree_tapping/latex/rubber_fig",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"afc:wood/log/rubber_fig"
+					]
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": false,
+			"extraOutputs": [
+				{
+					"cap": "fluid",
+					"id": "tfg:latex",
+					"amount": 2
+				}
+			]
+		},
+		{
+			"id": "tfg:tree_tapping/ancient_spruce_resin",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"afc:wood/log/ancient_spruce"
+					]
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": false,
+			"extraOutputs": [
+				{
+					"cap": "fluid",
+					"id": "tfg:conifer_pitch",
+					"amount": 4
+				}
+			]
+		},
+		{
+			"id": "tfg:tree_tapping/spruce_resin",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:wood/log/spruce"
+					]
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": false,
+			"extraOutputs": [
+				{
+					"cap": "fluid",
+					"id": "tfg:conifer_pitch",
+					"amount": 4
+				}
+			]
+		},
+		{
+			"id": "tfg:tree_tapping/latex/ancient_rubber_fig",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"afc:wood/log/ancient_rubber_fig"
+					]
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": false,
+			"extraOutputs": [
+				{
+					"cap": "fluid",
+					"id": "tfg:latex",
+					"amount": 2
+				}
+			]
+		},
+		{
+			"id": "tfg:tree_tapping/latex/hevea",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"afc:wood/log/hevea"
+					]
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": false,
+			"extraOutputs": [
+				{
+					"cap": "fluid",
+					"id": "tfg:latex",
+					"amount": 3
+				}
+			]
+		},
+		{
+			"id": "tfg:tree_tapping/warped_wood",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"beneath:wood/wood/warped"
+					]
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": false,
+			"extraOutputs": [
+				{
+					"cap": "fluid",
+					"id": "tfg:warpane",
+					"amount": 1
+				}
+			]
+		},
+		{
+			"id": "tfg:tree_tapping/latex/ancient_hevea",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"afc:wood/log/ancient_hevea"
+					]
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": false,
+			"extraOutputs": [
+				{
+					"cap": "fluid",
+					"id": "tfg:latex",
+					"amount": 3
+				}
+			]
+		},
+		{
+			"id": "tfg:tree_tapping/crimson_log",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"beneath:wood/log/crimson"
+					]
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": false,
+			"extraOutputs": [
+				{
+					"cap": "fluid",
+					"id": "tfg:crimsene",
+					"amount": 1
+				}
+			]
+		},
+		{
+			"id": "tfg:tree_tapping/aspen_resin",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:wood/log/aspen"
+					]
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": false,
+			"extraOutputs": [
+				{
+					"cap": "fluid",
+					"id": "tfg:conifer_pitch",
+					"amount": 2
+				}
+			]
+		},
+		{
+			"id": "tfg:tree_tapping/crimson_wood",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"beneath:wood/wood/crimson"
+					]
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": false,
+			"extraOutputs": [
+				{
+					"cap": "fluid",
+					"id": "tfg:crimsene",
+					"amount": 1
+				}
+			]
+		},
+		{
+			"id": "tfg:tree_tapping/ancient_douglas_fir_resin",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"afc:wood/log/ancient_douglas_fir"
+					]
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": false,
+			"extraOutputs": [
+				{
+					"cap": "fluid",
+					"id": "tfg:conifer_pitch",
+					"amount": 2
+				}
+			]
+		},
+		{
+			"id": "tfg:tree_tapping/maple_log",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:wood/log/maple"
+					]
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": false,
+			"extraOutputs": [
+				{
+					"cap": "fluid",
+					"id": "afc:maple_sap",
+					"amount": 5
+				}
+			]
+		}
+	]
+}

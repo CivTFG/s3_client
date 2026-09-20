@@ -1,0 +1,37 @@
+{
+	"type": "gtceu:smr_generator",
+	"recipes": [
+		{
+			"id": "tfg:smr_generator/boron_smr",
+			"category": "smr_generator",
+			"duration": 20,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:spent_ticl4_doped_supercritical_co2"
+					],
+					"amount": 50,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:ticl4_doped_supercritical_co2"
+					],
+					"amount": 50,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		}
+	]
+}

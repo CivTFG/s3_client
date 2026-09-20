@@ -1,0 +1,173 @@
+{
+	"type": "deafission:fission_reactor_coolant",
+	"recipes": [
+		{
+			"id": "tfg:fission_reactor_coolant/plutonium_coolant",
+			"category": "fission_reactor_coolant",
+			"duration": 1,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:plutonium_rod"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": []
+		},
+		{
+			"id": "tfg:fission_reactor_coolant/tbu_coolant",
+			"category": "fission_reactor_coolant",
+			"duration": 1,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:tbu_232_rod"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": []
+		},
+		{
+			"id": "tfg:fission_reactor_coolant/thorium_coolant",
+			"category": "fission_reactor_coolant",
+			"duration": 1,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:thorium_rod"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": []
+		},
+		{
+			"id": "tfg:fission_reactor_coolant/uranium_coolant",
+			"category": "fission_reactor_coolant",
+			"duration": 1,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:uranium_rod"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": []
+		},
+		{
+			"id": "tfg:fission_reactor_coolant/flibe_coolant",
+			"category": "fission_reactor_coolant",
+			"duration": 1,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:californium_252_rod"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:flibe"
+					],
+					"amount": 640,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:hot_flibe"
+					],
+					"amount": 640,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:fission_reactor_coolant/boron_enriched_coolant",
+			"category": "fission_reactor_coolant",
+			"duration": 1,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:neptunium_237_rod",
+						"tfg:californium_252_rod",
+						"tfg:americium_241_rod"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:boron_enriched_coolant"
+					],
+					"amount": 640,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:hot_boron_enriched_coolant"
+					],
+					"amount": 640,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		}
+	]
+}

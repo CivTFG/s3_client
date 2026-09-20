@@ -1,0 +1,19 @@
+{
+  "feature": "tfc:plant/wild_crop/yellow_bell_pepper_patch",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 16
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "tfc:climate",
+      "min_temperature": 20,
+      "max_temperature": 30,
+      "min_rainfall": 195,
+      "max_rainfall": 400
+    }
+  ]
+}

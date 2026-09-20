@@ -1,0 +1,19 @@
+{
+  "feature": "tfc:plant/wild_crop/papyrus_patch",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 16
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "tfc:climate",
+      "min_temperature": 25,
+      "max_temperature": 37,
+      "min_rainfall": 345,
+      "max_rainfall": 500
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+	"type": "deafission:hb_import",
+	"recipes": [
+		{
+			"id": "tfg:hb_import/boron_coolant",
+			"category": "hb_import",
+			"duration": 100,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:hot_boron_enriched_coolant"
+					],
+					"amount": 3600,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:boron_enriched_coolant"
+					],
+					"amount": 3600,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:hb_import/dense_steam",
+			"category": "hb_import",
+			"duration": 100,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:dense_steam"
+					],
+					"amount": 20,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water"
+					],
+					"amount": 20,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		}
+	]
+}

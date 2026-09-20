@@ -1,0 +1,475 @@
+{
+	"type": "gtceu:fluid_heater",
+	"recipes": [
+		{
+			"id": "gtceu:fluid_heater/ethenone",
+			"category": "fluid_heater",
+			"duration": 16,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "circuit",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:acetone"
+					],
+					"amount": 100,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:ethenone"
+					],
+					"amount": 100,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:fluid_heater/heat_ice_to_water",
+			"category": "fluid_heater",
+			"duration": 32,
+			"voltage": 4,
+			"inputs": [
+				{
+					"cap": "circuit",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:ice"
+					],
+					"amount": 144,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water"
+					],
+					"amount": 144,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:fluid_heater/fluid_heater/decompress_liq_co2",
+			"category": "fluid_heater",
+			"duration": 20,
+			"voltage": 7,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:dry_ice"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:carbon_dioxide"
+					],
+					"amount": 100,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:fluid_heater/heat_distilled_to_steam",
+			"category": "fluid_heater",
+			"duration": 30,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "circuit",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:distilled_water"
+					],
+					"amount": 6,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:steam"
+					],
+					"amount": 960,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:fluid_heater/acetone",
+			"category": "fluid_heater",
+			"duration": 16,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "circuit",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:dissolved_calcium_acetate"
+					],
+					"amount": 200,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:acetone"
+					],
+					"amount": 200,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:fluid_heater/sterile_growth_medium",
+			"category": "fluid_heater",
+			"duration": 20,
+			"voltage": 7680,
+			"inputs": [
+				{
+					"cap": "circuit",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:raw_growth_medium"
+					],
+					"amount": 100,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:sterilized_growth_medium"
+					],
+					"amount": 100,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:fluid_heater/cryo_fluix",
+			"category": "fluid_heater",
+			"duration": 100,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:cryogenized_fluix"
+					],
+					"amount": 576,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:fluix"
+					],
+					"amount": 144,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:fluid_heater/fluid_heater/decompress_dry_ice",
+			"category": "fluid_heater",
+			"duration": 20,
+			"voltage": 7,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:liquid_carbon_dioxide"
+					],
+					"amount": 100,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:carbon_dioxide"
+					],
+					"amount": 100,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:fluid_heater/heat_mars_water_to_steam",
+			"category": "fluid_heater",
+			"duration": 30,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:semiheavy_ammoniacal_water"
+					],
+					"amount": 6,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:steam"
+					],
+					"amount": 960,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:fluid_heater/maple_sap_condense",
+			"category": "fluid_heater",
+			"duration": 500,
+			"voltage": 7,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"afc:maple_sap"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"afc:maple_syrup"
+					],
+					"amount": 250,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:fluid_heater/heat_water_to_steam",
+			"category": "fluid_heater",
+			"duration": 30,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "circuit",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water"
+					],
+					"amount": 6,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:steam"
+					],
+					"amount": 960,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:fluid_heater/heat_semiheavy_water_to_steam",
+			"category": "fluid_heater",
+			"duration": 30,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:semiheavy_water"
+					],
+					"amount": 6,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:steam"
+					],
+					"amount": 960,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:fluid_heater/birch_sap_condense",
+			"category": "fluid_heater",
+			"duration": 700,
+			"voltage": 7,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"afc:birch_sap"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"afc:birch_syrup"
+					],
+					"amount": 250,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		}
+	]
+}

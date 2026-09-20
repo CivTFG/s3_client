@@ -1,0 +1,98 @@
+{
+	"type": "gtceu:large_solar_panel_tier3",
+	"recipes": [
+		{
+			"id": "gtceu:large_solar_panel_tier3/solar_panel_t3_cheap",
+			"category": "large_solar_panel_tier3",
+			"duration": 400,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"ad_astra:photovoltaic_vesnium_cell"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": []
+		},
+		{
+			"id": "gtceu:large_solar_panel_tier3/solar_panel_t3_emergency",
+			"category": "large_solar_panel_tier3",
+			"duration": 400,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"ad_astra:photovoltaic_vesnium_cell"
+					],
+					"amount": 1,
+					"chanced": true,
+					"chance": 100,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": []
+		},
+		{
+			"id": "gtceu:large_solar_panel_tier3/solar_panel_t3_strong",
+			"category": "large_solar_panel_tier3",
+			"duration": 400,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"ad_astra:photovoltaic_vesnium_cell"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": []
+		}
+	]
+}

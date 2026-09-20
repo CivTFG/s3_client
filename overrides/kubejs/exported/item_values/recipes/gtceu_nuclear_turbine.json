@@ -1,0 +1,37 @@
+{
+	"type": "gtceu:nuclear_turbine",
+	"recipes": [
+		{
+			"id": "gtceu:nuclear_turbine/dense_steam",
+			"category": "nuclear_turbine",
+			"duration": 30,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:dense_steam"
+					],
+					"amount": 160,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:warm_water"
+					],
+					"amount": 40,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		}
+	]
+}

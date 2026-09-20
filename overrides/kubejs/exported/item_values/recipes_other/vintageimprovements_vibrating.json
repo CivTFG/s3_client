@@ -1,0 +1,1804 @@
+{
+	"type": "vintageimprovements:vibrating",
+	"recipes": [
+		{
+			"id": "tfg:vi/vibrating/realgar",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:purified_realgar_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:exquisite_realgar_gem",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/diamond",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:purified_diamond_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:exquisite_diamond_gem",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/green_sapphire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:purified_green_sapphire_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:exquisite_green_sapphire_gem",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/deposits/dolomite_native_gold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:deposit/native_gold/dolomite"
+					]
+				}
+			],
+			"resultId": "gtceu:gold_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/deposits/slate_native_gold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:deposit/native_gold/slate"
+					]
+				}
+			],
+			"resultId": "gtceu:gold_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/deposits/basalt_native_gold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:deposit/native_gold/basalt"
+					]
+				}
+			],
+			"resultId": "gtceu:gold_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/almandine",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:purified_almandine_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:exquisite_almandine_gem",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/topaz",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:purified_topaz_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:exquisite_topaz_gem",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/deposits/granite_cassiterite",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:deposit/cassiterite/granite"
+					]
+				}
+			],
+			"resultId": "gtceu:cassiterite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/deposits/basalt_native_silver",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:deposit/native_silver/basalt"
+					]
+				}
+			],
+			"resultId": "gtceu:silver_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/deposits/claystone_native_copper",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:deposit/native_copper/claystone"
+					]
+				}
+			],
+			"resultId": "gtceu:copper_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/deposits/diorite_cassiterite",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:deposit/cassiterite/diorite"
+					]
+				}
+			],
+			"resultId": "gtceu:cassiterite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/deposits/conglomerate_native_copper",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:deposit/native_copper/conglomerate"
+					]
+				}
+			],
+			"resultId": "gtceu:copper_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/deposits/gabbro_native_gold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:deposit/native_gold/gabbro"
+					]
+				}
+			],
+			"resultId": "gtceu:gold_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/deposits/conglomerate_native_gold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:deposit/native_gold/conglomerate"
+					]
+				}
+			],
+			"resultId": "gtceu:gold_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/deposits/granite_native_copper",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:deposit/native_copper/granite"
+					]
+				}
+			],
+			"resultId": "gtceu:copper_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/deposits/dolomite_native_copper",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:deposit/native_copper/dolomite"
+					]
+				}
+			],
+			"resultId": "gtceu:copper_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/deposits/dacite_native_silver",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:deposit/native_silver/dacite"
+					]
+				}
+			],
+			"resultId": "gtceu:silver_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/deposits/shale_native_copper",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:deposit/native_copper/shale"
+					]
+				}
+			],
+			"resultId": "gtceu:copper_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/deposits/conglomerate_cassiterite",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:deposit/cassiterite/conglomerate"
+					]
+				}
+			],
+			"resultId": "gtceu:cassiterite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/deposits/andesite_native_gold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:deposit/native_gold/andesite"
+					]
+				}
+			],
+			"resultId": "gtceu:gold_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/deposits/limestone_native_silver",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:deposit/native_silver/limestone"
+					]
+				}
+			],
+			"resultId": "gtceu:silver_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/deposits/andesite_native_silver",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:deposit/native_silver/andesite"
+					]
+				}
+			],
+			"resultId": "gtceu:silver_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/deposits/chert_native_gold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:deposit/native_gold/chert"
+					]
+				}
+			],
+			"resultId": "gtceu:gold_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/deposits/granite_native_silver",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:deposit/native_silver/granite"
+					]
+				}
+			],
+			"resultId": "gtceu:silver_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/deposits/slate_cassiterite",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:deposit/cassiterite/slate"
+					]
+				}
+			],
+			"resultId": "gtceu:cassiterite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/deposits/marble_cassiterite",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:deposit/cassiterite/marble"
+					]
+				}
+			],
+			"resultId": "gtceu:cassiterite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/deposits/claystone_cassiterite",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:deposit/cassiterite/claystone"
+					]
+				}
+			],
+			"resultId": "gtceu:cassiterite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/deposits/dacite_native_copper",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:deposit/native_copper/dacite"
+					]
+				}
+			],
+			"resultId": "gtceu:copper_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/monazite",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:purified_monazite_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:exquisite_monazite_gem",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/deposits/chert_native_copper",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:deposit/native_copper/chert"
+					]
+				}
+			],
+			"resultId": "gtceu:copper_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/deposits/dacite_cassiterite",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:deposit/cassiterite/dacite"
+					]
+				}
+			],
+			"resultId": "gtceu:cassiterite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/rose_quartz",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"greate:purified_rose_quartz_ore"
+					]
+				}
+			],
+			"resultId": "greate:exquisite_rose_quartz_gem",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/gravel",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:rock/gravel/granite",
+						"tfc:rock/gravel/diorite",
+						"tfc:rock/gravel/gabbro",
+						"tfc:rock/gravel/shale",
+						"tfc:rock/gravel/claystone",
+						"tfc:rock/gravel/limestone",
+						"tfc:rock/gravel/conglomerate",
+						"tfc:rock/gravel/dolomite"
+					]
+				}
+			],
+			"resultId": "minecraft:flint",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/apatite",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:purified_apatite_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:exquisite_apatite_gem",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/deposits/shale_cassiterite",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:deposit/cassiterite/shale"
+					]
+				}
+			],
+			"resultId": "gtceu:cassiterite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/deposits/dacite_native_gold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:deposit/native_gold/dacite"
+					]
+				}
+			],
+			"resultId": "gtceu:gold_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/red_garnet",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:purified_red_garnet_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:exquisite_red_garnet_gem",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/amethyst",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:purified_amethyst_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:exquisite_amethyst_gem",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/deposits/shale_native_silver",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:deposit/native_silver/shale"
+					]
+				}
+			],
+			"resultId": "gtceu:silver_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/cinnabar",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:purified_cinnabar_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:exquisite_cinnabar_gem",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/deposits/shale_native_gold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:deposit/native_gold/shale"
+					]
+				}
+			],
+			"resultId": "gtceu:gold_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/deposits/quartzite_cassiterite",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:deposit/cassiterite/quartzite"
+					]
+				}
+			],
+			"resultId": "gtceu:cassiterite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/blue_topaz",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:purified_blue_topaz_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:exquisite_blue_topaz_gem",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/spessartine",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:purified_spessartine_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:exquisite_spessartine_gem",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/deposits/phyllite_native_gold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:deposit/native_gold/phyllite"
+					]
+				}
+			],
+			"resultId": "gtceu:gold_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/opal",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:purified_opal_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:exquisite_opal_gem",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/deposits/chalk_native_gold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:deposit/native_gold/chalk"
+					]
+				}
+			],
+			"resultId": "gtceu:gold_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/emerald",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:purified_emerald_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:exquisite_emerald_gem",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/deposits/chalk_native_copper",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:deposit/native_copper/chalk"
+					]
+				}
+			],
+			"resultId": "gtceu:copper_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/certus_quartz",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:purified_certus_quartz_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:exquisite_certus_quartz_gem",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/armalcolite",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:purified_armalcolite_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:exquisite_armalcolite_gem",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/deposits/schist_cassiterite",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:deposit/cassiterite/schist"
+					]
+				}
+			],
+			"resultId": "gtceu:cassiterite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/deposits/diorite_native_copper",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:deposit/native_copper/diorite"
+					]
+				}
+			],
+			"resultId": "gtceu:copper_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/deposits/phyllite_cassiterite",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:deposit/cassiterite/phyllite"
+					]
+				}
+			],
+			"resultId": "gtceu:cassiterite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/deposits/marble_native_silver",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:deposit/native_silver/marble"
+					]
+				}
+			],
+			"resultId": "gtceu:silver_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/deposits/chalk_cassiterite",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:deposit/cassiterite/chalk"
+					]
+				}
+			],
+			"resultId": "gtceu:cassiterite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/malachite",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:purified_malachite_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:exquisite_malachite_gem",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/deposits/schist_native_silver",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:deposit/native_silver/schist"
+					]
+				}
+			],
+			"resultId": "gtceu:silver_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/sodalite",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:purified_sodalite_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:exquisite_sodalite_gem",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/lazurite",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:purified_lazurite_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:exquisite_lazurite_gem",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/rock_salt",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:purified_rock_salt_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:exquisite_rock_salt_gem",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/deposits/slate_native_copper",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:deposit/native_copper/slate"
+					]
+				}
+			],
+			"resultId": "gtceu:copper_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/deposits/phyllite_native_copper",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:deposit/native_copper/phyllite"
+					]
+				}
+			],
+			"resultId": "gtceu:copper_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/lapis",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:purified_lapis_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:exquisite_lapis_gem",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/deposits/slate_native_silver",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:deposit/native_silver/slate"
+					]
+				}
+			],
+			"resultId": "gtceu:silver_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/deposits/quartzite_native_copper",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:deposit/native_copper/quartzite"
+					]
+				}
+			],
+			"resultId": "gtceu:copper_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/deposits/limestone_native_gold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:deposit/native_gold/limestone"
+					]
+				}
+			],
+			"resultId": "gtceu:gold_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/deposits/diorite_native_silver",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:deposit/native_silver/diorite"
+					]
+				}
+			],
+			"resultId": "gtceu:silver_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/grossular",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:purified_grossular_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:exquisite_grossular_gem",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/deposits/phyllite_native_silver",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:deposit/native_silver/phyllite"
+					]
+				}
+			],
+			"resultId": "gtceu:silver_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/deposits/limestone_cassiterite",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:deposit/cassiterite/limestone"
+					]
+				}
+			],
+			"resultId": "gtceu:cassiterite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/quartzite",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:purified_quartzite_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:exquisite_quartzite_gem",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/deposits/marble_native_gold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:deposit/native_gold/marble"
+					]
+				}
+			],
+			"resultId": "gtceu:gold_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/deposits/rhyolite_native_gold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:deposit/native_gold/rhyolite"
+					]
+				}
+			],
+			"resultId": "gtceu:gold_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/deposits/quartzite_native_silver",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:deposit/native_silver/quartzite"
+					]
+				}
+			],
+			"resultId": "gtceu:silver_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/deposits/chert_native_silver",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:deposit/native_silver/chert"
+					]
+				}
+			],
+			"resultId": "gtceu:silver_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/deposits/gabbro_cassiterite",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:deposit/cassiterite/gabbro"
+					]
+				}
+			],
+			"resultId": "gtceu:cassiterite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/deposits/gneiss_native_copper",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:deposit/native_copper/gneiss"
+					]
+				}
+			],
+			"resultId": "gtceu:copper_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/olivine",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:purified_olivine_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:exquisite_olivine_gem",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/sapphire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:purified_sapphire_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:exquisite_sapphire_gem",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/deposits/gabbro_native_silver",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:deposit/native_silver/gabbro"
+					]
+				}
+			],
+			"resultId": "gtceu:silver_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/deposits/rhyolite_cassiterite",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:deposit/cassiterite/rhyolite"
+					]
+				}
+			],
+			"resultId": "gtceu:cassiterite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/deposits/rhyolite_native_silver",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:deposit/native_silver/rhyolite"
+					]
+				}
+			],
+			"resultId": "gtceu:silver_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/nether_quartz",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:purified_nether_quartz_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:exquisite_nether_quartz_gem",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/deposits/limestone_native_copper",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:deposit/native_copper/limestone"
+					]
+				}
+			],
+			"resultId": "gtceu:copper_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/deposits/claystone_native_gold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:deposit/native_gold/claystone"
+					]
+				}
+			],
+			"resultId": "gtceu:gold_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/deposits/dolomite_cassiterite",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:deposit/cassiterite/dolomite"
+					]
+				}
+			],
+			"resultId": "gtceu:cassiterite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/deposits/gabbro_native_copper",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:deposit/native_copper/gabbro"
+					]
+				}
+			],
+			"resultId": "gtceu:copper_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/deposits/andesite_cassiterite",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:deposit/cassiterite/andesite"
+					]
+				}
+			],
+			"resultId": "gtceu:cassiterite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/deposits/basalt_native_copper",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:deposit/native_copper/basalt"
+					]
+				}
+			],
+			"resultId": "gtceu:copper_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/deposits/chalk_native_silver",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:deposit/native_silver/chalk"
+					]
+				}
+			],
+			"resultId": "gtceu:silver_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/deposits/claystone_native_silver",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:deposit/native_silver/claystone"
+					]
+				}
+			],
+			"resultId": "gtceu:silver_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/deposits/gneiss_native_gold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:deposit/native_gold/gneiss"
+					]
+				}
+			],
+			"resultId": "gtceu:gold_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/deposits/basalt_cassiterite",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:deposit/cassiterite/basalt"
+					]
+				}
+			],
+			"resultId": "gtceu:cassiterite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/yellow_garnet",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:purified_yellow_garnet_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:exquisite_yellow_garnet_gem",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/deposits/marble_native_copper",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:deposit/native_copper/marble"
+					]
+				}
+			],
+			"resultId": "gtceu:copper_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/pyrope",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:purified_pyrope_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:exquisite_pyrope_gem",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/salt",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:purified_salt_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:exquisite_salt_gem",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/deposits/schist_native_gold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:deposit/native_gold/schist"
+					]
+				}
+			],
+			"resultId": "gtceu:gold_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/ruby",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:purified_ruby_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:exquisite_ruby_gem",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/deposits/rhyolite_native_copper",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:deposit/native_copper/rhyolite"
+					]
+				}
+			],
+			"resultId": "gtceu:copper_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/deposits/schist_native_copper",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:deposit/native_copper/schist"
+					]
+				}
+			],
+			"resultId": "gtceu:copper_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/deposits/andesite_native_copper",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:deposit/native_copper/andesite"
+					]
+				}
+			],
+			"resultId": "gtceu:copper_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/deposits/gneiss_native_silver",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:deposit/native_silver/gneiss"
+					]
+				}
+			],
+			"resultId": "gtceu:silver_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/deposits/chert_cassiterite",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:deposit/cassiterite/chert"
+					]
+				}
+			],
+			"resultId": "gtceu:cassiterite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/deposits/granite_native_gold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:deposit/native_gold/granite"
+					]
+				}
+			],
+			"resultId": "gtceu:gold_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/deposits/diorite_native_gold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:deposit/native_gold/diorite"
+					]
+				}
+			],
+			"resultId": "gtceu:gold_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/deposits/dolomite_native_silver",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:deposit/native_silver/dolomite"
+					]
+				}
+			],
+			"resultId": "gtceu:silver_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/deposits/quartzite_native_gold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:deposit/native_gold/quartzite"
+					]
+				}
+			],
+			"resultId": "gtceu:gold_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/deposits/conglomerate_native_silver",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:deposit/native_silver/conglomerate"
+					]
+				}
+			],
+			"resultId": "gtceu:silver_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/vibrating/deposits/gneiss_cassiterite",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:deposit/cassiterite/gneiss"
+					]
+				}
+			],
+			"resultId": "gtceu:cassiterite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		}
+	]
+}

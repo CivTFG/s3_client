@@ -1,0 +1,3655 @@
+{
+	"type": "gtceu:food_oven",
+	"recipes": [
+		{
+			"id": "gtceu:food_oven/tfg_cassava_product_to_tfg_food_cooked_cassava",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:cassava_product"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:food/cooked_cassava"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/tfg_food_raw_instant_mac_boiled_into_tfg_food_cooked_instant_mac",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:food/raw_instant_mac"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:milk",
+						"firmalife:yak_milk",
+						"firmalife:goat_milk"
+					],
+					"amount": 200,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:food/cooked_instant_mac"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/raw_dino_nugget",
+			"category": "food_oven",
+			"duration": 300,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:food/raw_dino_nugget"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"firmalife:soybean_oil",
+						"tfc:olive_oil",
+						"tfc:tallow",
+						"gtceu:seed_oil",
+						"gtceu:fish_oil",
+						"tfg:triglyceride_oil",
+						"tfg:peanut_oil",
+						"tfg:palm_oil"
+					],
+					"amount": 100,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:food/cooked_dino_nugget"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/firmalife_food_cocoa_beans_to_firmalife_food_roasted_cocoa_beans",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"firmalife:food/cocoa_beans"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"firmalife:food/roasted_cocoa_beans"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/tfg_food_raw_crusher_meat_to_tfg_food_cooked_crusher_meat",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:food/raw_crusher_meat"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:food/cooked_crusher_meat"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/tfc_food_turtle_to_tfc_food_cooked_turtle",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/turtle"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/cooked_turtle"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/tfg_food_raw_moon_rabbit_to_tfg_food_cooked_moon_rabbit",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:food/raw_moon_rabbit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:food/cooked_moon_rabbit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/betterend_cave_pumpkin_pie_raw_to_betterend_cave_pumpkin_pie",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"betterend:cave_pumpkin_pie_raw"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"betterend:cave_pumpkin_pie"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/tfc_food_camelidae_to_tfc_food_cooked_camelidae",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/camelidae"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/cooked_camelidae"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/rye_bread",
+			"category": "food_oven",
+			"duration": 200,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"firmalife:food/rye_dough"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/rye_bread"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/tfc_food_fox_to_tfc_food_cooked_fox",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/fox"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/cooked_fox"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/tfg_food_raw_whole_soarer_to_tfg_food_cooked_whole_soarer",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:food/raw_whole_soarer"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:food/cooked_whole_soarer"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/tfg_food_brioche_dough_to_tfg_food_brioche_bun",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:food/brioche_dough"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:food/brioche_bun"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/firmalife_foods_slices_to_firmalife_food_toast",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"firmalife:food/barley_slice",
+						"firmalife:food/rye_slice",
+						"firmalife:food/wheat_slice",
+						"firmalife:food/oat_slice",
+						"firmalife:food/rice_slice",
+						"firmalife:food/maize_slice"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"firmalife:food/toast"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/tfg_food_raw_walker_steak_to_tfg_food_cooked_walker_steak",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:food/raw_walker_steak"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:food/cooked_walker_steak"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/rice_flatbread",
+			"category": "food_oven",
+			"duration": 200,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/rice_dough"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"firmalife:food/rice_flatbread"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/tfg_food_raw_bison_meat_to_tfg_food_cooked_bison_meat",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:food/raw_bison_meat"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:food/cooked_bison_meat"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/firmalife_food_cookie_dough_to_firmalife_food_sugar_cookie",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"firmalife:food/cookie_dough"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"firmalife:food/sugar_cookie"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/tfc_food_grouse_to_tfc_food_cooked_grouse",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/grouse"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/cooked_grouse"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/tfc_food_rice_grain_boiled_into_tfc_food_cooked_rice",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/rice_grain"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water",
+						"tfc:river_water",
+						"tfc:spring_water"
+					],
+					"amount": 100,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/cooked_rice"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/tfc_groundcover_seaweed_to_tfc_food_dried_seaweed",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:groundcover/seaweed"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/dried_seaweed"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/tfc_food_horse_meat_to_tfc_food_cooked_horse_meat",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/horse_meat"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/cooked_horse_meat"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/tfg_food_raw_goober_meat_to_tfg_food_cooked_goober_meat",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:food/raw_goober_meat"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:food/cooked_goober_meat"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/tfc_food_venison_to_tfc_food_cooked_venison",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/venison"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/cooked_venison"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/baked_cake_base",
+			"category": "food_oven",
+			"duration": 200,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"createaddition:cake_base"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"createaddition:cake_base_baked"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/tfg_food_raw_long_pig_filet_to_tfg_food_cooked_long_pig_filet",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:food/raw_long_pig_filet"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:food/cooked_long_pig_filet"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/maize_flatbread",
+			"category": "food_oven",
+			"duration": 200,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/maize_dough"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"firmalife:food/maize_flatbread"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/tfc_food_frog_legs_to_tfc_food_cooked_frog_legs",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/frog_legs"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/cooked_frog_legs"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/wan_ancient_beasts_raw_ancient_meat_to_wan_ancient_beasts_cooked_ancient_meat",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"wan_ancient_beasts:raw_ancient_meat"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"wan_ancient_beasts:cooked_ancient_meat"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/wheat_bread",
+			"category": "food_oven",
+			"duration": 200,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"firmalife:food/wheat_dough"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/wheat_bread"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/tfg_sunflower_product_to_tfg_roasted_sunflower_seeds",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:sunflower_product"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:roasted_sunflower_seeds"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/firmalife_food_masa_to_firmalife_food_corn_tortilla",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"firmalife:food/masa"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"firmalife:food/corn_tortilla"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/tfc_food_lake_trout_to_tfc_food_cooked_lake_trout",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/lake_trout"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/cooked_lake_trout"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/tfg_food_raw_glider_wings_to_tfg_food_cooked_glider_wings",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:food/raw_glider_wings"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:food/cooked_glider_wings"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/tfg_food_raw_crawlermari_to_tfg_food_cooked_crawlermari",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:food/raw_crawlermari"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:food/cooked_crawlermari"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/firmalife_food_raw_pizza_to_firmalife_food_cooked_pizza",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"firmalife:food/raw_pizza"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"firmalife:food/cooked_pizza"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/tfc_food_bluegill_to_tfc_food_cooked_bluegill",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/bluegill"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/cooked_bluegill"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/tfc_plant_leafy_kelp_to_tfc_food_dried_kelp",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:plant/leafy_kelp"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/dried_kelp"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/tfc_food_hyena_to_tfc_food_cooked_hyena",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/hyena"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/cooked_hyena"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/betterend_shadow_berry_product_to_betterend_shadow_berry_cooked",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"betterend:shadow_berry_product"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"betterend:shadow_berry_cooked"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/wan_ancient_beasts_toxlacanth_to_wan_ancient_beasts_cooked_toxlacanth",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"wan_ancient_beasts:toxlacanth"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"wan_ancient_beasts:cooked_toxlacanth"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/firmalife_food_filled_pie_to_firmalife_food_cooked_pie",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"firmalife:food/filled_pie"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"firmalife:food/cooked_pie"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/barley_flatbread",
+			"category": "food_oven",
+			"duration": 200,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/barley_dough"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"firmalife:food/barley_flatbread"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/tfc_food_cod_to_tfc_food_cooked_cod",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/cod"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/cooked_cod"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/tfg_food_raw_cruncher_ribs_to_tfg_food_cooked_cruncher_ribs",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:food/raw_cruncher_ribs"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:food/cooked_cruncher_ribs"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/tfg_food_raw_glacian_mutton_to_tfg_food_cooked_glacian_mutton",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:food/raw_glacian_mutton"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:food/cooked_glacian_mutton"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/tfg_food_raw_wraptor_to_tfg_food_cooked_wraptor",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:food/raw_wraptor"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:food/cooked_wraptor"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/tfc_food_beef_to_tfc_food_cooked_beef",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/beef"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/cooked_beef"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/tfg_food_raw_beer_battered_cheese_curds_boiled_into_tfg_food_cooked_beer_battered_cheese_curds",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:food/raw_beer_battered_cheese_curds"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"firmalife:soybean_oil",
+						"tfc:olive_oil",
+						"tfc:tallow",
+						"gtceu:seed_oil",
+						"gtceu:fish_oil",
+						"tfg:triglyceride_oil",
+						"tfg:peanut_oil",
+						"tfg:palm_oil"
+					],
+					"amount": 100,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:food/cooked_beer_battered_cheese_curds"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/bone_meal_boiled_into_crude_gelatin",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:bone_meal"
+					],
+					"amount": 5,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water",
+						"tfc:river_water",
+						"tfc:spring_water"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:food/crude_gelatin"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/tfg_lentil_product_to_tfg_food_cooked_lentil",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:lentil_product"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:food/cooked_lentil"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/tfc_food_quail_to_tfc_food_cooked_quail",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/quail"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/cooked_quail"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/maize_bread",
+			"category": "food_oven",
+			"duration": 200,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"firmalife:food/maize_dough"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/maize_bread"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/firmalife_food_raw_egg_noodles_boiled_into_firmalife_food_cooked_pasta",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"firmalife:food/raw_egg_noodles"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water",
+						"tfc:river_water",
+						"tfc:spring_water"
+					],
+					"amount": 100,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"firmalife:food/cooked_pasta"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/tfc_food_tropical_fish_to_tfc_food_cooked_tropical_fish",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/tropical_fish"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/cooked_tropical_fish"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/tfc_food_salmon_to_tfc_food_cooked_salmon",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/salmon"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/cooked_salmon"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/tfg_food_raw_burger_patty_to_tfg_food_cooked_burger_patty",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:food/raw_burger_patty"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:food/cooked_burger_patty"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/betterend_bolux_mushroom_product_to_betterend_bolux_mushroom_cooked",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"betterend:bolux_mushroom_product"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"betterend:bolux_mushroom_cooked"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/firmalife_food_tomato_sauce_mix_boiled_into_firmalife_food_tomato_sauce",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"firmalife:food/tomato_sauce_mix"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water",
+						"tfc:river_water",
+						"tfc:spring_water"
+					],
+					"amount": 200,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"firmalife:food/tomato_sauce"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/minecraft_chorus_fruit_to_minecraft_popped_chorus_fruit",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:chorus_fruit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:popped_chorus_fruit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/firmalife_food_bacon_to_firmalife_food_cooked_bacon",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"firmalife:food/bacon"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"firmalife:food/cooked_bacon"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/firmalife_food_hardtack_dough_to_firmalife_food_hardtack",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"firmalife:food/hardtack_dough"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"firmalife:food/hardtack"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/wheat_flatbread",
+			"category": "food_oven",
+			"duration": 200,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/wheat_dough"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"firmalife:food/wheat_flatbread"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/firmalife_food_raw_lasagna_to_firmalife_food_cooked_lasagna",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"firmalife:food/raw_lasagna"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"firmalife:food/cooked_lasagna"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/tfg_food_raw_sniffer_beef_to_tfg_food_cooked_sniffer_beef",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:food/raw_sniffer_beef"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:food/cooked_sniffer_beef"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/tfc_food_smallmouth_bass_to_tfc_food_cooked_smallmouth_bass",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/smallmouth_bass"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/cooked_smallmouth_bass"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/tfc_food_rainbow_trout_to_tfc_food_cooked_rainbow_trout",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/rainbow_trout"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/cooked_rainbow_trout"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/tfc_food_potato_to_tfc_food_baked_potato",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/potato"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/baked_potato"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/betterend_chorus_mushroom_product_to_betterend_chorus_mushroom_cooked",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"betterend:chorus_mushroom_product"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"betterend:chorus_mushroom_cooked"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/tfc_food_calamari_to_tfc_food_cooked_calamari",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/calamari"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/cooked_calamari"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/tfc_food_crappie_to_tfc_food_cooked_crappie",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/crappie"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/cooked_crappie"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/tfc_food_mutton_to_tfc_food_cooked_mutton",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/mutton"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/cooked_mutton"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/tfc_food_wolf_to_tfc_food_cooked_wolf",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/wolf"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/cooked_wolf"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/rye_flatbread",
+			"category": "food_oven",
+			"duration": 200,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/rye_dough"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"firmalife:food/rye_flatbread"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/tfc_food_maize_grain_boiled_into_tfg_food_popcorn",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/maize_grain"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"firmalife:soybean_oil",
+						"tfc:olive_oil",
+						"tfc:tallow",
+						"gtceu:seed_oil",
+						"gtceu:fish_oil",
+						"tfg:triglyceride_oil",
+						"tfg:peanut_oil",
+						"tfg:palm_oil"
+					],
+					"amount": 100,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:food/popcorn"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/tfg_food_raw_stickastackatick_to_tfg_food_cooked_stickastackatick",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:food/raw_stickastackatick"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:food/cooked_stickastackatick"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/oat_bread",
+			"category": "food_oven",
+			"duration": 200,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"firmalife:food/oat_dough"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/oat_bread"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/firmalife_food_chocolate_chip_cookie_dough_to_firmalife_food_chocolate_chip_cookie",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"firmalife:food/chocolate_chip_cookie_dough"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"firmalife:food/chocolate_chip_cookie"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/forge_eggs_to_tfc_food_cooked_egg",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"wan_ancient_beasts:glider_egg",
+						"wan_ancient_beasts:charger_egg",
+						"wan_ancient_beasts:raider_egg",
+						"species:birt_egg",
+						"minecraft:egg",
+						"wan_ancient_beasts:eater_egg",
+						"wan_ancient_beasts:snatcher_egg",
+						"species:petrified_egg"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": true
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/cooked_egg"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/tfc_food_bear_to_tfc_food_cooked_bear",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/bear"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/cooked_bear"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/tfc_plant_giant_kelp_flower_to_tfc_food_dried_kelp",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:plant/giant_kelp_flower"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/dried_kelp"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/firmalife_food_corn_tortilla_to_firmalife_food_taco_shell",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"firmalife:food/corn_tortilla"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"firmalife:food/taco_shell"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/tfg_food_raw_birt_to_tfg_food_cooked_birt",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:food/raw_birt"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:food/cooked_birt"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/tfc_food_chevon_to_tfc_food_cooked_chevon",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/chevon"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/cooked_chevon"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/tfc_food_gran_feline_to_tfc_food_cooked_gran_feline",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/gran_feline"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/cooked_gran_feline"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/oat_flatbread",
+			"category": "food_oven",
+			"duration": 200,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/oat_dough"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"firmalife:food/oat_flatbread"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/firmalife_food_raw_pumpkin_pie_to_minecraft_pumpkin_pie",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"firmalife:food/raw_pumpkin_pie"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:pumpkin_pie"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/tfc_food_fresh_seaweed_to_tfc_food_dried_seaweed",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/fresh_seaweed"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/dried_seaweed"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/tfc_food_rabbit_to_tfc_food_cooked_rabbit",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/rabbit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/cooked_rabbit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/tfc_food_duck_to_tfc_food_cooked_duck",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/duck"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/cooked_duck"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/tfg_food_raw_fries_boiled_into_tfg_food_cooked_fries",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:food/raw_fries"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"firmalife:soybean_oil",
+						"tfc:olive_oil",
+						"tfc:tallow",
+						"gtceu:seed_oil",
+						"gtceu:fish_oil",
+						"tfg:triglyceride_oil",
+						"tfg:peanut_oil",
+						"tfg:palm_oil"
+					],
+					"amount": 100,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:food/cooked_fries"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/tfg_food_raw_limpet_to_tfg_food_cooked_limpet",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:food/raw_limpet"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:food/cooked_limpet"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/tfc_food_shellfish_to_tfc_food_cooked_shellfish",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/shellfish"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/cooked_shellfish"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/tfg_food_raw_springling_collar_to_tfg_food_cooked_springling_collar",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:food/raw_springling_collar"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:food/cooked_springling_collar"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/tfc_plant_winged_kelp_to_tfc_food_dried_kelp",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:plant/winged_kelp"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/dried_kelp"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/firmalife_food_raw_rice_noodles_boiled_into_firmalife_food_cooked_rice_noodles",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"firmalife:food/raw_rice_noodles"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water",
+						"tfc:river_water",
+						"tfc:spring_water"
+					],
+					"amount": 100,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"firmalife:food/cooked_rice_noodles"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/tfc_food_pheasant_to_tfc_food_cooked_pheasant",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/pheasant"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/cooked_pheasant"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/tfc_food_pork_to_tfc_food_cooked_pork",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/pork"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/cooked_pork"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/forge_eggs_boiled_into_tfc_food_boiled_egg",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"wan_ancient_beasts:glider_egg",
+						"wan_ancient_beasts:charger_egg",
+						"wan_ancient_beasts:raider_egg",
+						"species:birt_egg",
+						"minecraft:egg",
+						"wan_ancient_beasts:eater_egg",
+						"wan_ancient_beasts:snatcher_egg",
+						"species:petrified_egg"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": true
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water",
+						"tfc:river_water",
+						"tfc:spring_water"
+					],
+					"amount": 100,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/boiled_egg"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/tfc_food_chicken_to_tfc_food_cooked_chicken",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/chicken"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/cooked_chicken"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/barley_bread",
+			"category": "food_oven",
+			"duration": 200,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"firmalife:food/barley_dough"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/barley_bread"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/tfc_food_peafowl_to_tfc_food_cooked_peafowl",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/peafowl"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/cooked_peafowl"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/tfg_beans_product_to_tfg_food_cooked_beans",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:beans_product"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:food/cooked_beans"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/tfc_food_largemouth_bass_to_tfc_food_cooked_largemouth_bass",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/largemouth_bass"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/cooked_largemouth_bass"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/tfc_food_turkey_to_tfc_food_cooked_turkey",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/turkey"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/cooked_turkey"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/tfg_food_raw_surfer_steak_to_tfg_food_cooked_surfer_steak",
+			"category": "food_oven",
+			"duration": 100,
+			"voltage": 8,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:food/raw_surfer_steak"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:food/cooked_surfer_steak"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:food_oven/rice_bread",
+			"category": "food_oven",
+			"duration": 200,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"firmalife:food/rice_dough"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/rice_bread"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		}
+	]
+}

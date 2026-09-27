@@ -26,7 +26,10 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["49842FC075029026"]
+			dependencies: [
+				"49842FC075029026"
+				"4F4E2AC68357FDF7"
+			]
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -53,7 +56,10 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["5320244FE16B8E0E"]
+			dependencies: [
+				"5320244FE16B8E0E"
+				"5334CC47F30CD234"
+			]
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -83,6 +89,7 @@
 			dependencies: [
 				"7B961BAF805EA405"
 				"2127F95D216B4246"
+				"25D145C4B98B3B21"
 			]
 			icon: {
 				Count: 1
@@ -121,15 +128,18 @@
 			}]
 			title: "The Industrial Revolution"
 			x: 7.5d
-			y: -0.5d
+			y: -2.5d
 		}
 		{
-			dependencies: ["41144095452B1E90"]
+			dependencies: [
+				"41144095452B1E90"
+				"164C33D4DAB45610"
+			]
 			icon: "tfg:lv_universal_circuit"
 			id: "79443DB123D11974"
 			shape: "gear"
 			size: 2.0d
-			subtitle: "Watt is happening?"
+			subtitle: "Watt is love?"
 			tasks: [{
 				icon: "tfg:flask"
 				id: "0B51392C033D25DB"
@@ -153,12 +163,13 @@
 			}]
 			title: "Install Excel"
 			x: 13.5d
-			y: -0.5d
+			y: -2.5d
 		}
 		{
 			dependencies: [
 				"7EE11852CA2B6A8B"
 				"79443DB123D11974"
+				"4F68CFB6103C003B"
 			]
 			icon: "tfg:mv_universal_circuit"
 			id: "61965924051DB7D5"
@@ -177,7 +188,10 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["61965924051DB7D5"]
+			dependencies: [
+				"61965924051DB7D5"
+				"062D697F703629BC"
+			]
 			icon: "tfg:hv_universal_circuit"
 			id: "7DE0263292C2EA9A"
 			shape: "gear"
@@ -206,12 +220,13 @@
 			}]
 			title: "Your old lab but:"
 			x: 20.0d
-			y: -0.5d
+			y: -2.5d
 		}
 		{
 			dependencies: [
 				"03132D9B0DB574F8"
 				"7DE0263292C2EA9A"
+				"351694059A6AC7A9"
 			]
 			icon: {
 				Count: 1
@@ -235,7 +250,10 @@
 			y: -0.4999999999999929d
 		}
 		{
-			dependencies: ["6DE33035D7834160"]
+			dependencies: [
+				"6DE33035D7834160"
+				"725ABE0873FA33FA"
+			]
 			icon: "tfg:ev_universal_circuit"
 			id: "3EB07BEA911DCDFE"
 			progression_mode: "linear"
@@ -266,12 +284,13 @@
 			}]
 			title: "Why he ourple?"
 			x: 27.0d
-			y: -0.5d
+			y: -2.5d
 		}
 		{
 			dependencies: [
 				"3EB07BEA911DCDFE"
 				"24642ADD05CFD26E"
+				"70BB1714B1B47EC8"
 			]
 			icon: {
 				Count: 1
@@ -296,7 +315,10 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["7CA74A544A9F3E32"]
+			dependencies: [
+				"7CA74A544A9F3E32"
+				"0C865736D74F4AE3"
+			]
 			description: ["At the time of writing, TFG does not have fleshed out content for IV. In the 0.14 update, it will be introduced including content for Venus and Mercury. In the name of caution, CivTFG includes research for IV in case the update comes sooner rather than later."]
 			icon: "tfg:iv_universal_circuit"
 			id: "1ADC73E0AE8A730E"
@@ -434,7 +456,277 @@
 			}]
 			title: "But how do labs REALLY work?"
 			x: 0.0d
-			y: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["49842FC075029026"]
+			id: "4F4E2AC68357FDF7"
+			subtitle: "Can we change to a metal that's a little easier to find? Thanks."
+			tasks: [
+				{
+					id: "51A5D84B3ECD2864"
+					item: "s3_progression_mod:bronze_empty_science"
+					type: "item"
+				}
+				{
+					id: "0BABEB6748AF7077"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "item_tag(s3_progression_mod:bronze_science)"
+						}
+					}
+					title: "Any bronze science"
+					type: "item"
+				}
+			]
+			title: "Bronze Age Science"
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5320244FE16B8E0E"]
+			id: "5334CC47F30CD234"
+			subtitle: "Iron so good they made Stronger Iron"
+			tasks: [
+				{
+					id: "6739AE2318F28AEE"
+					item: "s3_progression_mod:iron_empty_science"
+					type: "item"
+				}
+				{
+					id: "5C68609B23BEC538"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "item_tag(s3_progression_mod:iron_science)"
+						}
+					}
+					title: "Any iron science"
+					type: "item"
+				}
+			]
+			title: "Iron Age Science"
+			x: 5.6785714285714235d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7B961BAF805EA405"]
+			id: "25D145C4B98B3B21"
+			subtitle: "Flint and STEEL!"
+			tasks: [
+				{
+					id: "3D78DC99921CB460"
+					item: "s3_progression_mod:steel_empty_science"
+					type: "item"
+				}
+				{
+					id: "33A48AF72A46C59D"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "item_tag(s3_progression_mod:steel_science)"
+						}
+					}
+					title: "Any steel science"
+					type: "item"
+				}
+			]
+			title: "Steel Age Science"
+			x: 9.321428571428577d
+			y: 1.4642857142857153d
+		}
+		{
+			dependencies: ["41144095452B1E90"]
+			id: "164C33D4DAB45610"
+			subtitle: "Those crazy goggles are paying off."
+			tasks: [
+				{
+					id: "3D746A98F6E68FAF"
+					item: "s3_progression_mod:steam_empty_science"
+					type: "item"
+				}
+				{
+					id: "148F58491F5290EC"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "item_tag(s3_progression_mod:steam_science)"
+						}
+					}
+					title: "Any steam science"
+					type: "item"
+				}
+			]
+			title: "Steam Age Science"
+			x: 11.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["79443DB123D11974"]
+			id: "4F68CFB6103C003B"
+			subtitle: "Mysterious vials of goo"
+			tasks: [
+				{
+					id: "1A0887B9AB658BBF"
+					item: "s3_progression_mod:lv_empty_science"
+					type: "item"
+				}
+				{
+					id: "7C3E61F21C399720"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "item_tag(s3_progression_mod:lv_science)"
+						}
+					}
+					title: "Any LV science"
+					type: "item"
+				}
+			]
+			title: "LV Science"
+			x: 15.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["61965924051DB7D5"]
+			id: "062D697F703629BC"
+			subtitle: "More Vials! More Goo!"
+			tasks: [
+				{
+					id: "4D8A8F618F70773B"
+					item: "s3_progression_mod:mv_empty_science"
+					type: "item"
+				}
+				{
+					id: "2EFB7DF5EB6CF554"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "item_tag(s3_progression_mod:mv_science)"
+						}
+					}
+					title: "Any MV science"
+					type: "item"
+				}
+			]
+			title: "MV Science"
+			x: 17.785714285714292d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7DE0263292C2EA9A"]
+			id: "351694059A6AC7A9"
+			subtitle: "What, you thought you could just navigate space with a joystick?"
+			tasks: [
+				{
+					id: "5A7C63FE0DD5DB82"
+					item: "s3_progression_mod:hv_empty_science"
+					type: "item"
+				}
+				{
+					id: "37E018D20CADC317"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "item_tag(s3_progression_mod:hv_science)"
+						}
+					}
+					title: "Any HV science"
+					type: "item"
+				}
+			]
+			title: "HV Science"
+			x: 22.214285714285715d
+			y: 1.5357142857142847d
+		}
+		{
+			dependencies: ["6DE33035D7834160"]
+			id: "725ABE0873FA33FA"
+			subtitle: "AE2 Pro Max"
+			tasks: [
+				{
+					id: "4945E747687CAB65"
+					item: "s3_progression_mod:moon_empty_science"
+					type: "item"
+				}
+				{
+					id: "55CA9F7519A362FD"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "item_tag(s3_progression_mod:moon_science)"
+						}
+					}
+					title: "Any Moon science"
+					type: "item"
+				}
+			]
+			title: "Moon Science"
+			x: 24.678571428571445d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3EB07BEA911DCDFE"]
+			id: "70BB1714B1B47EC8"
+			subtitle: "Nuclear Reactor Rods! Now in brand new cherry flavour!"
+			tasks: [
+				{
+					id: "32CEBF8AB818AC35"
+					item: "s3_progression_mod:ev_empty_science"
+					type: "item"
+				}
+				{
+					id: "5A3AF73165E0A1CF"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "item_tag(s3_progression_mod:ev_science)"
+						}
+					}
+					title: "Any EV science"
+					type: "item"
+				}
+			]
+			title: "EV Science"
+			x: 29.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7CA74A544A9F3E32"]
+			id: "0C865736D74F4AE3"
+			subtitle: "Insights from the red planet"
+			tasks: [
+				{
+					id: "591A8A4175E65FF2"
+					item: "s3_progression_mod:mars_empty_science"
+					type: "item"
+				}
+				{
+					id: "14B370E6F6114DEF"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "item_tag(s3_progression_mod:mars_science)"
+						}
+					}
+					title: "Any mars science"
+					type: "item"
+				}
+			]
+			title: "Mars Science"
+			x: 32.0d
+			y: 1.5d
 		}
 	]
 	subtitle: ["A Guide to CivTFG S3's progression blocks"]

@@ -90,9 +90,26 @@
 			x: 16.0d
 			y: 3.0d
 		}
+		{
+			id: "77BE48D9874F25AC"
+			linked_quest: "3EB07BEA911DCDFE"
+			shape: "gear"
+			size: 2.0d
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			id: "3E7AD5BCF9540FE2"
+			linked_quest: "7CA74A544A9F3E32"
+			shape: "gear"
+			size: 2.0d
+			x: -5.5d
+			y: 6.0d
+		}
 	]
 	quests: [
 		{
+			dependencies: ["3EB07BEA911DCDFE"]
 			description: [
 				"{quests.extreme_voltage.welcome_to_ev.desc.1}"
 				"{@pagebreak}"
@@ -116,6 +133,7 @@
 				"601088B7920140B2"
 				"3FBDC8552F7D8008"
 				"3B18DE7395776B41"
+				"7CA74A544A9F3E32"
 			]
 			description: ["{quests.extreme_voltage.t2_rocket.desc}"]
 			icon: {
@@ -141,8 +159,8 @@
 				type: "item"
 			}]
 			title: "{quests.extreme_voltage.t2_rocket.title}"
-			x: -3.75d
-			y: 3.0d
+			x: -3.7142857142857153d
+			y: 3.75d
 		}
 		{
 			dependencies: ["52AB0BDC64293253"]
@@ -1270,7 +1288,7 @@
 				}
 			]
 			title: "{quests.extreme_voltage.aes_insulation.title}"
-			x: -5.5d
+			x: -6.0d
 			y: 3.0d
 		}
 		{

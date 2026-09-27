@@ -433,7 +433,7 @@
 			}]
 			title: "But how do labs work?"
 			x: 1.5d
-			y: 1.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["451B008040DBAE48"]
@@ -456,7 +456,7 @@
 			}]
 			title: "But how do labs REALLY work?"
 			x: 0.0d
-			y: 1.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["49842FC075029026"]
@@ -727,6 +727,106 @@
 			title: "Mars Science"
 			x: 32.0d
 			y: 1.5d
+		}
+		{
+			description: ["These packs are made from underground riches."]
+			id: "34FE0179C0B27191"
+			subtitle: "I yearn for the mines!"
+			tasks: [{
+				id: "2C7BD2B8BFADA140"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "item_tag(s3_progression_mod:mining_science)"
+					}
+				}
+				title: "Any Mining Science"
+				type: "item"
+			}]
+			title: "Mining Science"
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			description: ["These packs are made from farmable items."]
+			id: "6061D29A77B5E893"
+			subtitle: "It ain't much, but it's honest work"
+			tasks: [{
+				id: "024BE6D4968ED84E"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "item_tag(s3_progression_mod:farming_science)"
+					}
+				}
+				title: "Any farming science"
+				type: "item"
+			}]
+			title: "Farming Science"
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			description: ["You'll need to explore to make these!"]
+			id: "36924918CAF206A7"
+			subtitle: "Nerds Abroad!"
+			tasks: [{
+				id: "50AAB9E9A524720C"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "item_tag(s3_progression_mod:exploration_science)"
+					}
+				}
+				title: "Any exploration science"
+				type: "item"
+			}]
+			title: "Exploration Science"
+			x: 1.5d
+			y: 6.5d
+		}
+		{
+			description: ["These packs require automation to make. Don't give yourself carpal tunnel."]
+			id: "396A647B10BFBC30"
+			subtitle: "The factory must grow"
+			tasks: [{
+				id: "3298C8EF231C6D8A"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "item_tag(s3_progression_mod:production_science)"
+					}
+				}
+				title: "Any production science"
+				type: "item"
+			}]
+			title: "Production Science"
+			x: 1.5d
+			y: 8.0d
+		}
+		{
+			description: [""]
+			id: "4E66EFBFF6768309"
+			subtitle: "Who's got the ice bucket?"
+			tasks: [{
+				id: "3C06428BF8113933"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "item_tag(s3_progression_mod:challenge_science)"
+					}
+				}
+				title: "Any challenge science"
+				type: "item"
+			}]
+			title: "Challenge Science"
+			x: 1.5d
+			y: 9.5d
 		}
 	]
 	subtitle: ["A Guide to CivTFG S3's progression blocks"]

@@ -5,6 +5,14 @@
 	group: "3C4612A920658A7E"
 	icon: "tfg:flask"
 	id: "010A1E1662EFBC36"
+	images: [{
+		height: 1.0d
+		image: "tfg:item/flask"
+		rotation: 0.0d
+		width: 1.0d
+		x: 1.5d
+		y: 5.5d
+	}]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
@@ -729,7 +737,9 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["49842FC075029026"]
 			description: ["These packs are made from underground riches."]
+			hide_dependency_lines: true
 			id: "34FE0179C0B27191"
 			subtitle: "I yearn for the mines!"
 			tasks: [{
@@ -746,10 +756,12 @@
 			}]
 			title: "Mining Science"
 			x: 1.5d
-			y: 3.5d
+			y: 4.0d
 		}
 		{
+			dependencies: ["49842FC075029026"]
 			description: ["These packs are made from farmable items."]
+			hide_dependency_lines: true
 			id: "6061D29A77B5E893"
 			subtitle: "It ain't much, but it's honest work"
 			tasks: [{
@@ -765,11 +777,13 @@
 				type: "item"
 			}]
 			title: "Farming Science"
-			x: 1.5d
+			x: 3.0d
 			y: 5.0d
 		}
 		{
+			dependencies: ["49842FC075029026"]
 			description: ["You'll need to explore to make these!"]
+			hide_dependency_lines: true
 			id: "36924918CAF206A7"
 			subtitle: "Nerds Abroad!"
 			tasks: [{
@@ -785,11 +799,13 @@
 				type: "item"
 			}]
 			title: "Exploration Science"
-			x: 1.5d
-			y: 6.5d
+			x: 0.0d
+			y: 5.0d
 		}
 		{
+			dependencies: ["49842FC075029026"]
 			description: ["These packs require automation to make. Don't give yourself carpal tunnel."]
+			hide_dependency_lines: true
 			id: "396A647B10BFBC30"
 			subtitle: "The factory must grow"
 			tasks: [{
@@ -805,11 +821,13 @@
 				type: "item"
 			}]
 			title: "Production Science"
-			x: 1.5d
-			y: 8.0d
+			x: 0.5d
+			y: 6.5d
 		}
 		{
-			description: [""]
+			dependencies: ["49842FC075029026"]
+			description: ["These packs, if you choose to make them, will push the limits of what's available to you."]
+			hide_dependency_lines: true
 			id: "4E66EFBFF6768309"
 			subtitle: "Who's got the ice bucket?"
 			tasks: [{
@@ -825,8 +843,8 @@
 				type: "item"
 			}]
 			title: "Challenge Science"
-			x: 1.5d
-			y: 9.5d
+			x: 2.5d
+			y: 6.5d
 		}
 	]
 	subtitle: ["A Guide to CivTFG S3's progression blocks"]

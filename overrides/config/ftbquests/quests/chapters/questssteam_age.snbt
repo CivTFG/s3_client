@@ -14,7 +14,7 @@
 		id: "gtceu:steel_gear"
 	}
 	id: "784A885090386609"
-	order_index: 3
+	order_index: 4
 	quest_links: [
 		{
 			id: "39027CF4DC307D33"
@@ -78,6 +78,14 @@
 			linked_quest: "34055D52D947FD7A"
 			x: -11.5d
 			y: 8.0d
+		}
+		{
+			id: "2BAD93E04B3B9F34"
+			linked_quest: "41144095452B1E90"
+			shape: "gear"
+			size: 2.0d
+			x: -18.0d
+			y: 4.5d
 		}
 	]
 	quests: [
@@ -262,7 +270,10 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["209958FE2EEA5D72"]
+			dependencies: [
+				"209958FE2EEA5D72"
+				"1470D5BF619C886E"
+			]
 			description: [
 				"{quests.steam_age.boilers.desc.1}"
 				"{@pagebreak}"
@@ -1227,7 +1238,7 @@
 			description: ["{quests.metal_age.black_steel_goodies.desc}"]
 			id: "209958FE2EEA5D72"
 			shape: "gear"
-			size: 3.0d
+			size: 2.0d
 			subtitle: "{quests.metal_age.black_steel_goodies.subtitle}"
 			tasks: [{
 				id: "066CDB0C97CF74EF"
@@ -1244,8 +1255,8 @@
 				type: "item"
 			}]
 			title: "{quests.metal_age.black_steel_goodies.title}"
-			x: -19.5d
-			y: 4.0d
+			x: -21.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["1059288C22CB56BB"]

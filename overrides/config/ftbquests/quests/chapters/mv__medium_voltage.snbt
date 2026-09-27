@@ -33,6 +33,13 @@
 			x: -5.5d
 			y: 12.0d
 		}
+		{
+			id: "447C087C744A0307"
+			linked_quest: "61965924051DB7D5"
+			shape: "gear"
+			x: 1.5d
+			y: 2.5d
+		}
 	]
 	quests: [
 		{
@@ -430,8 +437,8 @@
 				type: "item"
 			}]
 			title: "{quests.medium_voltage.mv_miner.title}"
-			x: 4.5d
-			y: -4.0d
+			x: 0.5d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -1511,6 +1518,7 @@
 			y: 7.5d
 		}
 		{
+			dependencies: ["53E1544CBC57986A"]
 			description: [
 				"{quests.medium_voltage.mv_machine_hull.desc.1}"
 				"{@pagebreak}"

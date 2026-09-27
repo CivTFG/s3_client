@@ -14,7 +14,7 @@
 		id: "gtceu:wrought_iron_ingot"
 	}
 	id: "5F560FF28458A555"
-	order_index: 2
+	order_index: 3
 	quest_links: [
 		{
 			id: "763EE3CC2D320738"
@@ -115,6 +115,22 @@
 			shape: "heart"
 			x: -2.0d
 			y: -31.0d
+		}
+		{
+			id: "30CDA758D9C0FD79"
+			linked_quest: "5320244FE16B8E0E"
+			shape: "gear"
+			size: 2.0d
+			x: 5.0d
+			y: -35.0d
+		}
+		{
+			id: "2DE0887775221346"
+			linked_quest: "7B961BAF805EA405"
+			shape: "gear"
+			size: 2.0d
+			x: 23.464285714285708d
+			y: -34.964285714285715d
 		}
 	]
 	quests: [
@@ -257,7 +273,10 @@
 			y: -29.5d
 		}
 		{
-			dependencies: ["3C173357029AB649"]
+			dependencies: [
+				"3C173357029AB649"
+				"338E209E0D5094F3"
+			]
 			description: ["{quests.metal_age.bloomery.desc}"]
 			guide_page: "tfc:field_guide tfc:mechanics/bloomery"
 			id: "0A92F5C4BB6AF972"
@@ -733,8 +752,8 @@
 				}
 			]
 			title: "{quests.metal_age.fully_stacked_blast_furnace.title}"
-			x: 23.5d
-			y: -34.0d
+			x: 25.0d
+			y: -31.0d
 		}
 		{
 			dependencies: ["52DAF93E2F3D688A"]

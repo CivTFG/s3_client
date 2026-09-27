@@ -104,8 +104,9 @@
 			id: "3CB47B74460A4AE9"
 			linked_quest: "79443DB123D11974"
 			shape: "gear"
-			x: -2.0d
-			y: -8.0d
+			size: 2.0d
+			x: -5.0d
+			y: -12.5d
 		}
 	]
 	quests: [
@@ -623,6 +624,7 @@
 			y: 12.0d
 		}
 		{
+			dependencies: ["79443DB123D11974"]
 			description: ["{quests.low_voltage.lv_age_progression.desc}"]
 			icon: "gtceu:basic_electronic_circuit"
 			id: "648BCF486E16CCB2"
@@ -1535,10 +1537,7 @@
 			y: -6.0d
 		}
 		{
-			dependencies: [
-				"22510C5F2386B453"
-				"0B51392C033D25DB"
-			]
+			dependencies: ["22510C5F2386B453"]
 			description: [
 				"{quests.low_voltage.link_chapter.desc}:"
 				"{ \"text\": \"▶▶▶▶▶▶▶\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"06B2E38F7DCF2678\" } }"

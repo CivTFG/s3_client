@@ -9,6 +9,10 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: [
+				"397573A0DF56787E"
+				"3744FB75BE593EEF"
+			]
 			id: "49842FC075029026"
 			shape: "circle"
 			subtitle: "I'm with the science team!"
@@ -325,6 +329,112 @@
 			title: "And the rest is gregstory!"
 			x: 34.5d
 			y: -0.5d
+		}
+		{
+			description: [
+				"Before you get carried away, there's a tiny bit of setup you need to do before a laboratory will function."
+				""
+				"1. Place the laboratory in claimed chunks. To do this, open your map, click on a chunk, and select the option to claim it."
+				""
+				"The laboratory will now progress tech for the team/individual whose chunk it is in!"
+				""
+				"2. No more than 1 laboratory per team!*"
+				""
+				"{@pagebreak}"
+				""
+				"*No more than 1 laboratory per tier, per team. According to a comment in the mod code. Try it, i'm curious."
+			]
+			id: "397573A0DF56787E"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "This laboratory is out of order"
+			tasks: [{
+				id: "53C93D3B01DCF75E"
+				title: "Setup Complete!"
+				type: "checkmark"
+			}]
+			title: "Chunk Claiming Nonsense"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["Yes, yes, i know, this \"research\" thing is brand new and has you excited. But guess what: you'll need items to craft a lab. Crazy how that works."]
+			id: "3744FB75BE593EEF"
+			subtitle: "No cavemen allowed!"
+			tasks: [
+				{
+					id: "0E6A7BF2162835E4"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "1F3DC0A4A25F0C03"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "item_tag(minecraft:planks)"
+						}
+					}
+					title: "Any #minecraft:planks"
+					type: "item"
+				}
+			]
+			title: "Leave the stone age"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["49842FC075029026"]
+			description: [
+				"1. Put any of the relevant tier of science pack into the lab."
+				"2. Wait."
+				"3. Congrats, you have done science!"
+			]
+			icon: "gtceu:glass_vial"
+			id: "451B008040DBAE48"
+			shape: "circle"
+			subtitle: "Science 101"
+			tasks: [{
+				id: "34FAEACE73C6174B"
+				title: "I understand"
+				type: "checkmark"
+			}]
+			title: "But how do labs work?"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["451B008040DBAE48"]
+			description: [
+				"If there is valid science in the laboratory (correct tier), the bar will progress."
+				"When the bar is done progressing, it will add X to the counter, where X is the number of unique valid science packs in the laboratory."
+				"When the counter is done, the science is unlocked!"
+				""
+				"Depending on the tech, this might unlock object interaction, posession, placement, interaction with any machine of a given voltage tier, or a combination of the above."
+			]
+			icon: "tfg:beaker"
+			icon_scale: 0.8d
+			id: "0E9D34D4859A3066"
+			shape: "heart"
+			subtitle: "Science 102"
+			tasks: [{
+				id: "170BD5D0A1D04ABE"
+				title: "I understand"
+				type: "checkmark"
+			}]
+			title: "But how do labs REALLY work?"
+			x: 0.0d
+			y: 3.0d
 		}
 	]
 	subtitle: ["A Guide to CivTFG S3's progression blocks"]

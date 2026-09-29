@@ -53,7 +53,8 @@ ForgeEvents.onEvent('com.civtfg.progression.event.ProgressionEvent', event => {
     const team = claim.getTeamData().getTeam()
     const data = team.getExtraData()
     const research = data.getCompound(RESEARCH_KEY)
-    const total = research.getInt(tier) + value
+    const previousTotal = research.getInt(tier)
+    const total = previousTotal + value
     research.putInt(tier, total)
     data.put(RESEARCH_KEY, research)
     team.markDirty()
@@ -67,5 +68,27 @@ ForgeEvents.onEvent('com.civtfg.progression.event.ProgressionEvent', event => {
                 player.tell(`Your team's research has unlocked the ${tier} tier!`)
             }
         })
+
+        // Only announce once, on the exact craft that pushes the total past the
+        // threshold - "total > threshold" alone stays true on every later craft too
+        // (the team keeps crafting this tier's items - see Pitfall #13 for why that's
+        // now blocked, but this listener still fires for the crafts that got in before
+        // that fix took effect on a given world), which would otherwise spam the
+        // broadcast every time.
+        if (previousTotal <= tierConfig.threshold) {
+            // var, not const - see Pitfall #20 in CLAUDE.md: a const/let declared
+            // directly inside a bare if/for/while block (not a real function scope)
+            // makes Rhino double-declare the name and throw "redeclaration of var" -
+            // this crashed the server the first time a tier threshold was crossed.
+            var Component = Java.loadClass('net.minecraft.network.chat.Component')
+            var ServerLifecycleHooks = Java.loadClass('net.minecraftforge.server.ServerLifecycleHooks')
+            // team.getName() returns a Component (FTB Teams renders team names as
+            // clickable/colored components, e.g. a gray "/ftbteams info <team>" link) -
+            // interpolating it directly into a template literal calls its toString(),
+            // which prints the raw component data dump instead of the visible name.
+            // .getString() extracts just the plain visible text.
+            var message = Component.literal(`${team.getName().getString()} just researched ${tierConfig.displayName}!`)
+            ServerLifecycleHooks.getCurrentServer().getPlayerList().getPlayers().forEach(p => p.sendSystemMessage(message))
+        }
     }
 })

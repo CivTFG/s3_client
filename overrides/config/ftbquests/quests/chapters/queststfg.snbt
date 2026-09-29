@@ -15,12 +15,36 @@
 			y: -3.0d
 		}
 		{
+			height: 1.0d
+			image: "ags_modernmarkings:block/marking_number_numero"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "ags_modernmarkings:block/marking_number_3"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.785714285714285d
+			y: -0.9642857142857153d
+		}
+		{
+			height: 1.0d
+			image: "ags_modernmarkings:block/marking_wall_exclamation_mark"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.3214285714285765d
+			y: -1.0d
+		}
+		{
 			click: "https://wiki.terrafirmagreg.team/modern/en_us/modpack/optional-mods"
 			height: 1.0d
 			image: "ftblibrary:icons/globe"
 			rotation: 0.0d
 			width: 1.0d
-			x: -4.5d
+			x: -5.0d
 			y: 0.0d
 		}
 	]
@@ -184,19 +208,127 @@
 		}
 		{
 			dependencies: ["427814F6E9386772"]
-			description: ["{quests.tfg.optional_mods.desc}"]
+			description: [
+				"Welcome to the CivTFG Season 3 Server! By nature of a server, you will not be able to add server-side mods."
+				""
+				"You can absolutely install client side mods such as Distant Horizons or Naturalis if you want, but Admins are not responsible for you breaking your client!"
+				"{@pagebreak}"
+				"Original Quest Description:"
+				""
+				"{quests.tfg.optional_mods.desc}"
+			]
 			icon: "create:clipboard"
 			id: "41424D4906E05582"
-			subtitle: "{quests.tfg.optional_mods.subtitle}"
+			subtitle: "Customize your *client!!!"
 			tasks: [{
 				id: "74B93241E94ED02A"
 				type: "checkmark"
 			}]
-			title: "{quests.tfg.optional_mods.title}"
-			x: -3.5d
+			title: "Optional CLIENT Mods"
+			x: -4.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["427814F6E9386772"]
+			description: [
+				"These are mods from the TFG Optional Mods list that the server admins have elected to add."
+				"You don't have to engage with them if you don't want, but know that they are here!"
+				""
+				"Note:"
+				"There are other mods added such as DeathBan and our custom Research Mod."
+			]
+			id: "56029E74D8B2A590"
+			subtitle: "Compulsory Mods!"
+			tasks: [{
+				id: "7203E771342B4B43"
+				title: "Arbitrary Checkmark"
+				type: "checkmark"
+			}]
+			title: "Added Server Mods"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["56029E74D8B2A590"]
+			description: [
+				"Create: Railways Navigator adds Advanced Displays that can be used on trains or just to look nice in your base. They come in a few different shapes!"
+				""
+				"It also expands on train scheduling options, and includes a navigator device. "
+			]
+			icon: "railways:track_tfc_douglas_fir"
+			id: "12064737561083AD"
+			subtitle: "You've been Deutsche Bahn'd!"
+			tasks: [
+				{
+					id: "4590730B7BBEB577"
+					item: "createrailwaysnavigator:advanced_display"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "26FAF66F5D190F8D"
+					item: "createrailwaysnavigator:navigator"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "26901C7890233199"
+					title: "Begone, Quest!"
+					type: "checkmark"
+				}
+			]
+			title: "Create: Railways Navigator"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["56029E74D8B2A590"]
+			description: ["More Medieval Weapons \\& Armour!"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "knightsofterrafirma:black_bronze_heddernheim_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6132EF0BB17D1E28"
+			subtitle: "Ni!"
+			tasks: [
+				{
+					id: "6CA45216481B1CE8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "knightsofterrafirma:black_bronze_heddernheim_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2399601BBC2E33FB"
+					title: "Begone, Quest!"
+					type: "checkmark"
+				}
+			]
+			title: "Epic Knights of TFG"
+			x: 4.5d
+			y: 1.5d
 		}
 	]
 	subtitle: ["{quests.tfg.subtitle}"]
-	title: "{quests.tfg}"
+	title: "Welcome to CivTFG S3!"
 }

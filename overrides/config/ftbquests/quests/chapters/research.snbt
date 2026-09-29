@@ -368,11 +368,7 @@
 				""
 				"The laboratory will now progress tech for the team/individual whose chunk it is in!"
 				""
-				"2. No more than 1 laboratory per team!*"
-				""
-				"{@pagebreak}"
-				""
-				"*No more than 1 laboratory per tier, per team. According to a comment in the mod code. Try it, i'm curious."
+				"2. No more than 1 laboratory per team!"
 			]
 			id: "397573A0DF56787E"
 			shape: "circle"
@@ -426,7 +422,7 @@
 		{
 			dependencies: ["49842FC075029026"]
 			description: [
-				"1. Put any of the relevant tier of science pack into the lab."
+				"1. Put enough of the relevant tier of science pack into the lab."
 				"2. Wait."
 				"3. Congrats, you have done science!"
 			]
@@ -447,7 +443,15 @@
 			dependencies: ["451B008040DBAE48"]
 			description: [
 				"If there is valid science in the laboratory (correct tier), the bar will progress."
-				"When the bar is done progressing, it will add X to the counter, where X is the number of unique valid science packs in the laboratory."
+				""
+				"When the bar is done progressing, it will add a number of points to the counter depending on the variety of science packs in the lab:"
+				""
+				"1 type = 1 point"
+				"2 types = 2 points"
+				"3 types = 4 points"
+				"4 types = 8 points"
+				"5 types = 16 points"
+				""
 				"When the counter is done, the science is unlocked!"
 				""
 				"Depending on the tech, this might unlock object interaction, posession, placement, interaction with any machine of a given voltage tier, or a combination of the above."

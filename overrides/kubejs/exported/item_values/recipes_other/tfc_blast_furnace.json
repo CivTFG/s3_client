@@ -1,0 +1,33 @@
+{
+	"type": "tfc:blast_furnace",
+	"recipes": [
+		{
+			"id": "tfc:blast_furnace/pig_iron",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:powder/flux"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:iron"
+					],
+					"fluidAmount": 1
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": false,
+			"extraOutputs": [
+				{
+					"cap": "fluid",
+					"id": "tfc:metal/pig_iron",
+					"amount": 1
+				}
+			]
+		}
+	]
+}

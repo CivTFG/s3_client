@@ -1,0 +1,346 @@
+{
+	"placed": {
+		"firmalife:plant/pineapple_bush": {
+			"feature": "firmalife:plant/pineapple_bush",
+			"json": {
+				"feature": "firmalife:plant/pineapple_bush",
+				"placement": [
+					{
+						"heightmap": "WORLD_SURFACE_WG",
+						"type": "minecraft:heightmap"
+					},
+					{
+						"predicate": {
+							"type": "tfc:replaceable"
+						},
+						"type": "minecraft:block_predicate_filter"
+					},
+					{
+						"predicate": {
+							"state": {
+								"Properties": {
+									"stage": "0",
+									"lifecycle": "healthy"
+								},
+								"Name": "firmalife:plant/pineapple_bush"
+							},
+							"type": "minecraft:would_survive"
+						},
+						"type": "minecraft:block_predicate_filter"
+					}
+				]
+			}
+		},
+		"firmalife:plant/pineapple_bush_patch": {
+			"feature": "firmalife:plant/pineapple_bush_patch",
+			"json": {
+				"feature": "firmalife:plant/pineapple_bush_patch",
+				"placement": [
+					{
+						"max_rainfall": 500.0,
+						"min_forest": "sparse",
+						"min_temperature": 20.0,
+						"max_temperature": 32.0,
+						"min_rainfall": 250.0,
+						"type": "tfc:climate"
+					},
+					{
+						"type": "minecraft:in_square"
+					},
+					{
+						"chance": 6.0,
+						"type": "minecraft:rarity_filter"
+					}
+				]
+			}
+		},
+		"firmalife:plant/cocoa": {
+			"feature": "firmalife:plant/cocoa",
+			"json": {
+				"feature": "firmalife:plant/cocoa",
+				"placement": [
+					{
+						"max_rainfall": 400.0,
+						"max_forest": "normal",
+						"min_temperature": 20.0,
+						"max_temperature": 35.0,
+						"min_rainfall": 220.0,
+						"type": "tfc:climate"
+					},
+					{
+						"heightmap": "WORLD_SURFACE_WG",
+						"type": "minecraft:heightmap"
+					},
+					{
+						"type": "minecraft:in_square"
+					},
+					{
+						"chance": 10.0,
+						"type": "minecraft:rarity_filter"
+					}
+				]
+			}
+		},
+		"firmalife:wild_white_grapes": {
+			"feature": "firmalife:wild_white_grapes",
+			"json": {
+				"feature": "firmalife:wild_white_grapes",
+				"placement": [
+					{
+						"heightmap": "WORLD_SURFACE_WG",
+						"type": "minecraft:heightmap"
+					},
+					{
+						"predicate": {
+							"type": "tfc:replaceable"
+						},
+						"type": "minecraft:block_predicate_filter"
+					},
+					{
+						"predicate": {
+							"state": {
+								"Properties": {
+									"mature": "false"
+								},
+								"Name": "firmalife:plant/wild_white_grapes"
+							},
+							"type": "minecraft:would_survive"
+						},
+						"type": "minecraft:block_predicate_filter"
+					}
+				]
+			}
+		},
+		"firmalife:vein/deep_chromite": {
+			"feature": "firmalife:vein/deep_chromite",
+			"json": {
+				"feature": "firmalife:vein/deep_chromite",
+				"placement": []
+			}
+		},
+		"firmalife:wild_red_grapes_patch": {
+			"feature": "firmalife:wild_red_grapes_patch",
+			"json": {
+				"feature": "firmalife:wild_red_grapes_patch",
+				"placement": [
+					{
+						"chance": 20.0,
+						"type": "minecraft:rarity_filter"
+					},
+					{
+						"type": "minecraft:in_square"
+					},
+					{
+						"max_rainfall": 500.0,
+						"min_temperature": 0.0,
+						"max_temperature": 30.0,
+						"min_rainfall": 125.0,
+						"type": "tfc:climate"
+					},
+					{
+						"type": "tfc:biome"
+					}
+				]
+			}
+		},
+		"firmalife:plant/nightshade_bush": {
+			"feature": "firmalife:plant/nightshade_bush",
+			"json": {
+				"feature": "firmalife:plant/nightshade_bush",
+				"placement": [
+					{
+						"heightmap": "WORLD_SURFACE_WG",
+						"type": "minecraft:heightmap"
+					},
+					{
+						"predicate": {
+							"type": "tfc:replaceable"
+						},
+						"type": "minecraft:block_predicate_filter"
+					},
+					{
+						"predicate": {
+							"state": {
+								"Properties": {
+									"stage": "0",
+									"lifecycle": "healthy"
+								},
+								"Name": "firmalife:plant/nightshade_bush"
+							},
+							"type": "minecraft:would_survive"
+						},
+						"type": "minecraft:block_predicate_filter"
+					}
+				]
+			}
+		},
+		"firmalife:wild_white_grapes_patch": {
+			"feature": "firmalife:wild_white_grapes_patch",
+			"json": {
+				"feature": "firmalife:wild_white_grapes_patch",
+				"placement": [
+					{
+						"chance": 20.0,
+						"type": "minecraft:rarity_filter"
+					},
+					{
+						"type": "minecraft:in_square"
+					},
+					{
+						"max_rainfall": 500.0,
+						"min_temperature": 0.0,
+						"max_temperature": 30.0,
+						"min_rainfall": 125.0,
+						"type": "tfc:climate"
+					},
+					{
+						"type": "tfc:biome"
+					}
+				]
+			}
+		},
+		"firmalife:hollow_shell_patch": {
+			"feature": "firmalife:hollow_shell_patch",
+			"json": {
+				"feature": "firmalife:hollow_shell_patch",
+				"placement": [
+					{
+						"chance": 20.0,
+						"type": "minecraft:rarity_filter"
+					},
+					{
+						"type": "minecraft:in_square"
+					},
+					{
+						"max_rainfall": 500.0,
+						"min_temperature": -30.0,
+						"max_temperature": 20.0,
+						"min_rainfall": 150.0,
+						"type": "tfc:climate"
+					},
+					{
+						"type": "tfc:biome"
+					}
+				]
+			}
+		},
+		"firmalife:plant/nightshade_bush_patch": {
+			"feature": "firmalife:plant/nightshade_bush_patch",
+			"json": {
+				"feature": "firmalife:plant/nightshade_bush_patch",
+				"placement": [
+					{
+						"max_rainfall": 400.0,
+						"min_forest": "sparse",
+						"min_temperature": 7.0,
+						"max_temperature": 24.0,
+						"min_rainfall": 200.0,
+						"type": "tfc:climate"
+					},
+					{
+						"type": "minecraft:in_square"
+					},
+					{
+						"chance": 6.0,
+						"type": "minecraft:rarity_filter"
+					}
+				]
+			}
+		},
+		"firmalife:hollow_shell": {
+			"feature": "firmalife:hollow_shell",
+			"json": {
+				"feature": "firmalife:hollow_shell",
+				"placement": [
+					{
+						"heightmap": "OCEAN_FLOOR_WG",
+						"type": "minecraft:heightmap"
+					},
+					{
+						"predicate": {
+							"blocks": "tfc:fluid/salt_water",
+							"type": "minecraft:matching_blocks"
+						},
+						"type": "minecraft:block_predicate_filter"
+					},
+					{
+						"predicate": {
+							"state": {
+								"Properties": {
+									"fluid": "empty"
+								},
+								"Name": "firmalife:hollow_shell"
+							},
+							"type": "tfc:would_survive_with_fluid"
+						},
+						"type": "minecraft:block_predicate_filter"
+					}
+				]
+			}
+		},
+		"firmalife:vein/normal_chromite": {
+			"feature": "firmalife:vein/normal_chromite",
+			"json": {
+				"feature": "firmalife:vein/normal_chromite",
+				"placement": []
+			}
+		},
+		"firmalife:wild_red_grapes": {
+			"feature": "firmalife:wild_red_grapes",
+			"json": {
+				"feature": "firmalife:wild_red_grapes",
+				"placement": [
+					{
+						"heightmap": "WORLD_SURFACE_WG",
+						"type": "minecraft:heightmap"
+					},
+					{
+						"predicate": {
+							"type": "tfc:replaceable"
+						},
+						"type": "minecraft:block_predicate_filter"
+					},
+					{
+						"predicate": {
+							"state": {
+								"Properties": {
+									"mature": "false"
+								},
+								"Name": "firmalife:plant/wild_red_grapes"
+							},
+							"type": "minecraft:would_survive"
+						},
+						"type": "minecraft:block_predicate_filter"
+					}
+				]
+			}
+		},
+		"firmalife:plant/fig": {
+			"feature": "firmalife:plant/fig",
+			"json": {
+				"feature": "firmalife:plant/fig",
+				"placement": [
+					{
+						"max_rainfall": 215.0,
+						"max_forest": "normal",
+						"min_temperature": 20.0,
+						"max_temperature": 35.0,
+						"min_rainfall": 125.0,
+						"type": "tfc:climate"
+					},
+					{
+						"heightmap": "WORLD_SURFACE_WG",
+						"type": "minecraft:heightmap"
+					},
+					{
+						"type": "minecraft:in_square"
+					},
+					{
+						"chance": 10.0,
+						"type": "minecraft:rarity_filter"
+					}
+				]
+			}
+		}
+	}
+}

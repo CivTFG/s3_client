@@ -1,0 +1,80 @@
+{
+	"placed": {
+		"species:birted_birch": {
+			"feature": "species:birted_birch",
+			"json": {
+				"feature": "species:birted_birch",
+				"placement": [
+					{
+						"predicate": {
+							"state": {
+								"Properties": {
+									"stage": "0"
+								},
+								"Name": "minecraft:birch_sapling"
+							},
+							"type": "minecraft:would_survive"
+						},
+						"type": "minecraft:block_predicate_filter"
+					}
+				]
+			}
+		},
+		"species:birted_birch_trees": {
+			"feature": "species:birted_birch_tree_filtered",
+			"json": {
+				"feature": "species:birted_birch_tree_filtered",
+				"placement": [
+					{
+						"chance": 50.0,
+						"type": "minecraft:rarity_filter"
+					},
+					{
+						"type": "minecraft:in_square"
+					},
+					{
+						"max_water_depth": 0.0,
+						"type": "minecraft:surface_water_depth_filter"
+					},
+					{
+						"heightmap": "OCEAN_FLOOR",
+						"type": "minecraft:heightmap"
+					},
+					{
+						"type": "minecraft:biome"
+					}
+				]
+			}
+		},
+		"species:mammutilation_remnant": {
+			"feature": "species:mammutilation_remnant",
+			"json": {
+				"feature": "species:mammutilation_remnant",
+				"placement": [
+					{
+						"chance": 5.0,
+						"type": "minecraft:rarity_filter"
+					},
+					{
+						"type": "minecraft:in_square"
+					},
+					{
+						"height": {
+							"min_inclusive": {
+								"above_bottom": 20.0
+							},
+							"max_inclusive": {
+								"absolute": 200.0
+							},
+							"type": "minecraft:uniform"
+						},
+						"type": "minecraft:height_range"
+					},
+					{
+						"type": "minecraft:biome"
+					}
+				]
+			}
+		}
+	}
+}

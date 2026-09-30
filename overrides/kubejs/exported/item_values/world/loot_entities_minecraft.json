@@ -1,0 +1,7367 @@
+{
+	"group": "entities",
+	"namespace": "minecraft",
+	"tables": [
+		{
+			"id": "minecraft:entities/skeleton_horse",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "minecraft:entities/skeleton_horse",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 2.0
+										},
+										"add": false
+									},
+									{
+										"function": "minecraft:looting_enchant",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										}
+									}
+								],
+								"name": "minecraft:bone"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bone",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count",
+						"minecraft:looting_enchant"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "minecraft:entities/sheep/red",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "minecraft:entities/sheep/red",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:red_wool"
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:loot_table",
+								"name": "minecraft:entities/sheep"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:red_wool",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:loot_table",
+					"id": "minecraft:entities/sheep",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "minecraft:entities/blaze",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "minecraft:entities/blaze",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										},
+										"add": false
+									},
+									{
+										"function": "minecraft:looting_enchant",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										}
+									}
+								],
+								"name": "minecraft:blaze_rod"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:killed_by_player"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:blaze_rod",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count",
+						"minecraft:looting_enchant"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:killed_by_player"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "minecraft:entities/husk",
+			"json": {
+				"type": "minecraft:entity",
+				"pools": [
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 2.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:rotten_flesh"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 2.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:stick"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 2.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:bone"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:rotten_flesh",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:stick",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bone",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "minecraft:entities/sheep/black",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "minecraft:entities/sheep/black",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:black_wool"
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:loot_table",
+								"name": "minecraft:entities/sheep"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:black_wool",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:loot_table",
+					"id": "minecraft:entities/sheep",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "minecraft:entities/chicken",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "minecraft:entities/chicken",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 2.0
+										},
+										"add": false
+									},
+									{
+										"function": "minecraft:looting_enchant",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										}
+									}
+								],
+								"name": "minecraft:feather"
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:furnace_smelt",
+										"conditions": [
+											{
+												"condition": "minecraft:entity_properties",
+												"predicate": {
+													"flags": {
+														"is_on_fire": true
+													}
+												},
+												"entity": "this"
+											}
+										]
+									},
+									{
+										"function": "minecraft:looting_enchant",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										}
+									}
+								],
+								"name": "minecraft:chicken"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:feather",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count",
+						"minecraft:looting_enchant"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:chicken",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [
+						"minecraft:furnace_smelt",
+						"minecraft:looting_enchant"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "minecraft:entities/guardian",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "minecraft:entities/guardian",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 2.0
+										},
+										"add": false
+									},
+									{
+										"function": "minecraft:looting_enchant",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										}
+									}
+								],
+								"name": "minecraft:prismarine_shard"
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"weight": 2.0,
+								"functions": [
+									{
+										"function": "minecraft:looting_enchant",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										}
+									},
+									{
+										"function": "minecraft:furnace_smelt",
+										"conditions": [
+											{
+												"condition": "minecraft:entity_properties",
+												"predicate": {
+													"flags": {
+														"is_on_fire": true
+													}
+												},
+												"entity": "this"
+											}
+										]
+									}
+								],
+								"name": "minecraft:cod"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 2.0,
+								"functions": [
+									{
+										"function": "minecraft:looting_enchant",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										}
+									}
+								],
+								"name": "minecraft:prismarine_crystals"
+							},
+							{
+								"type": "minecraft:empty"
+							}
+						]
+					},
+					{
+						"name": "pool2",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:loot_table",
+								"functions": [
+									{
+										"function": "minecraft:furnace_smelt",
+										"conditions": [
+											{
+												"condition": "minecraft:entity_properties",
+												"predicate": {
+													"flags": {
+														"is_on_fire": true
+													}
+												},
+												"entity": "this"
+											}
+										]
+									}
+								],
+								"name": "minecraft:gameplay/fishing/fish"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:killed_by_player"
+							},
+							{
+								"condition": "minecraft:random_chance_with_looting",
+								"chance": 0.025,
+								"looting_multiplier": 0.01
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:prismarine_shard",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count",
+						"minecraft:looting_enchant"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:cod",
+					"weight": 2.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [
+						"minecraft:looting_enchant",
+						"minecraft:furnace_smelt"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:prismarine_crystals",
+					"weight": 2.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [
+						"minecraft:looting_enchant"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:empty",
+					"id": null,
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:loot_table",
+					"id": "minecraft:gameplay/fishing/fish",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [
+						"minecraft:furnace_smelt"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:killed_by_player"
+						},
+						{
+							"type": "minecraft:random_chance_with_looting",
+							"chance": 0.025,
+							"lootingMultiplier": 0.01
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "minecraft:entities/frog",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "minecraft:entities/frog"
+			},
+			"drops": []
+		},
+		{
+			"id": "minecraft:entities/zoglin",
+			"json": {
+				"type": "minecraft:entity",
+				"pools": [
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 3.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:bone"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 3.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:rotten_flesh"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "beneath:cursed_hide"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bone",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 3.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:rotten_flesh",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 3.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "beneath:cursed_hide",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "minecraft:entities/parrot",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "minecraft:entities/parrot",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 2.0
+										},
+										"add": false
+									},
+									{
+										"function": "minecraft:looting_enchant",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										}
+									}
+								],
+								"name": "minecraft:feather"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:feather",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count",
+						"minecraft:looting_enchant"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "minecraft:entities/villager",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "minecraft:entities/villager"
+			},
+			"drops": []
+		},
+		{
+			"id": "minecraft:entities/pillager",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "minecraft:entities/pillager"
+			},
+			"drops": []
+		},
+		{
+			"id": "minecraft:entities/sheep/light_gray",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "minecraft:entities/sheep/light_gray",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:light_gray_wool"
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:loot_table",
+								"name": "minecraft:entities/sheep"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:light_gray_wool",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:loot_table",
+					"id": "minecraft:entities/sheep",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "minecraft:entities/pufferfish",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "minecraft:entities/pufferfish",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 1.0,
+										"add": false
+									}
+								],
+								"name": "minecraft:pufferfish"
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:bone_meal"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:random_chance",
+								"chance": 0.05
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:pufferfish",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bone_meal",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:random_chance",
+							"chance": 0.05
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "minecraft:entities/creeper",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "minecraft:entities/creeper",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 2.0
+										},
+										"add": false
+									},
+									{
+										"function": "minecraft:looting_enchant",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										}
+									}
+								],
+								"name": "minecraft:gunpowder"
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:tag",
+								"name": "minecraft:creeper_drop_music_discs",
+								"expand": true
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:entity_properties",
+								"predicate": {
+									"type": "#minecraft:skeletons"
+								},
+								"entity": "killer"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:gunpowder",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count",
+						"minecraft:looting_enchant"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:tag",
+					"id": "minecraft:creeper_drop_music_discs",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:entity_properties"
+						}
+					],
+					"chain": [],
+					"expand": true
+				}
+			]
+		},
+		{
+			"id": "minecraft:entities/allay",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "minecraft:entities/allay"
+			},
+			"drops": []
+		},
+		{
+			"id": "minecraft:entities/bat",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "minecraft:entities/bat"
+			},
+			"drops": []
+		},
+		{
+			"id": "minecraft:entities/vindicator",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "minecraft:entities/vindicator",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										},
+										"add": false
+									},
+									{
+										"function": "minecraft:looting_enchant",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										}
+									}
+								],
+								"name": "minecraft:emerald"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:killed_by_player"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:emerald",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count",
+						"minecraft:looting_enchant"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:killed_by_player"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "minecraft:entities/bee",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "minecraft:entities/bee"
+			},
+			"drops": []
+		},
+		{
+			"id": "minecraft:entities/wandering_trader",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "minecraft:entities/wandering_trader"
+			},
+			"drops": []
+		},
+		{
+			"id": "minecraft:entities/polar_bear",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "minecraft:entities/polar_bear",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"weight": 3.0,
+								"functions": [
+									{
+										"function": "minecraft:furnace_smelt",
+										"conditions": [
+											{
+												"condition": "minecraft:entity_properties",
+												"predicate": {
+													"flags": {
+														"is_on_fire": true
+													}
+												},
+												"entity": "this"
+											}
+										]
+									},
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 2.0
+										},
+										"add": false
+									},
+									{
+										"function": "minecraft:looting_enchant",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										}
+									}
+								],
+								"name": "minecraft:cod"
+							},
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:furnace_smelt",
+										"conditions": [
+											{
+												"condition": "minecraft:entity_properties",
+												"predicate": {
+													"flags": {
+														"is_on_fire": true
+													}
+												},
+												"entity": "this"
+											}
+										]
+									},
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 2.0
+										},
+										"add": false
+									},
+									{
+										"function": "minecraft:looting_enchant",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										}
+									}
+								],
+								"name": "minecraft:salmon"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:cod",
+					"weight": 3.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:furnace_smelt",
+						"minecraft:set_count",
+						"minecraft:looting_enchant"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:salmon",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:furnace_smelt",
+						"minecraft:set_count",
+						"minecraft:looting_enchant"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "minecraft:entities/cat",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "minecraft:entities/cat",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 2.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:string"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:string",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "minecraft:entities/illusioner",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "minecraft:entities/illusioner"
+			},
+			"drops": []
+		},
+		{
+			"id": "minecraft:entities/sheep/magenta",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "minecraft:entities/sheep/magenta",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:magenta_wool"
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:loot_table",
+								"name": "minecraft:entities/sheep"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:magenta_wool",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:loot_table",
+					"id": "minecraft:entities/sheep",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "minecraft:entities/zombified_piglin",
+			"json": {
+				"type": "minecraft:entity",
+				"pools": [
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 3.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:bone"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 3.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:rotten_flesh"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bone",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 3.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:rotten_flesh",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 3.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "minecraft:entities/cod",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "minecraft:entities/cod",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:furnace_smelt",
+										"conditions": [
+											{
+												"condition": "minecraft:entity_properties",
+												"predicate": {
+													"flags": {
+														"is_on_fire": true
+													}
+												},
+												"entity": "this"
+											}
+										]
+									}
+								],
+								"name": "minecraft:cod"
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:bone_meal"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:random_chance",
+								"chance": 0.05
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:cod",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [
+						"minecraft:furnace_smelt"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bone_meal",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:random_chance",
+							"chance": 0.05
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "minecraft:entities/cow",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "minecraft:entities/cow",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 2.0
+										},
+										"add": false
+									},
+									{
+										"function": "minecraft:looting_enchant",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										}
+									}
+								],
+								"name": "minecraft:leather"
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 3.0
+										},
+										"add": false
+									},
+									{
+										"function": "minecraft:furnace_smelt",
+										"conditions": [
+											{
+												"condition": "minecraft:entity_properties",
+												"predicate": {
+													"flags": {
+														"is_on_fire": true
+													}
+												},
+												"entity": "this"
+											}
+										]
+									},
+									{
+										"function": "minecraft:looting_enchant",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										}
+									}
+								],
+								"name": "minecraft:beef"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:leather",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count",
+						"minecraft:looting_enchant"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:beef",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 3.0
+					},
+					"functions": [
+						"minecraft:set_count",
+						"minecraft:furnace_smelt",
+						"minecraft:looting_enchant"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "minecraft:entities/strider",
+			"json": {
+				"type": "minecraft:entity",
+				"pools": [
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 2.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:bone"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "beneath:cursed_hide"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bone",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "beneath:cursed_hide",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "minecraft:entities/giant",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "minecraft:entities/giant"
+			},
+			"drops": []
+		},
+		{
+			"id": "minecraft:entities/warden",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "minecraft:entities/warden",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:sculk_catalyst"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:sculk_catalyst",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "minecraft:entities/rabbit",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "minecraft:entities/rabbit",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										},
+										"add": false
+									},
+									{
+										"function": "minecraft:looting_enchant",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										}
+									}
+								],
+								"name": "minecraft:rabbit_hide"
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 1.0,
+										"add": false
+									},
+									{
+										"function": "minecraft:furnace_smelt",
+										"conditions": [
+											{
+												"condition": "minecraft:entity_properties",
+												"predicate": {
+													"flags": {
+														"is_on_fire": true
+													}
+												},
+												"entity": "this"
+											}
+										]
+									},
+									{
+										"function": "minecraft:looting_enchant",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										}
+									}
+								],
+								"name": "minecraft:rabbit"
+							}
+						]
+					},
+					{
+						"name": "pool2",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:rabbit_foot"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:killed_by_player"
+							},
+							{
+								"condition": "minecraft:random_chance_with_looting",
+								"chance": 0.1,
+								"looting_multiplier": 0.03
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:rabbit_hide",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count",
+						"minecraft:looting_enchant"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:rabbit",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count",
+						"minecraft:furnace_smelt",
+						"minecraft:looting_enchant"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:rabbit_foot",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:killed_by_player"
+						},
+						{
+							"type": "minecraft:random_chance_with_looting",
+							"chance": 0.1,
+							"lootingMultiplier": 0.03
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "minecraft:entities/axolotl",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "minecraft:entities/axolotl"
+			},
+			"drops": []
+		},
+		{
+			"id": "minecraft:entities/elder_guardian",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "minecraft:entities/elder_guardian",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 2.0
+										},
+										"add": false
+									},
+									{
+										"function": "minecraft:looting_enchant",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										}
+									}
+								],
+								"name": "minecraft:prismarine_shard"
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"weight": 3.0,
+								"functions": [
+									{
+										"function": "minecraft:looting_enchant",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										}
+									},
+									{
+										"function": "minecraft:furnace_smelt",
+										"conditions": [
+											{
+												"condition": "minecraft:entity_properties",
+												"predicate": {
+													"flags": {
+														"is_on_fire": true
+													}
+												},
+												"entity": "this"
+											}
+										]
+									}
+								],
+								"name": "minecraft:cod"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 2.0,
+								"functions": [
+									{
+										"function": "minecraft:looting_enchant",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										}
+									}
+								],
+								"name": "minecraft:prismarine_crystals"
+							},
+							{
+								"type": "minecraft:empty"
+							}
+						]
+					},
+					{
+						"name": "pool2",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:wet_sponge"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:killed_by_player"
+							}
+						]
+					},
+					{
+						"name": "pool3",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:loot_table",
+								"functions": [
+									{
+										"function": "minecraft:furnace_smelt",
+										"conditions": [
+											{
+												"condition": "minecraft:entity_properties",
+												"predicate": {
+													"flags": {
+														"is_on_fire": true
+													}
+												},
+												"entity": "this"
+											}
+										]
+									}
+								],
+								"name": "minecraft:gameplay/fishing/fish"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:killed_by_player"
+							},
+							{
+								"condition": "minecraft:random_chance_with_looting",
+								"chance": 0.025,
+								"looting_multiplier": 0.01
+							}
+						]
+					},
+					{
+						"name": "pool4",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:empty",
+								"weight": 4.0
+							},
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:tide_armor_trim_smithing_template"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:prismarine_shard",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count",
+						"minecraft:looting_enchant"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:cod",
+					"weight": 3.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [
+						"minecraft:looting_enchant",
+						"minecraft:furnace_smelt"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:prismarine_crystals",
+					"weight": 2.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [
+						"minecraft:looting_enchant"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:empty",
+					"id": null,
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:wet_sponge",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:killed_by_player"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 3.0,
+					"kind": "minecraft:loot_table",
+					"id": "minecraft:gameplay/fishing/fish",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [
+						"minecraft:furnace_smelt"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:killed_by_player"
+						},
+						{
+							"type": "minecraft:random_chance_with_looting",
+							"chance": 0.025,
+							"lootingMultiplier": 0.01
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 4.0,
+					"kind": "minecraft:empty",
+					"id": null,
+					"weight": 4.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 4.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:tide_armor_trim_smithing_template",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "minecraft:entities/drowned",
+			"json": {
+				"type": "minecraft:entity",
+				"pools": [
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 2.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:rotten_flesh"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 2.0
+										},
+										"add": false
+									}
+								],
+								"name": "tfc:groundcover/driftwood"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 2.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:bone"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:rotten_flesh",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "tfc:groundcover/driftwood",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bone",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "minecraft:entities/fox",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "minecraft:entities/fox"
+			},
+			"drops": []
+		},
+		{
+			"id": "minecraft:entities/piglin",
+			"json": {
+				"type": "minecraft:entity",
+				"pools": [
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 2.0
+										},
+										"add": false
+									}
+								],
+								"name": "tfc:food/pork"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:bone"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 2.0,
+											"max": 6.0
+										},
+										"add": false
+									}
+								],
+								"name": "createdeco:gold_coin"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "tfc:food/pork",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bone",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "createdeco:gold_coin",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 2.0,
+						"max": 6.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "minecraft:entities/squid",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "minecraft:entities/squid",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 3.0
+										},
+										"add": false
+									},
+									{
+										"function": "minecraft:looting_enchant",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										}
+									}
+								],
+								"name": "minecraft:ink_sac"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:ink_sac",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 3.0
+					},
+					"functions": [
+						"minecraft:set_count",
+						"minecraft:looting_enchant"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "minecraft:entities/ghast",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "minecraft:entities/ghast",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										},
+										"add": false
+									},
+									{
+										"function": "minecraft:looting_enchant",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										}
+									}
+								],
+								"name": "minecraft:ghast_tear"
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 2.0
+										},
+										"add": false
+									},
+									{
+										"function": "minecraft:looting_enchant",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										}
+									}
+								],
+								"name": "minecraft:gunpowder"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:ghast_tear",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count",
+						"minecraft:looting_enchant"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:gunpowder",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count",
+						"minecraft:looting_enchant"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "minecraft:entities/tadpole",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "minecraft:entities/tadpole"
+			},
+			"drops": []
+		},
+		{
+			"id": "minecraft:entities/snow_golem",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "minecraft:entities/snow_golem",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 15.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:snowball"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:snowball",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 15.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "minecraft:entities/sheep/yellow",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "minecraft:entities/sheep/yellow",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:yellow_wool"
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:loot_table",
+								"name": "minecraft:entities/sheep"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:yellow_wool",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:loot_table",
+					"id": "minecraft:entities/sheep",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "minecraft:entities/endermite",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "minecraft:entities/endermite"
+			},
+			"drops": []
+		},
+		{
+			"id": "minecraft:entities/trader_llama",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "minecraft:entities/trader_llama",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 2.0
+										},
+										"add": false
+									},
+									{
+										"function": "minecraft:looting_enchant",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										}
+									}
+								],
+								"name": "minecraft:leather"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:leather",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count",
+						"minecraft:looting_enchant"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "minecraft:entities/sheep/pink",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "minecraft:entities/sheep/pink",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:pink_wool"
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:loot_table",
+								"name": "minecraft:entities/sheep"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:pink_wool",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:loot_table",
+					"id": "minecraft:entities/sheep",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "minecraft:entities/slime",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "minecraft:entities/slime",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:inverted",
+										"term": {
+											"condition": "minecraft:damage_source_properties",
+											"predicate": {
+												"source_entity": {
+													"type": "minecraft:frog"
+												}
+											}
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 2.0
+										},
+										"add": false
+									},
+									{
+										"function": "minecraft:looting_enchant",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										}
+									}
+								],
+								"name": "minecraft:slime_ball"
+							},
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:damage_source_properties",
+										"predicate": {
+											"source_entity": {
+												"type": "minecraft:frog"
+											}
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 1.0,
+										"add": false
+									}
+								],
+								"name": "minecraft:slime_ball"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:entity_properties",
+								"predicate": {
+									"type_specific": {
+										"size": 1.0,
+										"type": "slime"
+									}
+								},
+								"entity": "this"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:slime_ball",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count",
+						"minecraft:looting_enchant"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:entity_properties"
+						},
+						{
+							"type": "minecraft:inverted",
+							"term": {
+								"type": "minecraft:damage_source_properties"
+							},
+							"inverted": true
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:slime_ball",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:entity_properties"
+						},
+						{
+							"type": "minecraft:damage_source_properties"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "minecraft:entities/horse",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "minecraft:entities/horse",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 2.0
+										},
+										"add": false
+									},
+									{
+										"function": "minecraft:looting_enchant",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										}
+									}
+								],
+								"name": "minecraft:leather"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:leather",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count",
+						"minecraft:looting_enchant"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "minecraft:entities/mooshroom",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "minecraft:entities/mooshroom",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 2.0
+										},
+										"add": false
+									},
+									{
+										"function": "minecraft:looting_enchant",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										}
+									}
+								],
+								"name": "minecraft:leather"
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 3.0
+										},
+										"add": false
+									},
+									{
+										"function": "minecraft:furnace_smelt",
+										"conditions": [
+											{
+												"condition": "minecraft:entity_properties",
+												"predicate": {
+													"flags": {
+														"is_on_fire": true
+													}
+												},
+												"entity": "this"
+											}
+										]
+									},
+									{
+										"function": "minecraft:looting_enchant",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										}
+									}
+								],
+								"name": "minecraft:beef"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:leather",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count",
+						"minecraft:looting_enchant"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:beef",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 3.0
+					},
+					"functions": [
+						"minecraft:set_count",
+						"minecraft:furnace_smelt",
+						"minecraft:looting_enchant"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "minecraft:entities/spider",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "minecraft:entities/spider",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 2.0
+										},
+										"add": false
+									},
+									{
+										"function": "minecraft:looting_enchant",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										}
+									}
+								],
+								"name": "minecraft:string"
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": -1.0,
+											"max": 1.0
+										},
+										"add": false
+									},
+									{
+										"function": "minecraft:looting_enchant",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										}
+									}
+								],
+								"name": "minecraft:spider_eye"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:killed_by_player"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:string",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count",
+						"minecraft:looting_enchant"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:spider_eye",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": -1.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count",
+						"minecraft:looting_enchant"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:killed_by_player"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "minecraft:entities/sheep/gray",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "minecraft:entities/sheep/gray",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:gray_wool"
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:loot_table",
+								"name": "minecraft:entities/sheep"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:gray_wool",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:loot_table",
+					"id": "minecraft:entities/sheep",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "minecraft:entities/magma_cube",
+			"json": {
+				"type": "minecraft:entity",
+				"pools": [
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 2.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:magma_cream"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:magma_cream",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "minecraft:entities/dolphin",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "minecraft:entities/dolphin",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										},
+										"add": false
+									},
+									{
+										"function": "minecraft:looting_enchant",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										}
+									},
+									{
+										"function": "minecraft:furnace_smelt",
+										"conditions": [
+											{
+												"condition": "minecraft:entity_properties",
+												"predicate": {
+													"flags": {
+														"is_on_fire": true
+													}
+												},
+												"entity": "this"
+											}
+										]
+									}
+								],
+								"name": "minecraft:cod"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:cod",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count",
+						"minecraft:looting_enchant",
+						"minecraft:furnace_smelt"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "minecraft:entities/wolf",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "minecraft:entities/wolf"
+			},
+			"drops": []
+		},
+		{
+			"id": "minecraft:entities/sheep/purple",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "minecraft:entities/sheep/purple",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:purple_wool"
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:loot_table",
+								"name": "minecraft:entities/sheep"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:purple_wool",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:loot_table",
+					"id": "minecraft:entities/sheep",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "minecraft:entities/piglin_brute",
+			"json": {
+				"type": "minecraft:entity",
+				"pools": [
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 2.0
+										},
+										"add": false
+									}
+								],
+								"name": "tfc:food/pork"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 3.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:bone"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:gold_ingot"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "tfc:food/pork",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bone",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 3.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:gold_ingot",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "minecraft:entities/mule",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "minecraft:entities/mule",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 2.0
+										},
+										"add": false
+									},
+									{
+										"function": "minecraft:looting_enchant",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										}
+									}
+								],
+								"name": "minecraft:leather"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:leather",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count",
+						"minecraft:looting_enchant"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "minecraft:entities/ravager",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "minecraft:entities/ravager",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 1.0,
+										"add": false
+									}
+								],
+								"name": "minecraft:saddle"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:saddle",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "minecraft:entities/donkey",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "minecraft:entities/donkey",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 2.0
+										},
+										"add": false
+									},
+									{
+										"function": "minecraft:looting_enchant",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										}
+									}
+								],
+								"name": "minecraft:leather"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:leather",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count",
+						"minecraft:looting_enchant"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "minecraft:entities/sniffer",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "minecraft:entities/sniffer"
+			},
+			"drops": []
+		},
+		{
+			"id": "minecraft:entities/sheep/white",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "minecraft:entities/sheep/white",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:white_wool"
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:loot_table",
+								"name": "minecraft:entities/sheep"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:white_wool",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:loot_table",
+					"id": "minecraft:entities/sheep",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "minecraft:entities/phantom",
+			"json": {
+				"type": "minecraft:entity",
+				"pools": [
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 3.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:bone"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 2.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:phantom_membrane"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bone",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 3.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:phantom_membrane",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "minecraft:entities/sheep/green",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "minecraft:entities/sheep/green",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:green_wool"
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:loot_table",
+								"name": "minecraft:entities/sheep"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:green_wool",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:loot_table",
+					"id": "minecraft:entities/sheep",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "minecraft:entities/camel",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "minecraft:entities/camel"
+			},
+			"drops": []
+		},
+		{
+			"id": "minecraft:entities/pig",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "minecraft:entities/pig",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 3.0
+										},
+										"add": false
+									},
+									{
+										"function": "minecraft:furnace_smelt",
+										"conditions": [
+											{
+												"condition": "minecraft:entity_properties",
+												"predicate": {
+													"flags": {
+														"is_on_fire": true
+													}
+												},
+												"entity": "this"
+											}
+										]
+									},
+									{
+										"function": "minecraft:looting_enchant",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										}
+									}
+								],
+								"name": "minecraft:porkchop"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:porkchop",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 3.0
+					},
+					"functions": [
+						"minecraft:set_count",
+						"minecraft:furnace_smelt",
+						"minecraft:looting_enchant"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "minecraft:entities/sheep/lime",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "minecraft:entities/sheep/lime",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:lime_wool"
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:loot_table",
+								"name": "minecraft:entities/sheep"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:lime_wool",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:loot_table",
+					"id": "minecraft:entities/sheep",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "minecraft:entities/sheep/blue",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "minecraft:entities/sheep/blue",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:blue_wool"
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:loot_table",
+								"name": "minecraft:entities/sheep"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:blue_wool",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:loot_table",
+					"id": "minecraft:entities/sheep",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "minecraft:entities/salmon",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "minecraft:entities/salmon",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:furnace_smelt",
+										"conditions": [
+											{
+												"condition": "minecraft:entity_properties",
+												"predicate": {
+													"flags": {
+														"is_on_fire": true
+													}
+												},
+												"entity": "this"
+											}
+										]
+									}
+								],
+								"name": "minecraft:salmon"
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:bone_meal"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:random_chance",
+								"chance": 0.05
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:salmon",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [
+						"minecraft:furnace_smelt"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bone_meal",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:random_chance",
+							"chance": 0.05
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "minecraft:entities/sheep",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "minecraft:entities/sheep",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 2.0
+										},
+										"add": false
+									},
+									{
+										"function": "minecraft:furnace_smelt",
+										"conditions": [
+											{
+												"condition": "minecraft:entity_properties",
+												"predicate": {
+													"flags": {
+														"is_on_fire": true
+													}
+												},
+												"entity": "this"
+											}
+										]
+									},
+									{
+										"function": "minecraft:looting_enchant",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										}
+									}
+								],
+								"name": "minecraft:mutton"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:mutton",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count",
+						"minecraft:furnace_smelt",
+						"minecraft:looting_enchant"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "minecraft:entities/zombie_horse",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "minecraft:entities/zombie_horse",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 3.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:bone"
+							},
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 2.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:rotten_flesh"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "tfc:small_raw_hide"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:killed_by_player"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bone",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 3.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:rotten_flesh",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "tfc:small_raw_hide",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:killed_by_player"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "minecraft:entities/turtle",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "minecraft:entities/turtle",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"weight": 3.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 2.0
+										},
+										"add": false
+									},
+									{
+										"function": "minecraft:looting_enchant",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										}
+									}
+								],
+								"name": "minecraft:seagrass"
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:bowl"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:damage_source_properties",
+								"predicate": {
+									"tags": [
+										{
+											"id": "minecraft:is_lightning",
+											"expected": true
+										}
+									]
+								}
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:seagrass",
+					"weight": 3.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count",
+						"minecraft:looting_enchant"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bowl",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:damage_source_properties"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "minecraft:entities/evoker",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "minecraft:entities/evoker",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:totem_of_undying"
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										},
+										"add": false
+									},
+									{
+										"function": "minecraft:looting_enchant",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										}
+									}
+								],
+								"name": "minecraft:emerald"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:killed_by_player"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:totem_of_undying",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:emerald",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count",
+						"minecraft:looting_enchant"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:killed_by_player"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "minecraft:entities/zombie_villager",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "minecraft:entities/zombie_villager",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 2.0
+										},
+										"add": false
+									},
+									{
+										"function": "minecraft:looting_enchant",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										}
+									}
+								],
+								"name": "minecraft:rotten_flesh"
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:iron_ingot"
+							},
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:carrot"
+							},
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:furnace_smelt",
+										"conditions": [
+											{
+												"condition": "minecraft:entity_properties",
+												"predicate": {
+													"flags": {
+														"is_on_fire": true
+													}
+												},
+												"entity": "this"
+											}
+										]
+									}
+								],
+								"name": "minecraft:potato"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:killed_by_player"
+							},
+							{
+								"condition": "minecraft:random_chance_with_looting",
+								"chance": 0.025,
+								"looting_multiplier": 0.01
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:rotten_flesh",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count",
+						"minecraft:looting_enchant"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:iron_ingot",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:killed_by_player"
+						},
+						{
+							"type": "minecraft:random_chance_with_looting",
+							"chance": 0.025,
+							"lootingMultiplier": 0.01
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:carrot",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:killed_by_player"
+						},
+						{
+							"type": "minecraft:random_chance_with_looting",
+							"chance": 0.025,
+							"lootingMultiplier": 0.01
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:potato",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [
+						"minecraft:furnace_smelt"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:killed_by_player"
+						},
+						{
+							"type": "minecraft:random_chance_with_looting",
+							"chance": 0.025,
+							"lootingMultiplier": 0.01
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "minecraft:entities/ocelot",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "minecraft:entities/ocelot"
+			},
+			"drops": []
+		},
+		{
+			"id": "minecraft:entities/iron_golem",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "minecraft:entities/iron_golem",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 2.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:poppy"
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 3.0,
+											"max": 5.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:iron_ingot"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:poppy",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:iron_ingot",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 3.0,
+						"max": 5.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "minecraft:entities/witch",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "minecraft:entities/witch",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": {
+							"type": "minecraft:uniform",
+							"min": 1.0,
+							"max": 3.0
+						},
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 2.0
+										},
+										"add": false
+									},
+									{
+										"function": "minecraft:looting_enchant",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										}
+									}
+								],
+								"name": "minecraft:glowstone_dust"
+							},
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 2.0
+										},
+										"add": false
+									},
+									{
+										"function": "minecraft:looting_enchant",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										}
+									}
+								],
+								"name": "minecraft:sugar"
+							},
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 2.0
+										},
+										"add": false
+									},
+									{
+										"function": "minecraft:looting_enchant",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										}
+									}
+								],
+								"name": "minecraft:redstone"
+							},
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 2.0
+										},
+										"add": false
+									},
+									{
+										"function": "minecraft:looting_enchant",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										}
+									}
+								],
+								"name": "minecraft:spider_eye"
+							},
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 2.0
+										},
+										"add": false
+									},
+									{
+										"function": "minecraft:looting_enchant",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										}
+									}
+								],
+								"name": "minecraft:glass_bottle"
+							},
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 2.0
+										},
+										"add": false
+									},
+									{
+										"function": "minecraft:looting_enchant",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										}
+									}
+								],
+								"name": "minecraft:gunpowder"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 2.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 2.0
+										},
+										"add": false
+									},
+									{
+										"function": "minecraft:looting_enchant",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										}
+									}
+								],
+								"name": "minecraft:stick"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:glowstone_dust",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 3.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count",
+						"minecraft:looting_enchant"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:sugar",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 3.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count",
+						"minecraft:looting_enchant"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:redstone",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 3.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count",
+						"minecraft:looting_enchant"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:spider_eye",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 3.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count",
+						"minecraft:looting_enchant"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:glass_bottle",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 3.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count",
+						"minecraft:looting_enchant"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:gunpowder",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 3.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count",
+						"minecraft:looting_enchant"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:stick",
+					"weight": 2.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 3.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count",
+						"minecraft:looting_enchant"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "minecraft:entities/ender_dragon",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "minecraft:entities/ender_dragon"
+			},
+			"drops": []
+		},
+		{
+			"id": "minecraft:entities/sheep/orange",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "minecraft:entities/sheep/orange",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:orange_wool"
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:loot_table",
+								"name": "minecraft:entities/sheep"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:orange_wool",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:loot_table",
+					"id": "minecraft:entities/sheep",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "minecraft:entities/tropical_fish",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "minecraft:entities/tropical_fish",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 1.0,
+										"add": false
+									}
+								],
+								"name": "minecraft:tropical_fish"
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:bone_meal"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:random_chance",
+								"chance": 0.05
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:tropical_fish",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bone_meal",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:random_chance",
+							"chance": 0.05
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "minecraft:entities/vex",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "minecraft:entities/vex"
+			},
+			"drops": []
+		},
+		{
+			"id": "minecraft:entities/zombie",
+			"json": {
+				"type": "minecraft:entity",
+				"pools": [
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 2.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:rotten_flesh"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 2.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:stick"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 2.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:bone"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:rotten_flesh",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:stick",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bone",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "minecraft:entities/shulker",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "minecraft:entities/shulker",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:shulker_shell"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:random_chance_with_looting",
+								"chance": 0.5,
+								"looting_multiplier": 0.0625
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:shulker_shell",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:random_chance_with_looting",
+							"chance": 0.5,
+							"lootingMultiplier": 0.0625
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "minecraft:entities/armor_stand",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "minecraft:entities/armor_stand"
+			},
+			"drops": []
+		},
+		{
+			"id": "minecraft:entities/silverfish",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "minecraft:entities/silverfish"
+			},
+			"drops": []
+		},
+		{
+			"id": "minecraft:entities/player",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "minecraft:entities/player"
+			},
+			"drops": []
+		},
+		{
+			"id": "minecraft:entities/glow_squid",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "minecraft:entities/glow_squid",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 3.0
+										},
+										"add": false
+									},
+									{
+										"function": "minecraft:looting_enchant",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										}
+									}
+								],
+								"name": "minecraft:glow_ink_sac"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:glow_ink_sac",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 3.0
+					},
+					"functions": [
+						"minecraft:set_count",
+						"minecraft:looting_enchant"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "minecraft:entities/hoglin",
+			"json": {
+				"type": "minecraft:entity",
+				"pools": [
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 3.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:bone"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 3.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:rotten_flesh"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:random_chance",
+										"chance": 0.5
+									}
+								],
+								"name": "tfc:medium_raw_hide"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:killed_by_player"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 2.0
+										},
+										"add": false
+									}
+								],
+								"name": "tfc:blubber"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:killed_by_player"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bone",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 3.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:rotten_flesh",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 3.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "tfc:medium_raw_hide",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:killed_by_player"
+						},
+						{
+							"type": "minecraft:random_chance",
+							"chance": 0.5
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 3.0,
+					"kind": "minecraft:item",
+					"id": "tfc:blubber",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:killed_by_player"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "minecraft:entities/skeleton",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "minecraft:entities/skeleton",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 2.0
+										},
+										"add": false
+									},
+									{
+										"function": "minecraft:looting_enchant",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										}
+									}
+								],
+								"name": "minecraft:arrow"
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 2.0
+										},
+										"add": false
+									},
+									{
+										"function": "minecraft:looting_enchant",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										}
+									}
+								],
+								"name": "minecraft:bone"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:arrow",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count",
+						"minecraft:looting_enchant"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bone",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count",
+						"minecraft:looting_enchant"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "minecraft:entities/enderman",
+			"json": {
+				"type": "minecraft:entity",
+				"pools": [
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "ae2:ender_dust"
+							},
+							{
+								"type": "minecraft:item",
+								"name": "endermanoverhaul:summoner_pearl"
+							},
+							{
+								"type": "minecraft:item",
+								"name": "species:wicked_swapper"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 2.0,
+											"max": 4.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:chorus_fruit"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "ae2:ender_dust",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "endermanoverhaul:summoner_pearl",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "species:wicked_swapper",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:chorus_fruit",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 2.0,
+						"max": 4.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "minecraft:entities/llama",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "minecraft:entities/llama",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 2.0
+										},
+										"add": false
+									},
+									{
+										"function": "minecraft:looting_enchant",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										}
+									}
+								],
+								"name": "minecraft:leather"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:leather",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count",
+						"minecraft:looting_enchant"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "minecraft:entities/goat",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "minecraft:entities/goat"
+			},
+			"drops": []
+		},
+		{
+			"id": "minecraft:entities/wither_skeleton",
+			"json": {
+				"type": "minecraft:entity",
+				"pools": [
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 2.0,
+											"max": 4.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:bone"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 2.0,
+											"max": 4.0
+										},
+										"add": false
+									}
+								],
+								"name": "beneath:cursecoal"
+							},
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 3.0,
+											"max": 5.0
+										},
+										"add": false
+									}
+								],
+								"name": "tfc:ore/bituminous_coal"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bone",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 2.0,
+						"max": 4.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "beneath:cursecoal",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 2.0,
+						"max": 4.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "tfc:ore/bituminous_coal",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 3.0,
+						"max": 5.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "minecraft:entities/stray",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "minecraft:entities/stray",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 2.0
+										},
+										"add": false
+									},
+									{
+										"function": "minecraft:looting_enchant",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										}
+									}
+								],
+								"name": "minecraft:arrow"
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 2.0
+										},
+										"add": false
+									},
+									{
+										"function": "minecraft:looting_enchant",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										}
+									}
+								],
+								"name": "minecraft:bone"
+							}
+						]
+					},
+					{
+						"name": "pool2",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										},
+										"add": false
+									},
+									{
+										"function": "minecraft:looting_enchant",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										},
+										"limit": 1.0
+									},
+									{
+										"function": "minecraft:set_potion",
+										"id": "minecraft:slowness"
+									}
+								],
+								"name": "minecraft:tipped_arrow"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:killed_by_player"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:arrow",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count",
+						"minecraft:looting_enchant"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bone",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count",
+						"minecraft:looting_enchant"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:tipped_arrow",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count",
+						"minecraft:looting_enchant",
+						"minecraft:set_potion"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:killed_by_player"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "minecraft:entities/sheep/light_blue",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "minecraft:entities/sheep/light_blue",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:light_blue_wool"
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:loot_table",
+								"name": "minecraft:entities/sheep"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:light_blue_wool",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:loot_table",
+					"id": "minecraft:entities/sheep",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "minecraft:entities/wither",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "minecraft:entities/wither"
+			},
+			"drops": []
+		},
+		{
+			"id": "minecraft:entities/sheep/brown",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "minecraft:entities/sheep/brown",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:brown_wool"
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:loot_table",
+								"name": "minecraft:entities/sheep"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:brown_wool",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:loot_table",
+					"id": "minecraft:entities/sheep",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "minecraft:entities/cave_spider",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "minecraft:entities/cave_spider",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 2.0
+										},
+										"add": false
+									},
+									{
+										"function": "minecraft:looting_enchant",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										}
+									}
+								],
+								"name": "minecraft:string"
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": -1.0,
+											"max": 1.0
+										},
+										"add": false
+									},
+									{
+										"function": "minecraft:looting_enchant",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										}
+									}
+								],
+								"name": "minecraft:spider_eye"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:killed_by_player"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:string",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count",
+						"minecraft:looting_enchant"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:spider_eye",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": -1.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count",
+						"minecraft:looting_enchant"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:killed_by_player"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "minecraft:entities/sheep/cyan",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "minecraft:entities/sheep/cyan",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:cyan_wool"
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:loot_table",
+								"name": "minecraft:entities/sheep"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:cyan_wool",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:loot_table",
+					"id": "minecraft:entities/sheep",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "minecraft:entities/panda",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "minecraft:entities/panda",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 1.0,
+										"add": false
+									}
+								],
+								"name": "minecraft:bamboo"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bamboo",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		}
+	]
+}

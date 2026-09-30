@@ -1,0 +1,340 @@
+{
+	"type": "gtceu:cooling_tower",
+	"recipes": [
+		{
+			"id": "tfg:cooling_tower/warm_into_distilled_2",
+			"category": "cooling_tower",
+			"duration": 1200,
+			"voltage": 1,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:warm_water"
+					],
+					"amount": 5000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickOutputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:distilled_water"
+					],
+					"amount": 5000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@3b7e3f64",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:overworld]"
+				},
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@3d567e2c",
+					"dimension": "ResourceKey[minecraft:dimension / ad_astra:mars]"
+				}
+			]
+		},
+		{
+			"id": "tfg:cooling_tower/warm_into_distilled_5",
+			"category": "cooling_tower",
+			"duration": 1200,
+			"voltage": 1,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:warm_water"
+					],
+					"amount": 100000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickOutputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:distilled_water"
+					],
+					"amount": 100000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@6feae3dd",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:overworld]"
+				},
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@41fdcdcf",
+					"dimension": "ResourceKey[minecraft:dimension / ad_astra:mars]"
+				}
+			]
+		},
+		{
+			"id": "tfg:cooling_tower/warm_into_distilled_1",
+			"category": "cooling_tower",
+			"duration": 1200,
+			"voltage": 1,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:warm_water"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickOutputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:distilled_water"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@bb24f8b",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:overworld]"
+				},
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@51bf7cf",
+					"dimension": "ResourceKey[minecraft:dimension / ad_astra:mars]"
+				}
+			]
+		},
+		{
+			"id": "tfg:cooling_tower/warm_into_distilled_4",
+			"category": "cooling_tower",
+			"duration": 1200,
+			"voltage": 1,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:warm_water"
+					],
+					"amount": 50000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickOutputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:distilled_water"
+					],
+					"amount": 50000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@3d5708ba",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:overworld]"
+				},
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@12eb396a",
+					"dimension": "ResourceKey[minecraft:dimension / ad_astra:mars]"
+				}
+			]
+		},
+		{
+			"id": "tfg:cooling_tower/warm_into_distilled_3",
+			"category": "cooling_tower",
+			"duration": 1200,
+			"voltage": 1,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:warm_water"
+					],
+					"amount": 10000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickOutputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:distilled_water"
+					],
+					"amount": 10000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@bbcf2ab",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:overworld]"
+				},
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@51c3d99c",
+					"dimension": "ResourceKey[minecraft:dimension / ad_astra:mars]"
+				}
+			]
+		}
+	]
+}

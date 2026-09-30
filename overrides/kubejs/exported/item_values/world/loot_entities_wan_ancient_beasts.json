@@ -1,0 +1,125 @@
+{
+	"group": "entities",
+	"namespace": "wan_ancient_beasts",
+	"tables": [
+		{
+			"id": "wan_ancient_beasts:entities/raider",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "wan_ancient_beasts:entities/raider"
+			},
+			"drops": []
+		},
+		{
+			"id": "wan_ancient_beasts:entities/crusher",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "wan_ancient_beasts:entities/crusher"
+			},
+			"drops": []
+		},
+		{
+			"id": "wan_ancient_beasts:entities/toxlacanth",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "wan_ancient_beasts:entities/toxlacanth",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:furnace_smelt",
+										"conditions": [
+											{
+												"condition": "minecraft:entity_properties",
+												"predicate": {
+													"flags": {
+														"is_on_fire": true
+													}
+												},
+												"entity": "this"
+											}
+										]
+									}
+								],
+								"name": "wan_ancient_beasts:toxlacanth"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "wan_ancient_beasts:toxlacanth",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [
+						"minecraft:furnace_smelt"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "wan_ancient_beasts:entities/charger",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "wan_ancient_beasts:entities/charger"
+			},
+			"drops": []
+		},
+		{
+			"id": "wan_ancient_beasts:entities/eater",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "wan_ancient_beasts:entities/eater"
+			},
+			"drops": []
+		},
+		{
+			"id": "wan_ancient_beasts:entities/glider",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "wan_ancient_beasts:entities/glider"
+			},
+			"drops": []
+		},
+		{
+			"id": "wan_ancient_beasts:entities/surfer",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "wan_ancient_beasts:entities/surfer"
+			},
+			"drops": []
+		},
+		{
+			"id": "wan_ancient_beasts:entities/walker",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "wan_ancient_beasts:entities/walker"
+			},
+			"drops": []
+		},
+		{
+			"id": "wan_ancient_beasts:entities/soarer",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "wan_ancient_beasts:entities/soarer"
+			},
+			"drops": []
+		}
+	]
+}

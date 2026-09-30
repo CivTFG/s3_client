@@ -1,0 +1,51 @@
+{
+	"group": "blocks",
+	"namespace": "merequester",
+	"tables": [
+		{
+			"id": "merequester:blocks/requester",
+			"json": {
+				"type": "minecraft:block",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "merequester:requester"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "merequester:requester",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		}
+	]
+}

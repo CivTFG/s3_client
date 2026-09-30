@@ -1,0 +1,351 @@
+{
+	"type": "gtceu:super_boiler",
+	"recipes": [
+		{
+			"id": "tfg:super_boiler/naphtha_fuel",
+			"category": "super_boiler",
+			"duration": 3000,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:naphtha"
+					],
+					"amount": 80000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:charcoal"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@3aeb7bfb",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:overworld]"
+				},
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@31d3c708",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:the_nether]"
+				}
+			]
+		},
+		{
+			"id": "tfg:super_boiler/syngas_fuel_binder",
+			"category": "super_boiler",
+			"duration": 3000,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:syngas"
+					],
+					"amount": 20000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:bio_chaff"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@bdaf2d7",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:overworld]"
+				},
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@af6da9d",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:the_nether]"
+				}
+			]
+		},
+		{
+			"id": "tfg:super_boiler/heavy_fuel",
+			"category": "super_boiler",
+			"duration": 3000,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:heavy_fuel"
+					],
+					"amount": 80000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:charcoal"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@6b235c9b",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:overworld]"
+				},
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@44e73d70",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:the_nether]"
+				}
+			]
+		},
+		{
+			"id": "tfg:super_boiler/light_fuel",
+			"category": "super_boiler",
+			"duration": 3000,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:light_fuel"
+					],
+					"amount": 80000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:charcoal"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@18773371",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:overworld]"
+				},
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@246930d0",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:the_nether]"
+				}
+			]
+		},
+		{
+			"id": "tfg:super_boiler/light_fuel_binder",
+			"category": "super_boiler",
+			"duration": 3000,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:light_fuel"
+					],
+					"amount": 20000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:bio_chaff"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@55df6742",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:overworld]"
+				},
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@28aecc34",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:the_nether]"
+				}
+			]
+		},
+		{
+			"id": "tfg:super_boiler/heavy_fuel_binder",
+			"category": "super_boiler",
+			"duration": 3000,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:heavy_fuel"
+					],
+					"amount": 20000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:bio_chaff"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@9638eeb",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:overworld]"
+				},
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@6461c0a7",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:the_nether]"
+				}
+			]
+		},
+		{
+			"id": "tfg:super_boiler/syngas_fuel",
+			"category": "super_boiler",
+			"duration": 3000,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:syngas"
+					],
+					"amount": 80000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:ore/bituminous_coal",
+						"tfc:ore/lignite",
+						"minecraft:charcoal"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@6b34b8c1",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:overworld]"
+				},
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@73764117",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:the_nether]"
+				}
+			]
+		},
+		{
+			"id": "tfg:super_boiler/naphtha_binder",
+			"category": "super_boiler",
+			"duration": 3000,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:naphtha"
+					],
+					"amount": 20000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:bio_chaff"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@38263806",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:overworld]"
+				},
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@68e9cc57",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:the_nether]"
+				}
+			]
+		}
+	]
+}

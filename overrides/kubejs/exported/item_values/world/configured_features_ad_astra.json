@@ -1,0 +1,652 @@
+{
+	"configured": {
+		"ad_astra:glacio_iron_ore": {
+			"type": "minecraft:ore",
+			"json": {
+				"config": {
+					"targets": [
+						{
+							"target": {
+								"tag": "ad_astra:glacio_stone_replaceables",
+								"predicate_type": "minecraft:tag_match"
+							},
+							"state": {
+								"Name": "ad_astra:glacio_iron_ore"
+							}
+						}
+					],
+					"size": 11.0,
+					"discard_chance_on_air_exposure": 0.0
+				},
+				"type": "minecraft:ore"
+			},
+			"nested": [],
+			"blocks": [
+				"ad_astra:glacio_iron_ore"
+			],
+			"blockTags": [
+				"ad_astra:glacio_stone_replaceables"
+			]
+		},
+		"ad_astra:small_infernal_spire_column": {
+			"type": "ad_astra:infernal_spire_column",
+			"json": {
+				"config": {
+					"reach": 1.0,
+					"height": {
+						"type": "minecraft:uniform",
+						"value": {
+							"min_inclusive": 1.0,
+							"max_inclusive": 4.0
+						}
+					}
+				},
+				"type": "ad_astra:infernal_spire_column"
+			},
+			"nested": [],
+			"blocks": [],
+			"blockTags": []
+		},
+		"ad_astra:mars_ostrum_ore": {
+			"type": "minecraft:ore",
+			"json": {
+				"config": {
+					"targets": [
+						{
+							"target": {
+								"tag": "ad_astra:mars_stone_replaceables",
+								"predicate_type": "minecraft:tag_match"
+							},
+							"state": {
+								"Name": "ad_astra:mars_ostrum_ore"
+							}
+						}
+					],
+					"size": 8.0,
+					"discard_chance_on_air_exposure": 0.5
+				},
+				"type": "minecraft:ore"
+			},
+			"nested": [],
+			"blocks": [
+				"ad_astra:mars_ostrum_ore"
+			],
+			"blockTags": [
+				"ad_astra:mars_stone_replaceables"
+			]
+		},
+		"ad_astra:mars_rock": {
+			"type": "ad_astra:mars_block_blob",
+			"json": {
+				"config": {
+					"state": {
+						"Name": "ad_astra:conglomerate"
+					}
+				},
+				"type": "ad_astra:mars_block_blob"
+			},
+			"nested": [],
+			"blocks": [
+				"ad_astra:conglomerate"
+			],
+			"blockTags": []
+		},
+		"ad_astra:glacio_deepslate_iron_ore": {
+			"type": "minecraft:ore",
+			"json": {
+				"config": {
+					"targets": [],
+					"size": 12.0,
+					"discard_chance_on_air_exposure": 0.0
+				},
+				"type": "minecraft:ore"
+			},
+			"nested": [],
+			"blocks": [],
+			"blockTags": []
+		},
+		"ad_astra:large_infernal_spire_column": {
+			"type": "ad_astra:infernal_spire_column",
+			"json": {
+				"config": {
+					"reach": {
+						"type": "minecraft:uniform",
+						"value": {
+							"min_inclusive": 2.0,
+							"max_inclusive": 3.0
+						}
+					},
+					"height": {
+						"type": "minecraft:uniform",
+						"value": {
+							"min_inclusive": 5.0,
+							"max_inclusive": 10.0
+						}
+					}
+				},
+				"type": "ad_astra:infernal_spire_column"
+			},
+			"nested": [],
+			"blocks": [],
+			"blockTags": []
+		},
+		"ad_astra:glacio_ice_shard_ore": {
+			"type": "minecraft:ore",
+			"json": {
+				"config": {
+					"targets": [
+						{
+							"target": {
+								"tag": "ad_astra:glacio_stone_replaceables",
+								"predicate_type": "minecraft:tag_match"
+							},
+							"state": {
+								"Name": "ad_astra:glacio_ice_shard_ore"
+							}
+						}
+					],
+					"size": 17.0,
+					"discard_chance_on_air_exposure": 0.0
+				},
+				"type": "minecraft:ore"
+			},
+			"nested": [],
+			"blocks": [
+				"ad_astra:glacio_ice_shard_ore"
+			],
+			"blockTags": [
+				"ad_astra:glacio_stone_replaceables"
+			]
+		},
+		"ad_astra:glacio_lapis_ore": {
+			"type": "minecraft:ore",
+			"json": {
+				"config": {
+					"targets": [
+						{
+							"target": {
+								"tag": "ad_astra:glacio_stone_replaceables",
+								"predicate_type": "minecraft:tag_match"
+							},
+							"state": {
+								"Name": "ad_astra:glacio_lapis_ore"
+							}
+						}
+					],
+					"size": 9.0,
+					"discard_chance_on_air_exposure": 0.0
+				},
+				"type": "minecraft:ore"
+			},
+			"nested": [],
+			"blocks": [
+				"ad_astra:glacio_lapis_ore"
+			],
+			"blockTags": [
+				"ad_astra:glacio_stone_replaceables"
+			]
+		},
+		"ad_astra:glacio_deepslate_lapis_ore": {
+			"type": "minecraft:ore",
+			"json": {
+				"config": {
+					"targets": [],
+					"size": 9.0,
+					"discard_chance_on_air_exposure": 0.0
+				},
+				"type": "minecraft:ore"
+			},
+			"nested": [],
+			"blocks": [],
+			"blockTags": []
+		},
+		"ad_astra:mars_ice_shard_ore": {
+			"type": "minecraft:ore",
+			"json": {
+				"config": {
+					"targets": [
+						{
+							"target": {
+								"tag": "ad_astra:mars_stone_replaceables",
+								"predicate_type": "minecraft:tag_match"
+							},
+							"state": {
+								"Name": "ad_astra:mars_ice_shard_ore"
+							}
+						}
+					],
+					"size": 10.0,
+					"discard_chance_on_air_exposure": 0.0
+				},
+				"type": "minecraft:ore"
+			},
+			"nested": [],
+			"blocks": [
+				"ad_astra:mars_ice_shard_ore"
+			],
+			"blockTags": [
+				"ad_astra:mars_stone_replaceables"
+			]
+		},
+		"ad_astra:moon_soul_soil": {
+			"type": "minecraft:ore",
+			"json": {
+				"config": {
+					"targets": [
+						{
+							"target": {
+								"tag": "ad_astra:moon_stone_replaceables",
+								"predicate_type": "minecraft:tag_match"
+							},
+							"state": {
+								"Name": "minecraft:soul_soil"
+							}
+						}
+					],
+					"size": 60.0,
+					"discard_chance_on_air_exposure": 0.0
+				},
+				"type": "minecraft:ore"
+			},
+			"nested": [],
+			"blocks": [
+				"minecraft:soul_soil"
+			],
+			"blockTags": [
+				"ad_astra:moon_stone_replaceables"
+			]
+		},
+		"ad_astra:moon_ice_shard_ore": {
+			"type": "minecraft:ore",
+			"json": {
+				"config": {
+					"targets": [
+						{
+							"target": {
+								"tag": "ad_astra:moon_stone_replaceables",
+								"predicate_type": "minecraft:tag_match"
+							},
+							"state": {
+								"Name": "ad_astra:moon_ice_shard_ore"
+							}
+						}
+					],
+					"size": 10.0,
+					"discard_chance_on_air_exposure": 0.0
+				},
+				"type": "minecraft:ore"
+			},
+			"nested": [],
+			"blocks": [
+				"ad_astra:moon_ice_shard_ore"
+			],
+			"blockTags": [
+				"ad_astra:moon_stone_replaceables"
+			]
+		},
+		"ad_astra:glacio_coal_ore": {
+			"type": "minecraft:ore",
+			"json": {
+				"config": {
+					"targets": [
+						{
+							"target": {
+								"tag": "ad_astra:glacio_stone_replaceables",
+								"predicate_type": "minecraft:tag_match"
+							},
+							"state": {
+								"Name": "ad_astra:glacio_coal_ore"
+							}
+						}
+					],
+					"size": 17.0,
+					"discard_chance_on_air_exposure": 0.0
+				},
+				"type": "minecraft:ore"
+			},
+			"nested": [],
+			"blocks": [
+				"ad_astra:glacio_coal_ore"
+			],
+			"blockTags": [
+				"ad_astra:glacio_stone_replaceables"
+			]
+		},
+		"ad_astra:moon_desh_ore": {
+			"type": "minecraft:ore",
+			"json": {
+				"config": {
+					"targets": [
+						{
+							"target": {
+								"tag": "ad_astra:moon_stone_replaceables",
+								"predicate_type": "minecraft:tag_match"
+							},
+							"state": {
+								"Name": "ad_astra:moon_desh_ore"
+							}
+						}
+					],
+					"size": 9.0,
+					"discard_chance_on_air_exposure": 0.5
+				},
+				"type": "minecraft:ore"
+			},
+			"nested": [],
+			"blocks": [
+				"ad_astra:moon_desh_ore"
+			],
+			"blockTags": [
+				"ad_astra:moon_stone_replaceables"
+			]
+		},
+		"ad_astra:venus_calorite_ore": {
+			"type": "minecraft:ore",
+			"json": {
+				"config": {
+					"targets": [
+						{
+							"target": {
+								"tag": "ad_astra:venus_stone_replaceables",
+								"predicate_type": "minecraft:tag_match"
+							},
+							"state": {
+								"Name": "ad_astra:venus_calorite_ore"
+							}
+						}
+					],
+					"size": 8.0,
+					"discard_chance_on_air_exposure": 0.5
+				},
+				"type": "minecraft:ore"
+			},
+			"nested": [],
+			"blocks": [
+				"ad_astra:venus_calorite_ore"
+			],
+			"blockTags": [
+				"ad_astra:venus_stone_replaceables"
+			]
+		},
+		"ad_astra:moon_iron_ore": {
+			"type": "minecraft:ore",
+			"json": {
+				"config": {
+					"targets": [
+						{
+							"target": {
+								"tag": "ad_astra:moon_stone_replaceables",
+								"predicate_type": "minecraft:tag_match"
+							},
+							"state": {
+								"Name": "ad_astra:moon_iron_ore"
+							}
+						}
+					],
+					"size": 11.0,
+					"discard_chance_on_air_exposure": 0.0
+				},
+				"type": "minecraft:ore"
+			},
+			"nested": [],
+			"blocks": [
+				"ad_astra:moon_iron_ore"
+			],
+			"blockTags": [
+				"ad_astra:moon_stone_replaceables"
+			]
+		},
+		"ad_astra:venus_diamond_ore": {
+			"type": "minecraft:ore",
+			"json": {
+				"config": {
+					"targets": [
+						{
+							"target": {
+								"tag": "ad_astra:venus_stone_replaceables",
+								"predicate_type": "minecraft:tag_match"
+							},
+							"state": {
+								"Name": "ad_astra:venus_diamond_ore"
+							}
+						}
+					],
+					"size": 9.0,
+					"discard_chance_on_air_exposure": 0.5
+				},
+				"type": "minecraft:ore"
+			},
+			"nested": [],
+			"blocks": [
+				"ad_astra:venus_diamond_ore"
+			],
+			"blockTags": [
+				"ad_astra:venus_stone_replaceables"
+			]
+		},
+		"ad_astra:mars_diamond_ore": {
+			"type": "minecraft:ore",
+			"json": {
+				"config": {
+					"targets": [
+						{
+							"target": {
+								"tag": "ad_astra:mars_stone_replaceables",
+								"predicate_type": "minecraft:tag_match"
+							},
+							"state": {
+								"Name": "ad_astra:mars_diamond_ore"
+							}
+						}
+					],
+					"size": 7.0,
+					"discard_chance_on_air_exposure": 0.5
+				},
+				"type": "minecraft:ore"
+			},
+			"nested": [],
+			"blocks": [
+				"ad_astra:mars_diamond_ore"
+			],
+			"blockTags": [
+				"ad_astra:mars_stone_replaceables"
+			]
+		},
+		"ad_astra:glacio_copper_ore": {
+			"type": "minecraft:ore",
+			"json": {
+				"config": {
+					"targets": [
+						{
+							"target": {
+								"tag": "ad_astra:glacio_stone_replaceables",
+								"predicate_type": "minecraft:tag_match"
+							},
+							"state": {
+								"Name": "ad_astra:glacio_copper_ore"
+							}
+						}
+					],
+					"size": 17.0,
+					"discard_chance_on_air_exposure": 0.0
+				},
+				"type": "minecraft:ore"
+			},
+			"nested": [],
+			"blocks": [
+				"ad_astra:glacio_copper_ore"
+			],
+			"blockTags": [
+				"ad_astra:glacio_stone_replaceables"
+			]
+		},
+		"ad_astra:venus_gold_ore": {
+			"type": "minecraft:ore",
+			"json": {
+				"config": {
+					"targets": [
+						{
+							"target": {
+								"tag": "ad_astra:venus_stone_replaceables",
+								"predicate_type": "minecraft:tag_match"
+							},
+							"state": {
+								"Name": "ad_astra:venus_gold_ore"
+							}
+						}
+					],
+					"size": 10.0,
+					"discard_chance_on_air_exposure": 0.0
+				},
+				"type": "minecraft:ore"
+			},
+			"nested": [],
+			"blocks": [
+				"ad_astra:venus_gold_ore"
+			],
+			"blockTags": [
+				"ad_astra:venus_stone_replaceables"
+			]
+		},
+		"ad_astra:mars_iron_ore": {
+			"type": "minecraft:ore",
+			"json": {
+				"config": {
+					"targets": [
+						{
+							"target": {
+								"tag": "ad_astra:mars_stone_replaceables",
+								"predicate_type": "minecraft:tag_match"
+							},
+							"state": {
+								"Name": "ad_astra:mars_iron_ore"
+							}
+						}
+					],
+					"size": 11.0,
+					"discard_chance_on_air_exposure": 0.0
+				},
+				"type": "minecraft:ore"
+			},
+			"nested": [],
+			"blocks": [
+				"ad_astra:mars_iron_ore"
+			],
+			"blockTags": [
+				"ad_astra:mars_stone_replaceables"
+			]
+		},
+		"ad_astra:mercury_iron_ore": {
+			"type": "minecraft:ore",
+			"json": {
+				"config": {
+					"targets": [
+						{
+							"target": {
+								"tag": "ad_astra:mercury_stone_replaceables",
+								"predicate_type": "minecraft:tag_match"
+							},
+							"state": {
+								"Name": "ad_astra:mercury_iron_ore"
+							}
+						}
+					],
+					"size": 8.0,
+					"discard_chance_on_air_exposure": 0.0
+				},
+				"type": "minecraft:ore"
+			},
+			"nested": [],
+			"blocks": [
+				"ad_astra:mercury_iron_ore"
+			],
+			"blockTags": [
+				"ad_astra:mercury_stone_replaceables"
+			]
+		},
+		"ad_astra:venus_coal_ore": {
+			"type": "minecraft:ore",
+			"json": {
+				"config": {
+					"targets": [
+						{
+							"target": {
+								"tag": "ad_astra:venus_stone_replaceables",
+								"predicate_type": "minecraft:tag_match"
+							},
+							"state": {
+								"Name": "ad_astra:venus_coal_ore"
+							}
+						}
+					],
+					"size": 17.0,
+					"discard_chance_on_air_exposure": 0.0
+				},
+				"type": "minecraft:ore"
+			},
+			"nested": [],
+			"blocks": [
+				"ad_astra:venus_coal_ore"
+			],
+			"blockTags": [
+				"ad_astra:venus_stone_replaceables"
+			]
+		},
+		"ad_astra:moon_cheese_ore": {
+			"type": "minecraft:ore",
+			"json": {
+				"config": {
+					"targets": [
+						{
+							"target": {
+								"tag": "ad_astra:moon_stone_replaceables",
+								"predicate_type": "minecraft:tag_match"
+							},
+							"state": {
+								"Name": "ad_astra:moon_cheese_ore"
+							}
+						}
+					],
+					"size": 8.0,
+					"discard_chance_on_air_exposure": 0.2
+				},
+				"type": "minecraft:ore"
+			},
+			"nested": [],
+			"blocks": [
+				"ad_astra:moon_cheese_ore"
+			],
+			"blockTags": [
+				"ad_astra:moon_stone_replaceables"
+			]
+		},
+		"ad_astra:glacio_deepslate_coal_ore": {
+			"type": "minecraft:ore",
+			"json": {
+				"config": {
+					"targets": [],
+					"size": 17.0,
+					"discard_chance_on_air_exposure": 0.0
+				},
+				"type": "minecraft:ore"
+			},
+			"nested": [],
+			"blocks": [],
+			"blockTags": []
+		},
+		"ad_astra:glacio_deepslate_copper_ore": {
+			"type": "minecraft:ore",
+			"json": {
+				"config": {
+					"targets": [],
+					"size": 17.0,
+					"discard_chance_on_air_exposure": 0.0
+				},
+				"type": "minecraft:ore"
+			},
+			"nested": [],
+			"blocks": [],
+			"blockTags": []
+		}
+	}
+}

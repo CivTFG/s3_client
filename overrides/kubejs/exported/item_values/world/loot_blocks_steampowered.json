@@ -1,0 +1,953 @@
+{
+	"group": "blocks",
+	"namespace": "steampowered",
+	"tables": [
+		{
+			"id": "steampowered:blocks/alternator",
+			"json": {
+				"type": "minecraft:block",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "steampowered:alternator"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "steampowered:alternator",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "steampowered:blocks/cast_iron_burner",
+			"json": {
+				"type": "minecraft:block",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "steampowered:cast_iron_burner"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "steampowered:cast_iron_burner",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "steampowered:blocks/steel_boiler",
+			"json": {
+				"type": "minecraft:block",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "steampowered:steel_boiler"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "steampowered:steel_boiler",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "steampowered:blocks/steel_steam_engine",
+			"json": {
+				"type": "minecraft:block",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "steampowered:steel_steam_engine"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "steampowered:steel_steam_engine",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "steampowered:blocks/cast_iron_large_cogwheel",
+			"json": {
+				"type": "minecraft:block",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "steampowered:cast_iron_large_cogwheel"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "steampowered:cast_iron_large_cogwheel",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "steampowered:blocks/cast_iron_flywheel",
+			"json": {
+				"type": "minecraft:block",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "steampowered:cast_iron_flywheel"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "steampowered:cast_iron_flywheel",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "steampowered:blocks/bronze_cogwheel",
+			"json": {
+				"type": "minecraft:block",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "steampowered:bronze_cogwheel"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "steampowered:bronze_cogwheel",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "steampowered:blocks/cast_iron_cogwheel",
+			"json": {
+				"type": "minecraft:block",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "steampowered:cast_iron_cogwheel"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "steampowered:cast_iron_cogwheel",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "steampowered:blocks/bronze_burner",
+			"json": {
+				"type": "minecraft:block",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "steampowered:bronze_burner"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "steampowered:bronze_burner",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "steampowered:blocks/steel_burner",
+			"json": {
+				"type": "minecraft:block",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "steampowered:steel_burner"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "steampowered:steel_burner",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "steampowered:blocks/steel_large_cogwheel",
+			"json": {
+				"type": "minecraft:block",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "steampowered:steel_large_cogwheel"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "steampowered:steel_large_cogwheel",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "steampowered:blocks/brass_flywheel",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "steampowered:blocks/brass_flywheel",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "steampowered:brass_flywheel"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "steampowered:brass_flywheel",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "steampowered:blocks/cast_iron_steam_engine",
+			"json": {
+				"type": "minecraft:block",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "steampowered:cast_iron_steam_engine"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "steampowered:cast_iron_steam_engine",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "steampowered:blocks/furnace_engine",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "steampowered:blocks/furnace_engine",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "steampowered:furnace_engine"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "steampowered:furnace_engine",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "steampowered:blocks/steel_cogwheel",
+			"json": {
+				"type": "minecraft:block",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "steampowered:steel_cogwheel"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "steampowered:steel_cogwheel",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "steampowered:blocks/bronze_large_cogwheel",
+			"json": {
+				"type": "minecraft:block",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "steampowered:bronze_large_cogwheel"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "steampowered:bronze_large_cogwheel",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "steampowered:blocks/bronze_flywheel",
+			"json": {
+				"type": "minecraft:block",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "steampowered:bronze_flywheel"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "steampowered:bronze_flywheel",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "steampowered:blocks/cast_iron_boiler",
+			"json": {
+				"type": "minecraft:block",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "steampowered:cast_iron_boiler"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "steampowered:cast_iron_boiler",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "steampowered:blocks/bronze_boiler",
+			"json": {
+				"type": "minecraft:block",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "steampowered:bronze_boiler"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "steampowered:bronze_boiler",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "steampowered:blocks/bronze_steam_engine",
+			"json": {
+				"type": "minecraft:block",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "steampowered:bronze_steam_engine"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "steampowered:bronze_steam_engine",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "steampowered:blocks/steel_flywheel",
+			"json": {
+				"type": "minecraft:block",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "steampowered:steel_flywheel"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "steampowered:steel_flywheel",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		}
+	]
+}

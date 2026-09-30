@@ -1,0 +1,965 @@
+{
+	"group": "blocks",
+	"namespace": "computercraft",
+	"tables": [
+		{
+			"id": "computercraft:blocks/monitor_advanced",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "computercraft:blocks/monitor_advanced",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "computercraft:monitor_advanced"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "computercraft:monitor_advanced",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "computercraft:blocks/turtle_normal",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "computercraft:blocks/turtle_normal",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:dynamic",
+								"name": "computercraft:computer"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:any_of",
+								"terms": [
+									{
+										"condition": "computercraft:block_named"
+									},
+									{
+										"condition": "computercraft:has_id"
+									},
+									{
+										"condition": "minecraft:inverted",
+										"term": {
+											"condition": "computercraft:player_creative"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:dynamic",
+					"id": "computercraft:computer",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:any_of",
+							"terms": [
+								{
+									"type": "computercraft:block_named"
+								},
+								{
+									"type": "computercraft:has_id"
+								},
+								{
+									"type": "minecraft:inverted",
+									"term": {
+										"type": "computercraft:player_creative"
+									},
+									"inverted": true
+								}
+							]
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "computercraft:blocks/monitor_normal",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "computercraft:blocks/monitor_normal",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "computercraft:monitor_normal"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "computercraft:monitor_normal",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "computercraft:blocks/cable",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "computercraft:blocks/cable",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "computercraft:cable"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "computercraft:cable",
+								"properties": {
+									"cable": "true"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "computercraft:wired_modem"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:inverted",
+								"term": {
+									"condition": "minecraft:block_state_property",
+									"block": "computercraft:cable",
+									"properties": {
+										"modem": "none"
+									}
+								}
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "computercraft:cable",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "computercraft:wired_modem",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:inverted",
+							"term": {
+								"type": "minecraft:block_state_property"
+							},
+							"inverted": true
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "computercraft:blocks/wired_modem_full",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "computercraft:blocks/wired_modem_full",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "computercraft:wired_modem_full"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "computercraft:wired_modem_full",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "computercraft:blocks/printer",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "computercraft:blocks/printer",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:copy_name",
+										"source": "block_entity"
+									}
+								],
+								"name": "computercraft:printer"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "computercraft:printer",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [
+						"minecraft:copy_name"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "computercraft:blocks/wireless_modem_advanced",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "computercraft:blocks/wireless_modem_advanced",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "computercraft:wireless_modem_advanced"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "computercraft:wireless_modem_advanced",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "computercraft:blocks/wireless_modem_normal",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "computercraft:blocks/wireless_modem_normal",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "computercraft:wireless_modem_normal"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "computercraft:wireless_modem_normal",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "computercraft:blocks/disk_drive",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "computercraft:blocks/disk_drive",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:copy_name",
+										"source": "block_entity"
+									}
+								],
+								"name": "computercraft:disk_drive"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "computercraft:disk_drive",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [
+						"minecraft:copy_name"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "computercraft:blocks/computer_command",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "computercraft:blocks/computer_command",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:dynamic",
+								"name": "computercraft:computer"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:any_of",
+								"terms": [
+									{
+										"condition": "computercraft:block_named"
+									},
+									{
+										"condition": "computercraft:has_id"
+									},
+									{
+										"condition": "minecraft:inverted",
+										"term": {
+											"condition": "computercraft:player_creative"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:dynamic",
+					"id": "computercraft:computer",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:any_of",
+							"terms": [
+								{
+									"type": "computercraft:block_named"
+								},
+								{
+									"type": "computercraft:has_id"
+								},
+								{
+									"type": "minecraft:inverted",
+									"term": {
+										"type": "computercraft:player_creative"
+									},
+									"inverted": true
+								}
+							]
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "computercraft:blocks/lectern",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "computercraft:blocks/lectern",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:lectern"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:lectern",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "computercraft:blocks/computer_normal",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "computercraft:blocks/computer_normal",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:dynamic",
+								"name": "computercraft:computer"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:any_of",
+								"terms": [
+									{
+										"condition": "computercraft:block_named"
+									},
+									{
+										"condition": "computercraft:has_id"
+									},
+									{
+										"condition": "minecraft:inverted",
+										"term": {
+											"condition": "computercraft:player_creative"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:dynamic",
+					"id": "computercraft:computer",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:any_of",
+							"terms": [
+								{
+									"type": "computercraft:block_named"
+								},
+								{
+									"type": "computercraft:has_id"
+								},
+								{
+									"type": "minecraft:inverted",
+									"term": {
+										"type": "computercraft:player_creative"
+									},
+									"inverted": true
+								}
+							]
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "computercraft:blocks/turtle_advanced",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "computercraft:blocks/turtle_advanced",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:dynamic",
+								"name": "computercraft:computer"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:any_of",
+								"terms": [
+									{
+										"condition": "computercraft:block_named"
+									},
+									{
+										"condition": "computercraft:has_id"
+									},
+									{
+										"condition": "minecraft:inverted",
+										"term": {
+											"condition": "computercraft:player_creative"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:dynamic",
+					"id": "computercraft:computer",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:any_of",
+							"terms": [
+								{
+									"type": "computercraft:block_named"
+								},
+								{
+									"type": "computercraft:has_id"
+								},
+								{
+									"type": "minecraft:inverted",
+									"term": {
+										"type": "computercraft:player_creative"
+									},
+									"inverted": true
+								}
+							]
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "computercraft:blocks/speaker",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "computercraft:blocks/speaker",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "computercraft:speaker"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "computercraft:speaker",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "computercraft:blocks/redstone_relay",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "computercraft:blocks/redstone_relay",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "computercraft:redstone_relay"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "computercraft:redstone_relay",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "computercraft:blocks/computer_advanced",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "computercraft:blocks/computer_advanced",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:dynamic",
+								"name": "computercraft:computer"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:any_of",
+								"terms": [
+									{
+										"condition": "computercraft:block_named"
+									},
+									{
+										"condition": "computercraft:has_id"
+									},
+									{
+										"condition": "minecraft:inverted",
+										"term": {
+											"condition": "computercraft:player_creative"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:dynamic",
+					"id": "computercraft:computer",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:any_of",
+							"terms": [
+								{
+									"type": "computercraft:block_named"
+								},
+								{
+									"type": "computercraft:has_id"
+								},
+								{
+									"type": "minecraft:inverted",
+									"term": {
+										"type": "computercraft:player_creative"
+									},
+									"inverted": true
+								}
+							]
+						}
+					],
+					"chain": []
+				}
+			]
+		}
+	]
+}

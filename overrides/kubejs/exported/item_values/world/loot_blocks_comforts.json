@@ -1,0 +1,2131 @@
+{
+	"group": "blocks",
+	"namespace": "comforts",
+	"tables": [
+		{
+			"id": "comforts:blocks/sleeping_bag_brown",
+			"json": {
+				"type": "minecraft:block",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "comforts:sleeping_bag_brown",
+										"properties": {
+											"part": "head"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:copy_name",
+										"source": "block_entity"
+									}
+								],
+								"name": "comforts:sleeping_bag_brown"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "comforts:sleeping_bag_brown",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [
+						"minecraft:copy_name"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "comforts:blocks/hammock_pink",
+			"json": {
+				"type": "minecraft:block",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "comforts:hammock_pink",
+										"properties": {
+											"part": "head"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:copy_name",
+										"source": "block_entity"
+									}
+								],
+								"name": "comforts:hammock_pink"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "comforts:hammock_pink",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [
+						"minecraft:copy_name"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "comforts:blocks/hammock_magenta",
+			"json": {
+				"type": "minecraft:block",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "comforts:hammock_magenta",
+										"properties": {
+											"part": "head"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:copy_name",
+										"source": "block_entity"
+									}
+								],
+								"name": "comforts:hammock_magenta"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "comforts:hammock_magenta",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [
+						"minecraft:copy_name"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "comforts:blocks/hammock_brown",
+			"json": {
+				"type": "minecraft:block",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "comforts:hammock_brown",
+										"properties": {
+											"part": "head"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:copy_name",
+										"source": "block_entity"
+									}
+								],
+								"name": "comforts:hammock_brown"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "comforts:hammock_brown",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [
+						"minecraft:copy_name"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "comforts:blocks/sleeping_bag_cyan",
+			"json": {
+				"type": "minecraft:block",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "comforts:sleeping_bag_cyan",
+										"properties": {
+											"part": "head"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:copy_name",
+										"source": "block_entity"
+									}
+								],
+								"name": "comforts:sleeping_bag_cyan"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "comforts:sleeping_bag_cyan",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [
+						"minecraft:copy_name"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "comforts:blocks/sleeping_bag_black",
+			"json": {
+				"type": "minecraft:block",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "comforts:sleeping_bag_black",
+										"properties": {
+											"part": "head"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:copy_name",
+										"source": "block_entity"
+									}
+								],
+								"name": "comforts:sleeping_bag_black"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "comforts:sleeping_bag_black",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [
+						"minecraft:copy_name"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "comforts:blocks/hammock_black",
+			"json": {
+				"type": "minecraft:block",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "comforts:hammock_black",
+										"properties": {
+											"part": "head"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:copy_name",
+										"source": "block_entity"
+									}
+								],
+								"name": "comforts:hammock_black"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "comforts:hammock_black",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [
+						"minecraft:copy_name"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "comforts:blocks/hammock_red",
+			"json": {
+				"type": "minecraft:block",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "comforts:hammock_red",
+										"properties": {
+											"part": "head"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:copy_name",
+										"source": "block_entity"
+									}
+								],
+								"name": "comforts:hammock_red"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "comforts:hammock_red",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [
+						"minecraft:copy_name"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "comforts:blocks/sleeping_bag_light_blue",
+			"json": {
+				"type": "minecraft:block",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "comforts:sleeping_bag_light_blue",
+										"properties": {
+											"part": "head"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:copy_name",
+										"source": "block_entity"
+									}
+								],
+								"name": "comforts:sleeping_bag_light_blue"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "comforts:sleeping_bag_light_blue",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [
+						"minecraft:copy_name"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "comforts:blocks/sleeping_bag_red",
+			"json": {
+				"type": "minecraft:block",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "comforts:sleeping_bag_red",
+										"properties": {
+											"part": "head"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:copy_name",
+										"source": "block_entity"
+									}
+								],
+								"name": "comforts:sleeping_bag_red"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "comforts:sleeping_bag_red",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [
+						"minecraft:copy_name"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "comforts:blocks/hammock_cyan",
+			"json": {
+				"type": "minecraft:block",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "comforts:hammock_cyan",
+										"properties": {
+											"part": "head"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:copy_name",
+										"source": "block_entity"
+									}
+								],
+								"name": "comforts:hammock_cyan"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "comforts:hammock_cyan",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [
+						"minecraft:copy_name"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "comforts:blocks/hammock_yellow",
+			"json": {
+				"type": "minecraft:block",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "comforts:hammock_yellow",
+										"properties": {
+											"part": "head"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:copy_name",
+										"source": "block_entity"
+									}
+								],
+								"name": "comforts:hammock_yellow"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "comforts:hammock_yellow",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [
+						"minecraft:copy_name"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "comforts:blocks/rope_and_nail",
+			"json": {
+				"type": "minecraft:block",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "comforts:rope_and_nail"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "comforts:rope_and_nail",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "comforts:blocks/sleeping_bag_yellow",
+			"json": {
+				"type": "minecraft:block",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "comforts:sleeping_bag_yellow",
+										"properties": {
+											"part": "head"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:copy_name",
+										"source": "block_entity"
+									}
+								],
+								"name": "comforts:sleeping_bag_yellow"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "comforts:sleeping_bag_yellow",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [
+						"minecraft:copy_name"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "comforts:blocks/sleeping_bag_lime",
+			"json": {
+				"type": "minecraft:block",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "comforts:sleeping_bag_lime",
+										"properties": {
+											"part": "head"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:copy_name",
+										"source": "block_entity"
+									}
+								],
+								"name": "comforts:sleeping_bag_lime"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "comforts:sleeping_bag_lime",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [
+						"minecraft:copy_name"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "comforts:blocks/sleeping_bag_blue",
+			"json": {
+				"type": "minecraft:block",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "comforts:sleeping_bag_blue",
+										"properties": {
+											"part": "head"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:copy_name",
+										"source": "block_entity"
+									}
+								],
+								"name": "comforts:sleeping_bag_blue"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "comforts:sleeping_bag_blue",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [
+						"minecraft:copy_name"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "comforts:blocks/sleeping_bag_magenta",
+			"json": {
+				"type": "minecraft:block",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "comforts:sleeping_bag_magenta",
+										"properties": {
+											"part": "head"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:copy_name",
+										"source": "block_entity"
+									}
+								],
+								"name": "comforts:sleeping_bag_magenta"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "comforts:sleeping_bag_magenta",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [
+						"minecraft:copy_name"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "comforts:blocks/sleeping_bag_light_gray",
+			"json": {
+				"type": "minecraft:block",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "comforts:sleeping_bag_light_gray",
+										"properties": {
+											"part": "head"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:copy_name",
+										"source": "block_entity"
+									}
+								],
+								"name": "comforts:sleeping_bag_light_gray"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "comforts:sleeping_bag_light_gray",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [
+						"minecraft:copy_name"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "comforts:blocks/hammock_purple",
+			"json": {
+				"type": "minecraft:block",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "comforts:hammock_purple",
+										"properties": {
+											"part": "head"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:copy_name",
+										"source": "block_entity"
+									}
+								],
+								"name": "comforts:hammock_purple"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "comforts:hammock_purple",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [
+						"minecraft:copy_name"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "comforts:blocks/sleeping_bag_pink",
+			"json": {
+				"type": "minecraft:block",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "comforts:sleeping_bag_pink",
+										"properties": {
+											"part": "head"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:copy_name",
+										"source": "block_entity"
+									}
+								],
+								"name": "comforts:sleeping_bag_pink"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "comforts:sleeping_bag_pink",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [
+						"minecraft:copy_name"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "comforts:blocks/sleeping_bag_gray",
+			"json": {
+				"type": "minecraft:block",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "comforts:sleeping_bag_gray",
+										"properties": {
+											"part": "head"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:copy_name",
+										"source": "block_entity"
+									}
+								],
+								"name": "comforts:sleeping_bag_gray"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "comforts:sleeping_bag_gray",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [
+						"minecraft:copy_name"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "comforts:blocks/hammock_light_gray",
+			"json": {
+				"type": "minecraft:block",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "comforts:hammock_light_gray",
+										"properties": {
+											"part": "head"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:copy_name",
+										"source": "block_entity"
+									}
+								],
+								"name": "comforts:hammock_light_gray"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "comforts:hammock_light_gray",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [
+						"minecraft:copy_name"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "comforts:blocks/sleeping_bag_white",
+			"json": {
+				"type": "minecraft:block",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "comforts:sleeping_bag_white",
+										"properties": {
+											"part": "head"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:copy_name",
+										"source": "block_entity"
+									}
+								],
+								"name": "comforts:sleeping_bag_white"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "comforts:sleeping_bag_white",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [
+						"minecraft:copy_name"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "comforts:blocks/hammock_lime",
+			"json": {
+				"type": "minecraft:block",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "comforts:hammock_lime",
+										"properties": {
+											"part": "head"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:copy_name",
+										"source": "block_entity"
+									}
+								],
+								"name": "comforts:hammock_lime"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "comforts:hammock_lime",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [
+						"minecraft:copy_name"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "comforts:blocks/sleeping_bag_purple",
+			"json": {
+				"type": "minecraft:block",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "comforts:sleeping_bag_purple",
+										"properties": {
+											"part": "head"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:copy_name",
+										"source": "block_entity"
+									}
+								],
+								"name": "comforts:sleeping_bag_purple"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "comforts:sleeping_bag_purple",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [
+						"minecraft:copy_name"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "comforts:blocks/hammock_blue",
+			"json": {
+				"type": "minecraft:block",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "comforts:hammock_blue",
+										"properties": {
+											"part": "head"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:copy_name",
+										"source": "block_entity"
+									}
+								],
+								"name": "comforts:hammock_blue"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "comforts:hammock_blue",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [
+						"minecraft:copy_name"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "comforts:blocks/sleeping_bag_green",
+			"json": {
+				"type": "minecraft:block",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "comforts:sleeping_bag_green",
+										"properties": {
+											"part": "head"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:copy_name",
+										"source": "block_entity"
+									}
+								],
+								"name": "comforts:sleeping_bag_green"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "comforts:sleeping_bag_green",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [
+						"minecraft:copy_name"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "comforts:blocks/hammock_green",
+			"json": {
+				"type": "minecraft:block",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "comforts:hammock_green",
+										"properties": {
+											"part": "head"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:copy_name",
+										"source": "block_entity"
+									}
+								],
+								"name": "comforts:hammock_green"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "comforts:hammock_green",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [
+						"minecraft:copy_name"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "comforts:blocks/hammock_orange",
+			"json": {
+				"type": "minecraft:block",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "comforts:hammock_orange",
+										"properties": {
+											"part": "head"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:copy_name",
+										"source": "block_entity"
+									}
+								],
+								"name": "comforts:hammock_orange"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "comforts:hammock_orange",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [
+						"minecraft:copy_name"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "comforts:blocks/hammock_white",
+			"json": {
+				"type": "minecraft:block",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "comforts:hammock_white",
+										"properties": {
+											"part": "head"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:copy_name",
+										"source": "block_entity"
+									}
+								],
+								"name": "comforts:hammock_white"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "comforts:hammock_white",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [
+						"minecraft:copy_name"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "comforts:blocks/hammock_light_blue",
+			"json": {
+				"type": "minecraft:block",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "comforts:hammock_light_blue",
+										"properties": {
+											"part": "head"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:copy_name",
+										"source": "block_entity"
+									}
+								],
+								"name": "comforts:hammock_light_blue"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "comforts:hammock_light_blue",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [
+						"minecraft:copy_name"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "comforts:blocks/hammock_gray",
+			"json": {
+				"type": "minecraft:block",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "comforts:hammock_gray",
+										"properties": {
+											"part": "head"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:copy_name",
+										"source": "block_entity"
+									}
+								],
+								"name": "comforts:hammock_gray"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "comforts:hammock_gray",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [
+						"minecraft:copy_name"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "comforts:blocks/sleeping_bag_orange",
+			"json": {
+				"type": "minecraft:block",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "comforts:sleeping_bag_orange",
+										"properties": {
+											"part": "head"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:copy_name",
+										"source": "block_entity"
+									}
+								],
+								"name": "comforts:sleeping_bag_orange"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "comforts:sleeping_bag_orange",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [
+						"minecraft:copy_name"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				}
+			]
+		}
+	]
+}

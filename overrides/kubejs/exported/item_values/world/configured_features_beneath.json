@@ -1,0 +1,1238 @@
+{
+	"configured": {
+		"beneath:nether_spikes": {
+			"type": "beneath:nether_spikes",
+			"json": {
+				"config": {
+					"raw": "minecraft:netherrack",
+					"spike": "beneath:haunted_spike",
+					"anchor_blocks": "minecraft:base_stone_nether"
+				},
+				"type": "beneath:nether_spikes"
+			},
+			"nested": [],
+			"blocks": [
+				"minecraft:netherrack",
+				"beneath:haunted_spike"
+			],
+			"blockTags": []
+		},
+		"beneath:vein/normal_gold": {
+			"type": "tfc:cluster_vein",
+			"json": {
+				"config": {
+					"random_name": 8.7799209223045161E18,
+					"max_y": 127.0,
+					"rarity": 30.0,
+					"density": 0.5,
+					"min_y": 64.0,
+					"blocks": [
+						{
+							"with": [
+								{
+									"weight": 30.0,
+									"block": "beneath:ore/poor_nether_gold"
+								},
+								{
+									"weight": 45.0,
+									"block": "beneath:ore/normal_nether_gold"
+								},
+								{
+									"weight": 50.0,
+									"block": "beneath:ore/rich_nether_gold"
+								},
+								{
+									"weight": 57.0,
+									"block": "beneath:ore/nether_pyrite"
+								}
+							],
+							"replace": [
+								"minecraft:netherrack"
+							]
+						}
+					],
+					"size": 15.0
+				},
+				"type": "tfc:cluster_vein"
+			},
+			"nested": [],
+			"blocks": [
+				"beneath:ore/poor_nether_gold",
+				"beneath:ore/normal_nether_gold",
+				"beneath:ore/rich_nether_gold",
+				"beneath:ore/nether_pyrite",
+				"minecraft:netherrack"
+			],
+			"blockTags": []
+		},
+		"beneath:sulfur_tuft": {
+			"type": "minecraft:simple_block",
+			"json": {
+				"config": {
+					"to_place": {
+						"state": {
+							"Name": "beneath:mushroom/sulfur_tuft"
+						},
+						"type": "minecraft:simple_state_provider"
+					}
+				},
+				"type": "minecraft:simple_block"
+			},
+			"nested": [],
+			"blocks": [
+				"beneath:mushroom/sulfur_tuft"
+			],
+			"blockTags": []
+		},
+		"beneath:gleamflower_patch": {
+			"type": "minecraft:random_patch",
+			"json": {
+				"config": {
+					"tries": 16.0,
+					"xz_spread": 5.0,
+					"y_spread": 2.0,
+					"feature": "beneath:gleamflower"
+				},
+				"type": "minecraft:random_patch"
+			},
+			"nested": [],
+			"blocks": [
+				"beneath:gleamflower"
+			],
+			"blockTags": []
+		},
+		"beneath:oyster": {
+			"type": "minecraft:simple_block",
+			"json": {
+				"config": {
+					"to_place": {
+						"state": {
+							"Name": "beneath:mushroom/oyster"
+						},
+						"type": "minecraft:simple_state_provider"
+					}
+				},
+				"type": "minecraft:simple_block"
+			},
+			"nested": [],
+			"blocks": [
+				"beneath:mushroom/oyster"
+			],
+			"blockTags": []
+		},
+		"beneath:delta": {
+			"type": "minecraft:delta_feature",
+			"json": {
+				"config": {
+					"contents": {
+						"Properties": {
+							"level": "0"
+						},
+						"Name": "minecraft:lava"
+					},
+					"rim": {
+						"Name": "minecraft:magma_block"
+					},
+					"size": {
+						"type": "minecraft:uniform",
+						"value": {
+							"min_inclusive": 3.0,
+							"max_inclusive": 7.0
+						}
+					},
+					"rim_size": {
+						"type": "minecraft:uniform",
+						"value": {
+							"min_inclusive": 0.0,
+							"max_inclusive": 2.0
+						}
+					}
+				},
+				"type": "minecraft:delta_feature"
+			},
+			"nested": [],
+			"blocks": [
+				"minecraft:lava",
+				"minecraft:magma_block"
+			],
+			"blockTags": []
+		},
+		"beneath:amethyst_geode": {
+			"type": "tfc:geode",
+			"json": {
+				"config": {
+					"outer": "minecraft:blackstone",
+					"middle": "tfc:rock/raw/quartzite",
+					"inner": [
+						{
+							"data": "tfc:ore/amethyst/quartzite",
+							"weight": 1.0
+						},
+						{
+							"data": "tfc:rock/raw/quartzite",
+							"weight": 2.0
+						}
+					]
+				},
+				"type": "tfc:geode"
+			},
+			"nested": [],
+			"blocks": [
+				"minecraft:blackstone",
+				"tfc:rock/raw/quartzite",
+				"tfc:ore/amethyst/quartzite"
+			],
+			"blockTags": []
+		},
+		"beneath:oyster_patch": {
+			"type": "minecraft:random_patch",
+			"json": {
+				"config": {
+					"tries": 32.0,
+					"xz_spread": 6.0,
+					"y_spread": 1.0,
+					"feature": "beneath:oyster"
+				},
+				"type": "minecraft:random_patch"
+			},
+			"nested": [],
+			"blocks": [],
+			"blockTags": []
+		},
+		"beneath:soul_clay_disc": {
+			"type": "tfc:soil_disc",
+			"json": {
+				"config": {
+					"max_radius": 5.0,
+					"height": 3.0,
+					"states": [
+						{
+							"with": "beneath:soul_clay",
+							"replace": "minecraft:soul_sand"
+						}
+					],
+					"min_radius": 3.0
+				},
+				"type": "tfc:soil_disc"
+			},
+			"nested": [],
+			"blocks": [
+				"beneath:soul_clay",
+				"minecraft:soul_sand"
+			],
+			"blockTags": []
+		},
+		"beneath:blackstone_pebble": {
+			"type": "minecraft:simple_block",
+			"json": {
+				"config": {
+					"to_place": {
+						"state": "beneath:blackstone_pebble",
+						"property": "count",
+						"type": "tfc:random_property"
+					}
+				},
+				"type": "minecraft:simple_block"
+			},
+			"nested": [],
+			"blocks": [
+				"beneath:blackstone_pebble"
+			],
+			"blockTags": []
+		},
+		"beneath:vein/deep_gold": {
+			"type": "tfc:cluster_vein",
+			"json": {
+				"config": {
+					"random_name": -1.67504911878818125E18,
+					"max_y": 32.0,
+					"rarity": 81.0,
+					"density": 0.6,
+					"min_y": 1.0,
+					"blocks": [
+						{
+							"with": [
+								{
+									"weight": 5.0,
+									"block": "beneath:ore/poor_nether_gold"
+								},
+								{
+									"weight": 15.0,
+									"block": "beneath:ore/normal_nether_gold"
+								},
+								{
+									"weight": 18.0,
+									"block": "beneath:ore/rich_nether_gold"
+								}
+							],
+							"replace": [
+								"minecraft:netherrack"
+							]
+						}
+					],
+					"size": 17.0
+				},
+				"type": "tfc:cluster_vein"
+			},
+			"nested": [],
+			"blocks": [
+				"beneath:ore/poor_nether_gold",
+				"beneath:ore/normal_nether_gold",
+				"beneath:ore/rich_nether_gold",
+				"minecraft:netherrack"
+			],
+			"blockTags": []
+		},
+		"beneath:parasol": {
+			"type": "minecraft:simple_block",
+			"json": {
+				"config": {
+					"to_place": {
+						"state": {
+							"Name": "beneath:mushroom/parasol"
+						},
+						"type": "minecraft:simple_state_provider"
+					}
+				},
+				"type": "minecraft:simple_block"
+			},
+			"nested": [],
+			"blocks": [
+				"beneath:mushroom/parasol"
+			],
+			"blockTags": []
+		},
+		"beneath:nether_pebble": {
+			"type": "minecraft:simple_block",
+			"json": {
+				"config": {
+					"to_place": {
+						"state": "beneath:nether_pebble",
+						"property": "count",
+						"type": "tfc:random_property"
+					}
+				},
+				"type": "minecraft:simple_block"
+			},
+			"nested": [],
+			"blocks": [
+				"beneath:nether_pebble"
+			],
+			"blockTags": []
+		},
+		"beneath:gleamflower": {
+			"type": "minecraft:simple_block",
+			"json": {
+				"config": {
+					"to_place": {
+						"state": {
+							"Name": "beneath:gleamflower"
+						},
+						"type": "minecraft:simple_state_provider"
+					}
+				},
+				"type": "minecraft:simple_block"
+			},
+			"nested": [],
+			"blocks": [
+				"beneath:gleamflower"
+			],
+			"blockTags": []
+		},
+		"beneath:portobello": {
+			"type": "minecraft:simple_block",
+			"json": {
+				"config": {
+					"to_place": {
+						"state": {
+							"Name": "beneath:mushroom/portobello"
+						},
+						"type": "minecraft:simple_state_provider"
+					}
+				},
+				"type": "minecraft:simple_block"
+			},
+			"nested": [],
+			"blocks": [
+				"beneath:mushroom/portobello"
+			],
+			"blockTags": []
+		},
+		"beneath:destroying_angels_patch": {
+			"type": "minecraft:random_patch",
+			"json": {
+				"config": {
+					"tries": 32.0,
+					"xz_spread": 6.0,
+					"y_spread": 1.0,
+					"feature": "beneath:destroying_angels"
+				},
+				"type": "minecraft:random_patch"
+			},
+			"nested": [],
+			"blocks": [],
+			"blockTags": []
+		},
+		"beneath:tree/crimson": {
+			"type": "tfc:random_tree",
+			"json": {
+				"config": {
+					"structures": [
+						"beneath:crimson/1",
+						"beneath:crimson/2",
+						"beneath:crimson/3",
+						"beneath:crimson/4",
+						"beneath:crimson/5",
+						"beneath:crimson/6",
+						"beneath:crimson/7",
+						"beneath:crimson/8",
+						"beneath:crimson/9",
+						"beneath:crimson/10",
+						"beneath:crimson/11",
+						"beneath:crimson/12",
+						"beneath:crimson/13",
+						"beneath:crimson/14",
+						"beneath:crimson/15",
+						"beneath:crimson/16"
+					],
+					"trunk": {
+						"state": {
+							"Properties": {
+								"branch_direction": "none",
+								"axis": "y"
+							},
+							"Name": "beneath:wood/log/crimson"
+						},
+						"min_height": 3.0,
+						"max_height": 5.0,
+						"wide": false
+					},
+					"placement": {
+						"width": 1.0,
+						"height": 7.0
+					}
+				},
+				"type": "tfc:random_tree"
+			},
+			"nested": [],
+			"blocks": [
+				"beneath:wood/log/crimson"
+			],
+			"blockTags": []
+		},
+		"beneath:nether_pebble_patch": {
+			"type": "minecraft:random_patch",
+			"json": {
+				"config": {
+					"tries": 16.0,
+					"xz_spread": 10.0,
+					"y_spread": 1.0,
+					"feature": "beneath:nether_pebble"
+				},
+				"type": "minecraft:random_patch"
+			},
+			"nested": [],
+			"blocks": [
+				"beneath:nether_pebble"
+			],
+			"blockTags": []
+		},
+		"beneath:glowstone_spikes": {
+			"type": "beneath:large_nether_spikes",
+			"json": {
+				"config": {
+					"raw": "minecraft:glowstone",
+					"spike": "beneath:glowstone_spike",
+					"anchor_blocks": "minecraft:base_stone_nether"
+				},
+				"type": "beneath:large_nether_spikes"
+			},
+			"nested": [],
+			"blocks": [
+				"minecraft:glowstone",
+				"beneath:glowstone_spike"
+			],
+			"blockTags": []
+		},
+		"beneath:sulfur_patch": {
+			"type": "minecraft:random_patch",
+			"json": {
+				"config": {
+					"tries": 32.0,
+					"xz_spread": 5.0,
+					"y_spread": 1.0,
+					"feature": "beneath:sulfur"
+				},
+				"type": "minecraft:random_patch"
+			},
+			"nested": [],
+			"blocks": [
+				"beneath:sulfur"
+			],
+			"blockTags": []
+		},
+		"beneath:burpflower_patch": {
+			"type": "minecraft:random_patch",
+			"json": {
+				"config": {
+					"tries": 16.0,
+					"xz_spread": 5.0,
+					"y_spread": 1.0,
+					"feature": "beneath:burpflower"
+				},
+				"type": "minecraft:random_patch"
+			},
+			"nested": [],
+			"blocks": [
+				"beneath:burpflower"
+			],
+			"blockTags": []
+		},
+		"beneath:death_cap": {
+			"type": "minecraft:simple_block",
+			"json": {
+				"config": {
+					"to_place": {
+						"state": {
+							"Name": "beneath:mushroom/death_cap"
+						},
+						"type": "minecraft:simple_state_provider"
+					}
+				},
+				"type": "minecraft:simple_block"
+			},
+			"nested": [],
+			"blocks": [
+				"beneath:mushroom/death_cap"
+			],
+			"blockTags": []
+		},
+		"beneath:sulfur_tuft_patch": {
+			"type": "minecraft:random_patch",
+			"json": {
+				"config": {
+					"tries": 32.0,
+					"xz_spread": 6.0,
+					"y_spread": 1.0,
+					"feature": "beneath:sulfur_tuft"
+				},
+				"type": "minecraft:random_patch"
+			},
+			"nested": [],
+			"blocks": [],
+			"blockTags": []
+		},
+		"beneath:magma_basalt": {
+			"type": "minecraft:ore",
+			"json": {
+				"config": {
+					"targets": [
+						{
+							"target": {
+								"block": "minecraft:netherrack",
+								"predicate_type": "minecraft:block_match"
+							},
+							"state": {
+								"Name": "tfc:rock/magma/basalt"
+							}
+						}
+					],
+					"size": 33.0,
+					"discard_chance_on_air_exposure": 0.0
+				},
+				"type": "minecraft:ore"
+			},
+			"nested": [],
+			"blocks": [
+				"minecraft:netherrack",
+				"tfc:rock/magma/basalt"
+			],
+			"blockTags": []
+		},
+		"beneath:vein/cursecoal": {
+			"type": "tfc:disc_vein",
+			"json": {
+				"config": {
+					"random_name": -5.374322226598058E18,
+					"max_y": 127.0,
+					"rarity": 45.0,
+					"density": 0.88,
+					"min_y": 80.0,
+					"blocks": [
+						{
+							"with": [
+								{
+									"block": "beneath:ore/nether_cursecoal"
+								}
+							],
+							"replace": [
+								"minecraft:netherrack"
+							]
+						}
+					],
+					"size": 13.0,
+					"height": 4.0
+				},
+				"type": "tfc:disc_vein"
+			},
+			"nested": [],
+			"blocks": [
+				"beneath:ore/nether_cursecoal",
+				"minecraft:netherrack"
+			],
+			"blockTags": []
+		},
+		"beneath:vein/crackrack_pipe": {
+			"type": "tfc:pipe_vein",
+			"json": {
+				"config": {
+					"max_skew": 20.0,
+					"min_slant": 2.0,
+					"max_slant": 5.0,
+					"sign": 0.0,
+					"random_name": 6.2182695908031475E17,
+					"max_y": 200.0,
+					"rarity": 450.0,
+					"density": 0.9,
+					"min_y": 1.0,
+					"blocks": [
+						{
+							"with": [
+								{
+									"block": "tfg:rock/hardened_crackrack"
+								}
+							],
+							"replace": [
+								"tfc:rock/hardened/gneiss",
+								"tfc:rock/hardened/marble",
+								"tfg:rock/hardened_tuff",
+								"tfc:rock/hardened/basalt",
+								"tfg:rock/hardened_blackstone",
+								"tfc:rock/hardened/phyllite",
+								"tfg:rock/hardened_deepslate",
+								"tfc:rock/hardened/slate",
+								"tfc:rock/hardened/diorite",
+								"tfc:rock/hardened/granite",
+								"tfc:rock/hardened/schist",
+								"tfg:rock/hardened_dripstone",
+								"tfc:rock/hardened/gabbro"
+							]
+						},
+						{
+							"with": [
+								{
+									"block": "beneath:crackrack"
+								}
+							],
+							"replace": [
+								"minecraft:blackstone",
+								"tfc:rock/raw/gneiss",
+								"tfc:rock/raw/phyllite",
+								"tfc:rock/raw/slate",
+								"tfc:rock/raw/diorite",
+								"tfg:rock/glauberite",
+								"tfg:rock/aragonite",
+								"tfc:rock/raw/gabbro",
+								"tfc:rock/raw/schist",
+								"minecraft:dripstone_block",
+								"minecraft:tuff",
+								"minecraft:deepslate",
+								"tfc:rock/raw/basalt",
+								"tfc:rock/raw/marble",
+								"minecraft:calcite",
+								"tfc:rock/raw/granite"
+							]
+						}
+					],
+					"height": 9.0,
+					"radius": 9.0,
+					"min_skew": 7.0
+				},
+				"type": "tfc:pipe_vein"
+			},
+			"nested": [],
+			"blocks": [
+				"tfg:rock/hardened_crackrack",
+				"tfc:rock/hardened/gneiss",
+				"tfc:rock/hardened/marble",
+				"tfg:rock/hardened_tuff",
+				"tfc:rock/hardened/basalt",
+				"tfg:rock/hardened_blackstone",
+				"tfc:rock/hardened/phyllite",
+				"tfg:rock/hardened_deepslate",
+				"tfc:rock/hardened/slate",
+				"tfc:rock/hardened/diorite",
+				"tfc:rock/hardened/granite",
+				"tfc:rock/hardened/schist",
+				"tfg:rock/hardened_dripstone",
+				"tfc:rock/hardened/gabbro",
+				"beneath:crackrack",
+				"minecraft:blackstone",
+				"tfc:rock/raw/gneiss",
+				"tfc:rock/raw/phyllite",
+				"tfc:rock/raw/slate",
+				"tfc:rock/raw/diorite",
+				"tfg:rock/glauberite",
+				"tfg:rock/aragonite",
+				"tfc:rock/raw/gabbro",
+				"tfc:rock/raw/schist",
+				"minecraft:dripstone_block",
+				"minecraft:tuff",
+				"minecraft:deepslate",
+				"tfc:rock/raw/basalt",
+				"tfc:rock/raw/marble",
+				"minecraft:calcite",
+				"tfc:rock/raw/granite"
+			],
+			"blockTags": []
+		},
+		"beneath:burpflower": {
+			"type": "minecraft:simple_block",
+			"json": {
+				"config": {
+					"to_place": {
+						"state": {
+							"Properties": {
+								"mature": "false",
+								"facing": "north"
+							},
+							"Name": "beneath:burpflower"
+						},
+						"type": "minecraft:simple_state_provider"
+					}
+				},
+				"type": "minecraft:simple_block"
+			},
+			"nested": [],
+			"blocks": [
+				"beneath:burpflower"
+			],
+			"blockTags": []
+		},
+		"beneath:vein/slime": {
+			"type": "tfc:cluster_vein",
+			"json": {
+				"config": {
+					"random_name": -6.2673168389437368E18,
+					"max_y": 120.0,
+					"rarity": 55.0,
+					"density": 0.7,
+					"min_y": 35.0,
+					"blocks": [
+						{
+							"with": [
+								{
+									"weight": 50.0,
+									"block": "beneath:ore/slimed_netherrack"
+								},
+								{
+									"weight": 52.0,
+									"block": "minecraft:glowstone"
+								}
+							],
+							"replace": [
+								"minecraft:netherrack"
+							]
+						}
+					],
+					"size": 24.0
+				},
+				"type": "tfc:cluster_vein"
+			},
+			"nested": [],
+			"blocks": [
+				"beneath:ore/slimed_netherrack",
+				"minecraft:glowstone",
+				"minecraft:netherrack"
+			],
+			"blockTags": []
+		},
+		"beneath:chantrelle": {
+			"type": "minecraft:simple_block",
+			"json": {
+				"config": {
+					"to_place": {
+						"state": {
+							"Name": "beneath:mushroom/chantrelle"
+						},
+						"type": "minecraft:simple_state_provider"
+					}
+				},
+				"type": "minecraft:simple_block"
+			},
+			"nested": [],
+			"blocks": [
+				"beneath:mushroom/chantrelle"
+			],
+			"blockTags": []
+		},
+		"beneath:destroying_angels": {
+			"type": "minecraft:simple_block",
+			"json": {
+				"config": {
+					"to_place": {
+						"state": {
+							"Name": "beneath:mushroom/destroying_angels"
+						},
+						"type": "minecraft:simple_state_provider"
+					}
+				},
+				"type": "minecraft:simple_block"
+			},
+			"nested": [],
+			"blocks": [
+				"beneath:mushroom/destroying_angels"
+			],
+			"blockTags": []
+		},
+		"beneath:fools_funnel_patch": {
+			"type": "minecraft:random_patch",
+			"json": {
+				"config": {
+					"tries": 32.0,
+					"xz_spread": 6.0,
+					"y_spread": 1.0,
+					"feature": "beneath:fools_funnel"
+				},
+				"type": "minecraft:random_patch"
+			},
+			"nested": [],
+			"blocks": [],
+			"blockTags": []
+		},
+		"beneath:death_cap_patch": {
+			"type": "minecraft:random_patch",
+			"json": {
+				"config": {
+					"tries": 32.0,
+					"xz_spread": 6.0,
+					"y_spread": 1.0,
+					"feature": "beneath:death_cap"
+				},
+				"type": "minecraft:random_patch"
+			},
+			"nested": [],
+			"blocks": [],
+			"blockTags": []
+		},
+		"beneath:button_patch": {
+			"type": "minecraft:random_patch",
+			"json": {
+				"config": {
+					"tries": 32.0,
+					"xz_spread": 6.0,
+					"y_spread": 1.0,
+					"feature": "beneath:button"
+				},
+				"type": "minecraft:random_patch"
+			},
+			"nested": [],
+			"blocks": [],
+			"blockTags": []
+		},
+		"beneath:button": {
+			"type": "minecraft:simple_block",
+			"json": {
+				"config": {
+					"to_place": {
+						"state": {
+							"Name": "beneath:mushroom/button"
+						},
+						"type": "minecraft:simple_state_provider"
+					}
+				},
+				"type": "minecraft:simple_block"
+			},
+			"nested": [],
+			"blocks": [
+				"beneath:mushroom/button"
+			],
+			"blockTags": []
+		},
+		"beneath:magma_andesite": {
+			"type": "minecraft:ore",
+			"json": {
+				"config": {
+					"targets": [
+						{
+							"target": {
+								"block": "minecraft:netherrack",
+								"predicate_type": "minecraft:block_match"
+							},
+							"state": {
+								"Name": "tfc:rock/magma/andesite"
+							}
+						}
+					],
+					"size": 33.0,
+					"discard_chance_on_air_exposure": 0.0
+				},
+				"type": "minecraft:ore"
+			},
+			"nested": [],
+			"blocks": [
+				"minecraft:netherrack",
+				"tfc:rock/magma/andesite"
+			],
+			"blockTags": []
+		},
+		"beneath:magma_dacite": {
+			"type": "minecraft:ore",
+			"json": {
+				"config": {
+					"targets": [
+						{
+							"target": {
+								"block": "minecraft:netherrack",
+								"predicate_type": "minecraft:block_match"
+							},
+							"state": {
+								"Name": "tfc:rock/magma/dacite"
+							}
+						}
+					],
+					"size": 33.0,
+					"discard_chance_on_air_exposure": 0.0
+				},
+				"type": "minecraft:ore"
+			},
+			"nested": [],
+			"blocks": [
+				"minecraft:netherrack",
+				"tfc:rock/magma/dacite"
+			],
+			"blockTags": []
+		},
+		"beneath:chantrelle_patch": {
+			"type": "minecraft:random_patch",
+			"json": {
+				"config": {
+					"tries": 32.0,
+					"xz_spread": 6.0,
+					"y_spread": 1.0,
+					"feature": "beneath:chantrelle"
+				},
+				"type": "minecraft:random_patch"
+			},
+			"nested": [],
+			"blocks": [],
+			"blockTags": []
+		},
+		"beneath:parasol_patch": {
+			"type": "minecraft:random_patch",
+			"json": {
+				"config": {
+					"tries": 32.0,
+					"xz_spread": 6.0,
+					"y_spread": 1.0,
+					"feature": "beneath:parasol"
+				},
+				"type": "minecraft:random_patch"
+			},
+			"nested": [],
+			"blocks": [],
+			"blockTags": []
+		},
+		"beneath:vein/quartz": {
+			"type": "tfc:cluster_vein",
+			"json": {
+				"config": {
+					"random_name": 5.671642422398847E18,
+					"max_y": 127.0,
+					"rarity": 30.0,
+					"density": 0.6,
+					"min_y": 1.0,
+					"blocks": [
+						{
+							"with": [
+								{
+									"block": "minecraft:nether_quartz_ore"
+								}
+							],
+							"replace": [
+								"minecraft:netherrack"
+							]
+						}
+					],
+					"size": 15.0
+				},
+				"type": "tfc:cluster_vein"
+			},
+			"nested": [],
+			"blocks": [
+				"minecraft:nether_quartz_ore",
+				"minecraft:netherrack"
+			],
+			"blockTags": []
+		},
+		"beneath:portobello_patch": {
+			"type": "minecraft:random_patch",
+			"json": {
+				"config": {
+					"tries": 32.0,
+					"xz_spread": 6.0,
+					"y_spread": 1.0,
+					"feature": "beneath:portobello"
+				},
+				"type": "minecraft:random_patch"
+			},
+			"nested": [],
+			"blocks": [],
+			"blockTags": []
+		},
+		"beneath:blackstone_boulders": {
+			"type": "beneath:nether_boulders",
+			"json": {
+				"config": {
+					"blocks": [
+						{
+							"weight": 50.0,
+							"block": "minecraft:blackstone"
+						},
+						{
+							"weight": 60.0,
+							"block": "minecraft:basalt"
+						},
+						{
+							"weight": 61.0,
+							"block": "minecraft:gilded_blackstone"
+						}
+					]
+				},
+				"type": "beneath:nether_boulders"
+			},
+			"nested": [],
+			"blocks": [
+				"minecraft:blackstone",
+				"minecraft:basalt",
+				"minecraft:gilded_blackstone"
+			],
+			"blockTags": []
+		},
+		"beneath:shittake": {
+			"type": "minecraft:simple_block",
+			"json": {
+				"config": {
+					"to_place": {
+						"state": {
+							"Name": "beneath:mushroom/shittake"
+						},
+						"type": "minecraft:simple_state_provider"
+					}
+				},
+				"type": "minecraft:simple_block"
+			},
+			"nested": [],
+			"blocks": [
+				"beneath:mushroom/shittake"
+			],
+			"blockTags": []
+		},
+		"beneath:magma_rhyolite": {
+			"type": "minecraft:ore",
+			"json": {
+				"config": {
+					"targets": [
+						{
+							"target": {
+								"block": "minecraft:netherrack",
+								"predicate_type": "minecraft:block_match"
+							},
+							"state": {
+								"Name": "tfc:rock/magma/rhyolite"
+							}
+						}
+					],
+					"size": 33.0,
+					"discard_chance_on_air_exposure": 0.0
+				},
+				"type": "minecraft:ore"
+			},
+			"nested": [],
+			"blocks": [
+				"minecraft:netherrack",
+				"tfc:rock/magma/rhyolite"
+			],
+			"blockTags": []
+		},
+		"beneath:fools_funnel": {
+			"type": "minecraft:simple_block",
+			"json": {
+				"config": {
+					"to_place": {
+						"state": {
+							"Name": "beneath:mushroom/fools_funnel"
+						},
+						"type": "minecraft:simple_state_provider"
+					}
+				},
+				"type": "minecraft:simple_block"
+			},
+			"nested": [],
+			"blocks": [
+				"beneath:mushroom/fools_funnel"
+			],
+			"blockTags": []
+		},
+		"beneath:shittake_patch": {
+			"type": "minecraft:random_patch",
+			"json": {
+				"config": {
+					"tries": 32.0,
+					"xz_spread": 6.0,
+					"y_spread": 1.0,
+					"feature": "beneath:shittake"
+				},
+				"type": "minecraft:random_patch"
+			},
+			"nested": [],
+			"blocks": [],
+			"blockTags": []
+		},
+		"beneath:tree/warped": {
+			"type": "tfc:random_tree",
+			"json": {
+				"config": {
+					"structures": [
+						"beneath:warped/1",
+						"beneath:warped/2",
+						"beneath:warped/3",
+						"beneath:warped/4",
+						"beneath:warped/5",
+						"beneath:warped/6",
+						"beneath:warped/7",
+						"beneath:warped/8",
+						"beneath:warped/9",
+						"beneath:warped/10",
+						"beneath:warped/11",
+						"beneath:warped/12",
+						"beneath:warped/13",
+						"beneath:warped/14",
+						"beneath:warped/15",
+						"beneath:warped/16",
+						"beneath:warped/17"
+					],
+					"trunk": {
+						"state": {
+							"Properties": {
+								"branch_direction": "none",
+								"axis": "y"
+							},
+							"Name": "beneath:wood/log/warped"
+						},
+						"min_height": 3.0,
+						"max_height": 5.0,
+						"wide": false
+					},
+					"placement": {
+						"width": 1.0,
+						"height": 5.0
+					}
+				},
+				"type": "tfc:random_tree"
+			},
+			"nested": [],
+			"blocks": [
+				"beneath:wood/log/warped"
+			],
+			"blockTags": []
+		},
+		"beneath:sulfur": {
+			"type": "minecraft:simple_block",
+			"json": {
+				"config": {
+					"to_place": {
+						"state": {
+							"Name": "beneath:sulfur"
+						},
+						"type": "minecraft:simple_state_provider"
+					}
+				},
+				"type": "minecraft:simple_block"
+			},
+			"nested": [],
+			"blocks": [
+				"beneath:sulfur"
+			],
+			"blockTags": []
+		},
+		"beneath:vein/sylvite": {
+			"type": "tfc:cluster_vein",
+			"json": {
+				"config": {
+					"random_name": 2.12148889148134093E18,
+					"max_y": 127.0,
+					"rarity": 35.0,
+					"density": 0.6,
+					"min_y": 1.0,
+					"blocks": [
+						{
+							"with": [
+								{
+									"block": "beneath:ore/blackstone_sylvite"
+								}
+							],
+							"replace": [
+								"minecraft:blackstone"
+							]
+						}
+					],
+					"size": 17.0
+				},
+				"type": "tfc:cluster_vein"
+			},
+			"nested": [],
+			"blocks": [
+				"beneath:ore/blackstone_sylvite",
+				"minecraft:blackstone"
+			],
+			"blockTags": []
+		},
+		"beneath:cobble_boulders": {
+			"type": "beneath:nether_boulders",
+			"json": {
+				"config": {
+					"blocks": [
+						{
+							"weight": 10.0,
+							"block": "minecraft:netherrack"
+						},
+						{
+							"weight": 30.0,
+							"block": "beneath:cobblerack"
+						},
+						{
+							"weight": 40.0,
+							"block": "beneath:fungal_cobblerack"
+						}
+					]
+				},
+				"type": "beneath:nether_boulders"
+			},
+			"nested": [],
+			"blocks": [
+				"minecraft:netherrack",
+				"beneath:cobblerack",
+				"beneath:fungal_cobblerack"
+			],
+			"blockTags": []
+		},
+		"beneath:blackstone_pebble_patch": {
+			"type": "minecraft:random_patch",
+			"json": {
+				"config": {
+					"tries": 16.0,
+					"xz_spread": 10.0,
+					"y_spread": 1.0,
+					"feature": "beneath:blackstone_pebble"
+				},
+				"type": "minecraft:random_patch"
+			},
+			"nested": [],
+			"blocks": [
+				"beneath:blackstone_pebble"
+			],
+			"blockTags": []
+		}
+	}
+}

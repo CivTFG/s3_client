@@ -1,0 +1,2749 @@
+{
+	"configured": {
+		"realmrpg_skeletons:warped_skeletons": {
+			"type": "realmrpg_skeletons:warped_skeletons",
+			"json": {
+				"config": {
+					"tries": 1.0,
+					"xz_spread": 7.0,
+					"y_spread": 3.0,
+					"feature": {
+						"feature": {
+							"config": {
+								"to_place": {
+									"entries": [
+										{
+											"data": {
+												"Properties": {
+													"waterlogged": "false",
+													"facing": "north"
+												},
+												"Name": "realmrpg_skeletons:fungus_gatherer_skeleton"
+											},
+											"weight": 1.0
+										},
+										{
+											"data": {
+												"Properties": {
+													"waterlogged": "false",
+													"facing": "north"
+												},
+												"Name": "realmrpg_skeletons:fungus_gatherer_skeleton"
+											},
+											"weight": 1.0
+										}
+									],
+									"type": "minecraft:weighted_state_provider"
+								}
+							},
+							"type": "minecraft:simple_block"
+						},
+						"placement": [
+							{
+								"predicate": {
+									"predicates": [
+										{
+											"blocks": "minecraft:air",
+											"type": "minecraft:matching_blocks"
+										},
+										{
+											"offset": [
+												0.0,
+												-1.0,
+												0.0
+											],
+											"blocks": "#realmrpg_skeletons:warped_skeletons_can_generate_on",
+											"type": "minecraft:matching_blocks"
+										},
+										{
+											"predicate": {
+												"offset": [
+													0.0,
+													-1.0,
+													0.0
+												],
+												"blocks": "#realmrpg_skeletons:skeletons_cannot_generate_on",
+												"type": "minecraft:matching_blocks"
+											},
+											"type": "minecraft:not"
+										}
+									],
+									"type": "minecraft:all_of"
+								},
+								"type": "minecraft:block_predicate_filter"
+							}
+						]
+					}
+				},
+				"type": "realmrpg_skeletons:warped_skeletons"
+			},
+			"nested": [],
+			"blocks": [
+				"realmrpg_skeletons:fungus_gatherer_skeleton"
+			],
+			"blockTags": [
+				"realmrpg_skeletons:warped_skeletons_can_generate_on",
+				"realmrpg_skeletons:skeletons_cannot_generate_on"
+			]
+		},
+		"realmrpg_skeletons:lava_overworld_skeletons": {
+			"type": "realmrpg_skeletons:lava_overworld_skeletons",
+			"json": {
+				"config": {
+					"tries": 1.0,
+					"xz_spread": 7.0,
+					"y_spread": 3.0,
+					"feature": {
+						"feature": {
+							"config": {
+								"to_place": {
+									"state": {
+										"Properties": {
+											"waterlogged": "false",
+											"facing": "north"
+										},
+										"Name": "realmrpg_skeletons:melted_skeleton"
+									},
+									"type": "minecraft:simple_state_provider"
+								}
+							},
+							"type": "minecraft:simple_block"
+						},
+						"placement": [
+							{
+								"predicate": {
+									"predicates": [
+										{
+											"blocks": "minecraft:air",
+											"type": "minecraft:matching_blocks"
+										},
+										{
+											"offset": [
+												0.0,
+												-1.0,
+												0.0
+											],
+											"blocks": "#realmrpg_skeletons:lava_skeletons_can_generate_on",
+											"type": "minecraft:matching_blocks"
+										},
+										{
+											"predicate": {
+												"offset": [
+													0.0,
+													-1.0,
+													0.0
+												],
+												"blocks": "#realmrpg_skeletons:skeletons_cannot_generate_on",
+												"type": "minecraft:matching_blocks"
+											},
+											"type": "minecraft:not"
+										}
+									],
+									"type": "minecraft:all_of"
+								},
+								"type": "minecraft:block_predicate_filter"
+							}
+						]
+					}
+				},
+				"type": "realmrpg_skeletons:lava_overworld_skeletons"
+			},
+			"nested": [],
+			"blocks": [
+				"realmrpg_skeletons:melted_skeleton"
+			],
+			"blockTags": [
+				"realmrpg_skeletons:lava_skeletons_can_generate_on",
+				"realmrpg_skeletons:skeletons_cannot_generate_on"
+			]
+		},
+		"realmrpg_skeletons:end_skeletons": {
+			"type": "realmrpg_skeletons:end_skeletons",
+			"json": {
+				"config": {
+					"tries": 1.0,
+					"xz_spread": 7.0,
+					"y_spread": 3.0,
+					"feature": {
+						"feature": {
+							"config": {
+								"to_place": {
+									"entries": [
+										{
+											"data": {
+												"Properties": {
+													"waterlogged": "false",
+													"facing": "north"
+												},
+												"Name": "realmrpg_skeletons:corrupted_skeleton"
+											},
+											"weight": 10.0
+										},
+										{
+											"data": {
+												"Properties": {
+													"waterlogged": "false",
+													"facing": "north"
+												},
+												"Name": "realmrpg_skeletons:chorus_skeleton"
+											},
+											"weight": 5.0
+										},
+										{
+											"data": {
+												"Properties": {
+													"waterlogged": "false",
+													"facing": "north"
+												},
+												"Name": "realmrpg_skeletons:crystal_skeleton"
+											},
+											"weight": 1.0
+										},
+										{
+											"data": {
+												"Properties": {
+													"waterlogged": "false",
+													"facing": "north"
+												},
+												"Name": "realmrpg_skeletons:lucky_skeleton"
+											},
+											"weight": 2.0
+										}
+									],
+									"type": "minecraft:weighted_state_provider"
+								}
+							},
+							"type": "minecraft:simple_block"
+						},
+						"placement": [
+							{
+								"predicate": {
+									"predicates": [
+										{
+											"blocks": "minecraft:air",
+											"type": "minecraft:matching_blocks"
+										},
+										{
+											"offset": [
+												0.0,
+												-1.0,
+												0.0
+											],
+											"direction": "up",
+											"type": "minecraft:has_sturdy_face"
+										},
+										{
+											"predicate": {
+												"offset": [
+													0.0,
+													-1.0,
+													0.0
+												],
+												"blocks": "#realmrpg_skeletons:skeletons_cannot_generate_on",
+												"type": "minecraft:matching_blocks"
+											},
+											"type": "minecraft:not"
+										}
+									],
+									"type": "minecraft:all_of"
+								},
+								"type": "minecraft:block_predicate_filter"
+							}
+						]
+					}
+				},
+				"type": "realmrpg_skeletons:end_skeletons"
+			},
+			"nested": [],
+			"blocks": [
+				"realmrpg_skeletons:corrupted_skeleton",
+				"realmrpg_skeletons:chorus_skeleton",
+				"realmrpg_skeletons:crystal_skeleton",
+				"realmrpg_skeletons:lucky_skeleton"
+			],
+			"blockTags": [
+				"realmrpg_skeletons:skeletons_cannot_generate_on"
+			]
+		},
+		"realmrpg_skeletons:webbed_skeletons": {
+			"type": "realmrpg_skeletons:webbed_skeletons",
+			"json": {
+				"config": {
+					"tries": 1.0,
+					"xz_spread": 7.0,
+					"y_spread": 3.0,
+					"feature": {
+						"feature": {
+							"config": {
+								"to_place": {
+									"entries": [
+										{
+											"data": {
+												"Properties": {
+													"waterlogged": "false",
+													"facing": "north"
+												},
+												"Name": "realmrpg_skeletons:webbed_skeleton"
+											},
+											"weight": 1.0
+										},
+										{
+											"data": {
+												"Properties": {
+													"waterlogged": "false",
+													"facing": "north"
+												},
+												"Name": "realmrpg_skeletons:spider_victim_skeleton"
+											},
+											"weight": 1.0
+										}
+									],
+									"type": "minecraft:weighted_state_provider"
+								}
+							},
+							"type": "minecraft:simple_block"
+						},
+						"placement": [
+							{
+								"predicate": {
+									"predicates": [
+										{
+											"offset": [
+												0.0,
+												-1.0,
+												0.0
+											],
+											"blocks": "#realmrpg_skeletons:webbed_skeletons_can_replace",
+											"type": "minecraft:matching_blocks"
+										},
+										{
+											"offset": [
+												0.0,
+												-1.0,
+												0.0
+											],
+											"direction": "up",
+											"type": "minecraft:has_sturdy_face"
+										},
+										{
+											"predicate": {
+												"offset": [
+													0.0,
+													-1.0,
+													0.0
+												],
+												"blocks": "#realmrpg_skeletons:skeletons_cannot_generate_on",
+												"type": "minecraft:matching_blocks"
+											},
+											"type": "minecraft:not"
+										}
+									],
+									"type": "minecraft:all_of"
+								},
+								"type": "minecraft:block_predicate_filter"
+							}
+						]
+					}
+				},
+				"type": "realmrpg_skeletons:webbed_skeletons"
+			},
+			"nested": [],
+			"blocks": [
+				"realmrpg_skeletons:webbed_skeleton",
+				"realmrpg_skeletons:spider_victim_skeleton"
+			],
+			"blockTags": [
+				"realmrpg_skeletons:webbed_skeletons_can_replace",
+				"realmrpg_skeletons:skeletons_cannot_generate_on"
+			]
+		},
+		"realmrpg_skeletons:monument_skeletons": {
+			"type": "realmrpg_skeletons:monument_skeletons",
+			"json": {
+				"config": {
+					"tries": 10.0,
+					"xz_spread": 7.0,
+					"y_spread": 3.0,
+					"feature": {
+						"feature": {
+							"config": {
+								"to_place": {
+									"entries": [
+										{
+											"data": {
+												"Properties": {
+													"waterlogged": "true",
+													"facing": "north"
+												},
+												"Name": "realmrpg_skeletons:swimmer_skeleton"
+											},
+											"weight": 1.0
+										},
+										{
+											"data": {
+												"Properties": {
+													"waterlogged": "true",
+													"facing": "north"
+												},
+												"Name": "realmrpg_skeletons:neutralized_skeleton"
+											},
+											"weight": 1.0
+										}
+									],
+									"type": "minecraft:weighted_state_provider"
+								}
+							},
+							"type": "minecraft:simple_block"
+						},
+						"placement": [
+							{
+								"predicate": {
+									"predicates": [
+										{
+											"fluids": "minecraft:water",
+											"type": "minecraft:matching_fluids"
+										},
+										{
+											"offset": [
+												0.0,
+												-1.0,
+												0.0
+											],
+											"blocks": "#realmrpg_skeletons:monument_skeletons_can_generate_on",
+											"type": "minecraft:matching_blocks"
+										},
+										{
+											"predicate": {
+												"offset": [
+													0.0,
+													-1.0,
+													0.0
+												],
+												"blocks": "#realmrpg_skeletons:skeletons_cannot_generate_on",
+												"type": "minecraft:matching_blocks"
+											},
+											"type": "minecraft:not"
+										}
+									],
+									"type": "minecraft:all_of"
+								},
+								"type": "minecraft:block_predicate_filter"
+							}
+						]
+					}
+				},
+				"type": "realmrpg_skeletons:monument_skeletons"
+			},
+			"nested": [],
+			"blocks": [
+				"realmrpg_skeletons:swimmer_skeleton",
+				"realmrpg_skeletons:neutralized_skeleton",
+				"minecraft:water"
+			],
+			"blockTags": [
+				"realmrpg_skeletons:monument_skeletons_can_generate_on",
+				"realmrpg_skeletons:skeletons_cannot_generate_on"
+			]
+		},
+		"realmrpg_skeletons:sand_skeletons": {
+			"type": "realmrpg_skeletons:sand_skeletons",
+			"json": {
+				"config": {
+					"tries": 1.0,
+					"xz_spread": 7.0,
+					"y_spread": 3.0,
+					"feature": {
+						"feature": {
+							"config": {
+								"to_place": {
+									"entries": [
+										{
+											"data": {
+												"Properties": {
+													"waterlogged": "false",
+													"facing": "north"
+												},
+												"Name": "realmrpg_skeletons:quicksand_skeleton"
+											},
+											"weight": 1.0
+										}
+									],
+									"type": "minecraft:weighted_state_provider"
+								}
+							},
+							"type": "minecraft:simple_block"
+						},
+						"placement": [
+							{
+								"predicate": {
+									"predicates": [
+										{
+											"blocks": "minecraft:air",
+											"type": "minecraft:matching_blocks"
+										},
+										{
+											"offset": [
+												0.0,
+												-1.0,
+												0.0
+											],
+											"blocks": "#realmrpg_skeletons:sand_skeletons_can_generate_on",
+											"type": "minecraft:matching_blocks"
+										},
+										{
+											"predicate": {
+												"offset": [
+													0.0,
+													-1.0,
+													0.0
+												],
+												"blocks": "#realmrpg_skeletons:skeletons_cannot_generate_on",
+												"type": "minecraft:matching_blocks"
+											},
+											"type": "minecraft:not"
+										}
+									],
+									"type": "minecraft:all_of"
+								},
+								"type": "minecraft:block_predicate_filter"
+							}
+						]
+					}
+				},
+				"type": "realmrpg_skeletons:sand_skeletons"
+			},
+			"nested": [],
+			"blocks": [
+				"realmrpg_skeletons:quicksand_skeleton"
+			],
+			"blockTags": [
+				"realmrpg_skeletons:sand_skeletons_can_generate_on",
+				"realmrpg_skeletons:skeletons_cannot_generate_on"
+			]
+		},
+		"realmrpg_skeletons:surface_skeletons": {
+			"type": "realmrpg_skeletons:surface_skeletons",
+			"json": {
+				"config": {
+					"tries": 1.0,
+					"xz_spread": 7.0,
+					"y_spread": 3.0,
+					"feature": {
+						"feature": {
+							"config": {
+								"to_place": {
+									"entries": [
+										{
+											"data": {
+												"Properties": {
+													"waterlogged": "false",
+													"facing": "north"
+												},
+												"Name": "realmrpg_skeletons:rookie_skeleton"
+											},
+											"weight": 1.0
+										},
+										{
+											"data": {
+												"Properties": {
+													"waterlogged": "false",
+													"facing": "north"
+												},
+												"Name": "realmrpg_skeletons:rookie_skeleton"
+											},
+											"weight": 1.0
+										}
+									],
+									"type": "minecraft:weighted_state_provider"
+								}
+							},
+							"type": "minecraft:simple_block"
+						},
+						"placement": [
+							{
+								"predicate": {
+									"predicates": [
+										{
+											"blocks": "minecraft:air",
+											"type": "minecraft:matching_blocks"
+										},
+										{
+											"offset": [
+												0.0,
+												-1.0,
+												0.0
+											],
+											"blocks": "#realmrpg_skeletons:surface_skeletons_can_generate_on",
+											"type": "minecraft:matching_blocks"
+										},
+										{
+											"predicate": {
+												"offset": [
+													0.0,
+													-1.0,
+													0.0
+												],
+												"blocks": "#realmrpg_skeletons:skeletons_cannot_generate_on",
+												"type": "minecraft:matching_blocks"
+											},
+											"type": "minecraft:not"
+										}
+									],
+									"type": "minecraft:all_of"
+								},
+								"type": "minecraft:block_predicate_filter"
+							}
+						]
+					}
+				},
+				"type": "realmrpg_skeletons:surface_skeletons"
+			},
+			"nested": [],
+			"blocks": [
+				"realmrpg_skeletons:rookie_skeleton"
+			],
+			"blockTags": [
+				"realmrpg_skeletons:surface_skeletons_can_generate_on",
+				"realmrpg_skeletons:skeletons_cannot_generate_on"
+			]
+		},
+		"realmrpg_skeletons:lush_cave_hanging_skeletons": {
+			"type": "realmrpg_skeletons:lush_cave_hanging_skeletons",
+			"json": {
+				"config": {
+					"tries": 1.0,
+					"xz_spread": 7.0,
+					"y_spread": 3.0,
+					"feature": {
+						"feature": {
+							"config": {
+								"to_place": {
+									"state": {
+										"Properties": {
+											"waterlogged": "false",
+											"facing": "north"
+										},
+										"Name": "realmrpg_skeletons:vines_tangled_skeleton"
+									},
+									"type": "minecraft:simple_state_provider"
+								}
+							},
+							"type": "minecraft:simple_block"
+						},
+						"placement": [
+							{
+								"predicate": {
+									"predicates": [
+										{
+											"blocks": "minecraft:air",
+											"type": "minecraft:matching_blocks"
+										},
+										{
+											"offset": [
+												0.0,
+												1.0,
+												0.0
+											],
+											"direction": "down",
+											"type": "minecraft:has_sturdy_face"
+										},
+										{
+											"predicate": {
+												"offset": [
+													0.0,
+													1.0,
+													0.0
+												],
+												"blocks": "#realmrpg_skeletons:skeletons_cannot_generate_on",
+												"type": "minecraft:matching_blocks"
+											},
+											"type": "minecraft:not"
+										}
+									],
+									"type": "minecraft:all_of"
+								},
+								"type": "minecraft:block_predicate_filter"
+							}
+						]
+					}
+				},
+				"type": "realmrpg_skeletons:lush_cave_hanging_skeletons"
+			},
+			"nested": [],
+			"blocks": [
+				"realmrpg_skeletons:vines_tangled_skeleton"
+			],
+			"blockTags": [
+				"realmrpg_skeletons:skeletons_cannot_generate_on"
+			]
+		},
+		"realmrpg_skeletons:anywhere_skeletons": {
+			"type": "realmrpg_skeletons:anywhere_skeletons",
+			"json": {
+				"config": {
+					"tries": 1.0,
+					"xz_spread": 7.0,
+					"y_spread": 3.0,
+					"feature": {
+						"feature": {
+							"config": {
+								"to_place": {
+									"entries": [
+										{
+											"data": {
+												"Properties": {
+													"waterlogged": "false",
+													"facing": "north"
+												},
+												"Name": "realmrpg_skeletons:devastated_skeleton"
+											},
+											"weight": 1.0
+										},
+										{
+											"data": {
+												"Properties": {
+													"waterlogged": "false",
+													"facing": "north"
+												},
+												"Name": "realmrpg_skeletons:duelist_skeleton"
+											},
+											"weight": 1.0
+										},
+										{
+											"data": {
+												"Properties": {
+													"waterlogged": "false",
+													"facing": "north"
+												},
+												"Name": "realmrpg_skeletons:buried_skeleton"
+											},
+											"weight": 1.0
+										},
+										{
+											"data": {
+												"Properties": {
+													"waterlogged": "false",
+													"facing": "north"
+												},
+												"Name": "realmrpg_skeletons:bow_skeleton"
+											},
+											"weight": 1.0
+										}
+									],
+									"type": "minecraft:weighted_state_provider"
+								}
+							},
+							"type": "minecraft:simple_block"
+						},
+						"placement": [
+							{
+								"predicate": {
+									"predicates": [
+										{
+											"blocks": "minecraft:air",
+											"type": "minecraft:matching_blocks"
+										},
+										{
+											"offset": [
+												0.0,
+												-1.0,
+												0.0
+											],
+											"direction": "up",
+											"type": "minecraft:has_sturdy_face"
+										},
+										{
+											"predicate": {
+												"offset": [
+													0.0,
+													-1.0,
+													0.0
+												],
+												"blocks": "#realmrpg_skeletons:skeletons_cannot_generate_on",
+												"type": "minecraft:matching_blocks"
+											},
+											"type": "minecraft:not"
+										}
+									],
+									"type": "minecraft:all_of"
+								},
+								"type": "minecraft:block_predicate_filter"
+							}
+						]
+					}
+				},
+				"type": "realmrpg_skeletons:anywhere_skeletons"
+			},
+			"nested": [],
+			"blocks": [
+				"realmrpg_skeletons:devastated_skeleton",
+				"realmrpg_skeletons:duelist_skeleton",
+				"realmrpg_skeletons:buried_skeleton",
+				"realmrpg_skeletons:bow_skeleton"
+			],
+			"blockTags": [
+				"realmrpg_skeletons:skeletons_cannot_generate_on"
+			]
+		},
+		"realmrpg_skeletons:crimson_skeletons": {
+			"type": "realmrpg_skeletons:crimson_skeletons",
+			"json": {
+				"config": {
+					"tries": 1.0,
+					"xz_spread": 7.0,
+					"y_spread": 3.0,
+					"feature": {
+						"feature": {
+							"config": {
+								"to_place": {
+									"entries": [
+										{
+											"data": {
+												"Properties": {
+													"waterlogged": "false",
+													"facing": "north"
+												},
+												"Name": "realmrpg_skeletons:fungus_gatherer_skeleton"
+											},
+											"weight": 1.0
+										},
+										{
+											"data": {
+												"Properties": {
+													"waterlogged": "false",
+													"facing": "north"
+												},
+												"Name": "realmrpg_skeletons:fungus_gatherer_skeleton"
+											},
+											"weight": 1.0
+										}
+									],
+									"type": "minecraft:weighted_state_provider"
+								}
+							},
+							"type": "minecraft:simple_block"
+						},
+						"placement": [
+							{
+								"predicate": {
+									"predicates": [
+										{
+											"blocks": "minecraft:air",
+											"type": "minecraft:matching_blocks"
+										},
+										{
+											"offset": [
+												0.0,
+												-1.0,
+												0.0
+											],
+											"blocks": "#realmrpg_skeletons:crimson_skeletons_can_generate_on",
+											"type": "minecraft:matching_blocks"
+										},
+										{
+											"predicate": {
+												"offset": [
+													0.0,
+													-1.0,
+													0.0
+												],
+												"blocks": "#realmrpg_skeletons:skeletons_cannot_generate_on",
+												"type": "minecraft:matching_blocks"
+											},
+											"type": "minecraft:not"
+										}
+									],
+									"type": "minecraft:all_of"
+								},
+								"type": "minecraft:block_predicate_filter"
+							}
+						]
+					}
+				},
+				"type": "realmrpg_skeletons:crimson_skeletons"
+			},
+			"nested": [],
+			"blocks": [
+				"realmrpg_skeletons:fungus_gatherer_skeleton"
+			],
+			"blockTags": [
+				"realmrpg_skeletons:crimson_skeletons_can_generate_on",
+				"realmrpg_skeletons:skeletons_cannot_generate_on"
+			]
+		},
+		"realmrpg_skeletons:overworld_surface_big_skeletons": {
+			"type": "realmrpg_skeletons:overworld_surface_big_skeletons",
+			"json": {
+				"config": {
+					"tries": 1.0,
+					"xz_spread": 7.0,
+					"y_spread": 3.0,
+					"feature": {
+						"feature": {
+							"config": {
+								"to_place": {
+									"entries": [
+										{
+											"data": {
+												"Properties": {
+													"waterlogged": "false",
+													"facing": "north"
+												},
+												"Name": "realmrpg_skeletons:common_skeleton"
+											},
+											"weight": 1.0
+										},
+										{
+											"data": {
+												"Properties": {
+													"waterlogged": "false",
+													"facing": "north"
+												},
+												"Name": "realmrpg_skeletons:basic_skeleton"
+											},
+											"weight": 1.0
+										},
+										{
+											"data": {
+												"Properties": {
+													"waterlogged": "false",
+													"facing": "north"
+												},
+												"Name": "realmrpg_skeletons:headless_skeleton"
+											},
+											"weight": 1.0
+										},
+										{
+											"data": {
+												"Properties": {
+													"waterlogged": "false",
+													"facing": "north"
+												},
+												"Name": "realmrpg_skeletons:headache_skeleton"
+											},
+											"weight": 1.0
+										},
+										{
+											"data": {
+												"Properties": {
+													"waterlogged": "false",
+													"facing": "north"
+												},
+												"Name": "realmrpg_skeletons:slain_skeleton"
+											},
+											"weight": 1.0
+										},
+										{
+											"data": {
+												"Properties": {
+													"waterlogged": "false",
+													"facing": "north"
+												},
+												"Name": "realmrpg_skeletons:arrow_skeleton"
+											},
+											"weight": 1.0
+										},
+										{
+											"data": {
+												"Properties": {
+													"waterlogged": "false",
+													"facing": "north"
+												},
+												"Name": "realmrpg_skeletons:shot_skeleton"
+											},
+											"weight": 1.0
+										},
+										{
+											"data": {
+												"Properties": {
+													"waterlogged": "false",
+													"facing": "north"
+												},
+												"Name": "realmrpg_skeletons:hunted_skeleton"
+											},
+											"weight": 1.0
+										}
+									],
+									"type": "minecraft:weighted_state_provider"
+								}
+							},
+							"type": "minecraft:simple_block"
+						},
+						"placement": [
+							{
+								"predicate": {
+									"predicates": [
+										{
+											"blocks": "minecraft:air",
+											"type": "minecraft:matching_blocks"
+										},
+										{
+											"offset": [
+												0.0,
+												-1.0,
+												0.0
+											],
+											"direction": "up",
+											"type": "minecraft:has_sturdy_face"
+										},
+										{
+											"predicate": {
+												"offset": [
+													0.0,
+													-1.0,
+													0.0
+												],
+												"blocks": "#realmrpg_skeletons:skeletons_cannot_generate_on",
+												"type": "minecraft:matching_blocks"
+											},
+											"type": "minecraft:not"
+										},
+										{
+											"predicate": {
+												"offset": [
+													0.0,
+													0.0,
+													-1.0
+												],
+												"type": "minecraft:solid"
+											},
+											"type": "minecraft:not"
+										},
+										{
+											"predicate": {
+												"offset": [
+													0.0,
+													0.0,
+													1.0
+												],
+												"type": "minecraft:solid"
+											},
+											"type": "minecraft:not"
+										}
+									],
+									"type": "minecraft:all_of"
+								},
+								"type": "minecraft:block_predicate_filter"
+							}
+						]
+					}
+				},
+				"type": "realmrpg_skeletons:overworld_surface_big_skeletons"
+			},
+			"nested": [],
+			"blocks": [
+				"realmrpg_skeletons:common_skeleton",
+				"realmrpg_skeletons:basic_skeleton",
+				"realmrpg_skeletons:headless_skeleton",
+				"realmrpg_skeletons:headache_skeleton",
+				"realmrpg_skeletons:slain_skeleton",
+				"realmrpg_skeletons:arrow_skeleton",
+				"realmrpg_skeletons:shot_skeleton",
+				"realmrpg_skeletons:hunted_skeleton"
+			],
+			"blockTags": [
+				"realmrpg_skeletons:skeletons_cannot_generate_on"
+			]
+		},
+		"realmrpg_skeletons:anywhere_big_skeletons": {
+			"type": "realmrpg_skeletons:anywhere_big_skeletons",
+			"json": {
+				"config": {
+					"tries": 1.0,
+					"xz_spread": 7.0,
+					"y_spread": 3.0,
+					"feature": {
+						"feature": {
+							"config": {
+								"to_place": {
+									"entries": [
+										{
+											"data": {
+												"Properties": {
+													"waterlogged": "false",
+													"facing": "north"
+												},
+												"Name": "realmrpg_skeletons:common_skeleton"
+											},
+											"weight": 3.0
+										},
+										{
+											"data": {
+												"Properties": {
+													"waterlogged": "false",
+													"facing": "north"
+												},
+												"Name": "realmrpg_skeletons:basic_skeleton"
+											},
+											"weight": 3.0
+										},
+										{
+											"data": {
+												"Properties": {
+													"waterlogged": "false",
+													"facing": "north"
+												},
+												"Name": "realmrpg_skeletons:headless_skeleton"
+											},
+											"weight": 1.0
+										},
+										{
+											"data": {
+												"Properties": {
+													"waterlogged": "false",
+													"facing": "north"
+												},
+												"Name": "realmrpg_skeletons:headache_skeleton"
+											},
+											"weight": 1.0
+										},
+										{
+											"data": {
+												"Properties": {
+													"waterlogged": "false",
+													"facing": "north"
+												},
+												"Name": "realmrpg_skeletons:slain_skeleton"
+											},
+											"weight": 1.0
+										},
+										{
+											"data": {
+												"Properties": {
+													"waterlogged": "false",
+													"facing": "north"
+												},
+												"Name": "realmrpg_skeletons:arrow_skeleton"
+											},
+											"weight": 1.0
+										},
+										{
+											"data": {
+												"Properties": {
+													"waterlogged": "false",
+													"facing": "north"
+												},
+												"Name": "realmrpg_skeletons:shot_skeleton"
+											},
+											"weight": 1.0
+										},
+										{
+											"data": {
+												"Properties": {
+													"waterlogged": "false",
+													"facing": "north"
+												},
+												"Name": "realmrpg_skeletons:hunted_skeleton"
+											},
+											"weight": 1.0
+										}
+									],
+									"type": "minecraft:weighted_state_provider"
+								}
+							},
+							"type": "minecraft:simple_block"
+						},
+						"placement": [
+							{
+								"predicate": {
+									"predicates": [
+										{
+											"blocks": "minecraft:air",
+											"type": "minecraft:matching_blocks"
+										},
+										{
+											"offset": [
+												0.0,
+												-1.0,
+												0.0
+											],
+											"direction": "up",
+											"type": "minecraft:has_sturdy_face"
+										},
+										{
+											"predicate": {
+												"offset": [
+													0.0,
+													-1.0,
+													0.0
+												],
+												"blocks": "#realmrpg_skeletons:skeletons_cannot_generate_on",
+												"type": "minecraft:matching_blocks"
+											},
+											"type": "minecraft:not"
+										},
+										{
+											"predicate": {
+												"offset": [
+													0.0,
+													0.0,
+													-1.0
+												],
+												"type": "minecraft:solid"
+											},
+											"type": "minecraft:not"
+										},
+										{
+											"predicate": {
+												"offset": [
+													0.0,
+													0.0,
+													1.0
+												],
+												"type": "minecraft:solid"
+											},
+											"type": "minecraft:not"
+										}
+									],
+									"type": "minecraft:all_of"
+								},
+								"type": "minecraft:block_predicate_filter"
+							}
+						]
+					}
+				},
+				"type": "realmrpg_skeletons:anywhere_big_skeletons"
+			},
+			"nested": [],
+			"blocks": [
+				"realmrpg_skeletons:common_skeleton",
+				"realmrpg_skeletons:basic_skeleton",
+				"realmrpg_skeletons:headless_skeleton",
+				"realmrpg_skeletons:headache_skeleton",
+				"realmrpg_skeletons:slain_skeleton",
+				"realmrpg_skeletons:arrow_skeleton",
+				"realmrpg_skeletons:shot_skeleton",
+				"realmrpg_skeletons:hunted_skeleton"
+			],
+			"blockTags": [
+				"realmrpg_skeletons:skeletons_cannot_generate_on"
+			]
+		},
+		"realmrpg_skeletons:lush_cave_skeletons": {
+			"type": "realmrpg_skeletons:lush_cave_skeletons",
+			"json": {
+				"config": {
+					"tries": 1.0,
+					"xz_spread": 7.0,
+					"y_spread": 3.0,
+					"feature": {
+						"feature": {
+							"config": {
+								"to_place": {
+									"entries": [
+										{
+											"data": {
+												"Properties": {
+													"waterlogged": "false",
+													"facing": "north"
+												},
+												"Name": "realmrpg_skeletons:mossy_skeleton"
+											},
+											"weight": 1.0
+										},
+										{
+											"data": {
+												"Properties": {
+													"waterlogged": "false",
+													"facing": "north"
+												},
+												"Name": "realmrpg_skeletons:mossy_skeleton"
+											},
+											"weight": 1.0
+										}
+									],
+									"type": "minecraft:weighted_state_provider"
+								}
+							},
+							"type": "minecraft:simple_block"
+						},
+						"placement": [
+							{
+								"predicate": {
+									"predicates": [
+										{
+											"blocks": "minecraft:air",
+											"type": "minecraft:matching_blocks"
+										},
+										{
+											"offset": [
+												0.0,
+												-1.0,
+												0.0
+											],
+											"direction": "up",
+											"type": "minecraft:has_sturdy_face"
+										},
+										{
+											"predicate": {
+												"offset": [
+													0.0,
+													-1.0,
+													0.0
+												],
+												"blocks": "#realmrpg_skeletons:skeletons_cannot_generate_on",
+												"type": "minecraft:matching_blocks"
+											},
+											"type": "minecraft:not"
+										}
+									],
+									"type": "minecraft:all_of"
+								},
+								"type": "minecraft:block_predicate_filter"
+							}
+						]
+					}
+				},
+				"type": "realmrpg_skeletons:lush_cave_skeletons"
+			},
+			"nested": [],
+			"blocks": [
+				"realmrpg_skeletons:mossy_skeleton"
+			],
+			"blockTags": [
+				"realmrpg_skeletons:skeletons_cannot_generate_on"
+			]
+		},
+		"realmrpg_skeletons:deep_cave_skeletons": {
+			"type": "realmrpg_skeletons:deep_cave_skeletons",
+			"json": {
+				"config": {
+					"tries": 1.0,
+					"xz_spread": 7.0,
+					"y_spread": 3.0,
+					"feature": {
+						"feature": {
+							"config": {
+								"to_place": {
+									"entries": [
+										{
+											"data": {
+												"Properties": {
+													"waterlogged": "false",
+													"facing": "north"
+												},
+												"Name": "realmrpg_skeletons:dungeon_crawler_skeleton"
+											},
+											"weight": 5.0
+										},
+										{
+											"data": {
+												"Properties": {
+													"waterlogged": "false",
+													"facing": "north"
+												},
+												"Name": "realmrpg_skeletons:webbed_skeleton"
+											},
+											"weight": 2.0
+										},
+										{
+											"data": {
+												"Properties": {
+													"waterlogged": "false",
+													"facing": "north"
+												},
+												"Name": "realmrpg_skeletons:explorer_skeleton"
+											},
+											"weight": 1.0
+										}
+									],
+									"type": "minecraft:weighted_state_provider"
+								}
+							},
+							"type": "minecraft:simple_block"
+						},
+						"placement": [
+							{
+								"predicate": {
+									"predicates": [
+										{
+											"blocks": "minecraft:air",
+											"type": "minecraft:matching_blocks"
+										},
+										{
+											"offset": [
+												0.0,
+												-1.0,
+												0.0
+											],
+											"direction": "up",
+											"type": "minecraft:has_sturdy_face"
+										},
+										{
+											"predicate": {
+												"offset": [
+													0.0,
+													-1.0,
+													0.0
+												],
+												"blocks": "#realmrpg_skeletons:skeletons_cannot_generate_on",
+												"type": "minecraft:matching_blocks"
+											},
+											"type": "minecraft:not"
+										}
+									],
+									"type": "minecraft:all_of"
+								},
+								"type": "minecraft:block_predicate_filter"
+							}
+						]
+					}
+				},
+				"type": "realmrpg_skeletons:deep_cave_skeletons"
+			},
+			"nested": [],
+			"blocks": [
+				"realmrpg_skeletons:dungeon_crawler_skeleton",
+				"realmrpg_skeletons:webbed_skeleton",
+				"realmrpg_skeletons:explorer_skeleton"
+			],
+			"blockTags": [
+				"realmrpg_skeletons:skeletons_cannot_generate_on"
+			]
+		},
+		"realmrpg_skeletons:underwater_skeletons": {
+			"type": "realmrpg_skeletons:underwater_skeletons",
+			"json": {
+				"config": {
+					"tries": 3.0,
+					"xz_spread": 7.0,
+					"y_spread": 3.0,
+					"feature": {
+						"feature": {
+							"config": {
+								"to_place": {
+									"entries": [
+										{
+											"data": {
+												"Properties": {
+													"waterlogged": "true",
+													"facing": "north"
+												},
+												"Name": "realmrpg_skeletons:swimmer_skeleton"
+											},
+											"weight": 7.0
+										},
+										{
+											"data": {
+												"Properties": {
+													"waterlogged": "true",
+													"facing": "north"
+												},
+												"Name": "realmrpg_skeletons:trident_skeleton"
+											},
+											"weight": 1.0
+										}
+									],
+									"type": "minecraft:weighted_state_provider"
+								}
+							},
+							"type": "minecraft:simple_block"
+						},
+						"placement": [
+							{
+								"predicate": {
+									"predicates": [
+										{
+											"fluids": "minecraft:water",
+											"type": "minecraft:matching_fluids"
+										},
+										{
+											"offset": [
+												0.0,
+												-1.0,
+												0.0
+											],
+											"direction": "up",
+											"type": "minecraft:has_sturdy_face"
+										},
+										{
+											"predicate": {
+												"offset": [
+													0.0,
+													-1.0,
+													0.0
+												],
+												"blocks": "#realmrpg_skeletons:skeletons_cannot_generate_on",
+												"type": "minecraft:matching_blocks"
+											},
+											"type": "minecraft:not"
+										}
+									],
+									"type": "minecraft:all_of"
+								},
+								"type": "minecraft:block_predicate_filter"
+							}
+						]
+					}
+				},
+				"type": "realmrpg_skeletons:underwater_skeletons"
+			},
+			"nested": [],
+			"blocks": [
+				"realmrpg_skeletons:swimmer_skeleton",
+				"realmrpg_skeletons:trident_skeleton",
+				"minecraft:water"
+			],
+			"blockTags": [
+				"realmrpg_skeletons:skeletons_cannot_generate_on"
+			]
+		},
+		"realmrpg_skeletons:deep_underground_chambers": {
+			"type": "realmrpg_skeletons:deep_underground_chambers",
+			"json": {
+				"config": {
+					"random_mirror": true,
+					"ignored_blocks": "minecraft:structure_block",
+					"structure": "realmrpg_skeletons:underground_chamber_deep",
+					"random_rotation": true
+				},
+				"type": "realmrpg_skeletons:deep_underground_chambers"
+			},
+			"nested": [],
+			"blocks": [
+				"minecraft:structure_block"
+			],
+			"blockTags": []
+		},
+		"realmrpg_skeletons:end_center_skeletons": {
+			"type": "realmrpg_skeletons:end_center_skeletons",
+			"json": {
+				"config": {
+					"tries": 1.0,
+					"xz_spread": 7.0,
+					"y_spread": 3.0,
+					"feature": {
+						"feature": {
+							"config": {
+								"to_place": {
+									"state": {
+										"Properties": {
+											"waterlogged": "false",
+											"facing": "north"
+										},
+										"Name": "realmrpg_skeletons:dragon_burnt_skeleton"
+									},
+									"type": "minecraft:simple_state_provider"
+								}
+							},
+							"type": "minecraft:simple_block"
+						},
+						"placement": [
+							{
+								"predicate": {
+									"predicates": [
+										{
+											"blocks": "minecraft:air",
+											"type": "minecraft:matching_blocks"
+										},
+										{
+											"offset": [
+												0.0,
+												-1.0,
+												0.0
+											],
+											"direction": "up",
+											"type": "minecraft:has_sturdy_face"
+										},
+										{
+											"predicate": {
+												"offset": [
+													0.0,
+													-1.0,
+													0.0
+												],
+												"blocks": "#realmrpg_skeletons:skeletons_cannot_generate_on",
+												"type": "minecraft:matching_blocks"
+											},
+											"type": "minecraft:not"
+										}
+									],
+									"type": "minecraft:all_of"
+								},
+								"type": "minecraft:block_predicate_filter"
+							}
+						]
+					}
+				},
+				"type": "realmrpg_skeletons:end_center_skeletons"
+			},
+			"nested": [],
+			"blocks": [
+				"realmrpg_skeletons:dragon_burnt_skeleton"
+			],
+			"blockTags": [
+				"realmrpg_skeletons:skeletons_cannot_generate_on"
+			]
+		},
+		"realmrpg_skeletons:dripstone_block_skeletons": {
+			"type": "realmrpg_skeletons:dripstone_block_skeletons",
+			"json": {
+				"config": {
+					"tries": 1.0,
+					"xz_spread": 7.0,
+					"y_spread": 3.0,
+					"feature": {
+						"feature": {
+							"config": {
+								"to_place": {
+									"entries": [
+										{
+											"data": {
+												"Properties": {
+													"waterlogged": "false",
+													"facing": "north"
+												},
+												"Name": "realmrpg_skeletons:dripstone_skeleton"
+											},
+											"weight": 1.0
+										},
+										{
+											"data": {
+												"Properties": {
+													"waterlogged": "false",
+													"facing": "north"
+												},
+												"Name": "realmrpg_skeletons:stalactite_skeleton"
+											},
+											"weight": 1.0
+										}
+									],
+									"type": "minecraft:weighted_state_provider"
+								}
+							},
+							"type": "minecraft:simple_block"
+						},
+						"placement": [
+							{
+								"predicate": {
+									"predicates": [
+										{
+											"blocks": "minecraft:air",
+											"type": "minecraft:matching_blocks"
+										},
+										{
+											"offset": [
+												0.0,
+												-1.0,
+												0.0
+											],
+											"blocks": "#realmrpg_skeletons:dripstone_skeletons_can_generate_on",
+											"type": "minecraft:matching_blocks"
+										},
+										{
+											"predicate": {
+												"offset": [
+													0.0,
+													-1.0,
+													0.0
+												],
+												"blocks": "#realmrpg_skeletons:skeletons_cannot_generate_on",
+												"type": "minecraft:matching_blocks"
+											},
+											"type": "minecraft:not"
+										}
+									],
+									"type": "minecraft:all_of"
+								},
+								"type": "minecraft:block_predicate_filter"
+							}
+						]
+					}
+				},
+				"type": "realmrpg_skeletons:dripstone_block_skeletons"
+			},
+			"nested": [],
+			"blocks": [
+				"realmrpg_skeletons:dripstone_skeleton",
+				"realmrpg_skeletons:stalactite_skeleton"
+			],
+			"blockTags": [
+				"realmrpg_skeletons:dripstone_skeletons_can_generate_on",
+				"realmrpg_skeletons:skeletons_cannot_generate_on"
+			]
+		},
+		"realmrpg_skeletons:end_hanging_skeletons": {
+			"type": "realmrpg_skeletons:end_hanging_skeletons",
+			"json": {
+				"config": {
+					"tries": 1.0,
+					"xz_spread": 7.0,
+					"y_spread": 3.0,
+					"feature": {
+						"feature": {
+							"config": {
+								"to_place": {
+									"state": {
+										"Properties": {
+											"waterlogged": "false",
+											"facing": "north"
+										},
+										"Name": "realmrpg_skeletons:chorus_tangled_skeleton"
+									},
+									"type": "minecraft:simple_state_provider"
+								}
+							},
+							"type": "minecraft:simple_block"
+						},
+						"placement": [
+							{
+								"predicate": {
+									"predicates": [
+										{
+											"blocks": "minecraft:air",
+											"type": "minecraft:matching_blocks"
+										},
+										{
+											"offset": [
+												0.0,
+												1.0,
+												0.0
+											],
+											"direction": "down",
+											"type": "minecraft:has_sturdy_face"
+										},
+										{
+											"predicate": {
+												"offset": [
+													0.0,
+													1.0,
+													0.0
+												],
+												"blocks": "#realmrpg_skeletons:skeletons_cannot_generate_on",
+												"type": "minecraft:matching_blocks"
+											},
+											"type": "minecraft:not"
+										}
+									],
+									"type": "minecraft:all_of"
+								},
+								"type": "minecraft:block_predicate_filter"
+							}
+						]
+					}
+				},
+				"type": "realmrpg_skeletons:end_hanging_skeletons"
+			},
+			"nested": [],
+			"blocks": [
+				"realmrpg_skeletons:chorus_tangled_skeleton"
+			],
+			"blockTags": [
+				"realmrpg_skeletons:skeletons_cannot_generate_on"
+			]
+		},
+		"realmrpg_skeletons:overworld_surface_skeletons": {
+			"type": "realmrpg_skeletons:overworld_surface_skeletons",
+			"json": {
+				"config": {
+					"tries": 1.0,
+					"xz_spread": 7.0,
+					"y_spread": 3.0,
+					"feature": {
+						"feature": {
+							"config": {
+								"to_place": {
+									"entries": [
+										{
+											"data": {
+												"Properties": {
+													"waterlogged": "false",
+													"facing": "north"
+												},
+												"Name": "realmrpg_skeletons:devastated_skeleton"
+											},
+											"weight": 1.0
+										},
+										{
+											"data": {
+												"Properties": {
+													"waterlogged": "false",
+													"facing": "north"
+												},
+												"Name": "realmrpg_skeletons:duelist_skeleton"
+											},
+											"weight": 1.0
+										},
+										{
+											"data": {
+												"Properties": {
+													"waterlogged": "false",
+													"facing": "north"
+												},
+												"Name": "realmrpg_skeletons:buried_skeleton"
+											},
+											"weight": 1.0
+										},
+										{
+											"data": {
+												"Properties": {
+													"waterlogged": "false",
+													"facing": "north"
+												},
+												"Name": "realmrpg_skeletons:bow_skeleton"
+											},
+											"weight": 1.0
+										}
+									],
+									"type": "minecraft:weighted_state_provider"
+								}
+							},
+							"type": "minecraft:simple_block"
+						},
+						"placement": [
+							{
+								"predicate": {
+									"predicates": [
+										{
+											"blocks": "minecraft:air",
+											"type": "minecraft:matching_blocks"
+										},
+										{
+											"offset": [
+												0.0,
+												-1.0,
+												0.0
+											],
+											"direction": "up",
+											"type": "minecraft:has_sturdy_face"
+										},
+										{
+											"predicate": {
+												"offset": [
+													0.0,
+													-1.0,
+													0.0
+												],
+												"blocks": "#realmrpg_skeletons:skeletons_cannot_generate_on",
+												"type": "minecraft:matching_blocks"
+											},
+											"type": "minecraft:not"
+										}
+									],
+									"type": "minecraft:all_of"
+								},
+								"type": "minecraft:block_predicate_filter"
+							}
+						]
+					}
+				},
+				"type": "realmrpg_skeletons:overworld_surface_skeletons"
+			},
+			"nested": [],
+			"blocks": [
+				"realmrpg_skeletons:devastated_skeleton",
+				"realmrpg_skeletons:duelist_skeleton",
+				"realmrpg_skeletons:buried_skeleton",
+				"realmrpg_skeletons:bow_skeleton"
+			],
+			"blockTags": [
+				"realmrpg_skeletons:skeletons_cannot_generate_on"
+			]
+		},
+		"realmrpg_skeletons:underground_chambers": {
+			"type": "realmrpg_skeletons:underground_chambers",
+			"json": {
+				"config": {
+					"random_mirror": true,
+					"ignored_blocks": "minecraft:structure_block",
+					"structure": "realmrpg_skeletons:underground_chamber",
+					"random_rotation": true
+				},
+				"type": "realmrpg_skeletons:underground_chambers"
+			},
+			"nested": [],
+			"blocks": [
+				"minecraft:structure_block"
+			],
+			"blockTags": []
+		},
+		"realmrpg_skeletons:desert_skeletons": {
+			"type": "realmrpg_skeletons:desert_skeletons",
+			"json": {
+				"config": {
+					"tries": 1.0,
+					"xz_spread": 7.0,
+					"y_spread": 3.0,
+					"feature": {
+						"feature": {
+							"config": {
+								"to_place": {
+									"entries": [
+										{
+											"data": {
+												"Properties": {
+													"waterlogged": "false",
+													"facing": "north"
+												},
+												"Name": "realmrpg_skeletons:cactus_skeleton"
+											},
+											"weight": 1.0
+										},
+										{
+											"data": {
+												"Properties": {
+													"waterlogged": "false",
+													"facing": "north"
+												},
+												"Name": "realmrpg_skeletons:dusty_skeleton"
+											},
+											"weight": 1.0
+										}
+									],
+									"type": "minecraft:weighted_state_provider"
+								}
+							},
+							"type": "minecraft:simple_block"
+						},
+						"placement": [
+							{
+								"predicate": {
+									"predicates": [
+										{
+											"blocks": "minecraft:air",
+											"type": "minecraft:matching_blocks"
+										},
+										{
+											"offset": [
+												0.0,
+												-1.0,
+												0.0
+											],
+											"blocks": "#realmrpg_skeletons:sand_skeletons_can_generate_on",
+											"type": "minecraft:matching_blocks"
+										},
+										{
+											"predicate": {
+												"offset": [
+													0.0,
+													-1.0,
+													0.0
+												],
+												"blocks": "#realmrpg_skeletons:skeletons_cannot_generate_on",
+												"type": "minecraft:matching_blocks"
+											},
+											"type": "minecraft:not"
+										}
+									],
+									"type": "minecraft:all_of"
+								},
+								"type": "minecraft:block_predicate_filter"
+							}
+						]
+					}
+				},
+				"type": "realmrpg_skeletons:desert_skeletons"
+			},
+			"nested": [],
+			"blocks": [
+				"realmrpg_skeletons:cactus_skeleton",
+				"realmrpg_skeletons:dusty_skeleton"
+			],
+			"blockTags": [
+				"realmrpg_skeletons:sand_skeletons_can_generate_on",
+				"realmrpg_skeletons:skeletons_cannot_generate_on"
+			]
+		},
+		"realmrpg_skeletons:snow_layer_skeletons": {
+			"type": "realmrpg_skeletons:snow_layer_skeletons",
+			"json": {
+				"config": {
+					"tries": 1.0,
+					"xz_spread": 7.0,
+					"y_spread": 3.0,
+					"feature": {
+						"feature": {
+							"config": {
+								"to_place": {
+									"entries": [
+										{
+											"data": {
+												"Properties": {
+													"waterlogged": "false",
+													"facing": "north"
+												},
+												"Name": "realmrpg_skeletons:snow_skeleton"
+											},
+											"weight": 3.0
+										},
+										{
+											"data": {
+												"Properties": {
+													"waterlogged": "false",
+													"facing": "north"
+												},
+												"Name": "realmrpg_skeletons:powder_snow_skeleton"
+											},
+											"weight": 3.0
+										},
+										{
+											"data": {
+												"Properties": {
+													"waterlogged": "false",
+													"facing": "north"
+												},
+												"Name": "realmrpg_skeletons:winter_skeleton"
+											},
+											"weight": 3.0
+										},
+										{
+											"data": {
+												"Properties": {
+													"waterlogged": "false",
+													"facing": "north"
+												},
+												"Name": "realmrpg_skeletons:frozen_waterdrop_skeleton"
+											},
+											"weight": 1.0
+										}
+									],
+									"type": "minecraft:weighted_state_provider"
+								}
+							},
+							"type": "minecraft:simple_block"
+						},
+						"placement": [
+							{
+								"predicate": {
+									"predicates": [
+										{
+											"blocks": "#realmrpg_skeletons:snow_skeletons_can_replace",
+											"type": "minecraft:matching_blocks"
+										},
+										{
+											"predicate": {
+												"offset": [
+													0.0,
+													-1.0,
+													0.0
+												],
+												"blocks": "#realmrpg_skeletons:skeletons_cannot_generate_on",
+												"type": "minecraft:matching_blocks"
+											},
+											"type": "minecraft:not"
+										}
+									],
+									"type": "minecraft:all_of"
+								},
+								"type": "minecraft:block_predicate_filter"
+							}
+						]
+					}
+				},
+				"type": "realmrpg_skeletons:snow_layer_skeletons"
+			},
+			"nested": [],
+			"blocks": [
+				"realmrpg_skeletons:snow_skeleton",
+				"realmrpg_skeletons:powder_snow_skeleton",
+				"realmrpg_skeletons:winter_skeleton",
+				"realmrpg_skeletons:frozen_waterdrop_skeleton"
+			],
+			"blockTags": [
+				"realmrpg_skeletons:snow_skeletons_can_replace",
+				"realmrpg_skeletons:skeletons_cannot_generate_on"
+			]
+		},
+		"realmrpg_skeletons:nether_skeletons": {
+			"type": "realmrpg_skeletons:nether_skeletons",
+			"json": {
+				"config": {
+					"tries": 1.0,
+					"xz_spread": 7.0,
+					"y_spread": 3.0,
+					"feature": {
+						"feature": {
+							"config": {
+								"to_place": {
+									"entries": [
+										{
+											"data": {
+												"Properties": {
+													"waterlogged": "false",
+													"facing": "north"
+												},
+												"Name": "realmrpg_skeletons:thief_skeleton"
+											},
+											"weight": 1.0
+										},
+										{
+											"data": {
+												"Properties": {
+													"waterlogged": "false",
+													"facing": "north"
+												},
+												"Name": "realmrpg_skeletons:burnt_skeleton"
+											},
+											"weight": 1.0
+										}
+									],
+									"type": "minecraft:weighted_state_provider"
+								}
+							},
+							"type": "minecraft:simple_block"
+						},
+						"placement": [
+							{
+								"predicate": {
+									"predicates": [
+										{
+											"blocks": "minecraft:air",
+											"type": "minecraft:matching_blocks"
+										},
+										{
+											"offset": [
+												0.0,
+												-1.0,
+												0.0
+											],
+											"direction": "up",
+											"type": "minecraft:has_sturdy_face"
+										},
+										{
+											"predicate": {
+												"offset": [
+													0.0,
+													-1.0,
+													0.0
+												],
+												"blocks": "#realmrpg_skeletons:skeletons_cannot_generate_on",
+												"type": "minecraft:matching_blocks"
+											},
+											"type": "minecraft:not"
+										}
+									],
+									"type": "minecraft:all_of"
+								},
+								"type": "minecraft:block_predicate_filter"
+							}
+						]
+					}
+				},
+				"type": "realmrpg_skeletons:nether_skeletons"
+			},
+			"nested": [],
+			"blocks": [
+				"realmrpg_skeletons:thief_skeleton",
+				"realmrpg_skeletons:burnt_skeleton"
+			],
+			"blockTags": [
+				"realmrpg_skeletons:skeletons_cannot_generate_on"
+			]
+		},
+		"realmrpg_skeletons:cave_skeletons": {
+			"type": "realmrpg_skeletons:cave_skeletons",
+			"json": {
+				"config": {
+					"tries": 1.0,
+					"xz_spread": 7.0,
+					"y_spread": 3.0,
+					"feature": {
+						"feature": {
+							"config": {
+								"to_place": {
+									"entries": [
+										{
+											"data": {
+												"Properties": {
+													"waterlogged": "false",
+													"facing": "north"
+												},
+												"Name": "realmrpg_skeletons:dungeon_crawler_skeleton"
+											},
+											"weight": 5.0
+										},
+										{
+											"data": {
+												"Properties": {
+													"waterlogged": "false",
+													"facing": "north"
+												},
+												"Name": "realmrpg_skeletons:webbed_skeleton"
+											},
+											"weight": 2.0
+										},
+										{
+											"data": {
+												"Properties": {
+													"waterlogged": "false",
+													"facing": "north"
+												},
+												"Name": "realmrpg_skeletons:explorer_skeleton"
+											},
+											"weight": 1.0
+										}
+									],
+									"type": "minecraft:weighted_state_provider"
+								}
+							},
+							"type": "minecraft:simple_block"
+						},
+						"placement": [
+							{
+								"predicate": {
+									"predicates": [
+										{
+											"blocks": "minecraft:air",
+											"type": "minecraft:matching_blocks"
+										},
+										{
+											"offset": [
+												0.0,
+												-1.0,
+												0.0
+											],
+											"direction": "up",
+											"type": "minecraft:has_sturdy_face"
+										},
+										{
+											"predicate": {
+												"offset": [
+													0.0,
+													-1.0,
+													0.0
+												],
+												"blocks": "#realmrpg_skeletons:skeletons_cannot_generate_on",
+												"type": "minecraft:matching_blocks"
+											},
+											"type": "minecraft:not"
+										}
+									],
+									"type": "minecraft:all_of"
+								},
+								"type": "minecraft:block_predicate_filter"
+							}
+						]
+					}
+				},
+				"type": "realmrpg_skeletons:cave_skeletons"
+			},
+			"nested": [],
+			"blocks": [
+				"realmrpg_skeletons:dungeon_crawler_skeleton",
+				"realmrpg_skeletons:webbed_skeleton",
+				"realmrpg_skeletons:explorer_skeleton"
+			],
+			"blockTags": [
+				"realmrpg_skeletons:skeletons_cannot_generate_on"
+			]
+		},
+		"realmrpg_skeletons:mushroom_skeletons": {
+			"type": "realmrpg_skeletons:mushroom_skeletons",
+			"json": {
+				"config": {
+					"tries": 1.0,
+					"xz_spread": 7.0,
+					"y_spread": 3.0,
+					"feature": {
+						"feature": {
+							"config": {
+								"to_place": {
+									"entries": [
+										{
+											"data": {
+												"Properties": {
+													"waterlogged": "false",
+													"facing": "north"
+												},
+												"Name": "realmrpg_skeletons:mushroomer_skeleton"
+											},
+											"weight": 1.0
+										},
+										{
+											"data": {
+												"Properties": {
+													"waterlogged": "false",
+													"facing": "north"
+												},
+												"Name": "realmrpg_skeletons:shroom_skeleton"
+											},
+											"weight": 1.0
+										}
+									],
+									"type": "minecraft:weighted_state_provider"
+								}
+							},
+							"type": "minecraft:simple_block"
+						},
+						"placement": [
+							{
+								"predicate": {
+									"predicates": [
+										{
+											"blocks": "minecraft:air",
+											"type": "minecraft:matching_blocks"
+										},
+										{
+											"offset": [
+												0.0,
+												-1.0,
+												0.0
+											],
+											"direction": "up",
+											"type": "minecraft:has_sturdy_face"
+										},
+										{
+											"predicate": {
+												"offset": [
+													0.0,
+													-1.0,
+													0.0
+												],
+												"blocks": "#realmrpg_skeletons:skeletons_cannot_generate_on",
+												"type": "minecraft:matching_blocks"
+											},
+											"type": "minecraft:not"
+										}
+									],
+									"type": "minecraft:all_of"
+								},
+								"type": "minecraft:block_predicate_filter"
+							}
+						]
+					}
+				},
+				"type": "realmrpg_skeletons:mushroom_skeletons"
+			},
+			"nested": [],
+			"blocks": [
+				"realmrpg_skeletons:mushroomer_skeleton",
+				"realmrpg_skeletons:shroom_skeleton"
+			],
+			"blockTags": [
+				"realmrpg_skeletons:skeletons_cannot_generate_on"
+			]
+		},
+		"realmrpg_skeletons:jumped_skeletons": {
+			"type": "realmrpg_skeletons:jumped_skeletons",
+			"json": {
+				"config": {
+					"tries": 1.0,
+					"xz_spread": 7.0,
+					"y_spread": 3.0,
+					"feature": {
+						"feature": {
+							"config": {
+								"to_place": {
+									"entries": [
+										{
+											"data": {
+												"Properties": {
+													"waterlogged": "false",
+													"facing": "north"
+												},
+												"Name": "realmrpg_skeletons:waterdrop_skeleton"
+											},
+											"weight": 1.0
+										},
+										{
+											"data": {
+												"Properties": {
+													"waterlogged": "false",
+													"facing": "north"
+												},
+												"Name": "realmrpg_skeletons:skeleton_from_the_sky"
+											},
+											"weight": 1.0
+										},
+										{
+											"data": {
+												"Properties": {
+													"waterlogged": "false",
+													"facing": "north"
+												},
+												"Name": "realmrpg_skeletons:acrobat_skeleton"
+											},
+											"weight": 3.0
+										}
+									],
+									"type": "minecraft:weighted_state_provider"
+								}
+							},
+							"type": "minecraft:simple_block"
+						},
+						"placement": [
+							{
+								"predicate": {
+									"predicates": [
+										{
+											"blocks": "minecraft:air",
+											"type": "minecraft:matching_blocks"
+										},
+										{
+											"offset": [
+												0.0,
+												-1.0,
+												0.0
+											],
+											"direction": "up",
+											"type": "minecraft:has_sturdy_face"
+										},
+										{
+											"predicate": {
+												"offset": [
+													0.0,
+													-1.0,
+													0.0
+												],
+												"blocks": "#realmrpg_skeletons:skeletons_cannot_generate_on",
+												"type": "minecraft:matching_blocks"
+											},
+											"type": "minecraft:not"
+										}
+									],
+									"type": "minecraft:all_of"
+								},
+								"type": "minecraft:block_predicate_filter"
+							}
+						]
+					}
+				},
+				"type": "realmrpg_skeletons:jumped_skeletons"
+			},
+			"nested": [],
+			"blocks": [
+				"realmrpg_skeletons:waterdrop_skeleton",
+				"realmrpg_skeletons:skeleton_from_the_sky",
+				"realmrpg_skeletons:acrobat_skeleton"
+			],
+			"blockTags": [
+				"realmrpg_skeletons:skeletons_cannot_generate_on"
+			]
+		},
+		"realmrpg_skeletons:snow_skeletons": {
+			"type": "realmrpg_skeletons:snow_skeletons",
+			"json": {
+				"config": {
+					"tries": 1.0,
+					"xz_spread": 7.0,
+					"y_spread": 3.0,
+					"feature": {
+						"feature": {
+							"config": {
+								"to_place": {
+									"entries": [
+										{
+											"data": {
+												"Properties": {
+													"waterlogged": "false",
+													"facing": "north"
+												},
+												"Name": "realmrpg_skeletons:snow_skeleton"
+											},
+											"weight": 3.0
+										},
+										{
+											"data": {
+												"Properties": {
+													"waterlogged": "false",
+													"facing": "north"
+												},
+												"Name": "realmrpg_skeletons:powder_snow_skeleton"
+											},
+											"weight": 3.0
+										},
+										{
+											"data": {
+												"Properties": {
+													"waterlogged": "false",
+													"facing": "north"
+												},
+												"Name": "realmrpg_skeletons:winter_skeleton"
+											},
+											"weight": 3.0
+										},
+										{
+											"data": {
+												"Properties": {
+													"waterlogged": "false",
+													"facing": "north"
+												},
+												"Name": "realmrpg_skeletons:frozen_waterdrop_skeleton"
+											},
+											"weight": 1.0
+										}
+									],
+									"type": "minecraft:weighted_state_provider"
+								}
+							},
+							"type": "minecraft:simple_block"
+						},
+						"placement": [
+							{
+								"predicate": {
+									"predicates": [
+										{
+											"blocks": "minecraft:air",
+											"type": "minecraft:matching_blocks"
+										},
+										{
+											"offset": [
+												0.0,
+												-1.0,
+												0.0
+											],
+											"blocks": "#realmrpg_skeletons:snow_skeletons_can_generate_on",
+											"type": "minecraft:matching_blocks"
+										},
+										{
+											"predicate": {
+												"offset": [
+													0.0,
+													-1.0,
+													0.0
+												],
+												"blocks": "#realmrpg_skeletons:skeletons_cannot_generate_on",
+												"type": "minecraft:matching_blocks"
+											},
+											"type": "minecraft:not"
+										}
+									],
+									"type": "minecraft:all_of"
+								},
+								"type": "minecraft:block_predicate_filter"
+							}
+						]
+					}
+				},
+				"type": "realmrpg_skeletons:snow_skeletons"
+			},
+			"nested": [],
+			"blocks": [
+				"realmrpg_skeletons:snow_skeleton",
+				"realmrpg_skeletons:powder_snow_skeleton",
+				"realmrpg_skeletons:winter_skeleton",
+				"realmrpg_skeletons:frozen_waterdrop_skeleton"
+			],
+			"blockTags": [
+				"realmrpg_skeletons:snow_skeletons_can_generate_on",
+				"realmrpg_skeletons:skeletons_cannot_generate_on"
+			]
+		},
+		"realmrpg_skeletons:crimson_hanging_skeletons": {
+			"type": "realmrpg_skeletons:crimson_hanging_skeletons",
+			"json": {
+				"config": {
+					"tries": 1.0,
+					"xz_spread": 7.0,
+					"y_spread": 3.0,
+					"feature": {
+						"feature": {
+							"config": {
+								"to_place": {
+									"state": {
+										"Properties": {
+											"waterlogged": "false",
+											"facing": "north"
+										},
+										"Name": "realmrpg_skeletons:crimson_tangled_skeleton"
+									},
+									"type": "minecraft:simple_state_provider"
+								}
+							},
+							"type": "minecraft:simple_block"
+						},
+						"placement": [
+							{
+								"predicate": {
+									"predicates": [
+										{
+											"blocks": "minecraft:air",
+											"type": "minecraft:matching_blocks"
+										},
+										{
+											"offset": [
+												0.0,
+												1.0,
+												0.0
+											],
+											"direction": "down",
+											"type": "minecraft:has_sturdy_face"
+										},
+										{
+											"predicate": {
+												"offset": [
+													0.0,
+													1.0,
+													0.0
+												],
+												"blocks": "#realmrpg_skeletons:skeletons_cannot_generate_on",
+												"type": "minecraft:matching_blocks"
+											},
+											"type": "minecraft:not"
+										}
+									],
+									"type": "minecraft:all_of"
+								},
+								"type": "minecraft:block_predicate_filter"
+							}
+						]
+					}
+				},
+				"type": "realmrpg_skeletons:crimson_hanging_skeletons"
+			},
+			"nested": [],
+			"blocks": [
+				"realmrpg_skeletons:crimson_tangled_skeleton"
+			],
+			"blockTags": [
+				"realmrpg_skeletons:skeletons_cannot_generate_on"
+			]
+		},
+		"realmrpg_skeletons:lava_nether_skeletons": {
+			"type": "realmrpg_skeletons:lava_nether_skeletons",
+			"json": {
+				"config": {
+					"tries": 1.0,
+					"xz_spread": 7.0,
+					"y_spread": 3.0,
+					"feature": {
+						"feature": {
+							"config": {
+								"to_place": {
+									"state": {
+										"Properties": {
+											"waterlogged": "false",
+											"facing": "north"
+										},
+										"Name": "realmrpg_skeletons:melted_skeleton"
+									},
+									"type": "minecraft:simple_state_provider"
+								}
+							},
+							"type": "minecraft:simple_block"
+						},
+						"placement": [
+							{
+								"predicate": {
+									"predicates": [
+										{
+											"blocks": "minecraft:air",
+											"type": "minecraft:matching_blocks"
+										},
+										{
+											"offset": [
+												0.0,
+												-1.0,
+												0.0
+											],
+											"blocks": "#realmrpg_skeletons:lava_skeletons_can_generate_on",
+											"type": "minecraft:matching_blocks"
+										},
+										{
+											"predicate": {
+												"offset": [
+													0.0,
+													-1.0,
+													0.0
+												],
+												"blocks": "#realmrpg_skeletons:skeletons_cannot_generate_on",
+												"type": "minecraft:matching_blocks"
+											},
+											"type": "minecraft:not"
+										}
+									],
+									"type": "minecraft:all_of"
+								},
+								"type": "minecraft:block_predicate_filter"
+							}
+						]
+					}
+				},
+				"type": "realmrpg_skeletons:lava_nether_skeletons"
+			},
+			"nested": [],
+			"blocks": [
+				"realmrpg_skeletons:melted_skeleton"
+			],
+			"blockTags": [
+				"realmrpg_skeletons:lava_skeletons_can_generate_on",
+				"realmrpg_skeletons:skeletons_cannot_generate_on"
+			]
+		},
+		"realmrpg_skeletons:dripstone_cave_skeletons": {
+			"type": "realmrpg_skeletons:dripstone_cave_skeletons",
+			"json": {
+				"config": {
+					"tries": 1.0,
+					"xz_spread": 7.0,
+					"y_spread": 3.0,
+					"feature": {
+						"feature": {
+							"config": {
+								"to_place": {
+									"entries": [
+										{
+											"data": {
+												"Properties": {
+													"waterlogged": "false",
+													"facing": "north"
+												},
+												"Name": "realmrpg_skeletons:dripstone_skeleton"
+											},
+											"weight": 1.0
+										},
+										{
+											"data": {
+												"Properties": {
+													"waterlogged": "false",
+													"facing": "north"
+												},
+												"Name": "realmrpg_skeletons:dripstone_skeleton"
+											},
+											"weight": 1.0
+										}
+									],
+									"type": "minecraft:weighted_state_provider"
+								}
+							},
+							"type": "minecraft:simple_block"
+						},
+						"placement": [
+							{
+								"predicate": {
+									"predicates": [
+										{
+											"blocks": "minecraft:air",
+											"type": "minecraft:matching_blocks"
+										},
+										{
+											"offset": [
+												0.0,
+												-1.0,
+												0.0
+											],
+											"direction": "up",
+											"type": "minecraft:has_sturdy_face"
+										},
+										{
+											"predicate": {
+												"offset": [
+													0.0,
+													-1.0,
+													0.0
+												],
+												"blocks": "#realmrpg_skeletons:skeletons_cannot_generate_on",
+												"type": "minecraft:matching_blocks"
+											},
+											"type": "minecraft:not"
+										}
+									],
+									"type": "minecraft:all_of"
+								},
+								"type": "minecraft:block_predicate_filter"
+							}
+						]
+					}
+				},
+				"type": "realmrpg_skeletons:dripstone_cave_skeletons"
+			},
+			"nested": [],
+			"blocks": [
+				"realmrpg_skeletons:dripstone_skeleton"
+			],
+			"blockTags": [
+				"realmrpg_skeletons:skeletons_cannot_generate_on"
+			]
+		}
+	}
+}

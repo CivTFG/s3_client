@@ -1,0 +1,808 @@
+{
+	"group": "entities",
+	"namespace": "species",
+	"tables": [
+		{
+			"id": "species:entities/bewereager",
+			"json": {
+				"type": "minecraft:entity",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 2.0
+										},
+										"add": false
+									}
+								],
+								"name": "species:broken_links"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:killed_by_player"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "beneath:cursed_hide"
+							},
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 2.0
+										},
+										"add": false
+									}
+								],
+								"name": "species:werefang"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:killed_by_player"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 2.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:bone"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "species:broken_links",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:killed_by_player"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "beneath:cursed_hide",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:killed_by_player"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "species:werefang",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:killed_by_player"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bone",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "species:entities/mammutilation",
+			"json": {
+				"type": "minecraft:entity",
+				"pools": [
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "tfc:large_sheepskin_hide"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:killed_by_player"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 7.0,
+											"max": 10.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:bone"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 10.0,
+											"max": 15.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:rotten_flesh"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 5.0,
+											"max": 7.0
+										},
+										"add": false
+									}
+								],
+								"name": "tfc:blubber"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:killed_by_player"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "tfc:large_sheepskin_hide",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:killed_by_player"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bone",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 7.0,
+						"max": 10.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:rotten_flesh",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 10.0,
+						"max": 15.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 3.0,
+					"kind": "minecraft:item",
+					"id": "tfc:blubber",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 5.0,
+						"max": 7.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:killed_by_player"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "species:entities/quake",
+			"json": {
+				"type": "minecraft:entity",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:random_chance_with_looting",
+										"chance": 0.1,
+										"looting_multiplier": 0.01
+									}
+								],
+								"name": "species:kinetic_core"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "species:kinetic_core",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:random_chance_with_looting",
+							"chance": 0.1,
+							"lootingMultiplier": 0.01
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "species:entities/spectre",
+			"json": {
+				"type": "minecraft:entity",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										},
+										"add": false
+									}
+								],
+								"name": "species:broken_links"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:killed_by_player"
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 2.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:feather"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:killed_by_player"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "species:broken_links",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:killed_by_player"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:feather",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:killed_by_player"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "species:entities/wraptor",
+			"json": {
+				"type": "minecraft:entity",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"conditions": [
+											{
+												"condition": "minecraft:inverted",
+												"term": {
+													"condition": "minecraft:entity_properties",
+													"predicate": {
+														"type": "species:wraptor",
+														"nbt": "{FeatherStage:0}"
+													},
+													"entity": "this"
+												}
+											}
+										],
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 2.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:feather"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:feather",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": [],
+					"countConditional": true
+				}
+			]
+		},
+		{
+			"id": "species:entities/deepfish",
+			"json": {
+				"type": "minecraft:entity",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:slime_ball"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:random_chance",
+								"chance": 0.05
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:slime_ball",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:random_chance",
+							"chance": 0.05
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "species:entities/ghoul",
+			"json": {
+				"type": "minecraft:entity",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "species:ghoul_tongue"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:killed_by_player"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 2.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:bone"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "species:ghoul_tongue",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:killed_by_player"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bone",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "species:entities/wicked",
+			"json": {
+				"type": "minecraft:entity",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "tfc:candle"
+							},
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 2.0,
+											"max": 5.0
+										},
+										"add": false
+									}
+								],
+								"name": "gtceu:wax_nugget"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:killed_by_player"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "tfc:candle",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:killed_by_player"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "gtceu:wax_nugget",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 2.0,
+						"max": 5.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:killed_by_player"
+						}
+					],
+					"chain": []
+				}
+			]
+		}
+	]
+}

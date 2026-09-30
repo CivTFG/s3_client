@@ -1,0 +1,1351 @@
+{
+	"type": "gtceu:electromagnetic_separator",
+	"recipes": [
+		{
+			"id": "gtceu:electromagnetic_separator/separate_hematite_pure_dust_to_dust",
+			"category": "electromagnetic_separator",
+			"duration": 200,
+			"voltage": 24,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:pure_hematite_dust"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:hematite_dust"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:iron_dust"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:iron_nugget"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 2000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:electromagnetic_separator/separate_granitic_mineral_sand_pure_dust_to_dust",
+			"category": "electromagnetic_separator",
+			"duration": 200,
+			"voltage": 24,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:pure_granitic_mineral_sand_dust"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:granitic_mineral_sand_dust"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:gold_dust"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:gold_nugget"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 2000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:electromagnetic_separator/separate_magnetite_pure_dust_to_dust",
+			"category": "electromagnetic_separator",
+			"duration": 200,
+			"voltage": 24,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:pure_magnetite_dust"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:magnetite_dust"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:gold_dust"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:gold_nugget"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 2000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:electromagnetic_separator/separate_pentlandite_pure_dust_to_dust",
+			"category": "electromagnetic_separator",
+			"duration": 200,
+			"voltage": 24,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:pure_pentlandite_dust"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:pentlandite_dust"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:iron_dust"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:iron_nugget"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 2000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:electromagnetic_separator/separate_tin_pure_dust_to_dust",
+			"category": "electromagnetic_separator",
+			"duration": 200,
+			"voltage": 24,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:pure_tin_dust"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:tin_dust"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:iron_dust"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:iron_nugget"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 2000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:electromagnetic_separator/separate_chromite_pure_dust_to_dust",
+			"category": "electromagnetic_separator",
+			"duration": 200,
+			"voltage": 24,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:pure_chromite_dust"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:chromite_dust"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:iron_dust"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:iron_nugget"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 2000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:electromagnetic_separator/separate_vanadium_magnetite_pure_dust_to_dust",
+			"category": "electromagnetic_separator",
+			"duration": 200,
+			"voltage": 24,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:pure_vanadium_magnetite_dust"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:vanadium_magnetite_dust"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:gold_dust"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:gold_nugget"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 2000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:electromagnetic_separator/separate_glauconite_sand_pure_dust_to_dust",
+			"category": "electromagnetic_separator",
+			"duration": 200,
+			"voltage": 24,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:pure_glauconite_sand_dust"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:glauconite_sand_dust"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:iron_dust"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:iron_nugget"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 2000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:electromagnetic_separator/separate_bastnasite_pure_dust_to_dust",
+			"category": "electromagnetic_separator",
+			"duration": 200,
+			"voltage": 24,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:pure_bastnasite_dust"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:bastnasite_dust"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:neodymium_dust"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:neodymium_dust"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:electromagnetic_separator/separate_goethite_pure_dust_to_dust",
+			"category": "electromagnetic_separator",
+			"duration": 200,
+			"voltage": 24,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:pure_goethite_dust"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:goethite_dust"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:iron_dust"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:iron_nugget"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 2000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:electromagnetic_separator/bauxite_slag_separation",
+			"category": "electromagnetic_separator",
+			"duration": 50,
+			"voltage": 120,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:bauxite_slag_dust"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:salt_dust"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:chromium_dust"
+					],
+					"amount": 1,
+					"chanced": true,
+					"chance": 7500,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:neodymium_dust"
+					],
+					"amount": 1,
+					"chanced": true,
+					"chance": 2000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:electromagnetic_separator/separate_monazite_pure_dust_to_dust",
+			"category": "electromagnetic_separator",
+			"duration": 200,
+			"voltage": 24,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:pure_monazite_dust"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:monazite_dust"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:neodymium_dust"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:neodymium_dust"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:electromagnetic_separator/separate_nickel_pure_dust_to_dust",
+			"category": "electromagnetic_separator",
+			"duration": 200,
+			"voltage": 24,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:pure_nickel_dust"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:nickel_dust"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:iron_dust"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:iron_nugget"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 2000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:electromagnetic_separator/separate_basaltic_mineral_sand_pure_dust_to_dust",
+			"category": "electromagnetic_separator",
+			"duration": 200,
+			"voltage": 24,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:pure_basaltic_mineral_sand_dust"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:basaltic_mineral_sand_dust"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:gold_dust"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:gold_nugget"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 2000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:electromagnetic_separator/ilmenite_separation",
+			"category": "electromagnetic_separator",
+			"duration": 50,
+			"voltage": 120,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:ilmenite_slag_dust"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:iron_dust"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 8000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:tantalum_dust"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 2000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:niobium_dust"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:electromagnetic_separator/separate_naquadah_pure_dust_to_dust",
+			"category": "electromagnetic_separator",
+			"duration": 200,
+			"voltage": 24,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:pure_naquadah_dust"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:naquadah_dust"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:enriched_naquadah_dust"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:enriched_naquadah_dust"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:electromagnetic_separator/separate_yellow_limonite_pure_dust_to_dust",
+			"category": "electromagnetic_separator",
+			"duration": 200,
+			"voltage": 24,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:pure_yellow_limonite_dust"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:yellow_limonite_dust"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:iron_dust"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:iron_nugget"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 2000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:electromagnetic_separator/separate_pyrite_pure_dust_to_dust",
+			"category": "electromagnetic_separator",
+			"duration": 200,
+			"voltage": 24,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:pure_pyrite_dust"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:pyrite_dust"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:iron_dust"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:iron_nugget"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 2000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:electromagnetic_separator/mixed_garnet",
+			"category": "electromagnetic_separator",
+			"duration": 60,
+			"voltage": 120,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:garnet_sand_dust"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:spessartine_dust"
+					],
+					"amount": 1.0,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"ranged": true,
+					"amountMin": 0,
+					"amountMax": 2
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:almandine_dust"
+					],
+					"amount": 1.0,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"ranged": true,
+					"amountMin": 0,
+					"amountMax": 2
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:mixed_garnet_dust"
+					],
+					"amount": 1.5,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"ranged": true,
+					"amountMin": 0,
+					"amountMax": 3
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:electromagnetic_separator/separate_ilmenite_pure_dust_to_dust",
+			"category": "electromagnetic_separator",
+			"duration": 200,
+			"voltage": 24,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:pure_ilmenite_dust"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:ilmenite_dust"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:iron_dust"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:iron_nugget"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 2000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		}
+	]
+}

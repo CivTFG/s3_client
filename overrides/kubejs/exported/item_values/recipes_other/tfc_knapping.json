@@ -1,0 +1,2743 @@
+{
+	"type": "tfc:knapping",
+	"recipes": [
+		{
+			"id": "tfg:knapping/raw_shirt",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc_textile:primitive_insulation"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "tfc_textile:raw_shirt",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:rock_knapping/flint_hoe_head",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:flint"
+					],
+					"amount": 1.0
+				}
+			],
+			"resultId": "gtceu:flint_hoe_head",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:leather_knapping/leather_strip/3",
+			"mod": "knightsofterrafirma",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:leather",
+						"firmalife:pineapple_leather"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "magistuarmory:leather_strip",
+			"resultCount": 3,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:leather_knapping/leather_strip/2",
+			"mod": "knightsofterrafirma",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:leather",
+						"firmalife:pineapple_leather"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "magistuarmory:leather_strip",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:clay_knapping/blowpipe",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:clay_ball"
+					],
+					"amount": 5
+				}
+			],
+			"resultId": "tfc:ceramic/unfired_blowpipe",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:goat_horn_knapping/dream",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:goat_horn"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "minecraft:goat_horn",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:clay_knapping/flower_pot",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:clay_ball"
+					],
+					"amount": 5
+				}
+			],
+			"resultId": "tfc:ceramic/unfired_flower_pot",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:goat_horn_knapping/ponder",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:goat_horn"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "minecraft:goat_horn",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:rock_knapping/flint_knife_head_2",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:flint"
+					],
+					"amount": 1.0
+				}
+			],
+			"resultId": "gtceu:flint_knife_head",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:rock_knapping/flint_knife_head_1",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:flint"
+					],
+					"amount": 1.0
+				}
+			],
+			"resultId": "gtceu:flint_knife_head",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:leather_knapping/boots",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:leather",
+						"firmalife:pineapple_leather"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "minecraft:leather_boots",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:leather_knapping/saddle",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:leather",
+						"firmalife:pineapple_leather"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "minecraft:saddle",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:clay_knapping/axe_head_mold",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:clay_ball"
+					],
+					"amount": 5
+				}
+			],
+			"resultId": "tfc:ceramic/unfired_axe_head_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "firmalife:pumpkin_knapping/pickaxe",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:pumpkin"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "firmalife:carved_pumpkin/pickaxe",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:clay_knapping/vessel",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:clay_ball"
+					],
+					"amount": 5
+				}
+			],
+			"resultId": "tfc:ceramic/unfired_vessel",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:knapping/tfc_rock_loose_claystone_chalk",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:rock/loose/claystone"
+					],
+					"amount": 1.0
+				}
+			],
+			"resultId": "chalk:orange_chalk",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfcchannelcasting:fire_clay_knapping/unfired_mold_table",
+			"mod": "tfcchannelcasting",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:fire_clay"
+					],
+					"amount": 5
+				}
+			],
+			"resultId": "tfcchannelcasting:unfired_mold_table",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:knapping/raw_hat",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc_textile:primitive_insulation"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "tfc_textile:raw_hat",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:knapping/tfc_rock_loose_dolomite_chalk",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:rock/loose/dolomite"
+					],
+					"amount": 1.0
+				}
+			],
+			"resultId": "chalk:black_chalk",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:clay_knapping/large_vessel",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:clay_ball"
+					],
+					"amount": 5
+				}
+			],
+			"resultId": "tfc:ceramic/unfired_large_vessel",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:knapping/tfc_rock_loose_chalk_chalk",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:rock/loose/chalk"
+					],
+					"amount": 1.0
+				}
+			],
+			"resultId": "chalk:white_chalk",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:rock_knapping/stone_knife_head",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:rock/loose/granite",
+						"tfc:rock/mossy_loose/granite",
+						"tfc:rock/loose/diorite",
+						"tfc:rock/mossy_loose/diorite",
+						"tfc:rock/loose/gabbro",
+						"tfc:rock/mossy_loose/gabbro",
+						"tfc:rock/loose/shale",
+						"tfc:rock/mossy_loose/shale",
+						"tfc:rock/loose/claystone",
+						"tfc:rock/mossy_loose/claystone",
+						"tfc:rock/loose/limestone",
+						"tfc:rock/mossy_loose/limestone",
+						"tfc:rock/loose/conglomerate",
+						"tfc:rock/mossy_loose/conglomerate",
+						"tfc:rock/loose/dolomite",
+						"tfc:rock/mossy_loose/dolomite",
+						"tfc:rock/loose/chert",
+						"tfc:rock/mossy_loose/chert",
+						"tfc:rock/loose/chalk",
+						"tfc:rock/mossy_loose/chalk",
+						"tfc:rock/loose/rhyolite",
+						"tfc:rock/mossy_loose/rhyolite",
+						"tfc:rock/loose/basalt",
+						"tfc:rock/mossy_loose/basalt",
+						"tfc:rock/loose/andesite",
+						"tfc:rock/mossy_loose/andesite",
+						"tfc:rock/loose/dacite",
+						"tfc:rock/mossy_loose/dacite",
+						"tfc:rock/loose/quartzite",
+						"tfc:rock/mossy_loose/quartzite",
+						"tfc:rock/loose/slate",
+						"tfc:rock/mossy_loose/slate",
+						"tfc:rock/loose/phyllite",
+						"tfc:rock/mossy_loose/phyllite",
+						"tfc:rock/loose/schist",
+						"tfc:rock/mossy_loose/schist",
+						"tfc:rock/loose/gneiss",
+						"tfc:rock/mossy_loose/gneiss",
+						"tfc:rock/loose/marble",
+						"tfc:rock/mossy_loose/marble",
+						"beneath:blackstone_pebble",
+						"tfg:loose/deepslate",
+						"tfg:loose/dripstone",
+						"tfg:loose/crackrack",
+						"tfg:loose/tuff",
+						"tfg:loose/moon_stone",
+						"tfg:loose/moon_deepslate",
+						"tfg:loose/glacio_stone",
+						"tfg:loose/mars_stone",
+						"tfg:loose/venus_stone",
+						"tfg:loose/red_granite",
+						"tfg:loose/flavolite",
+						"tfg:loose/sandy_jadestone",
+						"tfg:loose/scoria",
+						"tfg:loose/scorchia",
+						"tfg:loose/mercury_stone",
+						"tfg:loose/permafrost"
+					],
+					"amount": 1.0
+				}
+			],
+			"resultId": "gtceu:stone_knife_head",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:fire_clay_knapping/unfired_nugget_mold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:clay_ball"
+					],
+					"amount": 1.0
+				}
+			],
+			"resultId": "tfg:unfired_nugget_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:rock_knapping/flint_hoe_head_2",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:flint"
+					],
+					"amount": 1.0
+				}
+			],
+			"resultId": "gtceu:flint_hoe_head",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:rock_knapping/flint_hoe_head_1",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:flint"
+					],
+					"amount": 1.0
+				}
+			],
+			"resultId": "gtceu:flint_hoe_head",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:knapping/flint_arrow_head",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:flint"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "tfg:flint_arrow_head",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:knapping/raw_pants",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc_textile:primitive_insulation"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "tfc_textile:raw_pants",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:knapping/raw_socks",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc_textile:primitive_insulation"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "tfc_textile:raw_socks",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:fire_clay_knapping/unfired_small_gear_mold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:fire_clay"
+					],
+					"amount": 1.0
+				}
+			],
+			"resultId": "tfg:unfired_small_gear_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "firmalife:pumpkin_knapping/left",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:pumpkin"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "firmalife:carved_pumpkin/left",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:rock_knapping/javelin_head_metamorphic",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:rock/loose/quartzite",
+						"tfc:rock/mossy_loose/quartzite",
+						"tfc:rock/loose/slate",
+						"tfc:rock/mossy_loose/slate",
+						"tfc:rock/loose/phyllite",
+						"tfc:rock/mossy_loose/phyllite",
+						"tfc:rock/loose/schist",
+						"tfc:rock/mossy_loose/schist",
+						"tfc:rock/loose/gneiss",
+						"tfc:rock/mossy_loose/gneiss",
+						"tfc:rock/loose/marble",
+						"tfc:rock/mossy_loose/marble",
+						"beneath:blackstone_pebble",
+						"tfg:loose/deepslate"
+					],
+					"amount": 1.0
+				}
+			],
+			"resultId": "tfc:stone/javelin_head/metamorphic",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:clay_knapping/chisel_head_mold",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:clay_ball"
+					],
+					"amount": 5
+				}
+			],
+			"resultId": "tfc:ceramic/unfired_chisel_head_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "firmalife:pumpkin_knapping/axe",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:pumpkin"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "firmalife:carved_pumpkin/axe",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:rock_knapping/flint_axe_head",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:flint"
+					],
+					"amount": 1.0
+				}
+			],
+			"resultId": "gtceu:flint_axe_head",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:clay_knapping/mace_blade_mold",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:clay_ball"
+					],
+					"amount": 5
+				}
+			],
+			"resultId": "tfc:ceramic/unfired_mace_head_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:rock_knapping/stone_hammer_head",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:rock/loose/granite",
+						"tfc:rock/mossy_loose/granite",
+						"tfc:rock/loose/diorite",
+						"tfc:rock/mossy_loose/diorite",
+						"tfc:rock/loose/gabbro",
+						"tfc:rock/mossy_loose/gabbro",
+						"tfc:rock/loose/shale",
+						"tfc:rock/mossy_loose/shale",
+						"tfc:rock/loose/claystone",
+						"tfc:rock/mossy_loose/claystone",
+						"tfc:rock/loose/limestone",
+						"tfc:rock/mossy_loose/limestone",
+						"tfc:rock/loose/conglomerate",
+						"tfc:rock/mossy_loose/conglomerate",
+						"tfc:rock/loose/dolomite",
+						"tfc:rock/mossy_loose/dolomite",
+						"tfc:rock/loose/chert",
+						"tfc:rock/mossy_loose/chert",
+						"tfc:rock/loose/chalk",
+						"tfc:rock/mossy_loose/chalk",
+						"tfc:rock/loose/rhyolite",
+						"tfc:rock/mossy_loose/rhyolite",
+						"tfc:rock/loose/basalt",
+						"tfc:rock/mossy_loose/basalt",
+						"tfc:rock/loose/andesite",
+						"tfc:rock/mossy_loose/andesite",
+						"tfc:rock/loose/dacite",
+						"tfc:rock/mossy_loose/dacite",
+						"tfc:rock/loose/quartzite",
+						"tfc:rock/mossy_loose/quartzite",
+						"tfc:rock/loose/slate",
+						"tfc:rock/mossy_loose/slate",
+						"tfc:rock/loose/phyllite",
+						"tfc:rock/mossy_loose/phyllite",
+						"tfc:rock/loose/schist",
+						"tfc:rock/mossy_loose/schist",
+						"tfc:rock/loose/gneiss",
+						"tfc:rock/mossy_loose/gneiss",
+						"tfc:rock/loose/marble",
+						"tfc:rock/mossy_loose/marble",
+						"beneath:blackstone_pebble",
+						"tfg:loose/deepslate",
+						"tfg:loose/dripstone",
+						"tfg:loose/crackrack",
+						"tfg:loose/tuff",
+						"tfg:loose/moon_stone",
+						"tfg:loose/moon_deepslate",
+						"tfg:loose/glacio_stone",
+						"tfg:loose/mars_stone",
+						"tfg:loose/venus_stone",
+						"tfg:loose/red_granite",
+						"tfg:loose/flavolite",
+						"tfg:loose/sandy_jadestone",
+						"tfg:loose/scoria",
+						"tfg:loose/scorchia",
+						"tfg:loose/mercury_stone",
+						"tfg:loose/permafrost"
+					],
+					"amount": 1.0
+				}
+			],
+			"resultId": "gtceu:stone_hammer_head",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:rock_knapping/stone_hoe_head_1",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:rock/loose/granite",
+						"tfc:rock/mossy_loose/granite",
+						"tfc:rock/loose/diorite",
+						"tfc:rock/mossy_loose/diorite",
+						"tfc:rock/loose/gabbro",
+						"tfc:rock/mossy_loose/gabbro",
+						"tfc:rock/loose/shale",
+						"tfc:rock/mossy_loose/shale",
+						"tfc:rock/loose/claystone",
+						"tfc:rock/mossy_loose/claystone",
+						"tfc:rock/loose/limestone",
+						"tfc:rock/mossy_loose/limestone",
+						"tfc:rock/loose/conglomerate",
+						"tfc:rock/mossy_loose/conglomerate",
+						"tfc:rock/loose/dolomite",
+						"tfc:rock/mossy_loose/dolomite",
+						"tfc:rock/loose/chert",
+						"tfc:rock/mossy_loose/chert",
+						"tfc:rock/loose/chalk",
+						"tfc:rock/mossy_loose/chalk",
+						"tfc:rock/loose/rhyolite",
+						"tfc:rock/mossy_loose/rhyolite",
+						"tfc:rock/loose/basalt",
+						"tfc:rock/mossy_loose/basalt",
+						"tfc:rock/loose/andesite",
+						"tfc:rock/mossy_loose/andesite",
+						"tfc:rock/loose/dacite",
+						"tfc:rock/mossy_loose/dacite",
+						"tfc:rock/loose/quartzite",
+						"tfc:rock/mossy_loose/quartzite",
+						"tfc:rock/loose/slate",
+						"tfc:rock/mossy_loose/slate",
+						"tfc:rock/loose/phyllite",
+						"tfc:rock/mossy_loose/phyllite",
+						"tfc:rock/loose/schist",
+						"tfc:rock/mossy_loose/schist",
+						"tfc:rock/loose/gneiss",
+						"tfc:rock/mossy_loose/gneiss",
+						"tfc:rock/loose/marble",
+						"tfc:rock/mossy_loose/marble",
+						"beneath:blackstone_pebble",
+						"tfg:loose/deepslate",
+						"tfg:loose/dripstone",
+						"tfg:loose/crackrack",
+						"tfg:loose/tuff",
+						"tfg:loose/moon_stone",
+						"tfg:loose/moon_deepslate",
+						"tfg:loose/glacio_stone",
+						"tfg:loose/mars_stone",
+						"tfg:loose/venus_stone",
+						"tfg:loose/red_granite",
+						"tfg:loose/flavolite",
+						"tfg:loose/sandy_jadestone",
+						"tfg:loose/scoria",
+						"tfg:loose/scorchia",
+						"tfg:loose/mercury_stone",
+						"tfg:loose/permafrost"
+					],
+					"amount": 1.0
+				}
+			],
+			"resultId": "gtceu:stone_hoe_head",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:rock_knapping/stone_hoe_head_2",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:rock/loose/granite",
+						"tfc:rock/mossy_loose/granite",
+						"tfc:rock/loose/diorite",
+						"tfc:rock/mossy_loose/diorite",
+						"tfc:rock/loose/gabbro",
+						"tfc:rock/mossy_loose/gabbro",
+						"tfc:rock/loose/shale",
+						"tfc:rock/mossy_loose/shale",
+						"tfc:rock/loose/claystone",
+						"tfc:rock/mossy_loose/claystone",
+						"tfc:rock/loose/limestone",
+						"tfc:rock/mossy_loose/limestone",
+						"tfc:rock/loose/conglomerate",
+						"tfc:rock/mossy_loose/conglomerate",
+						"tfc:rock/loose/dolomite",
+						"tfc:rock/mossy_loose/dolomite",
+						"tfc:rock/loose/chert",
+						"tfc:rock/mossy_loose/chert",
+						"tfc:rock/loose/chalk",
+						"tfc:rock/mossy_loose/chalk",
+						"tfc:rock/loose/rhyolite",
+						"tfc:rock/mossy_loose/rhyolite",
+						"tfc:rock/loose/basalt",
+						"tfc:rock/mossy_loose/basalt",
+						"tfc:rock/loose/andesite",
+						"tfc:rock/mossy_loose/andesite",
+						"tfc:rock/loose/dacite",
+						"tfc:rock/mossy_loose/dacite",
+						"tfc:rock/loose/quartzite",
+						"tfc:rock/mossy_loose/quartzite",
+						"tfc:rock/loose/slate",
+						"tfc:rock/mossy_loose/slate",
+						"tfc:rock/loose/phyllite",
+						"tfc:rock/mossy_loose/phyllite",
+						"tfc:rock/loose/schist",
+						"tfc:rock/mossy_loose/schist",
+						"tfc:rock/loose/gneiss",
+						"tfc:rock/mossy_loose/gneiss",
+						"tfc:rock/loose/marble",
+						"tfc:rock/mossy_loose/marble",
+						"beneath:blackstone_pebble",
+						"tfg:loose/deepslate",
+						"tfg:loose/dripstone",
+						"tfg:loose/crackrack",
+						"tfg:loose/tuff",
+						"tfg:loose/moon_stone",
+						"tfg:loose/moon_deepslate",
+						"tfg:loose/glacio_stone",
+						"tfg:loose/mars_stone",
+						"tfg:loose/venus_stone",
+						"tfg:loose/red_granite",
+						"tfg:loose/flavolite",
+						"tfg:loose/sandy_jadestone",
+						"tfg:loose/scoria",
+						"tfg:loose/scorchia",
+						"tfg:loose/mercury_stone",
+						"tfg:loose/permafrost"
+					],
+					"amount": 1.0
+				}
+			],
+			"resultId": "gtceu:stone_hoe_head",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "firmalife:pumpkin_knapping/right",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:pumpkin"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "firmalife:carved_pumpkin/right",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:goat_horn_knapping/admire",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:goat_horn"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "minecraft:goat_horn",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "firmalife:pumpkin_knapping/circle",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:pumpkin"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "firmalife:carved_pumpkin/circle",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "sns:straw_knapping/straw_basket",
+			"mod": "sns",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:straw"
+					],
+					"amount": 1.0
+				}
+			],
+			"resultId": "sns:straw_basket",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:fire_clay_knapping/unfired_rod_mold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:fire_clay"
+					],
+					"amount": 1.0
+				}
+			],
+			"resultId": "tfg:unfired_rod_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:knapping/tfc_rock_loose_chert_chalk",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:rock/loose/chert"
+					],
+					"amount": 1.0
+				}
+			],
+			"resultId": "chalk:red_chalk",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:leather_knapping/leggings",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:leather",
+						"firmalife:pineapple_leather"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "minecraft:leather_leggings",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:knapping/tfc_rock_loose_limestone_chalk",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:rock/loose/limestone"
+					],
+					"amount": 1.0
+				}
+			],
+			"resultId": "chalk:light_gray_chalk",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "sns:leather_knapping/quiver",
+			"mod": "sns",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:leather",
+						"firmalife:pineapple_leather"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "sns:quiver",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:clay_knapping/brick",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:clay_ball"
+					],
+					"amount": 5
+				}
+			],
+			"resultId": "tfc:ceramic/unfired_brick",
+			"resultCount": 3,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:clay_knapping/sword_blade_mold",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:clay_ball"
+					],
+					"amount": 5
+				}
+			],
+			"resultId": "tfc:ceramic/unfired_sword_blade_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:clay_knapping/unfired_lamp_mold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:clay_ball"
+					],
+					"amount": 1.0
+				}
+			],
+			"resultId": "tfg:unfired_lamp_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfcchannelcasting:clay_knapping/unfired_heart_mold",
+			"mod": "tfcchannelcasting",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:clay_ball"
+					],
+					"amount": 5
+				}
+			],
+			"resultId": "tfcchannelcasting:unfired_heart_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:fire_clay_knapping/fire_ingot_mold",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:fire_clay"
+					],
+					"amount": 5
+				}
+			],
+			"resultId": "tfc:ceramic/unfired_fire_ingot_mold",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfchotornot:leather_knapping/mittens",
+			"mod": "tfchotornot",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:leather",
+						"firmalife:pineapple_leather"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "tfchotornot:mittens",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:rock_knapping/flint_knife_head_3",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:flint"
+					],
+					"amount": 1.0
+				}
+			],
+			"resultId": "gtceu:flint_knife_head",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:knapping/leather_apron",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:leather",
+						"firmalife:pineapple_leather"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "tfcambiental:leather_apron",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:clay_knapping/hammer_head_mold",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:clay_ball"
+					],
+					"amount": 5
+				}
+			],
+			"resultId": "tfc:ceramic/unfired_hammer_head_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:clay_knapping/scythe_blade_mold",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:clay_ball"
+					],
+					"amount": 5
+				}
+			],
+			"resultId": "tfc:ceramic/unfired_scythe_blade_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:rock_knapping/javelin_head_sedimentary",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:rock/loose/shale",
+						"tfc:rock/mossy_loose/shale",
+						"tfc:rock/loose/claystone",
+						"tfc:rock/mossy_loose/claystone",
+						"tfc:rock/loose/limestone",
+						"tfc:rock/mossy_loose/limestone",
+						"tfc:rock/loose/conglomerate",
+						"tfc:rock/mossy_loose/conglomerate",
+						"tfc:rock/loose/dolomite",
+						"tfc:rock/mossy_loose/dolomite",
+						"tfc:rock/loose/chert",
+						"tfc:rock/mossy_loose/chert",
+						"tfc:rock/loose/chalk",
+						"tfc:rock/mossy_loose/chalk",
+						"tfg:loose/dripstone",
+						"tfg:loose/mars_stone"
+					],
+					"amount": 1.0
+				}
+			],
+			"resultId": "tfc:stone/javelin_head/sedimentary",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:clay_knapping/jug",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:clay_ball"
+					],
+					"amount": 5
+				}
+			],
+			"resultId": "tfc:ceramic/unfired_jug",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "firmalife:pumpkin_knapping/creeper",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:pumpkin"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "firmalife:carved_pumpkin/creeper",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:knapping/tfc_rock_loose_conglomerate_chalk",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:rock/loose/conglomerate"
+					],
+					"amount": 1.0
+				}
+			],
+			"resultId": "chalk:light_gray_chalk",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:fire_clay_knapping/crucible",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:fire_clay"
+					],
+					"amount": 5
+				}
+			],
+			"resultId": "tfc:ceramic/unfired_crucible",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:clay_knapping/propick_head_mold",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:clay_ball"
+					],
+					"amount": 5
+				}
+			],
+			"resultId": "tfc:ceramic/unfired_propick_head_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:rock_knapping/stone_knife_head_3",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:rock/loose/granite",
+						"tfc:rock/mossy_loose/granite",
+						"tfc:rock/loose/diorite",
+						"tfc:rock/mossy_loose/diorite",
+						"tfc:rock/loose/gabbro",
+						"tfc:rock/mossy_loose/gabbro",
+						"tfc:rock/loose/shale",
+						"tfc:rock/mossy_loose/shale",
+						"tfc:rock/loose/claystone",
+						"tfc:rock/mossy_loose/claystone",
+						"tfc:rock/loose/limestone",
+						"tfc:rock/mossy_loose/limestone",
+						"tfc:rock/loose/conglomerate",
+						"tfc:rock/mossy_loose/conglomerate",
+						"tfc:rock/loose/dolomite",
+						"tfc:rock/mossy_loose/dolomite",
+						"tfc:rock/loose/chert",
+						"tfc:rock/mossy_loose/chert",
+						"tfc:rock/loose/chalk",
+						"tfc:rock/mossy_loose/chalk",
+						"tfc:rock/loose/rhyolite",
+						"tfc:rock/mossy_loose/rhyolite",
+						"tfc:rock/loose/basalt",
+						"tfc:rock/mossy_loose/basalt",
+						"tfc:rock/loose/andesite",
+						"tfc:rock/mossy_loose/andesite",
+						"tfc:rock/loose/dacite",
+						"tfc:rock/mossy_loose/dacite",
+						"tfc:rock/loose/quartzite",
+						"tfc:rock/mossy_loose/quartzite",
+						"tfc:rock/loose/slate",
+						"tfc:rock/mossy_loose/slate",
+						"tfc:rock/loose/phyllite",
+						"tfc:rock/mossy_loose/phyllite",
+						"tfc:rock/loose/schist",
+						"tfc:rock/mossy_loose/schist",
+						"tfc:rock/loose/gneiss",
+						"tfc:rock/mossy_loose/gneiss",
+						"tfc:rock/loose/marble",
+						"tfc:rock/mossy_loose/marble",
+						"beneath:blackstone_pebble",
+						"tfg:loose/deepslate",
+						"tfg:loose/dripstone",
+						"tfg:loose/crackrack",
+						"tfg:loose/tuff",
+						"tfg:loose/moon_stone",
+						"tfg:loose/moon_deepslate",
+						"tfg:loose/glacio_stone",
+						"tfg:loose/mars_stone",
+						"tfg:loose/venus_stone",
+						"tfg:loose/red_granite",
+						"tfg:loose/flavolite",
+						"tfg:loose/sandy_jadestone",
+						"tfg:loose/scoria",
+						"tfg:loose/scorchia",
+						"tfg:loose/mercury_stone",
+						"tfg:loose/permafrost"
+					],
+					"amount": 1.0
+				}
+			],
+			"resultId": "gtceu:stone_knife_head",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:clay_knapping/bowl_2",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:clay_ball"
+					],
+					"amount": 5
+				}
+			],
+			"resultId": "tfc:ceramic/unfired_bowl",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "firmalife:pumpkin_knapping/none",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:pumpkin"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "firmalife:carved_pumpkin/none",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "firmalife:pumpkin_knapping/hammer",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:pumpkin"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "firmalife:carved_pumpkin/hammer",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:clay_knapping/bowl_4",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:clay_ball"
+					],
+					"amount": 5
+				}
+			],
+			"resultId": "tfc:ceramic/unfired_bowl",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "firmalife:pumpkin_knapping/chunks",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:pumpkin"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "tfc:food/pumpkin_chunks",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:clay_knapping/javelin_head_mold",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:clay_ball"
+					],
+					"amount": 5
+				}
+			],
+			"resultId": "tfc:ceramic/unfired_javelin_head_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:rock_knapping/stone_knife_head_1",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:rock/loose/granite",
+						"tfc:rock/mossy_loose/granite",
+						"tfc:rock/loose/diorite",
+						"tfc:rock/mossy_loose/diorite",
+						"tfc:rock/loose/gabbro",
+						"tfc:rock/mossy_loose/gabbro",
+						"tfc:rock/loose/shale",
+						"tfc:rock/mossy_loose/shale",
+						"tfc:rock/loose/claystone",
+						"tfc:rock/mossy_loose/claystone",
+						"tfc:rock/loose/limestone",
+						"tfc:rock/mossy_loose/limestone",
+						"tfc:rock/loose/conglomerate",
+						"tfc:rock/mossy_loose/conglomerate",
+						"tfc:rock/loose/dolomite",
+						"tfc:rock/mossy_loose/dolomite",
+						"tfc:rock/loose/chert",
+						"tfc:rock/mossy_loose/chert",
+						"tfc:rock/loose/chalk",
+						"tfc:rock/mossy_loose/chalk",
+						"tfc:rock/loose/rhyolite",
+						"tfc:rock/mossy_loose/rhyolite",
+						"tfc:rock/loose/basalt",
+						"tfc:rock/mossy_loose/basalt",
+						"tfc:rock/loose/andesite",
+						"tfc:rock/mossy_loose/andesite",
+						"tfc:rock/loose/dacite",
+						"tfc:rock/mossy_loose/dacite",
+						"tfc:rock/loose/quartzite",
+						"tfc:rock/mossy_loose/quartzite",
+						"tfc:rock/loose/slate",
+						"tfc:rock/mossy_loose/slate",
+						"tfc:rock/loose/phyllite",
+						"tfc:rock/mossy_loose/phyllite",
+						"tfc:rock/loose/schist",
+						"tfc:rock/mossy_loose/schist",
+						"tfc:rock/loose/gneiss",
+						"tfc:rock/mossy_loose/gneiss",
+						"tfc:rock/loose/marble",
+						"tfc:rock/mossy_loose/marble",
+						"beneath:blackstone_pebble",
+						"tfg:loose/deepslate",
+						"tfg:loose/dripstone",
+						"tfg:loose/crackrack",
+						"tfg:loose/tuff",
+						"tfg:loose/moon_stone",
+						"tfg:loose/moon_deepslate",
+						"tfg:loose/glacio_stone",
+						"tfg:loose/mars_stone",
+						"tfg:loose/venus_stone",
+						"tfg:loose/red_granite",
+						"tfg:loose/flavolite",
+						"tfg:loose/sandy_jadestone",
+						"tfg:loose/scoria",
+						"tfg:loose/scorchia",
+						"tfg:loose/mercury_stone",
+						"tfg:loose/permafrost"
+					],
+					"amount": 1.0
+				}
+			],
+			"resultId": "gtceu:stone_knife_head",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:leather_knapping/leather_strip/2_apart_2",
+			"mod": "knightsofterrafirma",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:leather",
+						"firmalife:pineapple_leather"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "magistuarmory:leather_strip",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:rock_knapping/stone_knife_head_2",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:rock/loose/granite",
+						"tfc:rock/mossy_loose/granite",
+						"tfc:rock/loose/diorite",
+						"tfc:rock/mossy_loose/diorite",
+						"tfc:rock/loose/gabbro",
+						"tfc:rock/mossy_loose/gabbro",
+						"tfc:rock/loose/shale",
+						"tfc:rock/mossy_loose/shale",
+						"tfc:rock/loose/claystone",
+						"tfc:rock/mossy_loose/claystone",
+						"tfc:rock/loose/limestone",
+						"tfc:rock/mossy_loose/limestone",
+						"tfc:rock/loose/conglomerate",
+						"tfc:rock/mossy_loose/conglomerate",
+						"tfc:rock/loose/dolomite",
+						"tfc:rock/mossy_loose/dolomite",
+						"tfc:rock/loose/chert",
+						"tfc:rock/mossy_loose/chert",
+						"tfc:rock/loose/chalk",
+						"tfc:rock/mossy_loose/chalk",
+						"tfc:rock/loose/rhyolite",
+						"tfc:rock/mossy_loose/rhyolite",
+						"tfc:rock/loose/basalt",
+						"tfc:rock/mossy_loose/basalt",
+						"tfc:rock/loose/andesite",
+						"tfc:rock/mossy_loose/andesite",
+						"tfc:rock/loose/dacite",
+						"tfc:rock/mossy_loose/dacite",
+						"tfc:rock/loose/quartzite",
+						"tfc:rock/mossy_loose/quartzite",
+						"tfc:rock/loose/slate",
+						"tfc:rock/mossy_loose/slate",
+						"tfc:rock/loose/phyllite",
+						"tfc:rock/mossy_loose/phyllite",
+						"tfc:rock/loose/schist",
+						"tfc:rock/mossy_loose/schist",
+						"tfc:rock/loose/gneiss",
+						"tfc:rock/mossy_loose/gneiss",
+						"tfc:rock/loose/marble",
+						"tfc:rock/mossy_loose/marble",
+						"beneath:blackstone_pebble",
+						"tfg:loose/deepslate",
+						"tfg:loose/dripstone",
+						"tfg:loose/crackrack",
+						"tfg:loose/tuff",
+						"tfg:loose/moon_stone",
+						"tfg:loose/moon_deepslate",
+						"tfg:loose/glacio_stone",
+						"tfg:loose/mars_stone",
+						"tfg:loose/venus_stone",
+						"tfg:loose/red_granite",
+						"tfg:loose/flavolite",
+						"tfg:loose/sandy_jadestone",
+						"tfg:loose/scoria",
+						"tfg:loose/scorchia",
+						"tfg:loose/mercury_stone",
+						"tfg:loose/permafrost"
+					],
+					"amount": 1.0
+				}
+			],
+			"resultId": "gtceu:stone_knife_head",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:leather_knapping/leather_strip/2_apart_3",
+			"mod": "knightsofterrafirma",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:leather",
+						"firmalife:pineapple_leather"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "magistuarmory:leather_strip",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "firmalife:clay_knapping/oven_chimney",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:clay_ball"
+					],
+					"amount": 5
+				}
+			],
+			"resultId": "firmalife:oven_chimney",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:knapping/flint_club_head",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:flint"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "tfg:flint_club_head",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:goat_horn_knapping/sing",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:goat_horn"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "minecraft:goat_horn",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "minecraft:waterflasks/leather_knapping/leather_side_2",
+			"mod": "minecraft",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:leather",
+						"firmalife:pineapple_leather"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "waterflasks:leather_side",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:straw_knapping/thatch_block",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:straw"
+					],
+					"amount": 1.0
+				}
+			],
+			"resultId": "tfc:thatch",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:clay_knapping/shovel_head_mold",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:clay_ball"
+					],
+					"amount": 5
+				}
+			],
+			"resultId": "tfc:ceramic/unfired_shovel_head_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "waterflasks:leather_knapping/leather_side",
+			"mod": "waterflasks",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:leather",
+						"firmalife:pineapple_leather"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "waterflasks:leather_side",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "sns:straw_knapping/straw_hat",
+			"mod": "sns",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:straw"
+					],
+					"amount": 1.0
+				}
+			],
+			"resultId": "tfcambiental:straw_hat",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:rock_knapping/flint_knife_head",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:flint"
+					],
+					"amount": 1.0
+				}
+			],
+			"resultId": "gtceu:flint_knife_head",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "firmalife:pumpkin_knapping/face",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:pumpkin"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "minecraft:carved_pumpkin",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfcscraping:clay_knapping/scraping_knife_blade_mold",
+			"mod": "tfcscraping",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:clay_ball"
+					],
+					"amount": 5
+				}
+			],
+			"resultId": "tfcscraping:ceramic/unfired_scraping_knife_blade_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:clay_knapping/ingot_mold",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:clay_ball"
+					],
+					"amount": 5
+				}
+			],
+			"resultId": "tfc:ceramic/unfired_ingot_mold",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:goat_horn_knapping/feel",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:goat_horn"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "minecraft:goat_horn",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:clay_knapping/pot",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:clay_ball"
+					],
+					"amount": 5
+				}
+			],
+			"resultId": "tfc:ceramic/unfired_pot",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "firmalife:clay_knapping/oven_top",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:clay_ball"
+					],
+					"amount": 5
+				}
+			],
+			"resultId": "firmalife:oven_top",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:fire_clay_knapping/brick",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:fire_clay"
+					],
+					"amount": 5
+				}
+			],
+			"resultId": "tfc:ceramic/unfired_fire_brick",
+			"resultCount": 3,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:leather_knapping/horse_armor",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:leather",
+						"firmalife:pineapple_leather"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "minecraft:leather_horse_armor",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:clay_knapping/roof_tile_c",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:clay_ball"
+					],
+					"amount": 5
+				}
+			],
+			"resultId": "rnr:unfired_roof_tile",
+			"resultCount": 5,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:leather_knapping/helmet",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:leather",
+						"firmalife:pineapple_leather"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "minecraft:leather_helmet",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:clay_knapping/roof_tile_b",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:clay_ball"
+					],
+					"amount": 5
+				}
+			],
+			"resultId": "rnr:unfired_roof_tile",
+			"resultCount": 5,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:clay_knapping/roof_tile_a",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:clay_ball"
+					],
+					"amount": 5
+				}
+			],
+			"resultId": "rnr:unfired_roof_tile",
+			"resultCount": 10,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:clay_knapping/saw_blade_mold",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:clay_ball"
+					],
+					"amount": 5
+				}
+			],
+			"resultId": "tfc:ceramic/unfired_saw_blade_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:rock_knapping/stone_shovel_head",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:rock/loose/granite",
+						"tfc:rock/mossy_loose/granite",
+						"tfc:rock/loose/diorite",
+						"tfc:rock/mossy_loose/diorite",
+						"tfc:rock/loose/gabbro",
+						"tfc:rock/mossy_loose/gabbro",
+						"tfc:rock/loose/shale",
+						"tfc:rock/mossy_loose/shale",
+						"tfc:rock/loose/claystone",
+						"tfc:rock/mossy_loose/claystone",
+						"tfc:rock/loose/limestone",
+						"tfc:rock/mossy_loose/limestone",
+						"tfc:rock/loose/conglomerate",
+						"tfc:rock/mossy_loose/conglomerate",
+						"tfc:rock/loose/dolomite",
+						"tfc:rock/mossy_loose/dolomite",
+						"tfc:rock/loose/chert",
+						"tfc:rock/mossy_loose/chert",
+						"tfc:rock/loose/chalk",
+						"tfc:rock/mossy_loose/chalk",
+						"tfc:rock/loose/rhyolite",
+						"tfc:rock/mossy_loose/rhyolite",
+						"tfc:rock/loose/basalt",
+						"tfc:rock/mossy_loose/basalt",
+						"tfc:rock/loose/andesite",
+						"tfc:rock/mossy_loose/andesite",
+						"tfc:rock/loose/dacite",
+						"tfc:rock/mossy_loose/dacite",
+						"tfc:rock/loose/quartzite",
+						"tfc:rock/mossy_loose/quartzite",
+						"tfc:rock/loose/slate",
+						"tfc:rock/mossy_loose/slate",
+						"tfc:rock/loose/phyllite",
+						"tfc:rock/mossy_loose/phyllite",
+						"tfc:rock/loose/schist",
+						"tfc:rock/mossy_loose/schist",
+						"tfc:rock/loose/gneiss",
+						"tfc:rock/mossy_loose/gneiss",
+						"tfc:rock/loose/marble",
+						"tfc:rock/mossy_loose/marble",
+						"beneath:blackstone_pebble",
+						"tfg:loose/deepslate",
+						"tfg:loose/dripstone",
+						"tfg:loose/crackrack",
+						"tfg:loose/tuff",
+						"tfg:loose/moon_stone",
+						"tfg:loose/moon_deepslate",
+						"tfg:loose/glacio_stone",
+						"tfg:loose/mars_stone",
+						"tfg:loose/venus_stone",
+						"tfg:loose/red_granite",
+						"tfg:loose/flavolite",
+						"tfg:loose/sandy_jadestone",
+						"tfg:loose/scoria",
+						"tfg:loose/scorchia",
+						"tfg:loose/mercury_stone",
+						"tfg:loose/permafrost"
+					],
+					"amount": 1.0
+				}
+			],
+			"resultId": "gtceu:stone_shovel_head",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:rock_knapping/javelin_head_igneous_intrusive",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:rock/loose/granite",
+						"tfc:rock/mossy_loose/granite",
+						"tfc:rock/loose/diorite",
+						"tfc:rock/mossy_loose/diorite",
+						"tfc:rock/loose/gabbro",
+						"tfc:rock/mossy_loose/gabbro",
+						"tfg:loose/moon_stone",
+						"tfg:loose/moon_deepslate",
+						"tfg:loose/red_granite",
+						"tfg:loose/mercury_stone"
+					],
+					"amount": 1.0
+				}
+			],
+			"resultId": "tfc:stone/javelin_head/igneous_intrusive",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:rock_knapping/javelin_head_igneous_extrusive",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:rock/loose/rhyolite",
+						"tfc:rock/mossy_loose/rhyolite",
+						"tfc:rock/loose/basalt",
+						"tfc:rock/mossy_loose/basalt",
+						"tfc:rock/loose/andesite",
+						"tfc:rock/mossy_loose/andesite",
+						"tfc:rock/loose/dacite",
+						"tfc:rock/mossy_loose/dacite",
+						"tfg:loose/crackrack",
+						"tfg:loose/tuff",
+						"tfg:loose/glacio_stone",
+						"tfg:loose/venus_stone",
+						"tfg:loose/flavolite",
+						"tfg:loose/sandy_jadestone",
+						"tfg:loose/scoria",
+						"tfg:loose/scorchia"
+					],
+					"amount": 1.0
+				}
+			],
+			"resultId": "tfc:stone/javelin_head/igneous_extrusive",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "firmalife:clay_knapping/oven_bottom",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:clay_ball"
+					],
+					"amount": 5
+				}
+			],
+			"resultId": "firmalife:oven_bottom",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:goat_horn_knapping/yearn",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:goat_horn"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "minecraft:goat_horn",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "sns:leather_knapping/unfinished_leather_sack",
+			"mod": "sns",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:leather",
+						"firmalife:pineapple_leather"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "sns:unfinished_leather_sack",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:rock_knapping/flint_shovel_head",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:flint"
+					],
+					"amount": 1.0
+				}
+			],
+			"resultId": "gtceu:flint_shovel_head",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:knapping/tfc_rock_loose_shale_chalk",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:rock/loose/shale"
+					],
+					"amount": 1.0
+				}
+			],
+			"resultId": "chalk:gray_chalk",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:clay_knapping/spindle_head",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:clay_ball"
+					],
+					"amount": 5
+				}
+			],
+			"resultId": "tfc:ceramic/unfired_spindle_head",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:knapping/tfg_loose_mars_stone_chalk",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:loose/mars_stone"
+					],
+					"amount": 1.0
+				}
+			],
+			"resultId": "chalk:orange_chalk",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:clay_knapping/hoe_head_mold",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:clay_ball"
+					],
+					"amount": 5
+				}
+			],
+			"resultId": "tfc:ceramic/unfired_hoe_head_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:rock_knapping/stone_hoe_head",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:rock/loose/granite",
+						"tfc:rock/mossy_loose/granite",
+						"tfc:rock/loose/diorite",
+						"tfc:rock/mossy_loose/diorite",
+						"tfc:rock/loose/gabbro",
+						"tfc:rock/mossy_loose/gabbro",
+						"tfc:rock/loose/shale",
+						"tfc:rock/mossy_loose/shale",
+						"tfc:rock/loose/claystone",
+						"tfc:rock/mossy_loose/claystone",
+						"tfc:rock/loose/limestone",
+						"tfc:rock/mossy_loose/limestone",
+						"tfc:rock/loose/conglomerate",
+						"tfc:rock/mossy_loose/conglomerate",
+						"tfc:rock/loose/dolomite",
+						"tfc:rock/mossy_loose/dolomite",
+						"tfc:rock/loose/chert",
+						"tfc:rock/mossy_loose/chert",
+						"tfc:rock/loose/chalk",
+						"tfc:rock/mossy_loose/chalk",
+						"tfc:rock/loose/rhyolite",
+						"tfc:rock/mossy_loose/rhyolite",
+						"tfc:rock/loose/basalt",
+						"tfc:rock/mossy_loose/basalt",
+						"tfc:rock/loose/andesite",
+						"tfc:rock/mossy_loose/andesite",
+						"tfc:rock/loose/dacite",
+						"tfc:rock/mossy_loose/dacite",
+						"tfc:rock/loose/quartzite",
+						"tfc:rock/mossy_loose/quartzite",
+						"tfc:rock/loose/slate",
+						"tfc:rock/mossy_loose/slate",
+						"tfc:rock/loose/phyllite",
+						"tfc:rock/mossy_loose/phyllite",
+						"tfc:rock/loose/schist",
+						"tfc:rock/mossy_loose/schist",
+						"tfc:rock/loose/gneiss",
+						"tfc:rock/mossy_loose/gneiss",
+						"tfc:rock/loose/marble",
+						"tfc:rock/mossy_loose/marble",
+						"beneath:blackstone_pebble",
+						"tfg:loose/deepslate",
+						"tfg:loose/dripstone",
+						"tfg:loose/crackrack",
+						"tfg:loose/tuff",
+						"tfg:loose/moon_stone",
+						"tfg:loose/moon_deepslate",
+						"tfg:loose/glacio_stone",
+						"tfg:loose/mars_stone",
+						"tfg:loose/venus_stone",
+						"tfg:loose/red_granite",
+						"tfg:loose/flavolite",
+						"tfg:loose/sandy_jadestone",
+						"tfg:loose/scoria",
+						"tfg:loose/scorchia",
+						"tfg:loose/mercury_stone",
+						"tfg:loose/permafrost"
+					],
+					"amount": 1.0
+				}
+			],
+			"resultId": "gtceu:stone_hoe_head",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:knapping/tfg_loose_dripstone_chalk",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:loose/dripstone"
+					],
+					"amount": 1.0
+				}
+			],
+			"resultId": "chalk:brown_chalk",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:goat_horn_knapping/call",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:goat_horn"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "minecraft:goat_horn",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:clay_knapping/pan",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:clay_ball"
+					],
+					"amount": 5
+				}
+			],
+			"resultId": "tfc:ceramic/unfired_pan",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:leather_knapping/chestplate",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:leather",
+						"firmalife:pineapple_leather"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "minecraft:leather_chestplate",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "sns:leather_knapping/leather_strip",
+			"mod": "sns",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:leather",
+						"firmalife:pineapple_leather"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "sns:leather_strip",
+			"resultCount": 3,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:clay_knapping/bell_mold",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:clay_ball"
+					],
+					"amount": 5
+				}
+			],
+			"resultId": "tfc:ceramic/unfired_bell_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:clay_knapping/pickaxe_head_mold",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:clay_ball"
+					],
+					"amount": 5
+				}
+			],
+			"resultId": "tfc:ceramic/unfired_pickaxe_head_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:goat_horn_knapping/seek",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:goat_horn"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "minecraft:goat_horn",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:rock_knapping/flint_sword_head",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:flint"
+					],
+					"amount": 1.0
+				}
+			],
+			"resultId": "gtceu:flint_sword_head",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfcchannelcasting:fire_clay_knapping/unfired_channel_4",
+			"mod": "tfcchannelcasting",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:fire_clay"
+					],
+					"amount": 5
+				}
+			],
+			"resultId": "tfcchannelcasting:unfired_channel",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:knapping/decorative_vase/unfired",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:clay_ball"
+					],
+					"amount": 1.0
+				}
+			],
+			"resultId": "tfg:decorative_vase/unfired",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:clay_knapping/unfired_spindle_head_mold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:clay_ball"
+					],
+					"amount": 1.0
+				}
+			],
+			"resultId": "tfg:unfired_spindle_head_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfcchannelcasting:fire_clay_knapping/unfired_channel_2",
+			"mod": "tfcchannelcasting",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:fire_clay"
+					],
+					"amount": 5
+				}
+			],
+			"resultId": "tfcchannelcasting:unfired_channel",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:clay_knapping/knife_blade_mold",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:clay_ball"
+					],
+					"amount": 5
+				}
+			],
+			"resultId": "tfc:ceramic/unfired_knife_blade_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "knightsofterrafirma:leather_knapping/leather_strip/1",
+			"mod": "knightsofterrafirma",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:leather",
+						"firmalife:pineapple_leather"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "magistuarmory:leather_strip",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:rock_knapping/stone_axe_head",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:rock/loose/granite",
+						"tfc:rock/mossy_loose/granite",
+						"tfc:rock/loose/diorite",
+						"tfc:rock/mossy_loose/diorite",
+						"tfc:rock/loose/gabbro",
+						"tfc:rock/mossy_loose/gabbro",
+						"tfc:rock/loose/shale",
+						"tfc:rock/mossy_loose/shale",
+						"tfc:rock/loose/claystone",
+						"tfc:rock/mossy_loose/claystone",
+						"tfc:rock/loose/limestone",
+						"tfc:rock/mossy_loose/limestone",
+						"tfc:rock/loose/conglomerate",
+						"tfc:rock/mossy_loose/conglomerate",
+						"tfc:rock/loose/dolomite",
+						"tfc:rock/mossy_loose/dolomite",
+						"tfc:rock/loose/chert",
+						"tfc:rock/mossy_loose/chert",
+						"tfc:rock/loose/chalk",
+						"tfc:rock/mossy_loose/chalk",
+						"tfc:rock/loose/rhyolite",
+						"tfc:rock/mossy_loose/rhyolite",
+						"tfc:rock/loose/basalt",
+						"tfc:rock/mossy_loose/basalt",
+						"tfc:rock/loose/andesite",
+						"tfc:rock/mossy_loose/andesite",
+						"tfc:rock/loose/dacite",
+						"tfc:rock/mossy_loose/dacite",
+						"tfc:rock/loose/quartzite",
+						"tfc:rock/mossy_loose/quartzite",
+						"tfc:rock/loose/slate",
+						"tfc:rock/mossy_loose/slate",
+						"tfc:rock/loose/phyllite",
+						"tfc:rock/mossy_loose/phyllite",
+						"tfc:rock/loose/schist",
+						"tfc:rock/mossy_loose/schist",
+						"tfc:rock/loose/gneiss",
+						"tfc:rock/mossy_loose/gneiss",
+						"tfc:rock/loose/marble",
+						"tfc:rock/mossy_loose/marble",
+						"beneath:blackstone_pebble",
+						"tfg:loose/deepslate",
+						"tfg:loose/dripstone",
+						"tfg:loose/crackrack",
+						"tfg:loose/tuff",
+						"tfg:loose/moon_stone",
+						"tfg:loose/moon_deepslate",
+						"tfg:loose/glacio_stone",
+						"tfg:loose/mars_stone",
+						"tfg:loose/venus_stone",
+						"tfg:loose/red_granite",
+						"tfg:loose/flavolite",
+						"tfg:loose/sandy_jadestone",
+						"tfg:loose/scoria",
+						"tfg:loose/scorchia",
+						"tfg:loose/mercury_stone",
+						"tfg:loose/permafrost"
+					],
+					"amount": 1.0
+				}
+			],
+			"resultId": "gtceu:stone_axe_head",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		}
+	]
+}

@@ -1,0 +1,2350 @@
+{
+	"type": "gtceu:research_station",
+	"recipes": [
+		{
+			"id": "gtceu:research_station/1x_gtceu_wetware_processor_computer",
+			"category": "research_station",
+			"duration": 384000,
+			"voltage": 491520,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:data_module"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:wetware_processor_computer"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:data_module"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"data": {
+				"duration_is_total_cwu": "1b",
+				"hide_duration": "1b"
+			},
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "Integer",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:research_station/1x_gtceu_zpm_sensor",
+			"category": "research_station",
+			"duration": 192000,
+			"voltage": 122880,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:data_module"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:zpm_sensor"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:data_module"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"data": {
+				"duration_is_total_cwu": "1b",
+				"hide_duration": "1b"
+			},
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "Integer",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:research_station/1x_megacells_cell_component_4m",
+			"category": "research_station",
+			"duration": 128000,
+			"voltage": 122880,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:data_orb"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"megacells:cell_component_4m"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:data_orb"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"data": {
+				"duration_is_total_cwu": "1b",
+				"hide_duration": "1b"
+			},
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "Integer",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:research_station/1x_gtceu_uv_energy_output_hatch",
+			"category": "research_station",
+			"duration": 512000,
+			"voltage": 491520,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:data_module"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:uv_energy_output_hatch"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:data_module"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"data": {
+				"duration_is_total_cwu": "1b",
+				"hide_duration": "1b"
+			},
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "Integer",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:research_station/1x_gtceu_energy_cluster",
+			"category": "research_station",
+			"duration": 576000,
+			"voltage": 1966080,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:data_module"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:energy_cluster"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:data_module"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"data": {
+				"duration_is_total_cwu": "1b",
+				"hide_duration": "1b"
+			},
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "Integer",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:research_station/1x_gtceu_zpm_energy_input_hatch",
+			"category": "research_station",
+			"duration": 256000,
+			"voltage": 122880,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:data_module"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:zpm_energy_input_hatch"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:data_module"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"data": {
+				"duration_is_total_cwu": "1b",
+				"hide_duration": "1b"
+			},
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "Integer",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:research_station/1x_gtceu_uv_energy_input_hatch",
+			"category": "research_station",
+			"duration": 512000,
+			"voltage": 491520,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:data_module"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:uv_energy_input_hatch"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:data_module"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"data": {
+				"duration_is_total_cwu": "1b",
+				"hide_duration": "1b"
+			},
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "Integer",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:research_station/1x_gtceu_zpm_electric_motor",
+			"category": "research_station",
+			"duration": 128000,
+			"voltage": 122880,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:data_orb"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:zpm_electric_motor"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:data_orb"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"data": {
+				"duration_is_total_cwu": "1b",
+				"hide_duration": "1b"
+			},
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "Integer",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:research_station/1x_gtceu_zpm_robot_arm",
+			"category": "research_station",
+			"duration": 128000,
+			"voltage": 122880,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:data_orb"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:zpm_robot_arm"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:data_orb"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"data": {
+				"duration_is_total_cwu": "1b",
+				"hide_duration": "1b"
+			},
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "Integer",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:research_station/1x_gtceu_active_transformer",
+			"category": "research_station",
+			"duration": 64000,
+			"voltage": 30720,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:data_orb"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:active_transformer"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:data_orb"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"data": {
+				"duration_is_total_cwu": "1b",
+				"hide_duration": "1b"
+			},
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "Integer",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:research_station/1x_gtceu_crystal_processor_computer",
+			"category": "research_station",
+			"duration": 64000,
+			"voltage": 30720,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:data_orb"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:crystal_processor_computer"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:data_orb"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"data": {
+				"duration_is_total_cwu": "1b",
+				"hide_duration": "1b"
+			},
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "Integer",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:research_station/1x_gtceu_luv_sensor",
+			"category": "research_station",
+			"duration": 16000,
+			"voltage": 30720,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:data_orb"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:luv_sensor"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:data_orb"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"data": {
+				"duration_is_total_cwu": "1b",
+				"hide_duration": "1b"
+			},
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "Integer",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:research_station/1x_ae2_quartz_glass",
+			"category": "research_station",
+			"duration": 1024000,
+			"voltage": 491520,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:data_module"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"ae2:quartz_glass"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:data_module"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"data": {
+				"duration_is_total_cwu": "1b",
+				"hide_duration": "1b"
+			},
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "Integer",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:research_station/1x_megacells_cell_component_16m",
+			"category": "research_station",
+			"duration": 256000,
+			"voltage": 491520,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:data_module"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"megacells:cell_component_16m"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:data_module"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"data": {
+				"duration_is_total_cwu": "1b",
+				"hide_duration": "1b"
+			},
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "Integer",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:research_station/1x_gtceu_zpm_conveyor_module",
+			"category": "research_station",
+			"duration": 128000,
+			"voltage": 122880,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:data_orb"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:zpm_conveyor_module"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:data_orb"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"data": {
+				"duration_is_total_cwu": "1b",
+				"hide_duration": "1b"
+			},
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "Integer",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:research_station/1x_gtceu_zpm_field_generator",
+			"category": "research_station",
+			"duration": 192000,
+			"voltage": 122880,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:data_module"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:zpm_field_generator"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:data_module"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"data": {
+				"duration_is_total_cwu": "1b",
+				"hide_duration": "1b"
+			},
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "Integer",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:research_station/1x_gtceu_zpm_electric_piston",
+			"category": "research_station",
+			"duration": 128000,
+			"voltage": 122880,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:data_orb"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:zpm_electric_piston"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:data_orb"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"data": {
+				"duration_is_total_cwu": "1b",
+				"hide_duration": "1b"
+			},
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "Integer",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:research_station/1x_gtceu_luv_energy_output_hatch",
+			"category": "research_station",
+			"duration": 32000,
+			"voltage": 30720,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:data_orb"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:luv_energy_output_hatch"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:data_orb"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"data": {
+				"duration_is_total_cwu": "1b",
+				"hide_duration": "1b"
+			},
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "Integer",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:research_station/1x_gtceu_data_bank",
+			"category": "research_station",
+			"duration": 16000,
+			"voltage": 30720,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:data_orb"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:data_bank"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:data_orb"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"data": {
+				"duration_is_total_cwu": "1b",
+				"hide_duration": "1b"
+			},
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "Integer",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:research_station/1x_gtceu_luv_energy_input_hatch",
+			"category": "research_station",
+			"duration": 32000,
+			"voltage": 30720,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:data_orb"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:luv_energy_input_hatch"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:data_orb"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"data": {
+				"duration_is_total_cwu": "1b",
+				"hide_duration": "1b"
+			},
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "Integer",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:research_station/1x_gtceu_me_pattern_buffer",
+			"category": "research_station",
+			"duration": 128000,
+			"voltage": 30720,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:data_orb"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:me_pattern_buffer"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:data_orb"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"data": {
+				"duration_is_total_cwu": "1b",
+				"hide_duration": "1b"
+			},
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "Integer",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:research_station/1x_gtceu_energy_module",
+			"category": "research_station",
+			"duration": 384000,
+			"voltage": 122880,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:data_module"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:energy_module"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:data_module"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"data": {
+				"duration_is_total_cwu": "1b",
+				"hide_duration": "1b"
+			},
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "Integer",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:research_station/1x_gtceu_zpm_emitter",
+			"category": "research_station",
+			"duration": 192000,
+			"voltage": 122880,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:data_module"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:zpm_emitter"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:data_module"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"data": {
+				"duration_is_total_cwu": "1b",
+				"hide_duration": "1b"
+			},
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "Integer",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:research_station/1x_gtceu_luv_emitter",
+			"category": "research_station",
+			"duration": 32000,
+			"voltage": 30720,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:data_orb"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:luv_emitter"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:data_orb"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"data": {
+				"duration_is_total_cwu": "1b",
+				"hide_duration": "1b"
+			},
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "Integer",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:research_station/1x_gtceu_normal_optical_pipe",
+			"category": "research_station",
+			"duration": 128000,
+			"voltage": 122880,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:data_orb"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:normal_optical_pipe"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:data_orb"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"data": {
+				"duration_is_total_cwu": "1b",
+				"hide_duration": "1b"
+			},
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "Integer",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:research_station/1x_gtceu_zpm_fusion_reactor",
+			"category": "research_station",
+			"duration": 384000,
+			"voltage": 491520,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:data_module"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:zpm_fusion_reactor"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:data_module"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"data": {
+				"duration_is_total_cwu": "1b",
+				"hide_duration": "1b"
+			},
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "Integer",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:research_station/1x_gtceu_wetware_processor_assembly",
+			"category": "research_station",
+			"duration": 64000,
+			"voltage": 30720,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:data_orb"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:wetware_processor_assembly"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:data_orb"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"data": {
+				"duration_is_total_cwu": "1b",
+				"hide_duration": "1b"
+			},
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "Integer",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:research_station/1x_gtceu_me_pattern_buffer_proxy",
+			"category": "research_station",
+			"duration": 128000,
+			"voltage": 30720,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:data_orb"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:me_pattern_buffer_proxy"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:data_orb"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"data": {
+				"duration_is_total_cwu": "1b",
+				"hide_duration": "1b"
+			},
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "Integer",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:research_station/1x_gtmutils_web_receiver",
+			"category": "research_station",
+			"duration": 64000,
+			"voltage": 30720,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:data_orb"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtmutils:web_receiver"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:data_orb"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"data": {
+				"duration_is_total_cwu": "1b",
+				"hide_duration": "1b"
+			},
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "Integer",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:research_station/1x_gtceu_lapotronic_energy_orb_cluster",
+			"category": "research_station",
+			"duration": 64000,
+			"voltage": 30720,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:data_orb"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:lapotronic_energy_orb_cluster"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:data_orb"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"data": {
+				"duration_is_total_cwu": "1b",
+				"hide_duration": "1b"
+			},
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "Integer",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:research_station/1x_gtceu_zpm_energy_output_hatch",
+			"category": "research_station",
+			"duration": 256000,
+			"voltage": 122880,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:data_module"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:zpm_energy_output_hatch"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:data_module"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"data": {
+				"duration_is_total_cwu": "1b",
+				"hide_duration": "1b"
+			},
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "Integer",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:research_station/1x_gtceu_zpm_dual_input_hatch",
+			"category": "research_station",
+			"duration": 32000,
+			"voltage": 30720,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:data_orb"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:zpm_dual_input_hatch"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:data_orb"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"data": {
+				"duration_is_total_cwu": "1b",
+				"hide_duration": "1b"
+			},
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "Integer",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:research_station/1x_gtceu_luv_fusion_reactor",
+			"category": "research_station",
+			"duration": 64000,
+			"voltage": 122880,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:data_orb"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:luv_fusion_reactor"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:data_orb"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"data": {
+				"duration_is_total_cwu": "1b",
+				"hide_duration": "1b"
+			},
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "Integer",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:research_station/1x_gtceu_luv_field_generator",
+			"category": "research_station",
+			"duration": 16000,
+			"voltage": 30720,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:data_orb"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:luv_field_generator"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:data_orb"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"data": {
+				"duration_is_total_cwu": "1b",
+				"hide_duration": "1b"
+			},
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "Integer",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:research_station/1x_gtceu_zpm_electric_pump",
+			"category": "research_station",
+			"duration": 128000,
+			"voltage": 122880,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:data_orb"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:zpm_electric_pump"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:data_orb"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"data": {
+				"duration_is_total_cwu": "1b",
+				"hide_duration": "1b"
+			},
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "Integer",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		}
+	]
+}

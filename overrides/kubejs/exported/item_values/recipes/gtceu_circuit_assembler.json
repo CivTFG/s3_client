@@ -1,0 +1,9921 @@
+{
+	"type": "gtceu:circuit_assembler",
+	"recipes": [
+		{
+			"id": "tfg:circuit_assembler/circuit_assembler/quantum_assembly_iv_soldering_alloy",
+			"category": "circuit_assembler",
+			"duration": 400,
+			"voltage": 2400,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:bi_pb_sn_cd_in_tl"
+					],
+					"amount": 144,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:fiber_reinforced_printed_circuit_board"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:quantum_processor"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:smd_inductor"
+					],
+					"amount": 8,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:smd_capacitor"
+					],
+					"amount": 16,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:ram_chip"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:fine_platinum_wire"
+					],
+					"amount": 16,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:quantum_processor_assembly"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "CleanroomCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.CleanroomCondition@c28f945",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:circuit_assembler/circuit_assembler/wetware_processor_luv",
+			"category": "circuit_assembler",
+			"duration": 200,
+			"voltage": 38400,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:woods_metal"
+					],
+					"amount": 144,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:neuro_processing_unit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:crystal_cpu"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:nano_cpu_chip"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:advanced_smd_capacitor"
+					],
+					"amount": 8,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:advanced_smd_transistor"
+					],
+					"amount": 8,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:fine_yttrium_barium_cuprate_wire"
+					],
+					"amount": 8,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:wetware_processor"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "CleanroomCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.CleanroomCondition@27a0ea58",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:circuit_assembler/circuit_assembler/quantum_mainframe_zpm_soldering_alloy",
+			"category": "circuit_assembler",
+			"duration": 800,
+			"voltage": 7680,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:bi_pb_sn_cd_in_tl"
+					],
+					"amount": 288,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:hssg_frame"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:quantum_processor_computer"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:smd_inductor"
+					],
+					"amount": 24,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:smd_capacitor"
+					],
+					"amount": 48,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:ram_chip"
+					],
+					"amount": 24,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:annealed_copper_single_wire"
+					],
+					"amount": 48,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:quantum_processor_mainframe"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "CleanroomCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.CleanroomCondition@4b20307e",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:circuit_assembler/circuit_assembler/data_stick_soldering_alloy",
+			"category": "circuit_assembler",
+			"duration": 400,
+			"voltage": 90,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:woods_metal"
+					],
+					"amount": 144,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:plastic_printed_circuit_board"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:cpu_chip"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:nand_memory_chip"
+					],
+					"amount": 32,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:ram_chip"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:fine_red_alloy_wire"
+					],
+					"amount": 16,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:polyethylene_plate"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:data_stick"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "CleanroomCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.CleanroomCondition@4c8f467",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:circuit_assembler/mainframe_iv_asmd",
+			"category": "circuit_assembler",
+			"duration": 400,
+			"voltage": 480,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:soldering_alloy"
+					],
+					"amount": 576,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:aluminium_frame"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:micro_processor_computer"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:advanced_smd_inductor"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:advanced_smd_capacitor"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:nano_cpu_chip"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:annealed_copper_single_wire"
+					],
+					"amount": 16,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:micro_processor_mainframe"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "CleanroomCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.CleanroomCondition@6c45d63d",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:circuit_assembler/circuit_assembler/wetware_processor_assembly_zpm_soldering_alloy",
+			"category": "circuit_assembler",
+			"duration": 400,
+			"voltage": 38400,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:bi_pb_sn_cd_in_tl"
+					],
+					"amount": 144,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:wetware_printed_circuit_board"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:wetware_processor"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:advanced_smd_inductor"
+					],
+					"amount": 6,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:advanced_smd_capacitor"
+					],
+					"amount": 12,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:ram_chip"
+					],
+					"amount": 24,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:fine_yttrium_barium_cuprate_wire"
+					],
+					"amount": 16,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:wetware_processor_assembly"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "CleanroomCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.CleanroomCondition@328a1b8e",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:circuit_assembler/circuit_assembler/crystal_processor_iv_soc",
+			"category": "circuit_assembler",
+			"duration": 100,
+			"voltage": 86000,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:woods_metal"
+					],
+					"amount": 144,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:multilayer_fiber_reinforced_printed_circuit_board"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:crystal_soc"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:fine_niobium_titanium_wire"
+					],
+					"amount": 8,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:yttrium_barium_cuprate_bolt"
+					],
+					"amount": 8,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:crystal_processor"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "CleanroomCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.CleanroomCondition@1435e617",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:circuit_assembler/circuit_assembler/quantum_processor_ev_soldering_alloy",
+			"category": "circuit_assembler",
+			"duration": 200,
+			"voltage": 2400,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:bi_pb_sn_cd_in_tl"
+					],
+					"amount": 72,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:fiber_reinforced_printed_circuit_board"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:qbit_cpu_chip"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:nano_cpu_chip"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:smd_capacitor"
+					],
+					"amount": 12,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:smd_transistor"
+					],
+					"amount": 12,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:fine_platinum_wire"
+					],
+					"amount": 12,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:quantum_processor"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "CleanroomCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.CleanroomCondition@1c8a14e2",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:circuit_assembler/circuit_assembler/quantum_assembly_iv",
+			"category": "circuit_assembler",
+			"duration": 400,
+			"voltage": 2400,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:woods_metal"
+					],
+					"amount": 288,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:fiber_reinforced_printed_circuit_board"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:quantum_processor"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:smd_inductor"
+					],
+					"amount": 8,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:smd_capacitor"
+					],
+					"amount": 16,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:ram_chip"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:fine_platinum_wire"
+					],
+					"amount": 16,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:quantum_processor_assembly"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "CleanroomCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.CleanroomCondition@1c5305de",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:circuit_assembler/circuit_assembler/nano_computer_iv",
+			"category": "circuit_assembler",
+			"duration": 400,
+			"voltage": 600,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:woods_metal"
+					],
+					"amount": 288,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:epoxy_printed_circuit_board"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:nano_processor_assembly"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:smd_diode"
+					],
+					"amount": 8,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:nor_memory_chip"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:ram_chip"
+					],
+					"amount": 16,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:fine_electrum_wire"
+					],
+					"amount": 16,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:nano_processor_computer"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "CleanroomCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.CleanroomCondition@6955a652",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:circuit_assembler/circuit_assembler/quantum_processor_ev_soc",
+			"category": "circuit_assembler",
+			"duration": 50,
+			"voltage": 38400,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:woods_metal"
+					],
+					"amount": 144,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:fiber_reinforced_printed_circuit_board"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:advanced_soc"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:fine_platinum_wire"
+					],
+					"amount": 12,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:niobium_titanium_bolt"
+					],
+					"amount": 8,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:quantum_processor"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "CleanroomCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.CleanroomCondition@2e45f9a9",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "gtceu:circuit_assembler/electronic_circuit_mv_soldering_alloy",
+			"category": "circuit_assembler",
+			"duration": 300,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:soldering_alloy"
+					],
+					"amount": 72,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:phenolic_printed_circuit_board"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:basic_electronic_circuit"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:diode",
+						"gtceu:smd_diode"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:copper_single_wire"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:good_electronic_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:circuit_assembler/circuit_assembler/data_stick",
+			"category": "circuit_assembler",
+			"duration": 400,
+			"voltage": 90,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:soldering_alloy"
+					],
+					"amount": 288,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:plastic_printed_circuit_board"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:cpu_chip"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:nand_memory_chip"
+					],
+					"amount": 32,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:ram_chip"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:fine_red_alloy_wire"
+					],
+					"amount": 16,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:polyethylene_plate"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:data_stick"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "CleanroomCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.CleanroomCondition@6fe61611",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:circuit_assembler/circuit_assembler/quantum_computer_luv_soldering_alloy",
+			"category": "circuit_assembler",
+			"duration": 400,
+			"voltage": 2400,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:bi_pb_sn_cd_in_tl"
+					],
+					"amount": 144,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:fiber_reinforced_printed_circuit_board"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:quantum_processor_assembly"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:smd_diode"
+					],
+					"amount": 8,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:nor_memory_chip"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:ram_chip"
+					],
+					"amount": 16,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:fine_platinum_wire"
+					],
+					"amount": 32,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:quantum_processor_computer"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "CleanroomCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.CleanroomCondition@3556bf3a",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:circuit_assembler/circuit_assembler/quantum_processor_ev_asmd_soldering_alloy",
+			"category": "circuit_assembler",
+			"duration": 100,
+			"voltage": 2400,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:bi_pb_sn_cd_in_tl"
+					],
+					"amount": 72,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:fiber_reinforced_printed_circuit_board"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:qbit_cpu_chip"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:nano_cpu_chip"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:advanced_smd_capacitor"
+					],
+					"amount": 3,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:advanced_smd_transistor"
+					],
+					"amount": 3,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:fine_platinum_wire"
+					],
+					"amount": 12,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:quantum_processor"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "CleanroomCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.CleanroomCondition@47623606",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:circuit_assembler/circuit_assembler/nano_processor_assembly_ev",
+			"category": "circuit_assembler",
+			"duration": 400,
+			"voltage": 600,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:woods_metal"
+					],
+					"amount": 288,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:epoxy_printed_circuit_board"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:nano_processor"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:smd_inductor"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:smd_capacitor"
+					],
+					"amount": 8,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:ram_chip"
+					],
+					"amount": 8,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:fine_electrum_wire"
+					],
+					"amount": 16,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:nano_processor_assembly"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "CleanroomCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.CleanroomCondition@1d45785a",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:circuit_assembler/circuit_assembler/processor_assembly_hv",
+			"category": "circuit_assembler",
+			"duration": 400,
+			"voltage": 120,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:soldering_alloy"
+					],
+					"amount": 288,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:plastic_printed_circuit_board"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:micro_processor"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:inductor",
+						"gtceu:smd_inductor"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:smd_capacitor",
+						"gtceu:capacitor"
+					],
+					"amount": 8,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:ram_chip"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:fine_red_alloy_wire"
+					],
+					"amount": 8,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:micro_processor_assembly"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:circuit_assembler/circuit_assembler/quantum_computer_luv_asmd_soldering_alloy",
+			"category": "circuit_assembler",
+			"duration": 200,
+			"voltage": 2400,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:bi_pb_sn_cd_in_tl"
+					],
+					"amount": 144,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:fiber_reinforced_printed_circuit_board"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:quantum_processor_assembly"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:advanced_smd_diode"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:nor_memory_chip"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:ram_chip"
+					],
+					"amount": 16,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:fine_platinum_wire"
+					],
+					"amount": 32,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:quantum_processor_computer"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "CleanroomCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.CleanroomCondition@4c38c4df",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:circuit_assembler/circuit_assembler/processor_mv_soldering_alloy",
+			"category": "circuit_assembler",
+			"duration": 200,
+			"voltage": 60,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:woods_metal"
+					],
+					"amount": 72,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:plastic_printed_circuit_board"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:cpu_chip"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:resistor",
+						"gtceu:smd_resistor"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:smd_capacitor",
+						"gtceu:capacitor"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:smd_transistor",
+						"gtceu:transistor"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:fine_red_alloy_wire"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:micro_processor"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:circuit_assembler/circuit_assembler/microprocessor_lv",
+			"category": "circuit_assembler",
+			"duration": 200,
+			"voltage": 60,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:soldering_alloy"
+					],
+					"amount": 144,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:plastic_printed_circuit_board"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:cpu_chip"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:resistor",
+						"gtceu:smd_resistor"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:smd_capacitor",
+						"gtceu:capacitor"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:smd_transistor",
+						"gtceu:transistor"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:fine_copper_wire"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:microchip_processor"
+					],
+					"amount": 3,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:circuit_assembler/circuit_assembler/nano_processor_assembly_ev_asmd_soldering_alloy",
+			"category": "circuit_assembler",
+			"duration": 200,
+			"voltage": 600,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:bi_pb_sn_cd_in_tl"
+					],
+					"amount": 144,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:epoxy_printed_circuit_board"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:nano_processor"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:advanced_smd_inductor"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:advanced_smd_capacitor"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:ram_chip"
+					],
+					"amount": 8,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:fine_electrum_wire"
+					],
+					"amount": 16,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:nano_processor_assembly"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "CleanroomCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.CleanroomCondition@667757d7",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:circuit_assembler/circuit_assembler/nano_processor_hv_soc_soldering_alloy",
+			"category": "circuit_assembler",
+			"duration": 50,
+			"voltage": 9600,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:bi_pb_sn_cd_in_tl"
+					],
+					"amount": 72,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:epoxy_printed_circuit_board"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:advanced_soc"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:fine_electrum_wire"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:platinum_bolt"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:nano_processor"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "CleanroomCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.CleanroomCondition@69964164",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:circuit_assembler/mainframe_iv_asmd_soldering_alloy",
+			"category": "circuit_assembler",
+			"duration": 400,
+			"voltage": 480,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:woods_metal"
+					],
+					"amount": 288,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:aluminium_frame"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:micro_processor_computer"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:advanced_smd_inductor"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:advanced_smd_capacitor"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:nano_cpu_chip"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:annealed_copper_single_wire"
+					],
+					"amount": 16,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:micro_processor_mainframe"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "CleanroomCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.CleanroomCondition@6ca02b5",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:circuit_assembler/circuit_assembler/wetware_processor_luv_soldering_alloy",
+			"category": "circuit_assembler",
+			"duration": 200,
+			"voltage": 38400,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:bi_pb_sn_cd_in_tl"
+					],
+					"amount": 72,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:neuro_processing_unit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:crystal_cpu"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:nano_cpu_chip"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:advanced_smd_capacitor"
+					],
+					"amount": 8,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:advanced_smd_transistor"
+					],
+					"amount": 8,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:fine_yttrium_barium_cuprate_wire"
+					],
+					"amount": 8,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:wetware_processor"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "CleanroomCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.CleanroomCondition@7c9853",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:circuit_assembler/circuit_assembler/nano_processor_hv",
+			"category": "circuit_assembler",
+			"duration": 200,
+			"voltage": 600,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:woods_metal"
+					],
+					"amount": 144,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:epoxy_printed_circuit_board"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:nano_cpu_chip"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:smd_resistor"
+					],
+					"amount": 8,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:smd_capacitor"
+					],
+					"amount": 8,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:smd_transistor"
+					],
+					"amount": 8,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:fine_electrum_wire"
+					],
+					"amount": 8,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:nano_processor"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "CleanroomCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.CleanroomCondition@3a1747ed",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:circuit_assembler/circuit_assembler/nand_chip_ulv_plastic_board_soldering_alloy",
+			"category": "circuit_assembler",
+			"duration": 300,
+			"voltage": 120,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:woods_metal"
+					],
+					"amount": 72,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:plastic_printed_circuit_board"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:simple_soc"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:red_alloy_bolt"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:fine_tin_wire"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:nand_chip"
+					],
+					"amount": 12,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:circuit_assembler/circuit_assembler/quantum_mainframe_zpm_asmd",
+			"category": "circuit_assembler",
+			"duration": 400,
+			"voltage": 7680,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:woods_metal"
+					],
+					"amount": 576,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:hssg_frame"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:quantum_processor_computer"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:advanced_smd_inductor"
+					],
+					"amount": 6,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:advanced_smd_capacitor"
+					],
+					"amount": 12,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:ram_chip"
+					],
+					"amount": 24,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:annealed_copper_single_wire"
+					],
+					"amount": 48,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:quantum_processor_mainframe"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "CleanroomCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.CleanroomCondition@187c758a",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:circuit_assembler/circuit_assembler/nano_processor_hv_asmd",
+			"category": "circuit_assembler",
+			"duration": 100,
+			"voltage": 600,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:woods_metal"
+					],
+					"amount": 144,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:epoxy_printed_circuit_board"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:nano_cpu_chip"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:advanced_smd_resistor"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:advanced_smd_capacitor"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:advanced_smd_transistor"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:fine_electrum_wire"
+					],
+					"amount": 8,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:nano_processor"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "CleanroomCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.CleanroomCondition@1aa5dcc0",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:circuit_assembler/circuit_assembler/integrated_circuit_hv_soldering_alloy",
+			"category": "circuit_assembler",
+			"duration": 800,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:woods_metal"
+					],
+					"amount": 72,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:good_integrated_circuit"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:ilc_chip"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:ram_chip"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:smd_transistor",
+						"gtceu:transistor"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:fine_electrum_wire"
+					],
+					"amount": 8,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:annealed_copper_bolt"
+					],
+					"amount": 8,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:advanced_integrated_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:circuit_assembler/circuit_assembler/nano_mainframe_luv_asmd_soldering_alloy",
+			"category": "circuit_assembler",
+			"duration": 400,
+			"voltage": 1920,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:bi_pb_sn_cd_in_tl"
+					],
+					"amount": 288,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:aluminium_frame"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:nano_processor_computer"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:advanced_smd_inductor"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:advanced_smd_capacitor"
+					],
+					"amount": 8,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:ram_chip"
+					],
+					"amount": 16,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:annealed_copper_single_wire"
+					],
+					"amount": 32,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:nano_processor_mainframe"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "CleanroomCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.CleanroomCondition@686182ec",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:circuit_assembler/circuit_assembler/quantum_mainframe_zpm_asmd_soldering_alloy",
+			"category": "circuit_assembler",
+			"duration": 400,
+			"voltage": 7680,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:bi_pb_sn_cd_in_tl"
+					],
+					"amount": 288,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:hssg_frame"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:quantum_processor_computer"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:advanced_smd_inductor"
+					],
+					"amount": 6,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:advanced_smd_capacitor"
+					],
+					"amount": 12,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:ram_chip"
+					],
+					"amount": 24,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:annealed_copper_single_wire"
+					],
+					"amount": 48,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:quantum_processor_mainframe"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "CleanroomCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.CleanroomCondition@18ec4d4e",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:circuit_assembler/circuit_assembler/crystal_assembly_luv_soldering_alloy",
+			"category": "circuit_assembler",
+			"duration": 400,
+			"voltage": 9600,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:bi_pb_sn_cd_in_tl"
+					],
+					"amount": 144,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:multilayer_fiber_reinforced_printed_circuit_board"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:crystal_processor"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:advanced_smd_inductor"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:advanced_smd_capacitor"
+					],
+					"amount": 8,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:ram_chip"
+					],
+					"amount": 24,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:fine_niobium_titanium_wire"
+					],
+					"amount": 16,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:crystal_processor_assembly"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "CleanroomCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.CleanroomCondition@7930b346",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:circuit_assembler/circuit_assembler/microprocessor_lv_soc",
+			"category": "circuit_assembler",
+			"duration": 50,
+			"voltage": 600,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:soldering_alloy"
+					],
+					"amount": 144,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:plastic_printed_circuit_board"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:soc"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:fine_copper_wire"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:tin_bolt"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:microchip_processor"
+					],
+					"amount": 6,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "CleanroomCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.CleanroomCondition@7a44ffb2",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:circuit_assembler/circuit_assembler/quantum_computer_luv_asmd",
+			"category": "circuit_assembler",
+			"duration": 200,
+			"voltage": 2400,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:woods_metal"
+					],
+					"amount": 288,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:fiber_reinforced_printed_circuit_board"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:quantum_processor_assembly"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:advanced_smd_diode"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:nor_memory_chip"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:ram_chip"
+					],
+					"amount": 16,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:fine_platinum_wire"
+					],
+					"amount": 32,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:quantum_processor_computer"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "CleanroomCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.CleanroomCondition@358fd375",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:circuit_assembler/circuit_assembler/integrated_circuit_hv",
+			"category": "circuit_assembler",
+			"duration": 800,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:soldering_alloy"
+					],
+					"amount": 144,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:good_integrated_circuit"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:ilc_chip"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:ram_chip"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:smd_transistor",
+						"gtceu:transistor"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:fine_electrum_wire"
+					],
+					"amount": 8,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:annealed_copper_bolt"
+					],
+					"amount": 8,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:advanced_integrated_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:circuit_assembler/circuit_assembler/microprocessor_lv_soldering_alloy",
+			"category": "circuit_assembler",
+			"duration": 200,
+			"voltage": 60,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:woods_metal"
+					],
+					"amount": 72,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:plastic_printed_circuit_board"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:cpu_chip"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:resistor",
+						"gtceu:smd_resistor"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:smd_capacitor",
+						"gtceu:capacitor"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:smd_transistor",
+						"gtceu:transistor"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:fine_copper_wire"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:microchip_processor"
+					],
+					"amount": 3,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:circuit_assembler/circuit_assembler/quantum_processor_ev",
+			"category": "circuit_assembler",
+			"duration": 200,
+			"voltage": 2400,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:woods_metal"
+					],
+					"amount": 144,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:fiber_reinforced_printed_circuit_board"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:qbit_cpu_chip"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:nano_cpu_chip"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:smd_capacitor"
+					],
+					"amount": 12,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:smd_transistor"
+					],
+					"amount": 12,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:fine_platinum_wire"
+					],
+					"amount": 12,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:quantum_processor"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "CleanroomCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.CleanroomCondition@44864f7e",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:circuit_assembler/circuit_assembler/workstation_ev",
+			"category": "circuit_assembler",
+			"duration": 400,
+			"voltage": 120,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:soldering_alloy"
+					],
+					"amount": 288,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:plastic_printed_circuit_board"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:micro_processor_assembly"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:diode",
+						"gtceu:smd_diode"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:ram_chip"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:fine_electrum_wire"
+					],
+					"amount": 16,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:blue_alloy_bolt"
+					],
+					"amount": 16,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:micro_processor_computer"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "CleanroomCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.CleanroomCondition@376295a1",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:circuit_assembler/circuit_assembler/crystal_computer_zpm",
+			"category": "circuit_assembler",
+			"duration": 400,
+			"voltage": 9600,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:woods_metal"
+					],
+					"amount": 288,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:multilayer_fiber_reinforced_printed_circuit_board"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:crystal_processor_assembly"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:ram_chip"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:nor_memory_chip"
+					],
+					"amount": 32,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:nand_memory_chip"
+					],
+					"amount": 64,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:fine_niobium_titanium_wire"
+					],
+					"amount": 32,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:crystal_processor_computer"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "CleanroomCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.CleanroomCondition@20a291b2",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:circuit_assembler/circuit_assembler/data_orb_soldering_alloy",
+			"category": "circuit_assembler",
+			"duration": 400,
+			"voltage": 1200,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:bi_pb_sn_cd_in_tl"
+					],
+					"amount": 144,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:epoxy_printed_circuit_board"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:micro_processor_assembly",
+						"gtceu:advanced_integrated_circuit",
+						"gtceu:nano_processor",
+						"tfg:hv_universal_circuit"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:ram_chip"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:nor_memory_chip"
+					],
+					"amount": 32,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:nand_memory_chip"
+					],
+					"amount": 64,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:fine_platinum_wire"
+					],
+					"amount": 32,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:data_orb"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "CleanroomCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.CleanroomCondition@1ee7532",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:circuit_assembler/circuit_assembler/nano_processor_hv_soc",
+			"category": "circuit_assembler",
+			"duration": 50,
+			"voltage": 9600,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:woods_metal"
+					],
+					"amount": 144,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:epoxy_printed_circuit_board"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:advanced_soc"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:fine_electrum_wire"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:platinum_bolt"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:nano_processor"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "CleanroomCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.CleanroomCondition@94c6543",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:circuit_assembler/circuit_assembler/quantum_processor_ev_soc_soldering_alloy",
+			"category": "circuit_assembler",
+			"duration": 50,
+			"voltage": 38400,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:bi_pb_sn_cd_in_tl"
+					],
+					"amount": 72,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:fiber_reinforced_printed_circuit_board"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:advanced_soc"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:fine_platinum_wire"
+					],
+					"amount": 12,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:niobium_titanium_bolt"
+					],
+					"amount": 8,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:quantum_processor"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "CleanroomCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.CleanroomCondition@25fa03d4",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "gtceu:circuit_assembler/electronic_circuit_mv",
+			"category": "circuit_assembler",
+			"duration": 300,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:tin"
+					],
+					"amount": 144,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:phenolic_printed_circuit_board"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:basic_electronic_circuit"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:diode",
+						"gtceu:smd_diode"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:copper_single_wire"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:good_electronic_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:circuit_assembler/circuit_assembler/nano_processor_hv_asmd_soldering_alloy",
+			"category": "circuit_assembler",
+			"duration": 100,
+			"voltage": 600,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:bi_pb_sn_cd_in_tl"
+					],
+					"amount": 72,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:epoxy_printed_circuit_board"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:nano_cpu_chip"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:advanced_smd_resistor"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:advanced_smd_capacitor"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:advanced_smd_transistor"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:fine_electrum_wire"
+					],
+					"amount": 8,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:nano_processor"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "CleanroomCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.CleanroomCondition@2bc718ba",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:circuit_assembler/circuit_assembler/nano_processor_assembly_ev_soldering_alloy",
+			"category": "circuit_assembler",
+			"duration": 400,
+			"voltage": 600,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:bi_pb_sn_cd_in_tl"
+					],
+					"amount": 144,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:epoxy_printed_circuit_board"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:nano_processor"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:smd_inductor"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:smd_capacitor"
+					],
+					"amount": 8,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:ram_chip"
+					],
+					"amount": 8,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:fine_electrum_wire"
+					],
+					"amount": 16,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:nano_processor_assembly"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "CleanroomCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.CleanroomCondition@45a3327f",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:circuit_assembler/mainframe_iv",
+			"category": "circuit_assembler",
+			"duration": 800,
+			"voltage": 480,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:soldering_alloy"
+					],
+					"amount": 576,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:aluminium_frame"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:micro_processor_computer"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:inductor",
+						"gtceu:smd_inductor"
+					],
+					"amount": 8,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:smd_capacitor",
+						"gtceu:capacitor"
+					],
+					"amount": 16,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:nano_cpu_chip"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:annealed_copper_single_wire"
+					],
+					"amount": 16,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:micro_processor_mainframe"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "CleanroomCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.CleanroomCondition@45242a8e",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:circuit_assembler/circuit_assembler/data_orb",
+			"category": "circuit_assembler",
+			"duration": 400,
+			"voltage": 1200,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:woods_metal"
+					],
+					"amount": 288,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:epoxy_printed_circuit_board"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:micro_processor_assembly",
+						"gtceu:advanced_integrated_circuit",
+						"gtceu:nano_processor",
+						"tfg:hv_universal_circuit"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:ram_chip"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:nor_memory_chip"
+					],
+					"amount": 32,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:nand_memory_chip"
+					],
+					"amount": 64,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:fine_platinum_wire"
+					],
+					"amount": 32,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:data_orb"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "CleanroomCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.CleanroomCondition@194540ab",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:circuit_assembler/circuit_assembler/quantum_computer_luv",
+			"category": "circuit_assembler",
+			"duration": 400,
+			"voltage": 2400,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:woods_metal"
+					],
+					"amount": 288,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:fiber_reinforced_printed_circuit_board"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:quantum_processor_assembly"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:smd_diode"
+					],
+					"amount": 8,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:nor_memory_chip"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:ram_chip"
+					],
+					"amount": 16,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:fine_platinum_wire"
+					],
+					"amount": 32,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:quantum_processor_computer"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "CleanroomCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.CleanroomCondition@3e2fb7c0",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:circuit_assembler/circuit_assembler/crystal_computer_zpm_soldering_alloy",
+			"category": "circuit_assembler",
+			"duration": 400,
+			"voltage": 9600,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:bi_pb_sn_cd_in_tl"
+					],
+					"amount": 144,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:multilayer_fiber_reinforced_printed_circuit_board"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:crystal_processor_assembly"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:ram_chip"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:nor_memory_chip"
+					],
+					"amount": 32,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:nand_memory_chip"
+					],
+					"amount": 64,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:fine_niobium_titanium_wire"
+					],
+					"amount": 32,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:crystal_processor_computer"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "CleanroomCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.CleanroomCondition@1794c0d2",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:circuit_assembler/circuit_assembler/processor_mv",
+			"category": "circuit_assembler",
+			"duration": 200,
+			"voltage": 60,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:soldering_alloy"
+					],
+					"amount": 144,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:plastic_printed_circuit_board"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:cpu_chip"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:resistor",
+						"gtceu:smd_resistor"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:smd_capacitor",
+						"gtceu:capacitor"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:smd_transistor",
+						"gtceu:transistor"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:fine_red_alloy_wire"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:micro_processor"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:circuit_assembler/circuit_assembler/integrated_circuit_mv",
+			"category": "circuit_assembler",
+			"duration": 400,
+			"voltage": 24,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:soldering_alloy"
+					],
+					"amount": 144,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:phenolic_printed_circuit_board"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:basic_integrated_circuit"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:resistor",
+						"gtceu:smd_resistor"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:diode",
+						"gtceu:smd_diode"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:fine_gold_wire"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:silver_bolt"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:good_integrated_circuit"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:circuit_assembler/circuit_assembler/microprocessor_lv_soc_soldering_alloy",
+			"category": "circuit_assembler",
+			"duration": 50,
+			"voltage": 600,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:woods_metal"
+					],
+					"amount": 72,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:plastic_printed_circuit_board"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:soc"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:fine_copper_wire"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:tin_bolt"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:microchip_processor"
+					],
+					"amount": 6,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "CleanroomCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.CleanroomCondition@55204fe",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:circuit_assembler/circuit_assembler/quantum_assembly_iv_asmd_soldering_alloy",
+			"category": "circuit_assembler",
+			"duration": 200,
+			"voltage": 2400,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:bi_pb_sn_cd_in_tl"
+					],
+					"amount": 144,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:fiber_reinforced_printed_circuit_board"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:quantum_processor"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:advanced_smd_inductor"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:advanced_smd_capacitor"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:ram_chip"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:fine_platinum_wire"
+					],
+					"amount": 16,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:quantum_processor_assembly"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "CleanroomCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.CleanroomCondition@46f77bf8",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:circuit_assembler/circuit_assembler/nano_mainframe_luv",
+			"category": "circuit_assembler",
+			"duration": 800,
+			"voltage": 1920,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:woods_metal"
+					],
+					"amount": 576,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:aluminium_frame"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:nano_processor_computer"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:smd_inductor"
+					],
+					"amount": 16,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:smd_capacitor"
+					],
+					"amount": 32,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:ram_chip"
+					],
+					"amount": 16,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:annealed_copper_single_wire"
+					],
+					"amount": 32,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:nano_processor_mainframe"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "CleanroomCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.CleanroomCondition@5a58ef7e",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:circuit_assembler/circuit_assembler/lapotronic_energy_orb",
+			"category": "circuit_assembler",
+			"duration": 512,
+			"voltage": 1024,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:woods_metal"
+					],
+					"amount": 288,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:fiber_reinforced_printed_circuit_board"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:mpic_chip"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:engraved_lapotron_crystal_chip"
+					],
+					"amount": 24,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:nano_cpu_chip"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:fine_platinum_wire"
+					],
+					"amount": 16,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"vintageimprovements:platinum_sheet"
+					],
+					"amount": 8,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:lapotronic_energy_orb"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "CleanroomCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.CleanroomCondition@3d0b2cc3",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:circuit_assembler/circuit_assembler/crystal_processor_iv_soc_soldering_alloy",
+			"category": "circuit_assembler",
+			"duration": 100,
+			"voltage": 86000,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:bi_pb_sn_cd_in_tl"
+					],
+					"amount": 72,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:multilayer_fiber_reinforced_printed_circuit_board"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:crystal_soc"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:fine_niobium_titanium_wire"
+					],
+					"amount": 8,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:yttrium_barium_cuprate_bolt"
+					],
+					"amount": 8,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:crystal_processor"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "CleanroomCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.CleanroomCondition@e1251ba",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:circuit_assembler/circuit_assembler/nano_mainframe_luv_asmd",
+			"category": "circuit_assembler",
+			"duration": 400,
+			"voltage": 1920,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:woods_metal"
+					],
+					"amount": 576,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:aluminium_frame"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:nano_processor_computer"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:advanced_smd_inductor"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:advanced_smd_capacitor"
+					],
+					"amount": 8,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:ram_chip"
+					],
+					"amount": 16,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:annealed_copper_single_wire"
+					],
+					"amount": 32,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:nano_processor_mainframe"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "CleanroomCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.CleanroomCondition@2edbbf8",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "gtceu:circuit_assembler/neuro_processor",
+			"category": "circuit_assembler",
+			"duration": 600,
+			"voltage": 80000,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:sterilized_growth_medium"
+					],
+					"amount": 250,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:wetware_printed_circuit_board"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:stem_cells"
+					],
+					"amount": 16,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:polybenzimidazole_small_fluid_pipe"
+					],
+					"amount": 8,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:electrum_plate"
+					],
+					"amount": 8,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:silicone_rubber_foil"
+					],
+					"amount": 16,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:hsse_bolt"
+					],
+					"amount": 8,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:neuro_processing_unit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "CleanroomCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.CleanroomCondition@2460b104",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:circuit_assembler/circuit_assembler/nano_computer_iv_asmd_soldering_alloy",
+			"category": "circuit_assembler",
+			"duration": 200,
+			"voltage": 600,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:bi_pb_sn_cd_in_tl"
+					],
+					"amount": 144,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:epoxy_printed_circuit_board"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:nano_processor_assembly"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:advanced_smd_diode"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:nor_memory_chip"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:ram_chip"
+					],
+					"amount": 16,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:fine_electrum_wire"
+					],
+					"amount": 16,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:nano_processor_computer"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "CleanroomCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.CleanroomCondition@5c0bf8ef",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:circuit_assembler/circuit_assembler/quantum_assembly_iv_asmd",
+			"category": "circuit_assembler",
+			"duration": 200,
+			"voltage": 2400,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:woods_metal"
+					],
+					"amount": 288,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:fiber_reinforced_printed_circuit_board"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:quantum_processor"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:advanced_smd_inductor"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:advanced_smd_capacitor"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:ram_chip"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:fine_platinum_wire"
+					],
+					"amount": 16,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:quantum_processor_assembly"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "CleanroomCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.CleanroomCondition@1a88f02a",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:circuit_assembler/circuit_assembler/data_module_soldering_alloy",
+			"category": "circuit_assembler",
+			"duration": 400,
+			"voltage": 38400,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:bi_pb_sn_cd_in_tl"
+					],
+					"amount": 144,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:wetware_printed_circuit_board"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:wetware_processor_assembly",
+						"gtceu:quantum_processor_mainframe",
+						"tfg:zpm_universal_circuit",
+						"gtceu:crystal_processor_computer"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:ram_chip"
+					],
+					"amount": 32,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:nor_memory_chip"
+					],
+					"amount": 64,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:nand_memory_chip"
+					],
+					"amount": 64,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:fine_yttrium_barium_cuprate_wire"
+					],
+					"amount": 32,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:data_module"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "CleanroomCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.CleanroomCondition@5c1fbb6e",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:circuit_assembler/circuit_assembler/nano_computer_iv_soldering_alloy",
+			"category": "circuit_assembler",
+			"duration": 400,
+			"voltage": 600,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:bi_pb_sn_cd_in_tl"
+					],
+					"amount": 144,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:epoxy_printed_circuit_board"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:nano_processor_assembly"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:smd_diode"
+					],
+					"amount": 8,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:nor_memory_chip"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:ram_chip"
+					],
+					"amount": 16,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:fine_electrum_wire"
+					],
+					"amount": 16,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:nano_processor_computer"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "CleanroomCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.CleanroomCondition@472bdee3",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:circuit_assembler/circuit_assembler/integrated_circuit_mv_soldering_alloy",
+			"category": "circuit_assembler",
+			"duration": 400,
+			"voltage": 24,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:woods_metal"
+					],
+					"amount": 72,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:phenolic_printed_circuit_board"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:basic_integrated_circuit"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:resistor",
+						"gtceu:smd_resistor"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:diode",
+						"gtceu:smd_diode"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:fine_gold_wire"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:silver_bolt"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:good_integrated_circuit"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:circuit_assembler/circuit_assembler/wetware_processor_luv_soc",
+			"category": "circuit_assembler",
+			"duration": 100,
+			"voltage": 150000,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:woods_metal"
+					],
+					"amount": 144,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:neuro_processing_unit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:highly_advanced_soc"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:fine_yttrium_barium_cuprate_wire"
+					],
+					"amount": 8,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:naquadah_bolt"
+					],
+					"amount": 8,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:wetware_processor"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "CleanroomCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.CleanroomCondition@67196e52",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:circuit_assembler/circuit_assembler/nano_mainframe_luv_soldering_alloy",
+			"category": "circuit_assembler",
+			"duration": 800,
+			"voltage": 1920,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:bi_pb_sn_cd_in_tl"
+					],
+					"amount": 288,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:aluminium_frame"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:nano_processor_computer"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:smd_inductor"
+					],
+					"amount": 16,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:smd_capacitor"
+					],
+					"amount": 32,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:ram_chip"
+					],
+					"amount": 16,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:annealed_copper_single_wire"
+					],
+					"amount": 32,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:nano_processor_mainframe"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "CleanroomCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.CleanroomCondition@6dab873a",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:circuit_assembler/circuit_assembler/crystal_processor_iv",
+			"category": "circuit_assembler",
+			"duration": 200,
+			"voltage": 9600,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:woods_metal"
+					],
+					"amount": 144,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:multilayer_fiber_reinforced_printed_circuit_board"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:crystal_cpu"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:nano_cpu_chip"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:advanced_smd_capacitor"
+					],
+					"amount": 6,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:advanced_smd_transistor"
+					],
+					"amount": 6,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:fine_niobium_titanium_wire"
+					],
+					"amount": 8,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:crystal_processor"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "CleanroomCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.CleanroomCondition@52c7fca9",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:circuit_assembler/circuit_assembler/crystal_processor_iv_soldering_alloy",
+			"category": "circuit_assembler",
+			"duration": 200,
+			"voltage": 9600,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:bi_pb_sn_cd_in_tl"
+					],
+					"amount": 72,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:multilayer_fiber_reinforced_printed_circuit_board"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:crystal_cpu"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:nano_cpu_chip"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:advanced_smd_capacitor"
+					],
+					"amount": 6,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:advanced_smd_transistor"
+					],
+					"amount": 6,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:fine_niobium_titanium_wire"
+					],
+					"amount": 8,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:crystal_processor"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "CleanroomCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.CleanroomCondition@2a939843",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "gtceu:circuit_assembler/electronic_circuit_lv",
+			"category": "circuit_assembler",
+			"duration": 200,
+			"voltage": 16,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:tin"
+					],
+					"amount": 144,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:resin_printed_circuit_board"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:resistor",
+						"gtceu:smd_resistor"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:red_alloy_single_wire"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:nand_chip",
+						"tfg:ulv_universal_circuit",
+						"gtceu:vacuum_tube"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:basic_electronic_circuit"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:circuit_assembler/circuit_assembler/nand_chip_ulv_good_board",
+			"category": "circuit_assembler",
+			"duration": 300,
+			"voltage": 120,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:soldering_alloy"
+					],
+					"amount": 144,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:phenolic_printed_circuit_board"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:simple_soc"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:red_alloy_bolt"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:fine_tin_wire"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:nand_chip"
+					],
+					"amount": 8,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:circuit_assembler/circuit_assembler/nano_processor_hv_soldering_alloy",
+			"category": "circuit_assembler",
+			"duration": 200,
+			"voltage": 600,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:bi_pb_sn_cd_in_tl"
+					],
+					"amount": 72,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:epoxy_printed_circuit_board"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:nano_cpu_chip"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:smd_resistor"
+					],
+					"amount": 8,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:smd_capacitor"
+					],
+					"amount": 8,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:smd_transistor"
+					],
+					"amount": 8,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:fine_electrum_wire"
+					],
+					"amount": 8,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:nano_processor"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "CleanroomCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.CleanroomCondition@5385e94f",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:circuit_assembler/circuit_assembler/integrated_circuit_lv",
+			"category": "circuit_assembler",
+			"duration": 200,
+			"voltage": 16,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:soldering_alloy"
+					],
+					"amount": 144,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:resin_printed_circuit_board"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:ilc_chip"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:resistor",
+						"gtceu:smd_resistor"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:diode",
+						"gtceu:smd_diode"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:fine_copper_wire"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:tin_bolt"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:basic_integrated_circuit"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:circuit_assembler/circuit_assembler/wetware_processor_luv_soc_soldering_alloy",
+			"category": "circuit_assembler",
+			"duration": 100,
+			"voltage": 150000,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:bi_pb_sn_cd_in_tl"
+					],
+					"amount": 72,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:neuro_processing_unit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:highly_advanced_soc"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:fine_yttrium_barium_cuprate_wire"
+					],
+					"amount": 8,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:naquadah_bolt"
+					],
+					"amount": 8,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:wetware_processor"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "CleanroomCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.CleanroomCondition@551fb1d2",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:circuit_assembler/circuit_assembler/nano_processor_assembly_ev_asmd",
+			"category": "circuit_assembler",
+			"duration": 200,
+			"voltage": 600,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:woods_metal"
+					],
+					"amount": 288,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:epoxy_printed_circuit_board"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:nano_processor"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:advanced_smd_inductor"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:advanced_smd_capacitor"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:ram_chip"
+					],
+					"amount": 8,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:fine_electrum_wire"
+					],
+					"amount": 16,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:nano_processor_assembly"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "CleanroomCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.CleanroomCondition@44d6357b",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:circuit_assembler/circuit_assembler/integrated_circuit_lv_soldering_alloy",
+			"category": "circuit_assembler",
+			"duration": 200,
+			"voltage": 16,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:woods_metal"
+					],
+					"amount": 72,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:resin_printed_circuit_board"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:ilc_chip"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:resistor",
+						"gtceu:smd_resistor"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:diode",
+						"gtceu:smd_diode"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:fine_copper_wire"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:tin_bolt"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:basic_integrated_circuit"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:circuit_assembler/circuit_assembler/nand_chip_ulv_good_board_soldering_alloy",
+			"category": "circuit_assembler",
+			"duration": 300,
+			"voltage": 120,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:woods_metal"
+					],
+					"amount": 72,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:phenolic_printed_circuit_board"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:simple_soc"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:red_alloy_bolt"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:fine_tin_wire"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:nand_chip"
+					],
+					"amount": 8,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:circuit_assembler/circuit_assembler/crystal_assembly_luv",
+			"category": "circuit_assembler",
+			"duration": 400,
+			"voltage": 9600,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:woods_metal"
+					],
+					"amount": 288,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:multilayer_fiber_reinforced_printed_circuit_board"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:crystal_processor"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:advanced_smd_inductor"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:advanced_smd_capacitor"
+					],
+					"amount": 8,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:ram_chip"
+					],
+					"amount": 24,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:fine_niobium_titanium_wire"
+					],
+					"amount": 16,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:crystal_processor_assembly"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "CleanroomCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.CleanroomCondition@7608c56c",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:circuit_assembler/circuit_assembler/quantum_mainframe_zpm",
+			"category": "circuit_assembler",
+			"duration": 800,
+			"voltage": 7680,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:woods_metal"
+					],
+					"amount": 576,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:hssg_frame"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:quantum_processor_computer"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:smd_inductor"
+					],
+					"amount": 24,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:smd_capacitor"
+					],
+					"amount": 48,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:ram_chip"
+					],
+					"amount": 24,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:annealed_copper_single_wire"
+					],
+					"amount": 48,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:quantum_processor_mainframe"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "CleanroomCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.CleanroomCondition@7d7bef20",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "gtceu:circuit_assembler/wetware_board",
+			"category": "circuit_assembler",
+			"duration": 1200,
+			"voltage": 30720,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:sterilized_growth_medium"
+					],
+					"amount": 4000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:multilayer_fiber_reinforced_circuit_board"
+					],
+					"amount": 16,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:petri_dish"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:luv_electric_pump"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:iv_sensor"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:iv_universal_circuit",
+						"gtceu:micro_processor_mainframe",
+						"gtceu:crystal_processor",
+						"gtceu:nano_processor_computer",
+						"gtceu:quantum_processor_assembly"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:niobium_titanium_foil"
+					],
+					"amount": 16,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:wetware_circuit_board"
+					],
+					"amount": 16,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "CleanroomCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.CleanroomCondition@49f3c256",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "gtceu:circuit_assembler/electronic_circuit_lv_soldering_alloy",
+			"category": "circuit_assembler",
+			"duration": 200,
+			"voltage": 16,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:soldering_alloy"
+					],
+					"amount": 72,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:resin_printed_circuit_board"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:resistor",
+						"gtceu:smd_resistor"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:red_alloy_single_wire"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:nand_chip",
+						"tfg:ulv_universal_circuit",
+						"gtceu:vacuum_tube"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:basic_electronic_circuit"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:circuit_assembler/circuit_assembler/nand_chip_ulv_plastic_board",
+			"category": "circuit_assembler",
+			"duration": 300,
+			"voltage": 120,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:soldering_alloy"
+					],
+					"amount": 144,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:plastic_printed_circuit_board"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:simple_soc"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:red_alloy_bolt"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:fine_tin_wire"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:nand_chip"
+					],
+					"amount": 12,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:circuit_assembler/circuit_assembler/workstation_ev_soldering_alloy",
+			"category": "circuit_assembler",
+			"duration": 400,
+			"voltage": 120,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:woods_metal"
+					],
+					"amount": 144,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:plastic_printed_circuit_board"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:micro_processor_assembly"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:diode",
+						"gtceu:smd_diode"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:ram_chip"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:fine_electrum_wire"
+					],
+					"amount": 16,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:blue_alloy_bolt"
+					],
+					"amount": 16,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:micro_processor_computer"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "CleanroomCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.CleanroomCondition@7e67b612",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:circuit_assembler/circuit_assembler/processor_assembly_hv_soldering_alloy",
+			"category": "circuit_assembler",
+			"duration": 400,
+			"voltage": 120,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:woods_metal"
+					],
+					"amount": 144,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:plastic_printed_circuit_board"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:micro_processor"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:inductor",
+						"gtceu:smd_inductor"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:smd_capacitor",
+						"gtceu:capacitor"
+					],
+					"amount": 8,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:ram_chip"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:fine_red_alloy_wire"
+					],
+					"amount": 8,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:micro_processor_assembly"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:circuit_assembler/circuit_assembler/wetware_processor_assembly_zpm",
+			"category": "circuit_assembler",
+			"duration": 400,
+			"voltage": 38400,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:woods_metal"
+					],
+					"amount": 288,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:wetware_printed_circuit_board"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:wetware_processor"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:advanced_smd_inductor"
+					],
+					"amount": 6,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:advanced_smd_capacitor"
+					],
+					"amount": 12,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:ram_chip"
+					],
+					"amount": 24,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:fine_yttrium_barium_cuprate_wire"
+					],
+					"amount": 16,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:wetware_processor_assembly"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "CleanroomCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.CleanroomCondition@7ce97401",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:circuit_assembler/circuit_assembler/lapotronic_energy_orb_soldering_alloy",
+			"category": "circuit_assembler",
+			"duration": 512,
+			"voltage": 1024,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:bi_pb_sn_cd_in_tl"
+					],
+					"amount": 144,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:fiber_reinforced_printed_circuit_board"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:mpic_chip"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:engraved_lapotron_crystal_chip"
+					],
+					"amount": 24,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:nano_cpu_chip"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:fine_platinum_wire"
+					],
+					"amount": 16,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"vintageimprovements:platinum_sheet"
+					],
+					"amount": 8,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:lapotronic_energy_orb"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "CleanroomCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.CleanroomCondition@375defca",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:circuit_assembler/mainframe_iv_soldering_alloy",
+			"category": "circuit_assembler",
+			"duration": 800,
+			"voltage": 480,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:woods_metal"
+					],
+					"amount": 288,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:aluminium_frame"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:micro_processor_computer"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:inductor",
+						"gtceu:smd_inductor"
+					],
+					"amount": 8,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:smd_capacitor",
+						"gtceu:capacitor"
+					],
+					"amount": 16,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:nano_cpu_chip"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:annealed_copper_single_wire"
+					],
+					"amount": 16,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:micro_processor_mainframe"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "CleanroomCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.CleanroomCondition@bd56fbb",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:circuit_assembler/circuit_assembler/processor_mv_soc",
+			"category": "circuit_assembler",
+			"duration": 50,
+			"voltage": 2400,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:soldering_alloy"
+					],
+					"amount": 144,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:plastic_printed_circuit_board"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:soc"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:fine_red_alloy_wire"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:annealed_copper_bolt"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:micro_processor"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "CleanroomCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.CleanroomCondition@3f2dce73",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:circuit_assembler/circuit_assembler/quantum_processor_ev_asmd",
+			"category": "circuit_assembler",
+			"duration": 100,
+			"voltage": 2400,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:woods_metal"
+					],
+					"amount": 144,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:fiber_reinforced_printed_circuit_board"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:qbit_cpu_chip"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:nano_cpu_chip"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:advanced_smd_capacitor"
+					],
+					"amount": 3,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:advanced_smd_transistor"
+					],
+					"amount": 3,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:fine_platinum_wire"
+					],
+					"amount": 12,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:quantum_processor"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "CleanroomCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.CleanroomCondition@7455de49",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:circuit_assembler/circuit_assembler/data_module",
+			"category": "circuit_assembler",
+			"duration": 400,
+			"voltage": 38400,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:woods_metal"
+					],
+					"amount": 288,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:wetware_printed_circuit_board"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:wetware_processor_assembly",
+						"gtceu:quantum_processor_mainframe",
+						"tfg:zpm_universal_circuit",
+						"gtceu:crystal_processor_computer"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:ram_chip"
+					],
+					"amount": 32,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:nor_memory_chip"
+					],
+					"amount": 64,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:nand_memory_chip"
+					],
+					"amount": 64,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:fine_yttrium_barium_cuprate_wire"
+					],
+					"amount": 32,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:data_module"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "CleanroomCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.CleanroomCondition@11cf2e46",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:circuit_assembler/circuit_assembler/nano_computer_iv_asmd",
+			"category": "circuit_assembler",
+			"duration": 200,
+			"voltage": 600,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:woods_metal"
+					],
+					"amount": 288,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:epoxy_printed_circuit_board"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:nano_processor_assembly"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:advanced_smd_diode"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:nor_memory_chip"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:ram_chip"
+					],
+					"amount": 16,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:fine_electrum_wire"
+					],
+					"amount": 16,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:nano_processor_computer"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "CleanroomCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.CleanroomCondition@860f8c4",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:circuit_assembler/circuit_assembler/processor_mv_soc_soldering_alloy",
+			"category": "circuit_assembler",
+			"duration": 50,
+			"voltage": 2400,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:woods_metal"
+					],
+					"amount": 72,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:plastic_printed_circuit_board"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:soc"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:fine_red_alloy_wire"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:annealed_copper_bolt"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:micro_processor"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "CleanroomCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.CleanroomCondition@4fb1a081",
+					"dimension": "undefined"
+				}
+			]
+		}
+	]
+}

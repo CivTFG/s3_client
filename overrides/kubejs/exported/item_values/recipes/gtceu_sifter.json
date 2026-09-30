@@ -1,0 +1,3363 @@
+{
+	"type": "gtceu:sifter",
+	"recipes": [
+		{
+			"id": "gtceu:sifter/sift_opal_purified_ore_to_gems",
+			"category": "sifter",
+			"duration": 400,
+			"voltage": 16,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:purified_opal_ore"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:exquisite_opal_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawless_opal_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 1500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:opal_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 5000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:pure_opal_dust"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 2500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawed_opal_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 2000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:chipped_opal_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 3000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:sifter/sift_quartzite_purified_ore_to_gems",
+			"category": "sifter",
+			"duration": 400,
+			"voltage": 16,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:purified_quartzite_ore"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:exquisite_quartzite_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 300,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawless_quartzite_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:quartzite_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 3500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:pure_quartzite_dust"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 5000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawed_quartzite_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 2500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:chipped_quartzite_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 3500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:sifter/sift_grossular_purified_ore_to_gems",
+			"category": "sifter",
+			"duration": 400,
+			"voltage": 16,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:purified_grossular_ore"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:exquisite_grossular_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 300,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawless_grossular_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:grossular_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 3500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:pure_grossular_dust"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 5000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawed_grossular_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 2500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:chipped_grossular_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 3500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:sifter/sift_pyrope_purified_ore_to_gems",
+			"category": "sifter",
+			"duration": 400,
+			"voltage": 16,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:purified_pyrope_ore"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:exquisite_pyrope_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 300,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawless_pyrope_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:pyrope_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 3500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:pure_pyrope_dust"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 5000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawed_pyrope_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 2500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:chipped_pyrope_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 3500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:sifter/sift_certus_quartz_purified_ore_to_gems",
+			"category": "sifter",
+			"duration": 400,
+			"voltage": 16,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:purified_certus_quartz_ore"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:exquisite_certus_quartz_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 300,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawless_certus_quartz_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"ae2:certus_quartz_crystal"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 3500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:pure_certus_quartz_dust"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 5000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawed_certus_quartz_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 2500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:chipped_certus_quartz_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 3500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:sifter/sift_sodalite_purified_ore_to_gems",
+			"category": "sifter",
+			"duration": 400,
+			"voltage": 16,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:purified_sodalite_ore"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:exquisite_sodalite_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 300,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawless_sodalite_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:sodalite_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 3500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:pure_sodalite_dust"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 5000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawed_sodalite_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 2500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:chipped_sodalite_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 3500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:sifter/sift_olivine_purified_ore_to_gems",
+			"category": "sifter",
+			"duration": 400,
+			"voltage": 16,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:purified_olivine_ore"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:exquisite_olivine_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawless_olivine_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 1500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:olivine_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 5000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:pure_olivine_dust"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 2500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawed_olivine_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 2000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:chipped_olivine_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 3000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:sifter/sift_topaz_purified_ore_to_gems",
+			"category": "sifter",
+			"duration": 400,
+			"voltage": 16,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:purified_topaz_ore"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:exquisite_topaz_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawless_topaz_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 1500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:topaz_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 5000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:pure_topaz_dust"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 2500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawed_topaz_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 2000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:chipped_topaz_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 3000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:sifter/gravel_sifting",
+			"category": "sifter",
+			"duration": 100,
+			"voltage": 16,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:rock/gravel/dolomite",
+						"tfc:rock/gravel/rhyolite",
+						"tfc:rock/gravel/shale",
+						"tfc:rock/gravel/chalk",
+						"tfg:rock/gravel_blackstone",
+						"tfc:rock/gravel/basalt",
+						"tfc:rock/gravel/claystone",
+						"tfc:rock/gravel/limestone",
+						"tfc:rock/gravel/chert",
+						"tfc:rock/gravel/dacite",
+						"tfg:rock/gravel_scoria",
+						"tfg:rock/gravel_venus",
+						"tfc:rock/gravel/slate",
+						"tfc:rock/gravel/marble",
+						"tfc:rock/gravel/diorite",
+						"tfc:rock/gravel/gneiss",
+						"tfg:rock/gravel_red_granite",
+						"tfg:rock/gravel_sandy_jadestone",
+						"tfg:rock/gravel_dripstone",
+						"tfg:rock/gravel_crackrack",
+						"tfg:rock/gravel_scorchia",
+						"tfc:rock/gravel/quartzite",
+						"tfg:rock/gravel_deepslate",
+						"tfc:rock/gravel/granite",
+						"tfc:rock/gravel/andesite",
+						"tfc:rock/gravel/conglomerate",
+						"tfg:rock/gravel_flavolite",
+						"tfg:rock/gravel_permafrost",
+						"tfc:rock/gravel/phyllite",
+						"tfg:rock/gravel_mars",
+						"tfg:rock/gravel_mercury",
+						"tfc:rock/gravel/gabbro",
+						"tfg:rock/gravel_moon",
+						"tfg:tuff_gravel",
+						"tfg:rock/gravel_glacio",
+						"tfg:rock/gravel_moon_deepslate",
+						"tfc:rock/gravel/schist"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:flint"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:flint"
+					],
+					"amount": 1,
+					"chanced": true,
+					"chance": 9000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:flint"
+					],
+					"amount": 1,
+					"chanced": true,
+					"chance": 8000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:flint"
+					],
+					"amount": 1,
+					"chanced": true,
+					"chance": 6000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:flint"
+					],
+					"amount": 1,
+					"chanced": true,
+					"chance": 3300,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:flint"
+					],
+					"amount": 1,
+					"chanced": true,
+					"chance": 2500,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:sifter/sift_sapphire_purified_ore_to_gems",
+			"category": "sifter",
+			"duration": 400,
+			"voltage": 16,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:purified_sapphire_ore"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:exquisite_sapphire_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawless_sapphire_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 1500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:sapphire_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 5000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:pure_sapphire_dust"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 2500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawed_sapphire_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 2000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:chipped_sapphire_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 3000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:sifter/sift_monazite_purified_ore_to_gems",
+			"category": "sifter",
+			"duration": 400,
+			"voltage": 16,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:purified_monazite_ore"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:exquisite_monazite_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 300,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawless_monazite_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:monazite_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 3500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:pure_monazite_dust"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 5000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawed_monazite_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 2500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:chipped_monazite_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 3500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:sifter/sift_emerald_purified_ore_to_gems",
+			"category": "sifter",
+			"duration": 400,
+			"voltage": 16,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:purified_emerald_ore"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:exquisite_emerald_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawless_emerald_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 1500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:emerald"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 5000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:pure_emerald_dust"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 2500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawed_emerald_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 2000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:chipped_emerald_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 3000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:sifter/sift_realgar_purified_ore_to_gems",
+			"category": "sifter",
+			"duration": 400,
+			"voltage": 16,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:purified_realgar_ore"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:exquisite_realgar_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 300,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawless_realgar_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:realgar_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 3500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:pure_realgar_dust"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 5000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawed_realgar_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 2500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:chipped_realgar_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 3500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:sifter/sift_armalcolite_purified_ore_to_gems",
+			"category": "sifter",
+			"duration": 400,
+			"voltage": 16,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:purified_armalcolite_ore"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:exquisite_armalcolite_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 300,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawless_armalcolite_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:armalcolite_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 3500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:pure_armalcolite_dust"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 5000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawed_armalcolite_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 2500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:chipped_armalcolite_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 3500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:sifter/sift_rock_salt_purified_ore_to_gems",
+			"category": "sifter",
+			"duration": 400,
+			"voltage": 16,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:purified_rock_salt_ore"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:exquisite_rock_salt_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 300,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawless_rock_salt_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:rock_salt_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 3500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:pure_rock_salt_dust"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 5000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawed_rock_salt_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 2500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:chipped_rock_salt_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 3500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:sifter/sift_salt_purified_ore_to_gems",
+			"category": "sifter",
+			"duration": 400,
+			"voltage": 16,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:purified_salt_ore"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:exquisite_salt_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 300,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawless_salt_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:salt_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 3500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:pure_salt_dust"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 5000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawed_salt_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 2500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:chipped_salt_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 3500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:sifter/sift_green_sapphire_purified_ore_to_gems",
+			"category": "sifter",
+			"duration": 400,
+			"voltage": 16,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:purified_green_sapphire_ore"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:exquisite_green_sapphire_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawless_green_sapphire_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 1500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:green_sapphire_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 5000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:pure_green_sapphire_dust"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 2500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawed_green_sapphire_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 2000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:chipped_green_sapphire_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 3000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:sifter/sift_red_garnet_purified_ore_to_gems",
+			"category": "sifter",
+			"duration": 400,
+			"voltage": 16,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:purified_red_garnet_ore"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:exquisite_red_garnet_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawless_red_garnet_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 1500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:red_garnet_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 5000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:pure_red_garnet_dust"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 2500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawed_red_garnet_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 2000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:chipped_red_garnet_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 3000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:sifter/sift_diamond_purified_ore_to_gems",
+			"category": "sifter",
+			"duration": 400,
+			"voltage": 16,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:purified_diamond_ore"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:exquisite_diamond_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawless_diamond_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 1500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:diamond"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 5000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:pure_diamond_dust"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 2500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawed_diamond_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 2000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:chipped_diamond_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 3000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:sifter/sift_yellow_garnet_purified_ore_to_gems",
+			"category": "sifter",
+			"duration": 400,
+			"voltage": 16,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:purified_yellow_garnet_ore"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:exquisite_yellow_garnet_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawless_yellow_garnet_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 1500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:yellow_garnet_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 5000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:pure_yellow_garnet_dust"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 2500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawed_yellow_garnet_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 2000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:chipped_yellow_garnet_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 3000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:sifter/sift_malachite_purified_ore_to_gems",
+			"category": "sifter",
+			"duration": 400,
+			"voltage": 16,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:purified_malachite_ore"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:exquisite_malachite_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 300,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawless_malachite_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:malachite_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 3500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:pure_malachite_dust"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 5000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawed_malachite_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 2500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:chipped_malachite_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 3500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:sifter/sift_lazurite_purified_ore_to_gems",
+			"category": "sifter",
+			"duration": 400,
+			"voltage": 16,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:purified_lazurite_ore"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:exquisite_lazurite_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 300,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawless_lazurite_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:lazurite_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 3500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:pure_lazurite_dust"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 5000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawed_lazurite_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 2500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:chipped_lazurite_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 3500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:sifter/sift_apatite_purified_ore_to_gems",
+			"category": "sifter",
+			"duration": 400,
+			"voltage": 16,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:purified_apatite_ore"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:exquisite_apatite_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 300,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawless_apatite_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:apatite_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 3500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:pure_apatite_dust"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 5000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawed_apatite_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 2500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:chipped_apatite_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 3500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:sifter/sift_blue_topaz_purified_ore_to_gems",
+			"category": "sifter",
+			"duration": 400,
+			"voltage": 16,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:purified_blue_topaz_ore"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:exquisite_blue_topaz_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawless_blue_topaz_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 1500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:blue_topaz_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 5000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:pure_blue_topaz_dust"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 2500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawed_blue_topaz_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 2000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:chipped_blue_topaz_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 3000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:sifter/sift_almandine_purified_ore_to_gems",
+			"category": "sifter",
+			"duration": 400,
+			"voltage": 16,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:purified_almandine_ore"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:exquisite_almandine_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 300,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawless_almandine_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:almandine_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 3500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:pure_almandine_dust"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 5000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawed_almandine_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 2500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:chipped_almandine_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 3500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:sifter/sift_spessartine_purified_ore_to_gems",
+			"category": "sifter",
+			"duration": 400,
+			"voltage": 16,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:purified_spessartine_ore"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:exquisite_spessartine_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 300,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawless_spessartine_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:spessartine_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 3500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:pure_spessartine_dust"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 5000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawed_spessartine_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 2500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:chipped_spessartine_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 3500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:sifter/sift_cinnabar_purified_ore_to_gems",
+			"category": "sifter",
+			"duration": 400,
+			"voltage": 16,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:purified_cinnabar_ore"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:exquisite_cinnabar_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 300,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawless_cinnabar_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:cinnabar_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 3500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:pure_cinnabar_dust"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 5000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawed_cinnabar_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 2500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:chipped_cinnabar_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 3500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:sifter/sift_ruby_purified_ore_to_gems",
+			"category": "sifter",
+			"duration": 400,
+			"voltage": 16,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:purified_ruby_ore"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:exquisite_ruby_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawless_ruby_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 1500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:ruby_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 5000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:pure_ruby_dust"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 2500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawed_ruby_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 2000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:chipped_ruby_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 3000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:sifter/sift_rose_quartz_purified_ore_to_gems",
+			"category": "sifter",
+			"duration": 400,
+			"voltage": 16,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"greate:purified_rose_quartz_ore"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"greate:exquisite_rose_quartz_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"greate:flawless_rose_quartz_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 1500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"create:rose_quartz"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 5000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"greate:pure_rose_quartz_dust"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 2500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"greate:flawed_rose_quartz_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 2000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"greate:chipped_rose_quartz_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 3000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:sifter/sift_amethyst_purified_ore_to_gems",
+			"category": "sifter",
+			"duration": 400,
+			"voltage": 16,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:purified_amethyst_ore"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:exquisite_amethyst_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawless_amethyst_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 1500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:amethyst_shard"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 5000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:pure_amethyst_dust"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 2500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawed_amethyst_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 2000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:chipped_amethyst_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 3000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:sifter/sift_lapis_purified_ore_to_gems",
+			"category": "sifter",
+			"duration": 400,
+			"voltage": 16,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:purified_lapis_ore"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:exquisite_lapis_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 300,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawless_lapis_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:lapis_lazuli"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 3500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:pure_lapis_dust"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 5000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawed_lapis_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 2500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:chipped_lapis_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 3500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:sifter/sift_nether_quartz_purified_ore_to_gems",
+			"category": "sifter",
+			"duration": 400,
+			"voltage": 16,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:purified_nether_quartz_ore"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:exquisite_nether_quartz_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 300,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawless_nether_quartz_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:quartz"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 3500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:pure_nether_quartz_dust"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 5000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawed_nether_quartz_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 2500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:chipped_nether_quartz_gem"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 3500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		}
+	]
+}

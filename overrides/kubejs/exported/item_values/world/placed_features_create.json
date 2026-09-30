@@ -1,0 +1,94 @@
+{
+	"placed": {
+		"create:zinc_ore": {
+			"feature": "create:zinc_ore",
+			"json": {
+				"feature": "create:zinc_ore",
+				"placement": [
+					{
+						"count": 8.0,
+						"type": "minecraft:count"
+					},
+					{
+						"type": "minecraft:in_square"
+					},
+					{
+						"height": {
+							"min_inclusive": {
+								"absolute": -63.0
+							},
+							"max_inclusive": {
+								"absolute": 70.0
+							},
+							"type": "minecraft:uniform"
+						},
+						"type": "minecraft:height_range"
+					},
+					{
+						"type": "create:config_filter"
+					}
+				]
+			}
+		},
+		"create:striated_ores_overworld": {
+			"feature": "create:striated_ores_overworld",
+			"json": {
+				"feature": "create:striated_ores_overworld",
+				"placement": [
+					{
+						"chance": 18.0,
+						"type": "minecraft:rarity_filter"
+					},
+					{
+						"type": "minecraft:in_square"
+					},
+					{
+						"height": {
+							"min_inclusive": {
+								"absolute": -30.0
+							},
+							"max_inclusive": {
+								"absolute": 70.0
+							},
+							"type": "minecraft:uniform"
+						},
+						"type": "minecraft:height_range"
+					},
+					{
+						"type": "create:config_filter"
+					}
+				]
+			}
+		},
+		"create:striated_ores_nether": {
+			"feature": "create:striated_ores_nether",
+			"json": {
+				"feature": "create:striated_ores_nether",
+				"placement": [
+					{
+						"chance": 18.0,
+						"type": "minecraft:rarity_filter"
+					},
+					{
+						"type": "minecraft:in_square"
+					},
+					{
+						"height": {
+							"min_inclusive": {
+								"absolute": 40.0
+							},
+							"max_inclusive": {
+								"absolute": 90.0
+							},
+							"type": "minecraft:uniform"
+						},
+						"type": "minecraft:height_range"
+					},
+					{
+						"type": "create:config_filter"
+					}
+				]
+			}
+		}
+	}
+}

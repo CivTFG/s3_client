@@ -1,0 +1,27 @@
+{
+	"version": 5.0,
+	"startedAt": "2026-09-30T17:55:17.781Z",
+	"writtenAt": "2026-09-30T17:55:18.210Z",
+	"outputDir": "kubejs/exported/item_values/world/",
+	"filePrefix": "",
+	"sections": {
+		"ops": "RegistryOps(JsonOps)",
+		"machines": {
+			"status": "done",
+			"machines": 987.0,
+			"failed": 0.0,
+			"files": [
+				"machines.json"
+			],
+			"ms": 403.0
+		},
+		"totalMs": 429.0
+	},
+	"errorCount": 0.0,
+	"errorsTruncated": false,
+	"errors": [],
+	"notes": [
+		"LootJS modifiers are not included: LootModificationsAPI.actions is private with no getter (javap of lootjs-forge-1.20.1-2.13.1). Parse kubejs/server_scripts for addEntityLootModifier/addBlockLootModifier/addLootTableModifier/addLootTypeModifier instead.",
+		"Loot/feature json is Minecraft own serialization (loot Gson / feature codecs). drops/blocks are best-effort summaries derived from it."
+	]
+}

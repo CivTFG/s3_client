@@ -1,0 +1,2567 @@
+{
+	"type": "gtceu:nuclear_fuel_factory",
+	"recipes": [
+		{
+			"id": "tfg:nuclear_fuel_factory/americium_300_t1",
+			"category": "nuclear_fuel_factory",
+			"duration": 60,
+			"voltage": 7680,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:isotopic_solvent"
+					],
+					"amount": 64000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:depleted_tbu_232_rod"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:degraded_solvent_stream"
+					],
+					"amount": 64000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:tbu_waste"
+					],
+					"amount": 8000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:tiny_americium_241_dust"
+					],
+					"amount": 12,
+					"chanced": true,
+					"chance": 2500,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:tiny_americium_241_dust"
+					],
+					"amount": 16,
+					"chanced": true,
+					"chance": 7500,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:empty_rod_t2"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"data": {
+				"avgHeat2": "100",
+				"avgHeat1": "0"
+			},
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@509ab85f",
+					"dimension": "ResourceKey[minecraft:dimension / ad_astra:mars]"
+				},
+				{
+					"type": "OxygenatedCondition",
+					"text": "su.terrafirmagreg.core.common.tfgt.recipe.condition.OxygenatedCondition@533e711f",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:nuclear_fuel_factory/californium_t2",
+			"category": "nuclear_fuel_factory",
+			"duration": 60,
+			"voltage": 7680,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:high_grade_isotopic_solvent"
+					],
+					"amount": 64000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:depleted_tbu_232_rod"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:degraded_high_grade_isotopic_solvent"
+					],
+					"amount": 64000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:tbu_waste"
+					],
+					"amount": 8000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:tiny_californium_252_dust"
+					],
+					"amount": 4,
+					"chanced": true,
+					"chance": 2500,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:tiny_californium_252_dust"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 7500,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:empty_rod_t2"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"data": {
+				"avgHeat2": "999",
+				"avgHeat1": "900"
+			},
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@63f19207",
+					"dimension": "ResourceKey[minecraft:dimension / ad_astra:mars]"
+				},
+				{
+					"type": "OxygenatedCondition",
+					"text": "su.terrafirmagreg.core.common.tfgt.recipe.condition.OxygenatedCondition@66ac8666",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:nuclear_fuel_factory/americium_30_t3",
+			"category": "nuclear_fuel_factory",
+			"duration": 60,
+			"voltage": 7680,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:isotopic_solvent"
+					],
+					"amount": 64000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:depleted_tbu_232_rod"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:degraded_solvent_stream"
+					],
+					"amount": 64000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:tbu_waste"
+					],
+					"amount": 8000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:tiny_americium_241_dust"
+					],
+					"amount": 1,
+					"chanced": true,
+					"chance": 2500,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:tiny_americium_241_dust"
+					],
+					"amount": 2,
+					"chanced": true,
+					"chance": 7500,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:empty_rod_t2"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"data": {
+				"avgHeat2": "300",
+				"avgHeat1": "201"
+			},
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@2c06fa97",
+					"dimension": "ResourceKey[minecraft:dimension / ad_astra:mars]"
+				},
+				{
+					"type": "OxygenatedCondition",
+					"text": "su.terrafirmagreg.core.common.tfgt.recipe.condition.OxygenatedCondition@438834ba",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:nuclear_fuel_factory/neptunium_t1",
+			"category": "nuclear_fuel_factory",
+			"duration": 60,
+			"voltage": 7680,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:isotopic_solvent"
+					],
+					"amount": 64000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:depleted_tbu_232_rod"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:degraded_solvent_stream"
+					],
+					"amount": 64000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:tbu_waste"
+					],
+					"amount": 8000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:tiny_neptunium_237_dust"
+					],
+					"amount": 1,
+					"chanced": true,
+					"chance": 2500,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:tiny_neptunium_237_dust"
+					],
+					"amount": 2,
+					"chanced": true,
+					"chance": 7500,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:empty_rod_t2"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"data": {
+				"avgHeat2": "400",
+				"avgHeat1": "301"
+			},
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@52151381",
+					"dimension": "ResourceKey[minecraft:dimension / ad_astra:mars]"
+				},
+				{
+					"type": "OxygenatedCondition",
+					"text": "su.terrafirmagreg.core.common.tfgt.recipe.condition.OxygenatedCondition@49dc8916",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:nuclear_fuel_factory/americium_300_t2",
+			"category": "nuclear_fuel_factory",
+			"duration": 60,
+			"voltage": 7680,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:isotopic_solvent"
+					],
+					"amount": 64000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:depleted_tbu_232_rod"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:degraded_solvent_stream"
+					],
+					"amount": 64000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:tbu_waste"
+					],
+					"amount": 8000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:tiny_americium_241_dust"
+					],
+					"amount": 4,
+					"chanced": true,
+					"chance": 2500,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:tiny_americium_241_dust"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 7500,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:empty_rod_t2"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"data": {
+				"avgHeat2": "200",
+				"avgHeat1": "101"
+			},
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@2227b0db",
+					"dimension": "ResourceKey[minecraft:dimension / ad_astra:mars]"
+				},
+				{
+					"type": "OxygenatedCondition",
+					"text": "su.terrafirmagreg.core.common.tfgt.recipe.condition.OxygenatedCondition@58543605",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:nuclear_fuel_factory/depleted_thorium_rod_bad",
+			"category": "nuclear_fuel_factory",
+			"duration": 320,
+			"voltage": 480,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:depleted_thorium_rod"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:radioactive_waste"
+					],
+					"amount": 100,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:empty_rod"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"data": {
+				"avgHeat2": "∞",
+				"avgHeat1": "3000"
+			},
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@2404672f",
+					"dimension": "ResourceKey[minecraft:dimension / ad_astra:mars]"
+				},
+				{
+					"type": "OxygenatedCondition",
+					"text": "su.terrafirmagreg.core.common.tfgt.recipe.condition.OxygenatedCondition@3b3aba1c",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:nuclear_fuel_factory/depleted_uranium_rod",
+			"category": "nuclear_fuel_factory",
+			"duration": 320,
+			"voltage": 480,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:depleted_uranium_rod"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:uranium_waste"
+					],
+					"amount": 50000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:empty_rod"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"data": {
+				"avgHeat2": "1999",
+				"avgHeat1": "0"
+			},
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@5b522394",
+					"dimension": "ResourceKey[minecraft:dimension / ad_astra:mars]"
+				},
+				{
+					"type": "OxygenatedCondition",
+					"text": "su.terrafirmagreg.core.common.tfgt.recipe.condition.OxygenatedCondition@5ce80ace",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:nuclear_fuel_factory/depleted_plutonium_rod_bad",
+			"category": "nuclear_fuel_factory",
+			"duration": 320,
+			"voltage": 480,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:depleted_plutonium_rod"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:tritiated_water"
+					],
+					"amount": 144,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:empty_rod"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"data": {
+				"avgHeat2": "∞",
+				"avgHeat1": "3000"
+			},
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@1caeec9c",
+					"dimension": "ResourceKey[minecraft:dimension / ad_astra:mars]"
+				},
+				{
+					"type": "OxygenatedCondition",
+					"text": "su.terrafirmagreg.core.common.tfgt.recipe.condition.OxygenatedCondition@4b1d1215",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:nuclear_fuel_factory/neptunium_t2",
+			"category": "nuclear_fuel_factory",
+			"duration": 60,
+			"voltage": 7680,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:isotopic_solvent"
+					],
+					"amount": 64000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:depleted_tbu_232_rod"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:degraded_solvent_stream"
+					],
+					"amount": 64000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:tbu_waste"
+					],
+					"amount": 8000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:tiny_neptunium_237_dust"
+					],
+					"amount": 4,
+					"chanced": true,
+					"chance": 2500,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:tiny_neptunium_237_dust"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 7500,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:empty_rod_t2"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"data": {
+				"avgHeat2": "500",
+				"avgHeat1": "401"
+			},
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@27d7418b",
+					"dimension": "ResourceKey[minecraft:dimension / ad_astra:mars]"
+				},
+				{
+					"type": "OxygenatedCondition",
+					"text": "su.terrafirmagreg.core.common.tfgt.recipe.condition.OxygenatedCondition@4cf683e1",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:nuclear_fuel_factory/neptunium_t3",
+			"category": "nuclear_fuel_factory",
+			"duration": 60,
+			"voltage": 7680,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:isotopic_solvent"
+					],
+					"amount": 64000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:depleted_tbu_232_rod"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:degraded_solvent_stream"
+					],
+					"amount": 64000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:tbu_waste"
+					],
+					"amount": 8000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:tiny_neptunium_237_dust"
+					],
+					"amount": 12,
+					"chanced": true,
+					"chance": 2500,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:tiny_neptunium_237_dust"
+					],
+					"amount": 16,
+					"chanced": true,
+					"chance": 7500,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:empty_rod_t2"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"data": {
+				"avgHeat2": "599",
+				"avgHeat1": "501"
+			},
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@729a632a",
+					"dimension": "ResourceKey[minecraft:dimension / ad_astra:mars]"
+				},
+				{
+					"type": "OxygenatedCondition",
+					"text": "su.terrafirmagreg.core.common.tfgt.recipe.condition.OxygenatedCondition@6fdcafeb",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:nuclear_fuel_factory/neptunium_pellet",
+			"category": "nuclear_fuel_factory",
+			"duration": 12000,
+			"voltage": 7680,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:radon"
+					],
+					"amount": 100,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:neptunium_237_rod"
+					],
+					"amount": 32,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:neptunium_237_rod"
+					],
+					"amount": 32,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:empty_rod_t2"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:neptunium_237_rod"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@16da294f",
+					"dimension": "ResourceKey[minecraft:dimension / ad_astra:mars]"
+				},
+				{
+					"type": "OxygenatedCondition",
+					"text": "su.terrafirmagreg.core.common.tfgt.recipe.condition.OxygenatedCondition@6fede5ee",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:nuclear_fuel_factory/depleted_californium_252_rod",
+			"category": "nuclear_fuel_factory",
+			"duration": 320,
+			"voltage": 480,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:depleted_californium_252_rod"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:empty_rod_t3"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@5b46c317",
+					"dimension": "ResourceKey[minecraft:dimension / ad_astra:mars]"
+				},
+				{
+					"type": "OxygenatedCondition",
+					"text": "su.terrafirmagreg.core.common.tfgt.recipe.condition.OxygenatedCondition@1c110961",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:nuclear_fuel_factory/americium_pellet",
+			"category": "nuclear_fuel_factory",
+			"duration": 12000,
+			"voltage": 7680,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:radon"
+					],
+					"amount": 100,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:americium_241_rod"
+					],
+					"amount": 32,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:americium_241_rod"
+					],
+					"amount": 32,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:empty_rod_t2"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:americium_241_rod"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@1fce4c07",
+					"dimension": "ResourceKey[minecraft:dimension / ad_astra:mars]"
+				},
+				{
+					"type": "OxygenatedCondition",
+					"text": "su.terrafirmagreg.core.common.tfgt.recipe.condition.OxygenatedCondition@1977edeb",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:nuclear_fuel_factory/tbu_232_rod_recycle",
+			"category": "nuclear_fuel_factory",
+			"duration": 6000,
+			"voltage": 7680,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:tbu_waste"
+					],
+					"amount": 8000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:long_thorium_230_rod"
+					],
+					"amount": 16,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:long_thorium_230_rod"
+					],
+					"amount": 16,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:thorium_232_rod"
+					],
+					"amount": 32,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:thorium_232_rod"
+					],
+					"amount": 32,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:thorium_232_rod"
+					],
+					"amount": 32,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:empty_rod_t2"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:tbu_232_rod"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@4a0219a",
+					"dimension": "ResourceKey[minecraft:dimension / ad_astra:mars]"
+				},
+				{
+					"type": "OxygenatedCondition",
+					"text": "su.terrafirmagreg.core.common.tfgt.recipe.condition.OxygenatedCondition@267c1892",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:nuclear_fuel_factory/uranium_pellet",
+			"category": "nuclear_fuel_factory",
+			"duration": 12000,
+			"voltage": 480,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:radioactive_waste"
+					],
+					"amount": 10000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:uranium_235_rod"
+					],
+					"amount": 16,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:uranium_rod"
+					],
+					"amount": 32,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:uranium_rod"
+					],
+					"amount": 32,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:uranium_rod"
+					],
+					"amount": 32,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:uranium_rod"
+					],
+					"amount": 32,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:empty_rod"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:uranium_rod"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@5ea17443",
+					"dimension": "ResourceKey[minecraft:dimension / ad_astra:mars]"
+				},
+				{
+					"type": "OxygenatedCondition",
+					"text": "su.terrafirmagreg.core.common.tfgt.recipe.condition.OxygenatedCondition@282a3bf4",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:nuclear_fuel_factory/depleted_neptunium_237_rod",
+			"category": "nuclear_fuel_factory",
+			"duration": 320,
+			"voltage": 480,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:depleted_neptunium_237_rod"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:empty_rod_t2"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@77a92181",
+					"dimension": "ResourceKey[minecraft:dimension / ad_astra:mars]"
+				},
+				{
+					"type": "OxygenatedCondition",
+					"text": "su.terrafirmagreg.core.common.tfgt.recipe.condition.OxygenatedCondition@22ff505b",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:nuclear_fuel_factory/tbu_overheated",
+			"category": "nuclear_fuel_factory",
+			"duration": 320,
+			"voltage": 7680,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:isotopic_solvent"
+					],
+					"amount": 64000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:depleted_tbu_232_rod"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:degraded_solvent_stream"
+					],
+					"amount": 64000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:tbu_waste"
+					],
+					"amount": 4000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:tiny_neptunium_237_dust"
+					],
+					"amount": 1,
+					"chanced": true,
+					"chance": 2500,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:empty_rod_t2"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"data": {
+				"avgHeat2": "∞",
+				"avgHeat1": "1101"
+			},
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@5aaae623",
+					"dimension": "ResourceKey[minecraft:dimension / ad_astra:mars]"
+				},
+				{
+					"type": "OxygenatedCondition",
+					"text": "su.terrafirmagreg.core.common.tfgt.recipe.condition.OxygenatedCondition@64b171de",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:nuclear_fuel_factory/depleted_plutonium_rod_average",
+			"category": "nuclear_fuel_factory",
+			"duration": 320,
+			"voltage": 480,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:depleted_plutonium_rod"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:tritiated_water"
+					],
+					"amount": 576,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:empty_rod"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"data": {
+				"avgHeat2": "2999",
+				"avgHeat1": "1000"
+			},
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@7ef65d10",
+					"dimension": "ResourceKey[minecraft:dimension / ad_astra:mars]"
+				},
+				{
+					"type": "OxygenatedCondition",
+					"text": "su.terrafirmagreg.core.common.tfgt.recipe.condition.OxygenatedCondition@73e02713",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:nuclear_fuel_factory/depleted_uranium_rod_bad",
+			"category": "nuclear_fuel_factory",
+			"duration": 320,
+			"voltage": 480,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:depleted_uranium_rod"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:uranium_waste"
+					],
+					"amount": 500,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:empty_rod"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"data": {
+				"avgHeat2": "∞",
+				"avgHeat1": "3000"
+			},
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@478047d",
+					"dimension": "ResourceKey[minecraft:dimension / ad_astra:mars]"
+				},
+				{
+					"type": "OxygenatedCondition",
+					"text": "su.terrafirmagreg.core.common.tfgt.recipe.condition.OxygenatedCondition@482ac73f",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:nuclear_fuel_factory/depleted_americium_241_rod",
+			"category": "nuclear_fuel_factory",
+			"duration": 320,
+			"voltage": 480,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:depleted_americium_241_rod"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:empty_rod_t2"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@221130e1",
+					"dimension": "ResourceKey[minecraft:dimension / ad_astra:mars]"
+				},
+				{
+					"type": "OxygenatedCondition",
+					"text": "su.terrafirmagreg.core.common.tfgt.recipe.condition.OxygenatedCondition@668e8332",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:nuclear_fuel_factory/depleted_thorium_rod",
+			"category": "nuclear_fuel_factory",
+			"duration": 320,
+			"voltage": 480,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:depleted_thorium_rod"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:radioactive_waste"
+					],
+					"amount": 2500,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:empty_rod"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"data": {
+				"avgHeat2": "799",
+				"avgHeat1": "0"
+			},
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@4770797c",
+					"dimension": "ResourceKey[minecraft:dimension / ad_astra:mars]"
+				},
+				{
+					"type": "OxygenatedCondition",
+					"text": "su.terrafirmagreg.core.common.tfgt.recipe.condition.OxygenatedCondition@6c4dcf4b",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:nuclear_fuel_factory/californium_t1",
+			"category": "nuclear_fuel_factory",
+			"duration": 60,
+			"voltage": 7680,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:high_grade_isotopic_solvent"
+					],
+					"amount": 64000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:depleted_tbu_232_rod"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:degraded_high_grade_isotopic_solvent"
+					],
+					"amount": 64000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:tbu_waste"
+					],
+					"amount": 8000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:tiny_californium_252_dust"
+					],
+					"amount": 1,
+					"chanced": true,
+					"chance": 2500,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:tiny_californium_252_dust"
+					],
+					"amount": 2,
+					"chanced": true,
+					"chance": 7500,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:empty_rod_t2"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"data": {
+				"avgHeat2": "899",
+				"avgHeat1": "800"
+			},
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@1bb1ee62",
+					"dimension": "ResourceKey[minecraft:dimension / ad_astra:mars]"
+				},
+				{
+					"type": "OxygenatedCondition",
+					"text": "su.terrafirmagreg.core.common.tfgt.recipe.condition.OxygenatedCondition@5f4ecff1",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:nuclear_fuel_factory/plutonium_pellet",
+			"category": "nuclear_fuel_factory",
+			"duration": 12000,
+			"voltage": 1920,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:radon"
+					],
+					"amount": 100,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:plutonium_rod"
+					],
+					"amount": 32,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:plutonium_rod"
+					],
+					"amount": 32,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:plutonium_rod"
+					],
+					"amount": 32,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:plutonium_rod"
+					],
+					"amount": 32,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:empty_rod"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:plutonium_rod"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@79c02f05",
+					"dimension": "ResourceKey[minecraft:dimension / ad_astra:mars]"
+				},
+				{
+					"type": "OxygenatedCondition",
+					"text": "su.terrafirmagreg.core.common.tfgt.recipe.condition.OxygenatedCondition@7f5b2bc6",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:nuclear_fuel_factory/thorium_pellet",
+			"category": "nuclear_fuel_factory",
+			"duration": 4000,
+			"voltage": 480,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:thorium_230_rod"
+					],
+					"amount": 16,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:thorium_232_rod"
+					],
+					"amount": 32,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:thorium_232_rod"
+					],
+					"amount": 32,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:thorium_232_rod"
+					],
+					"amount": 32,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:thorium_232_rod"
+					],
+					"amount": 32,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:empty_rod"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:thorium_rod"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@701ac2b",
+					"dimension": "ResourceKey[minecraft:dimension / ad_astra:mars]"
+				},
+				{
+					"type": "OxygenatedCondition",
+					"text": "su.terrafirmagreg.core.common.tfgt.recipe.condition.OxygenatedCondition@11316b52",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:nuclear_fuel_factory/depleted_plutonium_rod",
+			"category": "nuclear_fuel_factory",
+			"duration": 320,
+			"voltage": 480,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:depleted_plutonium_rod"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:tritiated_water"
+					],
+					"amount": 5184,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:empty_rod"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"data": {
+				"avgHeat2": "999",
+				"avgHeat1": "0"
+			},
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@76e8a4b7",
+					"dimension": "ResourceKey[minecraft:dimension / ad_astra:mars]"
+				},
+				{
+					"type": "OxygenatedCondition",
+					"text": "su.terrafirmagreg.core.common.tfgt.recipe.condition.OxygenatedCondition@7c822eb5",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:nuclear_fuel_factory/californium_t3",
+			"category": "nuclear_fuel_factory",
+			"duration": 60,
+			"voltage": 7680,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:high_grade_isotopic_solvent"
+					],
+					"amount": 64000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:depleted_tbu_232_rod"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:degraded_high_grade_isotopic_solvent"
+					],
+					"amount": 64000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:tbu_waste"
+					],
+					"amount": 8000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:tiny_californium_252_dust"
+					],
+					"amount": 12,
+					"chanced": true,
+					"chance": 2500,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:tiny_californium_252_dust"
+					],
+					"amount": 16,
+					"chanced": true,
+					"chance": 7500,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:empty_rod_t2"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"data": {
+				"avgHeat2": "1100",
+				"avgHeat1": "1000"
+			},
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@1136ad7f",
+					"dimension": "ResourceKey[minecraft:dimension / ad_astra:mars]"
+				},
+				{
+					"type": "OxygenatedCondition",
+					"text": "su.terrafirmagreg.core.common.tfgt.recipe.condition.OxygenatedCondition@22486ef2",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:nuclear_fuel_factory/depleted_uranium_rod_average",
+			"category": "nuclear_fuel_factory",
+			"duration": 320,
+			"voltage": 480,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:depleted_uranium_rod"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:uranium_waste"
+					],
+					"amount": 10000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:empty_rod"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"data": {
+				"avgHeat2": "2999",
+				"avgHeat1": "2000"
+			},
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@34d6bc2f",
+					"dimension": "ResourceKey[minecraft:dimension / ad_astra:mars]"
+				},
+				{
+					"type": "OxygenatedCondition",
+					"text": "su.terrafirmagreg.core.common.tfgt.recipe.condition.OxygenatedCondition@10afb29f",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:nuclear_fuel_factory/depleted_thorium_rod_average",
+			"category": "nuclear_fuel_factory",
+			"duration": 320,
+			"voltage": 480,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:depleted_thorium_rod"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:radioactive_waste"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:empty_rod"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"data": {
+				"avgHeat2": "2999",
+				"avgHeat1": "800"
+			},
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@2e20aa6b",
+					"dimension": "ResourceKey[minecraft:dimension / ad_astra:mars]"
+				},
+				{
+					"type": "OxygenatedCondition",
+					"text": "su.terrafirmagreg.core.common.tfgt.recipe.condition.OxygenatedCondition@2f965c44",
+					"dimension": "undefined"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,41 @@
+{
+	"group": "other",
+	"namespace": "lootr",
+	"tables": [
+		{
+			"id": "lootr:trophy",
+			"json": {
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "lootr:trophy"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "lootr:trophy",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		}
+	]
+}

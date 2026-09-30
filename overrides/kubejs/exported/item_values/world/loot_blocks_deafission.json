@@ -1,0 +1,446 @@
+{
+	"group": "blocks",
+	"namespace": "deafission",
+	"tables": [
+		{
+			"id": "deafission:blocks/heat_battery_mk1",
+			"json": {
+				"type": "minecraft:block",
+				"pools": [
+					{
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "deafission:heat_battery_mk1"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "deafission:heat_battery_mk1",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "deafission:blocks/battery_heat_port_ev",
+			"json": {
+				"type": "minecraft:block",
+				"pools": [
+					{
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "deafission:battery_heat_port_ev"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "deafission:battery_heat_port_ev",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "deafission:blocks/material_holder",
+			"json": {
+				"type": "minecraft:block",
+				"pools": [
+					{
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "deafission:material_holder"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "deafission:material_holder",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "deafission:blocks/redstone_port",
+			"json": {
+				"type": "minecraft:block",
+				"pools": [
+					{
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "deafission:redstone_port"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "deafission:redstone_port",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "deafission:blocks/heat_input_hatch_ev",
+			"json": {
+				"type": "minecraft:block",
+				"pools": [
+					{
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "deafission:heat_input_hatch_ev"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "deafission:heat_input_hatch_ev",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "deafission:blocks/fission_reactor_mk1",
+			"json": {
+				"type": "minecraft:block",
+				"pools": [
+					{
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "deafission:fission_reactor_mk1"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "deafission:fission_reactor_mk1",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "deafission:blocks/fission_reactor_mk2",
+			"json": {
+				"type": "minecraft:block",
+				"pools": [
+					{
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "deafission:fission_reactor_mk2"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "deafission:fission_reactor_mk2",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "deafission:blocks/fuel_holder",
+			"json": {
+				"type": "minecraft:block",
+				"pools": [
+					{
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "deafission:fuel_holder"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "deafission:fuel_holder",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "deafission:blocks/aux_exchanger",
+			"json": {
+				"type": "minecraft:block",
+				"pools": [
+					{
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "deafission:aux_exchanger"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "deafission:aux_exchanger",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "deafission:blocks/fission_reactor_smr1",
+			"json": {
+				"type": "minecraft:block",
+				"pools": [
+					{
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "deafission:fission_reactor_smr1"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "deafission:fission_reactor_smr1",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		}
+	]
+}

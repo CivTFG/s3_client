@@ -1,0 +1,746 @@
+{
+	"placed": {
+		"ad_astra:moon_soul_soil": {
+			"feature": "ad_astra:moon_soul_soil",
+			"json": {
+				"feature": "ad_astra:moon_soul_soil",
+				"placement": [
+					{
+						"count": 20.0,
+						"type": "minecraft:count"
+					},
+					{
+						"type": "minecraft:in_square"
+					},
+					{
+						"height": {
+							"min_inclusive": {
+								"absolute": 0.0
+							},
+							"max_inclusive": {
+								"absolute": 100.0
+							},
+							"type": "minecraft:trapezoid"
+						},
+						"type": "minecraft:height_range"
+					},
+					{
+						"type": "minecraft:biome"
+					}
+				]
+			}
+		},
+		"ad_astra:glacio_deepslate_coal_ore": {
+			"feature": "ad_astra:glacio_deepslate_coal_ore",
+			"json": {
+				"feature": "ad_astra:glacio_deepslate_coal_ore",
+				"placement": [
+					{
+						"count": 20.0,
+						"type": "minecraft:count"
+					},
+					{
+						"type": "minecraft:in_square"
+					},
+					{
+						"height": {
+							"min_inclusive": {
+								"absolute": -80.0
+							},
+							"max_inclusive": {
+								"absolute": 192.0
+							},
+							"type": "minecraft:trapezoid"
+						},
+						"type": "minecraft:height_range"
+					},
+					{
+						"type": "minecraft:biome"
+					}
+				]
+			}
+		},
+		"ad_astra:mars_rock": {
+			"feature": "ad_astra:mars_rock",
+			"json": {
+				"feature": "ad_astra:mars_rock",
+				"placement": [
+					{
+						"count": 2.0,
+						"type": "minecraft:count"
+					},
+					{
+						"type": "minecraft:in_square"
+					},
+					{
+						"heightmap": "MOTION_BLOCKING",
+						"type": "minecraft:heightmap"
+					},
+					{
+						"type": "minecraft:biome"
+					}
+				]
+			}
+		},
+		"ad_astra:mercury_iron_ore": {
+			"feature": "ad_astra:mercury_iron_ore",
+			"json": {
+				"feature": "ad_astra:mercury_iron_ore",
+				"placement": [
+					{
+						"count": 20.0,
+						"type": "minecraft:count"
+					},
+					{
+						"type": "minecraft:in_square"
+					},
+					{
+						"height": {
+							"min_inclusive": {
+								"absolute": -80.0
+							},
+							"max_inclusive": {
+								"absolute": 192.0
+							},
+							"type": "minecraft:trapezoid"
+						},
+						"type": "minecraft:height_range"
+					},
+					{
+						"type": "minecraft:biome"
+					}
+				]
+			}
+		},
+		"ad_astra:venus_calorite_ore": {
+			"feature": "ad_astra:venus_calorite_ore",
+			"json": {
+				"feature": "ad_astra:venus_calorite_ore",
+				"placement": [
+					{
+						"count": 8.0,
+						"type": "minecraft:count"
+					},
+					{
+						"type": "minecraft:in_square"
+					},
+					{
+						"height": {
+							"min_inclusive": {
+								"absolute": -80.0
+							},
+							"max_inclusive": {
+								"absolute": 80.0
+							},
+							"type": "minecraft:trapezoid"
+						},
+						"type": "minecraft:height_range"
+					},
+					{
+						"type": "minecraft:biome"
+					}
+				]
+			}
+		},
+		"ad_astra:venus_coal_ore": {
+			"feature": "ad_astra:venus_coal_ore",
+			"json": {
+				"feature": "ad_astra:venus_coal_ore",
+				"placement": [
+					{
+						"count": 20.0,
+						"type": "minecraft:count"
+					},
+					{
+						"type": "minecraft:in_square"
+					},
+					{
+						"height": {
+							"min_inclusive": {
+								"absolute": -80.0
+							},
+							"max_inclusive": {
+								"absolute": 192.0
+							},
+							"type": "minecraft:trapezoid"
+						},
+						"type": "minecraft:height_range"
+					},
+					{
+						"type": "minecraft:biome"
+					}
+				]
+			}
+		},
+		"ad_astra:mars_diamond_ore": {
+			"feature": "ad_astra:mars_diamond_ore",
+			"json": {
+				"feature": "ad_astra:mars_diamond_ore",
+				"placement": [
+					{
+						"count": 5.0,
+						"type": "minecraft:count"
+					},
+					{
+						"type": "minecraft:in_square"
+					},
+					{
+						"height": {
+							"min_inclusive": {
+								"absolute": -80.0
+							},
+							"max_inclusive": {
+								"absolute": 80.0
+							},
+							"type": "minecraft:trapezoid"
+						},
+						"type": "minecraft:height_range"
+					},
+					{
+						"type": "minecraft:biome"
+					}
+				]
+			}
+		},
+		"ad_astra:glacio_deepslate_iron_ore": {
+			"feature": "ad_astra:glacio_deepslate_iron_ore",
+			"json": {
+				"feature": "ad_astra:glacio_deepslate_iron_ore",
+				"placement": [
+					{
+						"count": 10.0,
+						"type": "minecraft:count"
+					},
+					{
+						"type": "minecraft:in_square"
+					},
+					{
+						"height": {
+							"min_inclusive": {
+								"absolute": -80.0
+							},
+							"max_inclusive": {
+								"absolute": 20.0
+							},
+							"type": "minecraft:trapezoid"
+						},
+						"type": "minecraft:height_range"
+					},
+					{
+						"type": "minecraft:biome"
+					}
+				]
+			}
+		},
+		"ad_astra:venus_diamond_ore": {
+			"feature": "ad_astra:venus_diamond_ore",
+			"json": {
+				"feature": "ad_astra:venus_diamond_ore",
+				"placement": [
+					{
+						"count": 5.0,
+						"type": "minecraft:count"
+					},
+					{
+						"type": "minecraft:in_square"
+					},
+					{
+						"height": {
+							"min_inclusive": {
+								"absolute": -80.0
+							},
+							"max_inclusive": {
+								"absolute": 80.0
+							},
+							"type": "minecraft:trapezoid"
+						},
+						"type": "minecraft:height_range"
+					},
+					{
+						"type": "minecraft:biome"
+					}
+				]
+			}
+		},
+		"ad_astra:moon_cheese_ore": {
+			"feature": "ad_astra:moon_cheese_ore",
+			"json": {
+				"feature": "ad_astra:moon_cheese_ore",
+				"placement": [
+					{
+						"count": 9.0,
+						"type": "minecraft:count"
+					},
+					{
+						"type": "minecraft:in_square"
+					},
+					{
+						"height": {
+							"min_inclusive": {
+								"absolute": 6.0
+							},
+							"max_inclusive": {
+								"absolute": 192.0
+							},
+							"type": "minecraft:trapezoid"
+						},
+						"type": "minecraft:height_range"
+					},
+					{
+						"type": "minecraft:biome"
+					}
+				]
+			}
+		},
+		"ad_astra:venus_gold_ore": {
+			"feature": "ad_astra:venus_gold_ore",
+			"json": {
+				"feature": "ad_astra:venus_gold_ore",
+				"placement": [
+					{
+						"count": 4.0,
+						"type": "minecraft:count"
+					},
+					{
+						"type": "minecraft:in_square"
+					},
+					{
+						"height": {
+							"min_inclusive": {
+								"absolute": -64.0
+							},
+							"max_inclusive": {
+								"absolute": 32.0
+							},
+							"type": "minecraft:trapezoid"
+						},
+						"type": "minecraft:height_range"
+					},
+					{
+						"type": "minecraft:biome"
+					}
+				]
+			}
+		},
+		"ad_astra:mars_iron_ore": {
+			"feature": "ad_astra:mars_iron_ore",
+			"json": {
+				"feature": "ad_astra:mars_iron_ore",
+				"placement": [
+					{
+						"count": 10.0,
+						"type": "minecraft:count"
+					},
+					{
+						"type": "minecraft:in_square"
+					},
+					{
+						"height": {
+							"min_inclusive": {
+								"absolute": -24.0
+							},
+							"max_inclusive": {
+								"absolute": 56.0
+							},
+							"type": "minecraft:trapezoid"
+						},
+						"type": "minecraft:height_range"
+					},
+					{
+						"type": "minecraft:biome"
+					}
+				]
+			}
+		},
+		"ad_astra:glacio_ice_shard_ore": {
+			"feature": "ad_astra:glacio_ice_shard_ore",
+			"json": {
+				"feature": "ad_astra:glacio_ice_shard_ore",
+				"placement": [
+					{
+						"count": 8.0,
+						"type": "minecraft:count"
+					},
+					{
+						"type": "minecraft:in_square"
+					},
+					{
+						"height": {
+							"min_inclusive": {
+								"absolute": -32.0
+							},
+							"max_inclusive": {
+								"absolute": 32.0
+							},
+							"type": "minecraft:trapezoid"
+						},
+						"type": "minecraft:height_range"
+					},
+					{
+						"type": "minecraft:biome"
+					}
+				]
+			}
+		},
+		"ad_astra:mars_ice_shard_ore": {
+			"feature": "ad_astra:mars_ice_shard_ore",
+			"json": {
+				"feature": "ad_astra:mars_ice_shard_ore",
+				"placement": [
+					{
+						"count": 8.0,
+						"type": "minecraft:count"
+					},
+					{
+						"type": "minecraft:in_square"
+					},
+					{
+						"height": {
+							"min_inclusive": {
+								"absolute": -32.0
+							},
+							"max_inclusive": {
+								"absolute": 32.0
+							},
+							"type": "minecraft:trapezoid"
+						},
+						"type": "minecraft:height_range"
+					},
+					{
+						"type": "minecraft:biome"
+					}
+				]
+			}
+		},
+		"ad_astra:glacio_copper_ore": {
+			"feature": "ad_astra:glacio_copper_ore",
+			"json": {
+				"feature": "ad_astra:glacio_copper_ore",
+				"placement": [
+					{
+						"count": 16.0,
+						"type": "minecraft:count"
+					},
+					{
+						"type": "minecraft:in_square"
+					},
+					{
+						"height": {
+							"min_inclusive": {
+								"absolute": -16.0
+							},
+							"max_inclusive": {
+								"absolute": 112.0
+							},
+							"type": "minecraft:trapezoid"
+						},
+						"type": "minecraft:height_range"
+					},
+					{
+						"type": "minecraft:biome"
+					}
+				]
+			}
+		},
+		"ad_astra:mars_ostrum_ore": {
+			"feature": "ad_astra:mars_ostrum_ore",
+			"json": {
+				"feature": "ad_astra:mars_ostrum_ore",
+				"placement": [
+					{
+						"count": 8.0,
+						"type": "minecraft:count"
+					},
+					{
+						"type": "minecraft:in_square"
+					},
+					{
+						"height": {
+							"min_inclusive": {
+								"absolute": -80.0
+							},
+							"max_inclusive": {
+								"absolute": 80.0
+							},
+							"type": "minecraft:trapezoid"
+						},
+						"type": "minecraft:height_range"
+					},
+					{
+						"type": "minecraft:biome"
+					}
+				]
+			}
+		},
+		"ad_astra:moon_desh_ore": {
+			"feature": "ad_astra:moon_desh_ore",
+			"json": {
+				"feature": "ad_astra:moon_desh_ore",
+				"placement": [
+					{
+						"count": 9.0,
+						"type": "minecraft:count"
+					},
+					{
+						"type": "minecraft:in_square"
+					},
+					{
+						"height": {
+							"min_inclusive": {
+								"absolute": -80.0
+							},
+							"max_inclusive": {
+								"absolute": 80.0
+							},
+							"type": "minecraft:trapezoid"
+						},
+						"type": "minecraft:height_range"
+					},
+					{
+						"type": "minecraft:biome"
+					}
+				]
+			}
+		},
+		"ad_astra:glacio_iron_ore": {
+			"feature": "ad_astra:glacio_iron_ore",
+			"json": {
+				"feature": "ad_astra:glacio_iron_ore",
+				"placement": [
+					{
+						"count": 10.0,
+						"type": "minecraft:count"
+					},
+					{
+						"type": "minecraft:in_square"
+					},
+					{
+						"height": {
+							"min_inclusive": {
+								"absolute": -24.0
+							},
+							"max_inclusive": {
+								"absolute": 56.0
+							},
+							"type": "minecraft:trapezoid"
+						},
+						"type": "minecraft:height_range"
+					},
+					{
+						"type": "minecraft:biome"
+					}
+				]
+			}
+		},
+		"ad_astra:moon_ice_shard_ore": {
+			"feature": "ad_astra:moon_ice_shard_ore",
+			"json": {
+				"feature": "ad_astra:moon_ice_shard_ore",
+				"placement": [
+					{
+						"count": 8.0,
+						"type": "minecraft:count"
+					},
+					{
+						"type": "minecraft:in_square"
+					},
+					{
+						"height": {
+							"min_inclusive": {
+								"absolute": -32.0
+							},
+							"max_inclusive": {
+								"absolute": 32.0
+							},
+							"type": "minecraft:trapezoid"
+						},
+						"type": "minecraft:height_range"
+					},
+					{
+						"type": "minecraft:biome"
+					}
+				]
+			}
+		},
+		"ad_astra:glacio_deepslate_lapis_ore": {
+			"feature": "ad_astra:glacio_deepslate_lapis_ore",
+			"json": {
+				"feature": "ad_astra:glacio_deepslate_lapis_ore",
+				"placement": [
+					{
+						"count": 2.0,
+						"type": "minecraft:count"
+					},
+					{
+						"type": "minecraft:in_square"
+					},
+					{
+						"height": {
+							"min_inclusive": {
+								"absolute": -80.0
+							},
+							"max_inclusive": {
+								"absolute": 10.0
+							},
+							"type": "minecraft:trapezoid"
+						},
+						"type": "minecraft:height_range"
+					},
+					{
+						"type": "minecraft:biome"
+					}
+				]
+			}
+		},
+		"ad_astra:moon_iron_ore": {
+			"feature": "ad_astra:moon_iron_ore",
+			"json": {
+				"feature": "ad_astra:moon_iron_ore",
+				"placement": [
+					{
+						"count": 10.0,
+						"type": "minecraft:count"
+					},
+					{
+						"type": "minecraft:in_square"
+					},
+					{
+						"height": {
+							"min_inclusive": {
+								"absolute": -24.0
+							},
+							"max_inclusive": {
+								"absolute": 56.0
+							},
+							"type": "minecraft:trapezoid"
+						},
+						"type": "minecraft:height_range"
+					},
+					{
+						"type": "minecraft:biome"
+					}
+				]
+			}
+		},
+		"ad_astra:glacio_coal_ore": {
+			"feature": "ad_astra:glacio_coal_ore",
+			"json": {
+				"feature": "ad_astra:glacio_coal_ore",
+				"placement": [
+					{
+						"count": 20.0,
+						"type": "minecraft:count"
+					},
+					{
+						"type": "minecraft:in_square"
+					},
+					{
+						"height": {
+							"min_inclusive": {
+								"absolute": -80.0
+							},
+							"max_inclusive": {
+								"absolute": 192.0
+							},
+							"type": "minecraft:trapezoid"
+						},
+						"type": "minecraft:height_range"
+					},
+					{
+						"type": "minecraft:biome"
+					}
+				]
+			}
+		},
+		"ad_astra:glacio_deepslate_copper_ore": {
+			"feature": "ad_astra:glacio_deepslate_copper_ore",
+			"json": {
+				"feature": "ad_astra:glacio_deepslate_copper_ore",
+				"placement": [
+					{
+						"count": 16.0,
+						"type": "minecraft:count"
+					},
+					{
+						"type": "minecraft:in_square"
+					},
+					{
+						"height": {
+							"min_inclusive": {
+								"absolute": -80.0
+							},
+							"max_inclusive": {
+								"absolute": 112.0
+							},
+							"type": "minecraft:trapezoid"
+						},
+						"type": "minecraft:height_range"
+					},
+					{
+						"type": "minecraft:biome"
+					}
+				]
+			}
+		},
+		"ad_astra:large_infernal_spire_column": {
+			"feature": "ad_astra:large_infernal_spire_column",
+			"json": {
+				"feature": "ad_astra:large_infernal_spire_column",
+				"placement": [
+					{
+						"count": 2.0,
+						"type": "minecraft:count_on_every_layer"
+					},
+					{
+						"type": "minecraft:biome"
+					}
+				]
+			}
+		},
+		"ad_astra:glacio_lapis_ore": {
+			"feature": "ad_astra:glacio_lapis_ore",
+			"json": {
+				"feature": "ad_astra:glacio_lapis_ore",
+				"placement": [
+					{
+						"count": 2.0,
+						"type": "minecraft:count"
+					},
+					{
+						"type": "minecraft:in_square"
+					},
+					{
+						"height": {
+							"min_inclusive": {
+								"absolute": -32.0
+							},
+							"max_inclusive": {
+								"absolute": 32.0
+							},
+							"type": "minecraft:trapezoid"
+						},
+						"type": "minecraft:height_range"
+					},
+					{
+						"type": "minecraft:biome"
+					}
+				]
+			}
+		},
+		"ad_astra:small_infernal_spire_column": {
+			"feature": "ad_astra:small_infernal_spire_column",
+			"json": {
+				"feature": "ad_astra:small_infernal_spire_column",
+				"placement": [
+					{
+						"count": 4.0,
+						"type": "minecraft:count_on_every_layer"
+					},
+					{
+						"type": "minecraft:biome"
+					}
+				]
+			}
+		}
+	}
+}

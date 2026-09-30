@@ -1,0 +1,1721 @@
+{
+	"group": "blocks",
+	"namespace": "species",
+	"tables": [
+		{
+			"id": "species:blocks/bewereager_head",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "species:blocks/bewereager_head",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "species:bewereager_head"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "species:bewereager_head",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "species:blocks/frozen_meat",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "species:blocks/frozen_meat",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "species:frozen_meat"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "species:frozen_meat",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "species:blocks/alphacene_grass_block",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "species:blocks/alphacene_grass_block",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:alternatives",
+								"children": [
+									{
+										"type": "minecraft:item",
+										"conditions": [
+											{
+												"condition": "minecraft:match_tool",
+												"predicate": {
+													"enchantments": [
+														{
+															"enchantment": "minecraft:silk_touch",
+															"levels": {
+																"min": 1.0
+															}
+														}
+													]
+												}
+											}
+										],
+										"name": "species:alphacene_grass_block"
+									},
+									{
+										"type": "minecraft:item",
+										"conditions": [
+											{
+												"condition": "minecraft:survives_explosion"
+											}
+										],
+										"name": "minecraft:dirt"
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "species:alphacene_grass_block",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:match_tool",
+							"silkTouch": true
+						}
+					],
+					"chain": [
+						"minecraft:alternatives#0"
+					]
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:dirt",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": [
+						"minecraft:alternatives#1"
+					]
+				}
+			]
+		},
+		{
+			"id": "species:blocks/petrified_egg",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "species:blocks/petrified_egg",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "species:petrified_egg"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "species:petrified_egg",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "species:blocks/bone_spike",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "species:blocks/bone_spike",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "species:bone_spike"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "species:bone_spike",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "species:blocks/cranktrap",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "species:blocks/cranktrap",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "species:cranktrap"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "species:cranktrap",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "species:blocks/trooper",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "species:blocks/trooper",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "species:ancient_pinecone"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "species:ancient_pinecone",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "species:blocks/ghoul_head",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "species:blocks/ghoul_head",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "species:ghoul_head"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "species:ghoul_head",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "species:blocks/wraptor_egg",
+			"json": {
+				"type": "minecraft:block",
+				"pools": [
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "tfg:wraptor_egg"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "tfg:wraptor_egg",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "species:blocks/springling_egg",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "species:blocks/springling_egg",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "species:springling_egg",
+										"properties": {
+											"half": "lower"
+										}
+									}
+								],
+								"name": "species:springling_egg"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "species:springling_egg",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "species:blocks/birt_dwelling",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "species:blocks/birt_dwelling",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:alternatives",
+								"children": [
+									{
+										"type": "minecraft:item",
+										"conditions": [
+											{
+												"condition": "minecraft:match_tool",
+												"predicate": {
+													"enchantments": [
+														{
+															"enchantment": "minecraft:silk_touch",
+															"levels": {
+																"min": 1.0
+															}
+														}
+													]
+												}
+											}
+										],
+										"functions": [
+											{
+												"function": "minecraft:copy_nbt",
+												"source": "block_entity",
+												"ops": [
+													{
+														"source": "Birts",
+														"target": "BlockEntityTag.Birts",
+														"op": "replace"
+													}
+												]
+											},
+											{
+												"function": "minecraft:copy_state",
+												"block": "species:birt_dwelling",
+												"properties": [
+													"eggs"
+												]
+											}
+										],
+										"name": "species:birt_dwelling"
+									},
+									{
+										"type": "minecraft:item",
+										"name": "species:birt_dwelling"
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "species:birt_dwelling",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [
+						"minecraft:copy_nbt",
+						"minecraft:copy_state"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:match_tool",
+							"silkTouch": true
+						}
+					],
+					"chain": [
+						"minecraft:alternatives#0"
+					]
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "species:birt_dwelling",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": [
+						"minecraft:alternatives#1"
+					]
+				}
+			]
+		},
+		{
+			"id": "species:blocks/wicked_candle",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "species:blocks/wicked_candle",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "species:wicked_candle"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "species:wicked_candle",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "species:blocks/birtday_cake",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "species:blocks/birtday_cake",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 8.0,
+										"add": false
+									}
+								],
+								"name": "species:birtday_cake_slice"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "species:birtday_cake_slice",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 8.0,
+						"max": 8.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "species:blocks/potted_trooper",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "species:blocks/potted_trooper",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:flower_pot"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "species:ancient_pinecone"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:flower_pot",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "species:ancient_pinecone",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "species:blocks/alphacene_mushroom_growth",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "species:blocks/alphacene_mushroom_growth",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "species:alphacene_mushroom_growth"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:match_tool",
+								"predicate": {
+									"items": [
+										"minecraft:shears"
+									]
+								}
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "species:alphacene_mushroom_growth",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:match_tool",
+							"mentionsShears": true
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "species:blocks/quake_head",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "species:blocks/quake_head",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "species:quake_head"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "species:quake_head",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "species:blocks/frozen_hair",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "species:blocks/frozen_hair",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "species:frozen_hair"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "species:frozen_hair",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "species:blocks/alphacene_moss_block",
+			"json": {
+				"type": "minecraft:block",
+				"pools": [
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:match_tool",
+										"predicate": {
+											"tag": "forge:shears"
+										}
+									}
+								],
+								"name": "species:alphacene_moss_block"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:survives_explosion"
+									},
+									{
+										"condition": "minecraft:random_chance",
+										"chance": 0.004
+									}
+								],
+								"name": "tfg:saplings/glacian"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "species:alphacene_moss_block",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:match_tool",
+							"mentionsShears": true
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "tfg:saplings/glacian",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:random_chance",
+							"chance": 0.004
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "species:blocks/cruncher_egg",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "species:blocks/cruncher_egg",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "species:cruncher_egg",
+										"properties": {
+											"half": "lower",
+											"cracked": "false"
+										}
+									}
+								],
+								"name": "species:cruncher_egg"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "species:cruncher_egg",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "species:blocks/alphacene_tall_grass",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "species:blocks/alphacene_tall_grass",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "species:alphacene_tall_grass",
+										"properties": {
+											"half": "lower"
+										}
+									}
+								],
+								"name": "species:alphacene_tall_grass"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "species:alphacene_tall_grass",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "species:blocks/alphacene_mushroom",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "species:blocks/alphacene_mushroom",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "species:alphacene_mushroom"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "species:alphacene_mushroom",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "species:blocks/speclight",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "species:blocks/speclight",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:copy_nbt",
+										"source": "block_entity",
+										"ops": [
+											{
+												"source": "color",
+												"target": "BlockEntityTag.color",
+												"op": "replace"
+											}
+										]
+									}
+								],
+								"name": "species:speclight"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "species:speclight",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [
+						"minecraft:copy_nbt"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "species:blocks/alphacene_mushroom_block",
+			"json": {
+				"type": "minecraft:block",
+				"pools": [
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:match_tool",
+										"predicate": {
+											"tag": "forge:shears"
+										}
+									}
+								],
+								"name": "species:alphacene_mushroom_block"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:survives_explosion"
+									},
+									{
+										"condition": "minecraft:random_chance",
+										"chance": 0.02
+									}
+								],
+								"name": "tfg:saplings/alphacene"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "species:alphacene_mushroom_block",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:match_tool",
+							"mentionsShears": true
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "tfg:saplings/alphacene",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:random_chance",
+							"chance": 0.02
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "species:blocks/chaindelier",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "species:blocks/chaindelier",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "species:chaindelier"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "species:chaindelier",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "species:blocks/alphacene_moss_carpet",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "species:blocks/alphacene_moss_carpet",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "species:alphacene_moss_carpet"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "species:alphacene_moss_carpet",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "species:blocks/hopelight",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "species:blocks/hopelight",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:copy_nbt",
+										"source": "block_entity",
+										"ops": [
+											{
+												"source": "color",
+												"target": "BlockEntityTag.color",
+												"op": "replace"
+											}
+										]
+									}
+								],
+								"name": "species:hopelight"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "species:hopelight",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [
+						"minecraft:copy_nbt"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "species:blocks/bone_bark",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "species:blocks/bone_bark",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "species:bone_bark"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "species:bone_bark",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "species:blocks/bone_vertebra",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "species:blocks/bone_vertebra",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "species:bone_vertebra"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "species:bone_vertebra",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "species:blocks/kinetic_core",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "species:blocks/kinetic_core",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "species:kinetic_core"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "species:kinetic_core",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "species:blocks/alphacene_grass",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "species:blocks/alphacene_grass",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "species:alphacene_grass"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "species:alphacene_grass",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		}
+	]
+}

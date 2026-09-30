@@ -1,0 +1,52 @@
+{
+	"group": "blocks",
+	"namespace": "createstockbridge",
+	"tables": [
+		{
+			"id": "createstockbridge:blocks/ae_bridge",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "createstockbridge:blocks/ae_bridge",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "createstockbridge:ae_bridge"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "createstockbridge:ae_bridge",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,902 @@
+{
+	"group": "blocks",
+	"namespace": "arthropocolypse",
+	"tables": [
+		{
+			"id": "arthropocolypse:blocks/beetle_fragment_block_bricks",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "arthropocolypse:blocks/beetle_fragment_block_bricks",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "arthropocolypse:beetle_fragment_block_bricks"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "arthropocolypse:beetle_fragment_block_bricks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "arthropocolypse:blocks/beetle_fragment_block_slabs",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "arthropocolypse:blocks/beetle_fragment_block_slabs",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"conditions": [
+											{
+												"condition": "minecraft:block_state_property",
+												"block": "arthropocolypse:beetle_fragment_block_slabs",
+												"properties": {
+													"type": "double"
+												}
+											}
+										],
+										"count": 2.0,
+										"add": false
+									},
+									{
+										"function": "minecraft:explosion_decay"
+									}
+								],
+								"name": "arthropocolypse:beetle_fragment_block_slabs"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "arthropocolypse:beetle_fragment_block_slabs",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count",
+						"minecraft:explosion_decay"
+					],
+					"conditions": [],
+					"chain": [],
+					"countConditional": true
+				}
+			]
+		},
+		{
+			"id": "arthropocolypse:blocks/tiled_beetle_fragment_block_slabs",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "arthropocolypse:blocks/tiled_beetle_fragment_block_slabs",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"conditions": [
+											{
+												"condition": "minecraft:block_state_property",
+												"block": "arthropocolypse:tiled_beetle_fragment_block_slabs",
+												"properties": {
+													"type": "double"
+												}
+											}
+										],
+										"count": 2.0,
+										"add": false
+									},
+									{
+										"function": "minecraft:explosion_decay"
+									}
+								],
+								"name": "arthropocolypse:tiled_beetle_fragment_block_slabs"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "arthropocolypse:tiled_beetle_fragment_block_slabs",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count",
+						"minecraft:explosion_decay"
+					],
+					"conditions": [],
+					"chain": [],
+					"countConditional": true
+				}
+			]
+		},
+		{
+			"id": "arthropocolypse:blocks/beetle_fragment_block_bricks_wall",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "arthropocolypse:blocks/beetle_fragment_block_bricks_wall",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "arthropocolypse:beetle_fragment_block_bricks_wall"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "arthropocolypse:beetle_fragment_block_bricks_wall",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "arthropocolypse:blocks/tiled_beetle_fragment_block_stairs",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "arthropocolypse:blocks/tiled_beetle_fragment_block_stairs",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "arthropocolypse:tiled_beetle_fragment_block_stairs"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "arthropocolypse:tiled_beetle_fragment_block_stairs",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "arthropocolypse:blocks/polished_beetle_fragment_block_stairs",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "arthropocolypse:blocks/polished_beetle_fragment_block_stairs",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "arthropocolypse:polished_beetle_fragment_block_stairs"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "arthropocolypse:polished_beetle_fragment_block_stairs",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "arthropocolypse:blocks/polished_beetle_fragment_block_wall",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "arthropocolypse:blocks/polished_beetle_fragment_block_wall",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "arthropocolypse:polished_beetle_fragment_block_wall"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "arthropocolypse:polished_beetle_fragment_block_wall",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "arthropocolypse:blocks/polished_beetle_fragment_block_slabs",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "arthropocolypse:blocks/polished_beetle_fragment_block_slabs",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"conditions": [
+											{
+												"condition": "minecraft:block_state_property",
+												"block": "arthropocolypse:polished_beetle_fragment_block_slabs",
+												"properties": {
+													"type": "double"
+												}
+											}
+										],
+										"count": 2.0,
+										"add": false
+									},
+									{
+										"function": "minecraft:explosion_decay"
+									}
+								],
+								"name": "arthropocolypse:polished_beetle_fragment_block_slabs"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "arthropocolypse:polished_beetle_fragment_block_slabs",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count",
+						"minecraft:explosion_decay"
+					],
+					"conditions": [],
+					"chain": [],
+					"countConditional": true
+				}
+			]
+		},
+		{
+			"id": "arthropocolypse:blocks/beetle_fragment_block_bricks_stairs",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "arthropocolypse:blocks/beetle_fragment_block_bricks_stairs",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "arthropocolypse:beetle_fragment_block_bricks_stairs"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "arthropocolypse:beetle_fragment_block_bricks_stairs",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "arthropocolypse:blocks/polished_beetle_fragment_block",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "arthropocolypse:blocks/polished_beetle_fragment_block",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "arthropocolypse:polished_beetle_fragment_block"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "arthropocolypse:polished_beetle_fragment_block",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "arthropocolypse:blocks/tiled_beetle_fragment_block_wall",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "arthropocolypse:blocks/tiled_beetle_fragment_block_wall",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "arthropocolypse:tiled_beetle_fragment_block_wall"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "arthropocolypse:tiled_beetle_fragment_block_wall",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "arthropocolypse:blocks/beetle_fragment_block",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "arthropocolypse:blocks/beetle_fragment_block",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "arthropocolypse:beetle_fragment_block"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "arthropocolypse:beetle_fragment_block",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "arthropocolypse:blocks/beetle_fragment_block_wall",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "arthropocolypse:blocks/beetle_fragment_block_wall",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "arthropocolypse:beetle_fragment_block_wall"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "arthropocolypse:beetle_fragment_block_wall",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "arthropocolypse:blocks/tiled_beetle_fragment_block",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "arthropocolypse:blocks/tiled_beetle_fragment_block",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "arthropocolypse:tiled_beetle_fragment_block"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "arthropocolypse:tiled_beetle_fragment_block",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "arthropocolypse:blocks/gilded_scale_block",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "arthropocolypse:blocks/gilded_scale_block",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "arthropocolypse:gilded_scale_block"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "arthropocolypse:gilded_scale_block",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "arthropocolypse:blocks/beetle_fragment_block_stairs",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "arthropocolypse:blocks/beetle_fragment_block_stairs",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "arthropocolypse:beetle_fragment_block_stairs"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "arthropocolypse:beetle_fragment_block_stairs",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "arthropocolypse:blocks/beetle_fragment_block_bricks_slabs",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "arthropocolypse:blocks/beetle_fragment_block_bricks_slabs",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"conditions": [
+											{
+												"condition": "minecraft:block_state_property",
+												"block": "arthropocolypse:beetle_fragment_block_bricks_slabs",
+												"properties": {
+													"type": "double"
+												}
+											}
+										],
+										"count": 2.0,
+										"add": false
+									},
+									{
+										"function": "minecraft:explosion_decay"
+									}
+								],
+								"name": "arthropocolypse:beetle_fragment_block_bricks_slabs"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "arthropocolypse:beetle_fragment_block_bricks_slabs",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count",
+						"minecraft:explosion_decay"
+					],
+					"conditions": [],
+					"chain": [],
+					"countConditional": true
+				}
+			]
+		},
+		{
+			"id": "arthropocolypse:blocks/chiseled_beetle_fragment_block",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "arthropocolypse:blocks/chiseled_beetle_fragment_block",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "arthropocolypse:chiseled_beetle_fragment_block"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "arthropocolypse:chiseled_beetle_fragment_block",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		}
+	]
+}

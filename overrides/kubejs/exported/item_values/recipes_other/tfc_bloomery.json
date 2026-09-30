@@ -1,0 +1,28 @@
+{
+	"type": "tfc:bloomery",
+	"recipes": [
+		{
+			"id": "tfc:bloomery/raw_iron_bloom",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:charcoal"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"gtceu:iron"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:raw_iron_bloom",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		}
+	]
+}

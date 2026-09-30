@@ -1,0 +1,217 @@
+{
+	"type": "gtceu:moon_dust_harvester",
+	"recipes": [
+		{
+			"id": "tfg:moon_dust_harvester/lunar_corals_dense",
+			"category": "moon_dust_harvester",
+			"duration": 1600,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:bright_regolith_dust"
+					],
+					"amount": 3.0,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"ranged": true,
+					"amountMin": 1,
+					"amountMax": 5
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "BiomeCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.BiomeCondition@29c4729e",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:moon_dust_harvester/lunar_lights_dense",
+			"category": "moon_dust_harvester",
+			"duration": 1600,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:cassiterite_regolith_dust"
+					],
+					"amount": 3.0,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"ranged": true,
+					"amountMin": 1,
+					"amountMax": 5
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "BiomeCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.BiomeCondition@49343783",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:moon_dust_harvester/lunar_assurine_harvester",
+			"category": "moon_dust_harvester",
+			"duration": 1600,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:certus_regolith_dust"
+					],
+					"amount": 3.0,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"ranged": true,
+					"amountMin": 1,
+					"amountMax": 5
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "BiomeCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.BiomeCondition@4ac759fa",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:moon_dust_harvester/lunar_chorus_dense",
+			"category": "moon_dust_harvester",
+			"duration": 1600,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:goethe_regolith_dust"
+					],
+					"amount": 3.0,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"ranged": true,
+					"amountMin": 1,
+					"amountMax": 5
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "BiomeCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.BiomeCondition@4c181ac7",
+					"dimension": "undefined"
+				}
+			]
+		}
+	]
+}

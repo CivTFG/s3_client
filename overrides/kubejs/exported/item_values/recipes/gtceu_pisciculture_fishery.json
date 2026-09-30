@@ -1,0 +1,5959 @@
+{
+	"type": "gtceu:pisciculture_fishery",
+	"recipes": [
+		{
+			"id": "tfg:pisciculture_fishery/tfc_smallmouth_bass/basic_food/bucket_to_roe",
+			"category": "pisciculture_fishery",
+			"duration": 6000,
+			"voltage": 15,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:bucket/smallmouth_bass"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:bucket/smallmouth_bass"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:seeds/carrot",
+						"tfc:seeds/pumpkin",
+						"tfc:seeds/oat",
+						"tfc:seeds/melon",
+						"tfc:seeds/sugarcane",
+						"firmalife:seeds/white_grape",
+						"tfc:seeds/red_bell_pepper",
+						"betterend:amber_root_seeds",
+						"tfc:seeds/soybean",
+						"tfg:cassava_seeds",
+						"tfg:cucumber_seeds",
+						"tfg:flax_seeds",
+						"tfc:seeds/wheat",
+						"tfc:seeds/tomato",
+						"tfc:seeds/rice",
+						"tfg:beans_seeds",
+						"tfg:sunflower_seeds",
+						"tfg:ghost_pepper_seeds",
+						"firmalife:seeds/red_grape",
+						"tfg:radish_seeds",
+						"tfc:seeds/onion",
+						"betterend:blossom_berry_seeds",
+						"tfc:seeds/maize",
+						"tfc:seeds/beet",
+						"tfc:seeds/barley",
+						"tfg:cotton_seeds",
+						"tfc:seeds/green_bean",
+						"tfc:food/shellfish",
+						"tfc:seeds/rye",
+						"tfc:seeds/garlic",
+						"tfc:seeds/squash",
+						"betterend:chorus_mushroom_seeds",
+						"tfc:seeds/potato",
+						"tfg:lentil_seeds",
+						"betterend:bolux_mushroom_seeds",
+						"tfc:seeds/jute",
+						"tfc:seeds/cabbage",
+						"tfg:peanut_seeds",
+						"tfc:seeds/yellow_bell_pepper",
+						"tfg:rapeseed_seeds",
+						"tfc:seeds/papyrus",
+						"betterend:cave_pumpkin_plant_seeds",
+						"betterend:shadow_berry_seeds"
+					],
+					"amount": 6,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/smallmouth_bass"
+					],
+					"amount": 6,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:fish_roe"
+					],
+					"amount": 3,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:bucket"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water",
+						"tfc:river_water",
+						"tfc:spring_water"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickOutputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:nitrate_rich_water"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "OxygenatedCondition",
+					"text": "su.terrafirmagreg.core.common.tfgt.recipe.condition.OxygenatedCondition@124e1586",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:pisciculture_fishery/tfc_lake_trout/advanced_food/bucket_to_roe",
+			"category": "pisciculture_fishery",
+			"duration": 6000,
+			"voltage": 15,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:bucket/lake_trout"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:bucket/lake_trout"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:flora_pellets"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/lake_trout"
+					],
+					"amount": 12,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:fish_roe"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:bucket"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water",
+						"tfc:river_water",
+						"tfc:spring_water"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickOutputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:nitrate_rich_water"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "OxygenatedCondition",
+					"text": "su.terrafirmagreg.core.common.tfgt.recipe.condition.OxygenatedCondition@77d0eddb",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:pisciculture_fishery/tfc_rainbow_trout/basic_food/bucket_to_roe",
+			"category": "pisciculture_fishery",
+			"duration": 6000,
+			"voltage": 15,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:bucket/rainbow_trout"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:bucket/rainbow_trout"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:seeds/carrot",
+						"tfc:seeds/pumpkin",
+						"tfc:seeds/oat",
+						"tfc:seeds/melon",
+						"tfc:seeds/sugarcane",
+						"firmalife:seeds/white_grape",
+						"tfc:seeds/red_bell_pepper",
+						"betterend:amber_root_seeds",
+						"tfc:seeds/soybean",
+						"tfg:cassava_seeds",
+						"tfg:cucumber_seeds",
+						"tfg:flax_seeds",
+						"tfc:seeds/wheat",
+						"tfc:seeds/tomato",
+						"tfc:seeds/rice",
+						"tfg:beans_seeds",
+						"tfg:sunflower_seeds",
+						"tfg:ghost_pepper_seeds",
+						"firmalife:seeds/red_grape",
+						"tfg:radish_seeds",
+						"tfc:seeds/onion",
+						"betterend:blossom_berry_seeds",
+						"tfc:seeds/maize",
+						"tfc:seeds/beet",
+						"tfc:seeds/barley",
+						"tfg:cotton_seeds",
+						"tfc:seeds/green_bean",
+						"tfc:food/shellfish",
+						"tfc:seeds/rye",
+						"tfc:seeds/garlic",
+						"tfc:seeds/squash",
+						"betterend:chorus_mushroom_seeds",
+						"tfc:seeds/potato",
+						"tfg:lentil_seeds",
+						"betterend:bolux_mushroom_seeds",
+						"tfc:seeds/jute",
+						"tfc:seeds/cabbage",
+						"tfg:peanut_seeds",
+						"tfc:seeds/yellow_bell_pepper",
+						"tfg:rapeseed_seeds",
+						"tfc:seeds/papyrus",
+						"betterend:cave_pumpkin_plant_seeds",
+						"betterend:shadow_berry_seeds"
+					],
+					"amount": 6,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/rainbow_trout"
+					],
+					"amount": 6,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:fish_roe"
+					],
+					"amount": 3,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:bucket"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water",
+						"tfc:river_water",
+						"tfc:spring_water"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickOutputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:nitrate_rich_water"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "OxygenatedCondition",
+					"text": "su.terrafirmagreg.core.common.tfgt.recipe.condition.OxygenatedCondition@6f102c01",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:pisciculture_fishery/wan_ancient_beasts_toxlacanth/advanced_food/bucket_to_roe",
+			"category": "pisciculture_fishery",
+			"duration": 6000,
+			"voltage": 240,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"wan_ancient_beasts:toxlacanth_bucket"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"wan_ancient_beasts:toxlacanth_bucket"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:flora_pellets"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"wan_ancient_beasts:toxlacanth"
+					],
+					"amount": 12,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:fish_roe"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:bucket"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:semiheavy_ammoniacal_water"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickOutputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:nitrate_rich_semiheavy_ammoniacal_water"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@53aa03e4",
+					"dimension": "ResourceKey[minecraft:dimension / ad_astra:mars]"
+				}
+			]
+		},
+		{
+			"id": "tfg:pisciculture_fishery/tfc_smallmouth_bass/advanced_food/roe_to_roe",
+			"category": "pisciculture_fishery",
+			"duration": 6000,
+			"voltage": 15,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:fish_roe"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:fish_roe"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:flora_pellets"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/smallmouth_bass"
+					],
+					"amount": 24,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:fish_roe"
+					],
+					"amount": 5,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water",
+						"tfc:river_water",
+						"tfc:spring_water"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickOutputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:nitrate_rich_water"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "OxygenatedCondition",
+					"text": "su.terrafirmagreg.core.common.tfgt.recipe.condition.OxygenatedCondition@1ccedd51",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:pisciculture_fishery/tfc_smallmouth_bass/advanced_food/bucket_to_roe",
+			"category": "pisciculture_fishery",
+			"duration": 6000,
+			"voltage": 15,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:bucket/smallmouth_bass"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:bucket/smallmouth_bass"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:flora_pellets"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/smallmouth_bass"
+					],
+					"amount": 12,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:fish_roe"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:bucket"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water",
+						"tfc:river_water",
+						"tfc:spring_water"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickOutputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:nitrate_rich_water"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "OxygenatedCondition",
+					"text": "su.terrafirmagreg.core.common.tfgt.recipe.condition.OxygenatedCondition@2255d934",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:pisciculture_fishery/tfc_largemouth_bass/advanced_food/bucket_to_roe",
+			"category": "pisciculture_fishery",
+			"duration": 6000,
+			"voltage": 15,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:bucket/largemouth_bass"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:bucket/largemouth_bass"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:flora_pellets"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/largemouth_bass"
+					],
+					"amount": 12,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:fish_roe"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:bucket"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water",
+						"tfc:river_water",
+						"tfc:spring_water"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickOutputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:nitrate_rich_water"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "OxygenatedCondition",
+					"text": "su.terrafirmagreg.core.common.tfgt.recipe.condition.OxygenatedCondition@7f92895d",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:pisciculture_fishery/tfc_tropical_fish/basic_food/roe_to_roe",
+			"category": "pisciculture_fishery",
+			"duration": 6000,
+			"voltage": 15,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:fish_roe"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:fish_roe"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:seeds/carrot",
+						"tfc:seeds/pumpkin",
+						"tfc:seeds/oat",
+						"tfc:seeds/melon",
+						"tfc:seeds/sugarcane",
+						"firmalife:seeds/white_grape",
+						"tfc:seeds/red_bell_pepper",
+						"betterend:amber_root_seeds",
+						"tfc:seeds/soybean",
+						"tfg:cassava_seeds",
+						"tfg:cucumber_seeds",
+						"tfg:flax_seeds",
+						"tfc:seeds/wheat",
+						"tfc:seeds/tomato",
+						"tfc:seeds/rice",
+						"tfg:beans_seeds",
+						"tfg:sunflower_seeds",
+						"tfg:ghost_pepper_seeds",
+						"firmalife:seeds/red_grape",
+						"tfg:radish_seeds",
+						"tfc:seeds/onion",
+						"betterend:blossom_berry_seeds",
+						"tfc:seeds/maize",
+						"tfc:seeds/beet",
+						"tfc:seeds/barley",
+						"tfg:cotton_seeds",
+						"tfc:seeds/green_bean",
+						"tfc:food/shellfish",
+						"tfc:seeds/rye",
+						"tfc:seeds/garlic",
+						"tfc:seeds/squash",
+						"betterend:chorus_mushroom_seeds",
+						"tfc:seeds/potato",
+						"tfg:lentil_seeds",
+						"betterend:bolux_mushroom_seeds",
+						"tfc:seeds/jute",
+						"tfc:seeds/cabbage",
+						"tfg:peanut_seeds",
+						"tfc:seeds/yellow_bell_pepper",
+						"tfg:rapeseed_seeds",
+						"tfc:seeds/papyrus",
+						"betterend:cave_pumpkin_plant_seeds",
+						"betterend:shadow_berry_seeds"
+					],
+					"amount": 6,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/tropical_fish"
+					],
+					"amount": 10,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:fish_roe"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water",
+						"tfc:river_water",
+						"tfc:spring_water"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickOutputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:nitrate_rich_water"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "OxygenatedCondition",
+					"text": "su.terrafirmagreg.core.common.tfgt.recipe.condition.OxygenatedCondition@384cf59a",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:pisciculture_fishery/tfc_rainbow_trout/advanced_food/roe_to_roe",
+			"category": "pisciculture_fishery",
+			"duration": 6000,
+			"voltage": 15,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:fish_roe"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:fish_roe"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:flora_pellets"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/rainbow_trout"
+					],
+					"amount": 24,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:fish_roe"
+					],
+					"amount": 5,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water",
+						"tfc:river_water",
+						"tfc:spring_water"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickOutputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:nitrate_rich_water"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "OxygenatedCondition",
+					"text": "su.terrafirmagreg.core.common.tfgt.recipe.condition.OxygenatedCondition@be7466b",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:pisciculture_fishery/tfc_bluegill/advanced_food/roe_to_roe",
+			"category": "pisciculture_fishery",
+			"duration": 6000,
+			"voltage": 15,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:fish_roe"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:fish_roe"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:flora_pellets"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/bluegill"
+					],
+					"amount": 24,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:fish_roe"
+					],
+					"amount": 5,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water",
+						"tfc:river_water",
+						"tfc:spring_water"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickOutputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:nitrate_rich_water"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "OxygenatedCondition",
+					"text": "su.terrafirmagreg.core.common.tfgt.recipe.condition.OxygenatedCondition@78f43fae",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:pisciculture_fishery/tfc_tropical_fish/advanced_food/roe_to_roe",
+			"category": "pisciculture_fishery",
+			"duration": 6000,
+			"voltage": 15,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:fish_roe"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:fish_roe"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:flora_pellets"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/tropical_fish"
+					],
+					"amount": 24,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:fish_roe"
+					],
+					"amount": 5,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water",
+						"tfc:river_water",
+						"tfc:spring_water"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickOutputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:nitrate_rich_water"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "OxygenatedCondition",
+					"text": "su.terrafirmagreg.core.common.tfgt.recipe.condition.OxygenatedCondition@11945e90",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:pisciculture_fishery/tfc_salmon/basic_food/roe_to_roe",
+			"category": "pisciculture_fishery",
+			"duration": 6000,
+			"voltage": 15,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:fish_roe"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:fish_roe"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:seeds/carrot",
+						"tfc:seeds/pumpkin",
+						"tfc:seeds/oat",
+						"tfc:seeds/melon",
+						"tfc:seeds/sugarcane",
+						"firmalife:seeds/white_grape",
+						"tfc:seeds/red_bell_pepper",
+						"betterend:amber_root_seeds",
+						"tfc:seeds/soybean",
+						"tfg:cassava_seeds",
+						"tfg:cucumber_seeds",
+						"tfg:flax_seeds",
+						"tfc:seeds/wheat",
+						"tfc:seeds/tomato",
+						"tfc:seeds/rice",
+						"tfg:beans_seeds",
+						"tfg:sunflower_seeds",
+						"tfg:ghost_pepper_seeds",
+						"firmalife:seeds/red_grape",
+						"tfg:radish_seeds",
+						"tfc:seeds/onion",
+						"betterend:blossom_berry_seeds",
+						"tfc:seeds/maize",
+						"tfc:seeds/beet",
+						"tfc:seeds/barley",
+						"tfg:cotton_seeds",
+						"tfc:seeds/green_bean",
+						"tfc:food/shellfish",
+						"tfc:seeds/rye",
+						"tfc:seeds/garlic",
+						"tfc:seeds/squash",
+						"betterend:chorus_mushroom_seeds",
+						"tfc:seeds/potato",
+						"tfg:lentil_seeds",
+						"betterend:bolux_mushroom_seeds",
+						"tfc:seeds/jute",
+						"tfc:seeds/cabbage",
+						"tfg:peanut_seeds",
+						"tfc:seeds/yellow_bell_pepper",
+						"tfg:rapeseed_seeds",
+						"tfc:seeds/papyrus",
+						"betterend:cave_pumpkin_plant_seeds",
+						"betterend:shadow_berry_seeds"
+					],
+					"amount": 6,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/salmon"
+					],
+					"amount": 10,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:fish_roe"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water",
+						"tfc:river_water",
+						"tfc:spring_water"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickOutputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:nitrate_rich_water"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "OxygenatedCondition",
+					"text": "su.terrafirmagreg.core.common.tfgt.recipe.condition.OxygenatedCondition@37095801",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:pisciculture_fishery/tfc_bluegill/advanced_food/bucket_to_roe",
+			"category": "pisciculture_fishery",
+			"duration": 6000,
+			"voltage": 15,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:bucket/bluegill"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:bucket/bluegill"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:flora_pellets"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/bluegill"
+					],
+					"amount": 12,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:fish_roe"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:bucket"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water",
+						"tfc:river_water",
+						"tfc:spring_water"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickOutputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:nitrate_rich_water"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "OxygenatedCondition",
+					"text": "su.terrafirmagreg.core.common.tfgt.recipe.condition.OxygenatedCondition@5c4bcb6e",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:pisciculture_fishery/tfc_bluegill/basic_food/bucket_to_roe",
+			"category": "pisciculture_fishery",
+			"duration": 6000,
+			"voltage": 15,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:bucket/bluegill"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:bucket/bluegill"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:seeds/carrot",
+						"tfc:seeds/pumpkin",
+						"tfc:seeds/oat",
+						"tfc:seeds/melon",
+						"tfc:seeds/sugarcane",
+						"firmalife:seeds/white_grape",
+						"tfc:seeds/red_bell_pepper",
+						"betterend:amber_root_seeds",
+						"tfc:seeds/soybean",
+						"tfg:cassava_seeds",
+						"tfg:cucumber_seeds",
+						"tfg:flax_seeds",
+						"tfc:seeds/wheat",
+						"tfc:seeds/tomato",
+						"tfc:seeds/rice",
+						"tfg:beans_seeds",
+						"tfg:sunflower_seeds",
+						"tfg:ghost_pepper_seeds",
+						"firmalife:seeds/red_grape",
+						"tfg:radish_seeds",
+						"tfc:seeds/onion",
+						"betterend:blossom_berry_seeds",
+						"tfc:seeds/maize",
+						"tfc:seeds/beet",
+						"tfc:seeds/barley",
+						"tfg:cotton_seeds",
+						"tfc:seeds/green_bean",
+						"tfc:food/shellfish",
+						"tfc:seeds/rye",
+						"tfc:seeds/garlic",
+						"tfc:seeds/squash",
+						"betterend:chorus_mushroom_seeds",
+						"tfc:seeds/potato",
+						"tfg:lentil_seeds",
+						"betterend:bolux_mushroom_seeds",
+						"tfc:seeds/jute",
+						"tfc:seeds/cabbage",
+						"tfg:peanut_seeds",
+						"tfc:seeds/yellow_bell_pepper",
+						"tfg:rapeseed_seeds",
+						"tfc:seeds/papyrus",
+						"betterend:cave_pumpkin_plant_seeds",
+						"betterend:shadow_berry_seeds"
+					],
+					"amount": 6,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/bluegill"
+					],
+					"amount": 6,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:fish_roe"
+					],
+					"amount": 3,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:bucket"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water",
+						"tfc:river_water",
+						"tfc:spring_water"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickOutputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:nitrate_rich_water"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "OxygenatedCondition",
+					"text": "su.terrafirmagreg.core.common.tfgt.recipe.condition.OxygenatedCondition@449ae7e7",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:pisciculture_fishery/tfc_salmon/advanced_food/roe_to_roe",
+			"category": "pisciculture_fishery",
+			"duration": 6000,
+			"voltage": 15,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:fish_roe"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:fish_roe"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:flora_pellets"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/salmon"
+					],
+					"amount": 24,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:fish_roe"
+					],
+					"amount": 5,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water",
+						"tfc:river_water",
+						"tfc:spring_water"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickOutputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:nitrate_rich_water"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "OxygenatedCondition",
+					"text": "su.terrafirmagreg.core.common.tfgt.recipe.condition.OxygenatedCondition@2ba40fba",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:pisciculture_fishery/tfc_tropical_fish/basic_food/bucket_to_roe",
+			"category": "pisciculture_fishery",
+			"duration": 6000,
+			"voltage": 15,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:bucket/tropical_fish"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:bucket/tropical_fish"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:seeds/carrot",
+						"tfc:seeds/pumpkin",
+						"tfc:seeds/oat",
+						"tfc:seeds/melon",
+						"tfc:seeds/sugarcane",
+						"firmalife:seeds/white_grape",
+						"tfc:seeds/red_bell_pepper",
+						"betterend:amber_root_seeds",
+						"tfc:seeds/soybean",
+						"tfg:cassava_seeds",
+						"tfg:cucumber_seeds",
+						"tfg:flax_seeds",
+						"tfc:seeds/wheat",
+						"tfc:seeds/tomato",
+						"tfc:seeds/rice",
+						"tfg:beans_seeds",
+						"tfg:sunflower_seeds",
+						"tfg:ghost_pepper_seeds",
+						"firmalife:seeds/red_grape",
+						"tfg:radish_seeds",
+						"tfc:seeds/onion",
+						"betterend:blossom_berry_seeds",
+						"tfc:seeds/maize",
+						"tfc:seeds/beet",
+						"tfc:seeds/barley",
+						"tfg:cotton_seeds",
+						"tfc:seeds/green_bean",
+						"tfc:food/shellfish",
+						"tfc:seeds/rye",
+						"tfc:seeds/garlic",
+						"tfc:seeds/squash",
+						"betterend:chorus_mushroom_seeds",
+						"tfc:seeds/potato",
+						"tfg:lentil_seeds",
+						"betterend:bolux_mushroom_seeds",
+						"tfc:seeds/jute",
+						"tfc:seeds/cabbage",
+						"tfg:peanut_seeds",
+						"tfc:seeds/yellow_bell_pepper",
+						"tfg:rapeseed_seeds",
+						"tfc:seeds/papyrus",
+						"betterend:cave_pumpkin_plant_seeds",
+						"betterend:shadow_berry_seeds"
+					],
+					"amount": 6,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/tropical_fish"
+					],
+					"amount": 6,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:fish_roe"
+					],
+					"amount": 3,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:bucket"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water",
+						"tfc:river_water",
+						"tfc:spring_water"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickOutputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:nitrate_rich_water"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "OxygenatedCondition",
+					"text": "su.terrafirmagreg.core.common.tfgt.recipe.condition.OxygenatedCondition@5f1ae590",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:pisciculture_fishery/tfc_salmon/basic_food/bucket_to_roe",
+			"category": "pisciculture_fishery",
+			"duration": 6000,
+			"voltage": 15,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:bucket/salmon"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:bucket/salmon"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:seeds/carrot",
+						"tfc:seeds/pumpkin",
+						"tfc:seeds/oat",
+						"tfc:seeds/melon",
+						"tfc:seeds/sugarcane",
+						"firmalife:seeds/white_grape",
+						"tfc:seeds/red_bell_pepper",
+						"betterend:amber_root_seeds",
+						"tfc:seeds/soybean",
+						"tfg:cassava_seeds",
+						"tfg:cucumber_seeds",
+						"tfg:flax_seeds",
+						"tfc:seeds/wheat",
+						"tfc:seeds/tomato",
+						"tfc:seeds/rice",
+						"tfg:beans_seeds",
+						"tfg:sunflower_seeds",
+						"tfg:ghost_pepper_seeds",
+						"firmalife:seeds/red_grape",
+						"tfg:radish_seeds",
+						"tfc:seeds/onion",
+						"betterend:blossom_berry_seeds",
+						"tfc:seeds/maize",
+						"tfc:seeds/beet",
+						"tfc:seeds/barley",
+						"tfg:cotton_seeds",
+						"tfc:seeds/green_bean",
+						"tfc:food/shellfish",
+						"tfc:seeds/rye",
+						"tfc:seeds/garlic",
+						"tfc:seeds/squash",
+						"betterend:chorus_mushroom_seeds",
+						"tfc:seeds/potato",
+						"tfg:lentil_seeds",
+						"betterend:bolux_mushroom_seeds",
+						"tfc:seeds/jute",
+						"tfc:seeds/cabbage",
+						"tfg:peanut_seeds",
+						"tfc:seeds/yellow_bell_pepper",
+						"tfg:rapeseed_seeds",
+						"tfc:seeds/papyrus",
+						"betterend:cave_pumpkin_plant_seeds",
+						"betterend:shadow_berry_seeds"
+					],
+					"amount": 6,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/salmon"
+					],
+					"amount": 6,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:fish_roe"
+					],
+					"amount": 3,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:bucket"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water",
+						"tfc:river_water",
+						"tfc:spring_water"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickOutputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:nitrate_rich_water"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "OxygenatedCondition",
+					"text": "su.terrafirmagreg.core.common.tfgt.recipe.condition.OxygenatedCondition@6d1c6544",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:pisciculture_fishery/tfc_largemouth_bass/basic_food/roe_to_roe",
+			"category": "pisciculture_fishery",
+			"duration": 6000,
+			"voltage": 15,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:fish_roe"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:fish_roe"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:seeds/carrot",
+						"tfc:seeds/pumpkin",
+						"tfc:seeds/oat",
+						"tfc:seeds/melon",
+						"tfc:seeds/sugarcane",
+						"firmalife:seeds/white_grape",
+						"tfc:seeds/red_bell_pepper",
+						"betterend:amber_root_seeds",
+						"tfc:seeds/soybean",
+						"tfg:cassava_seeds",
+						"tfg:cucumber_seeds",
+						"tfg:flax_seeds",
+						"tfc:seeds/wheat",
+						"tfc:seeds/tomato",
+						"tfc:seeds/rice",
+						"tfg:beans_seeds",
+						"tfg:sunflower_seeds",
+						"tfg:ghost_pepper_seeds",
+						"firmalife:seeds/red_grape",
+						"tfg:radish_seeds",
+						"tfc:seeds/onion",
+						"betterend:blossom_berry_seeds",
+						"tfc:seeds/maize",
+						"tfc:seeds/beet",
+						"tfc:seeds/barley",
+						"tfg:cotton_seeds",
+						"tfc:seeds/green_bean",
+						"tfc:food/shellfish",
+						"tfc:seeds/rye",
+						"tfc:seeds/garlic",
+						"tfc:seeds/squash",
+						"betterend:chorus_mushroom_seeds",
+						"tfc:seeds/potato",
+						"tfg:lentil_seeds",
+						"betterend:bolux_mushroom_seeds",
+						"tfc:seeds/jute",
+						"tfc:seeds/cabbage",
+						"tfg:peanut_seeds",
+						"tfc:seeds/yellow_bell_pepper",
+						"tfg:rapeseed_seeds",
+						"tfc:seeds/papyrus",
+						"betterend:cave_pumpkin_plant_seeds",
+						"betterend:shadow_berry_seeds"
+					],
+					"amount": 6,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/largemouth_bass"
+					],
+					"amount": 10,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:fish_roe"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water",
+						"tfc:river_water",
+						"tfc:spring_water"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickOutputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:nitrate_rich_water"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "OxygenatedCondition",
+					"text": "su.terrafirmagreg.core.common.tfgt.recipe.condition.OxygenatedCondition@e947373",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:pisciculture_fishery/tfc_largemouth_bass/basic_food/bucket_to_roe",
+			"category": "pisciculture_fishery",
+			"duration": 6000,
+			"voltage": 15,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:bucket/largemouth_bass"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:bucket/largemouth_bass"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:seeds/carrot",
+						"tfc:seeds/pumpkin",
+						"tfc:seeds/oat",
+						"tfc:seeds/melon",
+						"tfc:seeds/sugarcane",
+						"firmalife:seeds/white_grape",
+						"tfc:seeds/red_bell_pepper",
+						"betterend:amber_root_seeds",
+						"tfc:seeds/soybean",
+						"tfg:cassava_seeds",
+						"tfg:cucumber_seeds",
+						"tfg:flax_seeds",
+						"tfc:seeds/wheat",
+						"tfc:seeds/tomato",
+						"tfc:seeds/rice",
+						"tfg:beans_seeds",
+						"tfg:sunflower_seeds",
+						"tfg:ghost_pepper_seeds",
+						"firmalife:seeds/red_grape",
+						"tfg:radish_seeds",
+						"tfc:seeds/onion",
+						"betterend:blossom_berry_seeds",
+						"tfc:seeds/maize",
+						"tfc:seeds/beet",
+						"tfc:seeds/barley",
+						"tfg:cotton_seeds",
+						"tfc:seeds/green_bean",
+						"tfc:food/shellfish",
+						"tfc:seeds/rye",
+						"tfc:seeds/garlic",
+						"tfc:seeds/squash",
+						"betterend:chorus_mushroom_seeds",
+						"tfc:seeds/potato",
+						"tfg:lentil_seeds",
+						"betterend:bolux_mushroom_seeds",
+						"tfc:seeds/jute",
+						"tfc:seeds/cabbage",
+						"tfg:peanut_seeds",
+						"tfc:seeds/yellow_bell_pepper",
+						"tfg:rapeseed_seeds",
+						"tfc:seeds/papyrus",
+						"betterend:cave_pumpkin_plant_seeds",
+						"betterend:shadow_berry_seeds"
+					],
+					"amount": 6,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/largemouth_bass"
+					],
+					"amount": 6,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:fish_roe"
+					],
+					"amount": 3,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:bucket"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water",
+						"tfc:river_water",
+						"tfc:spring_water"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickOutputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:nitrate_rich_water"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "OxygenatedCondition",
+					"text": "su.terrafirmagreg.core.common.tfgt.recipe.condition.OxygenatedCondition@2f12a60f",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:pisciculture_fishery/tfc_rainbow_trout/advanced_food/bucket_to_roe",
+			"category": "pisciculture_fishery",
+			"duration": 6000,
+			"voltage": 15,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:bucket/rainbow_trout"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:bucket/rainbow_trout"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:flora_pellets"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/rainbow_trout"
+					],
+					"amount": 12,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:fish_roe"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:bucket"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water",
+						"tfc:river_water",
+						"tfc:spring_water"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickOutputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:nitrate_rich_water"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "OxygenatedCondition",
+					"text": "su.terrafirmagreg.core.common.tfgt.recipe.condition.OxygenatedCondition@40b75e77",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:pisciculture_fishery/tfc_crappie/basic_food/roe_to_roe",
+			"category": "pisciculture_fishery",
+			"duration": 6000,
+			"voltage": 15,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:fish_roe"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:fish_roe"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:seeds/carrot",
+						"tfc:seeds/pumpkin",
+						"tfc:seeds/oat",
+						"tfc:seeds/melon",
+						"tfc:seeds/sugarcane",
+						"firmalife:seeds/white_grape",
+						"tfc:seeds/red_bell_pepper",
+						"betterend:amber_root_seeds",
+						"tfc:seeds/soybean",
+						"tfg:cassava_seeds",
+						"tfg:cucumber_seeds",
+						"tfg:flax_seeds",
+						"tfc:seeds/wheat",
+						"tfc:seeds/tomato",
+						"tfc:seeds/rice",
+						"tfg:beans_seeds",
+						"tfg:sunflower_seeds",
+						"tfg:ghost_pepper_seeds",
+						"firmalife:seeds/red_grape",
+						"tfg:radish_seeds",
+						"tfc:seeds/onion",
+						"betterend:blossom_berry_seeds",
+						"tfc:seeds/maize",
+						"tfc:seeds/beet",
+						"tfc:seeds/barley",
+						"tfg:cotton_seeds",
+						"tfc:seeds/green_bean",
+						"tfc:food/shellfish",
+						"tfc:seeds/rye",
+						"tfc:seeds/garlic",
+						"tfc:seeds/squash",
+						"betterend:chorus_mushroom_seeds",
+						"tfc:seeds/potato",
+						"tfg:lentil_seeds",
+						"betterend:bolux_mushroom_seeds",
+						"tfc:seeds/jute",
+						"tfc:seeds/cabbage",
+						"tfg:peanut_seeds",
+						"tfc:seeds/yellow_bell_pepper",
+						"tfg:rapeseed_seeds",
+						"tfc:seeds/papyrus",
+						"betterend:cave_pumpkin_plant_seeds",
+						"betterend:shadow_berry_seeds"
+					],
+					"amount": 6,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/crappie"
+					],
+					"amount": 10,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:fish_roe"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water",
+						"tfc:river_water",
+						"tfc:spring_water"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickOutputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:nitrate_rich_water"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "OxygenatedCondition",
+					"text": "su.terrafirmagreg.core.common.tfgt.recipe.condition.OxygenatedCondition@2fda8e24",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:pisciculture_fishery/tfc_bluegill/basic_food/roe_to_roe",
+			"category": "pisciculture_fishery",
+			"duration": 6000,
+			"voltage": 15,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:fish_roe"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:fish_roe"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:seeds/carrot",
+						"tfc:seeds/pumpkin",
+						"tfc:seeds/oat",
+						"tfc:seeds/melon",
+						"tfc:seeds/sugarcane",
+						"firmalife:seeds/white_grape",
+						"tfc:seeds/red_bell_pepper",
+						"betterend:amber_root_seeds",
+						"tfc:seeds/soybean",
+						"tfg:cassava_seeds",
+						"tfg:cucumber_seeds",
+						"tfg:flax_seeds",
+						"tfc:seeds/wheat",
+						"tfc:seeds/tomato",
+						"tfc:seeds/rice",
+						"tfg:beans_seeds",
+						"tfg:sunflower_seeds",
+						"tfg:ghost_pepper_seeds",
+						"firmalife:seeds/red_grape",
+						"tfg:radish_seeds",
+						"tfc:seeds/onion",
+						"betterend:blossom_berry_seeds",
+						"tfc:seeds/maize",
+						"tfc:seeds/beet",
+						"tfc:seeds/barley",
+						"tfg:cotton_seeds",
+						"tfc:seeds/green_bean",
+						"tfc:food/shellfish",
+						"tfc:seeds/rye",
+						"tfc:seeds/garlic",
+						"tfc:seeds/squash",
+						"betterend:chorus_mushroom_seeds",
+						"tfc:seeds/potato",
+						"tfg:lentil_seeds",
+						"betterend:bolux_mushroom_seeds",
+						"tfc:seeds/jute",
+						"tfc:seeds/cabbage",
+						"tfg:peanut_seeds",
+						"tfc:seeds/yellow_bell_pepper",
+						"tfg:rapeseed_seeds",
+						"tfc:seeds/papyrus",
+						"betterend:cave_pumpkin_plant_seeds",
+						"betterend:shadow_berry_seeds"
+					],
+					"amount": 6,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/bluegill"
+					],
+					"amount": 10,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:fish_roe"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water",
+						"tfc:river_water",
+						"tfc:spring_water"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickOutputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:nitrate_rich_water"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "OxygenatedCondition",
+					"text": "su.terrafirmagreg.core.common.tfgt.recipe.condition.OxygenatedCondition@2c4320b7",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:pisciculture_fishery/tfc_salmon/advanced_food/bucket_to_roe",
+			"category": "pisciculture_fishery",
+			"duration": 6000,
+			"voltage": 15,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:bucket/salmon"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:bucket/salmon"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:flora_pellets"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/salmon"
+					],
+					"amount": 12,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:fish_roe"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:bucket"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water",
+						"tfc:river_water",
+						"tfc:spring_water"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickOutputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:nitrate_rich_water"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "OxygenatedCondition",
+					"text": "su.terrafirmagreg.core.common.tfgt.recipe.condition.OxygenatedCondition@30f007db",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:pisciculture_fishery/tfc_cod/advanced_food/bucket_to_roe",
+			"category": "pisciculture_fishery",
+			"duration": 6000,
+			"voltage": 15,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:bucket/cod"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:bucket/cod"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:flora_pellets"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/cod"
+					],
+					"amount": 12,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:fish_roe"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:bucket"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water",
+						"tfc:river_water",
+						"tfc:spring_water"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickOutputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:nitrate_rich_water"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "OxygenatedCondition",
+					"text": "su.terrafirmagreg.core.common.tfgt.recipe.condition.OxygenatedCondition@2d89f4be",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:pisciculture_fishery/tfc_pufferfish/basic_food/bucket_to_roe",
+			"category": "pisciculture_fishery",
+			"duration": 6000,
+			"voltage": 15,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:bucket/pufferfish"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:bucket/pufferfish"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:seeds/carrot",
+						"tfc:seeds/pumpkin",
+						"tfc:seeds/oat",
+						"tfc:seeds/melon",
+						"tfc:seeds/sugarcane",
+						"firmalife:seeds/white_grape",
+						"tfc:seeds/red_bell_pepper",
+						"betterend:amber_root_seeds",
+						"tfc:seeds/soybean",
+						"tfg:cassava_seeds",
+						"tfg:cucumber_seeds",
+						"tfg:flax_seeds",
+						"tfc:seeds/wheat",
+						"tfc:seeds/tomato",
+						"tfc:seeds/rice",
+						"tfg:beans_seeds",
+						"tfg:sunflower_seeds",
+						"tfg:ghost_pepper_seeds",
+						"firmalife:seeds/red_grape",
+						"tfg:radish_seeds",
+						"tfc:seeds/onion",
+						"betterend:blossom_berry_seeds",
+						"tfc:seeds/maize",
+						"tfc:seeds/beet",
+						"tfc:seeds/barley",
+						"tfg:cotton_seeds",
+						"tfc:seeds/green_bean",
+						"tfc:food/shellfish",
+						"tfc:seeds/rye",
+						"tfc:seeds/garlic",
+						"tfc:seeds/squash",
+						"betterend:chorus_mushroom_seeds",
+						"tfc:seeds/potato",
+						"tfg:lentil_seeds",
+						"betterend:bolux_mushroom_seeds",
+						"tfc:seeds/jute",
+						"tfc:seeds/cabbage",
+						"tfg:peanut_seeds",
+						"tfc:seeds/yellow_bell_pepper",
+						"tfg:rapeseed_seeds",
+						"tfc:seeds/papyrus",
+						"betterend:cave_pumpkin_plant_seeds",
+						"betterend:shadow_berry_seeds"
+					],
+					"amount": 6,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:pufferfish"
+					],
+					"amount": 6,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:fish_roe"
+					],
+					"amount": 3,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:bucket"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water",
+						"tfc:river_water",
+						"tfc:spring_water"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickOutputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:nitrate_rich_water"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "OxygenatedCondition",
+					"text": "su.terrafirmagreg.core.common.tfgt.recipe.condition.OxygenatedCondition@6f78d7c9",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:pisciculture_fishery/tfc_rainbow_trout/basic_food/roe_to_roe",
+			"category": "pisciculture_fishery",
+			"duration": 6000,
+			"voltage": 15,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:fish_roe"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:fish_roe"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:seeds/carrot",
+						"tfc:seeds/pumpkin",
+						"tfc:seeds/oat",
+						"tfc:seeds/melon",
+						"tfc:seeds/sugarcane",
+						"firmalife:seeds/white_grape",
+						"tfc:seeds/red_bell_pepper",
+						"betterend:amber_root_seeds",
+						"tfc:seeds/soybean",
+						"tfg:cassava_seeds",
+						"tfg:cucumber_seeds",
+						"tfg:flax_seeds",
+						"tfc:seeds/wheat",
+						"tfc:seeds/tomato",
+						"tfc:seeds/rice",
+						"tfg:beans_seeds",
+						"tfg:sunflower_seeds",
+						"tfg:ghost_pepper_seeds",
+						"firmalife:seeds/red_grape",
+						"tfg:radish_seeds",
+						"tfc:seeds/onion",
+						"betterend:blossom_berry_seeds",
+						"tfc:seeds/maize",
+						"tfc:seeds/beet",
+						"tfc:seeds/barley",
+						"tfg:cotton_seeds",
+						"tfc:seeds/green_bean",
+						"tfc:food/shellfish",
+						"tfc:seeds/rye",
+						"tfc:seeds/garlic",
+						"tfc:seeds/squash",
+						"betterend:chorus_mushroom_seeds",
+						"tfc:seeds/potato",
+						"tfg:lentil_seeds",
+						"betterend:bolux_mushroom_seeds",
+						"tfc:seeds/jute",
+						"tfc:seeds/cabbage",
+						"tfg:peanut_seeds",
+						"tfc:seeds/yellow_bell_pepper",
+						"tfg:rapeseed_seeds",
+						"tfc:seeds/papyrus",
+						"betterend:cave_pumpkin_plant_seeds",
+						"betterend:shadow_berry_seeds"
+					],
+					"amount": 6,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/rainbow_trout"
+					],
+					"amount": 10,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:fish_roe"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water",
+						"tfc:river_water",
+						"tfc:spring_water"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickOutputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:nitrate_rich_water"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "OxygenatedCondition",
+					"text": "su.terrafirmagreg.core.common.tfgt.recipe.condition.OxygenatedCondition@19b216f8",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:pisciculture_fishery/tfc_lake_trout/advanced_food/roe_to_roe",
+			"category": "pisciculture_fishery",
+			"duration": 6000,
+			"voltage": 15,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:fish_roe"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:fish_roe"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:flora_pellets"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/lake_trout"
+					],
+					"amount": 24,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:fish_roe"
+					],
+					"amount": 5,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water",
+						"tfc:river_water",
+						"tfc:spring_water"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickOutputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:nitrate_rich_water"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "OxygenatedCondition",
+					"text": "su.terrafirmagreg.core.common.tfgt.recipe.condition.OxygenatedCondition@3b1c929c",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:pisciculture_fishery/tfc_largemouth_bass/advanced_food/roe_to_roe",
+			"category": "pisciculture_fishery",
+			"duration": 6000,
+			"voltage": 15,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:fish_roe"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:fish_roe"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:flora_pellets"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/largemouth_bass"
+					],
+					"amount": 24,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:fish_roe"
+					],
+					"amount": 5,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water",
+						"tfc:river_water",
+						"tfc:spring_water"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickOutputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:nitrate_rich_water"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "OxygenatedCondition",
+					"text": "su.terrafirmagreg.core.common.tfgt.recipe.condition.OxygenatedCondition@594a2e39",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:pisciculture_fishery/tfc_tropical_fish/advanced_food/bucket_to_roe",
+			"category": "pisciculture_fishery",
+			"duration": 6000,
+			"voltage": 15,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:bucket/tropical_fish"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:bucket/tropical_fish"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:flora_pellets"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/tropical_fish"
+					],
+					"amount": 12,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:fish_roe"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:bucket"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water",
+						"tfc:river_water",
+						"tfc:spring_water"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickOutputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:nitrate_rich_water"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "OxygenatedCondition",
+					"text": "su.terrafirmagreg.core.common.tfgt.recipe.condition.OxygenatedCondition@6c05ddde",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:pisciculture_fishery/tfc_crappie/basic_food/bucket_to_roe",
+			"category": "pisciculture_fishery",
+			"duration": 6000,
+			"voltage": 15,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:bucket/crappie"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:bucket/crappie"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:seeds/carrot",
+						"tfc:seeds/pumpkin",
+						"tfc:seeds/oat",
+						"tfc:seeds/melon",
+						"tfc:seeds/sugarcane",
+						"firmalife:seeds/white_grape",
+						"tfc:seeds/red_bell_pepper",
+						"betterend:amber_root_seeds",
+						"tfc:seeds/soybean",
+						"tfg:cassava_seeds",
+						"tfg:cucumber_seeds",
+						"tfg:flax_seeds",
+						"tfc:seeds/wheat",
+						"tfc:seeds/tomato",
+						"tfc:seeds/rice",
+						"tfg:beans_seeds",
+						"tfg:sunflower_seeds",
+						"tfg:ghost_pepper_seeds",
+						"firmalife:seeds/red_grape",
+						"tfg:radish_seeds",
+						"tfc:seeds/onion",
+						"betterend:blossom_berry_seeds",
+						"tfc:seeds/maize",
+						"tfc:seeds/beet",
+						"tfc:seeds/barley",
+						"tfg:cotton_seeds",
+						"tfc:seeds/green_bean",
+						"tfc:food/shellfish",
+						"tfc:seeds/rye",
+						"tfc:seeds/garlic",
+						"tfc:seeds/squash",
+						"betterend:chorus_mushroom_seeds",
+						"tfc:seeds/potato",
+						"tfg:lentil_seeds",
+						"betterend:bolux_mushroom_seeds",
+						"tfc:seeds/jute",
+						"tfc:seeds/cabbage",
+						"tfg:peanut_seeds",
+						"tfc:seeds/yellow_bell_pepper",
+						"tfg:rapeseed_seeds",
+						"tfc:seeds/papyrus",
+						"betterend:cave_pumpkin_plant_seeds",
+						"betterend:shadow_berry_seeds"
+					],
+					"amount": 6,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/crappie"
+					],
+					"amount": 6,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:fish_roe"
+					],
+					"amount": 3,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:bucket"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water",
+						"tfc:river_water",
+						"tfc:spring_water"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickOutputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:nitrate_rich_water"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "OxygenatedCondition",
+					"text": "su.terrafirmagreg.core.common.tfgt.recipe.condition.OxygenatedCondition@4642a192",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:pisciculture_fishery/tfc_pufferfish/advanced_food/roe_to_roe",
+			"category": "pisciculture_fishery",
+			"duration": 6000,
+			"voltage": 15,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:fish_roe"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:fish_roe"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:flora_pellets"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:pufferfish"
+					],
+					"amount": 24,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:fish_roe"
+					],
+					"amount": 5,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water",
+						"tfc:river_water",
+						"tfc:spring_water"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickOutputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:nitrate_rich_water"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "OxygenatedCondition",
+					"text": "su.terrafirmagreg.core.common.tfgt.recipe.condition.OxygenatedCondition@2afed236",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:pisciculture_fishery/tfc_cod/basic_food/roe_to_roe",
+			"category": "pisciculture_fishery",
+			"duration": 6000,
+			"voltage": 15,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:fish_roe"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:fish_roe"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:seeds/carrot",
+						"tfc:seeds/pumpkin",
+						"tfc:seeds/oat",
+						"tfc:seeds/melon",
+						"tfc:seeds/sugarcane",
+						"firmalife:seeds/white_grape",
+						"tfc:seeds/red_bell_pepper",
+						"betterend:amber_root_seeds",
+						"tfc:seeds/soybean",
+						"tfg:cassava_seeds",
+						"tfg:cucumber_seeds",
+						"tfg:flax_seeds",
+						"tfc:seeds/wheat",
+						"tfc:seeds/tomato",
+						"tfc:seeds/rice",
+						"tfg:beans_seeds",
+						"tfg:sunflower_seeds",
+						"tfg:ghost_pepper_seeds",
+						"firmalife:seeds/red_grape",
+						"tfg:radish_seeds",
+						"tfc:seeds/onion",
+						"betterend:blossom_berry_seeds",
+						"tfc:seeds/maize",
+						"tfc:seeds/beet",
+						"tfc:seeds/barley",
+						"tfg:cotton_seeds",
+						"tfc:seeds/green_bean",
+						"tfc:food/shellfish",
+						"tfc:seeds/rye",
+						"tfc:seeds/garlic",
+						"tfc:seeds/squash",
+						"betterend:chorus_mushroom_seeds",
+						"tfc:seeds/potato",
+						"tfg:lentil_seeds",
+						"betterend:bolux_mushroom_seeds",
+						"tfc:seeds/jute",
+						"tfc:seeds/cabbage",
+						"tfg:peanut_seeds",
+						"tfc:seeds/yellow_bell_pepper",
+						"tfg:rapeseed_seeds",
+						"tfc:seeds/papyrus",
+						"betterend:cave_pumpkin_plant_seeds",
+						"betterend:shadow_berry_seeds"
+					],
+					"amount": 6,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/cod"
+					],
+					"amount": 10,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:fish_roe"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water",
+						"tfc:river_water",
+						"tfc:spring_water"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickOutputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:nitrate_rich_water"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "OxygenatedCondition",
+					"text": "su.terrafirmagreg.core.common.tfgt.recipe.condition.OxygenatedCondition@659e2cbe",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:pisciculture_fishery/tfc_cod/basic_food/bucket_to_roe",
+			"category": "pisciculture_fishery",
+			"duration": 6000,
+			"voltage": 15,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:bucket/cod"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:bucket/cod"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:seeds/carrot",
+						"tfc:seeds/pumpkin",
+						"tfc:seeds/oat",
+						"tfc:seeds/melon",
+						"tfc:seeds/sugarcane",
+						"firmalife:seeds/white_grape",
+						"tfc:seeds/red_bell_pepper",
+						"betterend:amber_root_seeds",
+						"tfc:seeds/soybean",
+						"tfg:cassava_seeds",
+						"tfg:cucumber_seeds",
+						"tfg:flax_seeds",
+						"tfc:seeds/wheat",
+						"tfc:seeds/tomato",
+						"tfc:seeds/rice",
+						"tfg:beans_seeds",
+						"tfg:sunflower_seeds",
+						"tfg:ghost_pepper_seeds",
+						"firmalife:seeds/red_grape",
+						"tfg:radish_seeds",
+						"tfc:seeds/onion",
+						"betterend:blossom_berry_seeds",
+						"tfc:seeds/maize",
+						"tfc:seeds/beet",
+						"tfc:seeds/barley",
+						"tfg:cotton_seeds",
+						"tfc:seeds/green_bean",
+						"tfc:food/shellfish",
+						"tfc:seeds/rye",
+						"tfc:seeds/garlic",
+						"tfc:seeds/squash",
+						"betterend:chorus_mushroom_seeds",
+						"tfc:seeds/potato",
+						"tfg:lentil_seeds",
+						"betterend:bolux_mushroom_seeds",
+						"tfc:seeds/jute",
+						"tfc:seeds/cabbage",
+						"tfg:peanut_seeds",
+						"tfc:seeds/yellow_bell_pepper",
+						"tfg:rapeseed_seeds",
+						"tfc:seeds/papyrus",
+						"betterend:cave_pumpkin_plant_seeds",
+						"betterend:shadow_berry_seeds"
+					],
+					"amount": 6,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/cod"
+					],
+					"amount": 6,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:fish_roe"
+					],
+					"amount": 3,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:bucket"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water",
+						"tfc:river_water",
+						"tfc:spring_water"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickOutputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:nitrate_rich_water"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "OxygenatedCondition",
+					"text": "su.terrafirmagreg.core.common.tfgt.recipe.condition.OxygenatedCondition@5d76842f",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:pisciculture_fishery/tfc_pufferfish/basic_food/roe_to_roe",
+			"category": "pisciculture_fishery",
+			"duration": 6000,
+			"voltage": 15,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:fish_roe"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:fish_roe"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:seeds/carrot",
+						"tfc:seeds/pumpkin",
+						"tfc:seeds/oat",
+						"tfc:seeds/melon",
+						"tfc:seeds/sugarcane",
+						"firmalife:seeds/white_grape",
+						"tfc:seeds/red_bell_pepper",
+						"betterend:amber_root_seeds",
+						"tfc:seeds/soybean",
+						"tfg:cassava_seeds",
+						"tfg:cucumber_seeds",
+						"tfg:flax_seeds",
+						"tfc:seeds/wheat",
+						"tfc:seeds/tomato",
+						"tfc:seeds/rice",
+						"tfg:beans_seeds",
+						"tfg:sunflower_seeds",
+						"tfg:ghost_pepper_seeds",
+						"firmalife:seeds/red_grape",
+						"tfg:radish_seeds",
+						"tfc:seeds/onion",
+						"betterend:blossom_berry_seeds",
+						"tfc:seeds/maize",
+						"tfc:seeds/beet",
+						"tfc:seeds/barley",
+						"tfg:cotton_seeds",
+						"tfc:seeds/green_bean",
+						"tfc:food/shellfish",
+						"tfc:seeds/rye",
+						"tfc:seeds/garlic",
+						"tfc:seeds/squash",
+						"betterend:chorus_mushroom_seeds",
+						"tfc:seeds/potato",
+						"tfg:lentil_seeds",
+						"betterend:bolux_mushroom_seeds",
+						"tfc:seeds/jute",
+						"tfc:seeds/cabbage",
+						"tfg:peanut_seeds",
+						"tfc:seeds/yellow_bell_pepper",
+						"tfg:rapeseed_seeds",
+						"tfc:seeds/papyrus",
+						"betterend:cave_pumpkin_plant_seeds",
+						"betterend:shadow_berry_seeds"
+					],
+					"amount": 6,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:pufferfish"
+					],
+					"amount": 10,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:fish_roe"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water",
+						"tfc:river_water",
+						"tfc:spring_water"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickOutputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:nitrate_rich_water"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "OxygenatedCondition",
+					"text": "su.terrafirmagreg.core.common.tfgt.recipe.condition.OxygenatedCondition@ac1681e",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:pisciculture_fishery/tfc_crappie/advanced_food/bucket_to_roe",
+			"category": "pisciculture_fishery",
+			"duration": 6000,
+			"voltage": 15,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:bucket/crappie"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:bucket/crappie"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:flora_pellets"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/crappie"
+					],
+					"amount": 12,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:fish_roe"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:bucket"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water",
+						"tfc:river_water",
+						"tfc:spring_water"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickOutputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:nitrate_rich_water"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "OxygenatedCondition",
+					"text": "su.terrafirmagreg.core.common.tfgt.recipe.condition.OxygenatedCondition@649154e",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:pisciculture_fishery/tfc_lake_trout/basic_food/bucket_to_roe",
+			"category": "pisciculture_fishery",
+			"duration": 6000,
+			"voltage": 15,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:bucket/lake_trout"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:bucket/lake_trout"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:seeds/carrot",
+						"tfc:seeds/pumpkin",
+						"tfc:seeds/oat",
+						"tfc:seeds/melon",
+						"tfc:seeds/sugarcane",
+						"firmalife:seeds/white_grape",
+						"tfc:seeds/red_bell_pepper",
+						"betterend:amber_root_seeds",
+						"tfc:seeds/soybean",
+						"tfg:cassava_seeds",
+						"tfg:cucumber_seeds",
+						"tfg:flax_seeds",
+						"tfc:seeds/wheat",
+						"tfc:seeds/tomato",
+						"tfc:seeds/rice",
+						"tfg:beans_seeds",
+						"tfg:sunflower_seeds",
+						"tfg:ghost_pepper_seeds",
+						"firmalife:seeds/red_grape",
+						"tfg:radish_seeds",
+						"tfc:seeds/onion",
+						"betterend:blossom_berry_seeds",
+						"tfc:seeds/maize",
+						"tfc:seeds/beet",
+						"tfc:seeds/barley",
+						"tfg:cotton_seeds",
+						"tfc:seeds/green_bean",
+						"tfc:food/shellfish",
+						"tfc:seeds/rye",
+						"tfc:seeds/garlic",
+						"tfc:seeds/squash",
+						"betterend:chorus_mushroom_seeds",
+						"tfc:seeds/potato",
+						"tfg:lentil_seeds",
+						"betterend:bolux_mushroom_seeds",
+						"tfc:seeds/jute",
+						"tfc:seeds/cabbage",
+						"tfg:peanut_seeds",
+						"tfc:seeds/yellow_bell_pepper",
+						"tfg:rapeseed_seeds",
+						"tfc:seeds/papyrus",
+						"betterend:cave_pumpkin_plant_seeds",
+						"betterend:shadow_berry_seeds"
+					],
+					"amount": 6,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/lake_trout"
+					],
+					"amount": 6,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:fish_roe"
+					],
+					"amount": 3,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:bucket"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water",
+						"tfc:river_water",
+						"tfc:spring_water"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickOutputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:nitrate_rich_water"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "OxygenatedCondition",
+					"text": "su.terrafirmagreg.core.common.tfgt.recipe.condition.OxygenatedCondition@64f009c5",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:pisciculture_fishery/wan_ancient_beasts_toxlacanth/basic_food/roe_to_roe",
+			"category": "pisciculture_fishery",
+			"duration": 6000,
+			"voltage": 240,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:fish_roe"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:fish_roe"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:seeds/carrot",
+						"tfc:seeds/pumpkin",
+						"tfc:seeds/oat",
+						"tfc:seeds/melon",
+						"tfc:seeds/sugarcane",
+						"firmalife:seeds/white_grape",
+						"tfc:seeds/red_bell_pepper",
+						"betterend:amber_root_seeds",
+						"tfc:seeds/soybean",
+						"tfg:cassava_seeds",
+						"tfg:cucumber_seeds",
+						"tfg:flax_seeds",
+						"tfc:seeds/wheat",
+						"tfc:seeds/tomato",
+						"tfc:seeds/rice",
+						"tfg:beans_seeds",
+						"tfg:sunflower_seeds",
+						"tfg:ghost_pepper_seeds",
+						"firmalife:seeds/red_grape",
+						"tfg:radish_seeds",
+						"tfc:seeds/onion",
+						"betterend:blossom_berry_seeds",
+						"tfc:seeds/maize",
+						"tfc:seeds/beet",
+						"tfc:seeds/barley",
+						"tfg:cotton_seeds",
+						"tfc:seeds/green_bean",
+						"tfc:food/shellfish",
+						"tfc:seeds/rye",
+						"tfc:seeds/garlic",
+						"tfc:seeds/squash",
+						"betterend:chorus_mushroom_seeds",
+						"tfc:seeds/potato",
+						"tfg:lentil_seeds",
+						"betterend:bolux_mushroom_seeds",
+						"tfc:seeds/jute",
+						"tfc:seeds/cabbage",
+						"tfg:peanut_seeds",
+						"tfc:seeds/yellow_bell_pepper",
+						"tfg:rapeseed_seeds",
+						"tfc:seeds/papyrus",
+						"betterend:cave_pumpkin_plant_seeds",
+						"betterend:shadow_berry_seeds"
+					],
+					"amount": 6,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"wan_ancient_beasts:toxlacanth"
+					],
+					"amount": 10,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:fish_roe"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:semiheavy_ammoniacal_water"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickOutputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:nitrate_rich_semiheavy_ammoniacal_water"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@58e57ac2",
+					"dimension": "ResourceKey[minecraft:dimension / ad_astra:mars]"
+				}
+			]
+		},
+		{
+			"id": "tfg:pisciculture_fishery/tfc_smallmouth_bass/basic_food/roe_to_roe",
+			"category": "pisciculture_fishery",
+			"duration": 6000,
+			"voltage": 15,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:fish_roe"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:fish_roe"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:seeds/carrot",
+						"tfc:seeds/pumpkin",
+						"tfc:seeds/oat",
+						"tfc:seeds/melon",
+						"tfc:seeds/sugarcane",
+						"firmalife:seeds/white_grape",
+						"tfc:seeds/red_bell_pepper",
+						"betterend:amber_root_seeds",
+						"tfc:seeds/soybean",
+						"tfg:cassava_seeds",
+						"tfg:cucumber_seeds",
+						"tfg:flax_seeds",
+						"tfc:seeds/wheat",
+						"tfc:seeds/tomato",
+						"tfc:seeds/rice",
+						"tfg:beans_seeds",
+						"tfg:sunflower_seeds",
+						"tfg:ghost_pepper_seeds",
+						"firmalife:seeds/red_grape",
+						"tfg:radish_seeds",
+						"tfc:seeds/onion",
+						"betterend:blossom_berry_seeds",
+						"tfc:seeds/maize",
+						"tfc:seeds/beet",
+						"tfc:seeds/barley",
+						"tfg:cotton_seeds",
+						"tfc:seeds/green_bean",
+						"tfc:food/shellfish",
+						"tfc:seeds/rye",
+						"tfc:seeds/garlic",
+						"tfc:seeds/squash",
+						"betterend:chorus_mushroom_seeds",
+						"tfc:seeds/potato",
+						"tfg:lentil_seeds",
+						"betterend:bolux_mushroom_seeds",
+						"tfc:seeds/jute",
+						"tfc:seeds/cabbage",
+						"tfg:peanut_seeds",
+						"tfc:seeds/yellow_bell_pepper",
+						"tfg:rapeseed_seeds",
+						"tfc:seeds/papyrus",
+						"betterend:cave_pumpkin_plant_seeds",
+						"betterend:shadow_berry_seeds"
+					],
+					"amount": 6,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/smallmouth_bass"
+					],
+					"amount": 10,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:fish_roe"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water",
+						"tfc:river_water",
+						"tfc:spring_water"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickOutputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:nitrate_rich_water"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "OxygenatedCondition",
+					"text": "su.terrafirmagreg.core.common.tfgt.recipe.condition.OxygenatedCondition@2e5d48f6",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:pisciculture_fishery/wan_ancient_beasts_toxlacanth/basic_food/bucket_to_roe",
+			"category": "pisciculture_fishery",
+			"duration": 6000,
+			"voltage": 240,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"wan_ancient_beasts:toxlacanth_bucket"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"wan_ancient_beasts:toxlacanth_bucket"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:seeds/carrot",
+						"tfc:seeds/pumpkin",
+						"tfc:seeds/oat",
+						"tfc:seeds/melon",
+						"tfc:seeds/sugarcane",
+						"firmalife:seeds/white_grape",
+						"tfc:seeds/red_bell_pepper",
+						"betterend:amber_root_seeds",
+						"tfc:seeds/soybean",
+						"tfg:cassava_seeds",
+						"tfg:cucumber_seeds",
+						"tfg:flax_seeds",
+						"tfc:seeds/wheat",
+						"tfc:seeds/tomato",
+						"tfc:seeds/rice",
+						"tfg:beans_seeds",
+						"tfg:sunflower_seeds",
+						"tfg:ghost_pepper_seeds",
+						"firmalife:seeds/red_grape",
+						"tfg:radish_seeds",
+						"tfc:seeds/onion",
+						"betterend:blossom_berry_seeds",
+						"tfc:seeds/maize",
+						"tfc:seeds/beet",
+						"tfc:seeds/barley",
+						"tfg:cotton_seeds",
+						"tfc:seeds/green_bean",
+						"tfc:food/shellfish",
+						"tfc:seeds/rye",
+						"tfc:seeds/garlic",
+						"tfc:seeds/squash",
+						"betterend:chorus_mushroom_seeds",
+						"tfc:seeds/potato",
+						"tfg:lentil_seeds",
+						"betterend:bolux_mushroom_seeds",
+						"tfc:seeds/jute",
+						"tfc:seeds/cabbage",
+						"tfg:peanut_seeds",
+						"tfc:seeds/yellow_bell_pepper",
+						"tfg:rapeseed_seeds",
+						"tfc:seeds/papyrus",
+						"betterend:cave_pumpkin_plant_seeds",
+						"betterend:shadow_berry_seeds"
+					],
+					"amount": 6,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"wan_ancient_beasts:toxlacanth"
+					],
+					"amount": 6,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:fish_roe"
+					],
+					"amount": 3,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:bucket"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:semiheavy_ammoniacal_water"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickOutputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:nitrate_rich_semiheavy_ammoniacal_water"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@4b977ff1",
+					"dimension": "ResourceKey[minecraft:dimension / ad_astra:mars]"
+				}
+			]
+		},
+		{
+			"id": "tfg:pisciculture_fishery/tfc_lake_trout/basic_food/roe_to_roe",
+			"category": "pisciculture_fishery",
+			"duration": 6000,
+			"voltage": 15,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:fish_roe"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:fish_roe"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:seeds/carrot",
+						"tfc:seeds/pumpkin",
+						"tfc:seeds/oat",
+						"tfc:seeds/melon",
+						"tfc:seeds/sugarcane",
+						"firmalife:seeds/white_grape",
+						"tfc:seeds/red_bell_pepper",
+						"betterend:amber_root_seeds",
+						"tfc:seeds/soybean",
+						"tfg:cassava_seeds",
+						"tfg:cucumber_seeds",
+						"tfg:flax_seeds",
+						"tfc:seeds/wheat",
+						"tfc:seeds/tomato",
+						"tfc:seeds/rice",
+						"tfg:beans_seeds",
+						"tfg:sunflower_seeds",
+						"tfg:ghost_pepper_seeds",
+						"firmalife:seeds/red_grape",
+						"tfg:radish_seeds",
+						"tfc:seeds/onion",
+						"betterend:blossom_berry_seeds",
+						"tfc:seeds/maize",
+						"tfc:seeds/beet",
+						"tfc:seeds/barley",
+						"tfg:cotton_seeds",
+						"tfc:seeds/green_bean",
+						"tfc:food/shellfish",
+						"tfc:seeds/rye",
+						"tfc:seeds/garlic",
+						"tfc:seeds/squash",
+						"betterend:chorus_mushroom_seeds",
+						"tfc:seeds/potato",
+						"tfg:lentil_seeds",
+						"betterend:bolux_mushroom_seeds",
+						"tfc:seeds/jute",
+						"tfc:seeds/cabbage",
+						"tfg:peanut_seeds",
+						"tfc:seeds/yellow_bell_pepper",
+						"tfg:rapeseed_seeds",
+						"tfc:seeds/papyrus",
+						"betterend:cave_pumpkin_plant_seeds",
+						"betterend:shadow_berry_seeds"
+					],
+					"amount": 6,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/lake_trout"
+					],
+					"amount": 10,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:fish_roe"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water",
+						"tfc:river_water",
+						"tfc:spring_water"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickOutputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:nitrate_rich_water"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "OxygenatedCondition",
+					"text": "su.terrafirmagreg.core.common.tfgt.recipe.condition.OxygenatedCondition@2a849c76",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:pisciculture_fishery/tfc_cod/advanced_food/roe_to_roe",
+			"category": "pisciculture_fishery",
+			"duration": 6000,
+			"voltage": 15,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:fish_roe"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:fish_roe"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:flora_pellets"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/cod"
+					],
+					"amount": 24,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:fish_roe"
+					],
+					"amount": 5,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water",
+						"tfc:river_water",
+						"tfc:spring_water"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickOutputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:nitrate_rich_water"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "OxygenatedCondition",
+					"text": "su.terrafirmagreg.core.common.tfgt.recipe.condition.OxygenatedCondition@538b7910",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:pisciculture_fishery/tfc_pufferfish/advanced_food/bucket_to_roe",
+			"category": "pisciculture_fishery",
+			"duration": 6000,
+			"voltage": 15,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:bucket/pufferfish"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:bucket/pufferfish"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:flora_pellets"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:pufferfish"
+					],
+					"amount": 12,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:fish_roe"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:bucket"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water",
+						"tfc:river_water",
+						"tfc:spring_water"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickOutputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:nitrate_rich_water"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "OxygenatedCondition",
+					"text": "su.terrafirmagreg.core.common.tfgt.recipe.condition.OxygenatedCondition@211784a2",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:pisciculture_fishery/wan_ancient_beasts_toxlacanth/advanced_food/roe_to_roe",
+			"category": "pisciculture_fishery",
+			"duration": 6000,
+			"voltage": 240,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:fish_roe"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:fish_roe"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:flora_pellets"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"wan_ancient_beasts:toxlacanth"
+					],
+					"amount": 24,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:fish_roe"
+					],
+					"amount": 5,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:semiheavy_ammoniacal_water"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickOutputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:nitrate_rich_semiheavy_ammoniacal_water"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@19e34ebc",
+					"dimension": "ResourceKey[minecraft:dimension / ad_astra:mars]"
+				}
+			]
+		},
+		{
+			"id": "tfg:pisciculture_fishery/tfc_crappie/advanced_food/roe_to_roe",
+			"category": "pisciculture_fishery",
+			"duration": 6000,
+			"voltage": 15,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:fish_roe"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:fish_roe"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:flora_pellets"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:food/crappie"
+					],
+					"amount": 24,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:fish_roe"
+					],
+					"amount": 5,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water",
+						"tfc:river_water",
+						"tfc:spring_water"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickOutputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:nitrate_rich_water"
+					],
+					"amount": 8,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "OxygenatedCondition",
+					"text": "su.terrafirmagreg.core.common.tfgt.recipe.condition.OxygenatedCondition@4c8b0624",
+					"dimension": "undefined"
+				}
+			]
+		}
+	]
+}

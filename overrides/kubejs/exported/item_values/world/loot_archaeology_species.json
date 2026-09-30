@@ -1,0 +1,631 @@
+{
+	"group": "archaeology",
+	"namespace": "species",
+	"tables": [
+		{
+			"id": "species:archaeology/paleontology_dig_site/rare",
+			"json": {
+				"type": "minecraft:archaeology",
+				"random_sequence": "species:archaeology/paleontology_dig_site/rare",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"weight": 2.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 2.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:phantom_membrane"
+							},
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:skeleton_skull"
+							},
+							{
+								"type": "minecraft:item",
+								"name": "species:springling_egg"
+							},
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:sniffer_egg"
+							},
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:scute"
+							},
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 3.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:raw_iron"
+							},
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:raw_gold"
+							},
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 3.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:nautilus_shell"
+							},
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:amethyst_shard"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 2.0,
+								"name": "minecraft:coal"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:phantom_membrane",
+					"weight": 2.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:skeleton_skull",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "species:springling_egg",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:sniffer_egg",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:scute",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:raw_iron",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 3.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:raw_gold",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:nautilus_shell",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 3.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:amethyst_shard",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:coal",
+					"weight": 2.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "species:archaeology/paleontology_dig_site/common",
+			"json": {
+				"type": "minecraft:archaeology",
+				"random_sequence": "species:archaeology/paleontology_dig_site/common",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"weight": 2.0,
+								"name": "species:bone_vertebra"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 2.0,
+								"name": "species:bone_bark"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 2.0,
+								"name": "minecraft:flint"
+							},
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:hanging_roots"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 3.0,
+								"name": "minecraft:bone_block"
+							},
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:dead_bush"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 2.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 3.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:raw_copper"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 2.0,
+								"name": "minecraft:clay_ball"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 2.0,
+								"name": "species:bone_spike"
+							},
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:bone"
+							},
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:bone_meal"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "species:bone_vertebra",
+					"weight": 2.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "species:bone_bark",
+					"weight": 2.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:flint",
+					"weight": 2.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:hanging_roots",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bone_block",
+					"weight": 3.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:dead_bush",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:raw_copper",
+					"weight": 2.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 3.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:clay_ball",
+					"weight": 2.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "species:bone_spike",
+					"weight": 2.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bone",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bone_meal",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "species:archaeology/paleontology_dig_site/epic",
+			"json": {
+				"type": "minecraft:archaeology",
+				"random_sequence": "species:archaeology/paleontology_dig_site/epic",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"weight": 2.0,
+								"name": "species:springling_egg"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 2.0,
+								"name": "minecraft:sniffer_egg"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 2.0,
+								"name": "species:cruncher_egg"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 2.0,
+								"name": "species:petrified_egg"
+							},
+							{
+								"type": "minecraft:item",
+								"name": "species:music_disc_lapidarian"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "species:springling_egg",
+					"weight": 2.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:sniffer_egg",
+					"weight": 2.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "species:cruncher_egg",
+					"weight": 2.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "species:petrified_egg",
+					"weight": 2.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "species:music_disc_lapidarian",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		}
+	]
+}

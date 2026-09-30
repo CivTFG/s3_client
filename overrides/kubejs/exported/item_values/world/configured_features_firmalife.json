@@ -1,0 +1,726 @@
+{
+	"configured": {
+		"firmalife:hollow_shell_patch": {
+			"type": "minecraft:random_patch",
+			"json": {
+				"config": {
+					"tries": 5.0,
+					"xz_spread": 15.0,
+					"y_spread": 1.0,
+					"feature": "firmalife:hollow_shell"
+				},
+				"type": "minecraft:random_patch"
+			},
+			"nested": [],
+			"blocks": [
+				"firmalife:hollow_shell"
+			],
+			"blockTags": []
+		},
+		"firmalife:plant/cocoa": {
+			"type": "firmalife:fruit_trees",
+			"json": {
+				"config": {
+					"state": "firmalife:plant/cocoa_growing_branch"
+				},
+				"type": "firmalife:fruit_trees"
+			},
+			"nested": [],
+			"blocks": [
+				"firmalife:plant/cocoa_growing_branch"
+			],
+			"blockTags": []
+		},
+		"firmalife:plant/nightshade_bush": {
+			"type": "minecraft:simple_block",
+			"json": {
+				"config": {
+					"to_place": {
+						"state": {
+							"Properties": {
+								"stage": "0",
+								"lifecycle": "healthy"
+							},
+							"Name": "firmalife:plant/nightshade_bush"
+						},
+						"type": "minecraft:simple_state_provider"
+					}
+				},
+				"type": "minecraft:simple_block"
+			},
+			"nested": [],
+			"blocks": [
+				"firmalife:plant/nightshade_bush"
+			],
+			"blockTags": []
+		},
+		"firmalife:wild_white_grapes": {
+			"type": "minecraft:simple_block",
+			"json": {
+				"config": {
+					"to_place": {
+						"state": {
+							"Properties": {
+								"mature": "false"
+							},
+							"Name": "firmalife:plant/wild_white_grapes"
+						},
+						"type": "minecraft:simple_state_provider"
+					}
+				},
+				"type": "minecraft:simple_block"
+			},
+			"nested": [],
+			"blocks": [
+				"firmalife:plant/wild_white_grapes"
+			],
+			"blockTags": []
+		},
+		"firmalife:wild_red_grapes_patch": {
+			"type": "minecraft:random_patch",
+			"json": {
+				"config": {
+					"tries": 5.0,
+					"xz_spread": 15.0,
+					"y_spread": 1.0,
+					"feature": "firmalife:wild_red_grapes"
+				},
+				"type": "minecraft:random_patch"
+			},
+			"nested": [],
+			"blocks": [],
+			"blockTags": []
+		},
+		"firmalife:plant/fig": {
+			"type": "firmalife:fruit_trees",
+			"json": {
+				"config": {
+					"state": "firmalife:plant/fig_growing_branch"
+				},
+				"type": "firmalife:fruit_trees"
+			},
+			"nested": [],
+			"blocks": [
+				"firmalife:plant/fig_growing_branch"
+			],
+			"blockTags": []
+		},
+		"firmalife:plant/pineapple_bush": {
+			"type": "minecraft:simple_block",
+			"json": {
+				"config": {
+					"to_place": {
+						"state": {
+							"Properties": {
+								"stage": "0",
+								"lifecycle": "healthy"
+							},
+							"Name": "firmalife:plant/pineapple_bush"
+						},
+						"type": "minecraft:simple_state_provider"
+					}
+				},
+				"type": "minecraft:simple_block"
+			},
+			"nested": [],
+			"blocks": [
+				"firmalife:plant/pineapple_bush"
+			],
+			"blockTags": []
+		},
+		"firmalife:plant/nightshade_bush_patch": {
+			"type": "minecraft:random_patch",
+			"json": {
+				"config": {
+					"tries": 4.0,
+					"xz_spread": 4.0,
+					"y_spread": 1.0,
+					"feature": "firmalife:plant/nightshade_bush"
+				},
+				"type": "minecraft:random_patch"
+			},
+			"nested": [],
+			"blocks": [
+				"firmalife:plant/nightshade_bush"
+			],
+			"blockTags": []
+		},
+		"firmalife:wild_white_grapes_patch": {
+			"type": "minecraft:random_patch",
+			"json": {
+				"config": {
+					"tries": 5.0,
+					"xz_spread": 15.0,
+					"y_spread": 1.0,
+					"feature": "firmalife:wild_white_grapes"
+				},
+				"type": "minecraft:random_patch"
+			},
+			"nested": [],
+			"blocks": [],
+			"blockTags": []
+		},
+		"firmalife:plant/pineapple_bush_patch": {
+			"type": "minecraft:random_patch",
+			"json": {
+				"config": {
+					"tries": 4.0,
+					"xz_spread": 4.0,
+					"y_spread": 1.0,
+					"feature": "firmalife:plant/pineapple_bush"
+				},
+				"type": "minecraft:random_patch"
+			},
+			"nested": [],
+			"blocks": [
+				"firmalife:plant/pineapple_bush"
+			],
+			"blockTags": []
+		},
+		"firmalife:vein/deep_chromite": {
+			"type": "tfc:cluster_vein",
+			"json": {
+				"config": {
+					"random_name": 8.8064413225768622E18,
+					"max_y": 20.0,
+					"rarity": 90.0,
+					"density": 0.6,
+					"min_y": -80.0,
+					"blocks": [
+						{
+							"with": [
+								{
+									"weight": 15.0,
+									"block": "firmalife:ore/poor_chromite/phyllite"
+								},
+								{
+									"weight": 40.0,
+									"block": "firmalife:ore/normal_chromite/phyllite"
+								},
+								{
+									"weight": 100.0,
+									"block": "firmalife:ore/rich_chromite/phyllite"
+								}
+							],
+							"replace": [
+								"tfc:rock/raw/phyllite"
+							]
+						},
+						{
+							"with": [
+								{
+									"weight": 15.0,
+									"block": "firmalife:ore/poor_chromite/diorite"
+								},
+								{
+									"weight": 40.0,
+									"block": "firmalife:ore/normal_chromite/diorite"
+								},
+								{
+									"weight": 100.0,
+									"block": "firmalife:ore/rich_chromite/diorite"
+								}
+							],
+							"replace": [
+								"tfc:rock/raw/diorite"
+							]
+						},
+						{
+							"with": [
+								{
+									"weight": 15.0,
+									"block": "firmalife:ore/poor_chromite/granite"
+								},
+								{
+									"weight": 40.0,
+									"block": "firmalife:ore/normal_chromite/granite"
+								},
+								{
+									"weight": 100.0,
+									"block": "firmalife:ore/rich_chromite/granite"
+								}
+							],
+							"replace": [
+								"tfc:rock/raw/granite"
+							]
+						},
+						{
+							"with": [
+								{
+									"weight": 15.0,
+									"block": "firmalife:ore/poor_chromite/schist"
+								},
+								{
+									"weight": 40.0,
+									"block": "firmalife:ore/normal_chromite/schist"
+								},
+								{
+									"weight": 100.0,
+									"block": "firmalife:ore/rich_chromite/schist"
+								}
+							],
+							"replace": [
+								"tfc:rock/raw/schist"
+							]
+						},
+						{
+							"with": [
+								{
+									"weight": 15.0,
+									"block": "firmalife:ore/poor_chromite/marble"
+								},
+								{
+									"weight": 40.0,
+									"block": "firmalife:ore/normal_chromite/marble"
+								},
+								{
+									"weight": 100.0,
+									"block": "firmalife:ore/rich_chromite/marble"
+								}
+							],
+							"replace": [
+								"tfc:rock/raw/marble"
+							]
+						},
+						{
+							"with": [
+								{
+									"weight": 15.0,
+									"block": "firmalife:ore/poor_chromite/gneiss"
+								},
+								{
+									"weight": 40.0,
+									"block": "firmalife:ore/normal_chromite/gneiss"
+								},
+								{
+									"weight": 100.0,
+									"block": "firmalife:ore/rich_chromite/gneiss"
+								}
+							],
+							"replace": [
+								"tfc:rock/raw/gneiss"
+							]
+						},
+						{
+							"with": [
+								{
+									"weight": 15.0,
+									"block": "firmalife:ore/poor_chromite/gabbro"
+								},
+								{
+									"weight": 40.0,
+									"block": "firmalife:ore/normal_chromite/gabbro"
+								},
+								{
+									"weight": 100.0,
+									"block": "firmalife:ore/rich_chromite/gabbro"
+								}
+							],
+							"replace": [
+								"tfc:rock/raw/gabbro"
+							]
+						},
+						{
+							"with": [
+								{
+									"weight": 15.0,
+									"block": "firmalife:ore/poor_chromite/quartzite"
+								},
+								{
+									"weight": 40.0,
+									"block": "firmalife:ore/normal_chromite/quartzite"
+								},
+								{
+									"weight": 100.0,
+									"block": "firmalife:ore/rich_chromite/quartzite"
+								}
+							],
+							"replace": [
+								"tfc:rock/raw/quartzite"
+							]
+						},
+						{
+							"with": [
+								{
+									"weight": 15.0,
+									"block": "firmalife:ore/poor_chromite/slate"
+								},
+								{
+									"weight": 40.0,
+									"block": "firmalife:ore/normal_chromite/slate"
+								},
+								{
+									"weight": 100.0,
+									"block": "firmalife:ore/rich_chromite/slate"
+								}
+							],
+							"replace": [
+								"tfc:rock/raw/slate"
+							]
+						}
+					],
+					"indicator": {
+						"underground_rarity": 1.0,
+						"underground_count": 4.0,
+						"blocks": [
+							{
+								"block": "firmalife:ore/small_chromite"
+							}
+						],
+						"depth": 35.0,
+						"rarity": 0.0
+					},
+					"size": 15.0
+				},
+				"type": "tfc:cluster_vein"
+			},
+			"nested": [],
+			"blocks": [
+				"firmalife:ore/poor_chromite/phyllite",
+				"firmalife:ore/normal_chromite/phyllite",
+				"firmalife:ore/rich_chromite/phyllite",
+				"tfc:rock/raw/phyllite",
+				"firmalife:ore/poor_chromite/diorite",
+				"firmalife:ore/normal_chromite/diorite",
+				"firmalife:ore/rich_chromite/diorite",
+				"tfc:rock/raw/diorite",
+				"firmalife:ore/poor_chromite/granite",
+				"firmalife:ore/normal_chromite/granite",
+				"firmalife:ore/rich_chromite/granite",
+				"tfc:rock/raw/granite",
+				"firmalife:ore/poor_chromite/schist",
+				"firmalife:ore/normal_chromite/schist",
+				"firmalife:ore/rich_chromite/schist",
+				"tfc:rock/raw/schist",
+				"firmalife:ore/poor_chromite/marble",
+				"firmalife:ore/normal_chromite/marble",
+				"firmalife:ore/rich_chromite/marble",
+				"tfc:rock/raw/marble",
+				"firmalife:ore/poor_chromite/gneiss",
+				"firmalife:ore/normal_chromite/gneiss",
+				"firmalife:ore/rich_chromite/gneiss",
+				"tfc:rock/raw/gneiss",
+				"firmalife:ore/poor_chromite/gabbro",
+				"firmalife:ore/normal_chromite/gabbro",
+				"firmalife:ore/rich_chromite/gabbro",
+				"tfc:rock/raw/gabbro",
+				"firmalife:ore/poor_chromite/quartzite",
+				"firmalife:ore/normal_chromite/quartzite",
+				"firmalife:ore/rich_chromite/quartzite",
+				"tfc:rock/raw/quartzite",
+				"firmalife:ore/poor_chromite/slate",
+				"firmalife:ore/normal_chromite/slate",
+				"firmalife:ore/rich_chromite/slate",
+				"tfc:rock/raw/slate",
+				"firmalife:ore/small_chromite"
+			],
+			"blockTags": []
+		},
+		"firmalife:vein/normal_chromite": {
+			"type": "tfc:cluster_vein",
+			"json": {
+				"config": {
+					"random_name": 5.0970771757861366E18,
+					"max_y": 130.0,
+					"rarity": 50.0,
+					"density": 0.25,
+					"min_y": 40.0,
+					"blocks": [
+						{
+							"with": [
+								{
+									"weight": 70.0,
+									"block": "firmalife:ore/poor_chromite/basalt"
+								},
+								{
+									"weight": 95.0,
+									"block": "firmalife:ore/normal_chromite/basalt"
+								},
+								{
+									"weight": 100.0,
+									"block": "firmalife:ore/rich_chromite/basalt"
+								}
+							],
+							"replace": [
+								"tfc:rock/raw/basalt"
+							]
+						},
+						{
+							"with": [
+								{
+									"weight": 70.0,
+									"block": "firmalife:ore/poor_chromite/marble"
+								},
+								{
+									"weight": 95.0,
+									"block": "firmalife:ore/normal_chromite/marble"
+								},
+								{
+									"weight": 100.0,
+									"block": "firmalife:ore/rich_chromite/marble"
+								}
+							],
+							"replace": [
+								"tfc:rock/raw/marble"
+							]
+						},
+						{
+							"with": [
+								{
+									"weight": 70.0,
+									"block": "firmalife:ore/poor_chromite/phyllite"
+								},
+								{
+									"weight": 95.0,
+									"block": "firmalife:ore/normal_chromite/phyllite"
+								},
+								{
+									"weight": 100.0,
+									"block": "firmalife:ore/rich_chromite/phyllite"
+								}
+							],
+							"replace": [
+								"tfc:rock/raw/phyllite"
+							]
+						},
+						{
+							"with": [
+								{
+									"weight": 70.0,
+									"block": "firmalife:ore/poor_chromite/slate"
+								},
+								{
+									"weight": 95.0,
+									"block": "firmalife:ore/normal_chromite/slate"
+								},
+								{
+									"weight": 100.0,
+									"block": "firmalife:ore/rich_chromite/slate"
+								}
+							],
+							"replace": [
+								"tfc:rock/raw/slate"
+							]
+						},
+						{
+							"with": [
+								{
+									"weight": 70.0,
+									"block": "firmalife:ore/poor_chromite/gneiss"
+								},
+								{
+									"weight": 95.0,
+									"block": "firmalife:ore/normal_chromite/gneiss"
+								},
+								{
+									"weight": 100.0,
+									"block": "firmalife:ore/rich_chromite/gneiss"
+								}
+							],
+							"replace": [
+								"tfc:rock/raw/gneiss"
+							]
+						},
+						{
+							"with": [
+								{
+									"weight": 70.0,
+									"block": "firmalife:ore/poor_chromite/quartzite"
+								},
+								{
+									"weight": 95.0,
+									"block": "firmalife:ore/normal_chromite/quartzite"
+								},
+								{
+									"weight": 100.0,
+									"block": "firmalife:ore/rich_chromite/quartzite"
+								}
+							],
+							"replace": [
+								"tfc:rock/raw/quartzite"
+							]
+						},
+						{
+							"with": [
+								{
+									"weight": 70.0,
+									"block": "firmalife:ore/poor_chromite/dacite"
+								},
+								{
+									"weight": 95.0,
+									"block": "firmalife:ore/normal_chromite/dacite"
+								},
+								{
+									"weight": 100.0,
+									"block": "firmalife:ore/rich_chromite/dacite"
+								}
+							],
+							"replace": [
+								"tfc:rock/raw/dacite"
+							]
+						},
+						{
+							"with": [
+								{
+									"weight": 70.0,
+									"block": "firmalife:ore/poor_chromite/rhyolite"
+								},
+								{
+									"weight": 95.0,
+									"block": "firmalife:ore/normal_chromite/rhyolite"
+								},
+								{
+									"weight": 100.0,
+									"block": "firmalife:ore/rich_chromite/rhyolite"
+								}
+							],
+							"replace": [
+								"tfc:rock/raw/rhyolite"
+							]
+						},
+						{
+							"with": [
+								{
+									"weight": 70.0,
+									"block": "firmalife:ore/poor_chromite/andesite"
+								},
+								{
+									"weight": 95.0,
+									"block": "firmalife:ore/normal_chromite/andesite"
+								},
+								{
+									"weight": 100.0,
+									"block": "firmalife:ore/rich_chromite/andesite"
+								}
+							],
+							"replace": [
+								"tfc:rock/raw/andesite"
+							]
+						},
+						{
+							"with": [
+								{
+									"weight": 70.0,
+									"block": "firmalife:ore/poor_chromite/schist"
+								},
+								{
+									"weight": 95.0,
+									"block": "firmalife:ore/normal_chromite/schist"
+								},
+								{
+									"weight": 100.0,
+									"block": "firmalife:ore/rich_chromite/schist"
+								}
+							],
+							"replace": [
+								"tfc:rock/raw/schist"
+							]
+						}
+					],
+					"indicator": {
+						"underground_rarity": 1.0,
+						"underground_count": 0.0,
+						"blocks": [
+							{
+								"block": "firmalife:ore/small_chromite"
+							}
+						],
+						"depth": 35.0,
+						"rarity": 14.0
+					},
+					"size": 8.0
+				},
+				"type": "tfc:cluster_vein"
+			},
+			"nested": [],
+			"blocks": [
+				"firmalife:ore/poor_chromite/basalt",
+				"firmalife:ore/normal_chromite/basalt",
+				"firmalife:ore/rich_chromite/basalt",
+				"tfc:rock/raw/basalt",
+				"firmalife:ore/poor_chromite/marble",
+				"firmalife:ore/normal_chromite/marble",
+				"firmalife:ore/rich_chromite/marble",
+				"tfc:rock/raw/marble",
+				"firmalife:ore/poor_chromite/phyllite",
+				"firmalife:ore/normal_chromite/phyllite",
+				"firmalife:ore/rich_chromite/phyllite",
+				"tfc:rock/raw/phyllite",
+				"firmalife:ore/poor_chromite/slate",
+				"firmalife:ore/normal_chromite/slate",
+				"firmalife:ore/rich_chromite/slate",
+				"tfc:rock/raw/slate",
+				"firmalife:ore/poor_chromite/gneiss",
+				"firmalife:ore/normal_chromite/gneiss",
+				"firmalife:ore/rich_chromite/gneiss",
+				"tfc:rock/raw/gneiss",
+				"firmalife:ore/poor_chromite/quartzite",
+				"firmalife:ore/normal_chromite/quartzite",
+				"firmalife:ore/rich_chromite/quartzite",
+				"tfc:rock/raw/quartzite",
+				"firmalife:ore/poor_chromite/dacite",
+				"firmalife:ore/normal_chromite/dacite",
+				"firmalife:ore/rich_chromite/dacite",
+				"tfc:rock/raw/dacite",
+				"firmalife:ore/poor_chromite/rhyolite",
+				"firmalife:ore/normal_chromite/rhyolite",
+				"firmalife:ore/rich_chromite/rhyolite",
+				"tfc:rock/raw/rhyolite",
+				"firmalife:ore/poor_chromite/andesite",
+				"firmalife:ore/normal_chromite/andesite",
+				"firmalife:ore/rich_chromite/andesite",
+				"tfc:rock/raw/andesite",
+				"firmalife:ore/poor_chromite/schist",
+				"firmalife:ore/normal_chromite/schist",
+				"firmalife:ore/rich_chromite/schist",
+				"tfc:rock/raw/schist",
+				"firmalife:ore/small_chromite"
+			],
+			"blockTags": []
+		},
+		"firmalife:wild_red_grapes": {
+			"type": "minecraft:simple_block",
+			"json": {
+				"config": {
+					"to_place": {
+						"state": {
+							"Properties": {
+								"mature": "false"
+							},
+							"Name": "firmalife:plant/wild_red_grapes"
+						},
+						"type": "minecraft:simple_state_provider"
+					}
+				},
+				"type": "minecraft:simple_block"
+			},
+			"nested": [],
+			"blocks": [
+				"firmalife:plant/wild_red_grapes"
+			],
+			"blockTags": []
+		},
+		"firmalife:hollow_shell": {
+			"type": "tfc:block_with_fluid",
+			"json": {
+				"config": {
+					"to_place": {
+						"state": {
+							"Properties": {
+								"fluid": "empty"
+							},
+							"Name": "firmalife:hollow_shell"
+						},
+						"type": "minecraft:simple_state_provider"
+					}
+				},
+				"type": "tfc:block_with_fluid"
+			},
+			"nested": [],
+			"blocks": [
+				"firmalife:hollow_shell"
+			],
+			"blockTags": []
+		}
+	}
+}

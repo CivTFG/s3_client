@@ -1,0 +1,1408 @@
+{
+	"type": "gtceu:large_boiler",
+	"recipes": [
+		{
+			"id": "gtceu:large_boiler/gtceu_coke_gem",
+			"category": "large_boiler",
+			"duration": 800,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:coke_gem"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@558a5dec",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:the_nether]"
+				},
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@6df211e6",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:overworld]"
+				}
+			]
+		},
+		{
+			"id": "gtceu:large_boiler/minecraft_charcoal",
+			"category": "large_boiler",
+			"duration": 300,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:charcoal"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@777a14ee",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:the_nether]"
+				},
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@3a115f00",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:overworld]"
+				}
+			]
+		},
+		{
+			"id": "tfg:large_boiler/soybean_oil",
+			"category": "large_boiler",
+			"duration": 50,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"firmalife:soybean_oil"
+					],
+					"amount": 160,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@3d730093",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:overworld]"
+				},
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@40f35bfa",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:the_nether]"
+				}
+			]
+		},
+		{
+			"id": "gtceu:large_boiler/gtceu_coke_block",
+			"category": "large_boiler",
+			"duration": 7200,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:coke_block"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@6789fa6e",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:the_nether]"
+				},
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@57d040c0",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:overworld]"
+				}
+			]
+		},
+		{
+			"id": "gtceu:large_boiler/gtceu_charcoal_dust",
+			"category": "large_boiler",
+			"duration": 300,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:charcoal_dust"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@7202b531",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:the_nether]"
+				},
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@28741c00",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:overworld]"
+				}
+			]
+		},
+		{
+			"id": "gtceu:large_boiler/gtceu_heavy_fuel",
+			"category": "large_boiler",
+			"duration": 90,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:heavy_fuel"
+					],
+					"amount": 16,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@6c9ea",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:the_nether]"
+				},
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@55855f6a",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:overworld]"
+				}
+			]
+		},
+		{
+			"id": "gtceu:large_boiler/minecraft_lava",
+			"category": "large_boiler",
+			"duration": 225,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:lava"
+					],
+					"amount": 100,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@3249c3d6",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:the_nether]"
+				},
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@3a554d83",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:overworld]"
+				}
+			]
+		},
+		{
+			"id": "tfg:large_boiler/raw_oil",
+			"category": "large_boiler",
+			"duration": 50,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:oil_medium"
+					],
+					"amount": 200,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@c2a8aba",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:overworld]"
+				},
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@732bea5a",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:the_nether]"
+				}
+			]
+		},
+		{
+			"id": "gtceu:large_boiler/minecraft_coal_block",
+			"category": "large_boiler",
+			"duration": 4000,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:coal_block"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@f00d09a",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:the_nether]"
+				},
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@1f29adac",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:overworld]"
+				}
+			]
+		},
+		{
+			"id": "gtceu:large_boiler/gtceu_coke_dust",
+			"category": "large_boiler",
+			"duration": 800,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:coke_dust"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@478e9ba9",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:the_nether]"
+				},
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@6b5bd038",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:overworld]"
+				}
+			]
+		},
+		{
+			"id": "gtceu:large_boiler/gtceu_sulfuric_heavy_fuel",
+			"category": "large_boiler",
+			"duration": 50,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:sulfuric_heavy_fuel"
+					],
+					"amount": 32,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@625649c9",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:the_nether]"
+				},
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@30c0cce2",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:overworld]"
+				}
+			]
+		},
+		{
+			"id": "tfg:large_boiler/bituminous_coal",
+			"category": "large_boiler",
+			"duration": 400,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:ore/bituminous_coal"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@3a05a80",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:overworld]"
+				},
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@364f80dc",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:the_nether]"
+				}
+			]
+		},
+		{
+			"id": "tfg:large_boiler/palm_oil",
+			"category": "large_boiler",
+			"duration": 50,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:palm_oil"
+					],
+					"amount": 160,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@66878fdd",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:overworld]"
+				},
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@5096f833",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:the_nether]"
+				}
+			]
+		},
+		{
+			"id": "tfg:large_boiler/tallow",
+			"category": "large_boiler",
+			"duration": 50,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfc:tallow"
+					],
+					"amount": 160,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@5163ccfb",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:overworld]"
+				},
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@1be0ef6b",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:the_nether]"
+				}
+			]
+		},
+		{
+			"id": "gtceu:large_boiler/gtceu_exquisite_coal_gem",
+			"category": "large_boiler",
+			"duration": 1600,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:exquisite_coal_gem"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@414362ad",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:the_nether]"
+				},
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@26734dd6",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:overworld]"
+				}
+			]
+		},
+		{
+			"id": "gtceu:large_boiler/gtceu_biomass",
+			"category": "large_boiler",
+			"duration": 85,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:biomass"
+					],
+					"amount": 40,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@693849f7",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:the_nether]"
+				},
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@753f780c",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:overworld]"
+				}
+			]
+		},
+		{
+			"id": "tfg:large_boiler/saplings",
+			"category": "large_boiler",
+			"duration": 25,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"afc:wood/sapling/ipe",
+						"tfg:palm_tree/acai_sapling",
+						"afc:wood/sapling/mountain_fir",
+						"afc:wood/sapling/balsam_fir",
+						"afc:wood/sapling/scrub_hickory",
+						"afc:wood/sapling/poplar",
+						"afc:wood/sapling/mahogany",
+						"afc:wood/sapling/black_oak",
+						"afc:wood/sapling/weeping_willow",
+						"tfg:saplings/alphacene",
+						"afc:wood/sapling/red_pine",
+						"tfc:wood/sapling/acacia",
+						"tfc:plant/cherry_sapling",
+						"tfg:saplings/warped",
+						"tfc:plant/red_apple_sapling",
+						"afc:wood/sapling/atlas_cedar",
+						"tfg:wood/sapling/araucaria",
+						"tfc:wood/sapling/mangrove",
+						"afc:wood/sapling/teak",
+						"afc:wood/sapling/mpingo_blackwood",
+						"afc:wood/sapling/giant_rosewood",
+						"afc:wood/sapling/lebombo_ironwood",
+						"tfg:wood/sapling/ginkgo",
+						"afc:wood/sapling/gum_arabic",
+						"afc:wood/sapling/live_oak",
+						"afc:wood/sapling/tamarack",
+						"tfg:fruit_trees/magmango_sapling",
+						"afc:wood/sapling/weeping_maple",
+						"afc:wood/sapling/small_leaf_mahogany",
+						"tfc:wood/sapling/oak",
+						"tfc:wood/sapling/maple",
+						"tfc:wood/sapling/rosewood",
+						"tfg:wood/sapling/mahoe",
+						"afc:wood/sapling/coast_redwood",
+						"tfc:wood/sapling/sequoia",
+						"tfc:plant/plum_sapling",
+						"tfg:wood/sapling/beech",
+						"tfc:wood/sapling/douglas_fir",
+						"afc:wood/sapling/rainbow_eucalyptus",
+						"afc:wood/sapling/acacia_koa",
+						"tfc:plant/green_apple_sapling",
+						"afc:wood/sapling/stone_pine",
+						"afc:wood/sapling/sapele_mahogany",
+						"tfc:wood/sapling/pine",
+						"firmalife:plant/cocoa_sapling",
+						"tfc:wood/sapling/ash",
+						"tfg:palm_tree/date_sapling",
+						"tfc:wood/sapling/birch",
+						"afc:wood/sapling/cypress",
+						"tfc:wood/sapling/aspen",
+						"tfc:wood/sapling/spruce",
+						"tfc:plant/olive_sapling",
+						"afc:wood/sapling/fig",
+						"tfg:palm_tree/oil_palm_sapling",
+						"afc:wood/sapling/eucalyptus",
+						"tfc:wood/sapling/blackwood",
+						"afc:wood/sapling/tualang",
+						"tfc:wood/sapling/willow",
+						"tfc:plant/orange_sapling",
+						"afc:wood/sapling/coast_spruce",
+						"afc:wood/sapling/flame_of_the_forest",
+						"tfg:palm_tree/coconut_sapling",
+						"afc:wood/sapling/redcedar",
+						"afc:wood/sapling/red_silk_cotton",
+						"tfc:wood/sapling/chestnut",
+						"afc:wood/sapling/rubber_fig",
+						"tfg:saplings/aeronos",
+						"afc:wood/sapling/iroko_teak",
+						"afc:wood/sapling/sitka_spruce",
+						"tfc:plant/peach_sapling",
+						"afc:wood/sapling/mountain_ash",
+						"afc:wood/sapling/bigleaf_maple",
+						"afc:wood/sapling/ironwood",
+						"afc:wood/sapling/baobab",
+						"afc:wood/sapling/black_spruce",
+						"tfg:saplings/glacian",
+						"tfc:plant/lemon_sapling",
+						"tfg:fruit_trees/lavacado_sapling",
+						"tfc:wood/sapling/palm",
+						"firmalife:plant/fig_sapling",
+						"tfg:saplings/strophar",
+						"afc:wood/sapling/weeping_cypress",
+						"afc:wood/sapling/jaggery_palm",
+						"tfc:wood/sapling/sycamore",
+						"afc:wood/sapling/bald_cypress",
+						"tfc:wood/sapling/white_cedar",
+						"tfc:plant/banana_sapling",
+						"tfg:saplings/crimson",
+						"tfc:wood/sapling/hickory",
+						"afc:wood/sapling/hevea",
+						"tfc:wood/sapling/kapok",
+						"afc:wood/sapling/horsetail_ironwood"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@3e280224",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:overworld]"
+				},
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@7e9846b4",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:the_nether]"
+				}
+			]
+		},
+		{
+			"id": "gtceu:large_boiler/gtceu_charcoal_block",
+			"category": "large_boiler",
+			"duration": 2700,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:charcoal_block"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@3a0e1b47",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:the_nether]"
+				},
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@4217cebc",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:overworld]"
+				}
+			]
+		},
+		{
+			"id": "tfg:large_boiler/anthracite",
+			"category": "large_boiler",
+			"duration": 800,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"beneath:cursecoal"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@3c50ddf8",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:overworld]"
+				},
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@419120",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:the_nether]"
+				}
+			]
+		},
+		{
+			"id": "tfg:large_boiler/flora_pellets",
+			"category": "large_boiler",
+			"duration": 300,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:flora_pellets"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@4a5f764c",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:overworld]"
+				},
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@36c13395",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:the_nether]"
+				}
+			]
+		},
+		{
+			"id": "tfg:large_boiler/fish_oil",
+			"category": "large_boiler",
+			"duration": 50,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:fish_oil"
+					],
+					"amount": 160,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@cc487a8",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:overworld]"
+				},
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@80df81",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:the_nether]"
+				}
+			]
+		},
+		{
+			"id": "tfg:large_boiler/lignite",
+			"category": "large_boiler",
+			"duration": 300,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:ore/lignite"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@31dc34cb",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:overworld]"
+				},
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@e3ef4fe",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:the_nether]"
+				}
+			]
+		},
+		{
+			"id": "gtceu:large_boiler/gtceu_flawed_coal_gem",
+			"category": "large_boiler",
+			"duration": 200,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawed_coal_gem"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@26efdb56",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:the_nether]"
+				},
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@201564dd",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:overworld]"
+				}
+			]
+		},
+		{
+			"id": "tfg:large_boiler/dried_peat_brick",
+			"category": "large_boiler",
+			"duration": 225,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:dried_peat_brick"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@70bf7678",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:overworld]"
+				},
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@95ff595",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:the_nether]"
+				}
+			]
+		},
+		{
+			"id": "gtceu:large_boiler/gtceu_flawless_coal_gem",
+			"category": "large_boiler",
+			"duration": 800,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawless_coal_gem"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@51b2ba83",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:the_nether]"
+				},
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@5a0a0fe4",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:overworld]"
+				}
+			]
+		},
+		{
+			"id": "tfg:large_boiler/heavy_oil",
+			"category": "large_boiler",
+			"duration": 50,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:oil_heavy"
+					],
+					"amount": 32,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@510dae6b",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:overworld]"
+				},
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@27881a82",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:the_nether]"
+				}
+			]
+		},
+		{
+			"id": "tfg:large_boiler/oil",
+			"category": "large_boiler",
+			"duration": 50,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:oil"
+					],
+					"amount": 200,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@632aca52",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:overworld]"
+				},
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@69d59cfc",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:the_nether]"
+				}
+			]
+		},
+		{
+			"id": "tfg:large_boiler/peanut_oil",
+			"category": "large_boiler",
+			"duration": 50,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:peanut_oil"
+					],
+					"amount": 160,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@5517095b",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:overworld]"
+				},
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@32ac5571",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:the_nether]"
+				}
+			]
+		},
+		{
+			"id": "tfg:large_boiler/planks",
+			"category": "large_boiler",
+			"duration": 18,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:wood/planks/mahoe",
+						"tfc:wood/planks/sequoia",
+						"tfc:wood/planks/hickory",
+						"tfc:wood/planks/mangrove",
+						"tfc:wood/planks/birch",
+						"tfg:wood/planks/beech",
+						"tfc:wood/planks/white_cedar",
+						"ad_astra:aeronos_planks",
+						"beneath:wood/planks/crimson",
+						"tfg:wood/planks/araucaria",
+						"tfc:wood/planks/acacia",
+						"afc:wood/planks/teak",
+						"beneath:wood/planks/warped",
+						"tfc:wood/planks/willow",
+						"tfc:wood/planks/oak",
+						"afc:wood/planks/tualang",
+						"wan_ancient_beasts:ginkgo_planks",
+						"tfc:wood/planks/kapok",
+						"minecraft:bamboo_planks",
+						"tfc:wood/planks/aspen",
+						"tfc:wood/planks/chestnut",
+						"tfc:wood/planks/sycamore",
+						"afc:wood/planks/baobab",
+						"tfc:wood/planks/palm",
+						"afc:wood/planks/mahogany",
+						"afc:wood/planks/ipe",
+						"afc:wood/planks/eucalyptus",
+						"tfc:wood/planks/ash",
+						"tfc:wood/planks/blackwood",
+						"afc:wood/planks/ironwood",
+						"tfc:wood/planks/maple",
+						"tfc:wood/planks/rosewood",
+						"tfc:wood/planks/spruce",
+						"afc:wood/planks/cypress",
+						"afc:wood/planks/hevea",
+						"tfc:wood/planks/douglas_fir",
+						"tfc:wood/planks/pine",
+						"ad_astra:glacian_planks",
+						"afc:wood/planks/fig",
+						"ad_astra:strophar_planks"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@177294dd",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:overworld]"
+				},
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@5ac0737f",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:the_nether]"
+				}
+			]
+		},
+		{
+			"id": "gtceu:large_boiler/gtceu_coal_dust",
+			"category": "large_boiler",
+			"duration": 400,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:coal_dust"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@3706de8b",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:the_nether]"
+				},
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@47c09c00",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:overworld]"
+				}
+			]
+		},
+		{
+			"id": "gtceu:large_boiler/gtceu_chipped_coal_gem",
+			"category": "large_boiler",
+			"duration": 100,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:chipped_coal_gem"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@44172c59",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:the_nether]"
+				},
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@1d15e42f",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:overworld]"
+				}
+			]
+		},
+		{
+			"id": "tfg:large_boiler/light_oil",
+			"category": "large_boiler",
+			"duration": 50,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:oil_light"
+					],
+					"amount": 200,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@1ce68380",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:overworld]"
+				},
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@5f052c80",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:the_nether]"
+				}
+			]
+		},
+		{
+			"id": "tfg:large_boiler/logs",
+			"category": "large_boiler",
+			"duration": 75,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"afc:wood/stripped_log/ipe",
+						"tfc:wood/stripped_log/oak",
+						"afc:wood/log/ancient_ironwood",
+						"tfc:wood/stripped_wood/rosewood",
+						"afc:wood/log/redcedar",
+						"ad_astra:aeronos_stem",
+						"tfc:wood/stripped_log/ash",
+						"tfg:wood/stripped_wood/araucaria",
+						"afc:wood/stripped_wood/baobab",
+						"tfc:wood/log/aspen",
+						"beneath:wood/stripped_log/crimson",
+						"tfg:wood/stripped_log/mahoe",
+						"wan_ancient_beasts:ginkgo_log",
+						"afc:wood/log/ancient_baobab",
+						"afc:wood/stripped_wood/fig",
+						"tfc:wood/stripped_wood/maple",
+						"afc:wood/log/baobab",
+						"tfc:wood/wood/birch",
+						"afc:wood/wood/eucalyptus",
+						"tfc:wood/stripped_wood/ash",
+						"afc:wood/wood/ancient_ironwood",
+						"tfc:wood/stripped_log/blackwood",
+						"tfc:wood/stripped_log/rosewood",
+						"tfc:wood/wood/aspen",
+						"afc:wood/log/cypress",
+						"afc:wood/log/rubber_fig",
+						"tfc:wood/log/acacia",
+						"afc:wood/stripped_log/hevea",
+						"wan_ancient_beasts:stripped_ginkgo_wood",
+						"tfc:wood/stripped_log/spruce",
+						"beneath:wood/wood/crimson",
+						"beneath:wood/stripped_wood/crimson",
+						"afc:wood/wood/teak",
+						"tfc:wood/stripped_log/douglas_fir",
+						"tfc:wood/log/rosewood",
+						"afc:wood/log/ironwood",
+						"tfc:wood/stripped_wood/kapok",
+						"afc:wood/wood/gum_arabic",
+						"afc:wood/wood/rubber_fig",
+						"afc:wood/stripped_log/ironwood",
+						"afc:wood/wood/poplar",
+						"tfc:wood/log/douglas_fir",
+						"tfc:wood/wood/sequoia",
+						"tfc:wood/stripped_log/willow",
+						"afc:wood/log/rainbow_eucalyptus",
+						"afc:wood/log/hevea",
+						"afc:wood/wood/ancient_tualang",
+						"wan_ancient_beasts:ginkgo_wood",
+						"afc:wood/log/ancient_ipe",
+						"tfg:wood/wood/beech",
+						"afc:wood/log/ancient_tualang",
+						"afc:wood/stripped_log/tualang",
+						"tfc:wood/stripped_log/mangrove",
+						"afc:wood/wood/ipe",
+						"tfc:wood/stripped_log/birch",
+						"tfc:wood/stripped_log/maple",
+						"tfc:wood/wood/kapok",
+						"tfg:wood/stripped_log/araucaria",
+						"tfc:wood/stripped_log/sycamore",
+						"afc:wood/log/ancient_mahogany",
+						"afc:wood/wood/tualang",
+						"afc:wood/log/fig",
+						"tfc:wood/stripped_wood/aspen",
+						"afc:wood/log/ancient_fig",
+						"tfc:stick_bundle",
+						"tfc:wood/log/blackwood",
+						"tfc:wood/wood/maple",
+						"tfc:wood/stripped_log/white_cedar",
+						"tfc:wood/wood/pine",
+						"beneath:wood/stripped_wood/warped",
+						"afc:wood/log/ancient_eucalyptus",
+						"afc:wood/stripped_wood/mahogany",
+						"tfc:wood/stripped_log/chestnut",
+						"tfc:wood/wood/blackwood",
+						"afc:wood/log/ancient_cypress",
+						"tfc:wood/wood/hickory",
+						"tfc:wood/stripped_wood/oak",
+						"tfc:wood/stripped_log/pine",
+						"tfg:wood/wood/mahoe",
+						"afc:wood/wood/ancient_ipe",
+						"afc:wood/wood/mahogany",
+						"afc:wood/stripped_wood/ironwood",
+						"afc:wood/log/gum_arabic",
+						"tfg:wood/stripped_wood/beech",
+						"tfc:wood/wood/sycamore",
+						"afc:wood/wood/ancient_teak",
+						"afc:wood/wood/ancient_mahogany",
+						"tfc:wood/stripped_wood/blackwood",
+						"afc:wood/wood/black_oak",
+						"tfc:wood/log/sequoia",
+						"tfc:wood/wood/ash",
+						"afc:wood/log/mahogany",
+						"tfc:wood/wood/douglas_fir",
+						"tfg:wood/log/araucaria",
+						"tfc:wood/log/ash",
+						"tfc:wood/log/palm",
+						"afc:wood/log/poplar",
+						"tfc:wood/stripped_wood/spruce",
+						"afc:wood/stripped_wood/tualang",
+						"tfc:wood/wood/mangrove",
+						"tfc:wood/stripped_log/acacia",
+						"tfc:wood/wood/chestnut",
+						"tfc:wood/log/pine",
+						"tfc:wood/wood/palm",
+						"afc:wood/stripped_log/baobab",
+						"tfc:wood/log/maple",
+						"beneath:wood/wood/warped",
+						"afc:wood/log/eucalyptus",
+						"afc:wood/wood/hevea",
+						"beneath:wood/log/warped",
+						"tfg:glacian_log",
+						"tfc:wood/stripped_wood/sycamore",
+						"tfc:wood/wood/spruce",
+						"afc:wood/stripped_log/cypress",
+						"afc:wood/wood/ancient_eucalyptus",
+						"tfc:wood/stripped_wood/birch",
+						"tfc:wood/log/mangrove",
+						"beneath:wood/stripped_log/warped",
+						"tfc:wood/stripped_log/sequoia",
+						"tfg:glacian_wood",
+						"afc:wood/wood/fig",
+						"tfc:wood/stripped_wood/hickory",
+						"tfc:wood/stripped_wood/mangrove",
+						"tfc:wood/stripped_log/aspen",
+						"tfc:wood/log/sycamore",
+						"tfg:charred_log",
+						"tfg:wood/wood/araucaria",
+						"afc:wood/log/ancient_teak",
+						"tfc:wood/log/birch",
+						"tfc:wood/log/kapok",
+						"tfc:wood/wood/oak",
+						"tfc:wood/stripped_wood/willow",
+						"afc:wood/stripped_log/fig",
+						"tfg:glacian_log_stripped",
+						"tfc:wood/log/spruce",
+						"tfc:wood/log/white_cedar",
+						"afc:wood/wood/ancient_baobab",
+						"tfg:glacian_wood_stripped",
+						"tfc:wood/stripped_wood/sequoia",
+						"tfc:wood/stripped_wood/chestnut",
+						"afc:wood/stripped_wood/cypress",
+						"tfc:wood/wood/rosewood",
+						"afc:wood/stripped_log/teak",
+						"beneath:wood/log/crimson",
+						"tfc:wood/log/hickory",
+						"tfg:wood/stripped_log/beech",
+						"tfc:wood/stripped_log/hickory",
+						"tfc:wood/stripped_wood/acacia",
+						"afc:wood/stripped_wood/hevea",
+						"afc:wood/wood/ancient_fig",
+						"ad_astra:strophar_stem",
+						"tfc:wood/wood/acacia",
+						"ad_astra:stripped_glacian_log",
+						"afc:wood/stripped_log/mahogany",
+						"ad_astra:glacian_log",
+						"afc:wood/wood/ancient_hevea",
+						"afc:wood/log/tualang",
+						"tfc:wood/stripped_wood/palm",
+						"afc:wood/wood/ironwood",
+						"tfc:wood/log/chestnut",
+						"tfc:wood/wood/white_cedar",
+						"afc:wood/wood/rainbow_eucalyptus",
+						"afc:wood/log/teak",
+						"afc:wood/wood/baobab",
+						"tfc:wood/wood/willow",
+						"afc:wood/stripped_wood/eucalyptus",
+						"afc:wood/wood/ancient_cypress",
+						"afc:wood/stripped_wood/ipe",
+						"afc:wood/log/ancient_hevea",
+						"afc:wood/log/black_oak",
+						"afc:wood/wood/redcedar",
+						"afc:wood/stripped_wood/teak",
+						"tfc:wood/stripped_log/palm",
+						"afc:wood/stripped_log/eucalyptus",
+						"afc:wood/wood/cypress",
+						"tfc:wood/stripped_wood/white_cedar",
+						"tfc:wood/stripped_log/kapok",
+						"tfc:wood/stripped_wood/pine",
+						"tfg:wood/log/mahoe",
+						"afc:wood/log/ipe",
+						"tfc:wood/log/oak",
+						"tfc:wood/log/willow",
+						"tfg:wood/stripped_wood/mahoe",
+						"wan_ancient_beasts:stripped_ginkgo_log",
+						"tfg:wood/log/beech",
+						"tfc:wood/stripped_wood/douglas_fir"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@415c0405",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:overworld]"
+				},
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@210b30d",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:the_nether]"
+				}
+			]
+		},
+		{
+			"id": "tfg:large_boiler/seed_oil",
+			"category": "large_boiler",
+			"duration": 50,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:seed_oil"
+					],
+					"amount": 160,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@38b66d2b",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:overworld]"
+				},
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@17e82c99",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:the_nether]"
+				}
+			]
+		}
+	]
+}

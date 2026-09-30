@@ -1,0 +1,564 @@
+{
+	"type": "gtceu:combustion_generator",
+	"recipes": [
+		{
+			"id": "gtceu:combustion_generator/biodiesel",
+			"category": "combustion_generator",
+			"duration": 8,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:bio_diesel"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [],
+			"tickOutputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@2aaec16a",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:the_nether]"
+				},
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@39b35db8",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:overworld]"
+				}
+			]
+		},
+		{
+			"id": "tfg:combustion_generator/diesel",
+			"category": "combustion_generator",
+			"duration": 12,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:diesel"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [],
+			"tickOutputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@35283486",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:overworld]"
+				},
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@7a9b4495",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:the_nether]"
+				}
+			]
+		},
+		{
+			"id": "gtceu:combustion_generator/ethanol",
+			"category": "combustion_generator",
+			"duration": 6,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:ethanol"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [],
+			"tickOutputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@26e27f3d",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:the_nether]"
+				},
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@59fa8c4",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:overworld]"
+				}
+			]
+		},
+		{
+			"id": "gtceu:combustion_generator/raw_oil",
+			"category": "combustion_generator",
+			"duration": 15,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:oil_medium"
+					],
+					"amount": 64,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [],
+			"tickOutputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@71e730f5",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:the_nether]"
+				},
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@51f86db0",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:overworld]"
+				}
+			]
+		},
+		{
+			"id": "gtceu:combustion_generator/light_oil",
+			"category": "combustion_generator",
+			"duration": 5,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:oil_light"
+					],
+					"amount": 32,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [],
+			"tickOutputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@6456fb25",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:the_nether]"
+				},
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@1cf7a6e3",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:overworld]"
+				}
+			]
+		},
+		{
+			"id": "gtceu:combustion_generator/octane",
+			"category": "combustion_generator",
+			"duration": 5,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:octane"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [],
+			"tickOutputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@54df5d10",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:the_nether]"
+				},
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@46582fd6",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:overworld]"
+				}
+			]
+		},
+		{
+			"id": "gtceu:combustion_generator/toluene",
+			"category": "combustion_generator",
+			"duration": 10,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:toluene"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [],
+			"tickOutputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@15047beb",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:the_nether]"
+				},
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@34651716",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:overworld]"
+				}
+			]
+		},
+		{
+			"id": "gtceu:combustion_generator/gasoline",
+			"category": "combustion_generator",
+			"duration": 50,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:gasoline"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [],
+			"tickOutputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@1afcfb57",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:the_nether]"
+				},
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@1d5d5141",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:overworld]"
+				}
+			]
+		},
+		{
+			"id": "gtceu:combustion_generator/rocket_fuel",
+			"category": "combustion_generator",
+			"duration": 125,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:rocket_fuel"
+					],
+					"amount": 16,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [],
+			"tickOutputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@2b30aa22",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:the_nether]"
+				},
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@37f1c5f5",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:overworld]"
+				}
+			]
+		},
+		{
+			"id": "gtceu:combustion_generator/high_octane_gasoline",
+			"category": "combustion_generator",
+			"duration": 100,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:high_octane_gasoline"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [],
+			"tickOutputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@4aaab61f",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:the_nether]"
+				},
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@3d8a2152",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:overworld]"
+				}
+			]
+		},
+		{
+			"id": "tfg:combustion_generator/naphtha",
+			"category": "combustion_generator",
+			"duration": 2,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:naphtha"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [],
+			"tickOutputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@13c5fd7b",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:overworld]"
+				},
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@2a224c9b",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:the_nether]"
+				}
+			]
+		},
+		{
+			"id": "tfg:combustion_generator/cetane_boosted_diesel",
+			"category": "combustion_generator",
+			"duration": 32,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:cetane_boosted_diesel"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [],
+			"tickOutputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@35a71d8e",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:overworld]"
+				},
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@594b3ad9",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:the_nether]"
+				}
+			]
+		},
+		{
+			"id": "gtceu:combustion_generator/methanol",
+			"category": "combustion_generator",
+			"duration": 8,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:methanol"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [],
+			"tickOutputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@65592aae",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:the_nether]"
+				},
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@5d27e40a",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:overworld]"
+				}
+			]
+		}
+	]
+}

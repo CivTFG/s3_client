@@ -1,0 +1,2196 @@
+{
+	"type": "gtceu:cracker",
+	"recipes": [
+		{
+			"id": "gtceu:cracker/severely_steam_crack_heavy_fuel",
+			"category": "cracker",
+			"duration": 160,
+			"voltage": 480,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:heavy_fuel"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"steampowered:steam",
+						"steampowered:flowing_steam",
+						"gtceu:steam"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "circuit",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:severely_steam_cracked_heavy_fuel"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:cracker/severely_hydro_crack_refinery_gas",
+			"category": "cracker",
+			"duration": 160,
+			"voltage": 240,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:refinery_gas"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 6000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "circuit",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:severely_hydro_cracked_gas"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:cracker/cracked_bauxite_slurry",
+			"category": "cracker",
+			"duration": 500,
+			"voltage": 480,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:bauxite_slurry"
+					],
+					"amount": 16000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"steampowered:steam",
+						"steampowered:flowing_steam",
+						"gtceu:steam"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "circuit",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:cracked_bauxite_slurry"
+					],
+					"amount": 16000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:cracker/severely_hydro_crack_naphtha",
+			"category": "cracker",
+			"duration": 160,
+			"voltage": 240,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:naphtha"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 6000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "circuit",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:severely_hydro_cracked_naphtha"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:cracker/severely_steam_crack_naphtha",
+			"category": "cracker",
+			"duration": 160,
+			"voltage": 480,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:naphtha"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"steampowered:steam",
+						"steampowered:flowing_steam",
+						"gtceu:steam"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "circuit",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:severely_steam_cracked_naphtha"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:cracker/steam_crack_butene",
+			"category": "cracker",
+			"duration": 120,
+			"voltage": 360,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:butene"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"steampowered:steam",
+						"steampowered:flowing_steam",
+						"gtceu:steam"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "circuit",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:steam_cracked_butene"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:cracker/crude_mixed_gas",
+			"category": "cracker",
+			"duration": 4800,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:reformate_gas"
+					],
+					"amount": 8000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:propene"
+					],
+					"amount": 2000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:catalyser_pt_re_zsm"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:crude_mixed_gas"
+					],
+					"amount": 10000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:used_catalyser"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:cracker/hydro_crack_butane",
+			"category": "cracker",
+			"duration": 120,
+			"voltage": 180,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:butane"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 4000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "circuit",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydro_cracked_butane"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:cracker/lightly_hydro_crack_naphtha",
+			"category": "cracker",
+			"duration": 80,
+			"voltage": 120,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:naphtha"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 2000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "circuit",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:lightly_hydro_cracked_naphtha"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:cracker/lightly_steam_crack_naphtha",
+			"category": "cracker",
+			"duration": 80,
+			"voltage": 240,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:naphtha"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"steampowered:steam",
+						"steampowered:flowing_steam",
+						"gtceu:steam"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "circuit",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:lightly_steam_cracked_naphtha"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:cracker/lightly_hydro_crack_light_fuel",
+			"category": "cracker",
+			"duration": 80,
+			"voltage": 120,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:light_fuel"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 2000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "circuit",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:lightly_hydro_cracked_light_fuel"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:cracker/hydro_crack_propene",
+			"category": "cracker",
+			"duration": 120,
+			"voltage": 180,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:propene"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 4000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "circuit",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydro_cracked_propene"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:cracker/steam_crack_propene",
+			"category": "cracker",
+			"duration": 120,
+			"voltage": 360,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:propene"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"steampowered:steam",
+						"steampowered:flowing_steam",
+						"gtceu:steam"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "circuit",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:steam_cracked_propene"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:cracker/steam_crack_ethylene",
+			"category": "cracker",
+			"duration": 120,
+			"voltage": 360,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:ethylene"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"steampowered:steam",
+						"steampowered:flowing_steam",
+						"gtceu:steam"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "circuit",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:steam_cracked_ethylene"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:cracker/lightly_steam_crack_light_fuel",
+			"category": "cracker",
+			"duration": 80,
+			"voltage": 240,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:light_fuel"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"steampowered:steam",
+						"steampowered:flowing_steam",
+						"gtceu:steam"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "circuit",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:lightly_steam_cracked_light_fuel"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:cracker/cracker/isobutane",
+			"category": "cracker",
+			"duration": 2400,
+			"voltage": 480,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:butane"
+					],
+					"amount": 4000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:isobutane"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:lpg"
+					],
+					"amount": 3000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:cracker/steam_crack_butadiene",
+			"category": "cracker",
+			"duration": 120,
+			"voltage": 360,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:butadiene"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"steampowered:steam",
+						"steampowered:flowing_steam",
+						"gtceu:steam"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "circuit",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:steam_cracked_butadiene"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:cracker/lightly_hydro_crack_heavy_fuel",
+			"category": "cracker",
+			"duration": 80,
+			"voltage": 120,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:heavy_fuel"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 2000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "circuit",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:lightly_hydro_cracked_heavy_fuel"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:cracker/severely_hydro_crack_light_fuel",
+			"category": "cracker",
+			"duration": 160,
+			"voltage": 240,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:light_fuel"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 6000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "circuit",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:severely_hydro_cracked_light_fuel"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:cracker/steam_crack_butane",
+			"category": "cracker",
+			"duration": 120,
+			"voltage": 360,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:butane"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"steampowered:steam",
+						"steampowered:flowing_steam",
+						"gtceu:steam"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "circuit",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:steam_cracked_butane"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:cracker/lightly_steam_crack_heavy_fuel",
+			"category": "cracker",
+			"duration": 80,
+			"voltage": 240,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:heavy_fuel"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"steampowered:steam",
+						"steampowered:flowing_steam",
+						"gtceu:steam"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "circuit",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:lightly_steam_cracked_heavy_fuel"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:cracker/reformate_gas_cracker",
+			"category": "cracker",
+			"duration": 320,
+			"voltage": 120,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:reformed_aromatic_feedstock"
+					],
+					"amount": 2000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:steam"
+					],
+					"amount": 4000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:reformate_gas"
+					],
+					"amount": 8000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:cracker_off_gas"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:cracker/hydro_crack_ethane",
+			"category": "cracker",
+			"duration": 120,
+			"voltage": 180,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:ethane"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 4000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "circuit",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydro_cracked_ethane"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:cracker/lightly_steam_crack_refinery_gas",
+			"category": "cracker",
+			"duration": 80,
+			"voltage": 240,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:refinery_gas"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"steampowered:steam",
+						"steampowered:flowing_steam",
+						"gtceu:steam"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "circuit",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:lightly_steam_cracked_gas"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:cracker/hydro_crack_ethylene",
+			"category": "cracker",
+			"duration": 120,
+			"voltage": 180,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:ethylene"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 4000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "circuit",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydro_cracked_ethylene"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:cracker/severely_steam_crack_refinery_gas",
+			"category": "cracker",
+			"duration": 160,
+			"voltage": 480,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:refinery_gas"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"steampowered:steam",
+						"steampowered:flowing_steam",
+						"gtceu:steam"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "circuit",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:severely_steam_cracked_gas"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:cracker/hydro_crack_butadiene",
+			"category": "cracker",
+			"duration": 120,
+			"voltage": 180,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:butadiene"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 4000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "circuit",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydro_cracked_butadiene"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:cracker/lightly_hydro_crack_refinery_gas",
+			"category": "cracker",
+			"duration": 80,
+			"voltage": 120,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:refinery_gas"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 2000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "circuit",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:lightly_hydro_cracked_gas"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:cracker/hydro_crack_propane",
+			"category": "cracker",
+			"duration": 120,
+			"voltage": 180,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:propane"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 4000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "circuit",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydro_cracked_propane"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:cracker/steam_crack_propane",
+			"category": "cracker",
+			"duration": 120,
+			"voltage": 360,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:propane"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"steampowered:steam",
+						"steampowered:flowing_steam",
+						"gtceu:steam"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "circuit",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:steam_cracked_propane"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:cracker/severely_steam_crack_light_fuel",
+			"category": "cracker",
+			"duration": 160,
+			"voltage": 480,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:light_fuel"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"steampowered:steam",
+						"steampowered:flowing_steam",
+						"gtceu:steam"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "circuit",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:severely_steam_cracked_light_fuel"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:cracker/steam_crack_ethane",
+			"category": "cracker",
+			"duration": 120,
+			"voltage": 360,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:ethane"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"steampowered:steam",
+						"steampowered:flowing_steam",
+						"gtceu:steam"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "circuit",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:steam_cracked_ethane"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:cracker/severely_hydro_crack_heavy_fuel",
+			"category": "cracker",
+			"duration": 160,
+			"voltage": 240,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:heavy_fuel"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 6000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "circuit",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:severely_hydro_cracked_heavy_fuel"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:cracker/hydro_crack_butene",
+			"category": "cracker",
+			"duration": 120,
+			"voltage": 180,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:butene"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 4000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "circuit",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydro_cracked_butene"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		}
+	]
+}

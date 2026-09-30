@@ -1,0 +1,6498 @@
+{
+	"type": "gtceu:coal_liquefaction_tower",
+	"recipes": [
+		{
+			"id": "tfg:coal_liquefaction_tower/dirty_olivine_slurry_flawless_olivine_gem",
+			"category": "coal_liquefaction_tower",
+			"duration": 1000,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawless_olivine_gem"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:dirty_olivine_slurry"
+					],
+					"amount": 700,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 10,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/dirty_green_sapphire_slurry_exquisite_green_sapphire_gem",
+			"category": "coal_liquefaction_tower",
+			"duration": 1000,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:exquisite_green_sapphire_gem"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:dirty_green_sapphire_slurry"
+					],
+					"amount": 1500,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 10,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/raw_aromatic_mix_bituminous",
+			"category": "coal_liquefaction_tower",
+			"duration": 1280,
+			"voltage": 60,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:creosote"
+					],
+					"amount": 4000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:ore/bituminous_coal"
+					],
+					"amount": 10,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:coal_tar"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:syngas"
+					],
+					"amount": 9600,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:raw_aromatic_mix"
+					],
+					"amount": 4000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/dirty_diamond_slurry_flawless_diamond_gem",
+			"category": "coal_liquefaction_tower",
+			"duration": 1000,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawless_diamond_gem"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:dirty_diamond_slurry"
+					],
+					"amount": 700,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 10,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/dirty_monazite_slurry_monazite_gem",
+			"category": "coal_liquefaction_tower",
+			"duration": 1000,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:monazite_gem"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:dirty_monazite_slurry"
+					],
+					"amount": 300,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 10,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/dirty_amethyst_slurry_exquisite_amethyst_gem",
+			"category": "coal_liquefaction_tower",
+			"duration": 1000,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:exquisite_amethyst_gem"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:dirty_amethyst_slurry"
+					],
+					"amount": 1500,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 10,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/dirty_andradite_slurry_flawless_andradite_gem",
+			"category": "coal_liquefaction_tower",
+			"duration": 1000,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawless_andradite_gem"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:dirty_andradite_slurry"
+					],
+					"amount": 700,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 10,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/dirty_realgar_slurry_realgar_gem",
+			"category": "coal_liquefaction_tower",
+			"duration": 1000,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:realgar_gem"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:dirty_realgar_slurry"
+					],
+					"amount": 300,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 10,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/dirty_realgar_slurry_exquisite_realgar_gem",
+			"category": "coal_liquefaction_tower",
+			"duration": 1000,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:exquisite_realgar_gem"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:dirty_realgar_slurry"
+					],
+					"amount": 1500,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 10,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/dirty_armalcolite_slurry_flawless_armalcolite_gem",
+			"category": "coal_liquefaction_tower",
+			"duration": 1000,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawless_armalcolite_gem"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:dirty_armalcolite_slurry"
+					],
+					"amount": 700,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 10,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/dirty_coal_slurry_ore_bituminous_coal",
+			"category": "coal_liquefaction_tower",
+			"duration": 1000,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:ore/bituminous_coal"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:dirty_coal_slurry"
+					],
+					"amount": 300,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 10,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/dirty_armalcolite_slurry_exquisite_armalcolite_gem",
+			"category": "coal_liquefaction_tower",
+			"duration": 1000,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:exquisite_armalcolite_gem"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:dirty_armalcolite_slurry"
+					],
+					"amount": 1500,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 10,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/dirty_sapphire_slurry_flawless_sapphire_gem",
+			"category": "coal_liquefaction_tower",
+			"duration": 1000,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawless_sapphire_gem"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:dirty_sapphire_slurry"
+					],
+					"amount": 700,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 10,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/dirty_opal_slurry_exquisite_opal_gem",
+			"category": "coal_liquefaction_tower",
+			"duration": 1000,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:exquisite_opal_gem"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:dirty_opal_slurry"
+					],
+					"amount": 1500,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 10,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/dirty_blue_topaz_slurry_flawless_blue_topaz_gem",
+			"category": "coal_liquefaction_tower",
+			"duration": 1000,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawless_blue_topaz_gem"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:dirty_blue_topaz_slurry"
+					],
+					"amount": 700,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 10,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/dirty_blue_topaz_slurry_blue_topaz_gem",
+			"category": "coal_liquefaction_tower",
+			"duration": 1000,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:blue_topaz_gem"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:dirty_blue_topaz_slurry"
+					],
+					"amount": 300,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 10,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/dirty_andradite_slurry_andradite_gem",
+			"category": "coal_liquefaction_tower",
+			"duration": 1000,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:andradite_gem"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:dirty_andradite_slurry"
+					],
+					"amount": 300,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 10,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/dirty_lazurite_slurry_exquisite_lazurite_gem",
+			"category": "coal_liquefaction_tower",
+			"duration": 1000,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:exquisite_lazurite_gem"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:dirty_lazurite_slurry"
+					],
+					"amount": 1500,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 10,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/dirty_emerald_slurry_exquisite_emerald_gem",
+			"category": "coal_liquefaction_tower",
+			"duration": 1000,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:exquisite_emerald_gem"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:dirty_emerald_slurry"
+					],
+					"amount": 1500,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 10,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/dirty_lapis_slurry_flawless_lapis_gem",
+			"category": "coal_liquefaction_tower",
+			"duration": 1000,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawless_lapis_gem"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:dirty_lapis_slurry"
+					],
+					"amount": 700,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 10,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/dirty_lapis_slurry_lapis_lazuli",
+			"category": "coal_liquefaction_tower",
+			"duration": 1000,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:lapis_lazuli"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:dirty_lapis_slurry"
+					],
+					"amount": 300,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 10,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/dirty_topaz_slurry_flawless_topaz_gem",
+			"category": "coal_liquefaction_tower",
+			"duration": 1000,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawless_topaz_gem"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:dirty_topaz_slurry"
+					],
+					"amount": 700,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 10,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/dirty_emerald_slurry_emerald",
+			"category": "coal_liquefaction_tower",
+			"duration": 1000,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:emerald"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:dirty_emerald_slurry"
+					],
+					"amount": 300,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 10,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/raw_aromatic_mix_lignite_hydrogen",
+			"category": "coal_liquefaction_tower",
+			"duration": 640,
+			"voltage": 60,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:creosote"
+					],
+					"amount": 4000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:ore/lignite"
+					],
+					"amount": 10,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:coal_tar"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:syngas"
+					],
+					"amount": 6400,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:raw_aromatic_mix"
+					],
+					"amount": 4000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 1,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/dirty_cinnabar_slurry_exquisite_cinnabar_gem",
+			"category": "coal_liquefaction_tower",
+			"duration": 1000,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:exquisite_cinnabar_gem"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:dirty_cinnabar_slurry"
+					],
+					"amount": 1500,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 10,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/dirty_pyrope_slurry_pyrope_gem",
+			"category": "coal_liquefaction_tower",
+			"duration": 1000,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:pyrope_gem"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:dirty_pyrope_slurry"
+					],
+					"amount": 300,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 10,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/raw_aromatic_mix_coke",
+			"category": "coal_liquefaction_tower",
+			"duration": 1280,
+			"voltage": 60,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:creosote"
+					],
+					"amount": 4000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:coke_gem"
+					],
+					"amount": 8,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:coal_tar"
+					],
+					"amount": 2000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:syngas"
+					],
+					"amount": 12800,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:raw_aromatic_mix"
+					],
+					"amount": 4000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/dirty_yellow_garnet_slurry_exquisite_yellow_garnet_gem",
+			"category": "coal_liquefaction_tower",
+			"duration": 1000,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:exquisite_yellow_garnet_gem"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:dirty_yellow_garnet_slurry"
+					],
+					"amount": 1500,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 10,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/dirty_spessartine_slurry_spessartine_gem",
+			"category": "coal_liquefaction_tower",
+			"duration": 1000,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:spessartine_gem"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:dirty_spessartine_slurry"
+					],
+					"amount": 300,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 10,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/dirty_spessartine_slurry_flawless_spessartine_gem",
+			"category": "coal_liquefaction_tower",
+			"duration": 1000,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawless_spessartine_gem"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:dirty_spessartine_slurry"
+					],
+					"amount": 700,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 10,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/dirty_rock_salt_slurry_rock_salt_gem",
+			"category": "coal_liquefaction_tower",
+			"duration": 1000,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:rock_salt_gem"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:dirty_rock_salt_slurry"
+					],
+					"amount": 300,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 10,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/dirty_opal_slurry_opal_gem",
+			"category": "coal_liquefaction_tower",
+			"duration": 1000,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:opal_gem"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:dirty_opal_slurry"
+					],
+					"amount": 300,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 10,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/raw_aromatic_mix_charcoal_hydrogen",
+			"category": "coal_liquefaction_tower",
+			"duration": 640,
+			"voltage": 60,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:creosote"
+					],
+					"amount": 4000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:charcoal"
+					],
+					"amount": 40,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:coal_tar"
+					],
+					"amount": 500,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:syngas"
+					],
+					"amount": 4400,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:raw_aromatic_mix"
+					],
+					"amount": 4000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 1,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/dirty_yellow_garnet_slurry_flawless_yellow_garnet_gem",
+			"category": "coal_liquefaction_tower",
+			"duration": 1000,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawless_yellow_garnet_gem"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:dirty_yellow_garnet_slurry"
+					],
+					"amount": 700,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 10,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/dirty_grossular_slurry_exquisite_grossular_gem",
+			"category": "coal_liquefaction_tower",
+			"duration": 1000,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:exquisite_grossular_gem"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:dirty_grossular_slurry"
+					],
+					"amount": 1500,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 10,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/dirty_grossular_slurry_flawless_grossular_gem",
+			"category": "coal_liquefaction_tower",
+			"duration": 1000,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawless_grossular_gem"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:dirty_grossular_slurry"
+					],
+					"amount": 700,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 10,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/dirty_coal_slurry_exquisite_coal_gem",
+			"category": "coal_liquefaction_tower",
+			"duration": 1000,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:exquisite_coal_gem"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:dirty_coal_slurry"
+					],
+					"amount": 1500,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 10,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/dirty_monazite_slurry_flawless_monazite_gem",
+			"category": "coal_liquefaction_tower",
+			"duration": 1000,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawless_monazite_gem"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:dirty_monazite_slurry"
+					],
+					"amount": 700,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 10,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/dirty_sapphire_slurry_exquisite_sapphire_gem",
+			"category": "coal_liquefaction_tower",
+			"duration": 1000,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:exquisite_sapphire_gem"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:dirty_sapphire_slurry"
+					],
+					"amount": 1500,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 10,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/dirty_apatite_slurry_exquisite_apatite_gem",
+			"category": "coal_liquefaction_tower",
+			"duration": 1000,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:exquisite_apatite_gem"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:dirty_apatite_slurry"
+					],
+					"amount": 1500,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 10,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/dirty_olivine_slurry_olivine_gem",
+			"category": "coal_liquefaction_tower",
+			"duration": 1000,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:olivine_gem"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:dirty_olivine_slurry"
+					],
+					"amount": 300,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 10,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/dirty_red_garnet_slurry_exquisite_red_garnet_gem",
+			"category": "coal_liquefaction_tower",
+			"duration": 1000,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:exquisite_red_garnet_gem"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:dirty_red_garnet_slurry"
+					],
+					"amount": 1500,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 10,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/dirty_diamond_slurry_exquisite_diamond_gem",
+			"category": "coal_liquefaction_tower",
+			"duration": 1000,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:exquisite_diamond_gem"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:dirty_diamond_slurry"
+					],
+					"amount": 1500,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 10,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/dirty_coal_slurry_flawless_coal_gem",
+			"category": "coal_liquefaction_tower",
+			"duration": 1000,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawless_coal_gem"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:dirty_coal_slurry"
+					],
+					"amount": 700,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 10,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/dirty_monazite_slurry_exquisite_monazite_gem",
+			"category": "coal_liquefaction_tower",
+			"duration": 1000,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:exquisite_monazite_gem"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:dirty_monazite_slurry"
+					],
+					"amount": 1500,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 10,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/dirty_malachite_slurry_malachite_gem",
+			"category": "coal_liquefaction_tower",
+			"duration": 1000,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:malachite_gem"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:dirty_malachite_slurry"
+					],
+					"amount": 300,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 10,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/dirty_green_sapphire_slurry_flawless_green_sapphire_gem",
+			"category": "coal_liquefaction_tower",
+			"duration": 1000,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawless_green_sapphire_gem"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:dirty_green_sapphire_slurry"
+					],
+					"amount": 700,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 10,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/leachate",
+			"category": "coal_liquefaction_tower",
+			"duration": 900,
+			"voltage": 120,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:diluted_hydrochloric_acid"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:clean_powder_dust"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:leachate"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/dirty_apatite_slurry_flawless_apatite_gem",
+			"category": "coal_liquefaction_tower",
+			"duration": 1000,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawless_apatite_gem"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:dirty_apatite_slurry"
+					],
+					"amount": 700,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 10,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/dirty_almandine_slurry_flawless_almandine_gem",
+			"category": "coal_liquefaction_tower",
+			"duration": 1000,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawless_almandine_gem"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:dirty_almandine_slurry"
+					],
+					"amount": 700,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 10,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/dirty_malachite_slurry_flawless_malachite_gem",
+			"category": "coal_liquefaction_tower",
+			"duration": 1000,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawless_malachite_gem"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:dirty_malachite_slurry"
+					],
+					"amount": 700,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 10,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/dirty_almandine_slurry_almandine_gem",
+			"category": "coal_liquefaction_tower",
+			"duration": 1000,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:almandine_gem"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:dirty_almandine_slurry"
+					],
+					"amount": 300,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 10,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/dirty_grossular_slurry_grossular_gem",
+			"category": "coal_liquefaction_tower",
+			"duration": 1000,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:grossular_gem"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:dirty_grossular_slurry"
+					],
+					"amount": 300,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 10,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/dirty_diamond_slurry_diamond",
+			"category": "coal_liquefaction_tower",
+			"duration": 1000,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:diamond"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:dirty_diamond_slurry"
+					],
+					"amount": 300,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 10,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/raw_aromatic_mix_charcoal",
+			"category": "coal_liquefaction_tower",
+			"duration": 1280,
+			"voltage": 60,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:creosote"
+					],
+					"amount": 4000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:charcoal"
+					],
+					"amount": 40,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:coal_tar"
+					],
+					"amount": 500,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:syngas"
+					],
+					"amount": 4400,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:raw_aromatic_mix"
+					],
+					"amount": 4000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/dirty_sodalite_slurry_flawless_sodalite_gem",
+			"category": "coal_liquefaction_tower",
+			"duration": 1000,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawless_sodalite_gem"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:dirty_sodalite_slurry"
+					],
+					"amount": 700,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 10,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/raw_aromatic_mix_coke_hydrogen",
+			"category": "coal_liquefaction_tower",
+			"duration": 640,
+			"voltage": 60,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:creosote"
+					],
+					"amount": 4000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:coke_gem"
+					],
+					"amount": 8,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:coal_tar"
+					],
+					"amount": 2000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:syngas"
+					],
+					"amount": 12800,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:raw_aromatic_mix"
+					],
+					"amount": 4000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 1,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/dirty_green_sapphire_slurry_green_sapphire_gem",
+			"category": "coal_liquefaction_tower",
+			"duration": 1000,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:green_sapphire_gem"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:dirty_green_sapphire_slurry"
+					],
+					"amount": 300,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 10,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/dirty_blue_topaz_slurry_exquisite_blue_topaz_gem",
+			"category": "coal_liquefaction_tower",
+			"duration": 1000,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:exquisite_blue_topaz_gem"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:dirty_blue_topaz_slurry"
+					],
+					"amount": 1500,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 10,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/dirty_lapis_slurry_exquisite_lapis_gem",
+			"category": "coal_liquefaction_tower",
+			"duration": 1000,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:exquisite_lapis_gem"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:dirty_lapis_slurry"
+					],
+					"amount": 1500,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 10,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/dirty_sodalite_slurry_sodalite_gem",
+			"category": "coal_liquefaction_tower",
+			"duration": 1000,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:sodalite_gem"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:dirty_sodalite_slurry"
+					],
+					"amount": 300,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 10,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/dirty_andradite_slurry_exquisite_andradite_gem",
+			"category": "coal_liquefaction_tower",
+			"duration": 1000,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:exquisite_andradite_gem"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:dirty_andradite_slurry"
+					],
+					"amount": 1500,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 10,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/dirty_pyrope_slurry_exquisite_pyrope_gem",
+			"category": "coal_liquefaction_tower",
+			"duration": 1000,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:exquisite_pyrope_gem"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:dirty_pyrope_slurry"
+					],
+					"amount": 1500,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 10,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/dirty_apatite_slurry_apatite_gem",
+			"category": "coal_liquefaction_tower",
+			"duration": 1000,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:apatite_gem"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:dirty_apatite_slurry"
+					],
+					"amount": 300,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 10,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/dirty_amethyst_slurry_amethyst_shard",
+			"category": "coal_liquefaction_tower",
+			"duration": 1000,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:amethyst_shard"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:dirty_amethyst_slurry"
+					],
+					"amount": 300,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 10,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/raw_aromatic_mix_lignite",
+			"category": "coal_liquefaction_tower",
+			"duration": 1280,
+			"voltage": 60,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:creosote"
+					],
+					"amount": 4000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:ore/lignite"
+					],
+					"amount": 10,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:coal_tar"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:syngas"
+					],
+					"amount": 6400,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:raw_aromatic_mix"
+					],
+					"amount": 4000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/dirty_sodalite_slurry_exquisite_sodalite_gem",
+			"category": "coal_liquefaction_tower",
+			"duration": 1000,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:exquisite_sodalite_gem"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:dirty_sodalite_slurry"
+					],
+					"amount": 1500,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 10,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/molten_mafic_silicate",
+			"category": "coal_liquefaction_tower",
+			"duration": 1000,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:igneous_mafic_dust"
+					],
+					"amount": 16,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:igneous_mafic"
+					],
+					"amount": 2304,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 1,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/dirty_yellow_garnet_slurry_yellow_garnet_gem",
+			"category": "coal_liquefaction_tower",
+			"duration": 1000,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:yellow_garnet_gem"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:dirty_yellow_garnet_slurry"
+					],
+					"amount": 300,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 10,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/raw_aromatic_mix_anthracite_hydrogen",
+			"category": "coal_liquefaction_tower",
+			"duration": 640,
+			"voltage": 60,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:creosote"
+					],
+					"amount": 4000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"beneath:cursecoal"
+					],
+					"amount": 5,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:coal_tar"
+					],
+					"amount": 2000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:syngas"
+					],
+					"amount": 12800,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:raw_aromatic_mix"
+					],
+					"amount": 4000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 1,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/dirty_red_garnet_slurry_flawless_red_garnet_gem",
+			"category": "coal_liquefaction_tower",
+			"duration": 1000,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawless_red_garnet_gem"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:dirty_red_garnet_slurry"
+					],
+					"amount": 700,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 10,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/dirty_lazurite_slurry_lazurite_gem",
+			"category": "coal_liquefaction_tower",
+			"duration": 1000,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:lazurite_gem"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:dirty_lazurite_slurry"
+					],
+					"amount": 300,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 10,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/dirty_rock_salt_slurry_exquisite_rock_salt_gem",
+			"category": "coal_liquefaction_tower",
+			"duration": 1000,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:exquisite_rock_salt_gem"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:dirty_rock_salt_slurry"
+					],
+					"amount": 1500,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 10,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/dirty_amethyst_slurry_flawless_amethyst_gem",
+			"category": "coal_liquefaction_tower",
+			"duration": 1000,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawless_amethyst_gem"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:dirty_amethyst_slurry"
+					],
+					"amount": 700,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 10,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/dirty_ruby_slurry_ruby_gem",
+			"category": "coal_liquefaction_tower",
+			"duration": 1000,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:ruby_gem"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:dirty_ruby_slurry"
+					],
+					"amount": 300,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 10,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/dirty_spessartine_slurry_exquisite_spessartine_gem",
+			"category": "coal_liquefaction_tower",
+			"duration": 1000,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:exquisite_spessartine_gem"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:dirty_spessartine_slurry"
+					],
+					"amount": 1500,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 10,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/dirty_almandine_slurry_exquisite_almandine_gem",
+			"category": "coal_liquefaction_tower",
+			"duration": 1000,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:exquisite_almandine_gem"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:dirty_almandine_slurry"
+					],
+					"amount": 1500,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 10,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/dirty_olivine_slurry_exquisite_olivine_gem",
+			"category": "coal_liquefaction_tower",
+			"duration": 1000,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:exquisite_olivine_gem"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:dirty_olivine_slurry"
+					],
+					"amount": 1500,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 10,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/dirty_rock_salt_slurry_flawless_rock_salt_gem",
+			"category": "coal_liquefaction_tower",
+			"duration": 1000,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawless_rock_salt_gem"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:dirty_rock_salt_slurry"
+					],
+					"amount": 700,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 10,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/dirty_ruby_slurry_exquisite_ruby_gem",
+			"category": "coal_liquefaction_tower",
+			"duration": 1000,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:exquisite_ruby_gem"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:dirty_ruby_slurry"
+					],
+					"amount": 1500,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 10,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/dirty_topaz_slurry_exquisite_topaz_gem",
+			"category": "coal_liquefaction_tower",
+			"duration": 1000,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:exquisite_topaz_gem"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:dirty_topaz_slurry"
+					],
+					"amount": 1500,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 10,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/raw_aromatic_mix_anthracite",
+			"category": "coal_liquefaction_tower",
+			"duration": 1280,
+			"voltage": 60,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:creosote"
+					],
+					"amount": 4000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"beneath:cursecoal"
+					],
+					"amount": 5,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:coal_tar"
+					],
+					"amount": 2000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:syngas"
+					],
+					"amount": 12800,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:raw_aromatic_mix"
+					],
+					"amount": 4000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/raw_aromatic_mix_bituminous_hydrogen",
+			"category": "coal_liquefaction_tower",
+			"duration": 640,
+			"voltage": 60,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:creosote"
+					],
+					"amount": 4000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:ore/bituminous_coal"
+					],
+					"amount": 10,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:coal_tar"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:syngas"
+					],
+					"amount": 9600,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:raw_aromatic_mix"
+					],
+					"amount": 4000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 1,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/dirty_ruby_slurry_flawless_ruby_gem",
+			"category": "coal_liquefaction_tower",
+			"duration": 1000,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawless_ruby_gem"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:dirty_ruby_slurry"
+					],
+					"amount": 700,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 10,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/dirty_topaz_slurry_topaz_gem",
+			"category": "coal_liquefaction_tower",
+			"duration": 1000,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:topaz_gem"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:dirty_topaz_slurry"
+					],
+					"amount": 300,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 10,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/dirty_armalcolite_slurry_armalcolite_gem",
+			"category": "coal_liquefaction_tower",
+			"duration": 1000,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:armalcolite_gem"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:dirty_armalcolite_slurry"
+					],
+					"amount": 300,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 10,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/dirty_sapphire_slurry_sapphire_gem",
+			"category": "coal_liquefaction_tower",
+			"duration": 1000,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:sapphire_gem"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:dirty_sapphire_slurry"
+					],
+					"amount": 300,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 10,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/dirty_cinnabar_slurry_flawless_cinnabar_gem",
+			"category": "coal_liquefaction_tower",
+			"duration": 1000,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawless_cinnabar_gem"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:dirty_cinnabar_slurry"
+					],
+					"amount": 700,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 10,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/dirty_emerald_slurry_flawless_emerald_gem",
+			"category": "coal_liquefaction_tower",
+			"duration": 1000,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawless_emerald_gem"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:dirty_emerald_slurry"
+					],
+					"amount": 700,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 10,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/dirty_malachite_slurry_exquisite_malachite_gem",
+			"category": "coal_liquefaction_tower",
+			"duration": 1000,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:exquisite_malachite_gem"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:dirty_malachite_slurry"
+					],
+					"amount": 1500,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 10,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/dirty_lazurite_slurry_flawless_lazurite_gem",
+			"category": "coal_liquefaction_tower",
+			"duration": 1000,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawless_lazurite_gem"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:dirty_lazurite_slurry"
+					],
+					"amount": 700,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 10,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/dirty_opal_slurry_flawless_opal_gem",
+			"category": "coal_liquefaction_tower",
+			"duration": 1000,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawless_opal_gem"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:dirty_opal_slurry"
+					],
+					"amount": 700,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 10,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/dirty_red_garnet_slurry_red_garnet_gem",
+			"category": "coal_liquefaction_tower",
+			"duration": 1000,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:red_garnet_gem"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:dirty_red_garnet_slurry"
+					],
+					"amount": 300,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 10,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/dirty_pyrope_slurry_flawless_pyrope_gem",
+			"category": "coal_liquefaction_tower",
+			"duration": 1000,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawless_pyrope_gem"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:dirty_pyrope_slurry"
+					],
+					"amount": 700,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 10,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/dirty_realgar_slurry_flawless_realgar_gem",
+			"category": "coal_liquefaction_tower",
+			"duration": 1000,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:flawless_realgar_gem"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:dirty_realgar_slurry"
+					],
+					"amount": 700,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 10,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:coal_liquefaction_tower/dirty_cinnabar_slurry_cinnabar_gem",
+			"category": "coal_liquefaction_tower",
+			"duration": 1000,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:cinnabar_gem"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:dirty_cinnabar_slurry"
+					],
+					"amount": 300,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:hydrogen"
+					],
+					"amount": 10,
+					"chanced": true,
+					"chance": 1000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		}
+	]
+}

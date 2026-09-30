@@ -1,0 +1,355 @@
+{
+	"type": "gtceu:pastoral_engine",
+	"recipes": [
+		{
+			"id": "tfg:pastoral_engine/milk_goat",
+			"category": "pastoral_engine",
+			"duration": 100,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"firmalife:goat_milk"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "AnimalPresentCondition",
+					"text": "su.terrafirmagreg.core.common.tfgt.recipe.condition.AnimalPresentCondition@bf7b873",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:pastoral_engine/milk_yak",
+			"category": "pastoral_engine",
+			"duration": 100,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"firmalife:yak_milk"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "AnimalPresentCondition",
+					"text": "su.terrafirmagreg.core.common.tfgt.recipe.condition.AnimalPresentCondition@203d1fa",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:pastoral_engine/milk_cow",
+			"category": "pastoral_engine",
+			"duration": 100,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:milk"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "AnimalPresentCondition",
+					"text": "su.terrafirmagreg.core.common.tfgt.recipe.condition.AnimalPresentCondition@441d252a",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:pastoral_engine/shear_glacian",
+			"category": "pastoral_engine",
+			"duration": 100,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:glacian_wool"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "AnimalPresentCondition",
+					"text": "su.terrafirmagreg.core.common.tfgt.recipe.condition.AnimalPresentCondition@2efb34ac",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:pastoral_engine/shear_wraptor",
+			"category": "pastoral_engine",
+			"duration": 100,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:wraptor_wool"
+					],
+					"amount": 3,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "AnimalPresentCondition",
+					"text": "su.terrafirmagreg.core.common.tfgt.recipe.condition.AnimalPresentCondition@88fed5b",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:pastoral_engine/shear_wool",
+			"category": "pastoral_engine",
+			"duration": 100,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:wool"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "AnimalPresentCondition",
+					"text": "su.terrafirmagreg.core.common.tfgt.recipe.condition.AnimalPresentCondition@10da16a9",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:pastoral_engine/shear_sniffer",
+			"category": "pastoral_engine",
+			"duration": 100,
+			"voltage": 30,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:sniffer_wool"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "AnimalPresentCondition",
+					"text": "su.terrafirmagreg.core.common.tfgt.recipe.condition.AnimalPresentCondition@778b9f71",
+					"dimension": "undefined"
+				}
+			]
+		}
+	]
+}

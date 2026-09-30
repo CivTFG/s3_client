@@ -1,0 +1,5810 @@
+{
+	"group": "entities",
+	"namespace": "tfc",
+	"tables": [
+		{
+			"id": "tfc:entities/crocodile",
+			"json": {
+				"type": "minecraft:entity",
+				"pools": [
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "tfc:large_raw_hide"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 7.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:bone"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "tfc:large_raw_hide",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bone",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 7.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "tfc:entities/bluegill",
+			"json": {
+				"type": "minecraft:entity",
+				"pools": [
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:killed_by_player"
+									}
+								],
+								"name": "tfc:food/bluegill"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "tfc:food/bluegill",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:killed_by_player"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "tfc:entities/yak",
+			"json": {
+				"type": "minecraft:entity",
+				"pools": [
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "tfc:animal_yield",
+											"min": 8.0,
+											"max": {
+												"type": "minecraft:uniform",
+												"min": 13.0,
+												"max": 19.0
+											}
+										},
+										"add": false
+									}
+								],
+								"name": "tfc:food/chevon"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "tfc:large_raw_hide"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 4.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:bone"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "tfc:food/chevon",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 8.0,
+						"max": 19.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "tfc:large_raw_hide",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bone",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 4.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "tfc:entities/black_bear",
+			"json": {
+				"type": "minecraft:entity",
+				"pools": [
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "tfc:large_raw_hide"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 6.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:bone"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "tfc:large_raw_hide",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bone",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 6.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "tfc:entities/pufferfish",
+			"json": {
+				"type": "minecraft:entity",
+				"pools": [
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:killed_by_player"
+									}
+								],
+								"name": "minecraft:pufferfish"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:pufferfish",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:killed_by_player"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "tfc:entities/lake_trout",
+			"json": {
+				"type": "minecraft:entity",
+				"pools": [
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:killed_by_player"
+									}
+								],
+								"name": "tfc:food/lake_trout"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "tfc:food/lake_trout",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:killed_by_player"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "tfc:entities/sabertooth",
+			"json": {
+				"type": "minecraft:entity",
+				"pools": [
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "tfc:large_raw_hide"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 8.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:bone"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "tfc:large_raw_hide",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bone",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 8.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "tfc:entities/rainbow_trout",
+			"json": {
+				"type": "minecraft:entity",
+				"pools": [
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:killed_by_player"
+									}
+								],
+								"name": "tfc:food/rainbow_trout"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "tfc:food/rainbow_trout",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:killed_by_player"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "tfc:entities/tiger",
+			"json": {
+				"type": "minecraft:entity",
+				"pools": [
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "tfc:large_raw_hide"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 7.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:bone"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "tfc:large_raw_hide",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bone",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 7.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "tfc:entities/tropical_fish",
+			"json": {
+				"type": "minecraft:entity",
+				"pools": [
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:killed_by_player"
+									}
+								],
+								"name": "tfc:food/tropical_fish"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "tfc:food/tropical_fish",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:killed_by_player"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "tfc:entities/frog",
+			"json": {
+				"type": "minecraft:entity",
+				"pools": [
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 2.0,
+											"max": 2.0
+										},
+										"add": false
+									}
+								],
+								"name": "tfc:food/frog_legs"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 2.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:bone"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "tfc:food/frog_legs",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bone",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "tfc:entities/smallmouth_bass",
+			"json": {
+				"type": "minecraft:entity",
+				"pools": [
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:killed_by_player"
+									}
+								],
+								"name": "tfc:food/smallmouth_bass"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "tfc:food/smallmouth_bass",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:killed_by_player"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "tfc:entities/lobster",
+			"json": {
+				"type": "minecraft:entity",
+				"pools": [
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:killed_by_player"
+									}
+								],
+								"name": "tfc:food/shellfish"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "tfc:food/shellfish",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:killed_by_player"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "tfc:entities/isopod",
+			"json": {
+				"type": "minecraft:entity",
+				"pools": [
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:killed_by_player"
+									}
+								],
+								"name": "tfc:food/shellfish"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "tfc:food/shellfish",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:killed_by_player"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "tfc:entities/crayfish",
+			"json": {
+				"type": "minecraft:entity",
+				"pools": [
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:killed_by_player"
+									}
+								],
+								"name": "tfc:food/shellfish"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "tfc:food/shellfish",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:killed_by_player"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "tfc:entities/dolphin",
+			"json": {
+				"type": "minecraft:entity",
+				"pools": [
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 2.0,
+											"max": 7.0
+										},
+										"add": false
+									}
+								],
+								"name": "tfc:blubber"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 5.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:bone"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "tfc:blubber",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 2.0,
+						"max": 7.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bone",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 5.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "tfc:entities/sheep",
+			"json": {
+				"type": "minecraft:entity",
+				"pools": [
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "tfc:animal_yield",
+											"min": 4.0,
+											"max": {
+												"type": "minecraft:uniform",
+												"min": 12.0,
+												"max": 18.0
+											}
+										},
+										"add": false
+									}
+								],
+								"name": "tfc:food/mutton"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 4.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:bone"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "tfc:small_sheepskin_hide"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "tfc:food/mutton",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 4.0,
+						"max": 18.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bone",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 4.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "tfc:small_sheepskin_hide",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "tfc:entities/pig",
+			"json": {
+				"type": "minecraft:entity",
+				"pools": [
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "tfc:animal_yield",
+											"min": 4.0,
+											"max": {
+												"type": "minecraft:uniform",
+												"min": 9.0,
+												"max": 15.0
+											}
+										},
+										"add": false
+									}
+								],
+								"name": "tfc:food/pork"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "tfc:medium_raw_hide"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 3.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:bone"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "tfc:food/pork",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 4.0,
+						"max": 15.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "tfc:medium_raw_hide",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bone",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 3.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "tfc:entities/caribou",
+			"json": {
+				"type": "minecraft:entity",
+				"pools": [
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "tfc:not_predated"
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 6.0,
+											"max": 11.0
+										},
+										"add": false
+									}
+								],
+								"name": "tfc:food/venison"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "tfc:medium_raw_hide"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 6.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:bone"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "tfc:food/venison",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 6.0,
+						"max": 11.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "tfc:not_predated"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "tfc:medium_raw_hide",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bone",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 6.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "tfc:entities/lion",
+			"json": {
+				"type": "minecraft:entity",
+				"pools": [
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "tfc:large_raw_hide"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 6.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:bone"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "tfc:large_raw_hide",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bone",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 6.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "tfc:entities/orca",
+			"json": {
+				"type": "minecraft:entity",
+				"pools": [
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 2.0,
+											"max": 7.0
+										},
+										"add": false
+									}
+								],
+								"name": "tfc:blubber"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 5.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:bone"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "tfc:blubber",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 2.0,
+						"max": 7.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bone",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 5.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "tfc:entities/manatee",
+			"json": {
+				"type": "minecraft:entity",
+				"pools": [
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 2.0,
+											"max": 7.0
+										},
+										"add": false
+									}
+								],
+								"name": "tfc:blubber"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 5.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:bone"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "tfc:blubber",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 2.0,
+						"max": 7.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bone",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 5.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "tfc:entities/rabbit",
+			"json": {
+				"type": "minecraft:entity",
+				"pools": [
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "tfc:not_predated"
+									}
+								],
+								"name": "tfc:food/rabbit"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:random_chance",
+										"chance": 0.5
+									}
+								],
+								"name": "tfc:small_raw_hide"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 1.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:bone"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:random_chance",
+										"chance": 0.1
+									}
+								],
+								"name": "minecraft:rabbit_foot"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "tfc:food/rabbit",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "tfc:not_predated"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "tfc:small_raw_hide",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:random_chance",
+							"chance": 0.5
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bone",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 3.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:rabbit_foot",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:random_chance",
+							"chance": 0.1
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "tfc:entities/donkey",
+			"json": {
+				"type": "minecraft:entity",
+				"pools": [
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "tfc:animal_yield",
+											"min": 4.0,
+											"max": {
+												"type": "minecraft:uniform",
+												"min": 15.0,
+												"max": 21.0
+											}
+										},
+										"add": false
+									}
+								],
+								"name": "tfc:food/horse_meat"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "tfc:medium_raw_hide"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 6.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:bone"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "tfc:food/horse_meat",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 4.0,
+						"max": 21.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "tfc:medium_raw_hide",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bone",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 6.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "tfc:entities/penguin",
+			"json": {
+				"type": "minecraft:entity",
+				"pools": [
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 3.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:feather"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:random_chance",
+										"chance": 0.5
+									}
+								],
+								"name": "tfc:small_raw_hide"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 2.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:bone"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:feather",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 3.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "tfc:small_raw_hide",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:random_chance",
+							"chance": 0.5
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bone",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "tfc:entities/chicken",
+			"json": {
+				"type": "minecraft:entity",
+				"pools": [
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "tfc:animal_yield",
+											"min": 2.0,
+											"max": {
+												"type": "minecraft:uniform",
+												"min": 1.0,
+												"max": 6.0
+											}
+										},
+										"add": false
+									}
+								],
+								"name": "tfc:food/chicken"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 4.0,
+											"max": 12.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:feather"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "tfc:food/chicken",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 2.0,
+						"max": 6.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:feather",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 4.0,
+						"max": 12.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "tfc:entities/turkey",
+			"json": {
+				"type": "minecraft:entity",
+				"pools": [
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "tfc:not_predated"
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 2.0,
+											"max": 4.0
+										},
+										"add": false
+									}
+								],
+								"name": "tfc:food/turkey"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 2.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:bone"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 6.0,
+											"max": 10.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:feather"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "tfc:food/turkey",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 2.0,
+						"max": 4.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "tfc:not_predated"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bone",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:feather",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 6.0,
+						"max": 10.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "tfc:entities/duck",
+			"json": {
+				"type": "minecraft:entity",
+				"pools": [
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "tfc:animal_yield",
+											"min": 2.0,
+											"max": {
+												"type": "minecraft:uniform",
+												"min": 1.0,
+												"max": 6.0
+											}
+										},
+										"add": false
+									}
+								],
+								"name": "tfc:food/duck"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 4.0,
+											"max": 10.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:feather"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "tfc:food/duck",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 2.0,
+						"max": 6.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:feather",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 4.0,
+						"max": 10.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "tfc:entities/boar",
+			"json": {
+				"type": "minecraft:entity",
+				"pools": [
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "tfc:not_predated"
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 5.0,
+											"max": 10.0
+										},
+										"add": false
+									}
+								],
+								"name": "tfc:food/pork"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:random_chance",
+										"chance": 0.8
+									}
+								],
+								"name": "tfc:small_raw_hide"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 3.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:bone"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "tfc:food/pork",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 5.0,
+						"max": 10.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "tfc:not_predated"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "tfc:small_raw_hide",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:random_chance",
+							"chance": 0.8
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bone",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 3.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "tfc:entities/octopoteuthis",
+			"json": {
+				"type": "minecraft:entity",
+				"pools": [
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:killed_by_player"
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 10.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:glow_ink_sac"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "tfc:food/calamari"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:glow_ink_sac",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 10.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:killed_by_player"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "tfc:food/calamari",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "tfc:entities/salmon",
+			"json": {
+				"type": "minecraft:entity",
+				"pools": [
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:killed_by_player"
+									}
+								],
+								"name": "tfc:food/salmon"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "tfc:food/salmon",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:killed_by_player"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "tfc:entities/alpaca",
+			"json": {
+				"type": "minecraft:entity",
+				"pools": [
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "tfc:animal_yield",
+											"min": 6.0,
+											"max": {
+												"type": "minecraft:uniform",
+												"min": 10.0,
+												"max": 16.0
+											}
+										},
+										"add": false
+									}
+								],
+								"name": "tfc:food/camelidae"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 4.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:bone"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "tfc:medium_sheepskin_hide"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "tfc:food/camelidae",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 6.0,
+						"max": 16.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bone",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 4.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "tfc:medium_sheepskin_hide",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "tfc:entities/horse",
+			"json": {
+				"type": "minecraft:entity",
+				"pools": [
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "tfc:animal_yield",
+											"min": 4.0,
+											"max": {
+												"type": "minecraft:uniform",
+												"min": 15.0,
+												"max": 21.0
+											}
+										},
+										"add": false
+									}
+								],
+								"name": "tfc:food/horse_meat"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "tfc:medium_raw_hide"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 6.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:bone"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "tfc:food/horse_meat",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 4.0,
+						"max": 21.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "tfc:medium_raw_hide",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bone",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 6.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "tfc:entities/wolf",
+			"json": {
+				"type": "minecraft:entity",
+				"pools": [
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "tfc:small_raw_hide"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 3.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:bone"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "tfc:small_raw_hide",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bone",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 3.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "tfc:entities/largemouth_bass",
+			"json": {
+				"type": "minecraft:entity",
+				"pools": [
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:killed_by_player"
+									}
+								],
+								"name": "tfc:food/largemouth_bass"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "tfc:food/largemouth_bass",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:killed_by_player"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "tfc:entities/wildebeest",
+			"json": {
+				"type": "minecraft:entity",
+				"pools": [
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "tfc:not_predated"
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 8.0,
+											"max": 14.0
+										},
+										"add": false
+									}
+								],
+								"name": "tfc:food/beef"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:random_chance",
+										"chance": 0.8
+									}
+								],
+								"name": "tfc:small_raw_hide"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 3.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:bone"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "tfc:food/beef",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 8.0,
+						"max": 14.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "tfc:not_predated"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "tfc:small_raw_hide",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:random_chance",
+							"chance": 0.8
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bone",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 3.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "tfc:entities/squid",
+			"json": {
+				"type": "minecraft:entity",
+				"pools": [
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:killed_by_player"
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 10.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:ink_sac"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "tfc:food/calamari"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:ink_sac",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 10.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:killed_by_player"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "tfc:food/calamari",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "tfc:entities/mule",
+			"json": {
+				"type": "minecraft:entity",
+				"pools": [
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "tfc:animal_yield",
+											"min": 4.0,
+											"max": {
+												"type": "minecraft:uniform",
+												"min": 15.0,
+												"max": 21.0
+											}
+										},
+										"add": false
+									}
+								],
+								"name": "tfc:food/horse_meat"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "tfc:medium_raw_hide"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 6.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:bone"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "tfc:food/horse_meat",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 4.0,
+						"max": 21.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "tfc:medium_raw_hide",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bone",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 6.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "tfc:entities/fox",
+			"json": {
+				"type": "minecraft:entity",
+				"pools": [
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "tfc:food/fox"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "tfc:small_raw_hide"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 1.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:bone"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "tfc:food/fox",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "tfc:small_raw_hide",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bone",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "tfc:entities/grouse",
+			"json": {
+				"type": "minecraft:entity",
+				"pools": [
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "tfc:not_predated"
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 2.0,
+											"max": 3.0
+										},
+										"add": false
+									}
+								],
+								"name": "tfc:food/grouse"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 2.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:bone"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 4.0,
+											"max": 10.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:feather"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "tfc:food/grouse",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 2.0,
+						"max": 3.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "tfc:not_predated"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bone",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:feather",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 4.0,
+						"max": 10.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "tfc:entities/panther",
+			"json": {
+				"type": "minecraft:entity",
+				"pools": [
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "tfc:large_raw_hide"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 6.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:bone"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "tfc:large_raw_hide",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bone",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 6.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "tfc:entities/cow",
+			"json": {
+				"type": "minecraft:entity",
+				"pools": [
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "tfc:animal_yield",
+											"min": 6.0,
+											"max": {
+												"type": "minecraft:uniform",
+												"min": 17.0,
+												"max": 23.0
+											}
+										},
+										"add": false
+									}
+								],
+								"name": "tfc:food/beef"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "tfc:large_raw_hide"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 4.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:bone"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "tfc:food/beef",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 6.0,
+						"max": 23.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "tfc:large_raw_hide",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bone",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 4.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "tfc:entities/cod",
+			"json": {
+				"type": "minecraft:entity",
+				"pools": [
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:killed_by_player"
+									}
+								],
+								"name": "tfc:food/cod"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "tfc:food/cod",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:killed_by_player"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "tfc:entities/moose",
+			"json": {
+				"type": "minecraft:entity",
+				"pools": [
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "tfc:not_predated"
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 10.0,
+											"max": 20.0
+										},
+										"add": false
+									}
+								],
+								"name": "tfc:food/venison"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "tfc:large_raw_hide"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 10.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:bone"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "tfc:food/venison",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 10.0,
+						"max": 20.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "tfc:not_predated"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "tfc:large_raw_hide",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bone",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 10.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "tfc:entities/dog",
+			"json": {
+				"type": "minecraft:entity",
+				"pools": [
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "tfc:small_raw_hide"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 3.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:bone"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "tfc:small_raw_hide",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bone",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 3.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "tfc:entities/polar_bear",
+			"json": {
+				"type": "minecraft:entity",
+				"pools": [
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "tfc:large_raw_hide"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 6.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:bone"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "tfc:large_raw_hide",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bone",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 6.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "tfc:entities/cat",
+			"json": {
+				"type": "minecraft:entity",
+				"pools": [
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "tfc:small_raw_hide"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 3.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:bone"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "tfc:small_raw_hide",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bone",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 3.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "tfc:entities/turtle",
+			"json": {
+				"type": "minecraft:entity",
+				"pools": [
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:scute"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "tfc:food/turtle"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:scute",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "tfc:food/turtle",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "tfc:entities/bongo",
+			"json": {
+				"type": "minecraft:entity",
+				"pools": [
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "tfc:not_predated"
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 6.0,
+											"max": 10.0
+										},
+										"add": false
+									}
+								],
+								"name": "tfc:food/venison"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "tfc:medium_raw_hide"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 6.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:bone"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "tfc:food/venison",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 6.0,
+						"max": 10.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "tfc:not_predated"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "tfc:medium_raw_hide",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bone",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 6.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "tfc:entities/peafowl",
+			"json": {
+				"type": "minecraft:entity",
+				"pools": [
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "tfc:not_predated"
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 2.0,
+											"max": 4.0
+										},
+										"add": false
+									}
+								],
+								"name": "tfc:food/peafowl"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 2.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:bone"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 8.0,
+											"max": 14.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:feather"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "tfc:food/peafowl",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 2.0,
+						"max": 4.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "tfc:not_predated"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bone",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:feather",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 8.0,
+						"max": 14.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "tfc:entities/hyena",
+			"json": {
+				"type": "minecraft:entity",
+				"pools": [
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "tfc:small_raw_hide"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 3.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:bone"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "tfc:small_raw_hide",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bone",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 3.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "tfc:entities/horseshoe_crab",
+			"json": {
+				"type": "minecraft:entity",
+				"pools": [
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:killed_by_player"
+									}
+								],
+								"name": "tfc:food/shellfish"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "tfc:food/shellfish",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:killed_by_player"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "tfc:entities/grizzly_bear",
+			"json": {
+				"type": "minecraft:entity",
+				"pools": [
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "tfc:large_raw_hide"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 6.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:bone"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "tfc:large_raw_hide",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bone",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 6.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "tfc:entities/musk_ox",
+			"json": {
+				"type": "minecraft:entity",
+				"pools": [
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "tfc:animal_yield",
+											"min": 6.0,
+											"max": {
+												"type": "minecraft:uniform",
+												"min": 13.0,
+												"max": 19.0
+											}
+										},
+										"add": false
+									}
+								],
+								"name": "tfc:food/mutton"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 4.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:bone"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "tfc:large_sheepskin_hide"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "tfc:food/mutton",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 6.0,
+						"max": 19.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bone",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 4.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "tfc:large_sheepskin_hide",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "tfc:entities/pheasant",
+			"json": {
+				"type": "minecraft:entity",
+				"pools": [
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "tfc:not_predated"
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 2.0,
+											"max": 3.0
+										},
+										"add": false
+									}
+								],
+								"name": "tfc:food/pheasant"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 2.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:bone"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 4.0,
+											"max": 10.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:feather"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "tfc:food/pheasant",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 2.0,
+						"max": 3.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "tfc:not_predated"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bone",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:feather",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 4.0,
+						"max": 10.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "tfc:entities/quail",
+			"json": {
+				"type": "minecraft:entity",
+				"pools": [
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "tfc:animal_yield",
+											"min": 1.0,
+											"max": {
+												"type": "minecraft:uniform",
+												"min": 1.0,
+												"max": 6.0
+											}
+										},
+										"add": false
+									}
+								],
+								"name": "tfc:food/quail"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 4.0,
+											"max": 12.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:feather"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "tfc:food/quail",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 6.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:feather",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 4.0,
+						"max": 12.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "tfc:entities/direwolf",
+			"json": {
+				"type": "minecraft:entity",
+				"pools": [
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "tfc:medium_raw_hide"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 4.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:bone"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "tfc:medium_raw_hide",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bone",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 4.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "tfc:entities/cougar",
+			"json": {
+				"type": "minecraft:entity",
+				"pools": [
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "tfc:large_raw_hide"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 6.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:bone"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "tfc:large_raw_hide",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bone",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 6.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "tfc:entities/gazelle",
+			"json": {
+				"type": "minecraft:entity",
+				"pools": [
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "tfc:not_predated"
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 3.0,
+											"max": 8.0
+										},
+										"add": false
+									}
+								],
+								"name": "tfc:food/venison"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "tfc:medium_raw_hide"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 6.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:bone"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "tfc:food/venison",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 3.0,
+						"max": 8.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "tfc:not_predated"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "tfc:medium_raw_hide",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bone",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 6.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "tfc:entities/goat",
+			"json": {
+				"type": "minecraft:entity",
+				"pools": [
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "tfc:animal_yield",
+											"min": 4.0,
+											"max": {
+												"type": "minecraft:uniform",
+												"min": 7.0,
+												"max": 13.0
+											}
+										},
+										"add": false
+									}
+								],
+								"name": "tfc:food/chevon"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "tfc:medium_raw_hide"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 4.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:bone"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "tfc:is_male"
+									}
+								],
+								"name": "tfc:goat_horn"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "tfc:food/chevon",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 4.0,
+						"max": 13.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "tfc:medium_raw_hide",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bone",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 4.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 3.0,
+					"kind": "minecraft:item",
+					"id": "tfc:goat_horn",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "tfc:is_male"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "tfc:entities/crappie",
+			"json": {
+				"type": "minecraft:entity",
+				"pools": [
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:killed_by_player"
+									}
+								],
+								"name": "tfc:food/crappie"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "tfc:food/crappie",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:killed_by_player"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "tfc:entities/deer",
+			"json": {
+				"type": "minecraft:entity",
+				"pools": [
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "tfc:not_predated"
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 4.0,
+											"max": 10.0
+										},
+										"add": false
+									}
+								],
+								"name": "tfc:food/venison"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "tfc:medium_raw_hide"
+							}
+						]
+					},
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 6.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:bone"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "tfc:food/venison",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 4.0,
+						"max": 10.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "tfc:not_predated"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "tfc:medium_raw_hide",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bone",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 6.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		}
+	]
+}

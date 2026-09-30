@@ -1,0 +1,64 @@
+{
+	"placed": {
+		"antiquelegacy:deepslate_tin_ore": {
+			"feature": "antiquelegacy:deepslate_tin_ore",
+			"json": {
+				"feature": "antiquelegacy:deepslate_tin_ore",
+				"placement": [
+					{
+						"count": 20.0,
+						"type": "minecraft:count"
+					},
+					{
+						"type": "minecraft:in_square"
+					},
+					{
+						"height": {
+							"min_inclusive": {
+								"absolute": -64.0
+							},
+							"max_inclusive": {
+								"absolute": 0.0
+							},
+							"type": "minecraft:uniform"
+						},
+						"type": "minecraft:height_range"
+					},
+					{
+						"type": "minecraft:biome"
+					}
+				]
+			}
+		},
+		"antiquelegacy:tin_ore": {
+			"feature": "antiquelegacy:tin_ore",
+			"json": {
+				"feature": "antiquelegacy:tin_ore",
+				"placement": [
+					{
+						"count": 100.0,
+						"type": "minecraft:count"
+					},
+					{
+						"type": "minecraft:in_square"
+					},
+					{
+						"height": {
+							"min_inclusive": {
+								"absolute": 0.0
+							},
+							"max_inclusive": {
+								"absolute": 384.0
+							},
+							"type": "minecraft:trapezoid"
+						},
+						"type": "minecraft:height_range"
+					},
+					{
+						"type": "minecraft:biome"
+					}
+				]
+			}
+		}
+	}
+}

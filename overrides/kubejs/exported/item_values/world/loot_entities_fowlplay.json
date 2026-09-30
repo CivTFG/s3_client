@@ -1,0 +1,812 @@
+{
+	"group": "entities",
+	"namespace": "fowlplay",
+	"tables": [
+		{
+			"id": "fowlplay:entities/hawk",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "fowlplay:entities/hawk",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 2.0
+										},
+										"add": false
+									},
+									{
+										"function": "minecraft:looting_enchant",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										}
+									}
+								],
+								"name": "minecraft:feather"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:feather",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count",
+						"minecraft:looting_enchant"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "fowlplay:entities/penguin",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "fowlplay:entities/penguin",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 2.0
+										},
+										"add": false
+									},
+									{
+										"function": "minecraft:looting_enchant",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										}
+									}
+								],
+								"name": "minecraft:feather"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:feather",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count",
+						"minecraft:looting_enchant"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "fowlplay:entities/blue_jay",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "fowlplay:entities/blue_jay",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 2.0
+										},
+										"add": false
+									},
+									{
+										"function": "minecraft:looting_enchant",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										}
+									}
+								],
+								"name": "minecraft:feather"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:feather",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count",
+						"minecraft:looting_enchant"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "fowlplay:entities/crow",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "fowlplay:entities/crow",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 2.0
+										},
+										"add": false
+									},
+									{
+										"function": "minecraft:looting_enchant",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										}
+									}
+								],
+								"name": "minecraft:feather"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:feather",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count",
+						"minecraft:looting_enchant"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "fowlplay:entities/duck",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "fowlplay:entities/duck",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 2.0
+										},
+										"add": false
+									},
+									{
+										"function": "minecraft:looting_enchant",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										}
+									}
+								],
+								"name": "minecraft:feather"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:feather",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count",
+						"minecraft:looting_enchant"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "fowlplay:entities/chickadee",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "fowlplay:entities/chickadee",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 2.0
+										},
+										"add": false
+									},
+									{
+										"function": "minecraft:looting_enchant",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										}
+									}
+								],
+								"name": "minecraft:feather"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:feather",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count",
+						"minecraft:looting_enchant"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "fowlplay:entities/pigeon",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "fowlplay:entities/pigeon",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 2.0
+										},
+										"add": false
+									},
+									{
+										"function": "minecraft:looting_enchant",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										}
+									}
+								],
+								"name": "minecraft:feather"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:feather",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count",
+						"minecraft:looting_enchant"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "fowlplay:entities/goose",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "fowlplay:entities/goose",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 2.0
+										},
+										"add": false
+									},
+									{
+										"function": "minecraft:looting_enchant",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										}
+									}
+								],
+								"name": "minecraft:feather"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:feather",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count",
+						"minecraft:looting_enchant"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "fowlplay:entities/gull",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "fowlplay:entities/gull",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 2.0
+										},
+										"add": false
+									},
+									{
+										"function": "minecraft:looting_enchant",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										}
+									}
+								],
+								"name": "minecraft:feather"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:feather",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count",
+						"minecraft:looting_enchant"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "fowlplay:entities/sparrow",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "fowlplay:entities/sparrow",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 2.0
+										},
+										"add": false
+									},
+									{
+										"function": "minecraft:looting_enchant",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										}
+									}
+								],
+								"name": "minecraft:feather"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:feather",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count",
+						"minecraft:looting_enchant"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "fowlplay:entities/robin",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "fowlplay:entities/robin",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 2.0
+										},
+										"add": false
+									},
+									{
+										"function": "minecraft:looting_enchant",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										}
+									}
+								],
+								"name": "minecraft:feather"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:feather",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count",
+						"minecraft:looting_enchant"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "fowlplay:entities/cardinal",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "fowlplay:entities/cardinal",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 2.0
+										},
+										"add": false
+									},
+									{
+										"function": "minecraft:looting_enchant",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										}
+									}
+								],
+								"name": "minecraft:feather"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:feather",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count",
+						"minecraft:looting_enchant"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "fowlplay:entities/raven",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "fowlplay:entities/raven",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 2.0
+										},
+										"add": false
+									},
+									{
+										"function": "minecraft:looting_enchant",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										}
+									}
+								],
+								"name": "minecraft:feather"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:feather",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count",
+						"minecraft:looting_enchant"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		}
+	]
+}

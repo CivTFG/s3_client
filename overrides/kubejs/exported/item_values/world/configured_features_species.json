@@ -1,0 +1,205 @@
+{
+	"configured": {
+		"species:birted_birch": {
+			"type": "minecraft:tree",
+			"json": {
+				"config": {
+					"decorators": [
+						{
+							"type": "species:birt_dwelling"
+						}
+					],
+					"ignore_vines": true,
+					"force_dirt": false,
+					"dirt_provider": {
+						"state": {
+							"Name": "minecraft:dirt"
+						},
+						"type": "minecraft:simple_state_provider"
+					},
+					"minimum_size": {
+						"limit": 1.0,
+						"lower_size": 0.0,
+						"upper_size": 1.0,
+						"type": "minecraft:two_layers_feature_size"
+					},
+					"foliage_provider": {
+						"state": {
+							"Properties": {
+								"waterlogged": "false",
+								"persistent": "false",
+								"distance": "7"
+							},
+							"Name": "minecraft:birch_leaves"
+						},
+						"type": "minecraft:simple_state_provider"
+					},
+					"foliage_placer": {
+						"radius": 2.0,
+						"offset": 0.0,
+						"height": 3.0,
+						"type": "minecraft:blob_foliage_placer"
+					},
+					"trunk_provider": {
+						"state": {
+							"Properties": {
+								"axis": "y"
+							},
+							"Name": "minecraft:birch_log"
+						},
+						"type": "minecraft:simple_state_provider"
+					},
+					"trunk_placer": {
+						"base_height": 4.0,
+						"height_rand_a": 2.0,
+						"height_rand_b": 5.0,
+						"type": "minecraft:straight_trunk_placer"
+					}
+				},
+				"type": "minecraft:tree"
+			},
+			"nested": [],
+			"blocks": [
+				"species:birt_dwelling",
+				"minecraft:dirt",
+				"minecraft:birch_leaves",
+				"minecraft:birch_log"
+			],
+			"blockTags": []
+		},
+		"species:alphacene_mushroom": {
+			"type": "species:alphacene_mushroom",
+			"json": {
+				"config": {},
+				"type": "species:alphacene_mushroom"
+			},
+			"nested": [],
+			"blocks": [
+				"species:alphacene_mushroom"
+			],
+			"blockTags": []
+		},
+		"species:birted_birch_tree_filtered": {
+			"type": "minecraft:random_selector",
+			"json": {
+				"config": {
+					"features": [
+						{
+							"feature": "species:birted_birch",
+							"chance": 0.0
+						}
+					],
+					"default": "species:birted_birch"
+				},
+				"type": "minecraft:random_selector"
+			},
+			"nested": [
+				"species:birted_birch"
+			],
+			"blocks": [],
+			"blockTags": []
+		},
+		"species:mammutilation_remnant": {
+			"type": "minecraft:geode",
+			"json": {
+				"config": {
+					"min_gen_offset": -16.0,
+					"max_gen_offset": 16.0,
+					"noise_multiplier": 0.05,
+					"invalid_blocks_threshold": 1.0,
+					"outer_wall_distance": {
+						"type": "minecraft:uniform",
+						"value": {
+							"min_inclusive": 4.0,
+							"max_inclusive": 6.0
+						}
+					},
+					"distribution_points": {
+						"type": "minecraft:uniform",
+						"value": {
+							"min_inclusive": 3.0,
+							"max_inclusive": 4.0
+						}
+					},
+					"point_offset": {
+						"type": "minecraft:uniform",
+						"value": {
+							"min_inclusive": 1.0,
+							"max_inclusive": 2.0
+						}
+					},
+					"use_potential_placements_chance": 0.0,
+					"use_alternate_layer0_chance": 0.35,
+					"placements_require_layer0_alternate": true,
+					"blocks": {
+						"outer_layer_provider": {
+							"state": {
+								"Name": "minecraft:packed_ice"
+							},
+							"type": "minecraft:simple_state_provider"
+						},
+						"inner_placements": [
+							{
+								"Name": "minecraft:air"
+							}
+						],
+						"cannot_replace": "#minecraft:features_cannot_replace",
+						"invalid_blocks": "#species:mammutilation_remnant_invalid_blocks",
+						"filling_provider": {
+							"state": {
+								"Properties": {
+									"axis": "y"
+								},
+								"Name": "species:frozen_meat"
+							},
+							"type": "minecraft:simple_state_provider"
+						},
+						"inner_layer_provider": {
+							"state": {
+								"Properties": {
+									"axis": "y"
+								},
+								"Name": "species:frozen_meat"
+							},
+							"type": "minecraft:simple_state_provider"
+						},
+						"alternate_inner_layer_provider": {
+							"state": {
+								"Name": "species:frozen_hair"
+							},
+							"type": "minecraft:simple_state_provider"
+						},
+						"middle_layer_provider": {
+							"state": {
+								"Name": "species:frozen_hair"
+							},
+							"type": "minecraft:simple_state_provider"
+						}
+					},
+					"layers": {
+						"filling": 0.7,
+						"inner_layer": 1.2,
+						"middle_layer": 2.2,
+						"outer_layer": 3.2
+					},
+					"crack": {
+						"generate_crack_chance": 0.95,
+						"base_crack_size": 2.0,
+						"crack_point_offset": 2.0
+					}
+				},
+				"type": "minecraft:geode"
+			},
+			"nested": [],
+			"blocks": [
+				"minecraft:packed_ice",
+				"species:frozen_meat",
+				"species:frozen_hair"
+			],
+			"blockTags": [
+				"minecraft:features_cannot_replace",
+				"species:mammutilation_remnant_invalid_blocks"
+			]
+		}
+	}
+}

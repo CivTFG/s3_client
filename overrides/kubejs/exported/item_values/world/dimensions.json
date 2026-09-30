@@ -1,0 +1,276 @@
+{
+	"dimensions": [
+		{
+			"id": "minecraft:overworld",
+			"generatorClass": "net.dries007.tfc.world.TFCChunkGenerator",
+			"biomeSourceClass": "net.dries007.tfc.world.biome.RegionBiomeSource",
+			"biomes": [
+				"tfg:earth/plateau_lake",
+				"tfg:earth/extreme_doline_plateau",
+				"tfg:earth/volcanic_mountains",
+				"tfg:earth/shilin_hills",
+				"tfg:earth/volcanic_oceanic_mountains",
+				"tfg:earth/doline_plains",
+				"tfg:earth/plateau_wide",
+				"tfg:earth/oceanic_mountains",
+				"tfg:earth/shore",
+				"tfg:earth/tuyas",
+				"tfg:earth/cenote_highlands",
+				"tfg:earth/oceanic_mountain_lake",
+				"tfg:earth/burren_badlands_tall",
+				"tfg:earth/setback_cliffs",
+				"tfg:earth/cenote_rolling_hills",
+				"tfg:earth/doline_hills",
+				"tfg:earth/terrace_lower",
+				"tfg:earth/shield_volcano_shore",
+				"tfg:earth/inverted_patterned_ground",
+				"tfg:earth/guano_island",
+				"tfg:earth/whorled_canyons",
+				"tfg:earth/river",
+				"tfg:earth/ice_sheet_tuyas",
+				"tfg:earth/plains",
+				"tfg:earth/mountains",
+				"tfg:earth/mesas",
+				"tfg:earth/grassy_dunes",
+				"tfg:earth/lowlands",
+				"tfg:earth/extinct_shield_volcano",
+				"tfg:earth/lake",
+				"tfg:earth/hills",
+				"tfg:earth/doline_highlands",
+				"tfg:earth/doline_rolling_hills",
+				"tfg:earth/cenote_canyons",
+				"tfg:earth/glacially_carved_mountains",
+				"tfg:earth/mud_flats",
+				"tfg:earth/burren_plains",
+				"tfg:earth/dormant_shield_volcano",
+				"tfg:earth/highlands",
+				"tfg:earth/volcanic_mountain_lake",
+				"tfg:earth/burren_plateau",
+				"tfg:earth/ocean",
+				"tfg:earth/mountain_lake",
+				"tfg:earth/rocky_plateau",
+				"tfg:earth/badlands",
+				"tfg:earth/cenote_plateau",
+				"tfg:earth/active_shield_volcano",
+				"tfg:earth/deep_ocean_trench",
+				"tfg:earth/tower_karst_canyons",
+				"tfg:earth/sea_stacks",
+				"tfg:earth/stone_circles",
+				"tfg:earth/tidal_flats",
+				"tfg:earth/old_mountain_lake",
+				"tfg:earth/ice_sheet_edge",
+				"tfg:earth/old_mountains",
+				"tfg:earth/cenote_plains",
+				"tfg:earth/glaciated_oceanic_mountains",
+				"tfg:earth/coastal_dunes",
+				"tfg:earth/ice_sheet_mountains_edge",
+				"tfg:earth/subglacial_lake",
+				"tfg:earth/stair_step_canyons",
+				"tfg:earth/buttes",
+				"tfg:earth/rolling_hills",
+				"tfg:earth/tower_karst_plains",
+				"tfg:earth/ice_sheet_oceanic_mountains_edge",
+				"tfg:earth/burren_badlands",
+				"tfg:earth/salt_marsh",
+				"tfg:earth/salt_flats",
+				"tfg:earth/tower_karst_bay",
+				"tfg:earth/shilin_plains",
+				"tfg:earth/dune_sea",
+				"tfg:earth/sunken_shield_volcano",
+				"tfg:earth/burren_roche_moutonee",
+				"tfg:earth/ocean_reef",
+				"tfg:earth/glaciated_shield_volcano",
+				"tfg:earth/extreme_doline_mountains",
+				"tfg:earth/hoodoos",
+				"tfg:earth/ice_sheet",
+				"tfg:earth/shilin_highlands",
+				"tfg:earth/shilin_canyons",
+				"tfg:earth/old_shield_volcano_shore",
+				"tfg:earth/ice_sheet_shore",
+				"tfg:earth/ice_sheet_tuyas_edge",
+				"tfg:earth/canyons",
+				"tfg:earth/ice_sheet_oceanic",
+				"tfg:earth/ice_sheet_shield_volcano",
+				"tfg:earth/ice_sheet_mountains",
+				"tfg:earth/tower_karst_hills",
+				"tfg:earth/volcanic_oceanic_mountain_lake",
+				"tfg:earth/plateau",
+				"tfg:earth/terrace_upper",
+				"tfg:earth/ancient_shield_volcano",
+				"tfg:earth/knob_and_kettle",
+				"tfg:earth/tower_karst_highlands",
+				"tfg:earth/cenote_hills",
+				"tfg:earth/tower_karst_lake",
+				"tfg:earth/patterned_ground",
+				"tfg:earth/drumlins",
+				"tfg:earth/shilin_plateau",
+				"tfg:earth/glacially_carved_oceanic_mountains",
+				"tfg:earth/low_canyons",
+				"tfg:earth/deep_ocean",
+				"tfg:earth/embayments",
+				"tfg:earth/ice_sheet_oceanic_mountains",
+				"tfg:earth/meltwater_lake",
+				"tfg:earth/doline_plateau",
+				"tfg:earth/rocky_shores",
+				"tfg:earth/doline_canyons",
+				"tfg:earth/glaciated_mountains"
+			]
+		},
+		{
+			"id": "ad_astra:glacio",
+			"generatorClass": "com.notenoughmail.kubejs_tfc.util.implementation.custom.world.WrappedChunkGenerator",
+			"biomeSourceClass": "net.minecraft.world.level.biome.MultiNoiseBiomeSource",
+			"biomes": [
+				"tfg:glacio/placeholder_biome"
+			]
+		},
+		{
+			"id": "ad_astra:venus_orbit",
+			"generatorClass": "net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator",
+			"biomeSourceClass": "net.minecraft.world.level.biome.FixedBiomeSource",
+			"biomes": [
+				"ad_astra:orbit"
+			]
+		},
+		{
+			"id": "ad_astra:earth_orbit",
+			"generatorClass": "net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator",
+			"biomeSourceClass": "net.minecraft.world.level.biome.FixedBiomeSource",
+			"biomes": [
+				"ad_astra:orbit"
+			]
+		},
+		{
+			"id": "ad_astra:glacio_orbit",
+			"generatorClass": "net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator",
+			"biomeSourceClass": "net.minecraft.world.level.biome.FixedBiomeSource",
+			"biomes": [
+				"ad_astra:orbit"
+			]
+		},
+		{
+			"id": "ad_astra:moon",
+			"generatorClass": "com.notenoughmail.kubejs_tfc.util.implementation.custom.world.WrappedChunkGenerator",
+			"biomeSourceClass": "net.minecraft.world.level.biome.MultiNoiseBiomeSource",
+			"biomes": [
+				"tfg:moon/lunar_lights_dense",
+				"tfg:moon/lunar_lights_sparse",
+				"tfg:moon/lunar_asurine_dense",
+				"tfg:moon/lunar_asurine_sparse",
+				"tfg:moon/lunar_plains",
+				"tfg:moon/lunar_sands",
+				"tfg:moon/lunar_corals_sparse",
+				"tfg:moon/lunar_corals_dense",
+				"tfg:moon/lunar_chorus_sparse",
+				"tfg:moon/lunar_chorus_dense"
+			]
+		},
+		{
+			"id": "ad_astra:moon_orbit",
+			"generatorClass": "net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator",
+			"biomeSourceClass": "net.minecraft.world.level.biome.FixedBiomeSource",
+			"biomes": [
+				"ad_astra:orbit"
+			]
+		},
+		{
+			"id": "ad_astra:venus",
+			"generatorClass": "com.notenoughmail.kubejs_tfc.util.implementation.custom.world.WrappedChunkGenerator",
+			"biomeSourceClass": "net.minecraft.world.level.biome.MultiNoiseBiomeSource",
+			"biomes": [
+				"tfg:venus/fumaroles",
+				"tfg:venus/stromatolite_beach",
+				"tfg:venus/salt_flats",
+				"tfg:venus/sulfuric_ravine",
+				"tfg:venus/arachnoids",
+				"tfg:venus/fractured_pools",
+				"tfg:venus/geysers",
+				"tfg:venus/jagged_tablelands",
+				"tfg:venus/scorching_volcanoes"
+			]
+		},
+		{
+			"id": "ad_astra:mars",
+			"generatorClass": "com.notenoughmail.kubejs_tfc.util.implementation.custom.world.WrappedChunkGenerator",
+			"biomeSourceClass": "net.minecraft.world.level.biome.MultiNoiseBiomeSource",
+			"biomes": [
+				"tfg:mars/martian_deep_desert",
+				"tfg:mars/martian_dunes",
+				"tfg:mars/martian_dune_edge",
+				"tfg:mars/amber_edge",
+				"tfg:mars/rusticus_edge",
+				"tfg:mars/sangnum_edge",
+				"tfg:mars/martian_river",
+				"tfg:mars/amber_plains",
+				"tfg:mars/rusticus_plains",
+				"tfg:mars/sangnum_plains",
+				"tfg:mars/rusticus_hills",
+				"tfg:mars/sangnum_hills",
+				"tfg:mars/amber_hills",
+				"tfg:mars/martian_mountains"
+			]
+		},
+		{
+			"id": "minecraft:the_nether",
+			"generatorClass": "com.notenoughmail.kubejs_tfc.util.implementation.custom.world.WrappedChunkGenerator",
+			"biomeSourceClass": "net.minecraft.world.level.biome.MultiNoiseBiomeSource",
+			"biomes": [
+				"tfg:nether/webbed_lair",
+				"tfg:nether/salt_caves",
+				"tfg:nether/muggy_bog",
+				"tfg:nether/decaying_caverns",
+				"tfg:nether/lush_hollow",
+				"tfg:nether/geothermal_springs",
+				"tfg:nether/thorny_brambles",
+				"tfg:nether/tar_pools",
+				"tfg:nether/lava_floes",
+				"tfg:nether/ash_forest",
+				"tfg:nether/basalt_deltas"
+			]
+		},
+		{
+			"id": "minecraft:the_end",
+			"generatorClass": "net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator",
+			"biomeSourceClass": "net.minecraft.world.level.biome.TheEndBiomeSource",
+			"biomes": [
+				"minecraft:the_end",
+				"minecraft:end_highlands",
+				"minecraft:end_midlands",
+				"minecraft:small_end_islands",
+				"minecraft:end_barrens"
+			]
+		},
+		{
+			"id": "ad_astra:mercury",
+			"generatorClass": "net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator",
+			"biomeSourceClass": "net.minecraft.world.level.biome.MultiNoiseBiomeSource",
+			"biomes": [
+				"ad_astra:mercury_deltas"
+			]
+		},
+		{
+			"id": "ad_astra:mercury_orbit",
+			"generatorClass": "net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator",
+			"biomeSourceClass": "net.minecraft.world.level.biome.FixedBiomeSource",
+			"biomes": [
+				"ad_astra:orbit"
+			]
+		},
+		{
+			"id": "ad_astra:mars_orbit",
+			"generatorClass": "net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator",
+			"biomeSourceClass": "net.minecraft.world.level.biome.FixedBiomeSource",
+			"biomes": [
+				"ad_astra:orbit"
+			]
+		},
+		{
+			"id": "ae2:spatial_storage",
+			"generatorClass": "appeng.spatial.SpatialStorageChunkGenerator",
+			"biomeSourceClass": "net.minecraft.world.level.biome.FixedBiomeSource",
+			"biomes": [
+				"ae2:spatial_storage"
+			]
+		}
+	]
+}

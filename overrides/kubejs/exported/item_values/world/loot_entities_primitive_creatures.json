@@ -1,0 +1,4394 @@
+{
+	"group": "entities",
+	"namespace": "primitive_creatures",
+	"tables": [
+		{
+			"id": "primitive_creatures:entities/wiloger",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "primitive_creatures:entities/wiloger",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": {
+							"type": "minecraft:uniform",
+							"min": 1.0,
+							"max": 2.0
+						},
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"weight": 3.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										},
+										"add": false
+									}
+								],
+								"name": "primitive_creatures:totem_2"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 4.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 3.0
+										},
+										"add": false
+									}
+								],
+								"name": "primitive_creatures:totem_0"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 5.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										},
+										"add": false
+									}
+								],
+								"name": "primitive_creatures:totem_3"
+							},
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 3.0
+										},
+										"add": false
+									}
+								],
+								"name": "primitive_creatures:tt_5"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 3.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										},
+										"add": false
+									}
+								],
+								"name": "primitive_creatures:grh"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 2.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:rabbit_foot"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 4.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 8.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:brick"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "primitive_creatures:totem_2",
+					"weight": 3.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "primitive_creatures:totem_0",
+					"weight": 4.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 3.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "primitive_creatures:totem_3",
+					"weight": 5.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "primitive_creatures:tt_5",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 3.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "primitive_creatures:grh",
+					"weight": 3.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:rabbit_foot",
+					"weight": 2.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:brick",
+					"weight": 4.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 8.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "primitive_creatures:entities/iloger_10",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "primitive_creatures:entities/iloger_10",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": {
+							"type": "minecraft:uniform",
+							"min": 1.0,
+							"max": 2.0
+						},
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"weight": 5.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 2.0
+										},
+										"add": false
+									}
+								],
+								"name": "primitive_creatures:fragileprimitivescissors"
+							},
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 1.0
+										},
+										"add": false
+									}
+								],
+								"name": "primitive_creatures:reh"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 4.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 9.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:egg"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 9.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 4.0
+										},
+										"add": false
+									}
+								],
+								"name": "primitive_creatures:totem_0"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 10.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 5.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:cyan_dye"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 8.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 5.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:light_blue_dye"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 7.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 3.0,
+											"max": 10.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:charcoal"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 3.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 5.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:leather"
+							},
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 1.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:frogspawn"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "primitive_creatures:fragileprimitivescissors",
+					"weight": 5.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "primitive_creatures:reh",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:egg",
+					"weight": 4.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 9.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "primitive_creatures:totem_0",
+					"weight": 9.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 4.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:cyan_dye",
+					"weight": 10.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 5.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:light_blue_dye",
+					"weight": 8.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 5.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:charcoal",
+					"weight": 7.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 3.0,
+						"max": 10.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:leather",
+					"weight": 3.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 5.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:frogspawn",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "primitive_creatures:entities/piloger_9",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "primitive_creatures:entities/piloger_9",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": {
+							"type": "minecraft:uniform",
+							"min": 1.0,
+							"max": 2.0
+						},
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"weight": 5.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 3.0
+										},
+										"add": false
+									}
+								],
+								"name": "primitive_creatures:totem_2"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 5.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 2.0
+										},
+										"add": false
+									}
+								],
+								"name": "primitive_creatures:totem_0"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 4.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 3.0
+										},
+										"add": false
+									}
+								],
+								"name": "primitive_creatures:totem_3"
+							},
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										},
+										"add": false
+									}
+								],
+								"name": "primitive_creatures:tt_5"
+							},
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 2.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:frogspawn"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 2.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										},
+										"add": false
+									}
+								],
+								"name": "primitive_creatures:yhgi"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 4.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 4.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:scute"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 3.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 2.0,
+											"max": 7.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:egg"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "primitive_creatures:totem_2",
+					"weight": 5.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 3.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "primitive_creatures:totem_0",
+					"weight": 5.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "primitive_creatures:totem_3",
+					"weight": 4.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 3.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "primitive_creatures:tt_5",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:frogspawn",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "primitive_creatures:yhgi",
+					"weight": 2.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:scute",
+					"weight": 4.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 4.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:egg",
+					"weight": 3.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 2.0,
+						"max": 7.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "primitive_creatures:entities/viloger_10",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "primitive_creatures:entities/viloger_10",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": {
+							"type": "minecraft:uniform",
+							"min": 1.0,
+							"max": 2.0
+						},
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"weight": 4.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 2.0
+										},
+										"add": false
+									}
+								],
+								"name": "primitive_creatures:totem_0"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 6.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										},
+										"add": false
+									}
+								],
+								"name": "primitive_creatures:totem_2"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 6.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										},
+										"add": false
+									}
+								],
+								"name": "primitive_creatures:totem_3"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 2.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										},
+										"add": false
+									}
+								],
+								"name": "primitive_creatures:tt_5"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 3.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 3.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:rabbit_hide"
+							},
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:player_head"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 7.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 8.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:white_dye"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "primitive_creatures:totem_0",
+					"weight": 4.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "primitive_creatures:totem_2",
+					"weight": 6.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "primitive_creatures:totem_3",
+					"weight": 6.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "primitive_creatures:tt_5",
+					"weight": 2.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:rabbit_hide",
+					"weight": 3.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 3.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:player_head",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:white_dye",
+					"weight": 7.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 8.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "primitive_creatures:entities/golem_2",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "primitive_creatures:entities/golem_2",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": {
+							"type": "minecraft:uniform",
+							"min": 1.0,
+							"max": 4.0
+						},
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"weight": 5.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 3.0,
+											"max": 5.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:charcoal"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 4.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 6.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:charcoal"
+							},
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 1.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:blue_dye"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:charcoal",
+					"weight": 5.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 4.0
+					},
+					"count": {
+						"min": 3.0,
+						"max": 5.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:charcoal",
+					"weight": 4.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 4.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 6.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:blue_dye",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 4.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "primitive_creatures:entities/iloger_4",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "primitive_creatures:entities/iloger_4",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": {
+							"type": "minecraft:uniform",
+							"min": 1.0,
+							"max": 2.0
+						},
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"weight": 3.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 2.0
+										},
+										"add": false
+									}
+								],
+								"name": "primitive_creatures:totem_0"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 5.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										},
+										"add": false
+									}
+								],
+								"name": "primitive_creatures:totem_2"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 4.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										},
+										"add": false
+									}
+								],
+								"name": "primitive_creatures:totem_3"
+							},
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										},
+										"add": false
+									}
+								],
+								"name": "primitive_creatures:tt_5"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 6.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 10.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:spider_eye"
+							},
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 5.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:green_dye"
+							},
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:cobweb"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "primitive_creatures:totem_0",
+					"weight": 3.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "primitive_creatures:totem_2",
+					"weight": 5.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "primitive_creatures:totem_3",
+					"weight": 4.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "primitive_creatures:tt_5",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:spider_eye",
+					"weight": 6.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 10.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:green_dye",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 5.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:cobweb",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "primitive_creatures:entities/iloger_3",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "primitive_creatures:entities/iloger_3",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": {
+							"type": "minecraft:uniform",
+							"min": 1.0,
+							"max": 2.0
+						},
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"weight": 5.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										},
+										"add": false
+									}
+								],
+								"name": "primitive_creatures:totem_3"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 5.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 2.0
+										},
+										"add": false
+									}
+								],
+								"name": "primitive_creatures:totem_2"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 5.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										},
+										"add": false
+									}
+								],
+								"name": "primitive_creatures:totem_0"
+							},
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 2.0
+										},
+										"add": false
+									}
+								],
+								"name": "primitive_creatures:tt_5"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 6.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 6.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:bone"
+							},
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:skeleton_skull"
+							},
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:rib_armor_trim_smithing_template"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 8.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 8.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:bone"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "primitive_creatures:totem_3",
+					"weight": 5.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "primitive_creatures:totem_2",
+					"weight": 5.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "primitive_creatures:totem_0",
+					"weight": 5.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "primitive_creatures:tt_5",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bone",
+					"weight": 6.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 6.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:skeleton_skull",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:rib_armor_trim_smithing_template",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bone",
+					"weight": 8.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 8.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "primitive_creatures:entities/iloger_2",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "primitive_creatures:entities/iloger_2",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": {
+							"type": "minecraft:uniform",
+							"min": 1.0,
+							"max": 2.0
+						},
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"weight": 6.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 2.0
+										},
+										"add": false
+									}
+								],
+								"name": "primitive_creatures:totem_3"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 2.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										},
+										"add": false
+									}
+								],
+								"name": "primitive_creatures:grh"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 3.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										},
+										"add": false
+									}
+								],
+								"name": "primitive_creatures:totem_3"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 4.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										},
+										"add": false
+									}
+								],
+								"name": "primitive_creatures:totem_2"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 5.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										},
+										"add": false
+									}
+								],
+								"name": "primitive_creatures:totem_0"
+							},
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										},
+										"add": false
+									}
+								],
+								"name": "primitive_creatures:tt_5"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 6.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 7.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:flint"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "primitive_creatures:totem_3",
+					"weight": 6.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "primitive_creatures:grh",
+					"weight": 2.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "primitive_creatures:totem_3",
+					"weight": 3.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "primitive_creatures:totem_2",
+					"weight": 4.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "primitive_creatures:totem_0",
+					"weight": 5.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "primitive_creatures:tt_5",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:flint",
+					"weight": 6.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 7.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "primitive_creatures:entities/iloger_1",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "primitive_creatures:entities/iloger_1",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": {
+							"type": "minecraft:uniform",
+							"min": 1.0,
+							"max": 2.0
+						},
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"weight": 2.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 2.0
+										},
+										"add": false
+									}
+								],
+								"name": "primitive_creatures:grh"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 3.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										},
+										"add": false
+									}
+								],
+								"name": "primitive_creatures:totem_2"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 3.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 2.0
+										},
+										"add": false
+									}
+								],
+								"name": "primitive_creatures:totem_3"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 4.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										},
+										"add": false
+									}
+								],
+								"name": "primitive_creatures:totem_0"
+							},
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										},
+										"add": false
+									}
+								],
+								"name": "primitive_creatures:tt_5"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 4.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 6.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:string"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "primitive_creatures:grh",
+					"weight": 2.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "primitive_creatures:totem_2",
+					"weight": 3.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "primitive_creatures:totem_3",
+					"weight": 3.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "primitive_creatures:totem_0",
+					"weight": 4.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "primitive_creatures:tt_5",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:string",
+					"weight": 4.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 6.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "primitive_creatures:entities/iloger_6",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "primitive_creatures:entities/iloger_6",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": {
+							"type": "minecraft:uniform",
+							"min": 1.0,
+							"max": 2.0
+						},
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"weight": 3.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										},
+										"add": false
+									}
+								],
+								"name": "primitive_creatures:totem_0"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 4.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 2.0
+										},
+										"add": false
+									}
+								],
+								"name": "primitive_creatures:totem_2"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 3.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										},
+										"add": false
+									}
+								],
+								"name": "primitive_creatures:totem_3"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 3.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										},
+										"add": false
+									}
+								],
+								"name": "primitive_creatures:grh"
+							},
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										},
+										"add": false
+									}
+								],
+								"name": "primitive_creatures:tt_5"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 2.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 5.0
+										},
+										"add": false
+									}
+								],
+								"name": "primitive_creatures:f_1"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 4.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 5.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:gunpowder"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "primitive_creatures:totem_0",
+					"weight": 3.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "primitive_creatures:totem_2",
+					"weight": 4.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "primitive_creatures:totem_3",
+					"weight": 3.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "primitive_creatures:grh",
+					"weight": 3.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "primitive_creatures:tt_5",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "primitive_creatures:f_1",
+					"weight": 2.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 5.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:gunpowder",
+					"weight": 4.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 5.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "primitive_creatures:entities/iloger_5",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "primitive_creatures:entities/iloger_5",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": {
+							"type": "minecraft:uniform",
+							"min": 1.0,
+							"max": 2.0
+						},
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"weight": 5.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										},
+										"add": false
+									}
+								],
+								"name": "primitive_creatures:totem_0"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 5.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										},
+										"add": false
+									}
+								],
+								"name": "primitive_creatures:totem_2"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 5.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 2.0
+										},
+										"add": false
+									}
+								],
+								"name": "primitive_creatures:totem_3"
+							},
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										},
+										"add": false
+									}
+								],
+								"name": "primitive_creatures:tt_5"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 8.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 5.0,
+											"max": 10.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:rotten_flesh"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 2.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 3.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:charcoal"
+							},
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:sugar"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "primitive_creatures:totem_0",
+					"weight": 5.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "primitive_creatures:totem_2",
+					"weight": 5.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "primitive_creatures:totem_3",
+					"weight": 5.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "primitive_creatures:tt_5",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:rotten_flesh",
+					"weight": 8.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 5.0,
+						"max": 10.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:charcoal",
+					"weight": 2.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 3.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:sugar",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "primitive_creatures:entities/nahida",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "primitive_creatures:entities/nahida",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": {
+							"type": "minecraft:uniform",
+							"min": 1.0,
+							"max": 2.0
+						},
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"weight": 13.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										},
+										"add": false
+									}
+								],
+								"name": "primitive_creatures:tt_5"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 13.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 2.0
+										},
+										"add": false
+									}
+								],
+								"name": "primitive_creatures:grh"
+							},
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 6.0
+										},
+										"add": false
+									}
+								],
+								"name": "primitive_creatures:tt_5"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 6.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										},
+										"add": false
+									}
+								],
+								"name": "primitive_creatures:fragileprimitivescissors"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 6.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										},
+										"add": false
+									}
+								],
+								"name": "primitive_creatures:yhgi"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 2.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 3.0,
+											"max": 6.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:egg"
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"weight": 2.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										},
+										"add": false
+									}
+								],
+								"name": "primitive_creatures:rw"
+							}
+						]
+					},
+					{
+						"name": "pool2",
+						"rolls": 3.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"weight": 9.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 10.0,
+											"max": 20.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:bone"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "primitive_creatures:tt_5",
+					"weight": 13.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "primitive_creatures:grh",
+					"weight": 13.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "primitive_creatures:tt_5",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 6.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "primitive_creatures:fragileprimitivescissors",
+					"weight": 6.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "primitive_creatures:yhgi",
+					"weight": 6.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:egg",
+					"weight": 2.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 3.0,
+						"max": 6.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "primitive_creatures:rw",
+					"weight": 2.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bone",
+					"weight": 9.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 3.0,
+						"max": 3.0
+					},
+					"count": {
+						"min": 10.0,
+						"max": 20.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "primitive_creatures:entities/musselwarden",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "primitive_creatures:entities/musselwarden",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": {
+							"type": "minecraft:uniform",
+							"min": 1.0,
+							"max": 2.0
+						},
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"weight": 14.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 4.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:sculk_vein"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 5.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 2.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:sculk"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 2.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 1.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:music_disc_11"
+							},
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 1.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:frogspawn"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 3.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 16.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:light_gray_concrete_powder"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 7.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 8.0
+										},
+										"add": false
+									}
+								],
+								"name": "primitive_creatures:tt_5"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 10.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 2.0,
+											"max": 8.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:sculk_vein"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:sculk_vein",
+					"weight": 14.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 4.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:sculk",
+					"weight": 5.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:music_disc_11",
+					"weight": 2.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:frogspawn",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:light_gray_concrete_powder",
+					"weight": 3.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 16.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "primitive_creatures:tt_5",
+					"weight": 7.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 8.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:sculk_vein",
+					"weight": 10.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 2.0,
+						"max": 8.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "primitive_creatures:entities/idolater_",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "primitive_creatures:entities/idolater_",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": {
+							"type": "minecraft:uniform",
+							"min": 1.0,
+							"max": 3.0
+						},
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"weight": 10.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 32.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:ender_pearl"
+							},
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 12.0,
+											"max": 16.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:egg"
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"weight": 10.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 8.0,
+											"max": 16.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:echo_shard"
+							}
+						]
+					},
+					{
+						"name": "pool2",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"weight": 10.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 1.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:soul_lantern"
+							}
+						]
+					},
+					{
+						"name": "pool3",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"weight": 10.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 1.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:music_disc_otherside"
+							}
+						]
+					},
+					{
+						"name": "pool4",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"weight": 10.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 1.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:music_disc_5"
+							}
+						]
+					},
+					{
+						"name": "pool5",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"weight": 10.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 1.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:music_disc_pigstep"
+							}
+						]
+					},
+					{
+						"name": "pool6",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"weight": 10.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 1.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:music_disc_relic"
+							}
+						]
+					},
+					{
+						"name": "pool7",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 1.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:totem_of_undying"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:ender_pearl",
+					"weight": 10.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 3.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 32.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:egg",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 3.0
+					},
+					"count": {
+						"min": 12.0,
+						"max": 16.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:echo_shard",
+					"weight": 10.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 8.0,
+						"max": 16.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:soul_lantern",
+					"weight": 10.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 3.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:music_disc_otherside",
+					"weight": 10.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 4.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:music_disc_5",
+					"weight": 10.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 5.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:music_disc_pigstep",
+					"weight": 10.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 6.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:music_disc_relic",
+					"weight": 10.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 7.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:totem_of_undying",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "primitive_creatures:entities/tfc",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "primitive_creatures:entities/tfc",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": {
+							"type": "minecraft:uniform",
+							"min": 1.0,
+							"max": 5.0
+						},
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"weight": 3.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 3.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:clay_ball"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 4.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 4.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:clay_ball"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 5.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 5.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:clay_ball"
+							},
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 1.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:pink_dye"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:clay_ball",
+					"weight": 3.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 5.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 3.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:clay_ball",
+					"weight": 4.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 5.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 4.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:clay_ball",
+					"weight": 5.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 5.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 5.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:pink_dye",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 5.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "primitive_creatures:entities/beast",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "primitive_creatures:entities/beast",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": {
+							"type": "minecraft:uniform",
+							"min": 1.0,
+							"max": 2.0
+						},
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"weight": 2.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 2.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:goat_horn"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 9.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 11.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:bone"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 4.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:flint"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 7.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 12.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:bone"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 3.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 6.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:gray_dye"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 11.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 15.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:bone"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 12.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 30.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:rotten_flesh"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:goat_horn",
+					"weight": 2.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bone",
+					"weight": 9.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 11.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:flint",
+					"weight": 4.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bone",
+					"weight": 7.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 12.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:gray_dye",
+					"weight": 3.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 6.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bone",
+					"weight": 11.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 15.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:rotten_flesh",
+					"weight": 12.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 30.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		}
+	]
+}

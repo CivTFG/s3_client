@@ -1,0 +1,8541 @@
+{
+	"type": "create:filling",
+	"recipes": [
+		{
+			"id": "greate:filling/red_alloy_cable_16_rubber",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:red_alloy_hex_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:rubber"
+					],
+					"fluidAmount": 720
+				}
+			],
+			"resultId": "gtceu:red_alloy_hex_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/black_bronze_hammer_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/hammer_head_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:black_bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/hammer_head_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/black_bronze_propick_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/propick_head_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:black_bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/propick_head_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/gold_cable_4_slicone",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:gold_quadruple_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:silicone_rubber"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:gold_quadruple_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/electrum_cable_16_styrene_butadiene",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:electrum_hex_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:styrene_butadiene_rubber"
+					],
+					"fluidAmount": 180
+				}
+			],
+			"resultId": "gtceu:electrum_hex_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:tfc/filling/weak_steel_fire_ingot",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/fire_ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"tfc:metal/weak_steel"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/fire_ingot_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/blue_steel_ingot_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:blue_steel"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/ingot_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/bismuth_bronze_shovel_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/shovel_head_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bismuth_bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/shovel_head_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/tin_cable_2_rubber",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:tin_double_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:rubber"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:tin_double_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/annealed_copper_cable_16_slicone",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:annealed_copper_hex_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:silicone_rubber"
+					],
+					"fluidAmount": 360
+				}
+			],
+			"resultId": "gtceu:annealed_copper_hex_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/copper_ingot_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/fire_ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:copper"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/fire_ingot_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/blue_alloy_cable_1_slicone",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:blue_alloy_single_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:silicone_rubber"
+					],
+					"fluidAmount": 72
+				}
+			],
+			"resultId": "gtceu:blue_alloy_single_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:tfc/filling/weak_steel_ingot",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"tfc:metal/weak_steel"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/ingot_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/copper_cable_2_styrene_butadiene",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:copper_double_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:styrene_butadiene_rubber"
+					],
+					"fluidAmount": 36
+				}
+			],
+			"resultId": "gtceu:copper_double_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/rose_gold_rod_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:rod_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:rose_gold"
+					],
+					"fluidAmount": 72
+				}
+			],
+			"resultId": "tfg:rod_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/silver_ingot_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:silver"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/ingot_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/kanthal_cable_4_styrene_butadiene",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:kanthal_quadruple_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:styrene_butadiene_rubber"
+					],
+					"fluidAmount": 72
+				}
+			],
+			"resultId": "gtceu:kanthal_quadruple_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/cobalt_cable_4_styrene_butadiene",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:cobalt_quadruple_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:styrene_butadiene_rubber"
+					],
+					"fluidAmount": 72
+				}
+			],
+			"resultId": "gtceu:cobalt_quadruple_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/cobalt_ingot_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:cobalt"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/ingot_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/iron_cable_16_slicone",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:iron_hex_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:silicone_rubber"
+					],
+					"fluidAmount": 360
+				}
+			],
+			"resultId": "gtceu:iron_hex_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/silver_nugget_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:nugget_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:silver"
+					],
+					"fluidAmount": 64
+				}
+			],
+			"resultId": "tfg:nugget_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/steel_ingot_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:steel"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/ingot_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/tin_cable_8_styrene_butadiene",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:tin_octal_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:styrene_butadiene_rubber"
+					],
+					"fluidAmount": 108
+				}
+			],
+			"resultId": "gtceu:tin_octal_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/cobalt_cable_16_styrene_butadiene",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:cobalt_hex_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:styrene_butadiene_rubber"
+					],
+					"fluidAmount": 180
+				}
+			],
+			"resultId": "gtceu:cobalt_hex_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/bronze_rod_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:rod_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bronze"
+					],
+					"fluidAmount": 72
+				}
+			],
+			"resultId": "tfg:rod_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/red_steel_ingot_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/fire_ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:red_steel"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/fire_ingot_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/copper_rod_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:rod_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:copper"
+					],
+					"fluidAmount": 72
+				}
+			],
+			"resultId": "tfg:rod_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/bronze_pickaxe_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/pickaxe_head_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/pickaxe_head_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/nickel_nugget_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:nugget_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:nickel"
+					],
+					"fluidAmount": 64
+				}
+			],
+			"resultId": "tfg:nugget_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/annealed_copper_cable_2_rubber",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:annealed_copper_double_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:rubber"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:annealed_copper_double_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/copper_cable_4_styrene_butadiene",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:copper_quadruple_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:styrene_butadiene_rubber"
+					],
+					"fluidAmount": 72
+				}
+			],
+			"resultId": "gtceu:copper_quadruple_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/cobalt_brass_ingot_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:cobalt_brass"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/ingot_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/silver_cable_2_rubber",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:silver_double_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:rubber"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:silver_double_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/cobalt_cable_8_slicone",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:cobalt_octal_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:silicone_rubber"
+					],
+					"fluidAmount": 216
+				}
+			],
+			"resultId": "gtceu:cobalt_octal_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/gold_rod_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:rod_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:gold"
+					],
+					"fluidAmount": 72
+				}
+			],
+			"resultId": "tfg:rod_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/red_steel_ingot_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:red_steel"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/ingot_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/bismuth_bronze_javelin_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/javelin_head_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bismuth_bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/javelin_head_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/lead_ingot_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/fire_ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:lead"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/fire_ingot_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:tfc/filling/pig_iron_fire_ingot",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/fire_ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"tfc:metal/pig_iron"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/fire_ingot_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:tfc/filling/high_carbon_steel_ingot",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"tfc:metal/high_carbon_steel"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/ingot_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/kanthal_cable_1_styrene_butadiene",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:kanthal_single_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:styrene_butadiene_rubber"
+					],
+					"fluidAmount": 36
+				}
+			],
+			"resultId": "gtceu:kanthal_single_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/blue_alloy_cable_4_slicone",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:blue_alloy_quadruple_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:silicone_rubber"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:blue_alloy_quadruple_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/black_bronze_mace_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/mace_head_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:black_bronze"
+					],
+					"fluidAmount": 288
+				}
+			],
+			"resultId": "tfc:ceramic/mace_head_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/iron_cable_1_styrene_butadiene",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:iron_single_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:styrene_butadiene_rubber"
+					],
+					"fluidAmount": 36
+				}
+			],
+			"resultId": "gtceu:iron_single_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/bronze_hoe_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/hoe_head_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/hoe_head_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/bismuth_bronze_scythe_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/scythe_blade_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bismuth_bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/scythe_blade_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/sterling_silver_ingot_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/fire_ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:sterling_silver"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/fire_ingot_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/copper_hammer_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/hammer_head_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:copper"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/hammer_head_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/cobalt_cable_2_styrene_butadiene",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:cobalt_double_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:styrene_butadiene_rubber"
+					],
+					"fluidAmount": 36
+				}
+			],
+			"resultId": "gtceu:cobalt_double_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/copper_cable_1_rubber",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:copper_single_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:rubber"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:copper_single_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/tin_cable_4_styrene_butadiene",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:tin_quadruple_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:styrene_butadiene_rubber"
+					],
+					"fluidAmount": 72
+				}
+			],
+			"resultId": "gtceu:tin_quadruple_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/cupronickel_cable_1_styrene_butadiene",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:cupronickel_single_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:styrene_butadiene_rubber"
+					],
+					"fluidAmount": 36
+				}
+			],
+			"resultId": "gtceu:cupronickel_single_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/red_alloy_cable_2_rubber",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:red_alloy_double_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:rubber"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:red_alloy_double_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:tfc/filling/weak_red_steel_ingot",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"tfc:metal/weak_red_steel"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/ingot_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/copper_scraping_knife_blade_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfcscraping:ceramic/scraping_knife_blade_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:copper"
+					],
+					"fluidAmount": 288
+				}
+			],
+			"resultId": "tfcscraping:ceramic/scraping_knife_blade_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/iron_ingot_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/fire_ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:iron"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/fire_ingot_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/kanthal_cable_8_styrene_butadiene",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:kanthal_octal_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:styrene_butadiene_rubber"
+					],
+					"fluidAmount": 108
+				}
+			],
+			"resultId": "gtceu:kanthal_octal_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/gold_cable_8_styrene_butadiene",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:gold_octal_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:styrene_butadiene_rubber"
+					],
+					"fluidAmount": 108
+				}
+			],
+			"resultId": "gtceu:gold_octal_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/blue_alloy_cable_8_rubber",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:blue_alloy_octal_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:rubber"
+					],
+					"fluidAmount": 432
+				}
+			],
+			"resultId": "gtceu:blue_alloy_octal_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/iron_cable_8_rubber",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:iron_octal_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:rubber"
+					],
+					"fluidAmount": 432
+				}
+			],
+			"resultId": "gtceu:iron_octal_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/annealed_copper_cable_4_slicone",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:annealed_copper_quadruple_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:silicone_rubber"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:annealed_copper_quadruple_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:tfc/filling/weak_red_steel_fire_ingot",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/fire_ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"tfc:metal/weak_red_steel"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/fire_ingot_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/bronze_sword_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/sword_blade_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bronze"
+					],
+					"fluidAmount": 288
+				}
+			],
+			"resultId": "tfc:ceramic/sword_blade_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/tin_nugget_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:nugget_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:tin"
+					],
+					"fluidAmount": 64
+				}
+			],
+			"resultId": "tfg:nugget_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/tin_ingot_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:tin"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/ingot_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/silver_cable_1_slicone",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:silver_single_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:silicone_rubber"
+					],
+					"fluidAmount": 72
+				}
+			],
+			"resultId": "gtceu:silver_single_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/copper_sword_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/sword_blade_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:copper"
+					],
+					"fluidAmount": 288
+				}
+			],
+			"resultId": "tfc:ceramic/sword_blade_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/cupronickel_cable_16_rubber",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:cupronickel_hex_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:rubber"
+					],
+					"fluidAmount": 720
+				}
+			],
+			"resultId": "gtceu:cupronickel_hex_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/nickel_rod_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:rod_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:nickel"
+					],
+					"fluidAmount": 72
+				}
+			],
+			"resultId": "tfg:rod_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/copper_cable_16_rubber",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:copper_hex_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:rubber"
+					],
+					"fluidAmount": 720
+				}
+			],
+			"resultId": "gtceu:copper_hex_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/iron_cable_1_slicone",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:iron_single_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:silicone_rubber"
+					],
+					"fluidAmount": 72
+				}
+			],
+			"resultId": "gtceu:iron_single_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/silver_cable_4_slicone",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:silver_quadruple_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:silicone_rubber"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:silver_quadruple_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/iron_cable_4_styrene_butadiene",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:iron_quadruple_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:styrene_butadiene_rubber"
+					],
+					"fluidAmount": 72
+				}
+			],
+			"resultId": "gtceu:iron_quadruple_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/lead_ingot_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:lead"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/ingot_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/iron_cable_16_styrene_butadiene",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:iron_hex_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:styrene_butadiene_rubber"
+					],
+					"fluidAmount": 180
+				}
+			],
+			"resultId": "gtceu:iron_hex_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/weak_red_steel_ingot_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"tfc:metal/weak_red_steel"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/ingot_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/electrum_cable_1_rubber",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:electrum_single_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:rubber"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:electrum_single_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/copper_cable_2_rubber",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:copper_double_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:rubber"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:copper_double_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/cupronickel_cable_4_styrene_butadiene",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:cupronickel_quadruple_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:styrene_butadiene_rubber"
+					],
+					"fluidAmount": 72
+				}
+			],
+			"resultId": "gtceu:cupronickel_quadruple_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/sterling_silver_rod_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:rod_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:sterling_silver"
+					],
+					"fluidAmount": 72
+				}
+			],
+			"resultId": "tfg:rod_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/gold_cable_16_rubber",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:gold_hex_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:rubber"
+					],
+					"fluidAmount": 720
+				}
+			],
+			"resultId": "gtceu:gold_hex_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:tfc/filling/high_carbon_red_steel_ingot",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"tfc:metal/high_carbon_red_steel"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/ingot_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/tin_cable_16_slicone",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:tin_hex_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:silicone_rubber"
+					],
+					"fluidAmount": 360
+				}
+			],
+			"resultId": "gtceu:tin_hex_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:tfc/filling/unknown_ingot",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"tfc:metal/unknown"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/ingot_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/cobalt_cable_2_slicone",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:cobalt_double_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:silicone_rubber"
+					],
+					"fluidAmount": 72
+				}
+			],
+			"resultId": "gtceu:cobalt_double_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/brass_small_gear_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:small_gear_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:brass"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfg:small_gear_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/gold_ingot_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/fire_ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:gold"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/fire_ingot_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/black_bronze_chisel_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/chisel_head_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:black_bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/chisel_head_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/bismuth_bronze_mace_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/mace_head_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bismuth_bronze"
+					],
+					"fluidAmount": 288
+				}
+			],
+			"resultId": "tfc:ceramic/mace_head_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/bismuth_bronze_pickaxe_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/pickaxe_head_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bismuth_bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/pickaxe_head_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/lead_cable_1_rubber",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:lead_single_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:rubber"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:lead_single_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/cobalt_cable_8_rubber",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:cobalt_octal_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:rubber"
+					],
+					"fluidAmount": 432
+				}
+			],
+			"resultId": "gtceu:cobalt_octal_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/red_alloy_nugget_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:nugget_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:red_alloy"
+					],
+					"fluidAmount": 64
+				}
+			],
+			"resultId": "tfg:nugget_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/copper_cable_8_styrene_butadiene",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:copper_octal_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:styrene_butadiene_rubber"
+					],
+					"fluidAmount": 108
+				}
+			],
+			"resultId": "gtceu:copper_octal_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/cobalt_cable_1_styrene_butadiene",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:cobalt_single_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:styrene_butadiene_rubber"
+					],
+					"fluidAmount": 36
+				}
+			],
+			"resultId": "gtceu:cobalt_single_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/brass_ingot_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:brass"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/ingot_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/sterling_silver_nugget_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:nugget_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:sterling_silver"
+					],
+					"fluidAmount": 64
+				}
+			],
+			"resultId": "tfg:nugget_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/bismuth_rod_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:rod_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bismuth"
+					],
+					"fluidAmount": 72
+				}
+			],
+			"resultId": "tfg:rod_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/kanthal_cable_8_rubber",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:kanthal_octal_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:rubber"
+					],
+					"fluidAmount": 432
+				}
+			],
+			"resultId": "gtceu:kanthal_octal_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/black_bronze_hoe_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/hoe_head_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:black_bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/hoe_head_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/iron_cable_4_slicone",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:iron_quadruple_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:silicone_rubber"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:iron_quadruple_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/black_bronze_scraping_knife_blade_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfcscraping:ceramic/scraping_knife_blade_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:black_bronze"
+					],
+					"fluidAmount": 288
+				}
+			],
+			"resultId": "tfcscraping:ceramic/scraping_knife_blade_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/copper_cable_1_styrene_butadiene",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:copper_single_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:styrene_butadiene_rubber"
+					],
+					"fluidAmount": 36
+				}
+			],
+			"resultId": "gtceu:copper_single_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/lead_cable_16_rubber",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:lead_hex_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:rubber"
+					],
+					"fluidAmount": 720
+				}
+			],
+			"resultId": "gtceu:lead_hex_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/cobalt_cable_8_styrene_butadiene",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:cobalt_octal_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:styrene_butadiene_rubber"
+					],
+					"fluidAmount": 108
+				}
+			],
+			"resultId": "gtceu:cobalt_octal_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/bismuth_bronze_propick_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/propick_head_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bismuth_bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/propick_head_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/bronze_small_gear_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:small_gear_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfg:small_gear_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:tfc/filling/high_carbon_black_steel_ingot",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"tfc:metal/high_carbon_black_steel"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/ingot_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/blue_alloy_cable_2_styrene_butadiene",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:blue_alloy_double_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:styrene_butadiene_rubber"
+					],
+					"fluidAmount": 36
+				}
+			],
+			"resultId": "gtceu:blue_alloy_double_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/gold_cable_8_slicone",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:gold_octal_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:silicone_rubber"
+					],
+					"fluidAmount": 216
+				}
+			],
+			"resultId": "gtceu:gold_octal_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/electrum_cable_16_slicone",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:electrum_hex_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:silicone_rubber"
+					],
+					"fluidAmount": 360
+				}
+			],
+			"resultId": "gtceu:electrum_hex_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/zinc_ingot_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/fire_ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:zinc"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/fire_ingot_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/gold_cable_2_styrene_butadiene",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:gold_double_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:styrene_butadiene_rubber"
+					],
+					"fluidAmount": 36
+				}
+			],
+			"resultId": "gtceu:gold_double_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/copper_pickaxe_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/pickaxe_head_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:copper"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/pickaxe_head_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/copper_shovel_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/shovel_head_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:copper"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/shovel_head_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/blue_alloy_cable_1_styrene_butadiene",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:blue_alloy_single_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:styrene_butadiene_rubber"
+					],
+					"fluidAmount": 36
+				}
+			],
+			"resultId": "gtceu:blue_alloy_single_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/iron_small_gear_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:small_gear_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:iron"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfg:small_gear_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/aluminium_silicate_ingot_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:aluminium_silicate"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/ingot_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/bronze_scraping_knife_blade_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfcscraping:ceramic/scraping_knife_blade_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bronze"
+					],
+					"fluidAmount": 288
+				}
+			],
+			"resultId": "tfcscraping:ceramic/scraping_knife_blade_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/bismuth_bronze_nugget_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:nugget_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bismuth_bronze"
+					],
+					"fluidAmount": 64
+				}
+			],
+			"resultId": "tfg:nugget_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/iron_cable_8_styrene_butadiene",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:iron_octal_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:styrene_butadiene_rubber"
+					],
+					"fluidAmount": 108
+				}
+			],
+			"resultId": "gtceu:iron_octal_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/bronze_chisel_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/chisel_head_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/chisel_head_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/nickel_ingot_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/fire_ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:nickel"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/fire_ingot_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/lead_cable_4_rubber",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:lead_quadruple_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:rubber"
+					],
+					"fluidAmount": 288
+				}
+			],
+			"resultId": "gtceu:lead_quadruple_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/silver_cable_2_slicone",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:silver_double_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:silicone_rubber"
+					],
+					"fluidAmount": 72
+				}
+			],
+			"resultId": "gtceu:silver_double_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/black_bronze_ingot_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:black_bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/ingot_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:tfc/filling/high_carbon_steel_fire_ingot",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/fire_ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"tfc:metal/high_carbon_steel"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/fire_ingot_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/zinc_ingot_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:zinc"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/ingot_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/kanthal_cable_16_styrene_butadiene",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:kanthal_hex_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:styrene_butadiene_rubber"
+					],
+					"fluidAmount": 180
+				}
+			],
+			"resultId": "gtceu:kanthal_hex_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/black_bronze_nugget_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:nugget_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:black_bronze"
+					],
+					"fluidAmount": 64
+				}
+			],
+			"resultId": "tfg:nugget_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/bismuth_bronze_small_gear_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:small_gear_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bismuth_bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfg:small_gear_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/cupronickel_cable_4_rubber",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:cupronickel_quadruple_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:rubber"
+					],
+					"fluidAmount": 288
+				}
+			],
+			"resultId": "gtceu:cupronickel_quadruple_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/red_alloy_cable_1_styrene_butadiene",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:red_alloy_single_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:styrene_butadiene_rubber"
+					],
+					"fluidAmount": 36
+				}
+			],
+			"resultId": "gtceu:red_alloy_single_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/tin_cable_16_styrene_butadiene",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:tin_hex_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:styrene_butadiene_rubber"
+					],
+					"fluidAmount": 180
+				}
+			],
+			"resultId": "gtceu:tin_hex_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/blue_alloy_cable_16_styrene_butadiene",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:blue_alloy_hex_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:styrene_butadiene_rubber"
+					],
+					"fluidAmount": 180
+				}
+			],
+			"resultId": "gtceu:blue_alloy_hex_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/copper_knife_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/knife_blade_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:copper"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/knife_blade_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/bismuth_bronze_scraping_knife_blade_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfcscraping:ceramic/scraping_knife_blade_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bismuth_bronze"
+					],
+					"fluidAmount": 288
+				}
+			],
+			"resultId": "tfcscraping:ceramic/scraping_knife_blade_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/bronze_mace_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/mace_head_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bronze"
+					],
+					"fluidAmount": 288
+				}
+			],
+			"resultId": "tfc:ceramic/mace_head_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/cupronickel_cable_8_styrene_butadiene",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:cupronickel_octal_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:styrene_butadiene_rubber"
+					],
+					"fluidAmount": 108
+				}
+			],
+			"resultId": "gtceu:cupronickel_octal_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/cupronickel_cable_4_slicone",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:cupronickel_quadruple_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:silicone_rubber"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:cupronickel_quadruple_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/nickel_ingot_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:nickel"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/ingot_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/gold_cable_4_styrene_butadiene",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:gold_quadruple_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:styrene_butadiene_rubber"
+					],
+					"fluidAmount": 72
+				}
+			],
+			"resultId": "gtceu:gold_quadruple_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/tin_cable_8_slicone",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:tin_octal_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:silicone_rubber"
+					],
+					"fluidAmount": 216
+				}
+			],
+			"resultId": "gtceu:tin_octal_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/black_steel_ingot_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/fire_ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:black_steel"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/fire_ingot_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/black_bronze_knife_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/knife_blade_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:black_bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/knife_blade_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/black_bronze_sword_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/sword_blade_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:black_bronze"
+					],
+					"fluidAmount": 288
+				}
+			],
+			"resultId": "tfc:ceramic/sword_blade_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/gold_nugget_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:nugget_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:gold"
+					],
+					"fluidAmount": 64
+				}
+			],
+			"resultId": "tfg:nugget_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/bismuth_bronze_knife_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/knife_blade_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bismuth_bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/knife_blade_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/tin_alloy_ingot_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/fire_ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:tin_alloy"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/fire_ingot_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/cobalt_cable_1_slicone",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:cobalt_single_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:silicone_rubber"
+					],
+					"fluidAmount": 72
+				}
+			],
+			"resultId": "gtceu:cobalt_single_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/bismuth_bronze_rod_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:rod_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bismuth_bronze"
+					],
+					"fluidAmount": 72
+				}
+			],
+			"resultId": "tfg:rod_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/copper_cable_4_slicone",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:copper_quadruple_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:silicone_rubber"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:copper_quadruple_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/blue_alloy_cable_8_slicone",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:blue_alloy_octal_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:silicone_rubber"
+					],
+					"fluidAmount": 216
+				}
+			],
+			"resultId": "gtceu:blue_alloy_octal_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:tfc/filling/high_carbon_blue_steel_fire_ingot",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/fire_ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"tfc:metal/high_carbon_blue_steel"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/fire_ingot_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/kanthal_cable_2_rubber",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:kanthal_double_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:rubber"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:kanthal_double_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/kanthal_cable_2_slicone",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:kanthal_double_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:silicone_rubber"
+					],
+					"fluidAmount": 72
+				}
+			],
+			"resultId": "gtceu:kanthal_double_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/kanthal_cable_1_rubber",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:kanthal_single_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:rubber"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:kanthal_single_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/red_alloy_small_gear_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:small_gear_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:red_alloy"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfg:small_gear_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/cobalt_cable_16_rubber",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:cobalt_hex_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:rubber"
+					],
+					"fluidAmount": 720
+				}
+			],
+			"resultId": "gtceu:cobalt_hex_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/iron_cable_2_styrene_butadiene",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:iron_double_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:styrene_butadiene_rubber"
+					],
+					"fluidAmount": 36
+				}
+			],
+			"resultId": "gtceu:iron_double_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/tin_cable_2_styrene_butadiene",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:tin_double_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:styrene_butadiene_rubber"
+					],
+					"fluidAmount": 36
+				}
+			],
+			"resultId": "gtceu:tin_double_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/blue_alloy_cable_4_rubber",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:blue_alloy_quadruple_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:rubber"
+					],
+					"fluidAmount": 288
+				}
+			],
+			"resultId": "gtceu:blue_alloy_quadruple_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/nickel_cable_2_rubber",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:nickel_double_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:rubber"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:nickel_double_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/nickel_cable_8_rubber",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:nickel_octal_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:rubber"
+					],
+					"fluidAmount": 432
+				}
+			],
+			"resultId": "gtceu:nickel_octal_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/copper_unfinished_lamp_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:lamp_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:copper"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfg:lamp_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/iron_cable_4_rubber",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:iron_quadruple_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:rubber"
+					],
+					"fluidAmount": 288
+				}
+			],
+			"resultId": "gtceu:iron_quadruple_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/blue_alloy_cable_8_styrene_butadiene",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:blue_alloy_octal_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:styrene_butadiene_rubber"
+					],
+					"fluidAmount": 108
+				}
+			],
+			"resultId": "gtceu:blue_alloy_octal_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/copper_cable_16_styrene_butadiene",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:copper_hex_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:styrene_butadiene_rubber"
+					],
+					"fluidAmount": 180
+				}
+			],
+			"resultId": "gtceu:copper_hex_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/copper_mace_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/mace_head_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:copper"
+					],
+					"fluidAmount": 288
+				}
+			],
+			"resultId": "tfc:ceramic/mace_head_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/tin_alloy_ingot_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:tin_alloy"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/ingot_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/annealed_copper_cable_8_slicone",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:annealed_copper_octal_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:silicone_rubber"
+					],
+					"fluidAmount": 216
+				}
+			],
+			"resultId": "gtceu:annealed_copper_octal_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/bismuth_bronze_hoe_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/hoe_head_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bismuth_bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/hoe_head_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/silver_cable_8_slicone",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:silver_octal_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:silicone_rubber"
+					],
+					"fluidAmount": 216
+				}
+			],
+			"resultId": "gtceu:silver_octal_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/gold_cable_1_rubber",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:gold_single_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:rubber"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:gold_single_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/tin_cable_2_slicone",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:tin_double_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:silicone_rubber"
+					],
+					"fluidAmount": 72
+				}
+			],
+			"resultId": "gtceu:tin_double_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/tin_cable_1_styrene_butadiene",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:tin_single_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:styrene_butadiene_rubber"
+					],
+					"fluidAmount": 36
+				}
+			],
+			"resultId": "gtceu:tin_single_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/copper_cable_8_rubber",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:copper_octal_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:rubber"
+					],
+					"fluidAmount": 432
+				}
+			],
+			"resultId": "gtceu:copper_octal_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/bismuth_bronze_chisel_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/chisel_head_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bismuth_bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/chisel_head_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/black_bronze_saw_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/saw_blade_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:black_bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/saw_blade_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/cobalt_cable_1_rubber",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:cobalt_single_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:rubber"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:cobalt_single_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/iron_cable_8_slicone",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:iron_octal_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:silicone_rubber"
+					],
+					"fluidAmount": 216
+				}
+			],
+			"resultId": "gtceu:iron_octal_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/lead_cable_4_slicone",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:lead_quadruple_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:silicone_rubber"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:lead_quadruple_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/red_alloy_cable_4_slicone",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:red_alloy_quadruple_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:silicone_rubber"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:red_alloy_quadruple_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/silver_cable_8_rubber",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:silver_octal_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:rubber"
+					],
+					"fluidAmount": 432
+				}
+			],
+			"resultId": "gtceu:silver_octal_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/black_bronze_shovel_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/shovel_head_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:black_bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/shovel_head_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/iron_pickaxe_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/pickaxe_head_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:iron"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/pickaxe_head_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/nickel_cable_16_rubber",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:nickel_hex_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:rubber"
+					],
+					"fluidAmount": 720
+				}
+			],
+			"resultId": "gtceu:nickel_hex_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/cupronickel_cable_2_styrene_butadiene",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:cupronickel_double_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:styrene_butadiene_rubber"
+					],
+					"fluidAmount": 36
+				}
+			],
+			"resultId": "gtceu:cupronickel_double_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/gold_cable_1_slicone",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:gold_single_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:silicone_rubber"
+					],
+					"fluidAmount": 72
+				}
+			],
+			"resultId": "gtceu:gold_single_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/red_alloy_ingot_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/fire_ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:red_alloy"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/fire_ingot_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/black_bronze_javelin_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/javelin_head_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:black_bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/javelin_head_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/red_alloy_ingot_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:red_alloy"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/ingot_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/kanthal_cable_8_slicone",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:kanthal_octal_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:silicone_rubber"
+					],
+					"fluidAmount": 216
+				}
+			],
+			"resultId": "gtceu:kanthal_octal_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/bronze_ingot_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/fire_ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/fire_ingot_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/copper_cable_16_slicone",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:copper_hex_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:silicone_rubber"
+					],
+					"fluidAmount": 360
+				}
+			],
+			"resultId": "gtceu:copper_hex_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/invar_ingot_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:invar"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/ingot_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/black_steel_ingot_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:black_steel"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/ingot_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/rose_gold_ingot_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/fire_ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:rose_gold"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/fire_ingot_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/brass_rod_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:rod_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:brass"
+					],
+					"fluidAmount": 72
+				}
+			],
+			"resultId": "tfg:rod_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/electrum_cable_2_rubber",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:electrum_double_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:rubber"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:electrum_double_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/brass_nugget_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:nugget_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:brass"
+					],
+					"fluidAmount": 64
+				}
+			],
+			"resultId": "tfg:nugget_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/annealed_copper_cable_1_rubber",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:annealed_copper_single_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:rubber"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:annealed_copper_single_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/red_alloy_cable_8_rubber",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:red_alloy_octal_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:rubber"
+					],
+					"fluidAmount": 432
+				}
+			],
+			"resultId": "gtceu:red_alloy_octal_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/silver_cable_16_slicone",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:silver_hex_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:silicone_rubber"
+					],
+					"fluidAmount": 360
+				}
+			],
+			"resultId": "gtceu:silver_hex_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/blue_alloy_cable_16_slicone",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:blue_alloy_hex_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:silicone_rubber"
+					],
+					"fluidAmount": 360
+				}
+			],
+			"resultId": "gtceu:blue_alloy_hex_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/potin_ingot_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/fire_ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:potin"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/fire_ingot_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/rose_gold_nugget_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:nugget_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:rose_gold"
+					],
+					"fluidAmount": 64
+				}
+			],
+			"resultId": "tfg:nugget_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/tin_cable_8_rubber",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:tin_octal_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:rubber"
+					],
+					"fluidAmount": 432
+				}
+			],
+			"resultId": "gtceu:tin_octal_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/tin_cable_4_rubber",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:tin_quadruple_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:rubber"
+					],
+					"fluidAmount": 288
+				}
+			],
+			"resultId": "gtceu:tin_quadruple_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/bismuth_bronze_axe_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/axe_head_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bismuth_bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/axe_head_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/annealed_copper_cable_2_slicone",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:annealed_copper_double_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:silicone_rubber"
+					],
+					"fluidAmount": 72
+				}
+			],
+			"resultId": "gtceu:annealed_copper_double_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/bismuth_ingot_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/fire_ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bismuth"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/fire_ingot_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/tin_rod_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:rod_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:tin"
+					],
+					"fluidAmount": 72
+				}
+			],
+			"resultId": "tfg:rod_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/lead_cable_4_styrene_butadiene",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:lead_quadruple_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:styrene_butadiene_rubber"
+					],
+					"fluidAmount": 72
+				}
+			],
+			"resultId": "gtceu:lead_quadruple_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/annealed_copper_cable_4_styrene_butadiene",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:annealed_copper_quadruple_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:styrene_butadiene_rubber"
+					],
+					"fluidAmount": 72
+				}
+			],
+			"resultId": "gtceu:annealed_copper_quadruple_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/zinc_nugget_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:nugget_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:zinc"
+					],
+					"fluidAmount": 64
+				}
+			],
+			"resultId": "tfg:nugget_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:tfc/filling/high_carbon_red_steel_fire_ingot",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/fire_ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"tfc:metal/high_carbon_red_steel"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/fire_ingot_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/nickel_cable_16_slicone",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:nickel_hex_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:silicone_rubber"
+					],
+					"fluidAmount": 360
+				}
+			],
+			"resultId": "gtceu:nickel_hex_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/tin_cable_4_slicone",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:tin_quadruple_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:silicone_rubber"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:tin_quadruple_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/gold_cable_16_slicone",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:gold_hex_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:silicone_rubber"
+					],
+					"fluidAmount": 360
+				}
+			],
+			"resultId": "gtceu:gold_hex_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/annealed_copper_cable_4_rubber",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:annealed_copper_quadruple_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:rubber"
+					],
+					"fluidAmount": 288
+				}
+			],
+			"resultId": "gtceu:annealed_copper_quadruple_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/bismuth_bronze_saw_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/saw_blade_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bismuth_bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/saw_blade_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/annealed_copper_cable_8_rubber",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:annealed_copper_octal_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:rubber"
+					],
+					"fluidAmount": 432
+				}
+			],
+			"resultId": "gtceu:annealed_copper_octal_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/nickel_cable_8_styrene_butadiene",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:nickel_octal_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:styrene_butadiene_rubber"
+					],
+					"fluidAmount": 108
+				}
+			],
+			"resultId": "gtceu:nickel_octal_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/nickel_cable_1_slicone",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:nickel_single_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:silicone_rubber"
+					],
+					"fluidAmount": 72
+				}
+			],
+			"resultId": "gtceu:nickel_single_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/bismuth_nugget_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:nugget_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bismuth"
+					],
+					"fluidAmount": 64
+				}
+			],
+			"resultId": "tfg:nugget_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/gold_bell_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/bell_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:gold"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/bell_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/lead_cable_8_styrene_butadiene",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:lead_octal_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:styrene_butadiene_rubber"
+					],
+					"fluidAmount": 108
+				}
+			],
+			"resultId": "gtceu:lead_octal_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/silver_cable_1_styrene_butadiene",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:silver_single_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:styrene_butadiene_rubber"
+					],
+					"fluidAmount": 36
+				}
+			],
+			"resultId": "gtceu:silver_single_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/lead_cable_16_slicone",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:lead_hex_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:silicone_rubber"
+					],
+					"fluidAmount": 360
+				}
+			],
+			"resultId": "gtceu:lead_hex_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/red_alloy_cable_2_slicone",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:red_alloy_double_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:silicone_rubber"
+					],
+					"fluidAmount": 72
+				}
+			],
+			"resultId": "gtceu:red_alloy_double_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/annealed_copper_cable_2_styrene_butadiene",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:annealed_copper_double_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:styrene_butadiene_rubber"
+					],
+					"fluidAmount": 36
+				}
+			],
+			"resultId": "gtceu:annealed_copper_double_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/cobalt_cable_2_rubber",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:cobalt_double_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:rubber"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:cobalt_double_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/nickel_cable_4_styrene_butadiene",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:nickel_quadruple_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:styrene_butadiene_rubber"
+					],
+					"fluidAmount": 72
+				}
+			],
+			"resultId": "gtceu:nickel_quadruple_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/lead_cable_2_slicone",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:lead_double_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:silicone_rubber"
+					],
+					"fluidAmount": 72
+				}
+			],
+			"resultId": "gtceu:lead_double_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/electrum_cable_4_slicone",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:electrum_quadruple_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:silicone_rubber"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:electrum_quadruple_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/electrum_cable_1_styrene_butadiene",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:electrum_single_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:styrene_butadiene_rubber"
+					],
+					"fluidAmount": 36
+				}
+			],
+			"resultId": "gtceu:electrum_single_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:tfc/filling/high_carbon_blue_steel_ingot",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"tfc:metal/high_carbon_blue_steel"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/ingot_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/cupronickel_cable_1_rubber",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:cupronickel_single_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:rubber"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:cupronickel_single_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/red_alloy_cable_16_styrene_butadiene",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:red_alloy_hex_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:styrene_butadiene_rubber"
+					],
+					"fluidAmount": 180
+				}
+			],
+			"resultId": "gtceu:red_alloy_hex_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/bismuth_bronze_ingot_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bismuth_bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/ingot_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/bismuth_bronze_ingot_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/fire_ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bismuth_bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/fire_ingot_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/copper_cable_8_slicone",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:copper_octal_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:silicone_rubber"
+					],
+					"fluidAmount": 216
+				}
+			],
+			"resultId": "gtceu:copper_octal_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/bronze_saw_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/saw_blade_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/saw_blade_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/potin_rod_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:rod_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:potin"
+					],
+					"fluidAmount": 72
+				}
+			],
+			"resultId": "tfg:rod_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/electrum_cable_8_rubber",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:electrum_octal_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:rubber"
+					],
+					"fluidAmount": 432
+				}
+			],
+			"resultId": "gtceu:electrum_octal_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/sterling_silver_ingot_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:sterling_silver"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/ingot_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/electrum_cable_4_rubber",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:electrum_quadruple_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:rubber"
+					],
+					"fluidAmount": 288
+				}
+			],
+			"resultId": "gtceu:electrum_quadruple_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/cupronickel_cable_8_slicone",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:cupronickel_octal_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:silicone_rubber"
+					],
+					"fluidAmount": 216
+				}
+			],
+			"resultId": "gtceu:cupronickel_octal_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/iron_cable_2_slicone",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:iron_double_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:silicone_rubber"
+					],
+					"fluidAmount": 72
+				}
+			],
+			"resultId": "gtceu:iron_double_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/iron_cable_1_rubber",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:iron_single_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:rubber"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:iron_single_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:tfc/filling/high_carbon_black_steel_fire_ingot",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/fire_ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"tfc:metal/high_carbon_black_steel"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/fire_ingot_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/black_bronze_small_gear_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:small_gear_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:black_bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfg:small_gear_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/red_alloy_cable_8_styrene_butadiene",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:red_alloy_octal_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:styrene_butadiene_rubber"
+					],
+					"fluidAmount": 108
+				}
+			],
+			"resultId": "gtceu:red_alloy_octal_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/potin_ingot_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:potin"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/ingot_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/bronze_axe_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/axe_head_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/axe_head_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/invar_ingot_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/fire_ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:invar"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/fire_ingot_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/tin_cable_1_slicone",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:tin_single_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:silicone_rubber"
+					],
+					"fluidAmount": 72
+				}
+			],
+			"resultId": "gtceu:tin_single_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/weak_blue_steel_ingot_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"tfc:metal/weak_blue_steel"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/ingot_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/cupronickel_cable_1_slicone",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:cupronickel_single_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:silicone_rubber"
+					],
+					"fluidAmount": 72
+				}
+			],
+			"resultId": "gtceu:cupronickel_single_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/bronze_shovel_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/shovel_head_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/shovel_head_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/electrum_cable_16_rubber",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:electrum_hex_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:rubber"
+					],
+					"fluidAmount": 720
+				}
+			],
+			"resultId": "gtceu:electrum_hex_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/nickel_cable_1_styrene_butadiene",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:nickel_single_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:styrene_butadiene_rubber"
+					],
+					"fluidAmount": 36
+				}
+			],
+			"resultId": "gtceu:nickel_single_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/potin_nugget_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:nugget_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:potin"
+					],
+					"fluidAmount": 64
+				}
+			],
+			"resultId": "tfg:nugget_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/nickel_cable_1_rubber",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:nickel_single_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:rubber"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:nickel_single_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/gold_cable_2_slicone",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:gold_double_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:silicone_rubber"
+					],
+					"fluidAmount": 72
+				}
+			],
+			"resultId": "gtceu:gold_double_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/nickel_cable_4_rubber",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:nickel_quadruple_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:rubber"
+					],
+					"fluidAmount": 288
+				}
+			],
+			"resultId": "gtceu:nickel_quadruple_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/silver_cable_4_styrene_butadiene",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:silver_quadruple_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:styrene_butadiene_rubber"
+					],
+					"fluidAmount": 72
+				}
+			],
+			"resultId": "gtceu:silver_quadruple_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/bronze_scythe_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/scythe_blade_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/scythe_blade_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/bismuth_bronze_sword_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/sword_blade_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bismuth_bronze"
+					],
+					"fluidAmount": 288
+				}
+			],
+			"resultId": "tfc:ceramic/sword_blade_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/electrum_cable_1_slicone",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:electrum_single_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:silicone_rubber"
+					],
+					"fluidAmount": 72
+				}
+			],
+			"resultId": "gtceu:electrum_single_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/nickel_cable_4_slicone",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:nickel_quadruple_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:silicone_rubber"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:nickel_quadruple_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/tin_cable_16_rubber",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:tin_hex_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:rubber"
+					],
+					"fluidAmount": 720
+				}
+			],
+			"resultId": "gtceu:tin_hex_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/aluminium_silicate_ingot_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/fire_ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:aluminium_silicate"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/fire_ingot_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/bronze_nugget_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:nugget_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bronze"
+					],
+					"fluidAmount": 64
+				}
+			],
+			"resultId": "tfg:nugget_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/copper_javelin_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/javelin_head_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:copper"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/javelin_head_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/nickel_cable_2_styrene_butadiene",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:nickel_double_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:styrene_butadiene_rubber"
+					],
+					"fluidAmount": 36
+				}
+			],
+			"resultId": "gtceu:nickel_double_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/cobalt_brass_ingot_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/fire_ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:cobalt_brass"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/fire_ingot_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/cobalt_ingot_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/fire_ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:cobalt"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/fire_ingot_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/blue_alloy_cable_1_rubber",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:blue_alloy_single_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:rubber"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:blue_alloy_single_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/bronze_propick_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/propick_head_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/propick_head_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/iron_ingot_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:iron"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/ingot_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/copper_axe_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/axe_head_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:copper"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/axe_head_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/copper_cable_4_rubber",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:copper_quadruple_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:rubber"
+					],
+					"fluidAmount": 288
+				}
+			],
+			"resultId": "gtceu:copper_quadruple_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/copper_cable_1_slicone",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:copper_single_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:silicone_rubber"
+					],
+					"fluidAmount": 72
+				}
+			],
+			"resultId": "gtceu:copper_single_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/lead_nugget_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:nugget_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:lead"
+					],
+					"fluidAmount": 64
+				}
+			],
+			"resultId": "tfg:nugget_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/kanthal_cable_1_slicone",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:kanthal_single_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:silicone_rubber"
+					],
+					"fluidAmount": 72
+				}
+			],
+			"resultId": "gtceu:kanthal_single_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/lead_cable_8_slicone",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:lead_octal_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:silicone_rubber"
+					],
+					"fluidAmount": 216
+				}
+			],
+			"resultId": "gtceu:lead_octal_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/red_alloy_cable_1_rubber",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:red_alloy_single_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:rubber"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:red_alloy_single_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/steel_ingot_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/fire_ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:steel"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/fire_ingot_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/red_alloy_cable_8_slicone",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:red_alloy_octal_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:silicone_rubber"
+					],
+					"fluidAmount": 216
+				}
+			],
+			"resultId": "gtceu:red_alloy_octal_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/silver_cable_4_rubber",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:silver_quadruple_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:rubber"
+					],
+					"fluidAmount": 288
+				}
+			],
+			"resultId": "gtceu:silver_quadruple_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/black_bronze_pickaxe_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/pickaxe_head_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:black_bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/pickaxe_head_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/copper_saw_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/saw_blade_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:copper"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/saw_blade_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/copper_ingot_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:copper"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/ingot_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/blue_alloy_cable_2_slicone",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:blue_alloy_double_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:silicone_rubber"
+					],
+					"fluidAmount": 72
+				}
+			],
+			"resultId": "gtceu:blue_alloy_double_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/lead_cable_16_styrene_butadiene",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:lead_hex_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:styrene_butadiene_rubber"
+					],
+					"fluidAmount": 180
+				}
+			],
+			"resultId": "gtceu:lead_hex_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/bronze_knife_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/knife_blade_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/knife_blade_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/kanthal_cable_4_slicone",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:kanthal_quadruple_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:silicone_rubber"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:kanthal_quadruple_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/electrum_cable_4_styrene_butadiene",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:electrum_quadruple_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:styrene_butadiene_rubber"
+					],
+					"fluidAmount": 72
+				}
+			],
+			"resultId": "gtceu:electrum_quadruple_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/gold_cable_2_rubber",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:gold_double_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:rubber"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:gold_double_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/red_alloy_cable_2_styrene_butadiene",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:red_alloy_double_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:styrene_butadiene_rubber"
+					],
+					"fluidAmount": 36
+				}
+			],
+			"resultId": "gtceu:red_alloy_double_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/bronze_hammer_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/hammer_head_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/hammer_head_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/silver_rod_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:rod_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:silver"
+					],
+					"fluidAmount": 72
+				}
+			],
+			"resultId": "tfg:rod_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/red_alloy_cable_4_rubber",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:red_alloy_quadruple_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:rubber"
+					],
+					"fluidAmount": 288
+				}
+			],
+			"resultId": "gtceu:red_alloy_quadruple_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:tfc/filling/pig_iron_ingot",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"tfc:metal/pig_iron"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/ingot_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:tfc/filling/unknown_fire_ingot",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/fire_ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"tfc:metal/unknown"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/fire_ingot_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/tin_cable_1_rubber",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:tin_single_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:rubber"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:tin_single_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/copper_scythe_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/scythe_blade_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:copper"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/scythe_blade_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/nickel_cable_2_slicone",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:nickel_double_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:silicone_rubber"
+					],
+					"fluidAmount": 72
+				}
+			],
+			"resultId": "gtceu:nickel_double_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/electrum_cable_8_styrene_butadiene",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:electrum_octal_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:styrene_butadiene_rubber"
+					],
+					"fluidAmount": 108
+				}
+			],
+			"resultId": "gtceu:electrum_octal_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/gold_cable_1_styrene_butadiene",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:gold_single_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:styrene_butadiene_rubber"
+					],
+					"fluidAmount": 36
+				}
+			],
+			"resultId": "gtceu:gold_single_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/bismuth_ingot_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bismuth"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/ingot_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/red_alloy_cable_1_slicone",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:red_alloy_single_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:silicone_rubber"
+					],
+					"fluidAmount": 72
+				}
+			],
+			"resultId": "gtceu:red_alloy_single_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/lead_cable_2_rubber",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:lead_double_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:rubber"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:lead_double_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/cupronickel_cable_16_slicone",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:cupronickel_hex_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:silicone_rubber"
+					],
+					"fluidAmount": 360
+				}
+			],
+			"resultId": "gtceu:cupronickel_hex_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/black_bronze_unfinished_lamp_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:lamp_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:black_bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfg:lamp_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/copper_nugget_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:nugget_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:copper"
+					],
+					"fluidAmount": 64
+				}
+			],
+			"resultId": "tfg:nugget_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:tfc/filling/weak_blue_steel_fire_ingot",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/fire_ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"tfc:metal/weak_blue_steel"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/fire_ingot_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/red_alloy_cable_16_slicone",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:red_alloy_hex_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:silicone_rubber"
+					],
+					"fluidAmount": 360
+				}
+			],
+			"resultId": "gtceu:red_alloy_hex_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/blue_alloy_cable_16_rubber",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:blue_alloy_hex_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:rubber"
+					],
+					"fluidAmount": 720
+				}
+			],
+			"resultId": "gtceu:blue_alloy_hex_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/iron_nugget_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:nugget_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:iron"
+					],
+					"fluidAmount": 64
+				}
+			],
+			"resultId": "tfg:nugget_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/silver_cable_1_rubber",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:silver_single_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:rubber"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:silver_single_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/bismuth_bronze_hammer_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/hammer_head_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bismuth_bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/hammer_head_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/cupronickel_cable_8_rubber",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:cupronickel_octal_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:rubber"
+					],
+					"fluidAmount": 432
+				}
+			],
+			"resultId": "gtceu:cupronickel_octal_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/annealed_copper_cable_1_slicone",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:annealed_copper_single_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:silicone_rubber"
+					],
+					"fluidAmount": 72
+				}
+			],
+			"resultId": "gtceu:annealed_copper_single_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/iron_rod_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:rod_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:iron"
+					],
+					"fluidAmount": 72
+				}
+			],
+			"resultId": "tfg:rod_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/black_bronze_rod_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:rod_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:black_bronze"
+					],
+					"fluidAmount": 72
+				}
+			],
+			"resultId": "tfg:rod_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/silver_cable_8_styrene_butadiene",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:silver_octal_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:styrene_butadiene_rubber"
+					],
+					"fluidAmount": 108
+				}
+			],
+			"resultId": "gtceu:silver_octal_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/lead_cable_8_rubber",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:lead_octal_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:rubber"
+					],
+					"fluidAmount": 432
+				}
+			],
+			"resultId": "gtceu:lead_octal_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/cobalt_cable_4_slicone",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:cobalt_quadruple_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:silicone_rubber"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:cobalt_quadruple_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/black_bronze_scythe_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/scythe_blade_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:black_bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/scythe_blade_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/bronze_unfinished_lamp_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:lamp_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfg:lamp_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/weak_red_steel_ingot_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/fire_ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"tfc:metal/weak_red_steel"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/fire_ingot_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/annealed_copper_cable_16_styrene_butadiene",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:annealed_copper_hex_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:styrene_butadiene_rubber"
+					],
+					"fluidAmount": 180
+				}
+			],
+			"resultId": "gtceu:annealed_copper_hex_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/nickel_cable_8_slicone",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:nickel_octal_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:silicone_rubber"
+					],
+					"fluidAmount": 216
+				}
+			],
+			"resultId": "gtceu:nickel_octal_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/blue_steel_ingot_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/fire_ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:blue_steel"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/fire_ingot_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/weak_blue_steel_ingot_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/fire_ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"tfc:metal/weak_blue_steel"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/fire_ingot_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/silver_cable_16_rubber",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:silver_hex_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:rubber"
+					],
+					"fluidAmount": 720
+				}
+			],
+			"resultId": "gtceu:silver_hex_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/gold_cable_4_rubber",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:gold_quadruple_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:rubber"
+					],
+					"fluidAmount": 288
+				}
+			],
+			"resultId": "gtceu:gold_quadruple_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/gold_cable_8_rubber",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:gold_octal_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:rubber"
+					],
+					"fluidAmount": 432
+				}
+			],
+			"resultId": "gtceu:gold_octal_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/tin_ingot_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/fire_ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:tin"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/fire_ingot_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/red_alloy_cable_4_styrene_butadiene",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:red_alloy_quadruple_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:styrene_butadiene_rubber"
+					],
+					"fluidAmount": 72
+				}
+			],
+			"resultId": "gtceu:red_alloy_quadruple_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:tfc/filling/weak_blue_steel_ingot",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"tfc:metal/weak_blue_steel"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/ingot_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/silver_ingot_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/fire_ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:silver"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/fire_ingot_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/iron_cable_2_rubber",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:iron_double_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:rubber"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:iron_double_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/cobalt_cable_16_slicone",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:cobalt_hex_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:silicone_rubber"
+					],
+					"fluidAmount": 360
+				}
+			],
+			"resultId": "gtceu:cobalt_hex_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/lead_cable_1_slicone",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:lead_single_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:silicone_rubber"
+					],
+					"fluidAmount": 72
+				}
+			],
+			"resultId": "gtceu:lead_single_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/blue_alloy_cable_2_rubber",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:blue_alloy_double_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:rubber"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:blue_alloy_double_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/zinc_rod_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:rod_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:zinc"
+					],
+					"fluidAmount": 72
+				}
+			],
+			"resultId": "tfg:rod_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/brass_bell_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/bell_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:brass"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/bell_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/lead_cable_1_styrene_butadiene",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:lead_single_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:styrene_butadiene_rubber"
+					],
+					"fluidAmount": 36
+				}
+			],
+			"resultId": "gtceu:lead_single_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/lead_rod_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:rod_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:lead"
+					],
+					"fluidAmount": 72
+				}
+			],
+			"resultId": "tfg:rod_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/gold_ingot_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:gold"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/ingot_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/copper_chisel_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/chisel_head_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:copper"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/chisel_head_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/kanthal_cable_16_rubber",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:kanthal_hex_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:rubber"
+					],
+					"fluidAmount": 720
+				}
+			],
+			"resultId": "gtceu:kanthal_hex_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/gold_cable_16_styrene_butadiene",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:gold_hex_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:styrene_butadiene_rubber"
+					],
+					"fluidAmount": 180
+				}
+			],
+			"resultId": "gtceu:gold_hex_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/iron_cable_16_rubber",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:iron_hex_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:rubber"
+					],
+					"fluidAmount": 720
+				}
+			],
+			"resultId": "gtceu:iron_hex_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/red_alloy_rod_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:rod_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:red_alloy"
+					],
+					"fluidAmount": 72
+				}
+			],
+			"resultId": "tfg:rod_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/bismuth_bronze_unfinished_lamp_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:lamp_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bismuth_bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfg:lamp_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/cupronickel_cable_16_styrene_butadiene",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:cupronickel_hex_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:styrene_butadiene_rubber"
+					],
+					"fluidAmount": 180
+				}
+			],
+			"resultId": "gtceu:cupronickel_hex_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/electrum_cable_8_slicone",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:electrum_octal_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:silicone_rubber"
+					],
+					"fluidAmount": 216
+				}
+			],
+			"resultId": "gtceu:electrum_octal_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/copper_propick_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/propick_head_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:copper"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/propick_head_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/bronze_ingot_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/ingot_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/annealed_copper_cable_8_styrene_butadiene",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:annealed_copper_octal_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:styrene_butadiene_rubber"
+					],
+					"fluidAmount": 108
+				}
+			],
+			"resultId": "gtceu:annealed_copper_octal_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/bronze_javelin_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/javelin_head_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/javelin_head_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/cupronickel_cable_2_slicone",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:cupronickel_double_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:silicone_rubber"
+					],
+					"fluidAmount": 72
+				}
+			],
+			"resultId": "gtceu:cupronickel_double_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/lead_cable_2_styrene_butadiene",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:lead_double_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:styrene_butadiene_rubber"
+					],
+					"fluidAmount": 36
+				}
+			],
+			"resultId": "gtceu:lead_double_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/cobalt_cable_4_rubber",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:cobalt_quadruple_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:rubber"
+					],
+					"fluidAmount": 288
+				}
+			],
+			"resultId": "gtceu:cobalt_quadruple_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/rose_gold_ingot_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:rose_gold"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/ingot_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/bronze_bell_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/bell_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/bell_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/silver_cable_2_styrene_butadiene",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:silver_double_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:styrene_butadiene_rubber"
+					],
+					"fluidAmount": 36
+				}
+			],
+			"resultId": "gtceu:silver_double_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/cupronickel_cable_2_rubber",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:cupronickel_double_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:rubber"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "gtceu:cupronickel_double_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/kanthal_cable_16_slicone",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:kanthal_hex_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:silicone_rubber"
+					],
+					"fluidAmount": 360
+				}
+			],
+			"resultId": "gtceu:kanthal_hex_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/silver_cable_16_styrene_butadiene",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:silver_hex_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:styrene_butadiene_rubber"
+					],
+					"fluidAmount": 180
+				}
+			],
+			"resultId": "gtceu:silver_hex_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/copper_hoe_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/hoe_head_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:copper"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/hoe_head_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/blue_alloy_cable_4_styrene_butadiene",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:blue_alloy_quadruple_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:styrene_butadiene_rubber"
+					],
+					"fluidAmount": 72
+				}
+			],
+			"resultId": "gtceu:blue_alloy_quadruple_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/electrum_cable_2_slicone",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:electrum_double_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:silicone_rubber"
+					],
+					"fluidAmount": 72
+				}
+			],
+			"resultId": "gtceu:electrum_double_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/electrum_cable_2_styrene_butadiene",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:electrum_double_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:styrene_butadiene_rubber"
+					],
+					"fluidAmount": 36
+				}
+			],
+			"resultId": "gtceu:electrum_double_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/black_bronze_axe_head_ceramic",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/axe_head_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:black_bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/axe_head_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/annealed_copper_cable_16_rubber",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:annealed_copper_hex_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:rubber"
+					],
+					"fluidAmount": 720
+				}
+			],
+			"resultId": "gtceu:annealed_copper_hex_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/nickel_cable_16_styrene_butadiene",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:nickel_hex_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:styrene_butadiene_rubber"
+					],
+					"fluidAmount": 180
+				}
+			],
+			"resultId": "gtceu:nickel_hex_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/brass_ingot_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/fire_ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:brass"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/fire_ingot_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/copper_cable_2_slicone",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:copper_double_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:silicone_rubber"
+					],
+					"fluidAmount": 72
+				}
+			],
+			"resultId": "gtceu:copper_double_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/kanthal_cable_2_styrene_butadiene",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:kanthal_double_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:styrene_butadiene_rubber"
+					],
+					"fluidAmount": 36
+				}
+			],
+			"resultId": "gtceu:kanthal_double_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/annealed_copper_cable_1_styrene_butadiene",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:annealed_copper_single_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:styrene_butadiene_rubber"
+					],
+					"fluidAmount": 36
+				}
+			],
+			"resultId": "gtceu:annealed_copper_single_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "greate:filling/kanthal_cable_4_rubber",
+			"mod": "greate",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:kanthal_quadruple_wire"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:rubber"
+					],
+					"fluidAmount": 288
+				}
+			],
+			"resultId": "gtceu:kanthal_quadruple_cable",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:filling/black_bronze_ingot_fire",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ceramic/fire_ingot_mold"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:black_bronze"
+					],
+					"fluidAmount": 144
+				}
+			],
+			"resultId": "tfc:ceramic/fire_ingot_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		}
+	]
+}

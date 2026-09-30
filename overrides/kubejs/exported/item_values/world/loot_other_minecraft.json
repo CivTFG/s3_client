@@ -1,0 +1,625 @@
+{
+	"group": "other",
+	"namespace": "minecraft",
+	"tables": [
+		{
+			"id": "minecraft:loot",
+			"json": {
+				"type": "minecraft:chest",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": {
+							"type": "minecraft:uniform",
+							"min": 5.0,
+							"max": 10.0
+						},
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"weight": 20.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 1.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:emerald"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 20.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 1.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:quartz"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 20.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 1.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:iron_ingot"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 20.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 1.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:gold_nugget"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 20.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 1.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:cobweb"
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": {
+							"type": "minecraft:uniform",
+							"min": 5.0,
+							"max": 10.0
+						},
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"weight": 20.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 1.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:iron_ingot"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 20.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 1.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:iron_nugget"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 20.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 1.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:gold_nugget"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 20.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 1.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:gold_ingot"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 20.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 1.0
+										},
+										"add": false
+									}
+								],
+								"name": "ad_astra:moon_sand"
+							}
+						]
+					},
+					{
+						"name": "pool2",
+						"rolls": {
+							"type": "minecraft:uniform",
+							"min": 5.0,
+							"max": 10.0
+						},
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"weight": 20.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 1.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:diamond"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 20.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 1.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:emerald"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 20.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 1.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:gold_nugget"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 20.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 1.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:redstone"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 20.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 1.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:cobweb"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 20.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 1.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:iron_ingot"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:emerald",
+					"weight": 20.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 5.0,
+						"max": 10.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:quartz",
+					"weight": 20.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 5.0,
+						"max": 10.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:iron_ingot",
+					"weight": 20.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 5.0,
+						"max": 10.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:gold_nugget",
+					"weight": 20.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 5.0,
+						"max": 10.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:cobweb",
+					"weight": 20.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 5.0,
+						"max": 10.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:iron_ingot",
+					"weight": 20.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 5.0,
+						"max": 10.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:iron_nugget",
+					"weight": 20.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 5.0,
+						"max": 10.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:gold_nugget",
+					"weight": 20.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 5.0,
+						"max": 10.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:gold_ingot",
+					"weight": 20.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 5.0,
+						"max": 10.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "ad_astra:moon_sand",
+					"weight": 20.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 5.0,
+						"max": 10.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:diamond",
+					"weight": 20.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 5.0,
+						"max": 10.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:emerald",
+					"weight": 20.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 5.0,
+						"max": 10.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:gold_nugget",
+					"weight": 20.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 5.0,
+						"max": 10.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:redstone",
+					"weight": 20.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 5.0,
+						"max": 10.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:cobweb",
+					"weight": 20.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 5.0,
+						"max": 10.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:iron_ingot",
+					"weight": 20.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 5.0,
+						"max": 10.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		}
+	]
+}

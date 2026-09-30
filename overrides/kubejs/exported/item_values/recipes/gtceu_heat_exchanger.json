@@ -1,0 +1,234 @@
+{
+	"type": "gtceu:heat_exchanger",
+	"recipes": [
+		{
+			"id": "gtceu:heat_exchanger/uranium_steam",
+			"category": "heat_exchanger",
+			"duration": 100,
+			"voltage": 1,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water"
+					],
+					"amount": 10,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:radioactive_steam"
+					],
+					"amount": 1600,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:ammonium_formate"
+					],
+					"amount": 10,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickOutputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:dense_steam"
+					],
+					"amount": 1600,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:formamide"
+					],
+					"amount": 10,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@482d2fa0",
+					"dimension": "ResourceKey[minecraft:dimension / ad_astra:mars]"
+				}
+			]
+		},
+		{
+			"id": "gtceu:heat_exchanger/uranium_steam_power_only",
+			"category": "heat_exchanger",
+			"duration": 100,
+			"voltage": 1,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water"
+					],
+					"amount": 10,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:radioactive_steam"
+					],
+					"amount": 1600,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickOutputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:dense_steam"
+					],
+					"amount": 1600,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@2067896",
+					"dimension": "ResourceKey[minecraft:dimension / ad_astra:mars]"
+				}
+			]
+		},
+		{
+			"id": "gtceu:heat_exchanger/plutonium_steam",
+			"category": "heat_exchanger",
+			"duration": 100,
+			"voltage": 1,
+			"inputs": [],
+			"outputs": [],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water"
+					],
+					"amount": 10,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:irradiated_steam"
+					],
+					"amount": 3200,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickOutputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:dense_steam"
+					],
+					"amount": 6400,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@295d1fb0",
+					"dimension": "ResourceKey[minecraft:dimension / ad_astra:mars]"
+				}
+			]
+		}
+	]
+}

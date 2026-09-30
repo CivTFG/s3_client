@@ -1,0 +1,60 @@
+{
+	"configured": {
+		"antiquelegacy:tin_ore": {
+			"type": "minecraft:ore",
+			"json": {
+				"config": {
+					"targets": [
+						{
+							"target": {
+								"tag": "minecraft:deepslate_ore_replaceables",
+								"predicate_type": "minecraft:tag_match"
+							},
+							"state": {
+								"Name": "antiquelegacy:tin_ore"
+							}
+						}
+					],
+					"size": 7.0,
+					"discard_chance_on_air_exposure": 0.0
+				},
+				"type": "minecraft:ore"
+			},
+			"nested": [],
+			"blocks": [
+				"antiquelegacy:tin_ore"
+			],
+			"blockTags": [
+				"minecraft:deepslate_ore_replaceables"
+			]
+		},
+		"antiquelegacy:deepslate_tin_ore": {
+			"type": "minecraft:ore",
+			"json": {
+				"config": {
+					"targets": [
+						{
+							"target": {
+								"tag": "minecraft:deepslate_ore_replaceables",
+								"predicate_type": "minecraft:tag_match"
+							},
+							"state": {
+								"Name": "antiquelegacy:deepslate_tin_ore"
+							}
+						}
+					],
+					"size": 7.0,
+					"discard_chance_on_air_exposure": 0.0
+				},
+				"type": "minecraft:ore"
+			},
+			"nested": [],
+			"blocks": [
+				"antiquelegacy:deepslate_tin_ore"
+			],
+			"blockTags": [
+				"minecraft:deepslate_ore_replaceables"
+			]
+		}
+	}
+}

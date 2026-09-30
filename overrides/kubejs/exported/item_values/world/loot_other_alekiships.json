@@ -1,0 +1,8630 @@
+{
+	"group": "other",
+	"namespace": "alekiships",
+	"tables": [
+		{
+			"id": "alekiships:structures/sloop_hut/bamboo",
+			"json": {
+				"type": "minecraft:chest",
+				"random_sequence": "alekiships:structures/sloop_hut/bamboo",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:cleat"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 2.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:anchor"
+							}
+						]
+					},
+					{
+						"name": "pool2",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:scaffolding"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 10.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool3",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:bread"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 3.0,
+									"max": 10.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool4",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:cannonball"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 1.0,
+									"max": 6.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool5",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:flint_and_steel"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 1.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool6",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:music_disc_pirate_crafting"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 1.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool7",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:bamboo_planks"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 32.0
+								},
+								"add": false
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:cleat",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:anchor",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:scaffolding",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 3.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bread",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 4.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:cannonball",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 5.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:flint_and_steel",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 6.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:music_disc_pirate_crafting",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 7.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bamboo_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "alekiships:structures/rowboat/birch",
+			"json": {
+				"type": "minecraft:chest",
+				"random_sequence": "alekiships:structures/rowboat/birch",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 3.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:birch_planks"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 16.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 3.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:watercraft_frame_angled"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 1.0,
+									"max": 3.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool2",
+						"rolls": 2.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:oarlock"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 1.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool3",
+						"rolls": 2.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:scaffolding"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 5.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool4",
+						"rolls": 2.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:oar"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 1.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool5",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:lead"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 1.0
+								},
+								"add": false
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:birch_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 3.0,
+						"max": 3.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:watercraft_frame_angled",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 3.0,
+						"max": 3.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:oarlock",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 3.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:scaffolding",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 4.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:oar",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 5.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:lead",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "alekiships:structures/rowboat/dark_oak",
+			"json": {
+				"type": "minecraft:chest",
+				"random_sequence": "alekiships:structures/rowboat/dark_oak",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 3.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:dark_oak_planks"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 16.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 3.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:watercraft_frame_angled"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 1.0,
+									"max": 3.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool2",
+						"rolls": 2.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:oarlock"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 1.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool3",
+						"rolls": 2.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:scaffolding"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 5.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool4",
+						"rolls": 2.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:oar"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 1.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool5",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:lead"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 1.0
+								},
+								"add": false
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:dark_oak_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 3.0,
+						"max": 3.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:watercraft_frame_angled",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 3.0,
+						"max": 3.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:oarlock",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 3.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:scaffolding",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 4.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:oar",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 5.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:lead",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "alekiships:structures/sloop_hut/jungle",
+			"json": {
+				"type": "minecraft:chest",
+				"random_sequence": "alekiships:structures/sloop_hut/jungle",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:cleat"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 2.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:anchor"
+							}
+						]
+					},
+					{
+						"name": "pool2",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:scaffolding"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 10.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool3",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:bread"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 3.0,
+									"max": 10.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool4",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:cannonball"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 1.0,
+									"max": 6.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool5",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:flint_and_steel"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 1.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool6",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:music_disc_pirate_crafting"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 1.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool7",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:jungle_planks"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 32.0
+								},
+								"add": false
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:cleat",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:anchor",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:scaffolding",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 3.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bread",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 4.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:cannonball",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 5.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:flint_and_steel",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 6.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:music_disc_pirate_crafting",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 7.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:jungle_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "alekiships:structures/sloop_hut/acacia",
+			"json": {
+				"type": "minecraft:chest",
+				"random_sequence": "alekiships:structures/sloop_hut/acacia",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:cleat"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 2.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:anchor"
+							}
+						]
+					},
+					{
+						"name": "pool2",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:scaffolding"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 10.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool3",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:bread"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 3.0,
+									"max": 10.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool4",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:cannonball"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 1.0,
+									"max": 6.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool5",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:flint_and_steel"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 1.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool6",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:music_disc_pirate_crafting"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 1.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool7",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:acacia_planks"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 32.0
+								},
+								"add": false
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:cleat",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:anchor",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:scaffolding",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 3.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bread",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 4.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:cannonball",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 5.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:flint_and_steel",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 6.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:music_disc_pirate_crafting",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 7.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:acacia_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "alekiships:structures/sloop_hut/oak",
+			"json": {
+				"type": "minecraft:chest",
+				"random_sequence": "alekiships:structures/sloop_hut/oak",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:cleat"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 2.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:anchor"
+							}
+						]
+					},
+					{
+						"name": "pool2",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:scaffolding"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 10.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool3",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:bread"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 3.0,
+									"max": 10.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool4",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:cannonball"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 1.0,
+									"max": 6.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool5",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:flint_and_steel"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 1.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool6",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:music_disc_pirate_crafting"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 1.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool7",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:oak_planks"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 32.0
+								},
+								"add": false
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:cleat",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:anchor",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:scaffolding",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 3.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bread",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 4.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:cannonball",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 5.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:flint_and_steel",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 6.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:music_disc_pirate_crafting",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 7.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:oak_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "alekiships:structures/rowboat/crimson",
+			"json": {
+				"type": "minecraft:chest",
+				"random_sequence": "alekiships:structures/rowboat/crimson",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 3.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:crimson_planks"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 16.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 3.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:watercraft_frame_angled"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 1.0,
+									"max": 3.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool2",
+						"rolls": 2.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:oarlock"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 1.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool3",
+						"rolls": 2.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:scaffolding"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 5.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool4",
+						"rolls": 2.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:oar"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 1.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool5",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:lead"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 1.0
+								},
+								"add": false
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:crimson_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 3.0,
+						"max": 3.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:watercraft_frame_angled",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 3.0,
+						"max": 3.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:oarlock",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 3.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:scaffolding",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 4.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:oar",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 5.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:lead",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "alekiships:structures/sloop/spruce",
+			"json": {
+				"type": "minecraft:chest",
+				"random_sequence": "alekiships:structures/sloop/spruce",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:spruce_planks"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 96.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 2.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:watercraft_frame_angled"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 1.0,
+									"max": 3.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool2",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:watercraft_frame_flat"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 3.0,
+									"max": 7.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool3",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:cleat"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 4.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool4",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:scaffolding"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 5.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool5",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:slime_ball"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": 8.0,
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool6",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:lead"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:spruce_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:watercraft_frame_angled",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:watercraft_frame_flat",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 3.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:cleat",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 4.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:scaffolding",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 5.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:slime_ball",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 6.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:lead",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "alekiships:structures/rowboat/spruce",
+			"json": {
+				"type": "minecraft:chest",
+				"random_sequence": "alekiships:structures/rowboat/spruce",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 3.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:spruce_planks"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 16.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 3.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:watercraft_frame_angled"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 1.0,
+									"max": 3.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool2",
+						"rolls": 2.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:oarlock"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 1.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool3",
+						"rolls": 2.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:scaffolding"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 5.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool4",
+						"rolls": 2.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:oar"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 1.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool5",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:lead"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 1.0
+								},
+								"add": false
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:spruce_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 3.0,
+						"max": 3.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:watercraft_frame_angled",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 3.0,
+						"max": 3.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:oarlock",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 3.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:scaffolding",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 4.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:oar",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 5.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:lead",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "alekiships:structures/sloop_hut/dark_oak",
+			"json": {
+				"type": "minecraft:chest",
+				"random_sequence": "alekiships:structures/sloop_hut/dark_oak",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:cleat"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 2.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:anchor"
+							}
+						]
+					},
+					{
+						"name": "pool2",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:scaffolding"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 10.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool3",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:bread"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 3.0,
+									"max": 10.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool4",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:cannonball"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 1.0,
+									"max": 6.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool5",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:flint_and_steel"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 1.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool6",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:music_disc_pirate_crafting"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 1.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool7",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:dark_oak_planks"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 32.0
+								},
+								"add": false
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:cleat",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:anchor",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:scaffolding",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 3.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bread",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 4.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:cannonball",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 5.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:flint_and_steel",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 6.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:music_disc_pirate_crafting",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 7.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:dark_oak_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "alekiships:structures/sloop_hut/warped",
+			"json": {
+				"type": "minecraft:chest",
+				"random_sequence": "alekiships:structures/sloop_hut/warped",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:cleat"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 2.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:anchor"
+							}
+						]
+					},
+					{
+						"name": "pool2",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:scaffolding"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 10.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool3",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:bread"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 3.0,
+									"max": 10.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool4",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:cannonball"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 1.0,
+									"max": 6.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool5",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:flint_and_steel"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 1.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool6",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:music_disc_pirate_crafting"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 1.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool7",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:warped_planks"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 32.0
+								},
+								"add": false
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:cleat",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:anchor",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:scaffolding",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 3.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bread",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 4.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:cannonball",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 5.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:flint_and_steel",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 6.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:music_disc_pirate_crafting",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 7.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:warped_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "alekiships:structures/sloop/oak",
+			"json": {
+				"type": "minecraft:chest",
+				"random_sequence": "alekiships:structures/sloop/oak",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:oak_planks"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 96.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 2.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:watercraft_frame_angled"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 1.0,
+									"max": 3.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool2",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:watercraft_frame_flat"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 3.0,
+									"max": 7.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool3",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:cleat"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 4.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool4",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:scaffolding"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 5.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool5",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:slime_ball"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": 8.0,
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool6",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:lead"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:oak_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:watercraft_frame_angled",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:watercraft_frame_flat",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 3.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:cleat",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 4.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:scaffolding",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 5.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:slime_ball",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 6.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:lead",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "alekiships:structures/rowboat/mangrove",
+			"json": {
+				"type": "minecraft:chest",
+				"random_sequence": "alekiships:structures/rowboat/mangrove",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 3.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:mangrove_planks"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 16.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 3.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:watercraft_frame_angled"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 1.0,
+									"max": 3.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool2",
+						"rolls": 2.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:oarlock"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 1.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool3",
+						"rolls": 2.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:scaffolding"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 5.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool4",
+						"rolls": 2.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:oar"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 1.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool5",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:lead"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 1.0
+								},
+								"add": false
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:mangrove_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 3.0,
+						"max": 3.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:watercraft_frame_angled",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 3.0,
+						"max": 3.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:oarlock",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 3.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:scaffolding",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 4.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:oar",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 5.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:lead",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "alekiships:structures/rowboat/acacia",
+			"json": {
+				"type": "minecraft:chest",
+				"random_sequence": "alekiships:structures/rowboat/acacia",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 3.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:acacia_planks"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 16.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 3.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:watercraft_frame_angled"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 1.0,
+									"max": 3.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool2",
+						"rolls": 2.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:oarlock"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 1.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool3",
+						"rolls": 2.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:scaffolding"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 5.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool4",
+						"rolls": 2.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:oar"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 1.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool5",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:lead"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 1.0
+								},
+								"add": false
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:acacia_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 3.0,
+						"max": 3.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:watercraft_frame_angled",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 3.0,
+						"max": 3.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:oarlock",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 3.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:scaffolding",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 4.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:oar",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 5.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:lead",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "alekiships:structures/sloop/warped",
+			"json": {
+				"type": "minecraft:chest",
+				"random_sequence": "alekiships:structures/sloop/warped",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:warped_planks"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 96.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 2.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:watercraft_frame_angled"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 1.0,
+									"max": 3.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool2",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:watercraft_frame_flat"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 3.0,
+									"max": 7.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool3",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:cleat"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 4.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool4",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:scaffolding"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 5.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool5",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:slime_ball"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": 8.0,
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool6",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:lead"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:warped_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:watercraft_frame_angled",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:watercraft_frame_flat",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 3.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:cleat",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 4.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:scaffolding",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 5.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:slime_ball",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 6.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:lead",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "alekiships:structures/sloop/acacia",
+			"json": {
+				"type": "minecraft:chest",
+				"random_sequence": "alekiships:structures/sloop/acacia",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:acacia_planks"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 96.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 2.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:watercraft_frame_angled"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 1.0,
+									"max": 3.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool2",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:watercraft_frame_flat"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 3.0,
+									"max": 7.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool3",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:cleat"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 4.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool4",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:scaffolding"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 5.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool5",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:slime_ball"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": 8.0,
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool6",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:lead"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:acacia_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:watercraft_frame_angled",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:watercraft_frame_flat",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 3.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:cleat",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 4.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:scaffolding",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 5.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:slime_ball",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 6.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:lead",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "alekiships:structures/sloop/mangrove",
+			"json": {
+				"type": "minecraft:chest",
+				"random_sequence": "alekiships:structures/sloop/mangrove",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:mangrove_planks"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 96.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 2.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:watercraft_frame_angled"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 1.0,
+									"max": 3.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool2",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:watercraft_frame_flat"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 3.0,
+									"max": 7.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool3",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:cleat"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 4.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool4",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:scaffolding"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 5.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool5",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:slime_ball"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": 8.0,
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool6",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:lead"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:mangrove_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:watercraft_frame_angled",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:watercraft_frame_flat",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 3.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:cleat",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 4.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:scaffolding",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 5.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:slime_ball",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 6.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:lead",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "alekiships:structures/rowboat/warped",
+			"json": {
+				"type": "minecraft:chest",
+				"random_sequence": "alekiships:structures/rowboat/warped",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 3.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:warped_planks"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 16.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 3.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:watercraft_frame_angled"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 1.0,
+									"max": 3.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool2",
+						"rolls": 2.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:oarlock"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 1.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool3",
+						"rolls": 2.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:scaffolding"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 5.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool4",
+						"rolls": 2.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:oar"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 1.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool5",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:lead"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 1.0
+								},
+								"add": false
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:warped_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 3.0,
+						"max": 3.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:watercraft_frame_angled",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 3.0,
+						"max": 3.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:oarlock",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 3.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:scaffolding",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 4.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:oar",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 5.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:lead",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "alekiships:structures/sloop/dark_oak",
+			"json": {
+				"type": "minecraft:chest",
+				"random_sequence": "alekiships:structures/sloop/dark_oak",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:dark_oak_planks"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 96.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 2.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:watercraft_frame_angled"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 1.0,
+									"max": 3.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool2",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:watercraft_frame_flat"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 3.0,
+									"max": 7.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool3",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:cleat"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 4.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool4",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:scaffolding"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 5.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool5",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:slime_ball"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": 8.0,
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool6",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:lead"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:dark_oak_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:watercraft_frame_angled",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:watercraft_frame_flat",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 3.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:cleat",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 4.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:scaffolding",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 5.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:slime_ball",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 6.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:lead",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "alekiships:structures/rowboat/cherry",
+			"json": {
+				"type": "minecraft:chest",
+				"random_sequence": "alekiships:structures/rowboat/cherry",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 3.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:cherry_planks"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 16.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 3.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:watercraft_frame_angled"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 1.0,
+									"max": 3.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool2",
+						"rolls": 2.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:oarlock"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 1.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool3",
+						"rolls": 2.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:scaffolding"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 5.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool4",
+						"rolls": 2.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:oar"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 1.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool5",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:lead"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 1.0
+								},
+								"add": false
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:cherry_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 3.0,
+						"max": 3.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:watercraft_frame_angled",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 3.0,
+						"max": 3.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:oarlock",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 3.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:scaffolding",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 4.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:oar",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 5.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:lead",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "alekiships:structures/sloop/jungle",
+			"json": {
+				"type": "minecraft:chest",
+				"random_sequence": "alekiships:structures/sloop/jungle",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:jungle_planks"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 96.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 2.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:watercraft_frame_angled"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 1.0,
+									"max": 3.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool2",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:watercraft_frame_flat"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 3.0,
+									"max": 7.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool3",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:cleat"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 4.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool4",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:scaffolding"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 5.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool5",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:slime_ball"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": 8.0,
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool6",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:lead"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:jungle_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:watercraft_frame_angled",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:watercraft_frame_flat",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 3.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:cleat",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 4.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:scaffolding",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 5.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:slime_ball",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 6.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:lead",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "alekiships:structures/sloop/cherry",
+			"json": {
+				"type": "minecraft:chest",
+				"random_sequence": "alekiships:structures/sloop/cherry",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:cherry_planks"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 96.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 2.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:watercraft_frame_angled"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 1.0,
+									"max": 3.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool2",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:watercraft_frame_flat"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 3.0,
+									"max": 7.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool3",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:cleat"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 4.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool4",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:scaffolding"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 5.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool5",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:slime_ball"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": 8.0,
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool6",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:lead"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:cherry_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:watercraft_frame_angled",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:watercraft_frame_flat",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 3.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:cleat",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 4.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:scaffolding",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 5.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:slime_ball",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 6.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:lead",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "alekiships:structures/sloop/crimson",
+			"json": {
+				"type": "minecraft:chest",
+				"random_sequence": "alekiships:structures/sloop/crimson",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:crimson_planks"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 96.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 2.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:watercraft_frame_angled"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 1.0,
+									"max": 3.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool2",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:watercraft_frame_flat"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 3.0,
+									"max": 7.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool3",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:cleat"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 4.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool4",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:scaffolding"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 5.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool5",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:slime_ball"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": 8.0,
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool6",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:lead"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:crimson_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:watercraft_frame_angled",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:watercraft_frame_flat",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 3.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:cleat",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 4.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:scaffolding",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 5.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:slime_ball",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 6.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:lead",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "alekiships:structures/rowboat/oak",
+			"json": {
+				"type": "minecraft:chest",
+				"random_sequence": "alekiships:structures/rowboat/oak",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 3.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:oak_planks"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 16.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 3.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:watercraft_frame_angled"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 1.0,
+									"max": 3.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool2",
+						"rolls": 2.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:oarlock"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 1.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool3",
+						"rolls": 2.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:scaffolding"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 5.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool4",
+						"rolls": 2.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:oar"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 1.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool5",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:lead"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 1.0
+								},
+								"add": false
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:oak_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 3.0,
+						"max": 3.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:watercraft_frame_angled",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 3.0,
+						"max": 3.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:oarlock",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 3.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:scaffolding",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 4.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:oar",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 5.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:lead",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "alekiships:structures/rowboat/jungle",
+			"json": {
+				"type": "minecraft:chest",
+				"random_sequence": "alekiships:structures/rowboat/jungle",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 3.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:jungle_planks"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 16.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 3.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:watercraft_frame_angled"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 1.0,
+									"max": 3.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool2",
+						"rolls": 2.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:oarlock"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 1.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool3",
+						"rolls": 2.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:scaffolding"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 5.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool4",
+						"rolls": 2.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:oar"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 1.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool5",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:lead"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 1.0
+								},
+								"add": false
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:jungle_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 3.0,
+						"max": 3.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:watercraft_frame_angled",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 3.0,
+						"max": 3.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:oarlock",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 3.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:scaffolding",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 4.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:oar",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 5.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:lead",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "alekiships:structures/sloop_hut/mangrove",
+			"json": {
+				"type": "minecraft:chest",
+				"random_sequence": "alekiships:structures/sloop_hut/mangrove",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:cleat"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 2.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:anchor"
+							}
+						]
+					},
+					{
+						"name": "pool2",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:scaffolding"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 10.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool3",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:bread"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 3.0,
+									"max": 10.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool4",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:cannonball"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 1.0,
+									"max": 6.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool5",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:flint_and_steel"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 1.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool6",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:music_disc_pirate_crafting"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 1.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool7",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:mangrove_planks"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 32.0
+								},
+								"add": false
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:cleat",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:anchor",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:scaffolding",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 3.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bread",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 4.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:cannonball",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 5.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:flint_and_steel",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 6.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:music_disc_pirate_crafting",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 7.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:mangrove_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "alekiships:structures/sloop/bamboo",
+			"json": {
+				"type": "minecraft:chest",
+				"random_sequence": "alekiships:structures/sloop/bamboo",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:bamboo_planks"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 96.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 2.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:watercraft_frame_angled"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 1.0,
+									"max": 3.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool2",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:watercraft_frame_flat"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 3.0,
+									"max": 7.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool3",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:cleat"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 4.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool4",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:scaffolding"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 5.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool5",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:slime_ball"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": 8.0,
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool6",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:lead"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bamboo_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:watercraft_frame_angled",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:watercraft_frame_flat",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 3.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:cleat",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 4.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:scaffolding",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 5.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:slime_ball",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 6.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:lead",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "alekiships:structures/rowboat/bamboo",
+			"json": {
+				"type": "minecraft:chest",
+				"random_sequence": "alekiships:structures/rowboat/bamboo",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 3.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:bamboo_planks"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 16.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 3.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:watercraft_frame_angled"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 1.0,
+									"max": 3.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool2",
+						"rolls": 2.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:oarlock"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 1.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool3",
+						"rolls": 2.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:scaffolding"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 5.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool4",
+						"rolls": 2.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:oar"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 1.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool5",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:lead"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 1.0
+								},
+								"add": false
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bamboo_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 3.0,
+						"max": 3.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:watercraft_frame_angled",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 3.0,
+						"max": 3.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:oarlock",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 3.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:scaffolding",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 4.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:oar",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 5.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:lead",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "alekiships:structures/sloop_hut/spruce",
+			"json": {
+				"type": "minecraft:chest",
+				"random_sequence": "alekiships:structures/sloop_hut/spruce",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:cleat"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 2.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:anchor"
+							}
+						]
+					},
+					{
+						"name": "pool2",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:scaffolding"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 10.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool3",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:bread"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 3.0,
+									"max": 10.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool4",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:cannonball"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 1.0,
+									"max": 6.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool5",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:flint_and_steel"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 1.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool6",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:music_disc_pirate_crafting"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 1.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool7",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:spruce_planks"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 32.0
+								},
+								"add": false
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:cleat",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:anchor",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:scaffolding",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 3.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bread",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 4.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:cannonball",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 5.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:flint_and_steel",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 6.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:music_disc_pirate_crafting",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 7.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:spruce_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "alekiships:structures/sloop_hut/crimson",
+			"json": {
+				"type": "minecraft:chest",
+				"random_sequence": "alekiships:structures/sloop_hut/crimson",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:cleat"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 2.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:anchor"
+							}
+						]
+					},
+					{
+						"name": "pool2",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:scaffolding"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 10.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool3",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:bread"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 3.0,
+									"max": 10.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool4",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:cannonball"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 1.0,
+									"max": 6.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool5",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:flint_and_steel"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 1.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool6",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:music_disc_pirate_crafting"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 1.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool7",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:crimson_planks"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 32.0
+								},
+								"add": false
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:cleat",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:anchor",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:scaffolding",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 3.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bread",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 4.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:cannonball",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 5.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:flint_and_steel",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 6.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:music_disc_pirate_crafting",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 7.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:crimson_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "alekiships:structures/sloop/birch",
+			"json": {
+				"type": "minecraft:chest",
+				"random_sequence": "alekiships:structures/sloop/birch",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:birch_planks"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 96.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 2.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:watercraft_frame_angled"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 1.0,
+									"max": 3.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool2",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:watercraft_frame_flat"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 3.0,
+									"max": 7.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool3",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:cleat"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 4.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool4",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:scaffolding"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 5.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool5",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:slime_ball"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": 8.0,
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool6",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:lead"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:birch_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:watercraft_frame_angled",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:watercraft_frame_flat",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 3.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:cleat",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 4.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:scaffolding",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 5.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:slime_ball",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 6.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:lead",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "alekiships:structures/sloop_hut/birch",
+			"json": {
+				"type": "minecraft:chest",
+				"random_sequence": "alekiships:structures/sloop_hut/birch",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:cleat"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 2.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:anchor"
+							}
+						]
+					},
+					{
+						"name": "pool2",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:scaffolding"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 10.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool3",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:bread"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 3.0,
+									"max": 10.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool4",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:cannonball"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 1.0,
+									"max": 6.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool5",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:flint_and_steel"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 1.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool6",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:music_disc_pirate_crafting"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 1.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool7",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:birch_planks"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 32.0
+								},
+								"add": false
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:cleat",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:anchor",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:scaffolding",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 3.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bread",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 4.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:cannonball",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 5.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:flint_and_steel",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 6.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:music_disc_pirate_crafting",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 7.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:birch_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "alekiships:structures/sloop_hut/cherry",
+			"json": {
+				"type": "minecraft:chest",
+				"random_sequence": "alekiships:structures/sloop_hut/cherry",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:cleat"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 2.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:anchor"
+							}
+						]
+					},
+					{
+						"name": "pool2",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:scaffolding"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 10.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool3",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:bread"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 3.0,
+									"max": 10.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool4",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:cannonball"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 1.0,
+									"max": 6.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool5",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:flint_and_steel"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 1.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool6",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:music_disc_pirate_crafting"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 1.0
+								},
+								"add": false
+							}
+						]
+					},
+					{
+						"name": "pool7",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:cherry_planks"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 0.0,
+									"max": 32.0
+								},
+								"add": false
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:cleat",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:anchor",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:scaffolding",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 3.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bread",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 4.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:cannonball",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 5.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:flint_and_steel",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 6.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:music_disc_pirate_crafting",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 7.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:cherry_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		}
+	]
+}

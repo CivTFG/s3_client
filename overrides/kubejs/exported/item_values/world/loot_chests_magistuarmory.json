@@ -1,0 +1,646 @@
+{
+	"group": "chests",
+	"namespace": "magistuarmory",
+	"tables": [
+		{
+			"id": "magistuarmory:chests/village/village_weaponsmith",
+			"json": {
+				"type": "minecraft:chest",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": {
+							"type": "minecraft:uniform",
+							"min": 3.0,
+							"max": 8.0
+						},
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"weight": 5.0,
+								"name": "magistuarmory:chainmail_horse_armor"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 3.0,
+								"name": "magistuarmory:barding"
+							},
+							{
+								"type": "minecraft:empty",
+								"weight": 92.0
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "magistuarmory:chainmail_horse_armor",
+					"weight": 5.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 3.0,
+						"max": 8.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "magistuarmory:barding",
+					"weight": 3.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 3.0,
+						"max": 8.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:empty",
+					"id": null,
+					"weight": 92.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 3.0,
+						"max": 8.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "magistuarmory:chests/nether_bridge",
+			"json": {
+				"type": "minecraft:chest",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": {
+							"type": "minecraft:uniform",
+							"min": 2.0,
+							"max": 4.0
+						},
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"weight": 5.0,
+								"name": "magistuarmory:chainmail_horse_armor"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 3.0,
+								"name": "magistuarmory:barding"
+							},
+							{
+								"type": "minecraft:empty",
+								"weight": 92.0
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "magistuarmory:chainmail_horse_armor",
+					"weight": 5.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 4.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "magistuarmory:barding",
+					"weight": 3.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 4.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:empty",
+					"id": null,
+					"weight": 92.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 4.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "magistuarmory:chests/stronghold_corridor",
+			"json": {
+				"type": "minecraft:chest",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": {
+							"type": "minecraft:uniform",
+							"min": 2.0,
+							"max": 3.0
+						},
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"weight": 5.0,
+								"name": "magistuarmory:chainmail_horse_armor"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 3.0,
+								"name": "magistuarmory:barding"
+							},
+							{
+								"type": "minecraft:empty",
+								"weight": 92.0
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "magistuarmory:chainmail_horse_armor",
+					"weight": 5.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 3.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "magistuarmory:barding",
+					"weight": 3.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 3.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:empty",
+					"id": null,
+					"weight": 92.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 3.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "magistuarmory:chests/end_city_treasure",
+			"json": {
+				"type": "minecraft:chest",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": {
+							"type": "minecraft:uniform",
+							"min": 2.0,
+							"max": 6.0
+						},
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"weight": 5.0,
+								"name": "magistuarmory:chainmail_horse_armor"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 3.0,
+								"name": "magistuarmory:barding"
+							},
+							{
+								"type": "minecraft:empty",
+								"weight": 92.0
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "magistuarmory:chainmail_horse_armor",
+					"weight": 5.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 6.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "magistuarmory:barding",
+					"weight": 3.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 6.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:empty",
+					"id": null,
+					"weight": 92.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 6.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "magistuarmory:chests/ruined_portal",
+			"json": {
+				"type": "minecraft:chest",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": {
+							"type": "minecraft:uniform",
+							"min": 4.0,
+							"max": 8.0
+						},
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"weight": 5.0,
+								"name": "magistuarmory:chainmail_horse_armor"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 3.0,
+								"name": "magistuarmory:barding"
+							},
+							{
+								"type": "minecraft:empty",
+								"weight": 92.0
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "magistuarmory:chainmail_horse_armor",
+					"weight": 5.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 4.0,
+						"max": 8.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "magistuarmory:barding",
+					"weight": 3.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 4.0,
+						"max": 8.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:empty",
+					"id": null,
+					"weight": 92.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 4.0,
+						"max": 8.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "magistuarmory:chests/jungle_temple",
+			"json": {
+				"type": "minecraft:chest",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": {
+							"type": "minecraft:uniform",
+							"min": 2.0,
+							"max": 6.0
+						},
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"weight": 5.0,
+								"name": "magistuarmory:chainmail_horse_armor"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 3.0,
+								"name": "magistuarmory:barding"
+							},
+							{
+								"type": "minecraft:empty",
+								"weight": 92.0
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "magistuarmory:chainmail_horse_armor",
+					"weight": 5.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 6.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "magistuarmory:barding",
+					"weight": 3.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 6.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:empty",
+					"id": null,
+					"weight": 92.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 6.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "magistuarmory:chests/desert_pyramid",
+			"json": {
+				"type": "minecraft:chest",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": {
+							"type": "minecraft:uniform",
+							"min": 2.0,
+							"max": 4.0
+						},
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"weight": 5.0,
+								"name": "magistuarmory:chainmail_horse_armor"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 3.0,
+								"name": "magistuarmory:barding"
+							},
+							{
+								"type": "minecraft:empty",
+								"weight": 92.0
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "magistuarmory:chainmail_horse_armor",
+					"weight": 5.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 4.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "magistuarmory:barding",
+					"weight": 3.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 4.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:empty",
+					"id": null,
+					"weight": 92.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 4.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "magistuarmory:chests/simple_dungeon",
+			"json": {
+				"type": "minecraft:chest",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": {
+							"type": "minecraft:uniform",
+							"min": 1.0,
+							"max": 3.0
+						},
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"weight": 5.0,
+								"name": "magistuarmory:chainmail_horse_armor"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 3.0,
+								"name": "magistuarmory:barding"
+							},
+							{
+								"type": "minecraft:empty",
+								"weight": 92.0
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "magistuarmory:chainmail_horse_armor",
+					"weight": 5.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 3.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "magistuarmory:barding",
+					"weight": 3.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 3.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:empty",
+					"id": null,
+					"weight": 92.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 3.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		}
+	]
+}

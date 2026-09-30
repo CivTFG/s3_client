@@ -1,0 +1,7628 @@
+{
+	"group": "blocks",
+	"namespace": "copycats",
+	"tables": [
+		{
+			"id": "copycats:blocks/copycat_sliding_door",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "copycats:blocks/copycat_sliding_door",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "copycats:copycat_sliding_door",
+										"properties": {
+											"half": "lower"
+										}
+									}
+								],
+								"name": "copycats:copycat_sliding_door"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_sliding_door",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "copycats:blocks/copycat_slope_layer",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "copycats:blocks/copycat_slope_layer",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 1.0,
+										"add": false
+									}
+								],
+								"name": "copycats:copycat_slope_layer"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_slope_layer",
+								"properties": {
+									"layers": "1"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 2.0,
+										"add": false
+									}
+								],
+								"name": "copycats:copycat_slope_layer"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_slope_layer",
+								"properties": {
+									"layers": "2"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool2",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 3.0,
+										"add": false
+									}
+								],
+								"name": "copycats:copycat_slope_layer"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_slope_layer",
+								"properties": {
+									"layers": "3"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool3",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 4.0,
+										"add": false
+									}
+								],
+								"name": "copycats:copycat_slope_layer"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_slope_layer",
+								"properties": {
+									"layers": "4"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool4",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 5.0,
+										"add": false
+									}
+								],
+								"name": "copycats:copycat_slope_layer"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_slope_layer",
+								"properties": {
+									"layers": "5"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool5",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 6.0,
+										"add": false
+									}
+								],
+								"name": "copycats:copycat_slope_layer"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_slope_layer",
+								"properties": {
+									"layers": "6"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool6",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 7.0,
+										"add": false
+									}
+								],
+								"name": "copycats:copycat_slope_layer"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_slope_layer",
+								"properties": {
+									"layers": "7"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool7",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 8.0,
+										"add": false
+									}
+								],
+								"name": "copycats:copycat_slope_layer"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_slope_layer",
+								"properties": {
+									"layers": "8"
+								}
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_slope_layer",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_slope_layer",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_slope_layer",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 3.0,
+						"max": 3.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 3.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_slope_layer",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 4.0,
+						"max": 4.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 4.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_slope_layer",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 5.0,
+						"max": 5.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 5.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_slope_layer",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 6.0,
+						"max": 6.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 6.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_slope_layer",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 7.0,
+						"max": 7.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 7.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_slope_layer",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 8.0,
+						"max": 8.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "copycats:blocks/copycat_cogwheel",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "copycats:blocks/copycat_cogwheel",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "copycats:copycat_cogwheel"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_cogwheel",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "copycats:blocks/copycat_stairs",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "copycats:blocks/copycat_stairs",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "copycats:copycat_stairs"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_stairs",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "copycats:blocks/copycat_vertical_step",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "copycats:blocks/copycat_vertical_step",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "copycats:copycat_vertical_step"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_vertical_step",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "copycats:blocks/copycat_flat_pane",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "copycats:blocks/copycat_flat_pane",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "copycats:copycat_flat_pane"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_flat_pane",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "copycats:blocks/copycat_iron_trapdoor",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "copycats:blocks/copycat_iron_trapdoor",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "copycats:copycat_iron_trapdoor"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_iron_trapdoor",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "copycats:blocks/copycat_board",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "copycats:blocks/copycat_board",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "copycats:copycat_board"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_board",
+								"properties": {
+									"down": "true"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "copycats:copycat_board"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_board",
+								"properties": {
+									"up": "true"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool2",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "copycats:copycat_board"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_board",
+								"properties": {
+									"north": "true"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool3",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "copycats:copycat_board"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_board",
+								"properties": {
+									"south": "true"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool4",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "copycats:copycat_board"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_board",
+								"properties": {
+									"west": "true"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool5",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "copycats:copycat_board"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_board",
+								"properties": {
+									"east": "true"
+								}
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_board",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_board",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_board",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 3.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_board",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 4.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_board",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 5.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_board",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "copycats:blocks/copycat_fence",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "copycats:blocks/copycat_fence",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "copycats:copycat_fence"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_fence",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "copycats:blocks/copycat_stacked_half_layer",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "copycats:blocks/copycat_stacked_half_layer",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 1.0,
+										"add": false
+									}
+								],
+								"name": "copycats:copycat_stacked_half_layer"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_stacked_half_layer",
+								"properties": {
+									"positive_layers": "1"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 2.0,
+										"add": false
+									}
+								],
+								"name": "copycats:copycat_stacked_half_layer"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_stacked_half_layer",
+								"properties": {
+									"positive_layers": "2"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool2",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 3.0,
+										"add": false
+									}
+								],
+								"name": "copycats:copycat_stacked_half_layer"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_stacked_half_layer",
+								"properties": {
+									"positive_layers": "3"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool3",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 4.0,
+										"add": false
+									}
+								],
+								"name": "copycats:copycat_stacked_half_layer"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_stacked_half_layer",
+								"properties": {
+									"positive_layers": "4"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool4",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 5.0,
+										"add": false
+									}
+								],
+								"name": "copycats:copycat_stacked_half_layer"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_stacked_half_layer",
+								"properties": {
+									"positive_layers": "5"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool5",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 6.0,
+										"add": false
+									}
+								],
+								"name": "copycats:copycat_stacked_half_layer"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_stacked_half_layer",
+								"properties": {
+									"positive_layers": "6"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool6",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 7.0,
+										"add": false
+									}
+								],
+								"name": "copycats:copycat_stacked_half_layer"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_stacked_half_layer",
+								"properties": {
+									"positive_layers": "7"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool7",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 8.0,
+										"add": false
+									}
+								],
+								"name": "copycats:copycat_stacked_half_layer"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_stacked_half_layer",
+								"properties": {
+									"positive_layers": "8"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool8",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 1.0,
+										"add": false
+									}
+								],
+								"name": "copycats:copycat_stacked_half_layer"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_stacked_half_layer",
+								"properties": {
+									"negative_layers": "1"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool9",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 2.0,
+										"add": false
+									}
+								],
+								"name": "copycats:copycat_stacked_half_layer"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_stacked_half_layer",
+								"properties": {
+									"negative_layers": "2"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool10",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 3.0,
+										"add": false
+									}
+								],
+								"name": "copycats:copycat_stacked_half_layer"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_stacked_half_layer",
+								"properties": {
+									"negative_layers": "3"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool11",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 4.0,
+										"add": false
+									}
+								],
+								"name": "copycats:copycat_stacked_half_layer"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_stacked_half_layer",
+								"properties": {
+									"negative_layers": "4"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool12",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 5.0,
+										"add": false
+									}
+								],
+								"name": "copycats:copycat_stacked_half_layer"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_stacked_half_layer",
+								"properties": {
+									"negative_layers": "5"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool13",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 6.0,
+										"add": false
+									}
+								],
+								"name": "copycats:copycat_stacked_half_layer"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_stacked_half_layer",
+								"properties": {
+									"negative_layers": "6"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool14",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 7.0,
+										"add": false
+									}
+								],
+								"name": "copycats:copycat_stacked_half_layer"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_stacked_half_layer",
+								"properties": {
+									"negative_layers": "7"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool15",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 8.0,
+										"add": false
+									}
+								],
+								"name": "copycats:copycat_stacked_half_layer"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_stacked_half_layer",
+								"properties": {
+									"negative_layers": "8"
+								}
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_stacked_half_layer",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_stacked_half_layer",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_stacked_half_layer",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 3.0,
+						"max": 3.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 3.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_stacked_half_layer",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 4.0,
+						"max": 4.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 4.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_stacked_half_layer",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 5.0,
+						"max": 5.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 5.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_stacked_half_layer",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 6.0,
+						"max": 6.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 6.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_stacked_half_layer",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 7.0,
+						"max": 7.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 7.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_stacked_half_layer",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 8.0,
+						"max": 8.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 8.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_stacked_half_layer",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 9.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_stacked_half_layer",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 10.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_stacked_half_layer",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 3.0,
+						"max": 3.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 11.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_stacked_half_layer",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 4.0,
+						"max": 4.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 12.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_stacked_half_layer",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 5.0,
+						"max": 5.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 13.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_stacked_half_layer",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 6.0,
+						"max": 6.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 14.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_stacked_half_layer",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 7.0,
+						"max": 7.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 15.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_stacked_half_layer",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 8.0,
+						"max": 8.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "copycats:blocks/copycat_corner_slice",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "copycats:blocks/copycat_corner_slice",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 1.0,
+										"add": false
+									}
+								],
+								"name": "copycats:copycat_corner_slice"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_corner_slice",
+								"properties": {
+									"layers": "1"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 2.0,
+										"add": false
+									}
+								],
+								"name": "copycats:copycat_corner_slice"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_corner_slice",
+								"properties": {
+									"layers": "2"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool2",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 3.0,
+										"add": false
+									}
+								],
+								"name": "copycats:copycat_corner_slice"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_corner_slice",
+								"properties": {
+									"layers": "3"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool3",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 4.0,
+										"add": false
+									}
+								],
+								"name": "copycats:copycat_corner_slice"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_corner_slice",
+								"properties": {
+									"layers": "4"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool4",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 5.0,
+										"add": false
+									}
+								],
+								"name": "copycats:copycat_corner_slice"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_corner_slice",
+								"properties": {
+									"layers": "5"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool5",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 6.0,
+										"add": false
+									}
+								],
+								"name": "copycats:copycat_corner_slice"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_corner_slice",
+								"properties": {
+									"layers": "6"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool6",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 7.0,
+										"add": false
+									}
+								],
+								"name": "copycats:copycat_corner_slice"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_corner_slice",
+								"properties": {
+									"layers": "7"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool7",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 8.0,
+										"add": false
+									}
+								],
+								"name": "copycats:copycat_corner_slice"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_corner_slice",
+								"properties": {
+									"layers": "8"
+								}
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_corner_slice",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_corner_slice",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_corner_slice",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 3.0,
+						"max": 3.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 3.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_corner_slice",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 4.0,
+						"max": 4.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 4.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_corner_slice",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 5.0,
+						"max": 5.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 5.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_corner_slice",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 6.0,
+						"max": 6.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 6.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_corner_slice",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 7.0,
+						"max": 7.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 7.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_corner_slice",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 8.0,
+						"max": 8.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "copycats:blocks/copycat_half_panel",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "copycats:blocks/copycat_half_panel",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "copycats:copycat_half_panel"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_half_panel",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "copycats:blocks/copycat_pane",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "copycats:blocks/copycat_pane",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "copycats:copycat_pane"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_pane",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "copycats:blocks/copycat_byte",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "copycats:blocks/copycat_byte",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "copycats:copycat_byte"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_byte",
+								"properties": {
+									"bottom_northwest": "true"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "copycats:copycat_byte"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_byte",
+								"properties": {
+									"bottom_southwest": "true"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool2",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "copycats:copycat_byte"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_byte",
+								"properties": {
+									"top_northwest": "true"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool3",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "copycats:copycat_byte"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_byte",
+								"properties": {
+									"top_southwest": "true"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool4",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "copycats:copycat_byte"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_byte",
+								"properties": {
+									"bottom_northeast": "true"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool5",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "copycats:copycat_byte"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_byte",
+								"properties": {
+									"bottom_southeast": "true"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool6",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "copycats:copycat_byte"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_byte",
+								"properties": {
+									"top_northeast": "true"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool7",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "copycats:copycat_byte"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_byte",
+								"properties": {
+									"top_southeast": "true"
+								}
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_byte",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_byte",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_byte",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 3.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_byte",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 4.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_byte",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 5.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_byte",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 6.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_byte",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 7.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_byte",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "copycats:blocks/copycat_byte_panel",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "copycats:blocks/copycat_byte_panel",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "copycats:copycat_byte_panel"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_byte_panel",
+								"properties": {
+									"bottom_right": "true"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "copycats:copycat_byte_panel"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_byte_panel",
+								"properties": {
+									"top_right": "true"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool2",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "copycats:copycat_byte_panel"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_byte_panel",
+								"properties": {
+									"bottom_left": "true"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool3",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "copycats:copycat_byte_panel"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_byte_panel",
+								"properties": {
+									"top_left": "true"
+								}
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_byte_panel",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_byte_panel",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_byte_panel",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 3.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_byte_panel",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "copycats:blocks/copycat_slab",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "copycats:blocks/copycat_slab",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"conditions": [
+											{
+												"condition": "minecraft:block_state_property",
+												"block": "copycats:copycat_slab",
+												"properties": {
+													"type": "double"
+												}
+											}
+										],
+										"count": 2.0,
+										"add": false
+									},
+									{
+										"function": "minecraft:explosion_decay"
+									}
+								],
+								"name": "copycats:copycat_slab"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_slab",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count",
+						"minecraft:explosion_decay"
+					],
+					"conditions": [],
+					"chain": [],
+					"countConditional": true
+				}
+			]
+		},
+		{
+			"id": "copycats:blocks/copycat_vertical_half_layer",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "copycats:blocks/copycat_vertical_half_layer",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 1.0,
+										"add": false
+									}
+								],
+								"name": "copycats:copycat_vertical_half_layer"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_vertical_half_layer",
+								"properties": {
+									"positive_layers": "1"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 2.0,
+										"add": false
+									}
+								],
+								"name": "copycats:copycat_vertical_half_layer"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_vertical_half_layer",
+								"properties": {
+									"positive_layers": "2"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool2",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 3.0,
+										"add": false
+									}
+								],
+								"name": "copycats:copycat_vertical_half_layer"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_vertical_half_layer",
+								"properties": {
+									"positive_layers": "3"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool3",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 4.0,
+										"add": false
+									}
+								],
+								"name": "copycats:copycat_vertical_half_layer"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_vertical_half_layer",
+								"properties": {
+									"positive_layers": "4"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool4",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 5.0,
+										"add": false
+									}
+								],
+								"name": "copycats:copycat_vertical_half_layer"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_vertical_half_layer",
+								"properties": {
+									"positive_layers": "5"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool5",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 6.0,
+										"add": false
+									}
+								],
+								"name": "copycats:copycat_vertical_half_layer"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_vertical_half_layer",
+								"properties": {
+									"positive_layers": "6"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool6",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 7.0,
+										"add": false
+									}
+								],
+								"name": "copycats:copycat_vertical_half_layer"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_vertical_half_layer",
+								"properties": {
+									"positive_layers": "7"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool7",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 8.0,
+										"add": false
+									}
+								],
+								"name": "copycats:copycat_vertical_half_layer"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_vertical_half_layer",
+								"properties": {
+									"positive_layers": "8"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool8",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 1.0,
+										"add": false
+									}
+								],
+								"name": "copycats:copycat_vertical_half_layer"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_vertical_half_layer",
+								"properties": {
+									"negative_layers": "1"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool9",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 2.0,
+										"add": false
+									}
+								],
+								"name": "copycats:copycat_vertical_half_layer"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_vertical_half_layer",
+								"properties": {
+									"negative_layers": "2"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool10",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 3.0,
+										"add": false
+									}
+								],
+								"name": "copycats:copycat_vertical_half_layer"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_vertical_half_layer",
+								"properties": {
+									"negative_layers": "3"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool11",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 4.0,
+										"add": false
+									}
+								],
+								"name": "copycats:copycat_vertical_half_layer"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_vertical_half_layer",
+								"properties": {
+									"negative_layers": "4"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool12",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 5.0,
+										"add": false
+									}
+								],
+								"name": "copycats:copycat_vertical_half_layer"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_vertical_half_layer",
+								"properties": {
+									"negative_layers": "5"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool13",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 6.0,
+										"add": false
+									}
+								],
+								"name": "copycats:copycat_vertical_half_layer"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_vertical_half_layer",
+								"properties": {
+									"negative_layers": "6"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool14",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 7.0,
+										"add": false
+									}
+								],
+								"name": "copycats:copycat_vertical_half_layer"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_vertical_half_layer",
+								"properties": {
+									"negative_layers": "7"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool15",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 8.0,
+										"add": false
+									}
+								],
+								"name": "copycats:copycat_vertical_half_layer"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_vertical_half_layer",
+								"properties": {
+									"negative_layers": "8"
+								}
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_vertical_half_layer",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_vertical_half_layer",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_vertical_half_layer",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 3.0,
+						"max": 3.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 3.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_vertical_half_layer",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 4.0,
+						"max": 4.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 4.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_vertical_half_layer",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 5.0,
+						"max": 5.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 5.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_vertical_half_layer",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 6.0,
+						"max": 6.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 6.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_vertical_half_layer",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 7.0,
+						"max": 7.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 7.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_vertical_half_layer",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 8.0,
+						"max": 8.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 8.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_vertical_half_layer",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 9.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_vertical_half_layer",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 10.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_vertical_half_layer",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 3.0,
+						"max": 3.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 11.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_vertical_half_layer",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 4.0,
+						"max": 4.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 12.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_vertical_half_layer",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 5.0,
+						"max": 5.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 13.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_vertical_half_layer",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 6.0,
+						"max": 6.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 14.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_vertical_half_layer",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 7.0,
+						"max": 7.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 15.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_vertical_half_layer",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 8.0,
+						"max": 8.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "copycats:blocks/copycat_wooden_button",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "copycats:blocks/copycat_wooden_button",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "copycats:copycat_wooden_button"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_wooden_button",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "copycats:blocks/copycat_ghost_block",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "copycats:blocks/copycat_ghost_block",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "copycats:copycat_ghost_block"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_ghost_block",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "copycats:blocks/copycat_iron_door",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "copycats:blocks/copycat_iron_door",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "copycats:copycat_iron_door",
+										"properties": {
+											"half": "lower"
+										}
+									}
+								],
+								"name": "copycats:copycat_iron_door"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_iron_door",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "copycats:blocks/copycat_slice",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "copycats:blocks/copycat_slice",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 1.0,
+										"add": false
+									}
+								],
+								"name": "copycats:copycat_slice"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_slice",
+								"properties": {
+									"layers": "1"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 2.0,
+										"add": false
+									}
+								],
+								"name": "copycats:copycat_slice"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_slice",
+								"properties": {
+									"layers": "2"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool2",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 3.0,
+										"add": false
+									}
+								],
+								"name": "copycats:copycat_slice"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_slice",
+								"properties": {
+									"layers": "3"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool3",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 4.0,
+										"add": false
+									}
+								],
+								"name": "copycats:copycat_slice"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_slice",
+								"properties": {
+									"layers": "4"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool4",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 5.0,
+										"add": false
+									}
+								],
+								"name": "copycats:copycat_slice"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_slice",
+								"properties": {
+									"layers": "5"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool5",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 6.0,
+										"add": false
+									}
+								],
+								"name": "copycats:copycat_slice"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_slice",
+								"properties": {
+									"layers": "6"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool6",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 7.0,
+										"add": false
+									}
+								],
+								"name": "copycats:copycat_slice"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_slice",
+								"properties": {
+									"layers": "7"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool7",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 8.0,
+										"add": false
+									}
+								],
+								"name": "copycats:copycat_slice"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_slice",
+								"properties": {
+									"layers": "8"
+								}
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_slice",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_slice",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_slice",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 3.0,
+						"max": 3.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 3.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_slice",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 4.0,
+						"max": 4.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 4.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_slice",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 5.0,
+						"max": 5.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 5.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_slice",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 6.0,
+						"max": 6.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 6.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_slice",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 7.0,
+						"max": 7.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 7.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_slice",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 8.0,
+						"max": 8.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "copycats:blocks/copycat_base",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "copycats:blocks/copycat_base",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:air"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:air",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "copycats:blocks/copycat_folding_door",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "copycats:blocks/copycat_folding_door",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "copycats:copycat_folding_door",
+										"properties": {
+											"half": "lower"
+										}
+									}
+								],
+								"name": "copycats:copycat_folding_door"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_folding_door",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "copycats:blocks/copycat_large_cogwheel",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "copycats:blocks/copycat_large_cogwheel",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "copycats:copycat_large_cogwheel"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_large_cogwheel",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "copycats:blocks/copycat_vertical_stairs",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "copycats:blocks/copycat_vertical_stairs",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "copycats:copycat_vertical_stairs"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_vertical_stairs",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "copycats:blocks/copycat_trapdoor",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "copycats:blocks/copycat_trapdoor",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "copycats:copycat_trapdoor"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_trapdoor",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "copycats:blocks/copycat_wooden_pressure_plate",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "copycats:blocks/copycat_wooden_pressure_plate",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "copycats:copycat_wooden_pressure_plate"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_wooden_pressure_plate",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "copycats:blocks/copycat_vertical_slice",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "copycats:blocks/copycat_vertical_slice",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 1.0,
+										"add": false
+									}
+								],
+								"name": "copycats:copycat_vertical_slice"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_vertical_slice",
+								"properties": {
+									"layers": "1"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 2.0,
+										"add": false
+									}
+								],
+								"name": "copycats:copycat_vertical_slice"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_vertical_slice",
+								"properties": {
+									"layers": "2"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool2",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 3.0,
+										"add": false
+									}
+								],
+								"name": "copycats:copycat_vertical_slice"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_vertical_slice",
+								"properties": {
+									"layers": "3"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool3",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 4.0,
+										"add": false
+									}
+								],
+								"name": "copycats:copycat_vertical_slice"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_vertical_slice",
+								"properties": {
+									"layers": "4"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool4",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 5.0,
+										"add": false
+									}
+								],
+								"name": "copycats:copycat_vertical_slice"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_vertical_slice",
+								"properties": {
+									"layers": "5"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool5",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 6.0,
+										"add": false
+									}
+								],
+								"name": "copycats:copycat_vertical_slice"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_vertical_slice",
+								"properties": {
+									"layers": "6"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool6",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 7.0,
+										"add": false
+									}
+								],
+								"name": "copycats:copycat_vertical_slice"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_vertical_slice",
+								"properties": {
+									"layers": "7"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool7",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 8.0,
+										"add": false
+									}
+								],
+								"name": "copycats:copycat_vertical_slice"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_vertical_slice",
+								"properties": {
+									"layers": "8"
+								}
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_vertical_slice",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_vertical_slice",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_vertical_slice",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 3.0,
+						"max": 3.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 3.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_vertical_slice",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 4.0,
+						"max": 4.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 4.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_vertical_slice",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 5.0,
+						"max": 5.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 5.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_vertical_slice",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 6.0,
+						"max": 6.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 6.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_vertical_slice",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 7.0,
+						"max": 7.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 7.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_vertical_slice",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 8.0,
+						"max": 8.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "copycats:blocks/copycat_glass_fluid_pipe",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "copycats:blocks/copycat_glass_fluid_pipe",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "copycats:copycat_fluid_pipe"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_fluid_pipe",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "copycats:blocks/copycat_beam",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "copycats:blocks/copycat_beam",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "copycats:copycat_beam"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_beam",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "copycats:blocks/copycat_wall",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "copycats:blocks/copycat_wall",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "copycats:copycat_wall"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_wall",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "copycats:blocks/copycat_fence_gate",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "copycats:blocks/copycat_fence_gate",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "copycats:copycat_fence_gate"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_fence_gate",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "copycats:blocks/copycat_layer",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "copycats:blocks/copycat_layer",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 1.0,
+										"add": false
+									}
+								],
+								"name": "copycats:copycat_layer"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_layer",
+								"properties": {
+									"layers": "1"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 2.0,
+										"add": false
+									}
+								],
+								"name": "copycats:copycat_layer"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_layer",
+								"properties": {
+									"layers": "2"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool2",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 3.0,
+										"add": false
+									}
+								],
+								"name": "copycats:copycat_layer"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_layer",
+								"properties": {
+									"layers": "3"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool3",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 4.0,
+										"add": false
+									}
+								],
+								"name": "copycats:copycat_layer"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_layer",
+								"properties": {
+									"layers": "4"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool4",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 5.0,
+										"add": false
+									}
+								],
+								"name": "copycats:copycat_layer"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_layer",
+								"properties": {
+									"layers": "5"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool5",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 6.0,
+										"add": false
+									}
+								],
+								"name": "copycats:copycat_layer"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_layer",
+								"properties": {
+									"layers": "6"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool6",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 7.0,
+										"add": false
+									}
+								],
+								"name": "copycats:copycat_layer"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_layer",
+								"properties": {
+									"layers": "7"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool7",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 8.0,
+										"add": false
+									}
+								],
+								"name": "copycats:copycat_layer"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_layer",
+								"properties": {
+									"layers": "8"
+								}
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_layer",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_layer",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_layer",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 3.0,
+						"max": 3.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 3.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_layer",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 4.0,
+						"max": 4.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 4.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_layer",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 5.0,
+						"max": 5.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 5.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_layer",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 6.0,
+						"max": 6.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 6.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_layer",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 7.0,
+						"max": 7.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 7.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_layer",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 8.0,
+						"max": 8.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "copycats:blocks/copycat_slope",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "copycats:blocks/copycat_slope",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "copycats:copycat_slope"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_slope",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "copycats:blocks/copycat_ladder",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "copycats:blocks/copycat_ladder",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "copycats:copycat_ladder"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_ladder",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "copycats:blocks/copycat_stone_button",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "copycats:blocks/copycat_stone_button",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "copycats:copycat_stone_button"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_stone_button",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "copycats:blocks/copycat_heavy_weighted_pressure_plate",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "copycats:blocks/copycat_heavy_weighted_pressure_plate",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "copycats:copycat_heavy_weighted_pressure_plate"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_heavy_weighted_pressure_plate",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "copycats:blocks/wrapped_copycat",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "copycats:blocks/wrapped_copycat",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:air"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:air",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "copycats:blocks/copycat_stone_pressure_plate",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "copycats:blocks/copycat_stone_pressure_plate",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "copycats:copycat_stone_pressure_plate"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_stone_pressure_plate",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "copycats:blocks/copycat_door",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "copycats:blocks/copycat_door",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "copycats:copycat_door",
+										"properties": {
+											"half": "lower"
+										}
+									}
+								],
+								"name": "copycats:copycat_door"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_door",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "copycats:blocks/copycat_light_weighted_pressure_plate",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "copycats:blocks/copycat_light_weighted_pressure_plate",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "copycats:copycat_light_weighted_pressure_plate"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_light_weighted_pressure_plate",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "copycats:blocks/copycat_block",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "copycats:blocks/copycat_block",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "copycats:copycat_block"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_block",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "copycats:blocks/copycat_half_layer",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "copycats:blocks/copycat_half_layer",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 1.0,
+										"add": false
+									}
+								],
+								"name": "copycats:copycat_half_layer"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_half_layer",
+								"properties": {
+									"negative_layers": "1"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 2.0,
+										"add": false
+									}
+								],
+								"name": "copycats:copycat_half_layer"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_half_layer",
+								"properties": {
+									"negative_layers": "2"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool2",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 3.0,
+										"add": false
+									}
+								],
+								"name": "copycats:copycat_half_layer"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_half_layer",
+								"properties": {
+									"negative_layers": "3"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool3",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 4.0,
+										"add": false
+									}
+								],
+								"name": "copycats:copycat_half_layer"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_half_layer",
+								"properties": {
+									"negative_layers": "4"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool4",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 5.0,
+										"add": false
+									}
+								],
+								"name": "copycats:copycat_half_layer"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_half_layer",
+								"properties": {
+									"negative_layers": "5"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool5",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 6.0,
+										"add": false
+									}
+								],
+								"name": "copycats:copycat_half_layer"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_half_layer",
+								"properties": {
+									"negative_layers": "6"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool6",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 7.0,
+										"add": false
+									}
+								],
+								"name": "copycats:copycat_half_layer"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_half_layer",
+								"properties": {
+									"negative_layers": "7"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool7",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 8.0,
+										"add": false
+									}
+								],
+								"name": "copycats:copycat_half_layer"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_half_layer",
+								"properties": {
+									"negative_layers": "8"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool8",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 1.0,
+										"add": false
+									}
+								],
+								"name": "copycats:copycat_half_layer"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_half_layer",
+								"properties": {
+									"positive_layers": "1"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool9",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 2.0,
+										"add": false
+									}
+								],
+								"name": "copycats:copycat_half_layer"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_half_layer",
+								"properties": {
+									"positive_layers": "2"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool10",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 3.0,
+										"add": false
+									}
+								],
+								"name": "copycats:copycat_half_layer"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_half_layer",
+								"properties": {
+									"positive_layers": "3"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool11",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 4.0,
+										"add": false
+									}
+								],
+								"name": "copycats:copycat_half_layer"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_half_layer",
+								"properties": {
+									"positive_layers": "4"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool12",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 5.0,
+										"add": false
+									}
+								],
+								"name": "copycats:copycat_half_layer"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_half_layer",
+								"properties": {
+									"positive_layers": "5"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool13",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 6.0,
+										"add": false
+									}
+								],
+								"name": "copycats:copycat_half_layer"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_half_layer",
+								"properties": {
+									"positive_layers": "6"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool14",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 7.0,
+										"add": false
+									}
+								],
+								"name": "copycats:copycat_half_layer"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_half_layer",
+								"properties": {
+									"positive_layers": "7"
+								}
+							}
+						]
+					},
+					{
+						"name": "pool15",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 8.0,
+										"add": false
+									}
+								],
+								"name": "copycats:copycat_half_layer"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "copycats:copycat_half_layer",
+								"properties": {
+									"positive_layers": "8"
+								}
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_half_layer",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_half_layer",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_half_layer",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 3.0,
+						"max": 3.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 3.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_half_layer",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 4.0,
+						"max": 4.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 4.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_half_layer",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 5.0,
+						"max": 5.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 5.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_half_layer",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 6.0,
+						"max": 6.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 6.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_half_layer",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 7.0,
+						"max": 7.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 7.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_half_layer",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 8.0,
+						"max": 8.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 8.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_half_layer",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 9.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_half_layer",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 10.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_half_layer",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 3.0,
+						"max": 3.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 11.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_half_layer",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 4.0,
+						"max": 4.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 12.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_half_layer",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 5.0,
+						"max": 5.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 13.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_half_layer",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 6.0,
+						"max": 6.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 14.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_half_layer",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 7.0,
+						"max": 7.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 15.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_half_layer",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 8.0,
+						"max": 8.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "copycats:blocks/copycat_shaft",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "copycats:blocks/copycat_shaft",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "copycats:copycat_shaft"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_shaft",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "copycats:blocks/copycat_fluid_pipe",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "copycats:blocks/copycat_fluid_pipe",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "copycats:copycat_fluid_pipe"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_fluid_pipe",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "copycats:blocks/copycat_vertical_slope",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "copycats:blocks/copycat_vertical_slope",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "copycats:copycat_vertical_slope"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "copycats:copycat_vertical_slope",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		}
+	]
+}

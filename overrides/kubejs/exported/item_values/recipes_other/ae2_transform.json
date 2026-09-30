@@ -1,0 +1,5977 @@
+{
+	"type": "ae2:transform",
+	"recipes": [
+		{
+			"id": "tfg:ae_transform/apatite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_apatite_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_apatite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/phlogopite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_phlogopite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:phlogopite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/zeolite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_zeolite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:zeolite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/ferhodsite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_ferhodsite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:ferhodsite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/granitic_mineral_sand_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_granitic_mineral_sand_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_granitic_mineral_sand_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/molybdenum_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_molybdenum_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_molybdenum_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/powellite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_powellite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:powellite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/amethyst_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_amethyst_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:amethyst_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/quartzite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_quartzite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:quartzite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/red_garnet_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_red_garnet_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:red_garnet_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/kyanite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_kyanite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:kyanite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/tricalcium_phosphate_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_tricalcium_phosphate_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:tricalcium_phosphate_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/hematite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_hematite_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_hematite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/basaltic_mineral_sand_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_basaltic_mineral_sand_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_basaltic_mineral_sand_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/stibnite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_stibnite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:stibnite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/emerald_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_emerald_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:emerald_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/goethite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_goethite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:goethite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/sodalite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_sodalite_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_sodalite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/topaz_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_topaz_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:topaz_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/oilsands_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_oilsands_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:oilsands_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/monazite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_monazite_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_monazite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/graphite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_graphite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:graphite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/asbestos_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_asbestos_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_asbestos_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/platinum_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_platinum_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_platinum_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/bauxite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_bauxite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:bauxite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/galena_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_galena_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_galena_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/barite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_barite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:barite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/bismuth_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_bismuth_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:bismuth_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/tin_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_tin_ore"
+					]
+				}
+			],
+			"resultId": "create:crushed_raw_tin",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/platinum_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_platinum_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:platinum_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/malachite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_malachite_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_malachite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/opal_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_opal_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_opal_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/spessartine_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_spessartine_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_spessartine_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/tetrahedrite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_tetrahedrite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:tetrahedrite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/nether_quartz_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_nether_quartz_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:nether_quartz_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/diatomite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_diatomite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:diatomite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/garnet_sand_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_garnet_sand_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:garnet_sand_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/sapphire_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_sapphire_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_sapphire_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/vanadium_magnetite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_vanadium_magnetite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:vanadium_magnetite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/cooperite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_cooperite_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_cooperite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/silver_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_silver_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:silver_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/spessartine_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_spessartine_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:spessartine_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/oilsands_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_oilsands_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:oilsands_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/ferhodsite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_ferhodsite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:ferhodsite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/bauxite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_bauxite_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_bauxite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/bismuth_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_bismuth_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:bismuth_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/cobalt_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_cobalt_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:cobalt_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/bentonite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_bentonite_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_bentonite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/armalcolite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_armalcolite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:armalcolite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/desh_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_desh_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_desh_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/pyrolusite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_pyrolusite_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_pyrolusite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/glauconite_sand_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_glauconite_sand_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:glauconite_sand_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/electrotine_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_electrotine_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:electrotine_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/nickel_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_nickel_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:nickel_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/redstone_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_redstone_dust"
+					]
+				}
+			],
+			"resultId": "minecraft:redstone",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/pyrolusite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_pyrolusite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:pyrolusite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/apatite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_apatite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:apatite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/desh_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_desh_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:desh_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/lorandite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:impure_lorandite_dust"
+					]
+				}
+			],
+			"resultId": "tfg:lorandite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/bentonite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_bentonite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:bentonite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/asbestos_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_asbestos_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:asbestos_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/ruby_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_ruby_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:ruby_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/certus_quartz_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_certus_quartz_dust"
+					]
+				}
+			],
+			"resultId": "ae2:certus_quartz_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/lapis_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_lapis_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:lapis_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/opal_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_opal_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:opal_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/sodalite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_sodalite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:sodalite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/fullers_earth_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_fullers_earth_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:fullers_earth_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/cobaltite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_cobaltite_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_cobaltite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/almandine_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_almandine_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:almandine_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/redstone_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_redstone_dust"
+					]
+				}
+			],
+			"resultId": "minecraft:redstone",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/redstone_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_redstone_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_redstone_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/basaltic_mineral_sand_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_basaltic_mineral_sand_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:basaltic_mineral_sand_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/chromite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_chromite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:chromite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/molybdenite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_molybdenite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:molybdenite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/borax_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_borax_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:borax_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/certus_quartz_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_certus_quartz_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_certus_quartz_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/podzol_to_mud",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:dirt/podzol"
+					]
+				}
+			],
+			"resultId": "tfg:mud/podzol",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/molybdenite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_molybdenite_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_molybdenite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/tantalite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_tantalite_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_tantalite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/talc_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_talc_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:talc_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/cinnabar_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_cinnabar_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:cinnabar_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/almandine_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_almandine_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:almandine_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/iron_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_iron_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:iron_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/weathered_iron_window",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"create:industrial_iron_window"
+					]
+				}
+			],
+			"resultId": "create:weathered_iron_window",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/yellow_garnet_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_yellow_garnet_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_yellow_garnet_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/diamond_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_diamond_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:diamond_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/tricalcium_phosphate_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_tricalcium_phosphate_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:tricalcium_phosphate_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/cassiterite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_cassiterite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:cassiterite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/barite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_barite_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_barite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/vanadium_magnetite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_vanadium_magnetite_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_vanadium_magnetite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/alunite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_alunite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:alunite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/salt_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_salt_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:salt_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/cobalt_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_cobalt_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:cobalt_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/ruby_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_ruby_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_ruby_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/kyanite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_kyanite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:kyanite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/yellow_garnet_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_yellow_garnet_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:yellow_garnet_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/tarkianite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_tarkianite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:tarkianite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/mica_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_mica_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_mica_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/realgar_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_realgar_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_realgar_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/pyrochlore_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_pyrochlore_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:pyrochlore_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/uraninite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_uraninite_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_uraninite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/loam_to_mud",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:dirt/loam"
+					]
+				}
+			],
+			"resultId": "tfc:mud/loam",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/tarkianite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_tarkianite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:tarkianite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/salt_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_salt_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:salt_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/lepidolite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_lepidolite_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_lepidolite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/electrotine_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_electrotine_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:electrotine_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/bauxite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_bauxite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:bauxite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/vanadium_magnetite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_vanadium_magnetite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:vanadium_magnetite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/silt_to_mud",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:dirt/silt"
+					]
+				}
+			],
+			"resultId": "tfc:mud/silt",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/alunite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_alunite_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_alunite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/sulfur_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_sulfur_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:sulfur_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/pyrope_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_pyrope_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:pyrope_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/basaltic_mineral_sand_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_basaltic_mineral_sand_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:basaltic_mineral_sand_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/ferhodsite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_ferhodsite_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_ferhodsite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/wulfenite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_wulfenite_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_wulfenite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/borax_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_borax_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_borax_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/chalcocite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_chalcocite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:chalcocite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/magnetite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_magnetite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:magnetite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/cinnabar_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_cinnabar_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_cinnabar_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/bismuth_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_bismuth_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_bismuth_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/cooperite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_cooperite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:cooperite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/spodumene_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_spodumene_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_spodumene_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/sapphire_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_sapphire_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:sapphire_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/clean_foil_pack",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:used_foil_pack"
+					]
+				}
+			],
+			"resultId": "tfg:clean_foil_pack",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/cooperite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_cooperite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:cooperite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/olivine_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_olivine_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:olivine_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/monazite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_monazite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:monazite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/sandy_loam_to_mud",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:dirt/sandy_loam"
+					]
+				}
+			],
+			"resultId": "tfc:mud/sandy_loam",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/sodalite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_sodalite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:sodalite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/mollisol_to_mud",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:dirt/mollisol"
+					]
+				}
+			],
+			"resultId": "tfg:mud/mollisol",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/garnierite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_garnierite_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_garnierite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/nether_quartz_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_nether_quartz_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_nether_quartz_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/copper_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_copper_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:copper_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/almandine_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_almandine_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_almandine_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/palladium_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_palladium_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:palladium_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/bastnasite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_bastnasite_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_bastnasite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/lazurite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_lazurite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:lazurite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/rose_quartz_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"greate:crushed_rose_quartz_ore"
+					]
+				}
+			],
+			"resultId": "greate:purified_rose_quartz_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/molybdenum_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_molybdenum_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:molybdenum_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/blue_topaz_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_blue_topaz_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:blue_topaz_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/weathered_iron_block",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"create:industrial_iron_block"
+					]
+				}
+			],
+			"resultId": "create:weathered_iron_block",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/uraninite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_uraninite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:uraninite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/tricalcium_phosphate_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_tricalcium_phosphate_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_tricalcium_phosphate_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/silver_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_silver_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:silver_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/realgar_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_realgar_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:realgar_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/tetrahedrite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_tetrahedrite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:tetrahedrite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/pyrolusite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_pyrolusite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:pyrolusite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/rose_quartz_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"greate:impure_rose_quartz_dust"
+					]
+				}
+			],
+			"resultId": "greate:rose_quartz_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/lapis_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_lapis_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_lapis_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/zeolite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_zeolite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:zeolite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/magnetite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_magnetite_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_magnetite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/topaz_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_topaz_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:topaz_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/diamond_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_diamond_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_diamond_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/pentlandite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_pentlandite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:pentlandite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/monazite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_monazite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:monazite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/lead_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_lead_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:lead_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/irarsite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_irarsite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:irarsite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/gypsum_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_gypsum_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:gypsum_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/yellow_limonite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_yellow_limonite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:yellow_limonite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/yellow_limonite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_yellow_limonite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:yellow_limonite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/irarsite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_irarsite_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_irarsite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/cassiterite_sand_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_cassiterite_sand_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:cassiterite_sand_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/graphite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_graphite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:graphite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/mica_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_mica_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:mica_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/rock_salt_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_rock_salt_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_rock_salt_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/stibnite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_stibnite_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_stibnite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/amethyst_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_amethyst_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:amethyst_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/copper_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_copper_ore"
+					]
+				}
+			],
+			"resultId": "create:crushed_raw_copper",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/lead_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_lead_ore"
+					]
+				}
+			],
+			"resultId": "create:crushed_raw_lead",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/tungstate_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_tungstate_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:tungstate_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/diamond_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_diamond_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:diamond_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/bastnasite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_bastnasite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:bastnasite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/sphalerite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_sphalerite_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_sphalerite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/bornite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_bornite_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_bornite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/red_garnet_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_red_garnet_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_red_garnet_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/grossular_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_grossular_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_grossular_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/salt_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_salt_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_salt_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/red_garnet_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_red_garnet_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:red_garnet_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/talc_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_talc_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:talc_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/diatomite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_diatomite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:diatomite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/sphalerite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_sphalerite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:sphalerite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/granitic_mineral_sand_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_granitic_mineral_sand_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:granitic_mineral_sand_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/pyrochlore_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_pyrochlore_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_pyrochlore_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/tin_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_tin_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:tin_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/lepidolite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_lepidolite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:lepidolite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/tantalite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_tantalite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:tantalite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/yellow_limonite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_yellow_limonite_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_yellow_limonite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/iron_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_iron_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:iron_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/pollucite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_pollucite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:pollucite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/emerald_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_emerald_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:emerald_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/graphite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_graphite_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_graphite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/pyrite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_pyrite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:pyrite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/chalcopyrite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_chalcopyrite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:chalcopyrite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/lithium_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_lithium_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:lithium_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/pentlandite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_pentlandite_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_pentlandite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/pitchblende_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_pitchblende_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_pitchblende_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/pollucite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_pollucite_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_pollucite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/topaz_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_topaz_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_topaz_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/calcite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_calcite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:calcite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/glauconite_sand_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_glauconite_sand_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_glauconite_sand_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/cobalt_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_cobalt_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_cobalt_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/ilmenite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_ilmenite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:ilmenite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/blue_topaz_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_blue_topaz_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_blue_topaz_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/amethyst_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_amethyst_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_amethyst_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/lorandite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:pure_lorandite_dust"
+					]
+				}
+			],
+			"resultId": "tfg:lorandite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/hematite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_hematite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:hematite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/grossular_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_grossular_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:grossular_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/pitchblende_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_pitchblende_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:pitchblende_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/gold_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_gold_ore"
+					]
+				}
+			],
+			"resultId": "create:crushed_raw_gold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/armalcolite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_armalcolite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:armalcolite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/barite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_barite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:barite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/pyrope_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_pyrope_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:pyrope_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/nickel_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_nickel_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:nickel_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/gold_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_gold_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:gold_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/calcite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_calcite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:calcite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/chalcocite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_chalcocite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:chalcocite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/palladium_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_palladium_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_palladium_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/granitic_mineral_sand_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_granitic_mineral_sand_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:granitic_mineral_sand_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/armalcolite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_armalcolite_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_armalcolite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/tetrahedrite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_tetrahedrite_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_tetrahedrite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/ruby_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_ruby_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:ruby_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/oxisol_to_mud",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:dirt/oxisol"
+					]
+				}
+			],
+			"resultId": "tfg:mud/oxisol",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/powellite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_powellite_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_powellite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/cassiterite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_cassiterite_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_cassiterite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/phlogopite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_phlogopite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:phlogopite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/bastnasite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_bastnasite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:bastnasite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/spodumene_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_spodumene_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:spodumene_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/magnesite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_magnesite_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_magnesite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/borax_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_borax_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:borax_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/desh_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_desh_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:desh_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/trona_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_trona_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:trona_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/goethite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_goethite_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_goethite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/silver_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_silver_ore"
+					]
+				}
+			],
+			"resultId": "create:crushed_raw_silver",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/tarkianite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_tarkianite_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_tarkianite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/olivine_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_olivine_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_olivine_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/scheelite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_scheelite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:scheelite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/tantalite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_tantalite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:tantalite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/naquadah_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_naquadah_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_naquadah_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/scheelite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_scheelite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:scheelite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/diatomite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_diatomite_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_diatomite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/tungstate_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_tungstate_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_tungstate_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/pentlandite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_pentlandite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:pentlandite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/lithium_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_lithium_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:lithium_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/quartzite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_quartzite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:quartzite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/malachite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_malachite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:malachite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/wulfenite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_wulfenite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:wulfenite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/lithium_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_lithium_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_lithium_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/magnetite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_magnetite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:magnetite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/emerald_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_emerald_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_emerald_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/irarsite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_irarsite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:irarsite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/sulfur_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_sulfur_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_sulfur_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/green_sapphire_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_green_sapphire_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:green_sapphire_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/malachite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_malachite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:malachite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/sapphire_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_sapphire_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:sapphire_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/uraninite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_uraninite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:uraninite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/lorandite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:crushed_lorandite_ore"
+					]
+				}
+			],
+			"resultId": "tfg:purified_lorandite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/asbestos_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_asbestos_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:asbestos_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/naquadah_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_naquadah_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:naquadah_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/palladium_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_palladium_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:palladium_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/green_sapphire_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_green_sapphire_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_green_sapphire_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/lazurite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_lazurite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:lazurite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/sulfur_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_sulfur_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:sulfur_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/zeolite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_zeolite_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_zeolite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/jellies_to_slime",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"jellies:jellie/slime_ball/plant",
+						"jellies:jellie/slime_ball/glowberry",
+						"jellies:jellie/slime_ball/latex",
+						"jellies:jellie/slime_ball/phosphorum",
+						"jellies:jellie/slime_ball/herbal",
+						"jellies:jellie/slime_ball/biotite",
+						"jellies:jellie/slime_ball/spring"
+					]
+				}
+			],
+			"resultId": "minecraft:slime_ball",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/gypsum_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_gypsum_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_gypsum_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/sphalerite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_sphalerite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:sphalerite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/platinum_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_platinum_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:platinum_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/silty_loam_to_mud",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:dirt/silty_loam"
+					]
+				}
+			],
+			"resultId": "tfc:mud/silty_loam",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/pyrite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_pyrite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:pyrite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/glauconite_sand_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_glauconite_sand_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:glauconite_sand_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/chromite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_chromite_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_chromite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/saltpeter_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_saltpeter_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:saltpeter_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/soapstone_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_soapstone_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:soapstone_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/oilsands_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_oilsands_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_oilsands_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/lapis_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_lapis_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:lapis_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/garnierite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_garnierite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:garnierite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/talc_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_talc_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_talc_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/pyrite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_pyrite_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_pyrite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/saltpeter_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_saltpeter_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_saltpeter_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/calcite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_calcite_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_calcite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/aluminium_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_aluminium_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:aluminium_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/hematite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_hematite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:hematite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/magnesite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_magnesite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:magnesite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/chalcopyrite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_chalcopyrite_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_chalcopyrite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/alunite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_alunite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:alunite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/chromite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_chromite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:chromite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/pyrochlore_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_pyrochlore_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:pyrochlore_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/bentonite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_bentonite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:bentonite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/neodymium_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_neodymium_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:neodymium_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/phlogopite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_phlogopite_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_phlogopite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/certus_quartz_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_certus_quartz_dust"
+					]
+				}
+			],
+			"resultId": "ae2:certus_quartz_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/iron_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_iron_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_iron_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/electrotine_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_electrotine_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_electrotine_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/rock_salt_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_rock_salt_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:rock_salt_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/trona_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_trona_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:trona_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/copper_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_copper_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:copper_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/torch_to_wood_ash",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:torch"
+					]
+				}
+			],
+			"resultId": "tfc:powder/wood_ash",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/neodymium_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_neodymium_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_neodymium_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/cinnabar_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_cinnabar_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:cinnabar_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/galena_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_galena_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:galena_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/nether_quartz_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_nether_quartz_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:nether_quartz_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/quartzite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_quartzite_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_quartzite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/cobaltite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_cobaltite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:cobaltite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/ruarsite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_ruarsite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:ruarsite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/thorium_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_thorium_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:thorium_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/nickel_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_nickel_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_nickel_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/yellow_garnet_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_yellow_garnet_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:yellow_garnet_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/gold_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_gold_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:gold_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/ilmenite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_ilmenite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:ilmenite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/ilmenite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_ilmenite_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_ilmenite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/spodumene_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_spodumene_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:spodumene_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/mica_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_mica_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:mica_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/green_sapphire_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_green_sapphire_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:green_sapphire_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/cassiterite_sand_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_cassiterite_sand_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_cassiterite_sand_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/thorium_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_thorium_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:thorium_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/aluminium_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_aluminium_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:aluminium_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/magnesite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_magnesite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:magnesite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/neodymium_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_neodymium_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:neodymium_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/alfisol_to_mud",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:dirt/alfisol"
+					]
+				}
+			],
+			"resultId": "tfg:mud/alfisol",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/cobaltite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_cobaltite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:cobaltite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/beryllium_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_beryllium_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:beryllium_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/naquadah_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_naquadah_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:naquadah_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/pyrope_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_pyrope_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_pyrope_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/scheelite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_scheelite_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_scheelite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/lepidolite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_lepidolite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:lepidolite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/soapstone_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_soapstone_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_soapstone_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/tungstate_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_tungstate_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:tungstate_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/lazurite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_lazurite_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_lazurite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/ruarsite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_ruarsite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:ruarsite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/thorium_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_thorium_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_thorium_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/molybdenite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_molybdenite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:molybdenite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/bornite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_bornite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:bornite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/lead_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_lead_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:lead_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/powellite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_powellite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:powellite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/cassiterite_sand_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_cassiterite_sand_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:cassiterite_sand_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/fullers_earth_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_fullers_earth_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_fullers_earth_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/apatite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_apatite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:apatite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/chalcopyrite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_chalcopyrite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:chalcopyrite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/stibnite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_stibnite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:stibnite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/wulfenite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_wulfenite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:wulfenite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/garnet_sand_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_garnet_sand_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:garnet_sand_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "ae2:transform/entangled_singularity_from_pearl",
+			"mod": "ae2",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"ae2:singularity"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:ender_pearl",
+						"endermanoverhaul:corrupted_pearl",
+						"endermanoverhaul:soul_pearl",
+						"endermanoverhaul:ancient_pearl",
+						"endermanoverhaul:bubble_pearl",
+						"endermanoverhaul:summoner_pearl",
+						"endermanoverhaul:icy_pearl",
+						"endermanoverhaul:crimson_pearl",
+						"endermanoverhaul:warped_pearl",
+						"species:wicked_swapper"
+					]
+				}
+			],
+			"resultId": "ae2:quantum_entangled_singularity",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/grossular_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_grossular_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:grossular_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/gypsum_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_gypsum_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:gypsum_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/rose_quartz_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"greate:pure_rose_quartz_dust"
+					]
+				}
+			],
+			"resultId": "greate:rose_quartz_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/trona_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_trona_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_trona_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/aluminium_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_aluminium_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_aluminium_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/tin_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_tin_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:tin_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/soapstone_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_soapstone_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:soapstone_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/garnierite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_garnierite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:garnierite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/saltpeter_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_saltpeter_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:saltpeter_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/garnet_sand_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_garnet_sand_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_garnet_sand_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/bornite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_bornite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:bornite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/fullers_earth_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_fullers_earth_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:fullers_earth_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/rock_salt_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_rock_salt_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:rock_salt_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/opal_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_opal_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:opal_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/realgar_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_realgar_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:realgar_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/goethite_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_goethite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:goethite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/beryllium_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_beryllium_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_beryllium_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/kyanite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_kyanite_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_kyanite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/chalcocite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_chalcocite_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_chalcocite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/blue_topaz_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_blue_topaz_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:blue_topaz_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/cassiterite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_cassiterite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:cassiterite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/beryllium_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_beryllium_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:beryllium_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/pollucite_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_pollucite_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:pollucite_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/ruarsite_purified_ore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:crushed_ruarsite_ore"
+					]
+				}
+			],
+			"resultId": "gtceu:purified_ruarsite_ore",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/olivine_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_olivine_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:olivine_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/pitchblende_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_pitchblende_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:pitchblende_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/molybdenum_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_molybdenum_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:molybdenum_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/weathered_iron_window_pane",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"create:industrial_iron_window_pane"
+					]
+				}
+			],
+			"resultId": "create:weathered_iron_window_pane",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/galena_dust_from_impure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:impure_galena_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:galena_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:ae_transform/spessartine_dust_from_pure",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:pure_spessartine_dust"
+					]
+				}
+			],
+			"resultId": "gtceu:spessartine_dust",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		}
+	]
+}

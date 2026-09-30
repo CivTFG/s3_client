@@ -1,0 +1,43 @@
+{
+	"group": "blocks",
+	"namespace": "endermanoverhaul",
+	"tables": [
+		{
+			"id": "endermanoverhaul:blocks/tiny_skull",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "endermanoverhaul:blocks/tiny_skull",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "endermanoverhaul:tiny_skull"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "endermanoverhaul:tiny_skull",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		}
+	]
+}

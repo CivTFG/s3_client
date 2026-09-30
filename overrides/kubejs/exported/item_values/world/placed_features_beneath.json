@@ -1,0 +1,1167 @@
+{
+	"placed": {
+		"beneath:burpflower": {
+			"feature": "beneath:burpflower",
+			"json": {
+				"feature": "beneath:burpflower",
+				"placement": [
+					{
+						"predicate": {
+							"type": "tfc:replaceable"
+						},
+						"type": "minecraft:block_predicate_filter"
+					},
+					{
+						"predicate": {
+							"state": {
+								"Properties": {
+									"mature": "false",
+									"facing": "north"
+								},
+								"Name": "beneath:burpflower"
+							},
+							"type": "minecraft:would_survive"
+						},
+						"type": "minecraft:block_predicate_filter"
+					},
+					{
+						"predicate": {
+							"blocks": "minecraft:air",
+							"type": "minecraft:matching_blocks"
+						},
+						"type": "minecraft:block_predicate_filter"
+					}
+				]
+			}
+		},
+		"beneath:vein/normal_gold": {
+			"feature": "beneath:vein/normal_gold",
+			"json": {
+				"feature": "beneath:vein/normal_gold",
+				"placement": []
+			}
+		},
+		"beneath:gleamflower_patch": {
+			"feature": "beneath:gleamflower_patch",
+			"json": {
+				"feature": "beneath:gleamflower_patch",
+				"placement": [
+					{
+						"chance": 4.0,
+						"type": "minecraft:rarity_filter"
+					},
+					{
+						"count": 1.0,
+						"type": "minecraft:count_on_every_layer"
+					},
+					{
+						"type": "minecraft:biome"
+					}
+				]
+			}
+		},
+		"beneath:chantrelle_patch": {
+			"feature": "beneath:chantrelle_patch",
+			"json": {
+				"feature": "beneath:chantrelle_patch",
+				"placement": [
+					{
+						"chance": 60.0,
+						"type": "minecraft:rarity_filter"
+					},
+					{
+						"count": 1.0,
+						"type": "minecraft:count_on_every_layer"
+					},
+					{
+						"type": "minecraft:biome"
+					}
+				]
+			}
+		},
+		"beneath:fools_funnel_patch": {
+			"feature": "beneath:fools_funnel_patch",
+			"json": {
+				"feature": "beneath:fools_funnel_patch",
+				"placement": [
+					{
+						"chance": 60.0,
+						"type": "minecraft:rarity_filter"
+					},
+					{
+						"count": 1.0,
+						"type": "minecraft:count_on_every_layer"
+					},
+					{
+						"type": "minecraft:biome"
+					}
+				]
+			}
+		},
+		"beneath:magma_dacite": {
+			"feature": "beneath:magma_dacite",
+			"json": {
+				"feature": "beneath:magma_dacite",
+				"placement": [
+					{
+						"chance": 10.0,
+						"type": "minecraft:rarity_filter"
+					},
+					{
+						"count": 4.0,
+						"type": "minecraft:count"
+					},
+					{
+						"type": "minecraft:in_square"
+					},
+					{
+						"height": {
+							"min_inclusive": {
+								"absolute": 27.0
+							},
+							"max_inclusive": {
+								"absolute": 36.0
+							},
+							"type": "minecraft:uniform"
+						},
+						"type": "minecraft:height_range"
+					},
+					{
+						"type": "minecraft:biome"
+					}
+				]
+			}
+		},
+		"beneath:vein/slime": {
+			"feature": "beneath:vein/slime",
+			"json": {
+				"feature": "beneath:vein/slime",
+				"placement": []
+			}
+		},
+		"beneath:button_patch": {
+			"feature": "beneath:button_patch",
+			"json": {
+				"feature": "beneath:button_patch",
+				"placement": [
+					{
+						"chance": 60.0,
+						"type": "minecraft:rarity_filter"
+					},
+					{
+						"count": 1.0,
+						"type": "minecraft:count_on_every_layer"
+					},
+					{
+						"type": "minecraft:biome"
+					}
+				]
+			}
+		},
+		"beneath:magma_rhyolite": {
+			"feature": "beneath:magma_rhyolite",
+			"json": {
+				"feature": "beneath:magma_rhyolite",
+				"placement": [
+					{
+						"chance": 10.0,
+						"type": "minecraft:rarity_filter"
+					},
+					{
+						"count": 4.0,
+						"type": "minecraft:count"
+					},
+					{
+						"type": "minecraft:in_square"
+					},
+					{
+						"height": {
+							"min_inclusive": {
+								"absolute": 27.0
+							},
+							"max_inclusive": {
+								"absolute": 36.0
+							},
+							"type": "minecraft:uniform"
+						},
+						"type": "minecraft:height_range"
+					},
+					{
+						"type": "minecraft:biome"
+					}
+				]
+			}
+		},
+		"beneath:vein/sylvite": {
+			"feature": "beneath:vein/sylvite",
+			"json": {
+				"feature": "beneath:vein/sylvite",
+				"placement": []
+			}
+		},
+		"beneath:vein/deep_gold": {
+			"feature": "beneath:vein/deep_gold",
+			"json": {
+				"feature": "beneath:vein/deep_gold",
+				"placement": []
+			}
+		},
+		"beneath:blackstone_boulders": {
+			"feature": "beneath:blackstone_boulders",
+			"json": {
+				"feature": "beneath:blackstone_boulders",
+				"placement": [
+					{
+						"chance": 24.0,
+						"type": "minecraft:rarity_filter"
+					},
+					{
+						"count": 1.0,
+						"type": "minecraft:count_on_every_layer"
+					},
+					{
+						"flatness": 0.4,
+						"type": "tfc:flat_enough"
+					},
+					{
+						"type": "minecraft:biome"
+					}
+				]
+			}
+		},
+		"beneath:tree/warped": {
+			"feature": "beneath:tree/warped",
+			"json": {
+				"feature": "beneath:tree/warped",
+				"placement": [
+					{
+						"count": 8.0,
+						"type": "minecraft:count_on_every_layer"
+					},
+					{
+						"type": "minecraft:biome"
+					}
+				]
+			}
+		},
+		"beneath:delta": {
+			"feature": "beneath:delta",
+			"json": {
+				"feature": "beneath:delta",
+				"placement": [
+					{
+						"count": 40.0,
+						"type": "minecraft:count_on_every_layer"
+					},
+					{
+						"type": "minecraft:biome"
+					}
+				]
+			}
+		},
+		"beneath:fools_funnel": {
+			"feature": "beneath:fools_funnel",
+			"json": {
+				"feature": "beneath:fools_funnel",
+				"placement": [
+					{
+						"predicate": {
+							"type": "tfc:replaceable"
+						},
+						"type": "minecraft:block_predicate_filter"
+					},
+					{
+						"predicate": {
+							"state": {
+								"Name": "beneath:mushroom/fools_funnel"
+							},
+							"type": "minecraft:would_survive"
+						},
+						"type": "minecraft:block_predicate_filter"
+					},
+					{
+						"predicate": {
+							"blocks": "minecraft:air",
+							"type": "minecraft:matching_blocks"
+						},
+						"type": "minecraft:block_predicate_filter"
+					}
+				]
+			}
+		},
+		"beneath:soul_clay_disc": {
+			"feature": "beneath:soul_clay_disc",
+			"json": {
+				"feature": "beneath:soul_clay_disc",
+				"placement": [
+					{
+						"chance": 15.0,
+						"type": "minecraft:rarity_filter"
+					},
+					{
+						"count": 1.0,
+						"type": "minecraft:count_on_every_layer"
+					},
+					{
+						"flatness": 0.3,
+						"type": "tfc:flat_enough"
+					}
+				]
+			}
+		},
+		"beneath:cobble_boulders": {
+			"feature": "beneath:cobble_boulders",
+			"json": {
+				"feature": "beneath:cobble_boulders",
+				"placement": [
+					{
+						"chance": 24.0,
+						"type": "minecraft:rarity_filter"
+					},
+					{
+						"count": 1.0,
+						"type": "minecraft:count_on_every_layer"
+					},
+					{
+						"flatness": 0.4,
+						"radius": 3.0,
+						"type": "tfc:flat_enough"
+					},
+					{
+						"type": "minecraft:biome"
+					}
+				]
+			}
+		},
+		"beneath:shittake": {
+			"feature": "beneath:shittake",
+			"json": {
+				"feature": "beneath:shittake",
+				"placement": [
+					{
+						"predicate": {
+							"type": "tfc:replaceable"
+						},
+						"type": "minecraft:block_predicate_filter"
+					},
+					{
+						"predicate": {
+							"state": {
+								"Name": "beneath:mushroom/shittake"
+							},
+							"type": "minecraft:would_survive"
+						},
+						"type": "minecraft:block_predicate_filter"
+					},
+					{
+						"predicate": {
+							"blocks": "minecraft:air",
+							"type": "minecraft:matching_blocks"
+						},
+						"type": "minecraft:block_predicate_filter"
+					}
+				]
+			}
+		},
+		"beneath:blackstone_pebble": {
+			"feature": "beneath:blackstone_pebble",
+			"json": {
+				"feature": "beneath:blackstone_pebble",
+				"placement": [
+					{
+						"predicate": {
+							"type": "tfc:replaceable"
+						},
+						"type": "minecraft:block_predicate_filter"
+					},
+					{
+						"predicate": {
+							"state": {
+								"Properties": {
+									"fluid": "empty",
+									"count": "1"
+								},
+								"Name": "beneath:nether_pebble"
+							},
+							"type": "minecraft:would_survive"
+						},
+						"type": "minecraft:block_predicate_filter"
+					},
+					{
+						"predicate": {
+							"blocks": "minecraft:air",
+							"type": "minecraft:matching_blocks"
+						},
+						"type": "minecraft:block_predicate_filter"
+					}
+				]
+			}
+		},
+		"beneath:chantrelle": {
+			"feature": "beneath:chantrelle",
+			"json": {
+				"feature": "beneath:chantrelle",
+				"placement": [
+					{
+						"predicate": {
+							"type": "tfc:replaceable"
+						},
+						"type": "minecraft:block_predicate_filter"
+					},
+					{
+						"predicate": {
+							"state": {
+								"Name": "beneath:mushroom/chantrelle"
+							},
+							"type": "minecraft:would_survive"
+						},
+						"type": "minecraft:block_predicate_filter"
+					},
+					{
+						"predicate": {
+							"blocks": "minecraft:air",
+							"type": "minecraft:matching_blocks"
+						},
+						"type": "minecraft:block_predicate_filter"
+					}
+				]
+			}
+		},
+		"beneath:nether_spikes": {
+			"feature": "beneath:nether_spikes",
+			"json": {
+				"feature": "beneath:nether_spikes",
+				"placement": [
+					{
+						"count": 128.0,
+						"type": "minecraft:count"
+					},
+					{
+						"type": "minecraft:in_square"
+					},
+					{
+						"height": {
+							"min_inclusive": {
+								"above_bottom": 10.0
+							},
+							"max_inclusive": {
+								"below_top": 10.0
+							},
+							"type": "minecraft:uniform"
+						},
+						"type": "minecraft:height_range"
+					},
+					{
+						"type": "minecraft:biome"
+					}
+				]
+			}
+		},
+		"beneath:destroying_angels": {
+			"feature": "beneath:destroying_angels",
+			"json": {
+				"feature": "beneath:destroying_angels",
+				"placement": [
+					{
+						"predicate": {
+							"type": "tfc:replaceable"
+						},
+						"type": "minecraft:block_predicate_filter"
+					},
+					{
+						"predicate": {
+							"state": {
+								"Name": "beneath:mushroom/destroying_angels"
+							},
+							"type": "minecraft:would_survive"
+						},
+						"type": "minecraft:block_predicate_filter"
+					},
+					{
+						"predicate": {
+							"blocks": "minecraft:air",
+							"type": "minecraft:matching_blocks"
+						},
+						"type": "minecraft:block_predicate_filter"
+					}
+				]
+			}
+		},
+		"beneath:gleamflower": {
+			"feature": "beneath:gleamflower",
+			"json": {
+				"feature": "beneath:gleamflower",
+				"placement": [
+					{
+						"predicate": {
+							"type": "tfc:replaceable"
+						},
+						"type": "minecraft:block_predicate_filter"
+					},
+					{
+						"predicate": {
+							"state": {
+								"Name": "beneath:gleamflower"
+							},
+							"type": "minecraft:would_survive"
+						},
+						"type": "minecraft:block_predicate_filter"
+					},
+					{
+						"predicate": {
+							"blocks": "minecraft:air",
+							"type": "minecraft:matching_blocks"
+						},
+						"type": "minecraft:block_predicate_filter"
+					}
+				]
+			}
+		},
+		"beneath:vein/cursecoal": {
+			"feature": "beneath:vein/cursecoal",
+			"json": {
+				"feature": "beneath:vein/cursecoal",
+				"placement": []
+			}
+		},
+		"beneath:portobello": {
+			"feature": "beneath:portobello",
+			"json": {
+				"feature": "beneath:portobello",
+				"placement": [
+					{
+						"predicate": {
+							"type": "tfc:replaceable"
+						},
+						"type": "minecraft:block_predicate_filter"
+					},
+					{
+						"predicate": {
+							"state": {
+								"Name": "beneath:mushroom/portobello"
+							},
+							"type": "minecraft:would_survive"
+						},
+						"type": "minecraft:block_predicate_filter"
+					},
+					{
+						"predicate": {
+							"blocks": "minecraft:air",
+							"type": "minecraft:matching_blocks"
+						},
+						"type": "minecraft:block_predicate_filter"
+					}
+				]
+			}
+		},
+		"beneath:magma_basalt": {
+			"feature": "beneath:magma_basalt",
+			"json": {
+				"feature": "beneath:magma_basalt",
+				"placement": [
+					{
+						"chance": 10.0,
+						"type": "minecraft:rarity_filter"
+					},
+					{
+						"count": 4.0,
+						"type": "minecraft:count"
+					},
+					{
+						"type": "minecraft:in_square"
+					},
+					{
+						"height": {
+							"min_inclusive": {
+								"absolute": 27.0
+							},
+							"max_inclusive": {
+								"absolute": 36.0
+							},
+							"type": "minecraft:uniform"
+						},
+						"type": "minecraft:height_range"
+					},
+					{
+						"type": "minecraft:biome"
+					}
+				]
+			}
+		},
+		"beneath:blackstone_pebble_patch": {
+			"feature": "beneath:blackstone_pebble_patch",
+			"json": {
+				"feature": "beneath:blackstone_pebble_patch",
+				"placement": [
+					{
+						"chance": 3.0,
+						"type": "minecraft:rarity_filter"
+					},
+					{
+						"count": 2.0,
+						"type": "minecraft:count_on_every_layer"
+					},
+					{
+						"type": "minecraft:biome"
+					}
+				]
+			}
+		},
+		"beneath:amethyst_geode": {
+			"feature": "beneath:amethyst_geode",
+			"json": {
+				"feature": "beneath:amethyst_geode",
+				"placement": [
+					{
+						"chance": 100.0,
+						"type": "minecraft:rarity_filter"
+					},
+					{
+						"height": {
+							"min_inclusive": {
+								"above_bottom": 32.0
+							},
+							"max_inclusive": {
+								"below_top": 10.0
+							},
+							"type": "minecraft:uniform"
+						},
+						"type": "minecraft:height_range"
+					},
+					{
+						"type": "minecraft:in_square"
+					}
+				]
+			}
+		},
+		"beneath:burpflower_patch": {
+			"feature": "beneath:burpflower_patch",
+			"json": {
+				"feature": "beneath:burpflower_patch",
+				"placement": [
+					{
+						"chance": 20.0,
+						"type": "minecraft:rarity_filter"
+					},
+					{
+						"count": 1.0,
+						"type": "minecraft:count_on_every_layer"
+					},
+					{
+						"type": "minecraft:biome"
+					}
+				]
+			}
+		},
+		"beneath:nether_pebble": {
+			"feature": "beneath:nether_pebble",
+			"json": {
+				"feature": "beneath:nether_pebble",
+				"placement": [
+					{
+						"predicate": {
+							"type": "tfc:replaceable"
+						},
+						"type": "minecraft:block_predicate_filter"
+					},
+					{
+						"predicate": {
+							"state": {
+								"Properties": {
+									"fluid": "empty",
+									"count": "1"
+								},
+								"Name": "beneath:nether_pebble"
+							},
+							"type": "minecraft:would_survive"
+						},
+						"type": "minecraft:block_predicate_filter"
+					},
+					{
+						"predicate": {
+							"blocks": "minecraft:air",
+							"type": "minecraft:matching_blocks"
+						},
+						"type": "minecraft:block_predicate_filter"
+					}
+				]
+			}
+		},
+		"beneath:death_cap": {
+			"feature": "beneath:death_cap",
+			"json": {
+				"feature": "beneath:death_cap",
+				"placement": [
+					{
+						"predicate": {
+							"type": "tfc:replaceable"
+						},
+						"type": "minecraft:block_predicate_filter"
+					},
+					{
+						"predicate": {
+							"state": {
+								"Name": "beneath:mushroom/death_cap"
+							},
+							"type": "minecraft:would_survive"
+						},
+						"type": "minecraft:block_predicate_filter"
+					},
+					{
+						"predicate": {
+							"blocks": "minecraft:air",
+							"type": "minecraft:matching_blocks"
+						},
+						"type": "minecraft:block_predicate_filter"
+					}
+				]
+			}
+		},
+		"beneath:nether_pebble_patch": {
+			"feature": "beneath:nether_pebble_patch",
+			"json": {
+				"feature": "beneath:nether_pebble_patch",
+				"placement": [
+					{
+						"chance": 3.0,
+						"type": "minecraft:rarity_filter"
+					},
+					{
+						"count": 5.0,
+						"type": "minecraft:count_on_every_layer"
+					},
+					{
+						"type": "minecraft:biome"
+					}
+				]
+			}
+		},
+		"beneath:button": {
+			"feature": "beneath:button",
+			"json": {
+				"feature": "beneath:button",
+				"placement": [
+					{
+						"predicate": {
+							"type": "tfc:replaceable"
+						},
+						"type": "minecraft:block_predicate_filter"
+					},
+					{
+						"predicate": {
+							"state": {
+								"Name": "beneath:mushroom/button"
+							},
+							"type": "minecraft:would_survive"
+						},
+						"type": "minecraft:block_predicate_filter"
+					},
+					{
+						"predicate": {
+							"blocks": "minecraft:air",
+							"type": "minecraft:matching_blocks"
+						},
+						"type": "minecraft:block_predicate_filter"
+					}
+				]
+			}
+		},
+		"beneath:tree/crimson": {
+			"feature": "beneath:tree/crimson",
+			"json": {
+				"feature": "beneath:tree/crimson",
+				"placement": [
+					{
+						"count": 8.0,
+						"type": "minecraft:count_on_every_layer"
+					},
+					{
+						"type": "minecraft:biome"
+					}
+				]
+			}
+		},
+		"beneath:destroying_angels_patch": {
+			"feature": "beneath:destroying_angels_patch",
+			"json": {
+				"feature": "beneath:destroying_angels_patch",
+				"placement": [
+					{
+						"chance": 60.0,
+						"type": "minecraft:rarity_filter"
+					},
+					{
+						"count": 1.0,
+						"type": "minecraft:count_on_every_layer"
+					},
+					{
+						"type": "minecraft:biome"
+					}
+				]
+			}
+		},
+		"beneath:parasol": {
+			"feature": "beneath:parasol",
+			"json": {
+				"feature": "beneath:parasol",
+				"placement": [
+					{
+						"predicate": {
+							"type": "tfc:replaceable"
+						},
+						"type": "minecraft:block_predicate_filter"
+					},
+					{
+						"predicate": {
+							"state": {
+								"Name": "beneath:mushroom/parasol"
+							},
+							"type": "minecraft:would_survive"
+						},
+						"type": "minecraft:block_predicate_filter"
+					},
+					{
+						"predicate": {
+							"blocks": "minecraft:air",
+							"type": "minecraft:matching_blocks"
+						},
+						"type": "minecraft:block_predicate_filter"
+					}
+				]
+			}
+		},
+		"beneath:oyster_patch": {
+			"feature": "beneath:oyster_patch",
+			"json": {
+				"feature": "beneath:oyster_patch",
+				"placement": [
+					{
+						"chance": 60.0,
+						"type": "minecraft:rarity_filter"
+					},
+					{
+						"count": 1.0,
+						"type": "minecraft:count_on_every_layer"
+					},
+					{
+						"type": "minecraft:biome"
+					}
+				]
+			}
+		},
+		"beneath:sulfur_tuft": {
+			"feature": "beneath:sulfur_tuft",
+			"json": {
+				"feature": "beneath:sulfur_tuft",
+				"placement": [
+					{
+						"predicate": {
+							"type": "tfc:replaceable"
+						},
+						"type": "minecraft:block_predicate_filter"
+					},
+					{
+						"predicate": {
+							"state": {
+								"Name": "beneath:mushroom/sulfur_tuft"
+							},
+							"type": "minecraft:would_survive"
+						},
+						"type": "minecraft:block_predicate_filter"
+					},
+					{
+						"predicate": {
+							"blocks": "minecraft:air",
+							"type": "minecraft:matching_blocks"
+						},
+						"type": "minecraft:block_predicate_filter"
+					}
+				]
+			}
+		},
+		"beneath:magma_andesite": {
+			"feature": "beneath:magma_andesite",
+			"json": {
+				"feature": "beneath:magma_andesite",
+				"placement": [
+					{
+						"chance": 10.0,
+						"type": "minecraft:rarity_filter"
+					},
+					{
+						"count": 4.0,
+						"type": "minecraft:count"
+					},
+					{
+						"type": "minecraft:in_square"
+					},
+					{
+						"height": {
+							"min_inclusive": {
+								"absolute": 27.0
+							},
+							"max_inclusive": {
+								"absolute": 36.0
+							},
+							"type": "minecraft:uniform"
+						},
+						"type": "minecraft:height_range"
+					},
+					{
+						"type": "minecraft:biome"
+					}
+				]
+			}
+		},
+		"beneath:shittake_patch": {
+			"feature": "beneath:shittake_patch",
+			"json": {
+				"feature": "beneath:shittake_patch",
+				"placement": [
+					{
+						"chance": 60.0,
+						"type": "minecraft:rarity_filter"
+					},
+					{
+						"count": 1.0,
+						"type": "minecraft:count_on_every_layer"
+					},
+					{
+						"type": "minecraft:biome"
+					}
+				]
+			}
+		},
+		"beneath:death_cap_patch": {
+			"feature": "beneath:death_cap_patch",
+			"json": {
+				"feature": "beneath:death_cap_patch",
+				"placement": [
+					{
+						"chance": 60.0,
+						"type": "minecraft:rarity_filter"
+					},
+					{
+						"count": 1.0,
+						"type": "minecraft:count_on_every_layer"
+					},
+					{
+						"type": "minecraft:biome"
+					}
+				]
+			}
+		},
+		"beneath:vein/crackrack_pipe": {
+			"feature": "beneath:vein/crackrack_pipe",
+			"json": {
+				"feature": "beneath:vein/crackrack_pipe",
+				"placement": []
+			}
+		},
+		"beneath:sulfur": {
+			"feature": "beneath:sulfur",
+			"json": {
+				"feature": "beneath:sulfur",
+				"placement": [
+					{
+						"predicate": {
+							"type": "tfc:replaceable"
+						},
+						"type": "minecraft:block_predicate_filter"
+					},
+					{
+						"predicate": {
+							"state": {
+								"Name": "beneath:sulfur"
+							},
+							"type": "minecraft:would_survive"
+						},
+						"type": "minecraft:block_predicate_filter"
+					},
+					{
+						"predicate": {
+							"blocks": "minecraft:air",
+							"type": "minecraft:matching_blocks"
+						},
+						"type": "minecraft:block_predicate_filter"
+					}
+				]
+			}
+		},
+		"beneath:portobello_patch": {
+			"feature": "beneath:portobello_patch",
+			"json": {
+				"feature": "beneath:portobello_patch",
+				"placement": [
+					{
+						"chance": 60.0,
+						"type": "minecraft:rarity_filter"
+					},
+					{
+						"count": 1.0,
+						"type": "minecraft:count_on_every_layer"
+					},
+					{
+						"type": "minecraft:biome"
+					}
+				]
+			}
+		},
+		"beneath:sulfur_tuft_patch": {
+			"feature": "beneath:sulfur_tuft_patch",
+			"json": {
+				"feature": "beneath:sulfur_tuft_patch",
+				"placement": [
+					{
+						"chance": 60.0,
+						"type": "minecraft:rarity_filter"
+					},
+					{
+						"count": 1.0,
+						"type": "minecraft:count_on_every_layer"
+					},
+					{
+						"type": "minecraft:biome"
+					}
+				]
+			}
+		},
+		"beneath:sulfur_patch": {
+			"feature": "beneath:sulfur_patch",
+			"json": {
+				"feature": "beneath:sulfur_patch",
+				"placement": [
+					{
+						"chance": 14.0,
+						"type": "minecraft:rarity_filter"
+					},
+					{
+						"count": 5.0,
+						"type": "minecraft:count_on_every_layer"
+					},
+					{
+						"radius": 5.0,
+						"fluids": [
+							"minecraft:lava"
+						],
+						"type": "tfc:near_fluid"
+					},
+					{
+						"type": "minecraft:biome"
+					}
+				]
+			}
+		},
+		"beneath:glowstone_spikes": {
+			"feature": "beneath:glowstone_spikes",
+			"json": {
+				"feature": "beneath:glowstone_spikes",
+				"placement": [
+					{
+						"chance": 2.0,
+						"type": "minecraft:rarity_filter"
+					},
+					{
+						"count": 32.0,
+						"type": "minecraft:count"
+					},
+					{
+						"type": "minecraft:in_square"
+					},
+					{
+						"height": {
+							"min_inclusive": {
+								"above_bottom": 29.0
+							},
+							"max_inclusive": {
+								"below_top": 10.0
+							},
+							"type": "minecraft:uniform"
+						},
+						"type": "minecraft:height_range"
+					},
+					{
+						"predicate": {
+							"predicates": [
+								{
+									"blocks": "minecraft:air",
+									"type": "minecraft:matching_blocks"
+								},
+								{
+									"offset": [
+										0.0,
+										-1.0,
+										0.0
+									],
+									"tag": "forge:stone",
+									"type": "minecraft:matching_block_tag"
+								}
+							],
+							"type": "minecraft:all_of"
+						},
+						"type": "minecraft:block_predicate_filter"
+					},
+					{
+						"type": "minecraft:biome"
+					}
+				]
+			}
+		},
+		"beneath:oyster": {
+			"feature": "beneath:oyster",
+			"json": {
+				"feature": "beneath:oyster",
+				"placement": [
+					{
+						"predicate": {
+							"type": "tfc:replaceable"
+						},
+						"type": "minecraft:block_predicate_filter"
+					},
+					{
+						"predicate": {
+							"state": {
+								"Name": "beneath:mushroom/oyster"
+							},
+							"type": "minecraft:would_survive"
+						},
+						"type": "minecraft:block_predicate_filter"
+					},
+					{
+						"predicate": {
+							"blocks": "minecraft:air",
+							"type": "minecraft:matching_blocks"
+						},
+						"type": "minecraft:block_predicate_filter"
+					}
+				]
+			}
+		},
+		"beneath:parasol_patch": {
+			"feature": "beneath:parasol_patch",
+			"json": {
+				"feature": "beneath:parasol_patch",
+				"placement": [
+					{
+						"chance": 60.0,
+						"type": "minecraft:rarity_filter"
+					},
+					{
+						"count": 1.0,
+						"type": "minecraft:count_on_every_layer"
+					},
+					{
+						"type": "minecraft:biome"
+					}
+				]
+			}
+		},
+		"beneath:vein/quartz": {
+			"feature": "beneath:vein/quartz",
+			"json": {
+				"feature": "beneath:vein/quartz",
+				"placement": []
+			}
+		}
+	}
+}

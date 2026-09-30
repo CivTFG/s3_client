@@ -1,0 +1,616 @@
+{
+	"group": "chests",
+	"namespace": "species",
+	"tables": [
+		{
+			"id": "species:chests/libra_chest",
+			"json": {
+				"type": "minecraft:chest",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 3.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 3.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:dark_oak_log"
+							},
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 3.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:experience_bottle"
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 6.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:fermented_spider_eye"
+							}
+						]
+					},
+					{
+						"name": "pool2",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_nbt",
+										"tag": "{BlockEntityTag:{Patterns:[{Color:9,Pattern:\"mr\"},{Color:8,Pattern:\"bs\"},{Color:7,Pattern:\"cs\"},{Color:8,Pattern:\"bo\"},{Color:15,Pattern:\"ms\"},{Color:8,Pattern:\"hh\"},{Color:8,Pattern:\"mc\"},{Color:15,Pattern:\"bo\"}]},HideFlags:32,display:{Name:'{\"translate\":\"block.minecraft.ominous_banner\",\"color\":\"gold\"}'}}"
+									}
+								],
+								"name": "minecraft:white_banner"
+							}
+						]
+					},
+					{
+						"name": "pool3",
+						"rolls": {
+							"type": "minecraft:uniform",
+							"min": -2.0,
+							"max": 1.0
+						},
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:enchant_randomly",
+										"enchantments": [
+											"species:scattershot"
+										]
+									}
+								],
+								"name": "minecraft:book"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:dark_oak_log",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 3.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:experience_bottle",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 3.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:fermented_spider_eye",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 6.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:white_banner",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [
+						"minecraft:set_nbt"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 3.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:book",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": -2.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [
+						"minecraft:enchant_randomly"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "species:chests/wraptor_coop_chest",
+			"json": {
+				"type": "minecraft:chest",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": {
+							"type": "minecraft:uniform",
+							"min": 4.0,
+							"max": 6.0
+						},
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"weight": 5.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 2.0,
+											"max": 8.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:bone"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 5.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 2.0,
+											"max": 8.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:coal"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 3.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 4.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:coal_block"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 3.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 12.0,
+											"max": 24.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:shroomlight"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 4.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 2.0,
+											"max": 8.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:gold_nugget"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 5.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 6.0,
+											"max": 16.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:string"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 2.0,
+								"name": "minecraft:gold_block"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 4.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 12.0,
+											"max": 24.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:arrow"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 4.0,
+								"name": "species:cracked_wraptor_egg"
+							},
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:netherite_scrap"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 2.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 2.0,
+											"max": 10.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:golden_carrot"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 2.0,
+								"name": "minecraft:golden_apple"
+							},
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:wither_skeleton_skull"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bone",
+					"weight": 5.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 4.0,
+						"max": 6.0
+					},
+					"count": {
+						"min": 2.0,
+						"max": 8.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:coal",
+					"weight": 5.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 4.0,
+						"max": 6.0
+					},
+					"count": {
+						"min": 2.0,
+						"max": 8.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:coal_block",
+					"weight": 3.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 4.0,
+						"max": 6.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 4.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:shroomlight",
+					"weight": 3.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 4.0,
+						"max": 6.0
+					},
+					"count": {
+						"min": 12.0,
+						"max": 24.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:gold_nugget",
+					"weight": 4.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 4.0,
+						"max": 6.0
+					},
+					"count": {
+						"min": 2.0,
+						"max": 8.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:string",
+					"weight": 5.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 4.0,
+						"max": 6.0
+					},
+					"count": {
+						"min": 6.0,
+						"max": 16.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:gold_block",
+					"weight": 2.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 4.0,
+						"max": 6.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:arrow",
+					"weight": 4.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 4.0,
+						"max": 6.0
+					},
+					"count": {
+						"min": 12.0,
+						"max": 24.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "species:cracked_wraptor_egg",
+					"weight": 4.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 4.0,
+						"max": 6.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:netherite_scrap",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 4.0,
+						"max": 6.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:golden_carrot",
+					"weight": 2.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 4.0,
+						"max": 6.0
+					},
+					"count": {
+						"min": 2.0,
+						"max": 10.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:golden_apple",
+					"weight": 2.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 4.0,
+						"max": 6.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:wither_skeleton_skull",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 4.0,
+						"max": 6.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		}
+	]
+}

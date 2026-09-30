@@ -1,0 +1,52 @@
+{
+	"group": "blocks",
+	"namespace": "createhorsepower",
+	"tables": [
+		{
+			"id": "createhorsepower:blocks/horse_crank",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "createhorsepower:blocks/horse_crank",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "createhorsepower:horse_crank"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "createhorsepower:horse_crank",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		}
+	]
+}

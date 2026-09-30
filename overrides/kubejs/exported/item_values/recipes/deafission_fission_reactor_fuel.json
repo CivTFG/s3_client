@@ -1,0 +1,257 @@
+{
+	"type": "deafission:fission_reactor_fuel",
+	"recipes": [
+		{
+			"id": "tfg:fission_reactor_fuel/uranium",
+			"category": "fission_reactor_fuel",
+			"duration": 22727,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:uranium_rod"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:depleted_uranium_rod"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@607b3517",
+					"dimension": "ResourceKey[minecraft:dimension / ad_astra:mars]"
+				}
+			]
+		},
+		{
+			"id": "tfg:fission_reactor_fuel/tbu_232",
+			"category": "fission_reactor_fuel",
+			"duration": 12500,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:tbu_232_rod"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:depleted_tbu_232_rod"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@2e27be55",
+					"dimension": "ResourceKey[minecraft:dimension / ad_astra:mars]"
+				}
+			]
+		},
+		{
+			"id": "tfg:fission_reactor_fuel/plutonium",
+			"category": "fission_reactor_fuel",
+			"duration": 25000,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:plutonium_rod"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:depleted_plutonium_rod"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@5bde83d1",
+					"dimension": "ResourceKey[minecraft:dimension / ad_astra:mars]"
+				}
+			]
+		},
+		{
+			"id": "tfg:fission_reactor_fuel/americium_241",
+			"category": "fission_reactor_fuel",
+			"duration": 5000000,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:americium_241_rod"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:depleted_americium_241_rod"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:fission_reactor_fuel/neptunium_237",
+			"category": "fission_reactor_fuel",
+			"duration": 125000,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:neptunium_237_rod"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:depleted_neptunium_237_rod"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:fission_reactor_fuel/thorium",
+			"category": "fission_reactor_fuel",
+			"duration": 17857,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:thorium_rod"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:depleted_thorium_rod"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@6d4f98e0",
+					"dimension": "ResourceKey[minecraft:dimension / ad_astra:mars]"
+				}
+			]
+		},
+		{
+			"id": "tfg:fission_reactor_fuel/californium_252_rod",
+			"category": "fission_reactor_fuel",
+			"duration": 312500,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:californium_252_rod"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:depleted_californium_252_rod"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		}
+	]
+}

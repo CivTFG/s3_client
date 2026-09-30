@@ -1,0 +1,522 @@
+{
+	"group": "entities",
+	"namespace": "arthropocolypse",
+	"tables": [
+		{
+			"id": "arthropocolypse:entities/prairie_grasshopper",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "arthropocolypse:entities/prairie_grasshopper",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 3.0
+										},
+										"add": false
+									},
+									{
+										"function": "minecraft:looting_enchant",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										}
+									}
+								],
+								"name": "arthropocolypse:beetle_fragment"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "arthropocolypse:beetle_fragment",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 3.0
+					},
+					"functions": [
+						"minecraft:set_count",
+						"minecraft:looting_enchant"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "arthropocolypse:entities/millipede_head",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "arthropocolypse:entities/millipede_head"
+			},
+			"drops": []
+		},
+		{
+			"id": "arthropocolypse:entities/behemoth_desert_spider",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "arthropocolypse:entities/behemoth_desert_spider",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "arthropocolypse:gilded_organ"
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "arthropocolypse:gilded_scale"
+							}
+						],
+						"functions": [
+							{
+								"function": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 6.0,
+									"max": 8.0
+								},
+								"add": false
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "arthropocolypse:gilded_organ",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "arthropocolypse:gilded_scale",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "arthropocolypse:entities/stag_beetle_larva",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "arthropocolypse:entities/stag_beetle_larva"
+			},
+			"drops": []
+		},
+		{
+			"id": "arthropocolypse:entities/millipede_body",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "arthropocolypse:entities/millipede_body"
+			},
+			"drops": []
+		},
+		{
+			"id": "arthropocolypse:entities/platerodrilus",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "arthropocolypse:entities/platerodrilus"
+			},
+			"drops": []
+		},
+		{
+			"id": "arthropocolypse:entities/mealworm_beetle",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "arthropocolypse:entities/mealworm_beetle"
+			},
+			"drops": []
+		},
+		{
+			"id": "arthropocolypse:entities/behemoth_desert_scorpion",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "arthropocolypse:entities/behemoth_desert_scorpion",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 2.0
+										},
+										"add": false
+									},
+									{
+										"function": "minecraft:looting_enchant",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 2.0
+										}
+									}
+								],
+								"name": "arthropocolypse:gilded_scale"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "arthropocolypse:gilded_scale",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count",
+						"minecraft:looting_enchant"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "arthropocolypse:entities/worker_ant",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "arthropocolypse:entities/worker_ant"
+			},
+			"drops": []
+		},
+		{
+			"id": "arthropocolypse:entities/millipede_tail",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "arthropocolypse:entities/millipede_tail"
+			},
+			"drops": []
+		},
+		{
+			"id": "arthropocolypse:entities/soldier_ant",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "arthropocolypse:entities/soldier_ant"
+			},
+			"drops": []
+		},
+		{
+			"id": "arthropocolypse:entities/mealworm",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "arthropocolypse:entities/mealworm"
+			},
+			"drops": []
+		},
+		{
+			"id": "arthropocolypse:entities/stag_beetle",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "arthropocolypse:entities/stag_beetle",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										},
+										"add": false
+									},
+									{
+										"function": "minecraft:looting_enchant",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.2,
+											"max": 0.8
+										}
+									}
+								],
+								"name": "arthropocolypse:mandible_part"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "arthropocolypse:mandible_part",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count",
+						"minecraft:looting_enchant"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "arthropocolypse:entities/ice_crawler",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "arthropocolypse:entities/ice_crawler",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 2.0
+										},
+										"add": false
+									},
+									{
+										"function": "minecraft:furnace_smelt",
+										"conditions": [
+											{
+												"condition": "minecraft:entity_properties",
+												"predicate": {
+													"flags": {
+														"is_on_fire": true
+													}
+												},
+												"entity": "this"
+											}
+										]
+									},
+									{
+										"function": "minecraft:looting_enchant",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 2.0
+										}
+									}
+								],
+								"name": "arthropocolypse:ice_crawler_meat"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "arthropocolypse:ice_crawler_meat",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count",
+						"minecraft:furnace_smelt",
+						"minecraft:looting_enchant"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "arthropocolypse:entities/scarab",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "arthropocolypse:entities/scarab",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "arthropocolypse:scarab"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "arthropocolypse:scarab",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "arthropocolypse:entities/wharf_roach",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "arthropocolypse:entities/wharf_roach"
+			},
+			"drops": []
+		},
+		{
+			"id": "arthropocolypse:entities/field_cricket",
+			"json": {
+				"type": "minecraft:entity",
+				"random_sequence": "arthropocolypse:entities/field_cricket",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 2.0
+										},
+										"add": false
+									},
+									{
+										"function": "minecraft:looting_enchant",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 0.0,
+											"max": 1.0
+										}
+									}
+								],
+								"name": "arthropocolypse:beetle_fragment"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "arthropocolypse:beetle_fragment",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count",
+						"minecraft:looting_enchant"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		}
+	]
+}

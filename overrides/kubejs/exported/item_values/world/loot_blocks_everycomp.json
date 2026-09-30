@@ -1,0 +1,2022 @@
+{
+	"group": "blocks",
+	"namespace": "everycomp",
+	"tables": [
+		{
+			"id": "everycomp:blocks/c/tfc/maple_window_pane",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "create:blocks/oak_window_pane",
+				"pools": [
+					{
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "everycomp:c/tfc/maple_window_pane"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:match_tool",
+								"predicate": {
+									"enchantments": [
+										{
+											"enchantment": "minecraft:silk_touch",
+											"levels": {
+												"min": 1.0
+											}
+										}
+									]
+								}
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "everycomp:c/tfc/maple_window_pane",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:match_tool",
+							"silkTouch": true
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "everycomp:blocks/c/tfc/sequoia_window_pane",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "create:blocks/oak_window_pane",
+				"pools": [
+					{
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "everycomp:c/tfc/sequoia_window_pane"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:match_tool",
+								"predicate": {
+									"enchantments": [
+										{
+											"enchantment": "minecraft:silk_touch",
+											"levels": {
+												"min": 1.0
+											}
+										}
+									]
+								}
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "everycomp:c/tfc/sequoia_window_pane",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:match_tool",
+							"silkTouch": true
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "everycomp:blocks/c/tfc/spruce_window_pane",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "create:blocks/oak_window_pane",
+				"pools": [
+					{
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "everycomp:c/tfc/spruce_window_pane"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:match_tool",
+								"predicate": {
+									"enchantments": [
+										{
+											"enchantment": "minecraft:silk_touch",
+											"levels": {
+												"min": 1.0
+											}
+										}
+									]
+								}
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "everycomp:c/tfc/spruce_window_pane",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:match_tool",
+							"silkTouch": true
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "everycomp:blocks/c/domum_ornamentum/cactus_extra_window_pane",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "create:blocks/oak_window_pane",
+				"pools": [
+					{
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "everycomp:c/domum_ornamentum/cactus_extra_window_pane"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:match_tool",
+								"predicate": {
+									"enchantments": [
+										{
+											"enchantment": "minecraft:silk_touch",
+											"levels": {
+												"min": 1.0
+											}
+										}
+									]
+								}
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "everycomp:c/domum_ornamentum/cactus_extra_window_pane",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:match_tool",
+							"silkTouch": true
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "everycomp:blocks/c/afc/tualang_window_pane",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "create:blocks/oak_window_pane",
+				"pools": [
+					{
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "everycomp:c/afc/tualang_window_pane"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:match_tool",
+								"predicate": {
+									"enchantments": [
+										{
+											"enchantment": "minecraft:silk_touch",
+											"levels": {
+												"min": 1.0
+											}
+										}
+									]
+								}
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "everycomp:c/afc/tualang_window_pane",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:match_tool",
+							"silkTouch": true
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "everycomp:blocks/c/ad_astra/aeronos_window_pane",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "create:blocks/oak_window_pane",
+				"pools": [
+					{
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "everycomp:c/ad_astra/aeronos_window_pane"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:match_tool",
+								"predicate": {
+									"enchantments": [
+										{
+											"enchantment": "minecraft:silk_touch",
+											"levels": {
+												"min": 1.0
+											}
+										}
+									]
+								}
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "everycomp:c/ad_astra/aeronos_window_pane",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:match_tool",
+							"silkTouch": true
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "everycomp:blocks/c/domum_ornamentum/cactus_window_pane",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "create:blocks/oak_window_pane",
+				"pools": [
+					{
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "everycomp:c/domum_ornamentum/cactus_window_pane"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:match_tool",
+								"predicate": {
+									"enchantments": [
+										{
+											"enchantment": "minecraft:silk_touch",
+											"levels": {
+												"min": 1.0
+											}
+										}
+									]
+								}
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "everycomp:c/domum_ornamentum/cactus_window_pane",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:match_tool",
+							"silkTouch": true
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "everycomp:blocks/c/tfc/ash_window_pane",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "create:blocks/oak_window_pane",
+				"pools": [
+					{
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "everycomp:c/tfc/ash_window_pane"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:match_tool",
+								"predicate": {
+									"enchantments": [
+										{
+											"enchantment": "minecraft:silk_touch",
+											"levels": {
+												"min": 1.0
+											}
+										}
+									]
+								}
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "everycomp:c/tfc/ash_window_pane",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:match_tool",
+							"silkTouch": true
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "everycomp:blocks/c/afc/eucalyptus_window_pane",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "create:blocks/oak_window_pane",
+				"pools": [
+					{
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "everycomp:c/afc/eucalyptus_window_pane"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:match_tool",
+								"predicate": {
+									"enchantments": [
+										{
+											"enchantment": "minecraft:silk_touch",
+											"levels": {
+												"min": 1.0
+											}
+										}
+									]
+								}
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "everycomp:c/afc/eucalyptus_window_pane",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:match_tool",
+							"silkTouch": true
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "everycomp:blocks/c/tfc/blackwood_window_pane",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "create:blocks/oak_window_pane",
+				"pools": [
+					{
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "everycomp:c/tfc/blackwood_window_pane"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:match_tool",
+								"predicate": {
+									"enchantments": [
+										{
+											"enchantment": "minecraft:silk_touch",
+											"levels": {
+												"min": 1.0
+											}
+										}
+									]
+								}
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "everycomp:c/tfc/blackwood_window_pane",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:match_tool",
+							"silkTouch": true
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "everycomp:blocks/c/tfc/palm_window_pane",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "create:blocks/oak_window_pane",
+				"pools": [
+					{
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "everycomp:c/tfc/palm_window_pane"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:match_tool",
+								"predicate": {
+									"enchantments": [
+										{
+											"enchantment": "minecraft:silk_touch",
+											"levels": {
+												"min": 1.0
+											}
+										}
+									]
+								}
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "everycomp:c/tfc/palm_window_pane",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:match_tool",
+							"silkTouch": true
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "everycomp:blocks/c/afc/baobab_window_pane",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "create:blocks/oak_window_pane",
+				"pools": [
+					{
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "everycomp:c/afc/baobab_window_pane"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:match_tool",
+								"predicate": {
+									"enchantments": [
+										{
+											"enchantment": "minecraft:silk_touch",
+											"levels": {
+												"min": 1.0
+											}
+										}
+									]
+								}
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "everycomp:c/afc/baobab_window_pane",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:match_tool",
+							"silkTouch": true
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "everycomp:blocks/c/afc/hevea_window_pane",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "create:blocks/oak_window_pane",
+				"pools": [
+					{
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "everycomp:c/afc/hevea_window_pane"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:match_tool",
+								"predicate": {
+									"enchantments": [
+										{
+											"enchantment": "minecraft:silk_touch",
+											"levels": {
+												"min": 1.0
+											}
+										}
+									]
+								}
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "everycomp:c/afc/hevea_window_pane",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:match_tool",
+							"silkTouch": true
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "everycomp:blocks/c/wan_ancient_beasts/ginkgo_window_pane",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "create:blocks/oak_window_pane",
+				"pools": [
+					{
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "everycomp:c/wan_ancient_beasts/ginkgo_window_pane"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:match_tool",
+								"predicate": {
+									"enchantments": [
+										{
+											"enchantment": "minecraft:silk_touch",
+											"levels": {
+												"min": 1.0
+											}
+										}
+									]
+								}
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "everycomp:c/wan_ancient_beasts/ginkgo_window_pane",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:match_tool",
+							"silkTouch": true
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "everycomp:blocks/c/ad_astra/strophar_window_pane",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "create:blocks/oak_window_pane",
+				"pools": [
+					{
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "everycomp:c/ad_astra/strophar_window_pane"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:match_tool",
+								"predicate": {
+									"enchantments": [
+										{
+											"enchantment": "minecraft:silk_touch",
+											"levels": {
+												"min": 1.0
+											}
+										}
+									]
+								}
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "everycomp:c/ad_astra/strophar_window_pane",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:match_tool",
+							"silkTouch": true
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "everycomp:blocks/c/tfc/sycamore_window_pane",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "create:blocks/oak_window_pane",
+				"pools": [
+					{
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "everycomp:c/tfc/sycamore_window_pane"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:match_tool",
+								"predicate": {
+									"enchantments": [
+										{
+											"enchantment": "minecraft:silk_touch",
+											"levels": {
+												"min": 1.0
+											}
+										}
+									]
+								}
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "everycomp:c/tfc/sycamore_window_pane",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:match_tool",
+							"silkTouch": true
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "everycomp:blocks/c/tfc/oak_window_pane",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "create:blocks/oak_window_pane",
+				"pools": [
+					{
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "everycomp:c/tfc/oak_window_pane"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:match_tool",
+								"predicate": {
+									"enchantments": [
+										{
+											"enchantment": "minecraft:silk_touch",
+											"levels": {
+												"min": 1.0
+											}
+										}
+									]
+								}
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "everycomp:c/tfc/oak_window_pane",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:match_tool",
+							"silkTouch": true
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "everycomp:blocks/c/tfc/douglas_fir_window_pane",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "create:blocks/oak_window_pane",
+				"pools": [
+					{
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "everycomp:c/tfc/douglas_fir_window_pane"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:match_tool",
+								"predicate": {
+									"enchantments": [
+										{
+											"enchantment": "minecraft:silk_touch",
+											"levels": {
+												"min": 1.0
+											}
+										}
+									]
+								}
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "everycomp:c/tfc/douglas_fir_window_pane",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:match_tool",
+							"silkTouch": true
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "everycomp:blocks/c/afc/ironwood_window_pane",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "create:blocks/oak_window_pane",
+				"pools": [
+					{
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "everycomp:c/afc/ironwood_window_pane"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:match_tool",
+								"predicate": {
+									"enchantments": [
+										{
+											"enchantment": "minecraft:silk_touch",
+											"levels": {
+												"min": 1.0
+											}
+										}
+									]
+								}
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "everycomp:c/afc/ironwood_window_pane",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:match_tool",
+							"silkTouch": true
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "everycomp:blocks/c/tfc/rosewood_window_pane",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "create:blocks/oak_window_pane",
+				"pools": [
+					{
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "everycomp:c/tfc/rosewood_window_pane"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:match_tool",
+								"predicate": {
+									"enchantments": [
+										{
+											"enchantment": "minecraft:silk_touch",
+											"levels": {
+												"min": 1.0
+											}
+										}
+									]
+								}
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "everycomp:c/tfc/rosewood_window_pane",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:match_tool",
+							"silkTouch": true
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "everycomp:blocks/c/tfc/willow_window_pane",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "create:blocks/oak_window_pane",
+				"pools": [
+					{
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "everycomp:c/tfc/willow_window_pane"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:match_tool",
+								"predicate": {
+									"enchantments": [
+										{
+											"enchantment": "minecraft:silk_touch",
+											"levels": {
+												"min": 1.0
+											}
+										}
+									]
+								}
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "everycomp:c/tfc/willow_window_pane",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:match_tool",
+							"silkTouch": true
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "everycomp:blocks/c/tfc/chestnut_window_pane",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "create:blocks/oak_window_pane",
+				"pools": [
+					{
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "everycomp:c/tfc/chestnut_window_pane"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:match_tool",
+								"predicate": {
+									"enchantments": [
+										{
+											"enchantment": "minecraft:silk_touch",
+											"levels": {
+												"min": 1.0
+											}
+										}
+									]
+								}
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "everycomp:c/tfc/chestnut_window_pane",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:match_tool",
+							"silkTouch": true
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "everycomp:blocks/c/tfc/kapok_window_pane",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "create:blocks/oak_window_pane",
+				"pools": [
+					{
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "everycomp:c/tfc/kapok_window_pane"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:match_tool",
+								"predicate": {
+									"enchantments": [
+										{
+											"enchantment": "minecraft:silk_touch",
+											"levels": {
+												"min": 1.0
+											}
+										}
+									]
+								}
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "everycomp:c/tfc/kapok_window_pane",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:match_tool",
+							"silkTouch": true
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "everycomp:blocks/c/tfc/pine_window_pane",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "create:blocks/oak_window_pane",
+				"pools": [
+					{
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "everycomp:c/tfc/pine_window_pane"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:match_tool",
+								"predicate": {
+									"enchantments": [
+										{
+											"enchantment": "minecraft:silk_touch",
+											"levels": {
+												"min": 1.0
+											}
+										}
+									]
+								}
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "everycomp:c/tfc/pine_window_pane",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:match_tool",
+							"silkTouch": true
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "everycomp:blocks/c/afc/mahogany_window_pane",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "create:blocks/oak_window_pane",
+				"pools": [
+					{
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "everycomp:c/afc/mahogany_window_pane"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:match_tool",
+								"predicate": {
+									"enchantments": [
+										{
+											"enchantment": "minecraft:silk_touch",
+											"levels": {
+												"min": 1.0
+											}
+										}
+									]
+								}
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "everycomp:c/afc/mahogany_window_pane",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:match_tool",
+							"silkTouch": true
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "everycomp:blocks/c/tfc/aspen_window_pane",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "create:blocks/oak_window_pane",
+				"pools": [
+					{
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "everycomp:c/tfc/aspen_window_pane"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:match_tool",
+								"predicate": {
+									"enchantments": [
+										{
+											"enchantment": "minecraft:silk_touch",
+											"levels": {
+												"min": 1.0
+											}
+										}
+									]
+								}
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "everycomp:c/tfc/aspen_window_pane",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:match_tool",
+							"silkTouch": true
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "everycomp:blocks/c/afc/ipe_window_pane",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "create:blocks/oak_window_pane",
+				"pools": [
+					{
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "everycomp:c/afc/ipe_window_pane"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:match_tool",
+								"predicate": {
+									"enchantments": [
+										{
+											"enchantment": "minecraft:silk_touch",
+											"levels": {
+												"min": 1.0
+											}
+										}
+									]
+								}
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "everycomp:c/afc/ipe_window_pane",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:match_tool",
+							"silkTouch": true
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "everycomp:blocks/c/tfc/acacia_window_pane",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "create:blocks/oak_window_pane",
+				"pools": [
+					{
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "everycomp:c/tfc/acacia_window_pane"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:match_tool",
+								"predicate": {
+									"enchantments": [
+										{
+											"enchantment": "minecraft:silk_touch",
+											"levels": {
+												"min": 1.0
+											}
+										}
+									]
+								}
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "everycomp:c/tfc/acacia_window_pane",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:match_tool",
+							"silkTouch": true
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "everycomp:blocks/c/tfc/birch_window_pane",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "create:blocks/oak_window_pane",
+				"pools": [
+					{
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "everycomp:c/tfc/birch_window_pane"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:match_tool",
+								"predicate": {
+									"enchantments": [
+										{
+											"enchantment": "minecraft:silk_touch",
+											"levels": {
+												"min": 1.0
+											}
+										}
+									]
+								}
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "everycomp:c/tfc/birch_window_pane",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:match_tool",
+							"silkTouch": true
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "everycomp:blocks/c/tfc/white_cedar_window_pane",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "create:blocks/oak_window_pane",
+				"pools": [
+					{
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "everycomp:c/tfc/white_cedar_window_pane"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:match_tool",
+								"predicate": {
+									"enchantments": [
+										{
+											"enchantment": "minecraft:silk_touch",
+											"levels": {
+												"min": 1.0
+											}
+										}
+									]
+								}
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "everycomp:c/tfc/white_cedar_window_pane",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:match_tool",
+							"silkTouch": true
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "everycomp:blocks/c/afc/fig_window_pane",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "create:blocks/oak_window_pane",
+				"pools": [
+					{
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "everycomp:c/afc/fig_window_pane"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:match_tool",
+								"predicate": {
+									"enchantments": [
+										{
+											"enchantment": "minecraft:silk_touch",
+											"levels": {
+												"min": 1.0
+											}
+										}
+									]
+								}
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "everycomp:c/afc/fig_window_pane",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:match_tool",
+							"silkTouch": true
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "everycomp:blocks/c/tfc/mangrove_window_pane",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "create:blocks/oak_window_pane",
+				"pools": [
+					{
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "everycomp:c/tfc/mangrove_window_pane"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:match_tool",
+								"predicate": {
+									"enchantments": [
+										{
+											"enchantment": "minecraft:silk_touch",
+											"levels": {
+												"min": 1.0
+											}
+										}
+									]
+								}
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "everycomp:c/tfc/mangrove_window_pane",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:match_tool",
+							"silkTouch": true
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "everycomp:blocks/c/afc/cypress_window_pane",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "create:blocks/oak_window_pane",
+				"pools": [
+					{
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "everycomp:c/afc/cypress_window_pane"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:match_tool",
+								"predicate": {
+									"enchantments": [
+										{
+											"enchantment": "minecraft:silk_touch",
+											"levels": {
+												"min": 1.0
+											}
+										}
+									]
+								}
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "everycomp:c/afc/cypress_window_pane",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:match_tool",
+							"silkTouch": true
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "everycomp:blocks/c/ad_astra/glacian_window_pane",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "create:blocks/oak_window_pane",
+				"pools": [
+					{
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "everycomp:c/ad_astra/glacian_window_pane"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:match_tool",
+								"predicate": {
+									"enchantments": [
+										{
+											"enchantment": "minecraft:silk_touch",
+											"levels": {
+												"min": 1.0
+											}
+										}
+									]
+								}
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "everycomp:c/ad_astra/glacian_window_pane",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:match_tool",
+							"silkTouch": true
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "everycomp:blocks/c/afc/teak_window_pane",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "create:blocks/oak_window_pane",
+				"pools": [
+					{
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "everycomp:c/afc/teak_window_pane"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:match_tool",
+								"predicate": {
+									"enchantments": [
+										{
+											"enchantment": "minecraft:silk_touch",
+											"levels": {
+												"min": 1.0
+											}
+										}
+									]
+								}
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "everycomp:c/afc/teak_window_pane",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:match_tool",
+							"silkTouch": true
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "everycomp:blocks/c/tfc/hickory_window_pane",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "create:blocks/oak_window_pane",
+				"pools": [
+					{
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "everycomp:c/tfc/hickory_window_pane"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:match_tool",
+								"predicate": {
+									"enchantments": [
+										{
+											"enchantment": "minecraft:silk_touch",
+											"levels": {
+												"min": 1.0
+											}
+										}
+									]
+								}
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "everycomp:c/tfc/hickory_window_pane",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:match_tool",
+							"silkTouch": true
+						}
+					],
+					"chain": []
+				}
+			]
+		}
+	]
+}

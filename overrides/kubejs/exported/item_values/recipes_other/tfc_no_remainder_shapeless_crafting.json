@@ -1,0 +1,357 @@
+{
+	"type": "tfc:no_remainder_shapeless_crafting",
+	"recipes": [
+		{
+			"id": "tfc:kjs/no_remainder/crafting/unseal_cave_pumpkin_jar",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:jar/cave_pumpkin"
+					]
+				}
+			],
+			"resultId": "tfg:jar/cave_pumpkin_unsealed",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:kjs/no_remainder/crafting/unseal_popped_chorus_fruit_jar",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:jar/popped_chorus_fruit"
+					]
+				}
+			],
+			"resultId": "tfg:jar/popped_chorus_fruit_unsealed",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "firmalife:crafting/crafting/irrigation_tank",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:wood/barrel/acacia",
+						"tfc:wood/barrel/ash",
+						"tfc:wood/barrel/aspen",
+						"tfc:wood/barrel/birch",
+						"tfc:wood/barrel/blackwood",
+						"tfc:wood/barrel/chestnut",
+						"tfc:wood/barrel/douglas_fir",
+						"tfc:wood/barrel/hickory",
+						"tfc:wood/barrel/kapok",
+						"tfc:wood/barrel/mangrove",
+						"tfc:wood/barrel/maple",
+						"tfc:wood/barrel/oak",
+						"tfc:wood/barrel/palm",
+						"tfc:wood/barrel/pine",
+						"tfc:wood/barrel/rosewood",
+						"tfc:wood/barrel/sequoia",
+						"tfc:wood/barrel/spruce",
+						"tfc:wood/barrel/sycamore",
+						"tfc:wood/barrel/white_cedar",
+						"tfc:wood/barrel/willow",
+						"afc:wood/barrel/cypress",
+						"afc:wood/barrel/tualang",
+						"afc:wood/barrel/hevea",
+						"afc:wood/barrel/teak",
+						"afc:wood/barrel/eucalyptus",
+						"afc:wood/barrel/baobab",
+						"afc:wood/barrel/fig",
+						"afc:wood/barrel/mahogany",
+						"afc:wood/barrel/ironwood",
+						"afc:wood/barrel/ipe",
+						"beneath:wood/barrel/crimson",
+						"beneath:wood/barrel/warped",
+						"tfg:wood/barrel/araucaria",
+						"tfg:wood/barrel/beech",
+						"tfg:wood/barrel/mahoe",
+						"tfg:wood/barrel/glacian",
+						"tfg:wood/barrel/strophar",
+						"tfg:wood/barrel/aeronos",
+						"tfg:wood/barrel/ginkgo"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:barrier"
+					]
+				},
+				{
+					"ids": [
+						"firmalife:copper_pipe"
+					]
+				}
+			],
+			"resultId": "firmalife:irrigation_tank",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:shaped/arrow_bone_needle",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:bone_needle"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:stick",
+						"tfc:wood/twig/acacia",
+						"tfc:wood/twig/ash",
+						"tfc:wood/twig/aspen",
+						"tfc:wood/twig/birch",
+						"tfc:wood/twig/blackwood",
+						"tfc:wood/twig/chestnut",
+						"tfc:wood/twig/douglas_fir",
+						"tfc:wood/twig/hickory",
+						"tfc:wood/twig/kapok",
+						"tfc:wood/twig/mangrove",
+						"tfc:wood/twig/maple",
+						"tfc:wood/twig/oak",
+						"tfc:wood/twig/palm",
+						"tfc:wood/twig/pine",
+						"tfc:wood/twig/rosewood",
+						"tfc:wood/twig/sequoia",
+						"tfc:wood/twig/spruce",
+						"tfc:wood/twig/sycamore",
+						"tfc:wood/twig/white_cedar",
+						"tfc:wood/twig/willow",
+						"afc:wood/twig/cypress",
+						"afc:wood/twig/tualang",
+						"afc:wood/twig/hevea",
+						"afc:wood/twig/teak",
+						"afc:wood/twig/eucalyptus",
+						"afc:wood/twig/baobab",
+						"afc:wood/twig/fig",
+						"afc:wood/twig/mahogany",
+						"afc:wood/twig/ironwood",
+						"afc:wood/twig/ipe",
+						"afc:wood/twig/rainbow_eucalyptus",
+						"afc:wood/twig/redcedar",
+						"afc:wood/twig/gum_arabic",
+						"afc:wood/twig/black_oak",
+						"afc:wood/twig/poplar",
+						"afc:wood/twig/rubber_fig",
+						"beneath:wood/twig/crimson",
+						"beneath:wood/twig/warped",
+						"tfg:wood/twig/araucaria",
+						"tfg:wood/twig/beech",
+						"tfg:wood/twig/mahoe",
+						"tfg:twigs/strophar",
+						"tfg:twigs/aeronos",
+						"tfg:twigs/glacian",
+						"tfg:twigs/alphacene",
+						"tfg:twigs/ginkgo",
+						"gtceu:treated_wood_rod"
+					]
+				},
+				{
+					"ids": [
+						"tfg:fletching",
+						"tfg:hardwood_strip"
+					]
+				}
+			],
+			"resultId": "minecraft:arrow",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:kjs/no_remainder/crafting/unseal_date_jar",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:jar/date"
+					]
+				}
+			],
+			"resultId": "tfg:jar/date_unsealed",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:crafting/powderkeg_from_barrel",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:wood/barrel/acacia",
+						"tfc:wood/barrel/ash",
+						"tfc:wood/barrel/aspen",
+						"tfc:wood/barrel/birch",
+						"tfc:wood/barrel/blackwood",
+						"tfc:wood/barrel/chestnut",
+						"tfc:wood/barrel/douglas_fir",
+						"tfc:wood/barrel/hickory",
+						"tfc:wood/barrel/kapok",
+						"tfc:wood/barrel/mangrove",
+						"tfc:wood/barrel/maple",
+						"tfc:wood/barrel/oak",
+						"tfc:wood/barrel/palm",
+						"tfc:wood/barrel/pine",
+						"tfc:wood/barrel/rosewood",
+						"tfc:wood/barrel/sequoia",
+						"tfc:wood/barrel/spruce",
+						"tfc:wood/barrel/sycamore",
+						"tfc:wood/barrel/white_cedar",
+						"tfc:wood/barrel/willow",
+						"afc:wood/barrel/cypress",
+						"afc:wood/barrel/tualang",
+						"afc:wood/barrel/hevea",
+						"afc:wood/barrel/teak",
+						"afc:wood/barrel/eucalyptus",
+						"afc:wood/barrel/baobab",
+						"afc:wood/barrel/fig",
+						"afc:wood/barrel/mahogany",
+						"afc:wood/barrel/ironwood",
+						"afc:wood/barrel/ipe",
+						"beneath:wood/barrel/crimson",
+						"beneath:wood/barrel/warped",
+						"tfg:wood/barrel/araucaria",
+						"tfg:wood/barrel/beech",
+						"tfg:wood/barrel/mahoe",
+						"tfg:wood/barrel/glacian",
+						"tfg:wood/barrel/strophar",
+						"tfg:wood/barrel/aeronos",
+						"tfg:wood/barrel/ginkgo"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:red_dye"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:string",
+						"tfc:wool_yarn",
+						"tfg:linen_thread",
+						"tfc_textile:cotton_string",
+						"tfg:phantom_thread",
+						"tfg:polycaprolactam_string",
+						"firmalife:pineapple_yarn"
+					]
+				}
+			],
+			"resultId": "tfc:powderkeg",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:kjs/no_remainder/crafting/unseal_chorus_fruit_jar",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:jar/chorus_fruit"
+					]
+				}
+			],
+			"resultId": "tfg:jar/chorus_fruit_unsealed",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:kjs/no_remainder/crafting/unseal_blossom_berry_jar",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:jar/blossom_berry"
+					]
+				}
+			],
+			"resultId": "tfg:jar/blossom_berry_unsealed",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:kjs/no_remainder/crafting/unseal_magmango_jar",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:jar/magmango"
+					]
+				}
+			],
+			"resultId": "tfg:jar/magmango_unsealed",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:kjs/no_remainder/crafting/unseal_acai_jar",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:jar/acai"
+					]
+				}
+			],
+			"resultId": "tfg:jar/acai_unsealed",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:kjs/no_remainder/crafting/unseal_glow_berries_jar",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:jar/glow_berries"
+					]
+				}
+			],
+			"resultId": "tfg:jar/glow_berries_unsealed",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfc:kjs/no_remainder/crafting/unseal_shadow_berry_jar",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:jar/shadow_berry"
+					]
+				}
+			],
+			"resultId": "tfg:jar/shadow_berry_unsealed",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		}
+	]
+}

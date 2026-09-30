@@ -1,0 +1,6512 @@
+{
+	"type": "create:sequenced_assembly",
+	"recipes": [
+		{
+			"id": "tfg:railways/sequenced_assembly/track_cherry_wide_alt",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"afc:wood/planks/fig_slab"
+					]
+				},
+				{
+					"ids": [
+						"afc:wood/planks/fig_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"afc:wood/planks/fig"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_cherry_wide",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_blackstone_wide_alt",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:blackstone_slab"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:blackstone_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"minecraft:blackstone"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_blackstone_wide",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_create_sequoia_wide",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:wood/planks/sequoia_slab"
+					]
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/sequoia_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/sequoia"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_tfc_sequoia_wide",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_create_palm_narrow",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:wood/planks/palm_slab"
+					]
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/palm_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_tfc_palm_narrow",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:deploying/deepslate_brick_to_bricks",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:brick/deepslate"
+					]
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 4
+				}
+			],
+			"resultId": "minecraft:deepslate_bricks",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:deploying/sandy_jadestone_brick_to_bricks",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:brick/sandy_jadestone"
+					]
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 4
+				}
+			],
+			"resultId": "betterend:sandy_jadestone_bricks",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:create/sequenced_assembly/electron_tube",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:wood_plate"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:wood_plate"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"gtceu:wrought_iron_plate"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"gtceu:red_alloy_single_wire"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"gtceu:red_alloy_single_wire"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"gtceu:glass_tube"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "create:electron_tube",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_create_white_cedar_wide",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:wood/planks/white_cedar_slab"
+					]
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/white_cedar_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/white_cedar"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_tfc_white_cedar_wide",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_spruce_alt",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"afc:wood/planks/cypress_slab"
+					]
+				},
+				{
+					"ids": [
+						"afc:wood/planks/cypress_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"afc:wood/planks/cypress_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_spruce",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_monorail/steel",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"create:metal_girder"
+					]
+				},
+				{
+					"ids": [
+						"create:metal_girder"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"magistuarmory:steel_plate",
+						"gtceu:steel_plate"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"magistuarmory:steel_plate",
+						"gtceu:steel_plate"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "railways:track_monorail",
+			"resultCount": 64,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_create_oak",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:wood/planks/oak_slab"
+					]
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/oak_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/oak_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_tfc_oak",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_create_mangrove",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:wood/planks/mangrove_slab"
+					]
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/mangrove_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/mangrove_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_tfc_mangrove",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_warped_alt",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"beneath:wood/planks/warped_slab"
+					]
+				},
+				{
+					"ids": [
+						"beneath:wood/planks/warped_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"beneath:wood/planks/warped_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_warped",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:deploying/marble_brick_to_bricks",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:brick/marble"
+					]
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 4
+				}
+			],
+			"resultId": "tfc:rock/bricks/marble",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:deploying/purpur_brick_to_bricks",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:popped_chorus_fruit"
+					]
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 4
+				}
+			],
+			"resultId": "minecraft:purpur_block",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_create_oak_wide",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:wood/planks/oak_slab"
+					]
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/oak_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/oak"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_tfc_oak_wide",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:deploying/glacio_stone_brick_to_bricks",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:brick/glacio_stone"
+					]
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 4
+				}
+			],
+			"resultId": "ad_astra:glacio_stone_bricks",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_create_rosewood_wide",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:wood/planks/rosewood_slab"
+					]
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/rosewood_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/rosewood"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_tfc_rosewood_wide",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_stripped_bamboo_alt",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:bamboo_slab"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:bamboo_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"minecraft:bamboo_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_stripped_bamboo",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_acacia_alt",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"afc:wood/planks/baobab_slab"
+					]
+				},
+				{
+					"ids": [
+						"afc:wood/planks/baobab_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"afc:wood/planks/baobab_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_acacia",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_tieless_narrow_alt",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"framedblocks:framed_slab"
+					]
+				},
+				{
+					"ids": [
+						"framedblocks:framed_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_tieless_narrow",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:deploying/phyllite_brick_to_bricks",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:brick/phyllite"
+					]
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 4
+				}
+			],
+			"resultId": "tfc:rock/bricks/phyllite",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "create:kjs/1go957s9qjumzqnq8eadk3fhy",
+			"mod": "create",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:medium_soaked_hide"
+					]
+				},
+				{
+					"ids": [
+						"tfc:stone/knife/sedimentary",
+						"tfc:stone/knife/metamorphic",
+						"tfc:stone/knife/igneous_extrusive",
+						"tfc:stone/knife/igneous_intrusive",
+						"tfg:arsenic_bronze_knife",
+						"tfg:diamond_tipped_mo_50_re_knife",
+						"tfg:boron_carbide_knife",
+						"gtceu:black_bronze_knife",
+						"gtceu:bismuth_bronze_knife",
+						"gtceu:black_steel_knife",
+						"gtceu:duranium_knife",
+						"gtceu:tungsten_carbide_knife",
+						"gtceu:stone_knife",
+						"gtceu:vanadium_steel_knife",
+						"gtceu:damascus_steel_knife",
+						"gtceu:wrought_iron_knife",
+						"gtceu:naquadah_alloy_knife",
+						"gtceu:blue_steel_knife",
+						"gtceu:ultimet_knife",
+						"gtceu:neutronium_knife",
+						"gtceu:copper_knife",
+						"gtceu:ostrum_iodide_knife",
+						"gtceu:red_steel_knife",
+						"gtceu:hsse_knife",
+						"gtceu:steel_knife",
+						"gtceu:bronze_knife",
+						"gtceu:flint_knife"
+					],
+					"amount": 16
+				}
+			],
+			"resultId": "tfc:medium_scraped_hide",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_create_blackwood",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:wood/planks/blackwood_slab"
+					]
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/blackwood_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/blackwood_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_tfc_blackwood",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_stripped_bamboo_wide_alt",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:bamboo_slab"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:bamboo_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"minecraft:bamboo_planks"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_stripped_bamboo_wide",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_create_birch_narrow",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:wood/planks/birch_slab"
+					]
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/birch_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_tfc_birch_narrow",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "create:kjs/14p6xdizuypygdv13xhtuyb16",
+			"mod": "create",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:unrefined_paper"
+					]
+				},
+				{
+					"ids": [
+						"tfc:stone/knife/sedimentary",
+						"tfc:stone/knife/metamorphic",
+						"tfc:stone/knife/igneous_extrusive",
+						"tfc:stone/knife/igneous_intrusive",
+						"tfg:arsenic_bronze_knife",
+						"tfg:diamond_tipped_mo_50_re_knife",
+						"tfg:boron_carbide_knife",
+						"gtceu:black_bronze_knife",
+						"gtceu:bismuth_bronze_knife",
+						"gtceu:black_steel_knife",
+						"gtceu:duranium_knife",
+						"gtceu:tungsten_carbide_knife",
+						"gtceu:stone_knife",
+						"gtceu:vanadium_steel_knife",
+						"gtceu:damascus_steel_knife",
+						"gtceu:wrought_iron_knife",
+						"gtceu:naquadah_alloy_knife",
+						"gtceu:blue_steel_knife",
+						"gtceu:ultimet_knife",
+						"gtceu:neutronium_knife",
+						"gtceu:copper_knife",
+						"gtceu:ostrum_iodide_knife",
+						"gtceu:red_steel_knife",
+						"gtceu:hsse_knife",
+						"gtceu:steel_knife",
+						"gtceu:bronze_knife",
+						"gtceu:flint_knife"
+					],
+					"amount": 16
+				}
+			],
+			"resultId": "minecraft:paper",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_create_kapok_wide",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:wood/planks/kapok_slab"
+					]
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/kapok_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/kapok"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_tfc_kapok_wide",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_create_hickory",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:wood/planks/hickory_slab"
+					]
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/hickory_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/hickory_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_tfc_hickory",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:deploying/shale_brick_to_bricks",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:brick/shale"
+					]
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 4
+				}
+			],
+			"resultId": "tfc:rock/bricks/shale",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_create_hickory_narrow",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:wood/planks/hickory_slab"
+					]
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/hickory_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_tfc_hickory_narrow",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_tieless_wide_alt",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"framedblocks:framed_slab"
+					]
+				},
+				{
+					"ids": [
+						"framedblocks:framed_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"framedblocks:framed_cube"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_tieless_wide",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_create_acacia_narrow",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:wood/planks/acacia_slab"
+					]
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/acacia_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_tfc_acacia_narrow",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_create_chestnut_narrow",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:wood/planks/chestnut_slab"
+					]
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/chestnut_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_tfc_chestnut_narrow",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_create_mangrove_narrow",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:wood/planks/mangrove_slab"
+					]
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/mangrove_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_tfc_mangrove_narrow",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:deploying/permafrost_brick_to_bricks",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:brick/permafrost"
+					]
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 4
+				}
+			],
+			"resultId": "ad_astra:permafrost_bricks",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_create_pine_wide",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:wood/planks/pine_slab"
+					]
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/pine_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/pine"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_tfc_pine_wide",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "create:kjs/55lbue2wxm9u6a7c2gpzs2fg0",
+			"mod": "create",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:large_sheepskin_hide"
+					]
+				},
+				{
+					"ids": [
+						"tfc:stone/knife/sedimentary",
+						"tfc:stone/knife/metamorphic",
+						"tfc:stone/knife/igneous_extrusive",
+						"tfc:stone/knife/igneous_intrusive",
+						"tfg:arsenic_bronze_knife",
+						"tfg:diamond_tipped_mo_50_re_knife",
+						"tfg:boron_carbide_knife",
+						"gtceu:black_bronze_knife",
+						"gtceu:bismuth_bronze_knife",
+						"gtceu:black_steel_knife",
+						"gtceu:duranium_knife",
+						"gtceu:tungsten_carbide_knife",
+						"gtceu:stone_knife",
+						"gtceu:vanadium_steel_knife",
+						"gtceu:damascus_steel_knife",
+						"gtceu:wrought_iron_knife",
+						"gtceu:naquadah_alloy_knife",
+						"gtceu:blue_steel_knife",
+						"gtceu:ultimet_knife",
+						"gtceu:neutronium_knife",
+						"gtceu:copper_knife",
+						"gtceu:ostrum_iodide_knife",
+						"gtceu:red_steel_knife",
+						"gtceu:hsse_knife",
+						"gtceu:steel_knife",
+						"gtceu:bronze_knife",
+						"gtceu:flint_knife"
+					],
+					"amount": 16
+				}
+			],
+			"resultId": "tfc:large_raw_hide",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_stripped_bamboo_narrow_alt",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:bamboo_slab"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:bamboo_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_stripped_bamboo_narrow",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_create_aspen",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:wood/planks/aspen_slab"
+					]
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/aspen_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/aspen_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_tfc_aspen",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:deploying/scorchia_brick_to_bricks",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:brick/scorchia"
+					]
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 4
+				}
+			],
+			"resultId": "create:cut_scorchia_bricks",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_create_oak_narrow",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:wood/planks/oak_slab"
+					]
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/oak_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_tfc_oak_narrow",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_create_acacia_wide",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:wood/planks/acacia_slab"
+					]
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/acacia_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/acacia"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_tfc_acacia_wide",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_birch_alt",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"afc:wood/planks/eucalyptus_slab"
+					]
+				},
+				{
+					"ids": [
+						"afc:wood/planks/eucalyptus_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"afc:wood/planks/eucalyptus_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_birch",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:sequenced_assembly/ulv_voltage_coil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:magnetic_iron_rod"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:fine_lead_wire"
+					],
+					"amount": 16
+				}
+			],
+			"resultId": "gtceu:ulv_voltage_coil",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_create_sequoia_narrow",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:wood/planks/sequoia_slab"
+					]
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/sequoia_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_tfc_sequoia_narrow",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:deploying/andesite_brick_to_bricks",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:brick/andesite"
+					]
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 4
+				}
+			],
+			"resultId": "tfc:rock/bricks/andesite",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_create_andesite_wide",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:rock/obsidian_slab",
+						"tfg:rock/deepslate_slab",
+						"tfg:rock/dripstone_slab",
+						"tfg:rock/crackrack_slab",
+						"tfg:rock/tuff_slab",
+						"tfg:rock/glauberite_slab",
+						"tfg:rock/aragonite_slab",
+						"tfg:rock/gilsonite_slab",
+						"tfg:rock/moon_deepslate_slab",
+						"tfg:rock/red_granite_slab",
+						"tfg:rock/flavolite_slab",
+						"tfg:rock/sandy_jadestone_slab",
+						"tfg:rock/scoria_slab",
+						"tfg:rock/scorchia_slab",
+						"tfg:rock/permafrost_slab",
+						"tfc:rock/raw/gabbro_slab",
+						"tfc:rock/smooth/gabbro_slab",
+						"tfc:rock/cobble/gabbro_slab",
+						"tfc:rock/mossy_cobble/gabbro_slab",
+						"tfc:rock/raw/shale_slab",
+						"tfc:rock/smooth/shale_slab",
+						"tfc:rock/cobble/shale_slab",
+						"tfc:rock/mossy_cobble/shale_slab",
+						"tfc:rock/raw/claystone_slab",
+						"tfc:rock/smooth/claystone_slab",
+						"tfc:rock/cobble/claystone_slab",
+						"tfc:rock/mossy_cobble/claystone_slab",
+						"tfc:rock/raw/limestone_slab",
+						"tfc:rock/smooth/limestone_slab",
+						"tfc:rock/cobble/limestone_slab",
+						"tfc:rock/mossy_cobble/limestone_slab",
+						"tfc:rock/raw/conglomerate_slab",
+						"tfc:rock/smooth/conglomerate_slab",
+						"tfc:rock/cobble/conglomerate_slab",
+						"tfc:rock/mossy_cobble/conglomerate_slab",
+						"tfc:rock/raw/dolomite_slab",
+						"tfc:rock/smooth/dolomite_slab",
+						"tfc:rock/cobble/dolomite_slab",
+						"tfc:rock/mossy_cobble/dolomite_slab",
+						"tfc:rock/raw/chert_slab",
+						"tfc:rock/smooth/chert_slab",
+						"tfc:rock/cobble/chert_slab",
+						"tfc:rock/mossy_cobble/chert_slab",
+						"tfc:rock/raw/chalk_slab",
+						"tfc:rock/smooth/chalk_slab",
+						"tfc:rock/cobble/chalk_slab",
+						"tfc:rock/mossy_cobble/chalk_slab",
+						"tfc:rock/raw/rhyolite_slab",
+						"tfc:rock/smooth/rhyolite_slab",
+						"tfc:rock/cobble/rhyolite_slab",
+						"tfc:rock/mossy_cobble/rhyolite_slab",
+						"tfc:rock/raw/dacite_slab",
+						"tfc:rock/smooth/dacite_slab",
+						"tfc:rock/cobble/dacite_slab",
+						"tfc:rock/mossy_cobble/dacite_slab",
+						"tfc:rock/raw/quartzite_slab",
+						"tfc:rock/smooth/quartzite_slab",
+						"tfc:rock/cobble/quartzite_slab",
+						"tfc:rock/mossy_cobble/quartzite_slab",
+						"tfc:rock/raw/slate_slab",
+						"tfc:rock/smooth/slate_slab",
+						"tfc:rock/cobble/slate_slab",
+						"tfc:rock/mossy_cobble/slate_slab",
+						"tfc:rock/raw/phyllite_slab",
+						"tfc:rock/smooth/phyllite_slab",
+						"tfc:rock/cobble/phyllite_slab",
+						"tfc:rock/mossy_cobble/phyllite_slab",
+						"tfc:rock/raw/schist_slab",
+						"tfc:rock/smooth/schist_slab",
+						"tfc:rock/cobble/schist_slab",
+						"tfc:rock/mossy_cobble/schist_slab",
+						"tfc:rock/raw/gneiss_slab",
+						"tfc:rock/smooth/gneiss_slab",
+						"tfc:rock/cobble/gneiss_slab",
+						"tfc:rock/mossy_cobble/gneiss_slab",
+						"tfc:rock/raw/marble_slab",
+						"tfc:rock/smooth/marble_slab",
+						"tfc:rock/cobble/marble_slab",
+						"tfc:rock/mossy_cobble/marble_slab",
+						"tfc:rock/raw/basalt_slab",
+						"tfc:rock/smooth/basalt_slab",
+						"tfc:rock/cobble/basalt_slab",
+						"tfc:rock/mossy_cobble/basalt_slab",
+						"tfc:rock/raw/diorite_slab",
+						"tfc:rock/smooth/diorite_slab",
+						"tfc:rock/cobble/diorite_slab",
+						"tfc:rock/mossy_cobble/diorite_slab",
+						"tfc:rock/raw/andesite_slab",
+						"tfc:rock/smooth/andesite_slab",
+						"tfc:rock/cobble/andesite_slab",
+						"tfc:rock/mossy_cobble/andesite_slab",
+						"tfc:rock/raw/granite_slab",
+						"tfc:rock/smooth/granite_slab",
+						"tfc:rock/cobble/granite_slab",
+						"tfc:rock/mossy_cobble/granite_slab",
+						"minecraft:cobbled_deepslate_slab",
+						"tfg:rock/mossy_cobble_deepslate_slab",
+						"minecraft:polished_deepslate_slab",
+						"tfg:rock/cobble_dripstone_slab",
+						"tfg:rock/mossy_cobble_dripstone_slab",
+						"create:cut_dripstone_slab",
+						"minecraft:blackstone_slab",
+						"tfg:rock/cobble_blackstone_slab",
+						"tfg:rock/mossy_cobble_blackstone_slab",
+						"minecraft:polished_blackstone_slab",
+						"tfg:rock/cobble_crackrack_slab",
+						"tfg:rock/mossy_cobble_crackrack_slab",
+						"tfg:rock/polished_crackrack_slab",
+						"tfg:rock/cobble_tuff_slab",
+						"tfg:rock/mossy_cobble_tuff_slab",
+						"create:polished_cut_tuff_slab",
+						"ad_astra:moon_stone_slab",
+						"ad_astra:moon_cobblestone_slab",
+						"tfg:rock/mossy_cobble_moon_slab",
+						"ad_astra:polished_moon_stone_slab",
+						"tfg:rock/cobble_moon_deepslate_slab",
+						"tfg:rock/mossy_cobble_moon_deepslate_slab",
+						"tfg:rock/polished_moon_deepslate_slab",
+						"ad_astra:glacio_stone_slab",
+						"ad_astra:glacio_cobblestone_slab",
+						"tfg:rock/mossy_cobble_glacio_slab",
+						"ad_astra:polished_glacio_stone_slab",
+						"ad_astra:mars_stone_slab",
+						"ad_astra:mars_cobblestone_slab",
+						"tfg:rock/mossy_cobble_mars_slab",
+						"ad_astra:polished_mars_stone_slab",
+						"ad_astra:venus_stone_slab",
+						"ad_astra:venus_cobblestone_slab",
+						"tfg:rock/mossy_cobble_venus_slab",
+						"ad_astra:polished_venus_stone_slab",
+						"tfg:rock/cobble_red_granite_slab",
+						"tfg:rock/mossy_cobble_red_granite_slab",
+						"tfg:rock/polished_red_granite_slab",
+						"tfg:rock/cobble_flavolite_slab",
+						"tfg:rock/polished_flavolite_slab",
+						"tfg:rock/cobble_sandy_jadestone_slab",
+						"tfg:rock/polished_sandy_jadestone_slab",
+						"tfg:rock/cobble_scoria_slab",
+						"create:polished_cut_scoria_slab",
+						"tfg:rock/cobble_scorchia_slab",
+						"create:polished_cut_scorchia_slab",
+						"ad_astra:mercury_stone_slab",
+						"ad_astra:mercury_cobblestone_slab",
+						"tfg:rock/mossy_cobble_mercury_slab",
+						"ad_astra:polished_mercury_stone_slab",
+						"tfg:rock/cobble_permafrost_slab",
+						"tfg:rock/mossy_cobble_permafrost_slab",
+						"ad_astra:polished_permafrost_slab",
+						"minecraft:cobblestone_slab",
+						"minecraft:mossy_cobblestone_slab"
+					]
+				},
+				{
+					"ids": [
+						"tfg:rock/obsidian_slab",
+						"tfg:rock/deepslate_slab",
+						"tfg:rock/dripstone_slab",
+						"tfg:rock/crackrack_slab",
+						"tfg:rock/tuff_slab",
+						"tfg:rock/glauberite_slab",
+						"tfg:rock/aragonite_slab",
+						"tfg:rock/gilsonite_slab",
+						"tfg:rock/moon_deepslate_slab",
+						"tfg:rock/red_granite_slab",
+						"tfg:rock/flavolite_slab",
+						"tfg:rock/sandy_jadestone_slab",
+						"tfg:rock/scoria_slab",
+						"tfg:rock/scorchia_slab",
+						"tfg:rock/permafrost_slab",
+						"tfc:rock/raw/gabbro_slab",
+						"tfc:rock/smooth/gabbro_slab",
+						"tfc:rock/cobble/gabbro_slab",
+						"tfc:rock/mossy_cobble/gabbro_slab",
+						"tfc:rock/raw/shale_slab",
+						"tfc:rock/smooth/shale_slab",
+						"tfc:rock/cobble/shale_slab",
+						"tfc:rock/mossy_cobble/shale_slab",
+						"tfc:rock/raw/claystone_slab",
+						"tfc:rock/smooth/claystone_slab",
+						"tfc:rock/cobble/claystone_slab",
+						"tfc:rock/mossy_cobble/claystone_slab",
+						"tfc:rock/raw/limestone_slab",
+						"tfc:rock/smooth/limestone_slab",
+						"tfc:rock/cobble/limestone_slab",
+						"tfc:rock/mossy_cobble/limestone_slab",
+						"tfc:rock/raw/conglomerate_slab",
+						"tfc:rock/smooth/conglomerate_slab",
+						"tfc:rock/cobble/conglomerate_slab",
+						"tfc:rock/mossy_cobble/conglomerate_slab",
+						"tfc:rock/raw/dolomite_slab",
+						"tfc:rock/smooth/dolomite_slab",
+						"tfc:rock/cobble/dolomite_slab",
+						"tfc:rock/mossy_cobble/dolomite_slab",
+						"tfc:rock/raw/chert_slab",
+						"tfc:rock/smooth/chert_slab",
+						"tfc:rock/cobble/chert_slab",
+						"tfc:rock/mossy_cobble/chert_slab",
+						"tfc:rock/raw/chalk_slab",
+						"tfc:rock/smooth/chalk_slab",
+						"tfc:rock/cobble/chalk_slab",
+						"tfc:rock/mossy_cobble/chalk_slab",
+						"tfc:rock/raw/rhyolite_slab",
+						"tfc:rock/smooth/rhyolite_slab",
+						"tfc:rock/cobble/rhyolite_slab",
+						"tfc:rock/mossy_cobble/rhyolite_slab",
+						"tfc:rock/raw/dacite_slab",
+						"tfc:rock/smooth/dacite_slab",
+						"tfc:rock/cobble/dacite_slab",
+						"tfc:rock/mossy_cobble/dacite_slab",
+						"tfc:rock/raw/quartzite_slab",
+						"tfc:rock/smooth/quartzite_slab",
+						"tfc:rock/cobble/quartzite_slab",
+						"tfc:rock/mossy_cobble/quartzite_slab",
+						"tfc:rock/raw/slate_slab",
+						"tfc:rock/smooth/slate_slab",
+						"tfc:rock/cobble/slate_slab",
+						"tfc:rock/mossy_cobble/slate_slab",
+						"tfc:rock/raw/phyllite_slab",
+						"tfc:rock/smooth/phyllite_slab",
+						"tfc:rock/cobble/phyllite_slab",
+						"tfc:rock/mossy_cobble/phyllite_slab",
+						"tfc:rock/raw/schist_slab",
+						"tfc:rock/smooth/schist_slab",
+						"tfc:rock/cobble/schist_slab",
+						"tfc:rock/mossy_cobble/schist_slab",
+						"tfc:rock/raw/gneiss_slab",
+						"tfc:rock/smooth/gneiss_slab",
+						"tfc:rock/cobble/gneiss_slab",
+						"tfc:rock/mossy_cobble/gneiss_slab",
+						"tfc:rock/raw/marble_slab",
+						"tfc:rock/smooth/marble_slab",
+						"tfc:rock/cobble/marble_slab",
+						"tfc:rock/mossy_cobble/marble_slab",
+						"tfc:rock/raw/basalt_slab",
+						"tfc:rock/smooth/basalt_slab",
+						"tfc:rock/cobble/basalt_slab",
+						"tfc:rock/mossy_cobble/basalt_slab",
+						"tfc:rock/raw/diorite_slab",
+						"tfc:rock/smooth/diorite_slab",
+						"tfc:rock/cobble/diorite_slab",
+						"tfc:rock/mossy_cobble/diorite_slab",
+						"tfc:rock/raw/andesite_slab",
+						"tfc:rock/smooth/andesite_slab",
+						"tfc:rock/cobble/andesite_slab",
+						"tfc:rock/mossy_cobble/andesite_slab",
+						"tfc:rock/raw/granite_slab",
+						"tfc:rock/smooth/granite_slab",
+						"tfc:rock/cobble/granite_slab",
+						"tfc:rock/mossy_cobble/granite_slab",
+						"minecraft:cobbled_deepslate_slab",
+						"tfg:rock/mossy_cobble_deepslate_slab",
+						"minecraft:polished_deepslate_slab",
+						"tfg:rock/cobble_dripstone_slab",
+						"tfg:rock/mossy_cobble_dripstone_slab",
+						"create:cut_dripstone_slab",
+						"minecraft:blackstone_slab",
+						"tfg:rock/cobble_blackstone_slab",
+						"tfg:rock/mossy_cobble_blackstone_slab",
+						"minecraft:polished_blackstone_slab",
+						"tfg:rock/cobble_crackrack_slab",
+						"tfg:rock/mossy_cobble_crackrack_slab",
+						"tfg:rock/polished_crackrack_slab",
+						"tfg:rock/cobble_tuff_slab",
+						"tfg:rock/mossy_cobble_tuff_slab",
+						"create:polished_cut_tuff_slab",
+						"ad_astra:moon_stone_slab",
+						"ad_astra:moon_cobblestone_slab",
+						"tfg:rock/mossy_cobble_moon_slab",
+						"ad_astra:polished_moon_stone_slab",
+						"tfg:rock/cobble_moon_deepslate_slab",
+						"tfg:rock/mossy_cobble_moon_deepslate_slab",
+						"tfg:rock/polished_moon_deepslate_slab",
+						"ad_astra:glacio_stone_slab",
+						"ad_astra:glacio_cobblestone_slab",
+						"tfg:rock/mossy_cobble_glacio_slab",
+						"ad_astra:polished_glacio_stone_slab",
+						"ad_astra:mars_stone_slab",
+						"ad_astra:mars_cobblestone_slab",
+						"tfg:rock/mossy_cobble_mars_slab",
+						"ad_astra:polished_mars_stone_slab",
+						"ad_astra:venus_stone_slab",
+						"ad_astra:venus_cobblestone_slab",
+						"tfg:rock/mossy_cobble_venus_slab",
+						"ad_astra:polished_venus_stone_slab",
+						"tfg:rock/cobble_red_granite_slab",
+						"tfg:rock/mossy_cobble_red_granite_slab",
+						"tfg:rock/polished_red_granite_slab",
+						"tfg:rock/cobble_flavolite_slab",
+						"tfg:rock/polished_flavolite_slab",
+						"tfg:rock/cobble_sandy_jadestone_slab",
+						"tfg:rock/polished_sandy_jadestone_slab",
+						"tfg:rock/cobble_scoria_slab",
+						"create:polished_cut_scoria_slab",
+						"tfg:rock/cobble_scorchia_slab",
+						"create:polished_cut_scorchia_slab",
+						"ad_astra:mercury_stone_slab",
+						"ad_astra:mercury_cobblestone_slab",
+						"tfg:rock/mossy_cobble_mercury_slab",
+						"ad_astra:polished_mercury_stone_slab",
+						"tfg:rock/cobble_permafrost_slab",
+						"tfg:rock/mossy_cobble_permafrost_slab",
+						"ad_astra:polished_permafrost_slab",
+						"minecraft:cobblestone_slab",
+						"minecraft:mossy_cobblestone_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"minecraft:stone",
+						"minecraft:deepslate",
+						"minecraft:polished_deepslate",
+						"minecraft:tuff",
+						"tfc:rock/raw/granite",
+						"tfc:rock/hardened/granite",
+						"tfc:rock/raw/diorite",
+						"tfc:rock/hardened/diorite",
+						"tfc:rock/raw/gabbro",
+						"tfc:rock/hardened/gabbro",
+						"tfc:rock/raw/shale",
+						"tfc:rock/hardened/shale",
+						"tfc:rock/raw/claystone",
+						"tfc:rock/hardened/claystone",
+						"tfc:rock/raw/limestone",
+						"tfc:rock/hardened/limestone",
+						"tfc:rock/raw/conglomerate",
+						"tfc:rock/hardened/conglomerate",
+						"tfc:rock/raw/dolomite",
+						"tfc:rock/hardened/dolomite",
+						"tfc:rock/raw/chert",
+						"tfc:rock/hardened/chert",
+						"tfc:rock/raw/chalk",
+						"tfc:rock/hardened/chalk",
+						"tfc:rock/raw/rhyolite",
+						"tfc:rock/hardened/rhyolite",
+						"tfc:rock/raw/basalt",
+						"tfc:rock/hardened/basalt",
+						"tfc:rock/raw/andesite",
+						"tfc:rock/hardened/andesite",
+						"tfc:rock/raw/dacite",
+						"tfc:rock/hardened/dacite",
+						"tfc:rock/raw/quartzite",
+						"tfc:rock/hardened/quartzite",
+						"tfc:rock/raw/slate",
+						"tfc:rock/hardened/slate",
+						"tfc:rock/raw/phyllite",
+						"tfc:rock/hardened/phyllite",
+						"tfc:rock/raw/schist",
+						"tfc:rock/hardened/schist",
+						"tfc:rock/raw/gneiss",
+						"tfc:rock/hardened/gneiss",
+						"tfc:rock/raw/marble",
+						"tfc:rock/hardened/marble",
+						"tfg:rock/hardened_deepslate",
+						"tfg:rock/hardened_dripstone",
+						"tfg:rock/hardened_blackstone",
+						"tfg:rock/hardened_crackrack",
+						"tfg:rock/hardened_tuff",
+						"tfg:rock/hardened_moon_stone",
+						"tfg:rock/hardened_moon_deepslate",
+						"tfg:rock/hardened_glacio_stone",
+						"tfg:rock/hardened_mars_stone",
+						"tfg:rock/hardened_venus_stone",
+						"tfg:rock/hardened_red_granite",
+						"tfg:rock/hardened_flavolite",
+						"tfg:rock/hardened_sandy_jadestone",
+						"tfg:rock/hardened_scoria",
+						"tfg:rock/hardened_scorchia",
+						"tfg:rock/hardened_mercury_stone",
+						"tfg:rock/hardened_permafrost",
+						"betterend:lacugrove_bark",
+						"minecraft:dripstone_block",
+						"minecraft:blackstone",
+						"beneath:crackrack",
+						"ad_astra:moon_stone",
+						"ad_astra:moon_deepslate",
+						"ad_astra:glacio_stone",
+						"ad_astra:mars_stone",
+						"ad_astra:venus_stone",
+						"gtceu:red_granite",
+						"betterend:flavolite",
+						"betterend:sandy_jadestone",
+						"create:scoria",
+						"create:scorchia",
+						"ad_astra:mercury_stone",
+						"ad_astra:permafrost",
+						"minecraft:basalt"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_create_andesite_wide",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:deploying/flavolite_brick_to_bricks",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:brick/flavolite"
+					]
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 4
+				}
+			],
+			"resultId": "betterend:flavolite_bricks",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_tieless_alt",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"framedblocks:framed_slab"
+					]
+				},
+				{
+					"ids": [
+						"framedblocks:framed_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"framedblocks:framed_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_tieless",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_spruce_narrow_alt",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"afc:wood/planks/cypress_slab"
+					]
+				},
+				{
+					"ids": [
+						"afc:wood/planks/cypress_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_spruce_narrow",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_create_maple",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:wood/planks/maple_slab"
+					]
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/maple_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/maple_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_tfc_maple",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_create_spruce_narrow",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:wood/planks/spruce_slab"
+					]
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/spruce_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_tfc_spruce_narrow",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:deploying/gneiss_brick_to_bricks",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:brick/gneiss"
+					]
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 4
+				}
+			],
+			"resultId": "tfc:rock/bricks/gneiss",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:deploying/conglomerate_brick_to_bricks",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:brick/conglomerate"
+					]
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 4
+				}
+			],
+			"resultId": "tfc:rock/bricks/conglomerate",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:gtceu/sequenced_assembly/vacuum_tube",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:resin_circuit_board"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:resin_circuit_board"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"gtceu:steel_bolt"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"gtceu:copper_single_wire"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"gtceu:copper_single_wire"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"gtceu:glass_tube"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "gtceu:vacuum_tube",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_create_ash_narrow",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:wood/planks/ash_slab"
+					]
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/ash_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_tfc_ash_narrow",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_create_sycamore",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:wood/planks/sycamore_slab"
+					]
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/sycamore_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/sycamore_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_tfc_sycamore",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_spruce_wide_alt",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"afc:wood/planks/cypress_slab"
+					]
+				},
+				{
+					"ids": [
+						"afc:wood/planks/cypress_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"afc:wood/planks/cypress"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_spruce_wide",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_create_ash",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:wood/planks/ash_slab"
+					]
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/ash_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/ash_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_tfc_ash",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_bamboo_narrow_alt",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:bamboo_block"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:bamboo_block"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_bamboo_narrow",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:deploying/venus_stone_brick_to_bricks",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:brick/venus_stone"
+					]
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 4
+				}
+			],
+			"resultId": "ad_astra:venus_stone_bricks",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_jungle_narrow_alt",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"afc:wood/planks/teak_slab"
+					]
+				},
+				{
+					"ids": [
+						"afc:wood/planks/teak_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_jungle_narrow",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:deploying/quartzite_brick_to_bricks",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:brick/quartzite"
+					]
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 4
+				}
+			],
+			"resultId": "tfc:rock/bricks/quartzite",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_bamboo_wide_alt",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:bamboo_block"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:bamboo_block"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"minecraft:stripped_bamboo_block"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_bamboo_wide",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_create_kapok_narrow",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:wood/planks/kapok_slab"
+					]
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/kapok_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_tfc_kapok_narrow",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_warped_wide_alt",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"beneath:wood/planks/warped_slab"
+					]
+				},
+				{
+					"ids": [
+						"beneath:wood/planks/warped_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"beneath:wood/planks/warped"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_warped_wide",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_create_sycamore_narrow",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:wood/planks/sycamore_slab"
+					]
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/sycamore_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_tfc_sycamore_narrow",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_crimson_alt",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"beneath:wood/planks/crimson_slab"
+					]
+				},
+				{
+					"ids": [
+						"beneath:wood/planks/crimson_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"beneath:wood/planks/crimson_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_crimson",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_cherry_narrow_alt",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"afc:wood/planks/fig_slab"
+					]
+				},
+				{
+					"ids": [
+						"afc:wood/planks/fig_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_cherry_narrow",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:deploying/slate_brick_to_bricks",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:brick/slate"
+					]
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 4
+				}
+			],
+			"resultId": "tfc:rock/bricks/slate",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:deploying/tuff_brick_to_bricks",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:brick/tuff"
+					]
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 4
+				}
+			],
+			"resultId": "tfg:rock/bricks_tuff",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_create_rosewood_narrow",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:wood/planks/rosewood_slab"
+					]
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/rosewood_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_tfc_rosewood_narrow",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_create_mangrove_wide",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:wood/planks/mangrove_slab"
+					]
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/mangrove_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/mangrove"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_tfc_mangrove_wide",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_jungle_alt",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"afc:wood/planks/teak_slab"
+					]
+				},
+				{
+					"ids": [
+						"afc:wood/planks/teak_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"afc:wood/planks/teak_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_jungle",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:vi/sequenced_assembly/redstone_module",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:red_alloy_plate"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:red_alloy_plate"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"gtceu:small_brass_gear"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"gtceu:red_alloy_bolt"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "vintageimprovements:redstone_module",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_create_douglas_fir_wide",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:wood/planks/douglas_fir_slab"
+					]
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/douglas_fir_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/douglas_fir"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_tfc_douglas_fir_wide",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_blackstone_narrow_alt",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:blackstone_slab"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:blackstone_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_blackstone_narrow",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:gtceu/sequenced_assembly/basic_electronic_circuit",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:resin_printed_circuit_board"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:resin_printed_circuit_board"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"gtceu:resistor"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"gtceu:resistor"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"gtceu:vacuum_tube"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"gtceu:vacuum_tube"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"create:electron_tube"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"magistuarmory:steel_plate",
+						"gtceu:steel_plate"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "gtceu:basic_electronic_circuit",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:deploying/rhyolite_brick_to_bricks",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:brick/rhyolite"
+					]
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 4
+				}
+			],
+			"resultId": "tfc:rock/bricks/rhyolite",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_create_spruce_wide",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:wood/planks/spruce_slab"
+					]
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/spruce_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/spruce"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_tfc_spruce_wide",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_monorail/wrought_iron",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"create:metal_girder"
+					]
+				},
+				{
+					"ids": [
+						"create:metal_girder"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"gtceu:wrought_iron_plate"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"gtceu:wrought_iron_plate"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "railways:track_monorail",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_create_douglas_fir_narrow",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:wood/planks/douglas_fir_slab"
+					]
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/douglas_fir_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_tfc_douglas_fir_narrow",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_cherry_alt",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"afc:wood/planks/fig_slab"
+					]
+				},
+				{
+					"ids": [
+						"afc:wood/planks/fig_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"afc:wood/planks/fig_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_cherry",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_blackstone_alt",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:blackstone_slab"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:blackstone_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"minecraft:blackstone_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_blackstone",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:deploying/schist_brick_to_bricks",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:brick/schist"
+					]
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 4
+				}
+			],
+			"resultId": "tfc:rock/bricks/schist",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_create_white_cedar_narrow",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:wood/planks/white_cedar_slab"
+					]
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/white_cedar_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_tfc_white_cedar_narrow",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_create_willow_wide",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:wood/planks/willow_slab"
+					]
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/willow_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/willow"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_tfc_willow_wide",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_create_andesite",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:rock/obsidian_slab",
+						"tfg:rock/deepslate_slab",
+						"tfg:rock/dripstone_slab",
+						"tfg:rock/crackrack_slab",
+						"tfg:rock/tuff_slab",
+						"tfg:rock/glauberite_slab",
+						"tfg:rock/aragonite_slab",
+						"tfg:rock/gilsonite_slab",
+						"tfg:rock/moon_deepslate_slab",
+						"tfg:rock/red_granite_slab",
+						"tfg:rock/flavolite_slab",
+						"tfg:rock/sandy_jadestone_slab",
+						"tfg:rock/scoria_slab",
+						"tfg:rock/scorchia_slab",
+						"tfg:rock/permafrost_slab",
+						"tfc:rock/raw/gabbro_slab",
+						"tfc:rock/smooth/gabbro_slab",
+						"tfc:rock/cobble/gabbro_slab",
+						"tfc:rock/mossy_cobble/gabbro_slab",
+						"tfc:rock/raw/shale_slab",
+						"tfc:rock/smooth/shale_slab",
+						"tfc:rock/cobble/shale_slab",
+						"tfc:rock/mossy_cobble/shale_slab",
+						"tfc:rock/raw/claystone_slab",
+						"tfc:rock/smooth/claystone_slab",
+						"tfc:rock/cobble/claystone_slab",
+						"tfc:rock/mossy_cobble/claystone_slab",
+						"tfc:rock/raw/limestone_slab",
+						"tfc:rock/smooth/limestone_slab",
+						"tfc:rock/cobble/limestone_slab",
+						"tfc:rock/mossy_cobble/limestone_slab",
+						"tfc:rock/raw/conglomerate_slab",
+						"tfc:rock/smooth/conglomerate_slab",
+						"tfc:rock/cobble/conglomerate_slab",
+						"tfc:rock/mossy_cobble/conglomerate_slab",
+						"tfc:rock/raw/dolomite_slab",
+						"tfc:rock/smooth/dolomite_slab",
+						"tfc:rock/cobble/dolomite_slab",
+						"tfc:rock/mossy_cobble/dolomite_slab",
+						"tfc:rock/raw/chert_slab",
+						"tfc:rock/smooth/chert_slab",
+						"tfc:rock/cobble/chert_slab",
+						"tfc:rock/mossy_cobble/chert_slab",
+						"tfc:rock/raw/chalk_slab",
+						"tfc:rock/smooth/chalk_slab",
+						"tfc:rock/cobble/chalk_slab",
+						"tfc:rock/mossy_cobble/chalk_slab",
+						"tfc:rock/raw/rhyolite_slab",
+						"tfc:rock/smooth/rhyolite_slab",
+						"tfc:rock/cobble/rhyolite_slab",
+						"tfc:rock/mossy_cobble/rhyolite_slab",
+						"tfc:rock/raw/dacite_slab",
+						"tfc:rock/smooth/dacite_slab",
+						"tfc:rock/cobble/dacite_slab",
+						"tfc:rock/mossy_cobble/dacite_slab",
+						"tfc:rock/raw/quartzite_slab",
+						"tfc:rock/smooth/quartzite_slab",
+						"tfc:rock/cobble/quartzite_slab",
+						"tfc:rock/mossy_cobble/quartzite_slab",
+						"tfc:rock/raw/slate_slab",
+						"tfc:rock/smooth/slate_slab",
+						"tfc:rock/cobble/slate_slab",
+						"tfc:rock/mossy_cobble/slate_slab",
+						"tfc:rock/raw/phyllite_slab",
+						"tfc:rock/smooth/phyllite_slab",
+						"tfc:rock/cobble/phyllite_slab",
+						"tfc:rock/mossy_cobble/phyllite_slab",
+						"tfc:rock/raw/schist_slab",
+						"tfc:rock/smooth/schist_slab",
+						"tfc:rock/cobble/schist_slab",
+						"tfc:rock/mossy_cobble/schist_slab",
+						"tfc:rock/raw/gneiss_slab",
+						"tfc:rock/smooth/gneiss_slab",
+						"tfc:rock/cobble/gneiss_slab",
+						"tfc:rock/mossy_cobble/gneiss_slab",
+						"tfc:rock/raw/marble_slab",
+						"tfc:rock/smooth/marble_slab",
+						"tfc:rock/cobble/marble_slab",
+						"tfc:rock/mossy_cobble/marble_slab",
+						"tfc:rock/raw/basalt_slab",
+						"tfc:rock/smooth/basalt_slab",
+						"tfc:rock/cobble/basalt_slab",
+						"tfc:rock/mossy_cobble/basalt_slab",
+						"tfc:rock/raw/diorite_slab",
+						"tfc:rock/smooth/diorite_slab",
+						"tfc:rock/cobble/diorite_slab",
+						"tfc:rock/mossy_cobble/diorite_slab",
+						"tfc:rock/raw/andesite_slab",
+						"tfc:rock/smooth/andesite_slab",
+						"tfc:rock/cobble/andesite_slab",
+						"tfc:rock/mossy_cobble/andesite_slab",
+						"tfc:rock/raw/granite_slab",
+						"tfc:rock/smooth/granite_slab",
+						"tfc:rock/cobble/granite_slab",
+						"tfc:rock/mossy_cobble/granite_slab",
+						"minecraft:cobbled_deepslate_slab",
+						"tfg:rock/mossy_cobble_deepslate_slab",
+						"minecraft:polished_deepslate_slab",
+						"tfg:rock/cobble_dripstone_slab",
+						"tfg:rock/mossy_cobble_dripstone_slab",
+						"create:cut_dripstone_slab",
+						"minecraft:blackstone_slab",
+						"tfg:rock/cobble_blackstone_slab",
+						"tfg:rock/mossy_cobble_blackstone_slab",
+						"minecraft:polished_blackstone_slab",
+						"tfg:rock/cobble_crackrack_slab",
+						"tfg:rock/mossy_cobble_crackrack_slab",
+						"tfg:rock/polished_crackrack_slab",
+						"tfg:rock/cobble_tuff_slab",
+						"tfg:rock/mossy_cobble_tuff_slab",
+						"create:polished_cut_tuff_slab",
+						"ad_astra:moon_stone_slab",
+						"ad_astra:moon_cobblestone_slab",
+						"tfg:rock/mossy_cobble_moon_slab",
+						"ad_astra:polished_moon_stone_slab",
+						"tfg:rock/cobble_moon_deepslate_slab",
+						"tfg:rock/mossy_cobble_moon_deepslate_slab",
+						"tfg:rock/polished_moon_deepslate_slab",
+						"ad_astra:glacio_stone_slab",
+						"ad_astra:glacio_cobblestone_slab",
+						"tfg:rock/mossy_cobble_glacio_slab",
+						"ad_astra:polished_glacio_stone_slab",
+						"ad_astra:mars_stone_slab",
+						"ad_astra:mars_cobblestone_slab",
+						"tfg:rock/mossy_cobble_mars_slab",
+						"ad_astra:polished_mars_stone_slab",
+						"ad_astra:venus_stone_slab",
+						"ad_astra:venus_cobblestone_slab",
+						"tfg:rock/mossy_cobble_venus_slab",
+						"ad_astra:polished_venus_stone_slab",
+						"tfg:rock/cobble_red_granite_slab",
+						"tfg:rock/mossy_cobble_red_granite_slab",
+						"tfg:rock/polished_red_granite_slab",
+						"tfg:rock/cobble_flavolite_slab",
+						"tfg:rock/polished_flavolite_slab",
+						"tfg:rock/cobble_sandy_jadestone_slab",
+						"tfg:rock/polished_sandy_jadestone_slab",
+						"tfg:rock/cobble_scoria_slab",
+						"create:polished_cut_scoria_slab",
+						"tfg:rock/cobble_scorchia_slab",
+						"create:polished_cut_scorchia_slab",
+						"ad_astra:mercury_stone_slab",
+						"ad_astra:mercury_cobblestone_slab",
+						"tfg:rock/mossy_cobble_mercury_slab",
+						"ad_astra:polished_mercury_stone_slab",
+						"tfg:rock/cobble_permafrost_slab",
+						"tfg:rock/mossy_cobble_permafrost_slab",
+						"ad_astra:polished_permafrost_slab",
+						"minecraft:cobblestone_slab",
+						"minecraft:mossy_cobblestone_slab"
+					]
+				},
+				{
+					"ids": [
+						"tfg:rock/obsidian_slab",
+						"tfg:rock/deepslate_slab",
+						"tfg:rock/dripstone_slab",
+						"tfg:rock/crackrack_slab",
+						"tfg:rock/tuff_slab",
+						"tfg:rock/glauberite_slab",
+						"tfg:rock/aragonite_slab",
+						"tfg:rock/gilsonite_slab",
+						"tfg:rock/moon_deepslate_slab",
+						"tfg:rock/red_granite_slab",
+						"tfg:rock/flavolite_slab",
+						"tfg:rock/sandy_jadestone_slab",
+						"tfg:rock/scoria_slab",
+						"tfg:rock/scorchia_slab",
+						"tfg:rock/permafrost_slab",
+						"tfc:rock/raw/gabbro_slab",
+						"tfc:rock/smooth/gabbro_slab",
+						"tfc:rock/cobble/gabbro_slab",
+						"tfc:rock/mossy_cobble/gabbro_slab",
+						"tfc:rock/raw/shale_slab",
+						"tfc:rock/smooth/shale_slab",
+						"tfc:rock/cobble/shale_slab",
+						"tfc:rock/mossy_cobble/shale_slab",
+						"tfc:rock/raw/claystone_slab",
+						"tfc:rock/smooth/claystone_slab",
+						"tfc:rock/cobble/claystone_slab",
+						"tfc:rock/mossy_cobble/claystone_slab",
+						"tfc:rock/raw/limestone_slab",
+						"tfc:rock/smooth/limestone_slab",
+						"tfc:rock/cobble/limestone_slab",
+						"tfc:rock/mossy_cobble/limestone_slab",
+						"tfc:rock/raw/conglomerate_slab",
+						"tfc:rock/smooth/conglomerate_slab",
+						"tfc:rock/cobble/conglomerate_slab",
+						"tfc:rock/mossy_cobble/conglomerate_slab",
+						"tfc:rock/raw/dolomite_slab",
+						"tfc:rock/smooth/dolomite_slab",
+						"tfc:rock/cobble/dolomite_slab",
+						"tfc:rock/mossy_cobble/dolomite_slab",
+						"tfc:rock/raw/chert_slab",
+						"tfc:rock/smooth/chert_slab",
+						"tfc:rock/cobble/chert_slab",
+						"tfc:rock/mossy_cobble/chert_slab",
+						"tfc:rock/raw/chalk_slab",
+						"tfc:rock/smooth/chalk_slab",
+						"tfc:rock/cobble/chalk_slab",
+						"tfc:rock/mossy_cobble/chalk_slab",
+						"tfc:rock/raw/rhyolite_slab",
+						"tfc:rock/smooth/rhyolite_slab",
+						"tfc:rock/cobble/rhyolite_slab",
+						"tfc:rock/mossy_cobble/rhyolite_slab",
+						"tfc:rock/raw/dacite_slab",
+						"tfc:rock/smooth/dacite_slab",
+						"tfc:rock/cobble/dacite_slab",
+						"tfc:rock/mossy_cobble/dacite_slab",
+						"tfc:rock/raw/quartzite_slab",
+						"tfc:rock/smooth/quartzite_slab",
+						"tfc:rock/cobble/quartzite_slab",
+						"tfc:rock/mossy_cobble/quartzite_slab",
+						"tfc:rock/raw/slate_slab",
+						"tfc:rock/smooth/slate_slab",
+						"tfc:rock/cobble/slate_slab",
+						"tfc:rock/mossy_cobble/slate_slab",
+						"tfc:rock/raw/phyllite_slab",
+						"tfc:rock/smooth/phyllite_slab",
+						"tfc:rock/cobble/phyllite_slab",
+						"tfc:rock/mossy_cobble/phyllite_slab",
+						"tfc:rock/raw/schist_slab",
+						"tfc:rock/smooth/schist_slab",
+						"tfc:rock/cobble/schist_slab",
+						"tfc:rock/mossy_cobble/schist_slab",
+						"tfc:rock/raw/gneiss_slab",
+						"tfc:rock/smooth/gneiss_slab",
+						"tfc:rock/cobble/gneiss_slab",
+						"tfc:rock/mossy_cobble/gneiss_slab",
+						"tfc:rock/raw/marble_slab",
+						"tfc:rock/smooth/marble_slab",
+						"tfc:rock/cobble/marble_slab",
+						"tfc:rock/mossy_cobble/marble_slab",
+						"tfc:rock/raw/basalt_slab",
+						"tfc:rock/smooth/basalt_slab",
+						"tfc:rock/cobble/basalt_slab",
+						"tfc:rock/mossy_cobble/basalt_slab",
+						"tfc:rock/raw/diorite_slab",
+						"tfc:rock/smooth/diorite_slab",
+						"tfc:rock/cobble/diorite_slab",
+						"tfc:rock/mossy_cobble/diorite_slab",
+						"tfc:rock/raw/andesite_slab",
+						"tfc:rock/smooth/andesite_slab",
+						"tfc:rock/cobble/andesite_slab",
+						"tfc:rock/mossy_cobble/andesite_slab",
+						"tfc:rock/raw/granite_slab",
+						"tfc:rock/smooth/granite_slab",
+						"tfc:rock/cobble/granite_slab",
+						"tfc:rock/mossy_cobble/granite_slab",
+						"minecraft:cobbled_deepslate_slab",
+						"tfg:rock/mossy_cobble_deepslate_slab",
+						"minecraft:polished_deepslate_slab",
+						"tfg:rock/cobble_dripstone_slab",
+						"tfg:rock/mossy_cobble_dripstone_slab",
+						"create:cut_dripstone_slab",
+						"minecraft:blackstone_slab",
+						"tfg:rock/cobble_blackstone_slab",
+						"tfg:rock/mossy_cobble_blackstone_slab",
+						"minecraft:polished_blackstone_slab",
+						"tfg:rock/cobble_crackrack_slab",
+						"tfg:rock/mossy_cobble_crackrack_slab",
+						"tfg:rock/polished_crackrack_slab",
+						"tfg:rock/cobble_tuff_slab",
+						"tfg:rock/mossy_cobble_tuff_slab",
+						"create:polished_cut_tuff_slab",
+						"ad_astra:moon_stone_slab",
+						"ad_astra:moon_cobblestone_slab",
+						"tfg:rock/mossy_cobble_moon_slab",
+						"ad_astra:polished_moon_stone_slab",
+						"tfg:rock/cobble_moon_deepslate_slab",
+						"tfg:rock/mossy_cobble_moon_deepslate_slab",
+						"tfg:rock/polished_moon_deepslate_slab",
+						"ad_astra:glacio_stone_slab",
+						"ad_astra:glacio_cobblestone_slab",
+						"tfg:rock/mossy_cobble_glacio_slab",
+						"ad_astra:polished_glacio_stone_slab",
+						"ad_astra:mars_stone_slab",
+						"ad_astra:mars_cobblestone_slab",
+						"tfg:rock/mossy_cobble_mars_slab",
+						"ad_astra:polished_mars_stone_slab",
+						"ad_astra:venus_stone_slab",
+						"ad_astra:venus_cobblestone_slab",
+						"tfg:rock/mossy_cobble_venus_slab",
+						"ad_astra:polished_venus_stone_slab",
+						"tfg:rock/cobble_red_granite_slab",
+						"tfg:rock/mossy_cobble_red_granite_slab",
+						"tfg:rock/polished_red_granite_slab",
+						"tfg:rock/cobble_flavolite_slab",
+						"tfg:rock/polished_flavolite_slab",
+						"tfg:rock/cobble_sandy_jadestone_slab",
+						"tfg:rock/polished_sandy_jadestone_slab",
+						"tfg:rock/cobble_scoria_slab",
+						"create:polished_cut_scoria_slab",
+						"tfg:rock/cobble_scorchia_slab",
+						"create:polished_cut_scorchia_slab",
+						"ad_astra:mercury_stone_slab",
+						"ad_astra:mercury_cobblestone_slab",
+						"tfg:rock/mossy_cobble_mercury_slab",
+						"ad_astra:polished_mercury_stone_slab",
+						"tfg:rock/cobble_permafrost_slab",
+						"tfg:rock/mossy_cobble_permafrost_slab",
+						"ad_astra:polished_permafrost_slab",
+						"minecraft:cobblestone_slab",
+						"minecraft:mossy_cobblestone_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfg:rock/obsidian_slab",
+						"tfg:rock/deepslate_slab",
+						"tfg:rock/dripstone_slab",
+						"tfg:rock/crackrack_slab",
+						"tfg:rock/tuff_slab",
+						"tfg:rock/glauberite_slab",
+						"tfg:rock/aragonite_slab",
+						"tfg:rock/gilsonite_slab",
+						"tfg:rock/moon_deepslate_slab",
+						"tfg:rock/red_granite_slab",
+						"tfg:rock/flavolite_slab",
+						"tfg:rock/sandy_jadestone_slab",
+						"tfg:rock/scoria_slab",
+						"tfg:rock/scorchia_slab",
+						"tfg:rock/permafrost_slab",
+						"tfc:rock/raw/gabbro_slab",
+						"tfc:rock/smooth/gabbro_slab",
+						"tfc:rock/cobble/gabbro_slab",
+						"tfc:rock/mossy_cobble/gabbro_slab",
+						"tfc:rock/raw/shale_slab",
+						"tfc:rock/smooth/shale_slab",
+						"tfc:rock/cobble/shale_slab",
+						"tfc:rock/mossy_cobble/shale_slab",
+						"tfc:rock/raw/claystone_slab",
+						"tfc:rock/smooth/claystone_slab",
+						"tfc:rock/cobble/claystone_slab",
+						"tfc:rock/mossy_cobble/claystone_slab",
+						"tfc:rock/raw/limestone_slab",
+						"tfc:rock/smooth/limestone_slab",
+						"tfc:rock/cobble/limestone_slab",
+						"tfc:rock/mossy_cobble/limestone_slab",
+						"tfc:rock/raw/conglomerate_slab",
+						"tfc:rock/smooth/conglomerate_slab",
+						"tfc:rock/cobble/conglomerate_slab",
+						"tfc:rock/mossy_cobble/conglomerate_slab",
+						"tfc:rock/raw/dolomite_slab",
+						"tfc:rock/smooth/dolomite_slab",
+						"tfc:rock/cobble/dolomite_slab",
+						"tfc:rock/mossy_cobble/dolomite_slab",
+						"tfc:rock/raw/chert_slab",
+						"tfc:rock/smooth/chert_slab",
+						"tfc:rock/cobble/chert_slab",
+						"tfc:rock/mossy_cobble/chert_slab",
+						"tfc:rock/raw/chalk_slab",
+						"tfc:rock/smooth/chalk_slab",
+						"tfc:rock/cobble/chalk_slab",
+						"tfc:rock/mossy_cobble/chalk_slab",
+						"tfc:rock/raw/rhyolite_slab",
+						"tfc:rock/smooth/rhyolite_slab",
+						"tfc:rock/cobble/rhyolite_slab",
+						"tfc:rock/mossy_cobble/rhyolite_slab",
+						"tfc:rock/raw/dacite_slab",
+						"tfc:rock/smooth/dacite_slab",
+						"tfc:rock/cobble/dacite_slab",
+						"tfc:rock/mossy_cobble/dacite_slab",
+						"tfc:rock/raw/quartzite_slab",
+						"tfc:rock/smooth/quartzite_slab",
+						"tfc:rock/cobble/quartzite_slab",
+						"tfc:rock/mossy_cobble/quartzite_slab",
+						"tfc:rock/raw/slate_slab",
+						"tfc:rock/smooth/slate_slab",
+						"tfc:rock/cobble/slate_slab",
+						"tfc:rock/mossy_cobble/slate_slab",
+						"tfc:rock/raw/phyllite_slab",
+						"tfc:rock/smooth/phyllite_slab",
+						"tfc:rock/cobble/phyllite_slab",
+						"tfc:rock/mossy_cobble/phyllite_slab",
+						"tfc:rock/raw/schist_slab",
+						"tfc:rock/smooth/schist_slab",
+						"tfc:rock/cobble/schist_slab",
+						"tfc:rock/mossy_cobble/schist_slab",
+						"tfc:rock/raw/gneiss_slab",
+						"tfc:rock/smooth/gneiss_slab",
+						"tfc:rock/cobble/gneiss_slab",
+						"tfc:rock/mossy_cobble/gneiss_slab",
+						"tfc:rock/raw/marble_slab",
+						"tfc:rock/smooth/marble_slab",
+						"tfc:rock/cobble/marble_slab",
+						"tfc:rock/mossy_cobble/marble_slab",
+						"tfc:rock/raw/basalt_slab",
+						"tfc:rock/smooth/basalt_slab",
+						"tfc:rock/cobble/basalt_slab",
+						"tfc:rock/mossy_cobble/basalt_slab",
+						"tfc:rock/raw/diorite_slab",
+						"tfc:rock/smooth/diorite_slab",
+						"tfc:rock/cobble/diorite_slab",
+						"tfc:rock/mossy_cobble/diorite_slab",
+						"tfc:rock/raw/andesite_slab",
+						"tfc:rock/smooth/andesite_slab",
+						"tfc:rock/cobble/andesite_slab",
+						"tfc:rock/mossy_cobble/andesite_slab",
+						"tfc:rock/raw/granite_slab",
+						"tfc:rock/smooth/granite_slab",
+						"tfc:rock/cobble/granite_slab",
+						"tfc:rock/mossy_cobble/granite_slab",
+						"minecraft:cobbled_deepslate_slab",
+						"tfg:rock/mossy_cobble_deepslate_slab",
+						"minecraft:polished_deepslate_slab",
+						"tfg:rock/cobble_dripstone_slab",
+						"tfg:rock/mossy_cobble_dripstone_slab",
+						"create:cut_dripstone_slab",
+						"minecraft:blackstone_slab",
+						"tfg:rock/cobble_blackstone_slab",
+						"tfg:rock/mossy_cobble_blackstone_slab",
+						"minecraft:polished_blackstone_slab",
+						"tfg:rock/cobble_crackrack_slab",
+						"tfg:rock/mossy_cobble_crackrack_slab",
+						"tfg:rock/polished_crackrack_slab",
+						"tfg:rock/cobble_tuff_slab",
+						"tfg:rock/mossy_cobble_tuff_slab",
+						"create:polished_cut_tuff_slab",
+						"ad_astra:moon_stone_slab",
+						"ad_astra:moon_cobblestone_slab",
+						"tfg:rock/mossy_cobble_moon_slab",
+						"ad_astra:polished_moon_stone_slab",
+						"tfg:rock/cobble_moon_deepslate_slab",
+						"tfg:rock/mossy_cobble_moon_deepslate_slab",
+						"tfg:rock/polished_moon_deepslate_slab",
+						"ad_astra:glacio_stone_slab",
+						"ad_astra:glacio_cobblestone_slab",
+						"tfg:rock/mossy_cobble_glacio_slab",
+						"ad_astra:polished_glacio_stone_slab",
+						"ad_astra:mars_stone_slab",
+						"ad_astra:mars_cobblestone_slab",
+						"tfg:rock/mossy_cobble_mars_slab",
+						"ad_astra:polished_mars_stone_slab",
+						"ad_astra:venus_stone_slab",
+						"ad_astra:venus_cobblestone_slab",
+						"tfg:rock/mossy_cobble_venus_slab",
+						"ad_astra:polished_venus_stone_slab",
+						"tfg:rock/cobble_red_granite_slab",
+						"tfg:rock/mossy_cobble_red_granite_slab",
+						"tfg:rock/polished_red_granite_slab",
+						"tfg:rock/cobble_flavolite_slab",
+						"tfg:rock/polished_flavolite_slab",
+						"tfg:rock/cobble_sandy_jadestone_slab",
+						"tfg:rock/polished_sandy_jadestone_slab",
+						"tfg:rock/cobble_scoria_slab",
+						"create:polished_cut_scoria_slab",
+						"tfg:rock/cobble_scorchia_slab",
+						"create:polished_cut_scorchia_slab",
+						"ad_astra:mercury_stone_slab",
+						"ad_astra:mercury_cobblestone_slab",
+						"tfg:rock/mossy_cobble_mercury_slab",
+						"ad_astra:polished_mercury_stone_slab",
+						"tfg:rock/cobble_permafrost_slab",
+						"tfg:rock/mossy_cobble_permafrost_slab",
+						"ad_astra:polished_permafrost_slab",
+						"minecraft:cobblestone_slab",
+						"minecraft:mossy_cobblestone_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "create:track",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_create_willow_narrow",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:wood/planks/willow_slab"
+					]
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/willow_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_tfc_willow_narrow",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_create_willow",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:wood/planks/willow_slab"
+					]
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/willow_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/willow_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_tfc_willow",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_crimson_wide_alt",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"beneath:wood/planks/crimson_slab"
+					]
+				},
+				{
+					"ids": [
+						"beneath:wood/planks/crimson_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"beneath:wood/planks/crimson"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_crimson_wide",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_bamboo_alt",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:bamboo_block"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:bamboo_block"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"minecraft:bamboo_block"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_bamboo",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "create:kjs/5hm2w848d52i0setg43mp0fbb",
+			"mod": "create",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:small_soaked_hide"
+					]
+				},
+				{
+					"ids": [
+						"tfc:stone/knife/sedimentary",
+						"tfc:stone/knife/metamorphic",
+						"tfc:stone/knife/igneous_extrusive",
+						"tfc:stone/knife/igneous_intrusive",
+						"tfg:arsenic_bronze_knife",
+						"tfg:diamond_tipped_mo_50_re_knife",
+						"tfg:boron_carbide_knife",
+						"gtceu:black_bronze_knife",
+						"gtceu:bismuth_bronze_knife",
+						"gtceu:black_steel_knife",
+						"gtceu:duranium_knife",
+						"gtceu:tungsten_carbide_knife",
+						"gtceu:stone_knife",
+						"gtceu:vanadium_steel_knife",
+						"gtceu:damascus_steel_knife",
+						"gtceu:wrought_iron_knife",
+						"gtceu:naquadah_alloy_knife",
+						"gtceu:blue_steel_knife",
+						"gtceu:ultimet_knife",
+						"gtceu:neutronium_knife",
+						"gtceu:copper_knife",
+						"gtceu:ostrum_iodide_knife",
+						"gtceu:red_steel_knife",
+						"gtceu:hsse_knife",
+						"gtceu:steel_knife",
+						"gtceu:bronze_knife",
+						"gtceu:flint_knife"
+					],
+					"amount": 16
+				}
+			],
+			"resultId": "tfc:small_scraped_hide",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_create_palm",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:wood/planks/palm_slab"
+					]
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/palm_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/palm_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_tfc_palm",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_create_kapok",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:wood/planks/kapok_slab"
+					]
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/kapok_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/kapok_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_tfc_kapok",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "create:kjs/a13xp7jdl8tddtq9jlevjb3c3",
+			"mod": "create",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:small_sheepskin_hide"
+					]
+				},
+				{
+					"ids": [
+						"tfc:stone/knife/sedimentary",
+						"tfc:stone/knife/metamorphic",
+						"tfc:stone/knife/igneous_extrusive",
+						"tfc:stone/knife/igneous_intrusive",
+						"tfg:arsenic_bronze_knife",
+						"tfg:diamond_tipped_mo_50_re_knife",
+						"tfg:boron_carbide_knife",
+						"gtceu:black_bronze_knife",
+						"gtceu:bismuth_bronze_knife",
+						"gtceu:black_steel_knife",
+						"gtceu:duranium_knife",
+						"gtceu:tungsten_carbide_knife",
+						"gtceu:stone_knife",
+						"gtceu:vanadium_steel_knife",
+						"gtceu:damascus_steel_knife",
+						"gtceu:wrought_iron_knife",
+						"gtceu:naquadah_alloy_knife",
+						"gtceu:blue_steel_knife",
+						"gtceu:ultimet_knife",
+						"gtceu:neutronium_knife",
+						"gtceu:copper_knife",
+						"gtceu:ostrum_iodide_knife",
+						"gtceu:red_steel_knife",
+						"gtceu:hsse_knife",
+						"gtceu:steel_knife",
+						"gtceu:bronze_knife",
+						"gtceu:flint_knife"
+					],
+					"amount": 16
+				}
+			],
+			"resultId": "tfc:small_raw_hide",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_create_birch",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:wood/planks/birch_slab"
+					]
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/birch_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/birch_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_tfc_birch",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_create_spruce",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:wood/planks/spruce_slab"
+					]
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/spruce_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/spruce_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_tfc_spruce",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_crimson_narrow_alt",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"beneath:wood/planks/crimson_slab"
+					]
+				},
+				{
+					"ids": [
+						"beneath:wood/planks/crimson_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_crimson_narrow",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:deploying/gabbro_brick_to_bricks",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:brick/gabbro"
+					]
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 4
+				}
+			],
+			"resultId": "tfc:rock/bricks/gabbro",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_create_chestnut_wide",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:wood/planks/chestnut_slab"
+					]
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/chestnut_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/chestnut"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_tfc_chestnut_wide",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_create_palm_wide",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:wood/planks/palm_slab"
+					]
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/palm_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/palm"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_tfc_palm_wide",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:gtceu/sequenced_assembly/good_electronic_circuit",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:phenolic_printed_circuit_board"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:phenolic_printed_circuit_board"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"gtceu:diode"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"gtceu:diode"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"gtceu:copper_single_wire"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"gtceu:copper_single_wire"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"gtceu:basic_electronic_circuit"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"gtceu:basic_electronic_circuit"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"gtceu:basic_electronic_circuit"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"magistuarmory:steel_plate",
+						"gtceu:steel_plate"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "gtceu:good_electronic_circuit",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:deploying/claystone_brick_to_bricks",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:brick/claystone"
+					]
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 4
+				}
+			],
+			"resultId": "tfc:rock/bricks/claystone",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_warped_narrow_alt",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"beneath:wood/planks/warped_slab"
+					]
+				},
+				{
+					"ids": [
+						"beneath:wood/planks/warped_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_warped_narrow",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:deploying/limestone_brick_to_bricks",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:brick/limestone"
+					]
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 4
+				}
+			],
+			"resultId": "tfc:rock/bricks/limestone",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_acacia_narrow_alt",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"afc:wood/planks/baobab_slab"
+					]
+				},
+				{
+					"ids": [
+						"afc:wood/planks/baobab_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_acacia_narrow",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_create_chestnut",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:wood/planks/chestnut_slab"
+					]
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/chestnut_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/chestnut_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_tfc_chestnut",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:deploying/blackstone_brick_to_bricks",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"beneath:blackstone_brick"
+					]
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 4
+				}
+			],
+			"resultId": "minecraft:polished_blackstone_bricks",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:create/sequenced_assembly/precision_mechanism",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"create:golden_sheet"
+					]
+				},
+				{
+					"ids": [
+						"create:golden_sheet"
+					],
+					"amount": 3
+				},
+				{
+					"ids": [
+						"gtceu:small_gold_spring"
+					],
+					"amount": 3
+				},
+				{
+					"ids": [
+						"gtceu:small_brass_gear"
+					],
+					"amount": 3
+				},
+				{
+					"ids": [
+						"gtceu:wrought_iron_bolt"
+					],
+					"amount": 3
+				}
+			],
+			"resultId": "create:precision_mechanism",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_jungle_wide_alt",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"afc:wood/planks/teak_slab"
+					]
+				},
+				{
+					"ids": [
+						"afc:wood/planks/teak_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"afc:wood/planks/teak"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_jungle_wide",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:deploying/moon_deepslate_brick_to_bricks",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:brick/moon_deepslate"
+					]
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 4
+				}
+			],
+			"resultId": "tfg:rock/bricks_moon_deepslate",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:deploying/moon_stone_brick_to_bricks",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:brick/moon_stone"
+					]
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 4
+				}
+			],
+			"resultId": "ad_astra:moon_stone_bricks",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_create_blackwood_wide",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:wood/planks/blackwood_slab"
+					]
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/blackwood_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/blackwood"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_tfc_blackwood_wide",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:deploying/diorite_brick_to_bricks",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:brick/diorite"
+					]
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 4
+				}
+			],
+			"resultId": "tfc:rock/bricks/diorite",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:deploying/basalt_brick_to_bricks",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:brick/basalt"
+					]
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 4
+				}
+			],
+			"resultId": "tfc:rock/bricks/basalt",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_create_rosewood",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:wood/planks/rosewood_slab"
+					]
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/rosewood_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/rosewood_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_tfc_rosewood",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:deploying/dolomite_brick_to_bricks",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:brick/dolomite"
+					]
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 4
+				}
+			],
+			"resultId": "tfc:rock/bricks/dolomite",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_birch_narrow_alt",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"afc:wood/planks/eucalyptus_slab"
+					]
+				},
+				{
+					"ids": [
+						"afc:wood/planks/eucalyptus_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_birch_narrow",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_create_aspen_narrow",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:wood/planks/aspen_slab"
+					]
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/aspen_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_tfc_aspen_narrow",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "create:kjs/7v0j00j28gd6mqhw9jjct4ekf",
+			"mod": "create",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:large_soaked_hide"
+					]
+				},
+				{
+					"ids": [
+						"tfc:stone/knife/sedimentary",
+						"tfc:stone/knife/metamorphic",
+						"tfc:stone/knife/igneous_extrusive",
+						"tfc:stone/knife/igneous_intrusive",
+						"tfg:arsenic_bronze_knife",
+						"tfg:diamond_tipped_mo_50_re_knife",
+						"tfg:boron_carbide_knife",
+						"gtceu:black_bronze_knife",
+						"gtceu:bismuth_bronze_knife",
+						"gtceu:black_steel_knife",
+						"gtceu:duranium_knife",
+						"gtceu:tungsten_carbide_knife",
+						"gtceu:stone_knife",
+						"gtceu:vanadium_steel_knife",
+						"gtceu:damascus_steel_knife",
+						"gtceu:wrought_iron_knife",
+						"gtceu:naquadah_alloy_knife",
+						"gtceu:blue_steel_knife",
+						"gtceu:ultimet_knife",
+						"gtceu:neutronium_knife",
+						"gtceu:copper_knife",
+						"gtceu:ostrum_iodide_knife",
+						"gtceu:red_steel_knife",
+						"gtceu:hsse_knife",
+						"gtceu:steel_knife",
+						"gtceu:bronze_knife",
+						"gtceu:flint_knife"
+					],
+					"amount": 16
+				}
+			],
+			"resultId": "tfc:large_scraped_hide",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_create_maple_wide",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:wood/planks/maple_slab"
+					]
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/maple_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/maple"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_tfc_maple_wide",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_create_maple_narrow",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:wood/planks/maple_slab"
+					]
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/maple_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_tfc_maple_narrow",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:deploying/red_granite_brick_to_bricks",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:brick/red_granite"
+					]
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 4
+				}
+			],
+			"resultId": "gtceu:red_granite_bricks",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:deploying/chalk_brick_to_bricks",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:brick/chalk"
+					]
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 4
+				}
+			],
+			"resultId": "tfc:rock/bricks/chalk",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_create_ash_wide",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:wood/planks/ash_slab"
+					]
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/ash_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/ash"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_tfc_ash_wide",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:deploying/mars_stone_brick_to_bricks",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:brick/mars_stone"
+					]
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 4
+				}
+			],
+			"resultId": "ad_astra:mars_stone_bricks",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:deploying/stone_brick_to_bricks",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:stone_ingot"
+					]
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 4
+				}
+			],
+			"resultId": "minecraft:stone_bricks",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_create_pine",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:wood/planks/pine_slab"
+					]
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/pine_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/pine_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_tfc_pine",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_birch_wide_alt",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"afc:wood/planks/eucalyptus_slab"
+					]
+				},
+				{
+					"ids": [
+						"afc:wood/planks/eucalyptus_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"afc:wood/planks/eucalyptus"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_birch_wide",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "create:kjs/6v0m2lwrd7h9ua78sj9g020e2",
+			"mod": "create",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:medium_sheepskin_hide"
+					]
+				},
+				{
+					"ids": [
+						"tfc:stone/knife/sedimentary",
+						"tfc:stone/knife/metamorphic",
+						"tfc:stone/knife/igneous_extrusive",
+						"tfc:stone/knife/igneous_intrusive",
+						"tfg:arsenic_bronze_knife",
+						"tfg:diamond_tipped_mo_50_re_knife",
+						"tfg:boron_carbide_knife",
+						"gtceu:black_bronze_knife",
+						"gtceu:bismuth_bronze_knife",
+						"gtceu:black_steel_knife",
+						"gtceu:duranium_knife",
+						"gtceu:tungsten_carbide_knife",
+						"gtceu:stone_knife",
+						"gtceu:vanadium_steel_knife",
+						"gtceu:damascus_steel_knife",
+						"gtceu:wrought_iron_knife",
+						"gtceu:naquadah_alloy_knife",
+						"gtceu:blue_steel_knife",
+						"gtceu:ultimet_knife",
+						"gtceu:neutronium_knife",
+						"gtceu:copper_knife",
+						"gtceu:ostrum_iodide_knife",
+						"gtceu:red_steel_knife",
+						"gtceu:hsse_knife",
+						"gtceu:steel_knife",
+						"gtceu:bronze_knife",
+						"gtceu:flint_knife"
+					],
+					"amount": 16
+				}
+			],
+			"resultId": "tfc:medium_raw_hide",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_create_acacia",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:wood/planks/acacia_slab"
+					]
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/acacia_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/acacia_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_tfc_acacia",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:deploying/granite_brick_to_bricks",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:brick/granite"
+					]
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 4
+				}
+			],
+			"resultId": "tfc:rock/bricks/granite",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_create_andesite_narrow",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:rock/obsidian_slab",
+						"tfg:rock/deepslate_slab",
+						"tfg:rock/dripstone_slab",
+						"tfg:rock/crackrack_slab",
+						"tfg:rock/tuff_slab",
+						"tfg:rock/glauberite_slab",
+						"tfg:rock/aragonite_slab",
+						"tfg:rock/gilsonite_slab",
+						"tfg:rock/moon_deepslate_slab",
+						"tfg:rock/red_granite_slab",
+						"tfg:rock/flavolite_slab",
+						"tfg:rock/sandy_jadestone_slab",
+						"tfg:rock/scoria_slab",
+						"tfg:rock/scorchia_slab",
+						"tfg:rock/permafrost_slab",
+						"tfc:rock/raw/gabbro_slab",
+						"tfc:rock/smooth/gabbro_slab",
+						"tfc:rock/cobble/gabbro_slab",
+						"tfc:rock/mossy_cobble/gabbro_slab",
+						"tfc:rock/raw/shale_slab",
+						"tfc:rock/smooth/shale_slab",
+						"tfc:rock/cobble/shale_slab",
+						"tfc:rock/mossy_cobble/shale_slab",
+						"tfc:rock/raw/claystone_slab",
+						"tfc:rock/smooth/claystone_slab",
+						"tfc:rock/cobble/claystone_slab",
+						"tfc:rock/mossy_cobble/claystone_slab",
+						"tfc:rock/raw/limestone_slab",
+						"tfc:rock/smooth/limestone_slab",
+						"tfc:rock/cobble/limestone_slab",
+						"tfc:rock/mossy_cobble/limestone_slab",
+						"tfc:rock/raw/conglomerate_slab",
+						"tfc:rock/smooth/conglomerate_slab",
+						"tfc:rock/cobble/conglomerate_slab",
+						"tfc:rock/mossy_cobble/conglomerate_slab",
+						"tfc:rock/raw/dolomite_slab",
+						"tfc:rock/smooth/dolomite_slab",
+						"tfc:rock/cobble/dolomite_slab",
+						"tfc:rock/mossy_cobble/dolomite_slab",
+						"tfc:rock/raw/chert_slab",
+						"tfc:rock/smooth/chert_slab",
+						"tfc:rock/cobble/chert_slab",
+						"tfc:rock/mossy_cobble/chert_slab",
+						"tfc:rock/raw/chalk_slab",
+						"tfc:rock/smooth/chalk_slab",
+						"tfc:rock/cobble/chalk_slab",
+						"tfc:rock/mossy_cobble/chalk_slab",
+						"tfc:rock/raw/rhyolite_slab",
+						"tfc:rock/smooth/rhyolite_slab",
+						"tfc:rock/cobble/rhyolite_slab",
+						"tfc:rock/mossy_cobble/rhyolite_slab",
+						"tfc:rock/raw/dacite_slab",
+						"tfc:rock/smooth/dacite_slab",
+						"tfc:rock/cobble/dacite_slab",
+						"tfc:rock/mossy_cobble/dacite_slab",
+						"tfc:rock/raw/quartzite_slab",
+						"tfc:rock/smooth/quartzite_slab",
+						"tfc:rock/cobble/quartzite_slab",
+						"tfc:rock/mossy_cobble/quartzite_slab",
+						"tfc:rock/raw/slate_slab",
+						"tfc:rock/smooth/slate_slab",
+						"tfc:rock/cobble/slate_slab",
+						"tfc:rock/mossy_cobble/slate_slab",
+						"tfc:rock/raw/phyllite_slab",
+						"tfc:rock/smooth/phyllite_slab",
+						"tfc:rock/cobble/phyllite_slab",
+						"tfc:rock/mossy_cobble/phyllite_slab",
+						"tfc:rock/raw/schist_slab",
+						"tfc:rock/smooth/schist_slab",
+						"tfc:rock/cobble/schist_slab",
+						"tfc:rock/mossy_cobble/schist_slab",
+						"tfc:rock/raw/gneiss_slab",
+						"tfc:rock/smooth/gneiss_slab",
+						"tfc:rock/cobble/gneiss_slab",
+						"tfc:rock/mossy_cobble/gneiss_slab",
+						"tfc:rock/raw/marble_slab",
+						"tfc:rock/smooth/marble_slab",
+						"tfc:rock/cobble/marble_slab",
+						"tfc:rock/mossy_cobble/marble_slab",
+						"tfc:rock/raw/basalt_slab",
+						"tfc:rock/smooth/basalt_slab",
+						"tfc:rock/cobble/basalt_slab",
+						"tfc:rock/mossy_cobble/basalt_slab",
+						"tfc:rock/raw/diorite_slab",
+						"tfc:rock/smooth/diorite_slab",
+						"tfc:rock/cobble/diorite_slab",
+						"tfc:rock/mossy_cobble/diorite_slab",
+						"tfc:rock/raw/andesite_slab",
+						"tfc:rock/smooth/andesite_slab",
+						"tfc:rock/cobble/andesite_slab",
+						"tfc:rock/mossy_cobble/andesite_slab",
+						"tfc:rock/raw/granite_slab",
+						"tfc:rock/smooth/granite_slab",
+						"tfc:rock/cobble/granite_slab",
+						"tfc:rock/mossy_cobble/granite_slab",
+						"minecraft:cobbled_deepslate_slab",
+						"tfg:rock/mossy_cobble_deepslate_slab",
+						"minecraft:polished_deepslate_slab",
+						"tfg:rock/cobble_dripstone_slab",
+						"tfg:rock/mossy_cobble_dripstone_slab",
+						"create:cut_dripstone_slab",
+						"minecraft:blackstone_slab",
+						"tfg:rock/cobble_blackstone_slab",
+						"tfg:rock/mossy_cobble_blackstone_slab",
+						"minecraft:polished_blackstone_slab",
+						"tfg:rock/cobble_crackrack_slab",
+						"tfg:rock/mossy_cobble_crackrack_slab",
+						"tfg:rock/polished_crackrack_slab",
+						"tfg:rock/cobble_tuff_slab",
+						"tfg:rock/mossy_cobble_tuff_slab",
+						"create:polished_cut_tuff_slab",
+						"ad_astra:moon_stone_slab",
+						"ad_astra:moon_cobblestone_slab",
+						"tfg:rock/mossy_cobble_moon_slab",
+						"ad_astra:polished_moon_stone_slab",
+						"tfg:rock/cobble_moon_deepslate_slab",
+						"tfg:rock/mossy_cobble_moon_deepslate_slab",
+						"tfg:rock/polished_moon_deepslate_slab",
+						"ad_astra:glacio_stone_slab",
+						"ad_astra:glacio_cobblestone_slab",
+						"tfg:rock/mossy_cobble_glacio_slab",
+						"ad_astra:polished_glacio_stone_slab",
+						"ad_astra:mars_stone_slab",
+						"ad_astra:mars_cobblestone_slab",
+						"tfg:rock/mossy_cobble_mars_slab",
+						"ad_astra:polished_mars_stone_slab",
+						"ad_astra:venus_stone_slab",
+						"ad_astra:venus_cobblestone_slab",
+						"tfg:rock/mossy_cobble_venus_slab",
+						"ad_astra:polished_venus_stone_slab",
+						"tfg:rock/cobble_red_granite_slab",
+						"tfg:rock/mossy_cobble_red_granite_slab",
+						"tfg:rock/polished_red_granite_slab",
+						"tfg:rock/cobble_flavolite_slab",
+						"tfg:rock/polished_flavolite_slab",
+						"tfg:rock/cobble_sandy_jadestone_slab",
+						"tfg:rock/polished_sandy_jadestone_slab",
+						"tfg:rock/cobble_scoria_slab",
+						"create:polished_cut_scoria_slab",
+						"tfg:rock/cobble_scorchia_slab",
+						"create:polished_cut_scorchia_slab",
+						"ad_astra:mercury_stone_slab",
+						"ad_astra:mercury_cobblestone_slab",
+						"tfg:rock/mossy_cobble_mercury_slab",
+						"ad_astra:polished_mercury_stone_slab",
+						"tfg:rock/cobble_permafrost_slab",
+						"tfg:rock/mossy_cobble_permafrost_slab",
+						"ad_astra:polished_permafrost_slab",
+						"minecraft:cobblestone_slab",
+						"minecraft:mossy_cobblestone_slab"
+					]
+				},
+				{
+					"ids": [
+						"tfg:rock/obsidian_slab",
+						"tfg:rock/deepslate_slab",
+						"tfg:rock/dripstone_slab",
+						"tfg:rock/crackrack_slab",
+						"tfg:rock/tuff_slab",
+						"tfg:rock/glauberite_slab",
+						"tfg:rock/aragonite_slab",
+						"tfg:rock/gilsonite_slab",
+						"tfg:rock/moon_deepslate_slab",
+						"tfg:rock/red_granite_slab",
+						"tfg:rock/flavolite_slab",
+						"tfg:rock/sandy_jadestone_slab",
+						"tfg:rock/scoria_slab",
+						"tfg:rock/scorchia_slab",
+						"tfg:rock/permafrost_slab",
+						"tfc:rock/raw/gabbro_slab",
+						"tfc:rock/smooth/gabbro_slab",
+						"tfc:rock/cobble/gabbro_slab",
+						"tfc:rock/mossy_cobble/gabbro_slab",
+						"tfc:rock/raw/shale_slab",
+						"tfc:rock/smooth/shale_slab",
+						"tfc:rock/cobble/shale_slab",
+						"tfc:rock/mossy_cobble/shale_slab",
+						"tfc:rock/raw/claystone_slab",
+						"tfc:rock/smooth/claystone_slab",
+						"tfc:rock/cobble/claystone_slab",
+						"tfc:rock/mossy_cobble/claystone_slab",
+						"tfc:rock/raw/limestone_slab",
+						"tfc:rock/smooth/limestone_slab",
+						"tfc:rock/cobble/limestone_slab",
+						"tfc:rock/mossy_cobble/limestone_slab",
+						"tfc:rock/raw/conglomerate_slab",
+						"tfc:rock/smooth/conglomerate_slab",
+						"tfc:rock/cobble/conglomerate_slab",
+						"tfc:rock/mossy_cobble/conglomerate_slab",
+						"tfc:rock/raw/dolomite_slab",
+						"tfc:rock/smooth/dolomite_slab",
+						"tfc:rock/cobble/dolomite_slab",
+						"tfc:rock/mossy_cobble/dolomite_slab",
+						"tfc:rock/raw/chert_slab",
+						"tfc:rock/smooth/chert_slab",
+						"tfc:rock/cobble/chert_slab",
+						"tfc:rock/mossy_cobble/chert_slab",
+						"tfc:rock/raw/chalk_slab",
+						"tfc:rock/smooth/chalk_slab",
+						"tfc:rock/cobble/chalk_slab",
+						"tfc:rock/mossy_cobble/chalk_slab",
+						"tfc:rock/raw/rhyolite_slab",
+						"tfc:rock/smooth/rhyolite_slab",
+						"tfc:rock/cobble/rhyolite_slab",
+						"tfc:rock/mossy_cobble/rhyolite_slab",
+						"tfc:rock/raw/dacite_slab",
+						"tfc:rock/smooth/dacite_slab",
+						"tfc:rock/cobble/dacite_slab",
+						"tfc:rock/mossy_cobble/dacite_slab",
+						"tfc:rock/raw/quartzite_slab",
+						"tfc:rock/smooth/quartzite_slab",
+						"tfc:rock/cobble/quartzite_slab",
+						"tfc:rock/mossy_cobble/quartzite_slab",
+						"tfc:rock/raw/slate_slab",
+						"tfc:rock/smooth/slate_slab",
+						"tfc:rock/cobble/slate_slab",
+						"tfc:rock/mossy_cobble/slate_slab",
+						"tfc:rock/raw/phyllite_slab",
+						"tfc:rock/smooth/phyllite_slab",
+						"tfc:rock/cobble/phyllite_slab",
+						"tfc:rock/mossy_cobble/phyllite_slab",
+						"tfc:rock/raw/schist_slab",
+						"tfc:rock/smooth/schist_slab",
+						"tfc:rock/cobble/schist_slab",
+						"tfc:rock/mossy_cobble/schist_slab",
+						"tfc:rock/raw/gneiss_slab",
+						"tfc:rock/smooth/gneiss_slab",
+						"tfc:rock/cobble/gneiss_slab",
+						"tfc:rock/mossy_cobble/gneiss_slab",
+						"tfc:rock/raw/marble_slab",
+						"tfc:rock/smooth/marble_slab",
+						"tfc:rock/cobble/marble_slab",
+						"tfc:rock/mossy_cobble/marble_slab",
+						"tfc:rock/raw/basalt_slab",
+						"tfc:rock/smooth/basalt_slab",
+						"tfc:rock/cobble/basalt_slab",
+						"tfc:rock/mossy_cobble/basalt_slab",
+						"tfc:rock/raw/diorite_slab",
+						"tfc:rock/smooth/diorite_slab",
+						"tfc:rock/cobble/diorite_slab",
+						"tfc:rock/mossy_cobble/diorite_slab",
+						"tfc:rock/raw/andesite_slab",
+						"tfc:rock/smooth/andesite_slab",
+						"tfc:rock/cobble/andesite_slab",
+						"tfc:rock/mossy_cobble/andesite_slab",
+						"tfc:rock/raw/granite_slab",
+						"tfc:rock/smooth/granite_slab",
+						"tfc:rock/cobble/granite_slab",
+						"tfc:rock/mossy_cobble/granite_slab",
+						"minecraft:cobbled_deepslate_slab",
+						"tfg:rock/mossy_cobble_deepslate_slab",
+						"minecraft:polished_deepslate_slab",
+						"tfg:rock/cobble_dripstone_slab",
+						"tfg:rock/mossy_cobble_dripstone_slab",
+						"create:cut_dripstone_slab",
+						"minecraft:blackstone_slab",
+						"tfg:rock/cobble_blackstone_slab",
+						"tfg:rock/mossy_cobble_blackstone_slab",
+						"minecraft:polished_blackstone_slab",
+						"tfg:rock/cobble_crackrack_slab",
+						"tfg:rock/mossy_cobble_crackrack_slab",
+						"tfg:rock/polished_crackrack_slab",
+						"tfg:rock/cobble_tuff_slab",
+						"tfg:rock/mossy_cobble_tuff_slab",
+						"create:polished_cut_tuff_slab",
+						"ad_astra:moon_stone_slab",
+						"ad_astra:moon_cobblestone_slab",
+						"tfg:rock/mossy_cobble_moon_slab",
+						"ad_astra:polished_moon_stone_slab",
+						"tfg:rock/cobble_moon_deepslate_slab",
+						"tfg:rock/mossy_cobble_moon_deepslate_slab",
+						"tfg:rock/polished_moon_deepslate_slab",
+						"ad_astra:glacio_stone_slab",
+						"ad_astra:glacio_cobblestone_slab",
+						"tfg:rock/mossy_cobble_glacio_slab",
+						"ad_astra:polished_glacio_stone_slab",
+						"ad_astra:mars_stone_slab",
+						"ad_astra:mars_cobblestone_slab",
+						"tfg:rock/mossy_cobble_mars_slab",
+						"ad_astra:polished_mars_stone_slab",
+						"ad_astra:venus_stone_slab",
+						"ad_astra:venus_cobblestone_slab",
+						"tfg:rock/mossy_cobble_venus_slab",
+						"ad_astra:polished_venus_stone_slab",
+						"tfg:rock/cobble_red_granite_slab",
+						"tfg:rock/mossy_cobble_red_granite_slab",
+						"tfg:rock/polished_red_granite_slab",
+						"tfg:rock/cobble_flavolite_slab",
+						"tfg:rock/polished_flavolite_slab",
+						"tfg:rock/cobble_sandy_jadestone_slab",
+						"tfg:rock/polished_sandy_jadestone_slab",
+						"tfg:rock/cobble_scoria_slab",
+						"create:polished_cut_scoria_slab",
+						"tfg:rock/cobble_scorchia_slab",
+						"create:polished_cut_scorchia_slab",
+						"ad_astra:mercury_stone_slab",
+						"ad_astra:mercury_cobblestone_slab",
+						"tfg:rock/mossy_cobble_mercury_slab",
+						"ad_astra:polished_mercury_stone_slab",
+						"tfg:rock/cobble_permafrost_slab",
+						"tfg:rock/mossy_cobble_permafrost_slab",
+						"ad_astra:polished_permafrost_slab",
+						"minecraft:cobblestone_slab",
+						"minecraft:mossy_cobblestone_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_create_andesite_narrow",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:deploying/scoria_brick_to_bricks",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:brick/scoria"
+					]
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 4
+				}
+			],
+			"resultId": "create:cut_scoria_bricks",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:deploying/dripstone_brick_to_bricks",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:brick/dripstone"
+					]
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 4
+				}
+			],
+			"resultId": "create:cut_dripstone_bricks",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_create_sycamore_wide",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:wood/planks/sycamore_slab"
+					]
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/sycamore_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/sycamore"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_tfc_sycamore_wide",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_create_blackwood_narrow",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:wood/planks/blackwood_slab"
+					]
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/blackwood_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_tfc_blackwood_narrow",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:deploying/mercury_stone_brick_to_bricks",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:brick/mercury_stone"
+					]
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 4
+				}
+			],
+			"resultId": "ad_astra:mercury_stone_bricks",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_create_birch_wide",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:wood/planks/birch_slab"
+					]
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/birch_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/birch"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_tfc_birch_wide",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:equenced_assembly/sic_sic_turbine_rotor",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:silicon_carbide_ingot"
+					]
+				},
+				{
+					"ids": [
+						"tfg:silicon_carbide_ingot"
+					],
+					"amount": 10
+				},
+				{
+					"ids": [
+						"tfg:silicon_carbide_plate"
+					],
+					"amount": 10
+				},
+				{
+					"ids": [
+						"tfg:silicon_carbide_dust"
+					],
+					"amount": 10
+				},
+				{
+					"ids": [
+						"tfg:mv_diamond_tipped_mo_50_re_wire_cutter",
+						"tfg:hv_boron_carbide_wire_cutter",
+						"gtceu:black_bronze_wire_cutter",
+						"gtceu:bismuth_bronze_wire_cutter",
+						"gtceu:black_steel_wire_cutter",
+						"gtceu:iv_duranium_wire_cutter",
+						"gtceu:ev_tungsten_carbide_wire_cutter",
+						"gtceu:mv_vanadium_steel_wire_cutter",
+						"gtceu:damascus_steel_wire_cutter",
+						"gtceu:wrought_iron_wire_cutter",
+						"gtceu:iv_naquadah_alloy_wire_cutter",
+						"gtceu:lv_blue_steel_wire_cutter",
+						"gtceu:blue_steel_wire_cutter",
+						"gtceu:hv_ultimet_wire_cutter",
+						"gtceu:zpm_neutronium_wire_cutter",
+						"gtceu:copper_wire_cutter",
+						"gtceu:ev_ostrum_iodide_wire_cutter",
+						"gtceu:lv_red_steel_wire_cutter",
+						"gtceu:red_steel_wire_cutter",
+						"gtceu:iv_hsse_wire_cutter",
+						"gtceu:steel_wire_cutter",
+						"gtceu:bronze_wire_cutter"
+					],
+					"amount": 10
+				}
+			],
+			"resultId": "gtceu:turbine_rotor",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:deploying/chert_brick_to_bricks",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:brick/chert"
+					]
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 4
+				}
+			],
+			"resultId": "tfc:rock/bricks/chert",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_create_white_cedar",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:wood/planks/white_cedar_slab"
+					]
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/white_cedar_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/white_cedar_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_tfc_white_cedar",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:deploying/dacite_brick_to_bricks",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:brick/dacite"
+					]
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 4
+				}
+			],
+			"resultId": "tfc:rock/bricks/dacite",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_create_hickory_wide",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:wood/planks/hickory_slab"
+					]
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/hickory_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/hickory"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_tfc_hickory_wide",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_acacia_wide_alt",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"afc:wood/planks/baobab_slab"
+					]
+				},
+				{
+					"ids": [
+						"afc:wood/planks/baobab_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"afc:wood/planks/baobab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_acacia_wide",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:deploying/crackrack_brick_to_bricks",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:nether_brick"
+					]
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 4
+				}
+			],
+			"resultId": "minecraft:nether_bricks",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_create_pine_narrow",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:wood/planks/pine_slab"
+					]
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/pine_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_tfc_pine_narrow",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_create_sequoia",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:wood/planks/sequoia_slab"
+					]
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/sequoia_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/sequoia_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_tfc_sequoia",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_create_aspen_wide",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:wood/planks/aspen_slab"
+					]
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/aspen_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/aspen"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_tfc_aspen_wide",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:railways/sequenced_assembly/track_create_douglas_fir",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:wood/planks/douglas_fir_slab"
+					]
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/douglas_fir_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:wood/planks/douglas_fir_slab"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"gtceu:long_wrought_iron_rod",
+						"gtceu:steel_rod"
+					],
+					"amount": 2
+				},
+				{
+					"ids": [
+						"tfc:mortar"
+					],
+					"amount": 2
+				}
+			],
+			"resultId": "railways:track_tfc_douglas_fir",
+			"resultCount": 32,
+			"resultEmpty": false,
+			"extraOutputs": []
+		}
+	]
+}

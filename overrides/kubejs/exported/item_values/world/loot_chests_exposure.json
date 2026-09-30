@@ -1,0 +1,892 @@
+{
+	"group": "chests",
+	"namespace": "exposure",
+	"tables": [
+		{
+			"id": "exposure:chests/simple_dungeon",
+			"json": {
+				"type": "minecraft:chest",
+				"random_sequence": "exposure:chests/simple_dungeon",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_nbt",
+										"tag": "{photograph_frame:{identifier:{texture:\"exposure:textures/exposure/dungeon/skull_on_fire.png\"}}}"
+									}
+								],
+								"name": "exposure:photograph"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:random_chance",
+								"chance": 0.1
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "exposure:photograph",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [
+						"minecraft:set_nbt"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:random_chance",
+							"chance": 0.1
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "exposure:chests/abandoned_mineshaft",
+			"json": {
+				"type": "minecraft:chest",
+				"random_sequence": "exposure:chests/abandoned_mineshaft",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"weight": 3.0,
+								"functions": [
+									{
+										"function": "minecraft:set_nbt",
+										"tag": "{photograph_frame:{identifier:{texture:\"exposure:textures/exposure/mineshaft/tunnel.png\"}}}"
+									}
+								],
+								"name": "exposure:photograph"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 3.0,
+								"functions": [
+									{
+										"function": "minecraft:set_nbt",
+										"tag": "{photograph_frame:{identifier:{texture:\"exposure:textures/exposure/mineshaft/skeleton.png\"}}}"
+									}
+								],
+								"name": "exposure:photograph"
+							},
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_nbt",
+										"tag": "{photograph_frame:{identifier:{texture:\"exposure:textures/exposure/mineshaft/skeleton_smirk.png\"}}}"
+									}
+								],
+								"name": "exposure:photograph"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:random_chance",
+								"chance": 0.2
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "exposure:photograph",
+					"weight": 3.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [
+						"minecraft:set_nbt"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:random_chance",
+							"chance": 0.2
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "exposure:photograph",
+					"weight": 3.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [
+						"minecraft:set_nbt"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:random_chance",
+							"chance": 0.2
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "exposure:photograph",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [
+						"minecraft:set_nbt"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:random_chance",
+							"chance": 0.2
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "exposure:chests/shipwreck_map",
+			"json": {
+				"type": "minecraft:chest",
+				"random_sequence": "exposure:chests/shipwreck_map",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_nbt",
+										"tag": "{photograph_frame:{identifier:{texture:\"exposure:textures/exposure/shipwreck/ship_dock_1.png\"}}}"
+									}
+								],
+								"name": "exposure:aged_photograph"
+							},
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_nbt",
+										"tag": "{photograph_frame:{identifier:{texture:\"exposure:textures/exposure/shipwreck/ship_dock_2.png\"}}}"
+									}
+								],
+								"name": "exposure:aged_photograph"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:random_chance",
+								"chance": 0.1
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_nbt",
+										"tag": "{photograph_frame:{identifier:{texture:\"exposure:textures/exposure/shipwreck/ship_dock_3.png\"}}}"
+									}
+								],
+								"name": "exposure:aged_photograph"
+							},
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_nbt",
+										"tag": "{photograph_frame:{identifier:{texture:\"exposure:textures/exposure/shipwreck/ship_dock_4.png\"}}}"
+									}
+								],
+								"name": "exposure:aged_photograph"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:random_chance",
+								"chance": 0.1
+							}
+						]
+					},
+					{
+						"name": "pool2",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_nbt",
+										"tag": "{film_frame_size:56,film_frames:[{extra_data:{color_channel:\"red\"},identifier:{texture:\"exposure:textures/exposure/shipwreck/chromatic/cargo_crates_r.png\"},type:\"black_and_white\"},{extra_data:{color_channel:\"green\"},identifier:{texture:\"exposure:textures/exposure/shipwreck/chromatic/cargo_crates_g.png\"},type:\"black_and_white\"},{extra_data:{color_channel:\"blue\"},identifier:{texture:\"exposure:textures/exposure/shipwreck/chromatic/cargo_crates_b.png\"},type:\"black_and_white\"},{extra_data:{color_channel:\"red\"},identifier:{texture:\"exposure:textures/exposure/shipwreck/chromatic/deck_sunset_1_r.png\"},type:\"black_and_white\"},{extra_data:{color_channel:\"green\"},identifier:{texture:\"exposure:textures/exposure/shipwreck/chromatic/deck_sunset_1_g.png\"},type:\"black_and_white\"},{extra_data:{color_channel:\"blue\"},identifier:{texture:\"exposure:textures/exposure/shipwreck/chromatic/deck_sunset_1_b.png\"},type:\"black_and_white\"},{extra_data:{color_channel:\"red\"},identifier:{texture:\"exposure:textures/exposure/shipwreck/chromatic/deck_sunset_2_r.png\"},type:\"black_and_white\"},{extra_data:{color_channel:\"green\"},identifier:{texture:\"exposure:textures/exposure/shipwreck/chromatic/deck_sunset_2_g.png\"},type:\"black_and_white\"},{extra_data:{color_channel:\"blue\"},identifier:{texture:\"exposure:textures/exposure/shipwreck/chromatic/deck_sunset_2_b.png\"},type:\"black_and_white\"}]}"
+									}
+								],
+								"name": "exposure:black_and_white_film"
+							},
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_nbt",
+										"tag": "{film_frame_size:56,film_frames:[{extra_data:{color_channel:\"red\"},identifier:{texture:\"exposure:textures/exposure/shipwreck/chromatic/cargo_gold_1_r.png\"},type:\"black_and_white\"},{extra_data:{color_channel:\"green\"},identifier:{texture:\"exposure:textures/exposure/shipwreck/chromatic/cargo_gold_1_g.png\"},type:\"black_and_white\"},{extra_data:{color_channel:\"blue\"},identifier:{texture:\"exposure:textures/exposure/shipwreck/chromatic/cargo_gold_1_b.png\"},type:\"black_and_white\"},{extra_data:{color_channel:\"red\"},identifier:{texture:\"exposure:textures/exposure/shipwreck/chromatic/cargo_gold_2_r.png\"},type:\"black_and_white\"},{extra_data:{color_channel:\"green\"},identifier:{texture:\"exposure:textures/exposure/shipwreck/chromatic/cargo_gold_2_g.png\"},type:\"black_and_white\"},{extra_data:{color_channel:\"blue\"},identifier:{texture:\"exposure:textures/exposure/shipwreck/chromatic/cargo_gold_2_b.png\"},type:\"black_and_white\"},{extra_data:{color_channel:\"red\"},identifier:{texture:\"exposure:textures/exposure/shipwreck/chromatic/deck_sunset_3_r.png\"},type:\"black_and_white\"},{extra_data:{color_channel:\"green\"},identifier:{texture:\"exposure:textures/exposure/shipwreck/chromatic/deck_sunset_3_g.png\"},type:\"black_and_white\"},{extra_data:{color_channel:\"blue\"},identifier:{texture:\"exposure:textures/exposure/shipwreck/chromatic/deck_sunset_3_b.png\"},type:\"black_and_white\"},{extra_data:{color_channel:\"red\"},identifier:{texture:\"exposure:textures/exposure/shipwreck/chromatic/deck_sunset_4_r.png\"},type:\"black_and_white\"},{extra_data:{color_channel:\"green\"},identifier:{texture:\"exposure:textures/exposure/shipwreck/chromatic/deck_sunset_4_g.png\"},type:\"black_and_white\"},{extra_data:{color_channel:\"blue\"},identifier:{texture:\"exposure:textures/exposure/shipwreck/chromatic/deck_sunset_4_b.png\"},type:\"black_and_white\"}]}"
+									}
+								],
+								"name": "exposure:black_and_white_film"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:random_chance",
+								"chance": 0.15
+							}
+						]
+					},
+					{
+						"name": "pool3",
+						"rolls": 2.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:red_stained_glass_pane"
+							},
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:green_stained_glass_pane"
+							},
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:blue_stained_glass_pane"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:random_chance",
+								"chance": 0.3
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "exposure:aged_photograph",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [
+						"minecraft:set_nbt"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:random_chance",
+							"chance": 0.1
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "exposure:aged_photograph",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [
+						"minecraft:set_nbt"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:random_chance",
+							"chance": 0.1
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "exposure:aged_photograph",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [
+						"minecraft:set_nbt"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:random_chance",
+							"chance": 0.1
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "exposure:aged_photograph",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [
+						"minecraft:set_nbt"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:random_chance",
+							"chance": 0.1
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "exposure:black_and_white_film",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [
+						"minecraft:set_nbt"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:random_chance",
+							"chance": 0.15
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 2.0,
+					"kind": "minecraft:item",
+					"id": "exposure:black_and_white_film",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [
+						"minecraft:set_nbt"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:random_chance",
+							"chance": 0.15
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 3.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:red_stained_glass_pane",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:random_chance",
+							"chance": 0.3
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 3.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:green_stained_glass_pane",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:random_chance",
+							"chance": 0.3
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 3.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:blue_stained_glass_pane",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:random_chance",
+							"chance": 0.3
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "exposure:chests/village_plains_house",
+			"json": {
+				"type": "minecraft:chest",
+				"random_sequence": "exposure:chests/village_plains_house",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_nbt",
+										"tag": "{photograph_frame:{identifier:{texture:\"exposure:textures/exposure/village/village_1.png\"}}}"
+									}
+								],
+								"name": "exposure:aged_photograph"
+							},
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_nbt",
+										"tag": "{photograph_frame:{identifier:{texture:\"exposure:textures/exposure/village/village_2.png\"}}}"
+									}
+								],
+								"name": "exposure:aged_photograph"
+							},
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_nbt",
+										"tag": "{photograph_frame:{identifier:{texture:\"exposure:textures/exposure/village/village_3.png\"}}}"
+									}
+								],
+								"name": "exposure:aged_photograph"
+							},
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_nbt",
+										"tag": "{photograph_frame:{identifier:{texture:\"exposure:textures/exposure/village/village_4.png\"}}}"
+									}
+								],
+								"name": "exposure:aged_photograph"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:random_chance",
+								"chance": 0.3
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_nbt",
+										"tag": "{photograph_frame:{identifier:{texture:\"exposure:textures/exposure/village/attack_1.png\"}}}"
+									}
+								],
+								"name": "exposure:aged_photograph"
+							},
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_nbt",
+										"tag": "{photograph_frame:{identifier:{texture:\"exposure:textures/exposure/village/attack_2.png\"}}}"
+									}
+								],
+								"name": "exposure:aged_photograph"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:random_chance",
+								"chance": 0.15
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "exposure:aged_photograph",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [
+						"minecraft:set_nbt"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:random_chance",
+							"chance": 0.3
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "exposure:aged_photograph",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [
+						"minecraft:set_nbt"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:random_chance",
+							"chance": 0.3
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "exposure:aged_photograph",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [
+						"minecraft:set_nbt"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:random_chance",
+							"chance": 0.3
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "exposure:aged_photograph",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [
+						"minecraft:set_nbt"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:random_chance",
+							"chance": 0.3
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "exposure:aged_photograph",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [
+						"minecraft:set_nbt"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:random_chance",
+							"chance": 0.15
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "exposure:aged_photograph",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [
+						"minecraft:set_nbt"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:random_chance",
+							"chance": 0.15
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "exposure:chests/stronghold_crossing",
+			"json": {
+				"type": "minecraft:chest",
+				"random_sequence": "exposure:chests/stronghold_crossing",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_nbt",
+										"tag": "{photograph_frame:{identifier:{texture:\"exposure:textures/exposure/stronghold/corridor_1.png\"}}}"
+									}
+								],
+								"name": "exposure:aged_photograph"
+							},
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_nbt",
+										"tag": "{photograph_frame:{identifier:{texture:\"exposure:textures/exposure/stronghold/corridor_2.png\"}}}"
+									}
+								],
+								"name": "exposure:aged_photograph"
+							},
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_nbt",
+										"tag": "{photograph_frame:{identifier:{texture:\"exposure:textures/exposure/stronghold/corridor_3.png\"}}}"
+									}
+								],
+								"name": "exposure:aged_photograph"
+							},
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_nbt",
+										"tag": "{photograph_frame:{identifier:{texture:\"exposure:textures/exposure/stronghold/corridor_4.png\"}}}"
+									}
+								],
+								"name": "exposure:aged_photograph"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:random_chance",
+								"chance": 0.3
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "exposure:aged_photograph",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [
+						"minecraft:set_nbt"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:random_chance",
+							"chance": 0.3
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "exposure:aged_photograph",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [
+						"minecraft:set_nbt"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:random_chance",
+							"chance": 0.3
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "exposure:aged_photograph",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [
+						"minecraft:set_nbt"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:random_chance",
+							"chance": 0.3
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "exposure:aged_photograph",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [
+						"minecraft:set_nbt"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:random_chance",
+							"chance": 0.3
+						}
+					],
+					"chain": []
+				}
+			]
+		}
+	]
+}

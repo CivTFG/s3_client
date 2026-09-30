@@ -1,0 +1,420 @@
+{
+	"group": "blocks",
+	"namespace": "tfcgroomer",
+	"tables": [
+		{
+			"id": "tfcgroomer:blocks/bronze_grooming_station",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "tfcgroomer:blocks/bronze_grooming_station",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:survives_explosion"
+									}
+								],
+								"name": "tfcgroomer:bronze_grooming_station"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "tfcgroomer:bronze_grooming_station",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "tfcgroomer:blocks/black_bronze_grooming_station",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "tfcgroomer:blocks/black_bronze_grooming_station",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:survives_explosion"
+									}
+								],
+								"name": "tfcgroomer:black_bronze_grooming_station"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "tfcgroomer:black_bronze_grooming_station",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "tfcgroomer:blocks/steel_grooming_station",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "tfcgroomer:blocks/steel_grooming_station",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:survives_explosion"
+									}
+								],
+								"name": "tfcgroomer:steel_grooming_station"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "tfcgroomer:steel_grooming_station",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "tfcgroomer:blocks/wrought_iron_grooming_station",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "tfcgroomer:blocks/wrought_iron_grooming_station",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:survives_explosion"
+									}
+								],
+								"name": "tfcgroomer:wrought_iron_grooming_station"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "tfcgroomer:wrought_iron_grooming_station",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "tfcgroomer:blocks/bismuth_bronze_grooming_station",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "tfcgroomer:blocks/bismuth_bronze_grooming_station",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:survives_explosion"
+									}
+								],
+								"name": "tfcgroomer:bismuth_bronze_grooming_station"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "tfcgroomer:bismuth_bronze_grooming_station",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "tfcgroomer:blocks/copper_grooming_station",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "tfcgroomer:blocks/copper_grooming_station",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:survives_explosion"
+									}
+								],
+								"name": "tfcgroomer:copper_grooming_station"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "tfcgroomer:copper_grooming_station",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "tfcgroomer:blocks/red_steel_grooming_station",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "tfcgroomer:blocks/red_steel_grooming_station",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:survives_explosion"
+									}
+								],
+								"name": "tfcgroomer:red_steel_grooming_station"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "tfcgroomer:red_steel_grooming_station",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "tfcgroomer:blocks/blue_steel_grooming_station",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "tfcgroomer:blocks/blue_steel_grooming_station",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:survives_explosion"
+									}
+								],
+								"name": "tfcgroomer:blue_steel_grooming_station"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "tfcgroomer:blue_steel_grooming_station",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "tfcgroomer:blocks/black_steel_grooming_station",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "tfcgroomer:blocks/black_steel_grooming_station",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:survives_explosion"
+									}
+								],
+								"name": "tfcgroomer:black_steel_grooming_station"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "tfcgroomer:black_steel_grooming_station",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		}
+	]
+}

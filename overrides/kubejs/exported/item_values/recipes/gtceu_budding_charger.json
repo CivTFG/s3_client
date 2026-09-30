@@ -1,0 +1,173 @@
+{
+	"type": "gtceu:budding_charger",
+	"recipes": [
+		{
+			"id": "tfg:budding_charger/tier_2",
+			"category": "budding_charger",
+			"duration": 100,
+			"voltage": 240,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"ae2:certus_quartz_dust"
+					],
+					"amount": 5,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [],
+			"data": {
+				"budding_charge": "1b",
+				"budding_max_tier": "2b"
+			},
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "OxygenatedCondition",
+					"text": "su.terrafirmagreg.core.common.tfgt.recipe.condition.OxygenatedCondition@2d3c1535",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:budding_charger/tier_4",
+			"category": "budding_charger",
+			"duration": 100,
+			"voltage": 3840,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"ae2:fluix_crystal"
+					],
+					"amount": 5,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [],
+			"data": {
+				"budding_charge": "1b",
+				"budding_max_tier": "4b"
+			},
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "OxygenatedCondition",
+					"text": "su.terrafirmagreg.core.common.tfgt.recipe.condition.OxygenatedCondition@7570eb04",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:budding_charger/tier_3",
+			"category": "budding_charger",
+			"duration": 100,
+			"voltage": 960,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"ae2:charged_certus_quartz_crystal"
+					],
+					"amount": 5,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [],
+			"data": {
+				"budding_charge": "1b",
+				"budding_max_tier": "3b"
+			},
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "OxygenatedCondition",
+					"text": "su.terrafirmagreg.core.common.tfgt.recipe.condition.OxygenatedCondition@4e102fb",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "tfg:budding_charger/tier_1",
+			"category": "budding_charger",
+			"duration": 400,
+			"voltage": 60,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [],
+			"data": {
+				"budding_charge": "1b",
+				"budding_max_tier": "1b"
+			},
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "OxygenatedCondition",
+					"text": "su.terrafirmagreg.core.common.tfgt.recipe.condition.OxygenatedCondition@46b02e6a",
+					"dimension": "undefined"
+				}
+			]
+		}
+	]
+}

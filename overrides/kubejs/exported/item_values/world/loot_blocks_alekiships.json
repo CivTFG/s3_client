@@ -1,0 +1,5690 @@
+{
+	"group": "blocks",
+	"namespace": "alekiships",
+	"tables": [
+		{
+			"id": "alekiships:blocks/wood/watercraft_frame/flat/oak",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "alekiships:blocks/wood/watercraft_frame/flat/oak",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:watercraft_frame_flat"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "alekiships:wood/watercraft_frame/flat/oak",
+										"properties": {
+											"frame_processed": "0"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 0.0,
+										"add": true
+									}
+								],
+								"name": "minecraft:oak_planks"
+							},
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "alekiships:wood/watercraft_frame/flat/oak",
+										"properties": {
+											"frame_processed": "1"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 1.0,
+										"add": true
+									}
+								],
+								"name": "minecraft:oak_planks"
+							},
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "alekiships:wood/watercraft_frame/flat/oak",
+										"properties": {
+											"frame_processed": "2"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 2.0,
+										"add": true
+									}
+								],
+								"name": "minecraft:oak_planks"
+							},
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "alekiships:wood/watercraft_frame/flat/oak",
+										"properties": {
+											"frame_processed": "3"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 3.0,
+										"add": true
+									}
+								],
+								"name": "minecraft:oak_planks"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:watercraft_frame_flat",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:oak_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 0.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": [],
+					"countAdd": true
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:oak_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": [],
+					"countAdd": true
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:oak_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": [],
+					"countAdd": true
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:oak_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 3.0,
+						"max": 3.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": [],
+					"countAdd": true
+				}
+			]
+		},
+		{
+			"id": "alekiships:blocks/wood/watercraft_frame/flat/cherry",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "alekiships:blocks/wood/watercraft_frame/flat/cherry",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:watercraft_frame_flat"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "alekiships:wood/watercraft_frame/flat/cherry",
+										"properties": {
+											"frame_processed": "0"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 0.0,
+										"add": true
+									}
+								],
+								"name": "minecraft:cherry_planks"
+							},
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "alekiships:wood/watercraft_frame/flat/cherry",
+										"properties": {
+											"frame_processed": "1"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 1.0,
+										"add": true
+									}
+								],
+								"name": "minecraft:cherry_planks"
+							},
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "alekiships:wood/watercraft_frame/flat/cherry",
+										"properties": {
+											"frame_processed": "2"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 2.0,
+										"add": true
+									}
+								],
+								"name": "minecraft:cherry_planks"
+							},
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "alekiships:wood/watercraft_frame/flat/cherry",
+										"properties": {
+											"frame_processed": "3"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 3.0,
+										"add": true
+									}
+								],
+								"name": "minecraft:cherry_planks"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:watercraft_frame_flat",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:cherry_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 0.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": [],
+					"countAdd": true
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:cherry_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": [],
+					"countAdd": true
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:cherry_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": [],
+					"countAdd": true
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:cherry_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 3.0,
+						"max": 3.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": [],
+					"countAdd": true
+				}
+			]
+		},
+		{
+			"id": "alekiships:blocks/wood/watercraft_frame/flat/bamboo",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "alekiships:blocks/wood/watercraft_frame/flat/bamboo",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:watercraft_frame_flat"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "alekiships:wood/watercraft_frame/flat/bamboo",
+										"properties": {
+											"frame_processed": "0"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 0.0,
+										"add": true
+									}
+								],
+								"name": "minecraft:bamboo_planks"
+							},
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "alekiships:wood/watercraft_frame/flat/bamboo",
+										"properties": {
+											"frame_processed": "1"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 1.0,
+										"add": true
+									}
+								],
+								"name": "minecraft:bamboo_planks"
+							},
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "alekiships:wood/watercraft_frame/flat/bamboo",
+										"properties": {
+											"frame_processed": "2"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 2.0,
+										"add": true
+									}
+								],
+								"name": "minecraft:bamboo_planks"
+							},
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "alekiships:wood/watercraft_frame/flat/bamboo",
+										"properties": {
+											"frame_processed": "3"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 3.0,
+										"add": true
+									}
+								],
+								"name": "minecraft:bamboo_planks"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:watercraft_frame_flat",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bamboo_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 0.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": [],
+					"countAdd": true
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bamboo_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": [],
+					"countAdd": true
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bamboo_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": [],
+					"countAdd": true
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bamboo_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 3.0,
+						"max": 3.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": [],
+					"countAdd": true
+				}
+			]
+		},
+		{
+			"id": "alekiships:blocks/wood/watercraft_frame/angled/bamboo",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "alekiships:blocks/wood/watercraft_frame/angled/bamboo",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:watercraft_frame_angled"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "alekiships:wood/watercraft_frame/angled/bamboo",
+										"properties": {
+											"frame_processed": "0"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 0.0,
+										"add": true
+									}
+								],
+								"name": "minecraft:bamboo_planks"
+							},
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "alekiships:wood/watercraft_frame/angled/bamboo",
+										"properties": {
+											"frame_processed": "1"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 1.0,
+										"add": true
+									}
+								],
+								"name": "minecraft:bamboo_planks"
+							},
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "alekiships:wood/watercraft_frame/angled/bamboo",
+										"properties": {
+											"frame_processed": "2"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 2.0,
+										"add": true
+									}
+								],
+								"name": "minecraft:bamboo_planks"
+							},
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "alekiships:wood/watercraft_frame/angled/bamboo",
+										"properties": {
+											"frame_processed": "3"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 3.0,
+										"add": true
+									}
+								],
+								"name": "minecraft:bamboo_planks"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:watercraft_frame_angled",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bamboo_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 0.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": [],
+					"countAdd": true
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bamboo_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": [],
+					"countAdd": true
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bamboo_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": [],
+					"countAdd": true
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bamboo_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 3.0,
+						"max": 3.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": [],
+					"countAdd": true
+				}
+			]
+		},
+		{
+			"id": "alekiships:blocks/wood/watercraft_frame/angled/mangrove",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "alekiships:blocks/wood/watercraft_frame/angled/mangrove",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:watercraft_frame_angled"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "alekiships:wood/watercraft_frame/angled/mangrove",
+										"properties": {
+											"frame_processed": "0"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 0.0,
+										"add": true
+									}
+								],
+								"name": "minecraft:mangrove_planks"
+							},
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "alekiships:wood/watercraft_frame/angled/mangrove",
+										"properties": {
+											"frame_processed": "1"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 1.0,
+										"add": true
+									}
+								],
+								"name": "minecraft:mangrove_planks"
+							},
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "alekiships:wood/watercraft_frame/angled/mangrove",
+										"properties": {
+											"frame_processed": "2"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 2.0,
+										"add": true
+									}
+								],
+								"name": "minecraft:mangrove_planks"
+							},
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "alekiships:wood/watercraft_frame/angled/mangrove",
+										"properties": {
+											"frame_processed": "3"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 3.0,
+										"add": true
+									}
+								],
+								"name": "minecraft:mangrove_planks"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:watercraft_frame_angled",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:mangrove_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 0.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": [],
+					"countAdd": true
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:mangrove_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": [],
+					"countAdd": true
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:mangrove_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": [],
+					"countAdd": true
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:mangrove_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 3.0,
+						"max": 3.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": [],
+					"countAdd": true
+				}
+			]
+		},
+		{
+			"id": "alekiships:blocks/wood/watercraft_frame/angled/crimson",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "alekiships:blocks/wood/watercraft_frame/angled/crimson",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:watercraft_frame_angled"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "alekiships:wood/watercraft_frame/angled/crimson",
+										"properties": {
+											"frame_processed": "0"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 0.0,
+										"add": true
+									}
+								],
+								"name": "minecraft:crimson_planks"
+							},
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "alekiships:wood/watercraft_frame/angled/crimson",
+										"properties": {
+											"frame_processed": "1"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 1.0,
+										"add": true
+									}
+								],
+								"name": "minecraft:crimson_planks"
+							},
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "alekiships:wood/watercraft_frame/angled/crimson",
+										"properties": {
+											"frame_processed": "2"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 2.0,
+										"add": true
+									}
+								],
+								"name": "minecraft:crimson_planks"
+							},
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "alekiships:wood/watercraft_frame/angled/crimson",
+										"properties": {
+											"frame_processed": "3"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 3.0,
+										"add": true
+									}
+								],
+								"name": "minecraft:crimson_planks"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:watercraft_frame_angled",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:crimson_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 0.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": [],
+					"countAdd": true
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:crimson_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": [],
+					"countAdd": true
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:crimson_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": [],
+					"countAdd": true
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:crimson_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 3.0,
+						"max": 3.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": [],
+					"countAdd": true
+				}
+			]
+		},
+		{
+			"id": "alekiships:blocks/watercraft_frame_angled",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "alekiships:blocks/watercraft_frame_angled",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:watercraft_frame_angled"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:watercraft_frame_angled",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "alekiships:blocks/wood/watercraft_frame/flat/birch",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "alekiships:blocks/wood/watercraft_frame/flat/birch",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:watercraft_frame_flat"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "alekiships:wood/watercraft_frame/flat/birch",
+										"properties": {
+											"frame_processed": "0"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 0.0,
+										"add": true
+									}
+								],
+								"name": "minecraft:birch_planks"
+							},
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "alekiships:wood/watercraft_frame/flat/birch",
+										"properties": {
+											"frame_processed": "1"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 1.0,
+										"add": true
+									}
+								],
+								"name": "minecraft:birch_planks"
+							},
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "alekiships:wood/watercraft_frame/flat/birch",
+										"properties": {
+											"frame_processed": "2"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 2.0,
+										"add": true
+									}
+								],
+								"name": "minecraft:birch_planks"
+							},
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "alekiships:wood/watercraft_frame/flat/birch",
+										"properties": {
+											"frame_processed": "3"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 3.0,
+										"add": true
+									}
+								],
+								"name": "minecraft:birch_planks"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:watercraft_frame_flat",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:birch_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 0.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": [],
+					"countAdd": true
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:birch_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": [],
+					"countAdd": true
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:birch_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": [],
+					"countAdd": true
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:birch_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 3.0,
+						"max": 3.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": [],
+					"countAdd": true
+				}
+			]
+		},
+		{
+			"id": "alekiships:blocks/wood/watercraft_frame/angled/warped",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "alekiships:blocks/wood/watercraft_frame/angled/warped",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:watercraft_frame_angled"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "alekiships:wood/watercraft_frame/angled/warped",
+										"properties": {
+											"frame_processed": "0"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 0.0,
+										"add": true
+									}
+								],
+								"name": "minecraft:warped_planks"
+							},
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "alekiships:wood/watercraft_frame/angled/warped",
+										"properties": {
+											"frame_processed": "1"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 1.0,
+										"add": true
+									}
+								],
+								"name": "minecraft:warped_planks"
+							},
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "alekiships:wood/watercraft_frame/angled/warped",
+										"properties": {
+											"frame_processed": "2"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 2.0,
+										"add": true
+									}
+								],
+								"name": "minecraft:warped_planks"
+							},
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "alekiships:wood/watercraft_frame/angled/warped",
+										"properties": {
+											"frame_processed": "3"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 3.0,
+										"add": true
+									}
+								],
+								"name": "minecraft:warped_planks"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:watercraft_frame_angled",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:warped_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 0.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": [],
+					"countAdd": true
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:warped_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": [],
+					"countAdd": true
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:warped_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": [],
+					"countAdd": true
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:warped_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 3.0,
+						"max": 3.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": [],
+					"countAdd": true
+				}
+			]
+		},
+		{
+			"id": "alekiships:blocks/wood/watercraft_frame/flat/jungle",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "alekiships:blocks/wood/watercraft_frame/flat/jungle",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:watercraft_frame_flat"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "alekiships:wood/watercraft_frame/flat/jungle",
+										"properties": {
+											"frame_processed": "0"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 0.0,
+										"add": true
+									}
+								],
+								"name": "minecraft:jungle_planks"
+							},
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "alekiships:wood/watercraft_frame/flat/jungle",
+										"properties": {
+											"frame_processed": "1"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 1.0,
+										"add": true
+									}
+								],
+								"name": "minecraft:jungle_planks"
+							},
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "alekiships:wood/watercraft_frame/flat/jungle",
+										"properties": {
+											"frame_processed": "2"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 2.0,
+										"add": true
+									}
+								],
+								"name": "minecraft:jungle_planks"
+							},
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "alekiships:wood/watercraft_frame/flat/jungle",
+										"properties": {
+											"frame_processed": "3"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 3.0,
+										"add": true
+									}
+								],
+								"name": "minecraft:jungle_planks"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:watercraft_frame_flat",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:jungle_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 0.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": [],
+					"countAdd": true
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:jungle_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": [],
+					"countAdd": true
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:jungle_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": [],
+					"countAdd": true
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:jungle_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 3.0,
+						"max": 3.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": [],
+					"countAdd": true
+				}
+			]
+		},
+		{
+			"id": "alekiships:blocks/wood/watercraft_frame/angled/acacia",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "alekiships:blocks/wood/watercraft_frame/angled/acacia",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:watercraft_frame_angled"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "alekiships:wood/watercraft_frame/angled/acacia",
+										"properties": {
+											"frame_processed": "0"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 0.0,
+										"add": true
+									}
+								],
+								"name": "minecraft:acacia_planks"
+							},
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "alekiships:wood/watercraft_frame/angled/acacia",
+										"properties": {
+											"frame_processed": "1"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 1.0,
+										"add": true
+									}
+								],
+								"name": "minecraft:acacia_planks"
+							},
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "alekiships:wood/watercraft_frame/angled/acacia",
+										"properties": {
+											"frame_processed": "2"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 2.0,
+										"add": true
+									}
+								],
+								"name": "minecraft:acacia_planks"
+							},
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "alekiships:wood/watercraft_frame/angled/acacia",
+										"properties": {
+											"frame_processed": "3"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 3.0,
+										"add": true
+									}
+								],
+								"name": "minecraft:acacia_planks"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:watercraft_frame_angled",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:acacia_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 0.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": [],
+					"countAdd": true
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:acacia_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": [],
+					"countAdd": true
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:acacia_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": [],
+					"countAdd": true
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:acacia_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 3.0,
+						"max": 3.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": [],
+					"countAdd": true
+				}
+			]
+		},
+		{
+			"id": "alekiships:blocks/wood/watercraft_frame/angled/birch",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "alekiships:blocks/wood/watercraft_frame/angled/birch",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:watercraft_frame_angled"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "alekiships:wood/watercraft_frame/angled/birch",
+										"properties": {
+											"frame_processed": "0"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 0.0,
+										"add": true
+									}
+								],
+								"name": "minecraft:birch_planks"
+							},
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "alekiships:wood/watercraft_frame/angled/birch",
+										"properties": {
+											"frame_processed": "1"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 1.0,
+										"add": true
+									}
+								],
+								"name": "minecraft:birch_planks"
+							},
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "alekiships:wood/watercraft_frame/angled/birch",
+										"properties": {
+											"frame_processed": "2"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 2.0,
+										"add": true
+									}
+								],
+								"name": "minecraft:birch_planks"
+							},
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "alekiships:wood/watercraft_frame/angled/birch",
+										"properties": {
+											"frame_processed": "3"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 3.0,
+										"add": true
+									}
+								],
+								"name": "minecraft:birch_planks"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:watercraft_frame_angled",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:birch_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 0.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": [],
+					"countAdd": true
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:birch_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": [],
+					"countAdd": true
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:birch_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": [],
+					"countAdd": true
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:birch_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 3.0,
+						"max": 3.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": [],
+					"countAdd": true
+				}
+			]
+		},
+		{
+			"id": "alekiships:blocks/wood/watercraft_frame/flat/dark_oak",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "alekiships:blocks/wood/watercraft_frame/flat/dark_oak",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:watercraft_frame_flat"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "alekiships:wood/watercraft_frame/flat/dark_oak",
+										"properties": {
+											"frame_processed": "0"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 0.0,
+										"add": true
+									}
+								],
+								"name": "minecraft:dark_oak_planks"
+							},
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "alekiships:wood/watercraft_frame/flat/dark_oak",
+										"properties": {
+											"frame_processed": "1"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 1.0,
+										"add": true
+									}
+								],
+								"name": "minecraft:dark_oak_planks"
+							},
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "alekiships:wood/watercraft_frame/flat/dark_oak",
+										"properties": {
+											"frame_processed": "2"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 2.0,
+										"add": true
+									}
+								],
+								"name": "minecraft:dark_oak_planks"
+							},
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "alekiships:wood/watercraft_frame/flat/dark_oak",
+										"properties": {
+											"frame_processed": "3"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 3.0,
+										"add": true
+									}
+								],
+								"name": "minecraft:dark_oak_planks"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:watercraft_frame_flat",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:dark_oak_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 0.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": [],
+					"countAdd": true
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:dark_oak_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": [],
+					"countAdd": true
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:dark_oak_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": [],
+					"countAdd": true
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:dark_oak_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 3.0,
+						"max": 3.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": [],
+					"countAdd": true
+				}
+			]
+		},
+		{
+			"id": "alekiships:blocks/wood/watercraft_frame/angled/spruce",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "alekiships:blocks/wood/watercraft_frame/angled/spruce",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:watercraft_frame_angled"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "alekiships:wood/watercraft_frame/angled/spruce",
+										"properties": {
+											"frame_processed": "0"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 0.0,
+										"add": true
+									}
+								],
+								"name": "minecraft:spruce_planks"
+							},
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "alekiships:wood/watercraft_frame/angled/spruce",
+										"properties": {
+											"frame_processed": "1"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 1.0,
+										"add": true
+									}
+								],
+								"name": "minecraft:spruce_planks"
+							},
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "alekiships:wood/watercraft_frame/angled/spruce",
+										"properties": {
+											"frame_processed": "2"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 2.0,
+										"add": true
+									}
+								],
+								"name": "minecraft:spruce_planks"
+							},
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "alekiships:wood/watercraft_frame/angled/spruce",
+										"properties": {
+											"frame_processed": "3"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 3.0,
+										"add": true
+									}
+								],
+								"name": "minecraft:spruce_planks"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:watercraft_frame_angled",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:spruce_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 0.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": [],
+					"countAdd": true
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:spruce_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": [],
+					"countAdd": true
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:spruce_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": [],
+					"countAdd": true
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:spruce_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 3.0,
+						"max": 3.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": [],
+					"countAdd": true
+				}
+			]
+		},
+		{
+			"id": "alekiships:blocks/cleat",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "alekiships:blocks/cleat",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:cleat"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:cleat",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "alekiships:blocks/wood/watercraft_frame/flat/crimson",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "alekiships:blocks/wood/watercraft_frame/flat/crimson",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:watercraft_frame_flat"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "alekiships:wood/watercraft_frame/flat/crimson",
+										"properties": {
+											"frame_processed": "0"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 0.0,
+										"add": true
+									}
+								],
+								"name": "minecraft:crimson_planks"
+							},
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "alekiships:wood/watercraft_frame/flat/crimson",
+										"properties": {
+											"frame_processed": "1"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 1.0,
+										"add": true
+									}
+								],
+								"name": "minecraft:crimson_planks"
+							},
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "alekiships:wood/watercraft_frame/flat/crimson",
+										"properties": {
+											"frame_processed": "2"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 2.0,
+										"add": true
+									}
+								],
+								"name": "minecraft:crimson_planks"
+							},
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "alekiships:wood/watercraft_frame/flat/crimson",
+										"properties": {
+											"frame_processed": "3"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 3.0,
+										"add": true
+									}
+								],
+								"name": "minecraft:crimson_planks"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:watercraft_frame_flat",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:crimson_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 0.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": [],
+					"countAdd": true
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:crimson_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": [],
+					"countAdd": true
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:crimson_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": [],
+					"countAdd": true
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:crimson_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 3.0,
+						"max": 3.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": [],
+					"countAdd": true
+				}
+			]
+		},
+		{
+			"id": "alekiships:blocks/wood/watercraft_frame/angled/oak",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "alekiships:blocks/wood/watercraft_frame/angled/oak",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:watercraft_frame_angled"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "alekiships:wood/watercraft_frame/angled/oak",
+										"properties": {
+											"frame_processed": "0"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 0.0,
+										"add": true
+									}
+								],
+								"name": "minecraft:oak_planks"
+							},
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "alekiships:wood/watercraft_frame/angled/oak",
+										"properties": {
+											"frame_processed": "1"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 1.0,
+										"add": true
+									}
+								],
+								"name": "minecraft:oak_planks"
+							},
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "alekiships:wood/watercraft_frame/angled/oak",
+										"properties": {
+											"frame_processed": "2"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 2.0,
+										"add": true
+									}
+								],
+								"name": "minecraft:oak_planks"
+							},
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "alekiships:wood/watercraft_frame/angled/oak",
+										"properties": {
+											"frame_processed": "3"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 3.0,
+										"add": true
+									}
+								],
+								"name": "minecraft:oak_planks"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:watercraft_frame_angled",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:oak_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 0.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": [],
+					"countAdd": true
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:oak_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": [],
+					"countAdd": true
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:oak_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": [],
+					"countAdd": true
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:oak_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 3.0,
+						"max": 3.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": [],
+					"countAdd": true
+				}
+			]
+		},
+		{
+			"id": "alekiships:blocks/wood/watercraft_frame/angled/jungle",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "alekiships:blocks/wood/watercraft_frame/angled/jungle",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:watercraft_frame_angled"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "alekiships:wood/watercraft_frame/angled/jungle",
+										"properties": {
+											"frame_processed": "0"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 0.0,
+										"add": true
+									}
+								],
+								"name": "minecraft:jungle_planks"
+							},
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "alekiships:wood/watercraft_frame/angled/jungle",
+										"properties": {
+											"frame_processed": "1"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 1.0,
+										"add": true
+									}
+								],
+								"name": "minecraft:jungle_planks"
+							},
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "alekiships:wood/watercraft_frame/angled/jungle",
+										"properties": {
+											"frame_processed": "2"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 2.0,
+										"add": true
+									}
+								],
+								"name": "minecraft:jungle_planks"
+							},
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "alekiships:wood/watercraft_frame/angled/jungle",
+										"properties": {
+											"frame_processed": "3"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 3.0,
+										"add": true
+									}
+								],
+								"name": "minecraft:jungle_planks"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:watercraft_frame_angled",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:jungle_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 0.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": [],
+					"countAdd": true
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:jungle_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": [],
+					"countAdd": true
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:jungle_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": [],
+					"countAdd": true
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:jungle_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 3.0,
+						"max": 3.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": [],
+					"countAdd": true
+				}
+			]
+		},
+		{
+			"id": "alekiships:blocks/wood/watercraft_frame/angled/cherry",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "alekiships:blocks/wood/watercraft_frame/angled/cherry",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:watercraft_frame_angled"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "alekiships:wood/watercraft_frame/angled/cherry",
+										"properties": {
+											"frame_processed": "0"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 0.0,
+										"add": true
+									}
+								],
+								"name": "minecraft:cherry_planks"
+							},
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "alekiships:wood/watercraft_frame/angled/cherry",
+										"properties": {
+											"frame_processed": "1"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 1.0,
+										"add": true
+									}
+								],
+								"name": "minecraft:cherry_planks"
+							},
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "alekiships:wood/watercraft_frame/angled/cherry",
+										"properties": {
+											"frame_processed": "2"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 2.0,
+										"add": true
+									}
+								],
+								"name": "minecraft:cherry_planks"
+							},
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "alekiships:wood/watercraft_frame/angled/cherry",
+										"properties": {
+											"frame_processed": "3"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 3.0,
+										"add": true
+									}
+								],
+								"name": "minecraft:cherry_planks"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:watercraft_frame_angled",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:cherry_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 0.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": [],
+					"countAdd": true
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:cherry_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": [],
+					"countAdd": true
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:cherry_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": [],
+					"countAdd": true
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:cherry_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 3.0,
+						"max": 3.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": [],
+					"countAdd": true
+				}
+			]
+		},
+		{
+			"id": "alekiships:blocks/wood/watercraft_frame/flat/mangrove",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "alekiships:blocks/wood/watercraft_frame/flat/mangrove",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:watercraft_frame_flat"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "alekiships:wood/watercraft_frame/flat/mangrove",
+										"properties": {
+											"frame_processed": "0"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 0.0,
+										"add": true
+									}
+								],
+								"name": "minecraft:mangrove_planks"
+							},
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "alekiships:wood/watercraft_frame/flat/mangrove",
+										"properties": {
+											"frame_processed": "1"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 1.0,
+										"add": true
+									}
+								],
+								"name": "minecraft:mangrove_planks"
+							},
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "alekiships:wood/watercraft_frame/flat/mangrove",
+										"properties": {
+											"frame_processed": "2"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 2.0,
+										"add": true
+									}
+								],
+								"name": "minecraft:mangrove_planks"
+							},
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "alekiships:wood/watercraft_frame/flat/mangrove",
+										"properties": {
+											"frame_processed": "3"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 3.0,
+										"add": true
+									}
+								],
+								"name": "minecraft:mangrove_planks"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:watercraft_frame_flat",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:mangrove_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 0.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": [],
+					"countAdd": true
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:mangrove_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": [],
+					"countAdd": true
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:mangrove_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": [],
+					"countAdd": true
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:mangrove_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 3.0,
+						"max": 3.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": [],
+					"countAdd": true
+				}
+			]
+		},
+		{
+			"id": "alekiships:blocks/wood/watercraft_frame/angled/dark_oak",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "alekiships:blocks/wood/watercraft_frame/angled/dark_oak",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:watercraft_frame_angled"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "alekiships:wood/watercraft_frame/angled/dark_oak",
+										"properties": {
+											"frame_processed": "0"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 0.0,
+										"add": true
+									}
+								],
+								"name": "minecraft:dark_oak_planks"
+							},
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "alekiships:wood/watercraft_frame/angled/dark_oak",
+										"properties": {
+											"frame_processed": "1"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 1.0,
+										"add": true
+									}
+								],
+								"name": "minecraft:dark_oak_planks"
+							},
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "alekiships:wood/watercraft_frame/angled/dark_oak",
+										"properties": {
+											"frame_processed": "2"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 2.0,
+										"add": true
+									}
+								],
+								"name": "minecraft:dark_oak_planks"
+							},
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "alekiships:wood/watercraft_frame/angled/dark_oak",
+										"properties": {
+											"frame_processed": "3"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 3.0,
+										"add": true
+									}
+								],
+								"name": "minecraft:dark_oak_planks"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:watercraft_frame_angled",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:dark_oak_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 0.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": [],
+					"countAdd": true
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:dark_oak_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": [],
+					"countAdd": true
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:dark_oak_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": [],
+					"countAdd": true
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:dark_oak_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 3.0,
+						"max": 3.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": [],
+					"countAdd": true
+				}
+			]
+		},
+		{
+			"id": "alekiships:blocks/wood/watercraft_frame/flat/acacia",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "alekiships:blocks/wood/watercraft_frame/flat/acacia",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:watercraft_frame_flat"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "alekiships:wood/watercraft_frame/flat/acacia",
+										"properties": {
+											"frame_processed": "0"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 0.0,
+										"add": true
+									}
+								],
+								"name": "minecraft:acacia_planks"
+							},
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "alekiships:wood/watercraft_frame/flat/acacia",
+										"properties": {
+											"frame_processed": "1"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 1.0,
+										"add": true
+									}
+								],
+								"name": "minecraft:acacia_planks"
+							},
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "alekiships:wood/watercraft_frame/flat/acacia",
+										"properties": {
+											"frame_processed": "2"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 2.0,
+										"add": true
+									}
+								],
+								"name": "minecraft:acacia_planks"
+							},
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "alekiships:wood/watercraft_frame/flat/acacia",
+										"properties": {
+											"frame_processed": "3"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 3.0,
+										"add": true
+									}
+								],
+								"name": "minecraft:acacia_planks"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:watercraft_frame_flat",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:acacia_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 0.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": [],
+					"countAdd": true
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:acacia_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": [],
+					"countAdd": true
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:acacia_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": [],
+					"countAdd": true
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:acacia_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 3.0,
+						"max": 3.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": [],
+					"countAdd": true
+				}
+			]
+		},
+		{
+			"id": "alekiships:blocks/wood/watercraft_frame/flat/warped",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "alekiships:blocks/wood/watercraft_frame/flat/warped",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:watercraft_frame_flat"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "alekiships:wood/watercraft_frame/flat/warped",
+										"properties": {
+											"frame_processed": "0"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 0.0,
+										"add": true
+									}
+								],
+								"name": "minecraft:warped_planks"
+							},
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "alekiships:wood/watercraft_frame/flat/warped",
+										"properties": {
+											"frame_processed": "1"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 1.0,
+										"add": true
+									}
+								],
+								"name": "minecraft:warped_planks"
+							},
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "alekiships:wood/watercraft_frame/flat/warped",
+										"properties": {
+											"frame_processed": "2"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 2.0,
+										"add": true
+									}
+								],
+								"name": "minecraft:warped_planks"
+							},
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "alekiships:wood/watercraft_frame/flat/warped",
+										"properties": {
+											"frame_processed": "3"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 3.0,
+										"add": true
+									}
+								],
+								"name": "minecraft:warped_planks"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:watercraft_frame_flat",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:warped_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 0.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": [],
+					"countAdd": true
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:warped_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": [],
+					"countAdd": true
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:warped_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": [],
+					"countAdd": true
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:warped_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 3.0,
+						"max": 3.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": [],
+					"countAdd": true
+				}
+			]
+		},
+		{
+			"id": "alekiships:blocks/watercraft_frame_flat",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "alekiships:blocks/watercraft_frame_flat",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:watercraft_frame_flat"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:watercraft_frame_flat",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "alekiships:blocks/wood/watercraft_frame/flat/spruce",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "alekiships:blocks/wood/watercraft_frame/flat/spruce",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:watercraft_frame_flat"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "alekiships:wood/watercraft_frame/flat/spruce",
+										"properties": {
+											"frame_processed": "0"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 0.0,
+										"add": true
+									}
+								],
+								"name": "minecraft:spruce_planks"
+							},
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "alekiships:wood/watercraft_frame/flat/spruce",
+										"properties": {
+											"frame_processed": "1"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 1.0,
+										"add": true
+									}
+								],
+								"name": "minecraft:spruce_planks"
+							},
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "alekiships:wood/watercraft_frame/flat/spruce",
+										"properties": {
+											"frame_processed": "2"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 2.0,
+										"add": true
+									}
+								],
+								"name": "minecraft:spruce_planks"
+							},
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "alekiships:wood/watercraft_frame/flat/spruce",
+										"properties": {
+											"frame_processed": "3"
+										}
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": 3.0,
+										"add": true
+									}
+								],
+								"name": "minecraft:spruce_planks"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:watercraft_frame_flat",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:spruce_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 0.0,
+						"max": 0.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": [],
+					"countAdd": true
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:spruce_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": [],
+					"countAdd": true
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:spruce_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": [],
+					"countAdd": true
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:spruce_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 3.0,
+						"max": 3.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": [],
+					"countAdd": true
+				}
+			]
+		},
+		{
+			"id": "alekiships:blocks/oarlock",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "alekiships:blocks/oarlock",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "alekiships:oarlock"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "alekiships:oarlock",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		}
+	]
+}

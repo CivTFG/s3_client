@@ -1,0 +1,6699 @@
+{
+	"type": "gtceu:brewery",
+	"recipes": [
+		{
+			"id": "gtceu:brewery/enriched_bacterial_sludge_from_u238",
+			"category": "brewery",
+			"duration": 128,
+			"voltage": 4,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:bacterial_sludge"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:uranium_dust"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:enriched_bacterial_sludge"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "CleanroomCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.CleanroomCondition@453aaca8",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "gtceu:brewery/lubricant_from_creosote_and_talc",
+			"category": "brewery",
+			"duration": 128,
+			"voltage": 4,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:creosote"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:talc_dust"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:lubricant"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:brewery/biomass_from_crimson_fungus",
+			"category": "brewery",
+			"duration": 160,
+			"voltage": 3,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water"
+					],
+					"amount": 20,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:crimson_fungus"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:biomass"
+					],
+					"amount": 20,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:brewery/biomass_from_moon_plants",
+			"category": "brewery",
+			"duration": 100,
+			"voltage": 3,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water",
+						"minecraft:flowing_water",
+						"tfc:river_water",
+						"tfc:salt_water",
+						"tfc:flowing_salt_water",
+						"tfc:spring_water",
+						"tfc:flowing_spring_water",
+						"tfg:semiheavy_ammoniacal_water",
+						"tfg:muddy_water",
+						"tfg:semiheavy_water"
+					],
+					"amount": 20,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"betterend:chorus_lily",
+						"betterend:inflexia",
+						"betterend:vaiolush_fern",
+						"tfg:lunar_roots",
+						"betterend:salteago",
+						"tfg:lunar_sprouts",
+						"betterend:chorus_grass"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:biomass"
+					],
+					"amount": 100,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:brewery/biomass_from_tfc_food",
+			"category": "brewery",
+			"duration": 100,
+			"voltage": 3,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water",
+						"minecraft:flowing_water",
+						"tfc:river_water",
+						"tfc:salt_water",
+						"tfc:flowing_salt_water",
+						"tfc:spring_water",
+						"tfc:flowing_spring_water",
+						"tfg:semiheavy_ammoniacal_water",
+						"tfg:muddy_water",
+						"tfg:semiheavy_water"
+					],
+					"amount": 20,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"beneath:ghost_pepper",
+						"firmalife:jar/pineapple",
+						"tfg:food/date",
+						"tfc:food/raspberry",
+						"tfg:jar/shadow_berry_unsealed",
+						"tfg:food/cooked_bison_meat",
+						"tfc:food/salmon",
+						"tfc:jar/plum_unsealed",
+						"tfc:food/maize_bread",
+						"betterend:bolux_mushroom_cooked",
+						"minecraft:rotten_flesh",
+						"firmalife:food/banana_split",
+						"tfc:food/cooked_quail",
+						"tfg:food/cooked_walker_steak",
+						"tfc:food/maize",
+						"tfg:jar/date",
+						"tfg:food/cooked_long_pig_filet",
+						"firmalife:food/pineapple",
+						"firmalife:jar/red_grapes_unsealed",
+						"tfc:food/protein_salad",
+						"firmalife:food/smashed_red_grapes",
+						"tfc:food/cattail_root",
+						"tfc:food/turtle",
+						"tfg:food/smoothie",
+						"firmalife:food/salsa",
+						"tfg:food/raw_cruncher_ribs",
+						"tfc:food/barley_grain",
+						"tfc:food/wintergreen_berry",
+						"tfg:jar/popped_chorus_fruit_unsealed",
+						"tfg:jar/chorus_fruit",
+						"firmalife:food/garlic_bread",
+						"tfc:jar/bunchberry_unsealed",
+						"firmalife:food/stinky_soup",
+						"tfc:jar/gooseberry",
+						"tfc:food/wheat_grain",
+						"tfc:food/cooked_mutton",
+						"tfg:jar/date_unsealed",
+						"tfc:food/hyena",
+						"tfc:food/squash",
+						"tfc:food/camelidae",
+						"firmalife:food/pickled_egg",
+						"betterend:cave_pumpkin",
+						"firmalife:food/filled_pie",
+						"tfc:jar/banana_unsealed",
+						"tfc:food/protein_soup",
+						"beneath:food/parasol",
+						"tfc:food/dairy_soup",
+						"tfc:food/mutton",
+						"tfc:food/gran_feline",
+						"firmalife:food/barley_dough",
+						"tfc:food/cherry",
+						"tfc:food/peafowl",
+						"tfc:food/grain_salad",
+						"betterend:cave_pumpkin_pie",
+						"tfc:food/cooked_frog_legs",
+						"tfg:beans_product",
+						"firmalife:food/maize_flatbread",
+						"firmalife:food/dark_chocolate_blend",
+						"firmalife:food/dark_chocolate",
+						"tfc:food/cooked_gran_feline",
+						"firmalife:food/cooked_rice_noodles",
+						"tfg:food/raw_whole_soarer",
+						"tfg:food/raw_wraptor",
+						"firmalife:jar/fig_unsealed",
+						"firmalife:food/gouda",
+						"tfg:food/freeze_dried_fruit",
+						"firmalife:food/oat_dough",
+						"ad_astra:cheese",
+						"tfg:peanut_product",
+						"tfc:food/frog_legs",
+						"tfc:food/snowberry",
+						"tfc:food/strawberry",
+						"tfc:food/chevon",
+						"tfg:food/cheeseburger",
+						"firmalife:food/pasta_with_tomato_sauce",
+						"firmalife:food/soybean_paste",
+						"tfc:jar/cranberry",
+						"firmalife:food/rice_flatbread",
+						"firmalife:food/masa_flour",
+						"tfc:jar/cloudberry",
+						"tfg:food/cooked_cassava",
+						"tfc:food/sugarcane",
+						"tfg:food/raw_long_pig_filet",
+						"tfc:food/tomato",
+						"tfc:food/cod",
+						"tfc:food/rye",
+						"firmalife:food/taco",
+						"tfc:food/beet",
+						"tfc:jar/olive",
+						"tfg:jar/chorus_fruit_unsealed",
+						"firmalife:food/oat_slice",
+						"species:birtday_cake",
+						"species:birtday_cake_slice",
+						"tfc:jar/cherry",
+						"tfc:food/rye_dough",
+						"firmalife:food/shredded_cheese",
+						"tfg:food/opened_green_coconut",
+						"tfg:food/buttered_popcorn",
+						"tfc:food/garlic",
+						"tfc:food/potato",
+						"tfc:food/pork",
+						"tfc:jar/banana",
+						"tfg:food/cooked_birt",
+						"tfg:food/hamburger",
+						"tfc:food/oat_bread_sandwich",
+						"tfc:food/crappie",
+						"tfg:lentil_product",
+						"firmalife:food/shosha",
+						"tfc:food/lemon",
+						"tfc:food/cooked_turkey",
+						"firmalife:food/yak_curd",
+						"tfc:food/venison",
+						"tfg:food/cooked_limpet",
+						"tfc:food/taro_root",
+						"tfc:jar/orange_unsealed",
+						"firmalife:food/cooked_lasagna",
+						"firmalife:food/vanilla_ice_cream",
+						"tfc:food/maize_bread_jam_sandwich",
+						"tfg:jar/magmango",
+						"firmalife:food/rice_dough",
+						"tfc:food/peach",
+						"tfg:food/fruit_yogurt",
+						"tfc:food/cooked_venison",
+						"tfg:food/lavacado",
+						"tfc:food/melon_slice",
+						"tfc:jar/cherry_unsealed",
+						"firmalife:jar/red_grapes",
+						"firmalife:food/toast",
+						"tfc:food/cooked_smallmouth_bass",
+						"tfc:food/carrot",
+						"beneath:food/portobello",
+						"tfc:jar/cloudberry_unsealed",
+						"tfg:cassava_product",
+						"tfc:food/barley_flour",
+						"tfc:food/red_apple",
+						"tfc:food/rice_bread",
+						"tfc:food/cooked_hyena",
+						"betterend:shadow_berry_product",
+						"tfg:food/raw_glacian_mutton",
+						"tfc:jar/snowberry",
+						"firmalife:jar/pineapple_unsealed",
+						"tfc:food/barley_bread_jam_sandwich",
+						"tfc:food/maize_dough",
+						"tfg:food/cooked_goober_meat",
+						"tfc:food/dried_kelp",
+						"tfc:food/horse_meat",
+						"firmalife:food/maki_roll",
+						"tfc:melon",
+						"tfg:roasted_sunflower_seeds",
+						"tfc:food/tropical_fish",
+						"tfc:food/cooked_chicken",
+						"firmalife:food/milk_chocolate_blend",
+						"tfg:food/cooked_wraptor",
+						"tfg:jar/glow_berries",
+						"firmalife:food/milk_curd",
+						"firmalife:food/toast_with_butter",
+						"tfg:food/cooked_sniffer_beef",
+						"firmalife:food/raw_pizza",
+						"tfc:food/cooked_camelidae",
+						"tfg:food/cooked_dino_nugget",
+						"firmalife:food/white_chocolate_blend",
+						"tfc:food/red_bell_pepper",
+						"tfc:food/banana",
+						"tfc:food/gooseberry",
+						"tfg:jar/cave_pumpkin",
+						"firmalife:food/chevre",
+						"tfc:food/cooked_bear",
+						"firmalife:food/burrito",
+						"betterend:shadow_berry_cooked",
+						"tfc:food/cooked_rice",
+						"tfc:jar/blackberry",
+						"firmalife:food/pie_dough",
+						"tfg:food/cooked_surfer_steak",
+						"tfc:food/baked_potato",
+						"firmalife:food/pumpkin_pie_dough",
+						"tfg:food/cooked_beer_battered_cheese_curds",
+						"tfc:food/chicken",
+						"species:birt_egg",
+						"tfc:jar/elderberry_unsealed",
+						"firmalife:food/raw_pumpkin_pie",
+						"firmalife:food/barley_slice",
+						"tfc:food/rice_dough",
+						"tfc:food/orange",
+						"tfg:food/raw_beer_battered_cheese_curds",
+						"tfc:food/cooked_rainbow_trout",
+						"tfg:food/meal_bag",
+						"tfc:food/vegetables_soup",
+						"tfc:food/boiled_egg",
+						"tfc:jar/red_apple",
+						"tfg:jar/glow_berries_unsealed",
+						"tfg:jar/acai_unsealed",
+						"tfc:food/smallmouth_bass",
+						"beneath:food/chantrelle",
+						"tfc:jar/olive_unsealed",
+						"firmalife:food/tortilla_chips",
+						"firmalife:food/taco_shell",
+						"tfc:jar/peach_unsealed",
+						"firmalife:food/feta",
+						"tfg:food/raw_crawlermari",
+						"betterend:chorus_mushroom_product",
+						"tfg:jar/blossom_berry",
+						"tfc:food/cooked_cod",
+						"tfc:food/cooked_lake_trout",
+						"tfc:pumpkin",
+						"beneath:food/sulfur_tuft",
+						"tfg:food/cooked_springling_collar",
+						"minecraft:chorus_fruit",
+						"beneath:food/oyster",
+						"tfg:food/raw_limpet",
+						"beneath:food/button",
+						"tfg:food/cooked_crusher_meat",
+						"tfg:food/raw_springling_collar",
+						"tfg:food/raw_walker_steak",
+						"firmalife:food/oat_flatbread",
+						"firmalife:food/hardtack_dough",
+						"firmalife:jar/white_grapes",
+						"firmalife:food/cooked_pie",
+						"firmalife:food/tomato_sauce_mix",
+						"tfc:food/largemouth_bass",
+						"tfg:food/slice_of_cheese",
+						"firmalife:food/raw_lasagna",
+						"tfcchannelcasting:food/white_chocolate_heart",
+						"tfc:food/oat_flour",
+						"tfc:food/cooked_rabbit",
+						"tfc:jar/raspberry",
+						"firmalife:food/tomato_sauce",
+						"tfg:food/cooked_glacian_mutton",
+						"tfc:food/bluegill",
+						"tfg:jar/cave_pumpkin_unsealed",
+						"firmalife:food/toast_with_jam",
+						"firmalife:food/cooked_pasta",
+						"tfcchannelcasting:food/dark_chocolate_heart",
+						"tfc:food/cooked_shellfish",
+						"tfc:jar/snowberry_unsealed",
+						"tfc:food/wheat_flour",
+						"tfg:food/magmango",
+						"minecraft:egg",
+						"tfg:food/raw_sniffer_beef",
+						"tfc:food/oat_bread",
+						"tfc:food/oat_dough",
+						"tfc:food/grain_soup",
+						"tfc:jar/wintergreen_berry_unsealed",
+						"tfc:jar/elderberry",
+						"tfc:food/dried_seaweed",
+						"firmalife:food/cocoa_beans",
+						"tfc:food/green_bell_pepper",
+						"tfg:food/raw_stickastackatick",
+						"tfc:food/bunchberry",
+						"tfg:jar/acai",
+						"tfc:food/cooked_turtle",
+						"tfc:food/cooked_egg",
+						"firmalife:food/barley_flatbread",
+						"tfc:food/cheese",
+						"tfc:food/elderberry",
+						"tfc:food/rice",
+						"tfc:food/barley_dough"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": true
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:biomass"
+					],
+					"amount": 100,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:brewery/lubricant_from_oil_and_redstone",
+			"category": "brewery",
+			"duration": 128,
+			"voltage": 4,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:oil"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:redstone"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:lubricant"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:brewery/biomass_from_tfc_seeds",
+			"category": "brewery",
+			"duration": 100,
+			"voltage": 3,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water",
+						"minecraft:flowing_water",
+						"tfc:river_water",
+						"tfc:salt_water",
+						"tfc:flowing_salt_water",
+						"tfc:spring_water",
+						"tfc:flowing_spring_water",
+						"tfg:semiheavy_ammoniacal_water",
+						"tfg:muddy_water",
+						"tfg:semiheavy_water"
+					],
+					"amount": 20,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:seeds/carrot",
+						"tfc:seeds/pumpkin",
+						"tfc:seeds/oat",
+						"tfc:seeds/melon",
+						"tfc:seeds/sugarcane",
+						"firmalife:seeds/white_grape",
+						"tfc:seeds/red_bell_pepper",
+						"betterend:amber_root_seeds",
+						"tfc:seeds/soybean",
+						"tfg:cassava_seeds",
+						"tfg:cucumber_seeds",
+						"tfg:flax_seeds",
+						"tfc:seeds/wheat",
+						"tfc:seeds/tomato",
+						"tfc:seeds/rice",
+						"tfg:beans_seeds",
+						"tfg:sunflower_seeds",
+						"tfg:ghost_pepper_seeds",
+						"firmalife:seeds/red_grape",
+						"tfg:radish_seeds",
+						"tfc:seeds/onion",
+						"betterend:blossom_berry_seeds",
+						"tfc:seeds/maize",
+						"tfc:seeds/beet",
+						"tfc:seeds/barley",
+						"tfg:cotton_seeds",
+						"tfc:seeds/green_bean",
+						"tfc:seeds/rye",
+						"tfc:seeds/garlic",
+						"tfc:seeds/squash",
+						"betterend:chorus_mushroom_seeds",
+						"tfc:seeds/potato",
+						"tfg:lentil_seeds",
+						"betterend:bolux_mushroom_seeds",
+						"tfc:seeds/jute",
+						"tfc:seeds/cabbage",
+						"tfg:peanut_seeds",
+						"tfc:seeds/yellow_bell_pepper",
+						"tfg:rapeseed_seeds",
+						"tfc:seeds/papyrus",
+						"betterend:cave_pumpkin_plant_seeds",
+						"betterend:shadow_berry_seeds"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:biomass"
+					],
+					"amount": 100,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:brewery/biomass_from_twisting_vines",
+			"category": "brewery",
+			"duration": 50,
+			"voltage": 3,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water",
+						"tfc:river_water",
+						"tfc:spring_water"
+					],
+					"amount": 20,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:twisting_vines"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:biomass"
+					],
+					"amount": 20,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:brewery/syngas_from_charcoal",
+			"category": "brewery",
+			"duration": 300,
+			"voltage": 15,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:creosote"
+					],
+					"amount": 250,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:charcoal"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:syngas"
+					],
+					"amount": 100,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:brewery/lubricant_from_seed_oil_and_talc",
+			"category": "brewery",
+			"duration": 128,
+			"voltage": 4,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:seed_oil"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:talc_dust"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:lubricant"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:brewery/biomass_from_sweet_berries",
+			"category": "brewery",
+			"duration": 160,
+			"voltage": 3,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water"
+					],
+					"amount": 20,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:sweet_berries"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:biomass"
+					],
+					"amount": 20,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:brewery/syngas_from_coke",
+			"category": "brewery",
+			"duration": 300,
+			"voltage": 15,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:creosote"
+					],
+					"amount": 250,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:coke_gem"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:syngas"
+					],
+					"amount": 400,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:brewery/biomass_from_mars_plants",
+			"category": "brewery",
+			"duration": 100,
+			"voltage": 3,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water",
+						"minecraft:flowing_water",
+						"tfc:river_water",
+						"tfc:salt_water",
+						"tfc:flowing_salt_water",
+						"tfc:spring_water",
+						"tfc:flowing_spring_water",
+						"tfg:semiheavy_ammoniacal_water",
+						"tfg:muddy_water",
+						"tfg:semiheavy_water"
+					],
+					"amount": 20,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"betterend:lucernia_leaves",
+						"betterend:ruscus",
+						"betterend:lanceleaf_small",
+						"betterend:charnia_purple",
+						"betterend:flammalix",
+						"betterend:lamellarium",
+						"betterend:clawfern",
+						"betterend:charnia_light_blue",
+						"betterend:lucernia_outer_leaves",
+						"betterend:charnia_green",
+						"minecraft:pitcher_plant",
+						"betterend:globulagus",
+						"betterend:amber_grass",
+						"betterend:cave_grass",
+						"betterend:small_amaranita_mushroom",
+						"betterend:lacugrove",
+						"betterend:large_amaranita_mushroom",
+						"betterend:lanceleaf",
+						"minecraft:torchflower",
+						"betterend:lutebus",
+						"betterend:orango",
+						"betterend:charnia_orange",
+						"betterend:charnia_red",
+						"minecraft:weeping_vines",
+						"betterend:flamaea",
+						"betterend:bulb_moss",
+						"betterend:purple_polypore",
+						"betterend:aeridium",
+						"betterend:filalux_wings",
+						"betterend:selagine",
+						"betterend:charnia_cyan",
+						"betterend:cave_bush",
+						"betterend:bushy_grass",
+						"betterend:aurant_polypore"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:biomass"
+					],
+					"amount": 100,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:brewery/biomass_from_sugar_cane",
+			"category": "brewery",
+			"duration": 160,
+			"voltage": 3,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water"
+					],
+					"amount": 20,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:sugar_cane"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:biomass"
+					],
+					"amount": 20,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:brewery/lubricant_from_oil_and_talc",
+			"category": "brewery",
+			"duration": 128,
+			"voltage": 4,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:oil"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:talc_dust"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:lubricant"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:brewery/biomass_from_bio_chaff",
+			"category": "brewery",
+			"duration": 128,
+			"voltage": 4,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:bio_chaff"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:biomass"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:brewery/spring_slime_ball",
+			"category": "brewery",
+			"duration": 100,
+			"voltage": 7,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"jellies:jellie/slime_ball/spring"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfc:spring_water"
+					],
+					"amount": 200,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:brewery/biomass_from_wart_blocks",
+			"category": "brewery",
+			"duration": 100,
+			"voltage": 3,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water",
+						"minecraft:flowing_water",
+						"tfc:river_water",
+						"tfc:salt_water",
+						"tfc:flowing_salt_water",
+						"tfc:spring_water",
+						"tfc:flowing_spring_water",
+						"tfg:semiheavy_ammoniacal_water",
+						"tfg:muddy_water",
+						"tfg:semiheavy_water"
+					],
+					"amount": 20,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:warped_wart_block",
+						"minecraft:mushroom_stem",
+						"species:alphacene_mushroom_block",
+						"minecraft:nether_wart_block",
+						"ad_astra:strophar_cap",
+						"ad_astra:aeronos_cap"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:biomass"
+					],
+					"amount": 100,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:brewery/latex_slime_ball",
+			"category": "brewery",
+			"duration": 100,
+			"voltage": 7,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfc:spring_water"
+					],
+					"amount": 200,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"jellies:jellie/slime_ball/latex"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:latex"
+					],
+					"amount": 200,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:brewery/lubricant_from_oil_and_soapstone",
+			"category": "brewery",
+			"duration": 128,
+			"voltage": 4,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:oil"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:soapstone_dust"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:lubricant"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:brewery/syngas_from_bituminous_coal",
+			"category": "brewery",
+			"duration": 300,
+			"voltage": 15,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:creosote"
+					],
+					"amount": 250,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:ore/bituminous_coal"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:syngas"
+					],
+					"amount": 400,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:brewery/biomass_from_glow_berries",
+			"category": "brewery",
+			"duration": 160,
+			"voltage": 3,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water"
+					],
+					"amount": 20,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:glow_berries"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:biomass"
+					],
+					"amount": 20,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:brewery/biomass_from_beetroot",
+			"category": "brewery",
+			"duration": 160,
+			"voltage": 3,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water"
+					],
+					"amount": 20,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:beetroot"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:biomass"
+					],
+					"amount": 20,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:brewery/syngas_from_lignite",
+			"category": "brewery",
+			"duration": 300,
+			"voltage": 15,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:creosote"
+					],
+					"amount": 250,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:ore/lignite"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:syngas"
+					],
+					"amount": 200,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:brewery/biomass_from_warped_fungus",
+			"category": "brewery",
+			"duration": 160,
+			"voltage": 3,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water"
+					],
+					"amount": 20,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:warped_fungus"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:biomass"
+					],
+					"amount": 20,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:brewery/biomass_from_minecraft_plants",
+			"category": "brewery",
+			"duration": 100,
+			"voltage": 3,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water",
+						"minecraft:flowing_water",
+						"tfc:river_water",
+						"tfc:salt_water",
+						"tfc:flowing_salt_water",
+						"tfc:spring_water",
+						"tfc:flowing_spring_water",
+						"tfg:semiheavy_ammoniacal_water",
+						"tfg:muddy_water",
+						"tfg:semiheavy_water"
+					],
+					"amount": 20,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:bamboo",
+						"minecraft:hanging_roots",
+						"minecraft:grass",
+						"tfg:pale_moss_block",
+						"minecraft:weeping_vines",
+						"minecraft:fern",
+						"minecraft:big_dripleaf",
+						"wan_ancient_beasts:olden_moss_block",
+						"minecraft:twisting_vines",
+						"minecraft:large_fern",
+						"minecraft:moss_block",
+						"minecraft:glow_lichen",
+						"minecraft:small_dripleaf"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:biomass"
+					],
+					"amount": 20,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:brewery/biomass_from_cactus",
+			"category": "brewery",
+			"duration": 160,
+			"voltage": 3,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water"
+					],
+					"amount": 20,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:cactus"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:biomass"
+					],
+					"amount": 20,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:brewery/syngas_from_anthracite",
+			"category": "brewery",
+			"duration": 300,
+			"voltage": 15,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:creosote"
+					],
+					"amount": 250,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"beneath:cursecoal"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:syngas"
+					],
+					"amount": 400,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:brewery/biomass_from_spider_eyes",
+			"category": "brewery",
+			"duration": 100,
+			"voltage": 3,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water",
+						"minecraft:flowing_water",
+						"tfc:river_water",
+						"tfc:salt_water",
+						"tfc:flowing_salt_water",
+						"tfc:spring_water",
+						"tfc:flowing_spring_water",
+						"tfg:semiheavy_ammoniacal_water",
+						"tfg:muddy_water",
+						"tfg:semiheavy_water"
+					],
+					"amount": 20,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:spider_eye"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:biomass"
+					],
+					"amount": 100,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:brewery/lubricant_from_seed_oil_and_redstone",
+			"category": "brewery",
+			"duration": 128,
+			"voltage": 4,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:seed_oil"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:redstone"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:lubricant"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:brewery/biomass_from_potato",
+			"category": "brewery",
+			"duration": 160,
+			"voltage": 3,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water"
+					],
+					"amount": 20,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:potato"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:biomass"
+					],
+					"amount": 20,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:brewery/lubricant_from_creosote_and_redstone",
+			"category": "brewery",
+			"duration": 128,
+			"voltage": 4,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:creosote"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:redstone"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:lubricant"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:brewery/biomass_from_leaves",
+			"category": "brewery",
+			"duration": 100,
+			"voltage": 3,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water",
+						"minecraft:flowing_water",
+						"tfc:river_water",
+						"tfc:salt_water",
+						"tfc:flowing_salt_water",
+						"tfc:spring_water",
+						"tfc:flowing_spring_water",
+						"tfg:semiheavy_ammoniacal_water",
+						"tfg:muddy_water",
+						"tfg:semiheavy_water"
+					],
+					"amount": 20,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"afc:wood/leaves/fig",
+						"afc:wood/leaves/weeping_maple",
+						"tfc:wood/leaves/sycamore",
+						"afc:wood/leaves/red_pine",
+						"tfc:wood/leaves/oak",
+						"tfc:wood/leaves/white_cedar",
+						"afc:wood/leaves/giant_rosewood",
+						"afc:wood/leaves/jaggery_palm",
+						"tfc:wood/leaves/sequoia",
+						"afc:wood/leaves/ipe",
+						"afc:wood/leaves/coast_spruce",
+						"tfc:wood/leaves/kapok",
+						"tfg:palm_tree/coconut_leaves",
+						"afc:wood/leaves/live_oak",
+						"afc:wood/leaves/mpingo_blackwood",
+						"tfc:wood/leaves/aspen",
+						"afc:wood/leaves/stone_pine",
+						"afc:wood/leaves/iroko_teak",
+						"tfc:plant/peach_leaves",
+						"tfg:wood/leaves/ginkgo",
+						"tfg:fruit_trees/lavacado_leaves",
+						"afc:wood/leaves/gum_arabic",
+						"tfc:plant/olive_leaves",
+						"afc:wood/leaves/atlas_cedar",
+						"minecraft:cherry_leaves",
+						"tfc:wood/leaves/rosewood",
+						"afc:wood/leaves/red_silk_cotton",
+						"afc:wood/leaves/coast_redwood",
+						"tfc:plant/green_apple_leaves",
+						"tfc:plant/red_apple_leaves",
+						"afc:wood/leaves/rainbow_eucalyptus",
+						"afc:wood/leaves/bald_cypress",
+						"tfg:wood/leaves/beech",
+						"tfc:wood/leaves/mangrove",
+						"afc:wood/leaves/rubber_fig",
+						"tfc:wood/leaves/maple",
+						"afc:wood/leaves/teak",
+						"afc:wood/leaves/weeping_willow",
+						"tfc:plant/cherry_leaves",
+						"afc:wood/leaves/sitka_spruce",
+						"afc:wood/leaves/baobab",
+						"tfg:wood/leaves/araucaria",
+						"afc:wood/leaves/mahogany",
+						"afc:wood/leaves/flame_of_the_forest",
+						"tfg:wood/leaves/mahoe",
+						"firmalife:plant/fig_leaves",
+						"afc:wood/leaves/eucalyptus",
+						"tfg:palm_tree/acai_leaves",
+						"tfc:wood/leaves/willow",
+						"afc:wood/leaves/ironwood",
+						"afc:wood/leaves/hevea",
+						"tfc:wood/leaves/acacia",
+						"tfc:wood/leaves/pine",
+						"tfg:fruit_trees/magmango_leaves",
+						"tfc:wood/leaves/hickory",
+						"afc:wood/leaves/small_leaf_mahogany",
+						"firmalife:plant/cocoa_leaves",
+						"afc:wood/leaves/tualang",
+						"tfc:wood/leaves/ash",
+						"afc:wood/leaves/cypress",
+						"afc:wood/leaves/mountain_ash",
+						"tfg:palm_tree/date_leaves",
+						"tfc:wood/leaves/blackwood",
+						"afc:wood/leaves/poplar",
+						"afc:wood/leaves/scrub_hickory",
+						"afc:wood/leaves/acacia_koa",
+						"afc:wood/leaves/black_oak",
+						"afc:wood/leaves/black_spruce",
+						"tfc:plant/plum_leaves",
+						"tfc:wood/leaves/spruce",
+						"afc:wood/leaves/redcedar",
+						"tfc:wood/leaves/douglas_fir",
+						"afc:wood/leaves/balsam_fir",
+						"tfg:palm_tree/oil_palm_leaves",
+						"tfc:plant/orange_leaves",
+						"afc:wood/leaves/mountain_fir",
+						"afc:wood/leaves/horsetail_ironwood",
+						"afc:wood/leaves/sapele_mahogany",
+						"tfc:wood/leaves/birch",
+						"afc:wood/leaves/tamarack",
+						"afc:wood/leaves/lebombo_ironwood",
+						"afc:wood/leaves/bigleaf_maple",
+						"tfc:wood/leaves/palm",
+						"afc:wood/leaves/weeping_cypress",
+						"tfc:plant/lemon_leaves",
+						"tfc:wood/leaves/chestnut"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:biomass"
+					],
+					"amount": 20,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:brewery/biomass_from_fallen_leaves",
+			"category": "brewery",
+			"duration": 100,
+			"voltage": 3,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water",
+						"minecraft:flowing_water",
+						"tfc:river_water",
+						"tfc:salt_water",
+						"tfc:flowing_salt_water",
+						"tfc:spring_water",
+						"tfc:flowing_spring_water",
+						"tfg:semiheavy_ammoniacal_water",
+						"tfg:muddy_water",
+						"tfg:semiheavy_water"
+					],
+					"amount": 20,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:wood/fallen_leaves/acacia",
+						"afc:wood/fallen_leaves/balsam_fir",
+						"afc:wood/fallen_leaves/mahogany",
+						"tfc:wood/fallen_leaves/aspen",
+						"tfc:wood/fallen_leaves/white_cedar",
+						"tfc:wood/fallen_leaves/spruce",
+						"afc:wood/fallen_leaves/lebombo_ironwood",
+						"afc:wood/fallen_leaves/acacia_koa",
+						"tfc:wood/fallen_leaves/sequoia",
+						"beneath:wood/fallen_leaves/crimson",
+						"tfc:wood/fallen_leaves/blackwood",
+						"tfc:wood/fallen_leaves/chestnut",
+						"afc:wood/fallen_leaves/live_oak",
+						"afc:wood/fallen_leaves/stone_pine",
+						"afc:wood/fallen_leaves/bigleaf_maple",
+						"tfc:wood/fallen_leaves/pine",
+						"tfc:wood/fallen_leaves/oak",
+						"afc:wood/fallen_leaves/iroko_teak",
+						"afc:wood/fallen_leaves/ipe",
+						"afc:wood/fallen_leaves/eucalyptus",
+						"tfg:wood/leaves/beech_fallen",
+						"tfc:wood/fallen_leaves/palm",
+						"tfc:wood/fallen_leaves/rosewood",
+						"afc:wood/fallen_leaves/fig",
+						"afc:wood/fallen_leaves/rainbow_eucalyptus",
+						"afc:wood/fallen_leaves/atlas_cedar",
+						"afc:wood/fallen_leaves/gum_arabic",
+						"afc:wood/fallen_leaves/mpingo_blackwood",
+						"afc:wood/fallen_leaves/tamarack",
+						"tfg:wood/leaves/mahoe_fallen",
+						"beneath:wood/fallen_leaves/warped",
+						"afc:wood/fallen_leaves/mountain_ash",
+						"afc:wood/fallen_leaves/giant_rosewood",
+						"afc:wood/fallen_leaves/bald_cypress",
+						"tfg:wood/leaves/ginkgo_fallen",
+						"tfc:wood/fallen_leaves/maple",
+						"afc:wood/fallen_leaves/scrub_hickory",
+						"afc:wood/fallen_leaves/black_oak",
+						"tfg:wood/leaves/araucaria_fallen",
+						"tfg:glacian_leaves_fallen",
+						"tfc:wood/fallen_leaves/kapok",
+						"afc:wood/fallen_leaves/horsetail_ironwood",
+						"afc:wood/fallen_leaves/coast_redwood",
+						"afc:wood/fallen_leaves/jaggery_palm",
+						"afc:wood/fallen_leaves/teak",
+						"afc:wood/fallen_leaves/weeping_maple",
+						"afc:wood/fallen_leaves/poplar",
+						"afc:wood/fallen_leaves/redcedar",
+						"tfc:wood/fallen_leaves/mangrove",
+						"tfc:wood/fallen_leaves/birch",
+						"tfc:wood/fallen_leaves/douglas_fir",
+						"afc:wood/fallen_leaves/cypress",
+						"betterend:cave_bush_fallen",
+						"afc:wood/fallen_leaves/ironwood",
+						"afc:wood/fallen_leaves/flame_of_the_forest",
+						"afc:wood/fallen_leaves/red_pine",
+						"afc:wood/fallen_leaves/rubber_fig",
+						"tfc:wood/fallen_leaves/hickory",
+						"afc:wood/fallen_leaves/hevea",
+						"afc:wood/fallen_leaves/tualang",
+						"afc:wood/fallen_leaves/small_leaf_mahogany",
+						"afc:wood/fallen_leaves/weeping_cypress",
+						"afc:wood/fallen_leaves/baobab",
+						"afc:wood/fallen_leaves/coast_spruce",
+						"afc:wood/fallen_leaves/sitka_spruce",
+						"afc:wood/fallen_leaves/weeping_willow",
+						"tfc:wood/fallen_leaves/ash",
+						"betterend:lucernia_leaves_fallen",
+						"afc:wood/fallen_leaves/red_silk_cotton",
+						"afc:wood/fallen_leaves/sapele_mahogany",
+						"afc:wood/fallen_leaves/mountain_fir",
+						"afc:wood/fallen_leaves/black_spruce",
+						"tfc:wood/fallen_leaves/willow",
+						"tfc:wood/fallen_leaves/sycamore"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:biomass"
+					],
+					"amount": 20,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:brewery/lubricant_from_seed_oil_and_soapstone",
+			"category": "brewery",
+			"duration": 128,
+			"voltage": 4,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:seed_oil"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:soapstone_dust"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:lubricant"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:brewery/biomass_from_tfc_corals",
+			"category": "brewery",
+			"duration": 100,
+			"voltage": 3,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water",
+						"minecraft:flowing_water",
+						"tfc:river_water",
+						"tfc:salt_water",
+						"tfc:flowing_salt_water",
+						"tfc:spring_water",
+						"tfc:flowing_spring_water",
+						"tfg:semiheavy_ammoniacal_water",
+						"tfg:muddy_water",
+						"tfg:semiheavy_water"
+					],
+					"amount": 20,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:coral/bubble_coral_fan",
+						"tfc:coral/horn_dead_coral_fan",
+						"tfc:coral/horn_coral",
+						"tfc:coral/bubble_dead_coral_fan",
+						"tfc:coral/bubble_dead_coral",
+						"tfc:coral/fire_coral_fan",
+						"tfc:coral/tube_coral_fan",
+						"tfc:coral/brain_coral",
+						"tfc:coral/horn_dead_coral",
+						"tfc:coral/brain_dead_coral_fan",
+						"tfc:coral/brain_coral_fan",
+						"tfc:coral/horn_coral_fan",
+						"tfc:coral/fire_dead_coral_fan",
+						"tfc:coral/fire_dead_coral",
+						"tfc:coral/bubble_coral",
+						"tfc:coral/fire_coral",
+						"tfc:coral/tube_coral",
+						"tfc:coral/brain_dead_coral",
+						"tfc:coral/tube_dead_coral_fan",
+						"tfc:coral/tube_dead_coral"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:biomass"
+					],
+					"amount": 100,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:brewery/biomass_from_carrot",
+			"category": "brewery",
+			"duration": 160,
+			"voltage": 3,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water"
+					],
+					"amount": 20,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:carrot"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:biomass"
+					],
+					"amount": 20,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:brewery/biomass_from_pitcher_pod",
+			"category": "brewery",
+			"duration": 160,
+			"voltage": 3,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water"
+					],
+					"amount": 20,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:pitcher_pod"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:biomass"
+					],
+					"amount": 20,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:brewery/biomass_from_red_mushroom",
+			"category": "brewery",
+			"duration": 160,
+			"voltage": 3,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water"
+					],
+					"amount": 20,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:red_mushroom"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:biomass"
+					],
+					"amount": 20,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:brewery/biomass_from_sapling",
+			"category": "brewery",
+			"duration": 800,
+			"voltage": 3,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water"
+					],
+					"amount": 100,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"afc:wood/sapling/ipe",
+						"tfg:palm_tree/acai_sapling",
+						"afc:wood/sapling/mountain_fir",
+						"afc:wood/sapling/balsam_fir",
+						"afc:wood/sapling/scrub_hickory",
+						"afc:wood/sapling/poplar",
+						"afc:wood/sapling/mahogany",
+						"afc:wood/sapling/black_oak",
+						"afc:wood/sapling/weeping_willow",
+						"tfg:saplings/alphacene",
+						"afc:wood/sapling/red_pine",
+						"tfc:wood/sapling/acacia",
+						"tfc:plant/cherry_sapling",
+						"tfg:saplings/warped",
+						"tfc:plant/red_apple_sapling",
+						"afc:wood/sapling/atlas_cedar",
+						"tfg:wood/sapling/araucaria",
+						"tfc:wood/sapling/mangrove",
+						"afc:wood/sapling/teak",
+						"afc:wood/sapling/mpingo_blackwood",
+						"afc:wood/sapling/giant_rosewood",
+						"afc:wood/sapling/lebombo_ironwood",
+						"tfg:wood/sapling/ginkgo",
+						"afc:wood/sapling/gum_arabic",
+						"afc:wood/sapling/live_oak",
+						"afc:wood/sapling/tamarack",
+						"tfg:fruit_trees/magmango_sapling",
+						"afc:wood/sapling/weeping_maple",
+						"afc:wood/sapling/small_leaf_mahogany",
+						"tfc:wood/sapling/oak",
+						"tfc:wood/sapling/maple",
+						"tfc:wood/sapling/rosewood",
+						"tfg:wood/sapling/mahoe",
+						"afc:wood/sapling/coast_redwood",
+						"tfc:wood/sapling/sequoia",
+						"tfc:plant/plum_sapling",
+						"tfg:wood/sapling/beech",
+						"tfc:wood/sapling/douglas_fir",
+						"afc:wood/sapling/rainbow_eucalyptus",
+						"afc:wood/sapling/acacia_koa",
+						"tfc:plant/green_apple_sapling",
+						"afc:wood/sapling/stone_pine",
+						"afc:wood/sapling/sapele_mahogany",
+						"tfc:wood/sapling/pine",
+						"firmalife:plant/cocoa_sapling",
+						"tfc:wood/sapling/ash",
+						"tfg:palm_tree/date_sapling",
+						"tfc:wood/sapling/birch",
+						"afc:wood/sapling/cypress",
+						"tfc:wood/sapling/aspen",
+						"tfc:wood/sapling/spruce",
+						"tfc:plant/olive_sapling",
+						"afc:wood/sapling/fig",
+						"tfg:palm_tree/oil_palm_sapling",
+						"afc:wood/sapling/eucalyptus",
+						"tfc:wood/sapling/blackwood",
+						"afc:wood/sapling/tualang",
+						"tfc:wood/sapling/willow",
+						"tfc:plant/orange_sapling",
+						"afc:wood/sapling/coast_spruce",
+						"afc:wood/sapling/flame_of_the_forest",
+						"tfg:palm_tree/coconut_sapling",
+						"afc:wood/sapling/redcedar",
+						"afc:wood/sapling/red_silk_cotton",
+						"tfc:wood/sapling/chestnut",
+						"afc:wood/sapling/rubber_fig",
+						"tfg:saplings/aeronos",
+						"afc:wood/sapling/iroko_teak",
+						"afc:wood/sapling/sitka_spruce",
+						"tfc:plant/peach_sapling",
+						"afc:wood/sapling/mountain_ash",
+						"afc:wood/sapling/bigleaf_maple",
+						"afc:wood/sapling/ironwood",
+						"afc:wood/sapling/baobab",
+						"afc:wood/sapling/black_spruce",
+						"tfg:saplings/glacian",
+						"tfc:plant/lemon_sapling",
+						"tfg:fruit_trees/lavacado_sapling",
+						"tfc:wood/sapling/palm",
+						"firmalife:plant/fig_sapling",
+						"tfg:saplings/strophar",
+						"afc:wood/sapling/weeping_cypress",
+						"afc:wood/sapling/jaggery_palm",
+						"tfc:wood/sapling/sycamore",
+						"afc:wood/sapling/bald_cypress",
+						"tfc:wood/sapling/white_cedar",
+						"tfc:plant/banana_sapling",
+						"tfg:saplings/crimson",
+						"tfc:wood/sapling/hickory",
+						"afc:wood/sapling/hevea",
+						"tfc:wood/sapling/kapok",
+						"afc:wood/sapling/horsetail_ironwood"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:biomass"
+					],
+					"amount": 100,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:brewery/biomass_from_brown_mushroom",
+			"category": "brewery",
+			"duration": 160,
+			"voltage": 3,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water"
+					],
+					"amount": 20,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:brown_mushroom"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:biomass"
+					],
+					"amount": 20,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:brewery/biomass_from_kelp",
+			"category": "brewery",
+			"duration": 160,
+			"voltage": 3,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water"
+					],
+					"amount": 20,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:kelp"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:biomass"
+					],
+					"amount": 20,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:brewery/enriched_bacterial_sludge_from_u235",
+			"category": "brewery",
+			"duration": 128,
+			"voltage": 4,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:bacterial_sludge"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:tiny_uranium_235_dust"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:enriched_bacterial_sludge"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "CleanroomCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.CleanroomCondition@371356d4",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "gtceu:brewery/biomass_from_torchflower_seeds",
+			"category": "brewery",
+			"duration": 160,
+			"voltage": 3,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water"
+					],
+					"amount": 20,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:torchflower_seeds"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:biomass"
+					],
+					"amount": 20,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:brewery/biomass_from_sea_pickle",
+			"category": "brewery",
+			"duration": 160,
+			"voltage": 3,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water"
+					],
+					"amount": 20,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:sea_pickle"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:biomass"
+					],
+					"amount": 20,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:brewery/bacteria",
+			"category": "brewery",
+			"duration": 300,
+			"voltage": 480,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:distilled_water"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:bio_chaff"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:bacteria"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "CleanroomCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.CleanroomCondition@49ec9bc7",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "gtceu:brewery/biomass_from_tfc_plants",
+			"category": "brewery",
+			"duration": 100,
+			"voltage": 3,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water",
+						"minecraft:flowing_water",
+						"tfc:river_water",
+						"tfc:salt_water",
+						"tfc:flowing_salt_water",
+						"tfc:spring_water",
+						"tfc:flowing_spring_water",
+						"tfg:semiheavy_ammoniacal_water",
+						"tfg:muddy_water",
+						"tfg:semiheavy_water"
+					],
+					"amount": 20,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"firmalife:plant/cilantro",
+						"tfc:plant/scutch_grass",
+						"firmalife:plant/pineapple_bush",
+						"tfc:plant/hanging_vines",
+						"tfc:plant/tall_fescue_grass",
+						"tfc:plant/white_cedar_krummholz",
+						"tfc:plant/leafy_kelp",
+						"tfc:plant/nasturtium",
+						"tfc:plant/red_apple_sapling",
+						"tfc:plant/pulsatilla",
+						"tfc:plant/foxglove",
+						"tfc:plant/pistia",
+						"tfc:plant/maiden_pink",
+						"firmalife:plant/bay_laurel",
+						"tfg:plant/prickly_pear",
+						"tfg:plant/buttercup",
+						"tfc:plant/oxeye_daisy",
+						"tfc:plant/ivy",
+						"tfg:plant/penwortel",
+						"tfc:plant/licorice_fern",
+						"tfg:plant/moss_campion",
+						"tfc:plant/athyrium_fern",
+						"tfc:plant/cordgrass",
+						"tfg:plant/elegant_sunburst_lichen",
+						"tfg:plant/palash",
+						"tfc:plant/plum_sapling",
+						"tfc:plant/anthurium",
+						"tfc:plant/philodendron",
+						"tfc:plant/saguaro_fruit",
+						"tfc:plant/saguaro",
+						"tfg:plant/silver_bromeliad",
+						"tfc:plant/spanish_moss",
+						"firmalife:plant/butterfly_grass",
+						"tfc:plant/arundo",
+						"tfg:plant/qantu",
+						"firmalife:plant/vanilla",
+						"tfc:plant/bluegrass",
+						"tfc:plant/bunchberry_bush",
+						"tfg:plant/fan_palm",
+						"tfc:plant/artists_conk",
+						"tfc:plant/cranberry_bush",
+						"tfc:plant/sagebrush",
+						"tfc:plant/snowberry_bush",
+						"tfc:plant/heliconia",
+						"tfc:plant/silver_spurflower",
+						"tfc:plant/duckweed",
+						"tfc:plant/sago",
+						"tfc:plant/snapdragon_pink",
+						"tfc:plant/ryegrass",
+						"tfc:plant/snapdragon_yellow",
+						"tfc:plant/lady_fern",
+						"tfg:plant/ramunda",
+						"tfc:plant/goldenrod",
+						"tfc:plant/wintergreen_berry_bush",
+						"tfc:plant/morning_glory",
+						"tfc:plant/yucca",
+						"tfc:plant/poppy",
+						"tfc:plant/water_lily",
+						"tfc:plant/liana",
+						"tfc:plant/guzmania",
+						"tfc:plant/lotus",
+						"tfc:plant/gutweed",
+						"tfc:plant/peach_sapling",
+						"firmalife:plant/cumin",
+						"firmalife:plant/oregano",
+						"tfg:plant/shawiash",
+						"tfc:plant/heather",
+						"tfc:plant/phragmite",
+						"tfc:plant/lemon_sapling",
+						"tfc:plant/sword_fern",
+						"tfg:plant/bird_nest_fern",
+						"tfc:plant/gooseberry_bush",
+						"tfc:plant/reindeer_lichen",
+						"firmalife:plant/fig_sapling",
+						"tfg:plant/mountain_hullwort",
+						"tfc:plant/dead_bush",
+						"tfc:plant/switchgrass",
+						"tfc:plant/cloudberry_bush",
+						"tfc:plant/vriesea",
+						"tfc:plant/ostrich_fern",
+						"tfg:plant/cycad",
+						"tfc:plant/blue_orchid",
+						"tfc:plant/water_canna",
+						"tfc:plant/banana_sapling",
+						"tfc:plant/pickerelweed",
+						"tfc:plant/blueberry_bush",
+						"tfc:plant/grape_hyacinth",
+						"tfc:plant/snapdragon_red",
+						"tfc:plant/jungle_vines",
+						"tfc:plant/calendula",
+						"tfc:plant/winged_kelp",
+						"tfc:plant/meads_milkweed",
+						"tfg:plant/edelweiss",
+						"tfg:plant/ramirezella",
+						"tfc:plant/bur_reed",
+						"tfc:plant/raspberry_bush",
+						"tfc:plant/cherry_sapling",
+						"tfc:plant/elderberry_bush",
+						"tfc:plant/lilac",
+						"tfc:plant/moss",
+						"tfc:plant/tulip_pink",
+						"tfc:plant/tulip_red",
+						"tfc:plant/strelitzia",
+						"tfg:plant/bear_grass",
+						"firmalife:plant/cardamom",
+						"tfg:fruit_trees/magmango_sapling",
+						"tfc:plant/desert_flame",
+						"tfc:plant/houstonia",
+						"firmalife:plant/pimento",
+						"tfc:plant/timothy_grass",
+						"tfc:plant/allium",
+						"tfc:plant/black_orchid",
+						"tfc:plant/strawberry_bush",
+						"tfc:plant/laminaria",
+						"tfg:plant/yellow_saxifrage",
+						"tfc:plant/green_apple_sapling",
+						"tfc:plant/dandelion",
+						"tfc:plant/raddia_grass",
+						"tfc:plant/eel_grass",
+						"tfc:plant/lily_of_the_valley",
+						"tfc:plant/toquilla_palm",
+						"tfc:plant/barrel_cactus",
+						"tfc:plant/arrowhead",
+						"firmalife:plant/cocoa_sapling",
+						"tfc:plant/rose",
+						"tfc:plant/tropical_milkweed",
+						"tfc:plant/labrador_tea",
+						"tfc:plant/blackberry_bush",
+						"firmalife:plant/basil",
+						"tfg:plant/prickly_pear_purple",
+						"tfc:plant/star_grass",
+						"tfc:plant/trillium",
+						"tfc:plant/king_fern",
+						"tfc:plant/olive_sapling",
+						"tfg:plant/flame_vine",
+						"tfc:plant/beachgrass",
+						"tfc:plant/tulip_white",
+						"tfc:plant/pampas_grass",
+						"tfc:plant/sea_lavender",
+						"tfc:plant/tree_fern",
+						"tfg:plant/cornflower",
+						"tfc:plant/canna",
+						"tfc:plant/orange_sapling",
+						"tfg:plant/red_oat_grass",
+						"tfg:plant/kinnikinnick",
+						"tfc:plant/snapdragon_white",
+						"tfc:plant/cattail",
+						"tfc:plant/kangaroo_paw",
+						"tfc:plant/marigold",
+						"tfc:plant/water_taro",
+						"tfc:plant/red_algae",
+						"tfc:plant/butterfly_milkweed",
+						"tfc:plant/fountain_grass",
+						"tfc:plant/pine_krummholz",
+						"firmalife:plant/nightshade_bush",
+						"tfc:plant/milfoil",
+						"tfc:plant/field_horsetail",
+						"tfc:plant/hibiscus",
+						"tfc:plant/sea_palm",
+						"tfg:plant/silken_pincushion_cactus",
+						"tfg:plant/dry_grass",
+						"tfc:plant/sargassum",
+						"tfc:plant/orchard_grass",
+						"tfc:plant/cobblestone_lichen",
+						"tfc:plant/green_algae",
+						"tfc:plant/manatee_grass",
+						"tfc:plant/aspen_krummholz",
+						"tfg:fruit_trees/lavacado_sapling",
+						"tfc:plant/bromegrass",
+						"tfg:plant/azalea",
+						"tfc:plant/turtle_grass",
+						"tfc:plant/douglas_fir_krummholz",
+						"tfc:plant/red_sealing_wax_palm",
+						"tfc:plant/spruce_krummholz",
+						"tfc:plant/giant_kelp_flower",
+						"tfc:plant/blood_lily",
+						"tfc:plant/blue_ginger",
+						"tfc:plant/perovskia",
+						"tfc:plant/badderlocks",
+						"tfc:plant/dry_phragmite",
+						"tfc:plant/primrose",
+						"tfc:plant/sacred_datura",
+						"tfc:plant/sapphire_tower",
+						"tfg:plant/tank_bromeliad",
+						"tfc:plant/coontail",
+						"tfc:plant/tulip_orange"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:biomass"
+					],
+					"amount": 100,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:brewery/lubricant_from_creosote_and_soapstone",
+			"category": "brewery",
+			"duration": 128,
+			"voltage": 4,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:creosote"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:soapstone_dust"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:lubricant"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:brewery/enriched_bacterial_sludge_from_naquadria",
+			"category": "brewery",
+			"duration": 128,
+			"voltage": 4,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:bacterial_sludge"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:tiny_naquadria_dust"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:enriched_bacterial_sludge"
+					],
+					"amount": 2000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "CleanroomCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.CleanroomCondition@684806df",
+					"dimension": "undefined"
+				}
+			]
+		},
+		{
+			"id": "gtceu:/brewery/potion_vanilla_mundane_0",
+			"category": "brewery",
+			"duration": 400,
+			"voltage": 60,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:glistering_melon_slice"
+					],
+					"amount": 1.0,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:/brewery/potion_vanilla_mundane_1",
+			"category": "brewery",
+			"duration": 400,
+			"voltage": 60,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:ghast_tear"
+					],
+					"amount": 1.0,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:/brewery/potion_vanilla_mundane_2",
+			"category": "brewery",
+			"duration": 400,
+			"voltage": 60,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:rabbit_foot"
+					],
+					"amount": 1.0,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:/brewery/potion_vanilla_mundane_3",
+			"category": "brewery",
+			"duration": 400,
+			"voltage": 60,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:blaze_powder"
+					],
+					"amount": 1.0,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:/brewery/potion_vanilla_mundane_4",
+			"category": "brewery",
+			"duration": 400,
+			"voltage": 60,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:spider_eye"
+					],
+					"amount": 1.0,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:/brewery/potion_vanilla_mundane_5",
+			"category": "brewery",
+			"duration": 400,
+			"voltage": 60,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:sugar"
+					],
+					"amount": 1.0,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:/brewery/potion_vanilla_mundane_6",
+			"category": "brewery",
+			"duration": 400,
+			"voltage": 60,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:magma_cream"
+					],
+					"amount": 1.0,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:/brewery/potion_vanilla_thick_7",
+			"category": "brewery",
+			"duration": 400,
+			"voltage": 60,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:glowstone_dust"
+					],
+					"amount": 1.0,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:/brewery/potion_vanilla_mundane_8",
+			"category": "brewery",
+			"duration": 400,
+			"voltage": 60,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:redstone"
+					],
+					"amount": 1.0,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:/brewery/potion_vanilla_awkward_9",
+			"category": "brewery",
+			"duration": 400,
+			"voltage": 60,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:nether_wart"
+					],
+					"amount": 1.0,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:/brewery/potion_vanilla_night_vision_10",
+			"category": "brewery",
+			"duration": 400,
+			"voltage": 60,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:flowing_potion",
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:golden_carrot"
+					],
+					"amount": 1.0,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:/brewery/potion_vanilla_night_vision_11",
+			"category": "brewery",
+			"duration": 400,
+			"voltage": 60,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:flowing_potion",
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:redstone"
+					],
+					"amount": 1.0,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:/brewery/potion_vanilla_invisibility_12",
+			"category": "brewery",
+			"duration": 400,
+			"voltage": 60,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:flowing_potion",
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:fermented_spider_eye"
+					],
+					"amount": 1.0,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:/brewery/potion_vanilla_invisibility_13",
+			"category": "brewery",
+			"duration": 400,
+			"voltage": 60,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:flowing_potion",
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:fermented_spider_eye"
+					],
+					"amount": 1.0,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:/brewery/potion_vanilla_invisibility_14",
+			"category": "brewery",
+			"duration": 400,
+			"voltage": 60,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:flowing_potion",
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:redstone"
+					],
+					"amount": 1.0,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:/brewery/potion_vanilla_fire_resistance_15",
+			"category": "brewery",
+			"duration": 400,
+			"voltage": 60,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:flowing_potion",
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:magma_cream"
+					],
+					"amount": 1.0,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:/brewery/potion_vanilla_fire_resistance_16",
+			"category": "brewery",
+			"duration": 400,
+			"voltage": 60,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:flowing_potion",
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:redstone"
+					],
+					"amount": 1.0,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:/brewery/potion_vanilla_leaping_17",
+			"category": "brewery",
+			"duration": 400,
+			"voltage": 60,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:flowing_potion",
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:rabbit_foot"
+					],
+					"amount": 1.0,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:/brewery/potion_vanilla_leaping_18",
+			"category": "brewery",
+			"duration": 400,
+			"voltage": 60,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:flowing_potion",
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:redstone"
+					],
+					"amount": 1.0,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:/brewery/potion_vanilla_leaping_19",
+			"category": "brewery",
+			"duration": 400,
+			"voltage": 60,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:flowing_potion",
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:glowstone_dust"
+					],
+					"amount": 1.0,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:/brewery/potion_vanilla_slowness_20",
+			"category": "brewery",
+			"duration": 400,
+			"voltage": 60,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:flowing_potion",
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:fermented_spider_eye"
+					],
+					"amount": 1.0,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:/brewery/potion_vanilla_slowness_21",
+			"category": "brewery",
+			"duration": 400,
+			"voltage": 60,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:flowing_potion",
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:fermented_spider_eye"
+					],
+					"amount": 1.0,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:/brewery/potion_vanilla_slowness_22",
+			"category": "brewery",
+			"duration": 400,
+			"voltage": 60,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:flowing_potion",
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:redstone"
+					],
+					"amount": 1.0,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:/brewery/potion_vanilla_slowness_23",
+			"category": "brewery",
+			"duration": 400,
+			"voltage": 60,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:flowing_potion",
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:glowstone_dust"
+					],
+					"amount": 1.0,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:/brewery/potion_vanilla_turtle_master_24",
+			"category": "brewery",
+			"duration": 400,
+			"voltage": 60,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:flowing_potion",
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:turtle_helmet"
+					],
+					"amount": 1.0,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:/brewery/potion_vanilla_turtle_master_25",
+			"category": "brewery",
+			"duration": 400,
+			"voltage": 60,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:flowing_potion",
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:redstone"
+					],
+					"amount": 1.0,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:/brewery/potion_vanilla_turtle_master_26",
+			"category": "brewery",
+			"duration": 400,
+			"voltage": 60,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:flowing_potion",
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:glowstone_dust"
+					],
+					"amount": 1.0,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:/brewery/potion_vanilla_slowness_27",
+			"category": "brewery",
+			"duration": 400,
+			"voltage": 60,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:flowing_potion",
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:fermented_spider_eye"
+					],
+					"amount": 1.0,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:/brewery/potion_vanilla_slowness_28",
+			"category": "brewery",
+			"duration": 400,
+			"voltage": 60,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:flowing_potion",
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:fermented_spider_eye"
+					],
+					"amount": 1.0,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:/brewery/potion_vanilla_swiftness_29",
+			"category": "brewery",
+			"duration": 400,
+			"voltage": 60,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:flowing_potion",
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:sugar"
+					],
+					"amount": 1.0,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:/brewery/potion_vanilla_swiftness_30",
+			"category": "brewery",
+			"duration": 400,
+			"voltage": 60,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:flowing_potion",
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:redstone"
+					],
+					"amount": 1.0,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:/brewery/potion_vanilla_swiftness_31",
+			"category": "brewery",
+			"duration": 400,
+			"voltage": 60,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:flowing_potion",
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:glowstone_dust"
+					],
+					"amount": 1.0,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:/brewery/potion_vanilla_water_breathing_32",
+			"category": "brewery",
+			"duration": 400,
+			"voltage": 60,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:flowing_potion",
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:pufferfish"
+					],
+					"amount": 1.0,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:/brewery/potion_vanilla_water_breathing_33",
+			"category": "brewery",
+			"duration": 400,
+			"voltage": 60,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:flowing_potion",
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:redstone"
+					],
+					"amount": 1.0,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:/brewery/potion_vanilla_healing_34",
+			"category": "brewery",
+			"duration": 400,
+			"voltage": 60,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:flowing_potion",
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:glistering_melon_slice"
+					],
+					"amount": 1.0,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:/brewery/potion_vanilla_healing_35",
+			"category": "brewery",
+			"duration": 400,
+			"voltage": 60,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:flowing_potion",
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:glowstone_dust"
+					],
+					"amount": 1.0,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:/brewery/potion_vanilla_harming_36",
+			"category": "brewery",
+			"duration": 400,
+			"voltage": 60,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:flowing_potion",
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:fermented_spider_eye"
+					],
+					"amount": 1.0,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:/brewery/potion_vanilla_harming_37",
+			"category": "brewery",
+			"duration": 400,
+			"voltage": 60,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:flowing_potion",
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:fermented_spider_eye"
+					],
+					"amount": 1.0,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:/brewery/potion_vanilla_harming_38",
+			"category": "brewery",
+			"duration": 400,
+			"voltage": 60,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:flowing_potion",
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:glowstone_dust"
+					],
+					"amount": 1.0,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:/brewery/potion_vanilla_harming_39",
+			"category": "brewery",
+			"duration": 400,
+			"voltage": 60,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:flowing_potion",
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:fermented_spider_eye"
+					],
+					"amount": 1.0,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:/brewery/potion_vanilla_harming_40",
+			"category": "brewery",
+			"duration": 400,
+			"voltage": 60,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:flowing_potion",
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:fermented_spider_eye"
+					],
+					"amount": 1.0,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:/brewery/potion_vanilla_harming_41",
+			"category": "brewery",
+			"duration": 400,
+			"voltage": 60,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:flowing_potion",
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:fermented_spider_eye"
+					],
+					"amount": 1.0,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:/brewery/potion_vanilla_poison_42",
+			"category": "brewery",
+			"duration": 400,
+			"voltage": 60,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:flowing_potion",
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:spider_eye"
+					],
+					"amount": 1.0,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:/brewery/potion_vanilla_poison_43",
+			"category": "brewery",
+			"duration": 400,
+			"voltage": 60,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:flowing_potion",
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:redstone"
+					],
+					"amount": 1.0,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:/brewery/potion_vanilla_poison_44",
+			"category": "brewery",
+			"duration": 400,
+			"voltage": 60,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:flowing_potion",
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:glowstone_dust"
+					],
+					"amount": 1.0,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:/brewery/potion_vanilla_regeneration_45",
+			"category": "brewery",
+			"duration": 400,
+			"voltage": 60,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:flowing_potion",
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:ghast_tear"
+					],
+					"amount": 1.0,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:/brewery/potion_vanilla_regeneration_46",
+			"category": "brewery",
+			"duration": 400,
+			"voltage": 60,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:flowing_potion",
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:redstone"
+					],
+					"amount": 1.0,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:/brewery/potion_vanilla_regeneration_47",
+			"category": "brewery",
+			"duration": 400,
+			"voltage": 60,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:flowing_potion",
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:glowstone_dust"
+					],
+					"amount": 1.0,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:/brewery/potion_vanilla_strength_48",
+			"category": "brewery",
+			"duration": 400,
+			"voltage": 60,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:flowing_potion",
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:blaze_powder"
+					],
+					"amount": 1.0,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:/brewery/potion_vanilla_strength_49",
+			"category": "brewery",
+			"duration": 400,
+			"voltage": 60,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:flowing_potion",
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:redstone"
+					],
+					"amount": 1.0,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:/brewery/potion_vanilla_strength_50",
+			"category": "brewery",
+			"duration": 400,
+			"voltage": 60,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:flowing_potion",
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:glowstone_dust"
+					],
+					"amount": 1.0,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:/brewery/potion_vanilla_weakness_51",
+			"category": "brewery",
+			"duration": 400,
+			"voltage": 60,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:fermented_spider_eye"
+					],
+					"amount": 1.0,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:/brewery/potion_vanilla_weakness_52",
+			"category": "brewery",
+			"duration": 400,
+			"voltage": 60,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:flowing_potion",
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:redstone"
+					],
+					"amount": 1.0,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:/brewery/potion_vanilla_slow_falling_53",
+			"category": "brewery",
+			"duration": 400,
+			"voltage": 60,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:flowing_potion",
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:phantom_membrane"
+					],
+					"amount": 1.0,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:/brewery/potion_vanilla_slow_falling_54",
+			"category": "brewery",
+			"duration": 400,
+			"voltage": 60,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:flowing_potion",
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:redstone"
+					],
+					"amount": 1.0,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:/brewery/potion_vanilla_bloodlust_55",
+			"category": "brewery",
+			"duration": 400,
+			"voltage": 60,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:flowing_potion",
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"species:ghoul_tongue"
+					],
+					"amount": 1.0,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:potion"
+					],
+					"amount": 750,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,258 @@
+{
+	"group": "blocks",
+	"namespace": "sophisticatedbackpacks",
+	"tables": [
+		{
+			"id": "sophisticatedbackpacks:blocks/copper_backpack",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "sophisticatedbackpacks:blocks/copper_backpack",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "sophisticatedbackpacks:copper_backpack"
+							}
+						],
+						"functions": [
+							{
+								"function": "sophisticatedbackpacks:copy_backpack_data"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "sophisticatedbackpacks:copper_backpack",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "sophisticatedbackpacks:blocks/iron_backpack",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "sophisticatedbackpacks:blocks/iron_backpack",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "sophisticatedbackpacks:iron_backpack"
+							}
+						],
+						"functions": [
+							{
+								"function": "sophisticatedbackpacks:copy_backpack_data"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "sophisticatedbackpacks:iron_backpack",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "sophisticatedbackpacks:blocks/backpack",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "sophisticatedbackpacks:blocks/backpack",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "sophisticatedbackpacks:backpack"
+							}
+						],
+						"functions": [
+							{
+								"function": "sophisticatedbackpacks:copy_backpack_data"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "sophisticatedbackpacks:backpack",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "sophisticatedbackpacks:blocks/netherite_backpack",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "sophisticatedbackpacks:blocks/netherite_backpack",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "sophisticatedbackpacks:netherite_backpack"
+							}
+						],
+						"functions": [
+							{
+								"function": "sophisticatedbackpacks:copy_backpack_data"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "sophisticatedbackpacks:netherite_backpack",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "sophisticatedbackpacks:blocks/diamond_backpack",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "sophisticatedbackpacks:blocks/diamond_backpack",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "sophisticatedbackpacks:diamond_backpack"
+							}
+						],
+						"functions": [
+							{
+								"function": "sophisticatedbackpacks:copy_backpack_data"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "sophisticatedbackpacks:diamond_backpack",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "sophisticatedbackpacks:blocks/gold_backpack",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "sophisticatedbackpacks:blocks/gold_backpack",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "sophisticatedbackpacks:gold_backpack"
+							}
+						],
+						"functions": [
+							{
+								"function": "sophisticatedbackpacks:copy_backpack_data"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "sophisticatedbackpacks:gold_backpack",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		}
+	]
+}

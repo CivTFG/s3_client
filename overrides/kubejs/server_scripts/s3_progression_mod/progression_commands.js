@@ -1,6 +1,7 @@
 // Keeps each player's tier game stages in sync with their FTB Team's per-tier research
-// totals (so progress made - or a reset - while a member was offline still applies once
-// they log back in), and provides commands to check/reset a single tier's progression.
+// totals (so progress made - or a /progression set - while a member was offline still applies once
+// they log back in), and provides the /progression commands (op-only "set" for a team's
+// tier, "teams" to list every team's current tier).
 
 const FTBTeamsAPI = Java.loadClass('dev.ftb.mods.ftbteams.api.FTBTeamsAPI')
 
@@ -19,20 +20,27 @@ function loadProgressionConfig() {
     return JSON.parse(String(ProgressionTiers.rawJson()))
 }
 
-function tierByKey(key) {
-    return PROGRESSION.tiers.find(t => t.key === key)
-}
-
 function getPlayerTeam(player) {
     return FTBTeamsAPI.api().getManager().getTeamForPlayer(player).orElse(null)
 }
 
-PlayerEvents.loggedIn(event => {
-    const player = event.player
-    const team = getPlayerTeam(player)
-    if (!team) return
+// FTB Teams' own lookup is by short name (what /ftbteams uses, e.g. "joerning" or a
+// player's name for a solo player's team); falls back to the visible display name,
+// case-insensitive, so the name shown by /progression teams works too.
+function findTeam(name) {
+    const manager = FTBTeamsAPI.api().getManager()
+    const byShortName = manager.getTeamByName(name).orElse(null)
+    if (byShortName) return byShortName
+    const wanted = String(name).toLowerCase()
+    let found = null
+    manager.getTeams().forEach(team => {
+        if (!found && String(team.getName().getString()).toLowerCase() === wanted) found = team
+    })
+    return found
+}
 
-    const research = team.getExtraData().getCompound(RESEARCH_KEY)
+// Grants/strips every tier stage on one player to match the team's research totals.
+function syncStages(player, research) {
     PROGRESSION.tiers.forEach(tierConfig => {
         const unlocked = research.getInt(tierConfig.key) > tierConfig.threshold
         if (unlocked && !player.stages.has(tierConfig.stageId)) {
@@ -41,6 +49,14 @@ PlayerEvents.loggedIn(event => {
             player.stages.remove(tierConfig.stageId)
         }
     })
+}
+
+PlayerEvents.loggedIn(event => {
+    const player = event.player
+    const team = getPlayerTeam(player)
+    if (!team) return
+
+    syncStages(player, team.getExtraData().getCompound(RESEARCH_KEY))
 })
 
 ServerEvents.commandRegistry(event => {
@@ -51,83 +67,76 @@ ServerEvents.commandRegistry(event => {
         return builder.buildFuture()
     }
 
+    function suggestSetTiers(ctx, builder) {
+        builder.suggest('NONE')
+        return suggestTiers(ctx, builder)
+    }
+
+    // Party short names carry an id suffix ("Joerning#bf1..."), and Brigadier's string
+    // argument only allows 0-9 A-Z a-z _ - . + unquoted - so anything else is suggested
+    // in double quotes, which the same argument type accepts.
+    function suggestTeams(ctx, builder) {
+        FTBTeamsAPI.api().getManager().getTeams().forEach(team => {
+            const shortName = String(team.getShortName())
+            builder.suggest(/^[0-9A-Za-z_.+-]+$/.test(shortName) ? shortName : `"${shortName.replace(/(["\\])/g, '\\$1')}"`)
+        })
+        return builder.buildFuture()
+    }
+
     event.register(
         Commands.literal('progression')
-            .then(Commands.literal('status')
-                .then(Commands.argument('tier', Arguments.STRING.create(event))
-                    .suggests(suggestTiers)
-                    .executes(ctx => {
-                        const sender = ctx.source.entity
-                        if (!sender) {
-                            ctx.source.sendFailure(Component.red('This command can only be run by a player'))
-                            return 0
-                        }
-
-                        const tier = Arguments.STRING.getResult(ctx, 'tier')
-                        const tierConfig = tierByKey(tier)
-                        if (!tierConfig) {
-                            ctx.source.sendFailure(Component.red(`Unknown tier: '${tier}'`))
-                            return 0
-                        }
-
-                        const team = getPlayerTeam(sender)
-                        if (!team) {
-                            sender.tell('You are not on a team')
-                            return 0
-                        }
-
-                        const total = team.getExtraData().getCompound(RESEARCH_KEY).getInt(tier)
-                        sender.tell(`${tier} research total: ${total} (unlocks above ${tierConfig.threshold})`)
-                        sender.tell(`${tier} unlocked: ${total > tierConfig.threshold}`)
-                        return 1
-                    })
-                )
-            )
-            .then(Commands.literal('reset')
-                // Op-only (level 2) - this zeroes a team's research counter for a tier and
-                // immediately strips that tier's GameStage from every online team member,
-                // with no confirmation and no consent from the rest of the team. Left
-                // open to any player was a real grief vector (a lone member could nuke the
-                // whole team's already-unlocked tier), not just a "self-cheat" - `status`/
-                // `teams` stay open since those are read-only.
+            .then(Commands.literal('set')
+                // Op-only (level 2). "/progression set <team> <tier>" marks <tier> and every
+                // tier before it as researched and wipes every tier after it (research
+                // total 0, stage removed) - so it works both for raising and lowering a
+                // team. NONE wipes everything. Every tier's total is set to exactly
+                // threshold + 1 (the lowest "unlocked" value, see ProgressionTiers.isUnlocked -
+                // 1025 with the current 1024 thresholds) or 0.
                 .requires(src => src.hasPermission(2))
-                .then(Commands.argument('tier', Arguments.STRING.create(event))
-                    .suggests(suggestTiers)
-                    .executes(ctx => {
-                        const sender = ctx.source.entity
-                        if (!sender) {
-                            ctx.source.sendFailure(Component.red('This command can only be run by a player'))
-                            return 0
-                        }
+                .then(Commands.argument('team', Arguments.STRING.create(event))
+                    .suggests(suggestTeams)
+                    .then(Commands.argument('tier', Arguments.STRING.create(event))
+                        .suggests(suggestSetTiers)
+                        .executes(ctx => {
+                            const teamName = Arguments.STRING.getResult(ctx, 'team')
+                            const tier = String(Arguments.STRING.getResult(ctx, 'tier')).toUpperCase()
 
-                        const tier = Arguments.STRING.getResult(ctx, 'tier')
-                        const tierConfig = tierByKey(tier)
-                        if (!tierConfig) {
-                            ctx.source.sendFailure(Component.red(`Unknown tier: '${tier}'`))
-                            return 0
-                        }
-
-                        const team = getPlayerTeam(sender)
-                        if (!team) {
-                            sender.tell('You are not on a team')
-                            return 0
-                        }
-
-                        const data = team.getExtraData()
-                        const research = data.getCompound(RESEARCH_KEY)
-                        research.putInt(tier, 0)
-                        data.put(RESEARCH_KEY, research)
-                        team.markDirty()
-
-                        team.getOnlineMembers().forEach(member => {
-                            if (member.stages.has(tierConfig.stageId)) {
-                                member.stages.remove(tierConfig.stageId)
+                            const team = findTeam(teamName)
+                            if (!team) {
+                                ctx.source.sendFailure(Component.red(`Unknown team: '${teamName}'`))
+                                return 0
                             }
-                        })
 
-                        sender.tell(`${tier} progression reset. Offline members will be updated on their next login.`)
-                        return 1
-                    })
+                            let targetIndex = -1
+                            for (var i = 0; i < PROGRESSION.tiers.length; i++) {
+                                if (PROGRESSION.tiers[i].key === tier) targetIndex = i
+                            }
+                            if (targetIndex === -1 && tier !== 'NONE') {
+                                ctx.source.sendFailure(Component.red(`Unknown tier: '${tier}'`))
+                                return 0
+                            }
+
+                            const data = team.getExtraData()
+                            const research = data.getCompound(RESEARCH_KEY)
+                            PROGRESSION.tiers.forEach((tierConfig, i) => {
+                                research.putInt(tierConfig.key, i <= targetIndex ? tierConfig.threshold + 1 : 0)
+                            })
+                            data.put(RESEARCH_KEY, research)
+                            team.markDirty()
+
+                            team.getOnlineMembers().forEach(member => syncStages(member, research))
+
+                            const name = team.getName().getString()
+                            const summary = targetIndex === -1
+                                ? `${name}: all research removed`
+                                : `${name}: researched up to and including ${PROGRESSION.tiers[targetIndex].displayName}`
+                            // Not sendSuccess: its 1.20.1 signature takes a Supplier<Component>,
+                            // but KubeJS turned the JS arrow function into a Component of its
+                            // own source text ("ArrowFunction (0) => {...}") instead of calling it.
+                            ctx.source.sendSystemMessage(Component.green(`${summary}. Offline members will be updated on their next login.`))
+                            return 1
+                        })
+                    )
                 )
             )
             .then(Commands.literal('teams')

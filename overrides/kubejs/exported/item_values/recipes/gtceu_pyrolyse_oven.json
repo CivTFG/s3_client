@@ -1,0 +1,4570 @@
+{
+	"type": "gtceu:pyrolyse_oven",
+	"recipes": [
+		{
+			"id": "tfg:pyrolyse_oven/block_coal_to_coke_creosote",
+			"category": "pyrolyse_oven",
+			"duration": 2592,
+			"voltage": 64,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:coal_block"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:creosote"
+					],
+					"amount": 36000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:coke_block"
+					],
+					"amount": 8,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:pyrolyse_oven/charcoal_to_coal_tar",
+			"category": "pyrolyse_oven",
+			"duration": 640,
+			"voltage": 64,
+			"inputs": [
+				{
+					"cap": "circuit",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:charcoal"
+					],
+					"amount": 32,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:coal_tar"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:ash_dust"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 5000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:pyrolyse_oven/coal_to_coke_creosote_nitrogen",
+			"category": "pyrolyse_oven",
+			"duration": 288,
+			"voltage": 96,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:nitrogen"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:ore/bituminous_coal"
+					],
+					"amount": 8,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:creosote"
+					],
+					"amount": 8000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:coke_gem"
+					],
+					"amount": 16,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:pyrolyse_oven/vitrified_ender_dust",
+			"category": "pyrolyse_oven",
+			"duration": 200,
+			"voltage": 480,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:nitrogen"
+					],
+					"amount": 100,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:ender_pearl"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:powder/kaolinite"
+					],
+					"amount": 2,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:borosilicate_glass_dust",
+						"gtceu:vitrified_asbestos_dust"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:vitrified_pearl"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:ash_dust"
+					],
+					"amount": 1,
+					"chanced": true,
+					"chance": 2500,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:pyrolyse_oven/rich_coal_to_tar",
+			"category": "pyrolyse_oven",
+			"duration": 288,
+			"voltage": 96,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:ore/bituminous_coal"
+					],
+					"amount": 3,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:coal_tar"
+					],
+					"amount": 3000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:dark_ash_dust"
+					],
+					"amount": 1,
+					"chanced": true,
+					"chance": 5000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:pyrolyse_oven/gtceu_pyrolyse_oven_log_to_wood_tar_nitrogen",
+			"category": "pyrolyse_oven",
+			"duration": 640,
+			"voltage": 96,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:nitrogen"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"afc:wood/stripped_log/ipe",
+						"tfc:wood/stripped_log/oak",
+						"afc:wood/log/ancient_ironwood",
+						"tfc:wood/stripped_wood/rosewood",
+						"afc:wood/log/redcedar",
+						"ad_astra:aeronos_stem",
+						"tfc:wood/stripped_log/ash",
+						"tfg:wood/stripped_wood/araucaria",
+						"afc:wood/stripped_wood/baobab",
+						"tfc:wood/log/aspen",
+						"tfg:wood/stripped_log/mahoe",
+						"wan_ancient_beasts:ginkgo_log",
+						"afc:wood/log/ancient_baobab",
+						"afc:wood/stripped_wood/fig",
+						"tfc:wood/stripped_wood/maple",
+						"afc:wood/log/baobab",
+						"tfc:wood/wood/birch",
+						"afc:wood/wood/eucalyptus",
+						"tfc:wood/stripped_wood/ash",
+						"afc:wood/wood/ancient_ironwood",
+						"tfc:wood/stripped_log/blackwood",
+						"tfc:wood/stripped_log/rosewood",
+						"tfc:wood/wood/aspen",
+						"afc:wood/log/cypress",
+						"afc:wood/log/rubber_fig",
+						"tfc:wood/log/acacia",
+						"afc:wood/stripped_log/hevea",
+						"wan_ancient_beasts:stripped_ginkgo_wood",
+						"tfc:wood/stripped_log/spruce",
+						"afc:wood/wood/teak",
+						"tfc:wood/stripped_log/douglas_fir",
+						"tfc:wood/log/rosewood",
+						"afc:wood/log/ironwood",
+						"tfc:wood/stripped_wood/kapok",
+						"afc:wood/wood/gum_arabic",
+						"afc:wood/wood/rubber_fig",
+						"afc:wood/stripped_log/ironwood",
+						"afc:wood/wood/poplar",
+						"tfc:wood/log/douglas_fir",
+						"tfc:wood/wood/sequoia",
+						"tfc:wood/stripped_log/willow",
+						"afc:wood/log/rainbow_eucalyptus",
+						"afc:wood/log/hevea",
+						"afc:wood/wood/ancient_tualang",
+						"wan_ancient_beasts:ginkgo_wood",
+						"afc:wood/log/ancient_ipe",
+						"tfg:wood/wood/beech",
+						"afc:wood/log/ancient_tualang",
+						"afc:wood/stripped_log/tualang",
+						"tfc:wood/stripped_log/mangrove",
+						"afc:wood/wood/ipe",
+						"tfc:wood/stripped_log/birch",
+						"tfc:wood/stripped_log/maple",
+						"tfc:wood/wood/kapok",
+						"tfg:wood/stripped_log/araucaria",
+						"tfc:wood/stripped_log/sycamore",
+						"afc:wood/log/ancient_mahogany",
+						"afc:wood/wood/tualang",
+						"afc:wood/log/fig",
+						"tfc:wood/stripped_wood/aspen",
+						"afc:wood/log/ancient_fig",
+						"tfc:stick_bundle",
+						"tfc:wood/log/blackwood",
+						"tfc:wood/wood/maple",
+						"tfc:wood/stripped_log/white_cedar",
+						"tfc:wood/wood/pine",
+						"afc:wood/log/ancient_eucalyptus",
+						"afc:wood/stripped_wood/mahogany",
+						"tfc:wood/stripped_log/chestnut",
+						"tfc:wood/wood/blackwood",
+						"afc:wood/log/ancient_cypress",
+						"tfc:wood/wood/hickory",
+						"tfc:wood/stripped_wood/oak",
+						"tfc:wood/stripped_log/pine",
+						"tfg:wood/wood/mahoe",
+						"afc:wood/wood/ancient_ipe",
+						"afc:wood/wood/mahogany",
+						"afc:wood/stripped_wood/ironwood",
+						"afc:wood/log/gum_arabic",
+						"tfg:wood/stripped_wood/beech",
+						"tfc:wood/wood/sycamore",
+						"afc:wood/wood/ancient_teak",
+						"afc:wood/wood/ancient_mahogany",
+						"tfc:wood/stripped_wood/blackwood",
+						"afc:wood/wood/black_oak",
+						"tfc:wood/log/sequoia",
+						"tfc:wood/wood/ash",
+						"afc:wood/log/mahogany",
+						"tfc:wood/wood/douglas_fir",
+						"tfg:wood/log/araucaria",
+						"tfc:wood/log/ash",
+						"tfc:wood/log/palm",
+						"afc:wood/log/poplar",
+						"tfc:wood/stripped_wood/spruce",
+						"afc:wood/stripped_wood/tualang",
+						"tfc:wood/wood/mangrove",
+						"tfc:wood/stripped_log/acacia",
+						"tfc:wood/wood/chestnut",
+						"tfc:wood/log/pine",
+						"tfc:wood/wood/palm",
+						"afc:wood/stripped_log/baobab",
+						"tfc:wood/log/maple",
+						"afc:wood/log/eucalyptus",
+						"afc:wood/wood/hevea",
+						"tfc:wood/stripped_wood/sycamore",
+						"tfc:wood/wood/spruce",
+						"afc:wood/stripped_log/cypress",
+						"afc:wood/wood/ancient_eucalyptus",
+						"tfc:wood/stripped_wood/birch",
+						"tfc:wood/log/mangrove",
+						"tfc:wood/stripped_log/sequoia",
+						"tfg:glacian_wood",
+						"afc:wood/wood/fig",
+						"tfc:wood/stripped_wood/hickory",
+						"tfc:wood/stripped_wood/mangrove",
+						"tfc:wood/stripped_log/aspen",
+						"tfc:wood/log/sycamore",
+						"tfg:wood/wood/araucaria",
+						"afc:wood/log/ancient_teak",
+						"tfc:wood/log/birch",
+						"tfc:wood/log/kapok",
+						"tfc:wood/wood/oak",
+						"tfc:wood/stripped_wood/willow",
+						"afc:wood/stripped_log/fig",
+						"tfc:wood/log/spruce",
+						"tfc:wood/log/white_cedar",
+						"afc:wood/wood/ancient_baobab",
+						"tfg:glacian_wood_stripped",
+						"tfc:wood/stripped_wood/sequoia",
+						"tfc:wood/stripped_wood/chestnut",
+						"afc:wood/stripped_wood/cypress",
+						"tfc:wood/wood/rosewood",
+						"afc:wood/stripped_log/teak",
+						"tfc:wood/log/hickory",
+						"tfg:wood/stripped_log/beech",
+						"tfc:wood/stripped_log/hickory",
+						"tfc:wood/stripped_wood/acacia",
+						"afc:wood/stripped_wood/hevea",
+						"afc:wood/wood/ancient_fig",
+						"ad_astra:strophar_stem",
+						"tfc:wood/wood/acacia",
+						"ad_astra:stripped_glacian_log",
+						"afc:wood/stripped_log/mahogany",
+						"ad_astra:glacian_log",
+						"afc:wood/wood/ancient_hevea",
+						"afc:wood/log/tualang",
+						"tfc:wood/stripped_wood/palm",
+						"afc:wood/wood/ironwood",
+						"tfc:wood/log/chestnut",
+						"tfc:wood/wood/white_cedar",
+						"afc:wood/wood/rainbow_eucalyptus",
+						"afc:wood/log/teak",
+						"afc:wood/wood/baobab",
+						"tfc:wood/wood/willow",
+						"afc:wood/stripped_wood/eucalyptus",
+						"afc:wood/wood/ancient_cypress",
+						"afc:wood/stripped_wood/ipe",
+						"afc:wood/log/ancient_hevea",
+						"afc:wood/log/black_oak",
+						"afc:wood/wood/redcedar",
+						"afc:wood/stripped_wood/teak",
+						"tfc:wood/stripped_log/palm",
+						"afc:wood/stripped_log/eucalyptus",
+						"afc:wood/wood/cypress",
+						"tfc:wood/stripped_wood/white_cedar",
+						"tfc:wood/stripped_log/kapok",
+						"tfc:wood/stripped_wood/pine",
+						"tfg:wood/log/mahoe",
+						"afc:wood/log/ipe",
+						"tfc:wood/log/oak",
+						"tfc:wood/log/willow",
+						"tfg:wood/stripped_wood/mahoe",
+						"wan_ancient_beasts:stripped_ginkgo_log",
+						"tfg:wood/log/beech",
+						"tfc:wood/stripped_wood/douglas_fir"
+					],
+					"amount": 16,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:wood_tar"
+					],
+					"amount": 1500,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:charcoal"
+					],
+					"amount": 20,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:pyrolyse_oven/raw_coal_to_coke_creosote_nitrogen",
+			"category": "pyrolyse_oven",
+			"duration": 288,
+			"voltage": 96,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:nitrogen"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:ore/lignite"
+					],
+					"amount": 8,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:creosote"
+					],
+					"amount": 8000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:coke_gem"
+					],
+					"amount": 8,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:pyrolyse_oven/apt",
+			"category": "pyrolyse_oven",
+			"duration": 720,
+			"voltage": 1920,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:apt_gem"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:ammonia"
+					],
+					"amount": 10000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:tungsten_oxide_dust"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:pyrolyse_oven/log_to_heavy_oil",
+			"category": "pyrolyse_oven",
+			"duration": 320,
+			"voltage": 192,
+			"inputs": [
+				{
+					"cap": "circuit",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"afc:wood/stripped_log/ipe",
+						"tfc:wood/stripped_log/oak",
+						"afc:wood/log/ancient_ironwood",
+						"tfc:wood/stripped_wood/rosewood",
+						"afc:wood/log/redcedar",
+						"ad_astra:aeronos_stem",
+						"tfc:wood/stripped_log/ash",
+						"tfg:wood/stripped_wood/araucaria",
+						"afc:wood/stripped_wood/baobab",
+						"tfc:wood/log/aspen",
+						"tfg:wood/stripped_log/mahoe",
+						"wan_ancient_beasts:ginkgo_log",
+						"afc:wood/log/ancient_baobab",
+						"afc:wood/stripped_wood/fig",
+						"tfc:wood/stripped_wood/maple",
+						"afc:wood/log/baobab",
+						"tfc:wood/wood/birch",
+						"afc:wood/wood/eucalyptus",
+						"tfc:wood/stripped_wood/ash",
+						"afc:wood/wood/ancient_ironwood",
+						"tfc:wood/stripped_log/blackwood",
+						"tfc:wood/stripped_log/rosewood",
+						"tfc:wood/wood/aspen",
+						"afc:wood/log/cypress",
+						"afc:wood/log/rubber_fig",
+						"tfc:wood/log/acacia",
+						"afc:wood/stripped_log/hevea",
+						"wan_ancient_beasts:stripped_ginkgo_wood",
+						"tfc:wood/stripped_log/spruce",
+						"afc:wood/wood/teak",
+						"tfc:wood/stripped_log/douglas_fir",
+						"tfc:wood/log/rosewood",
+						"afc:wood/log/ironwood",
+						"tfc:wood/stripped_wood/kapok",
+						"afc:wood/wood/gum_arabic",
+						"afc:wood/wood/rubber_fig",
+						"afc:wood/stripped_log/ironwood",
+						"afc:wood/wood/poplar",
+						"tfc:wood/log/douglas_fir",
+						"tfc:wood/wood/sequoia",
+						"tfc:wood/stripped_log/willow",
+						"afc:wood/log/rainbow_eucalyptus",
+						"afc:wood/log/hevea",
+						"afc:wood/wood/ancient_tualang",
+						"wan_ancient_beasts:ginkgo_wood",
+						"afc:wood/log/ancient_ipe",
+						"tfg:wood/wood/beech",
+						"afc:wood/log/ancient_tualang",
+						"afc:wood/stripped_log/tualang",
+						"tfc:wood/stripped_log/mangrove",
+						"afc:wood/wood/ipe",
+						"tfc:wood/stripped_log/birch",
+						"tfc:wood/stripped_log/maple",
+						"tfc:wood/wood/kapok",
+						"tfg:wood/stripped_log/araucaria",
+						"tfc:wood/stripped_log/sycamore",
+						"afc:wood/log/ancient_mahogany",
+						"afc:wood/wood/tualang",
+						"afc:wood/log/fig",
+						"tfc:wood/stripped_wood/aspen",
+						"afc:wood/log/ancient_fig",
+						"tfc:stick_bundle",
+						"tfc:wood/log/blackwood",
+						"tfc:wood/wood/maple",
+						"tfc:wood/stripped_log/white_cedar",
+						"tfc:wood/wood/pine",
+						"afc:wood/log/ancient_eucalyptus",
+						"afc:wood/stripped_wood/mahogany",
+						"tfc:wood/stripped_log/chestnut",
+						"tfc:wood/wood/blackwood",
+						"afc:wood/log/ancient_cypress",
+						"tfc:wood/wood/hickory",
+						"tfc:wood/stripped_wood/oak",
+						"tfc:wood/stripped_log/pine",
+						"tfg:wood/wood/mahoe",
+						"afc:wood/wood/ancient_ipe",
+						"afc:wood/wood/mahogany",
+						"afc:wood/stripped_wood/ironwood",
+						"afc:wood/log/gum_arabic",
+						"tfg:wood/stripped_wood/beech",
+						"tfc:wood/wood/sycamore",
+						"afc:wood/wood/ancient_teak",
+						"afc:wood/wood/ancient_mahogany",
+						"tfc:wood/stripped_wood/blackwood",
+						"afc:wood/wood/black_oak",
+						"tfc:wood/log/sequoia",
+						"tfc:wood/wood/ash",
+						"afc:wood/log/mahogany",
+						"tfc:wood/wood/douglas_fir",
+						"tfg:wood/log/araucaria",
+						"tfc:wood/log/ash",
+						"tfc:wood/log/palm",
+						"afc:wood/log/poplar",
+						"tfc:wood/stripped_wood/spruce",
+						"afc:wood/stripped_wood/tualang",
+						"tfc:wood/wood/mangrove",
+						"tfc:wood/stripped_log/acacia",
+						"tfc:wood/wood/chestnut",
+						"tfc:wood/log/pine",
+						"tfc:wood/wood/palm",
+						"afc:wood/stripped_log/baobab",
+						"tfc:wood/log/maple",
+						"afc:wood/log/eucalyptus",
+						"afc:wood/wood/hevea",
+						"tfc:wood/stripped_wood/sycamore",
+						"tfc:wood/wood/spruce",
+						"afc:wood/stripped_log/cypress",
+						"afc:wood/wood/ancient_eucalyptus",
+						"tfc:wood/stripped_wood/birch",
+						"tfc:wood/log/mangrove",
+						"tfc:wood/stripped_log/sequoia",
+						"tfg:glacian_wood",
+						"afc:wood/wood/fig",
+						"tfc:wood/stripped_wood/hickory",
+						"tfc:wood/stripped_wood/mangrove",
+						"tfc:wood/stripped_log/aspen",
+						"tfc:wood/log/sycamore",
+						"tfg:wood/wood/araucaria",
+						"afc:wood/log/ancient_teak",
+						"tfc:wood/log/birch",
+						"tfc:wood/log/kapok",
+						"tfc:wood/wood/oak",
+						"tfc:wood/stripped_wood/willow",
+						"afc:wood/stripped_log/fig",
+						"tfc:wood/log/spruce",
+						"tfc:wood/log/white_cedar",
+						"afc:wood/wood/ancient_baobab",
+						"tfg:glacian_wood_stripped",
+						"tfc:wood/stripped_wood/sequoia",
+						"tfc:wood/stripped_wood/chestnut",
+						"afc:wood/stripped_wood/cypress",
+						"tfc:wood/wood/rosewood",
+						"afc:wood/stripped_log/teak",
+						"tfc:wood/log/hickory",
+						"tfg:wood/stripped_log/beech",
+						"tfc:wood/stripped_log/hickory",
+						"tfc:wood/stripped_wood/acacia",
+						"afc:wood/stripped_wood/hevea",
+						"afc:wood/wood/ancient_fig",
+						"ad_astra:strophar_stem",
+						"tfc:wood/wood/acacia",
+						"ad_astra:stripped_glacian_log",
+						"afc:wood/stripped_log/mahogany",
+						"ad_astra:glacian_log",
+						"afc:wood/wood/ancient_hevea",
+						"afc:wood/log/tualang",
+						"tfc:wood/stripped_wood/palm",
+						"afc:wood/wood/ironwood",
+						"tfc:wood/log/chestnut",
+						"tfc:wood/wood/white_cedar",
+						"afc:wood/wood/rainbow_eucalyptus",
+						"afc:wood/log/teak",
+						"afc:wood/wood/baobab",
+						"tfc:wood/wood/willow",
+						"afc:wood/stripped_wood/eucalyptus",
+						"afc:wood/wood/ancient_cypress",
+						"afc:wood/stripped_wood/ipe",
+						"afc:wood/log/ancient_hevea",
+						"afc:wood/log/black_oak",
+						"afc:wood/wood/redcedar",
+						"afc:wood/stripped_wood/teak",
+						"tfc:wood/stripped_log/palm",
+						"afc:wood/stripped_log/eucalyptus",
+						"afc:wood/wood/cypress",
+						"tfc:wood/stripped_wood/white_cedar",
+						"tfc:wood/stripped_log/kapok",
+						"tfc:wood/stripped_wood/pine",
+						"tfg:wood/log/mahoe",
+						"afc:wood/log/ipe",
+						"tfc:wood/log/oak",
+						"tfc:wood/log/willow",
+						"tfg:wood/stripped_wood/mahoe",
+						"wan_ancient_beasts:stripped_ginkgo_log",
+						"tfg:wood/log/beech",
+						"tfc:wood/stripped_wood/douglas_fir"
+					],
+					"amount": 16,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:oil_heavy"
+					],
+					"amount": 200,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:ash_dust"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:pyrolyse_oven/coal_to_coal_gas",
+			"category": "pyrolyse_oven",
+			"duration": 288,
+			"voltage": 96,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:steam"
+					],
+					"amount": 4000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:ore/bituminous_coal"
+					],
+					"amount": 8,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:coal_gas"
+					],
+					"amount": 4000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:coke_gem"
+					],
+					"amount": 16,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:pyrolyse_oven/coal_to_coal_tar",
+			"category": "pyrolyse_oven",
+			"duration": 320,
+			"voltage": 96,
+			"inputs": [
+				{
+					"cap": "circuit",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:coal"
+					],
+					"amount": 12,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:coal_tar"
+					],
+					"amount": 3000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:dark_ash_dust"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 5000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:pyrolyse_oven/log_to_wood_vinegar_nitrogen",
+			"category": "pyrolyse_oven",
+			"duration": 320,
+			"voltage": 96,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:nitrogen"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "circuit",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"afc:wood/stripped_log/ipe",
+						"tfc:wood/stripped_log/oak",
+						"afc:wood/log/ancient_ironwood",
+						"tfc:wood/stripped_wood/rosewood",
+						"afc:wood/log/redcedar",
+						"ad_astra:aeronos_stem",
+						"tfc:wood/stripped_log/ash",
+						"tfg:wood/stripped_wood/araucaria",
+						"afc:wood/stripped_wood/baobab",
+						"tfc:wood/log/aspen",
+						"tfg:wood/stripped_log/mahoe",
+						"wan_ancient_beasts:ginkgo_log",
+						"afc:wood/log/ancient_baobab",
+						"afc:wood/stripped_wood/fig",
+						"tfc:wood/stripped_wood/maple",
+						"afc:wood/log/baobab",
+						"tfc:wood/wood/birch",
+						"afc:wood/wood/eucalyptus",
+						"tfc:wood/stripped_wood/ash",
+						"afc:wood/wood/ancient_ironwood",
+						"tfc:wood/stripped_log/blackwood",
+						"tfc:wood/stripped_log/rosewood",
+						"tfc:wood/wood/aspen",
+						"afc:wood/log/cypress",
+						"afc:wood/log/rubber_fig",
+						"tfc:wood/log/acacia",
+						"afc:wood/stripped_log/hevea",
+						"wan_ancient_beasts:stripped_ginkgo_wood",
+						"tfc:wood/stripped_log/spruce",
+						"afc:wood/wood/teak",
+						"tfc:wood/stripped_log/douglas_fir",
+						"tfc:wood/log/rosewood",
+						"afc:wood/log/ironwood",
+						"tfc:wood/stripped_wood/kapok",
+						"afc:wood/wood/gum_arabic",
+						"afc:wood/wood/rubber_fig",
+						"afc:wood/stripped_log/ironwood",
+						"afc:wood/wood/poplar",
+						"tfc:wood/log/douglas_fir",
+						"tfc:wood/wood/sequoia",
+						"tfc:wood/stripped_log/willow",
+						"afc:wood/log/rainbow_eucalyptus",
+						"afc:wood/log/hevea",
+						"afc:wood/wood/ancient_tualang",
+						"wan_ancient_beasts:ginkgo_wood",
+						"afc:wood/log/ancient_ipe",
+						"tfg:wood/wood/beech",
+						"afc:wood/log/ancient_tualang",
+						"afc:wood/stripped_log/tualang",
+						"tfc:wood/stripped_log/mangrove",
+						"afc:wood/wood/ipe",
+						"tfc:wood/stripped_log/birch",
+						"tfc:wood/stripped_log/maple",
+						"tfc:wood/wood/kapok",
+						"tfg:wood/stripped_log/araucaria",
+						"tfc:wood/stripped_log/sycamore",
+						"afc:wood/log/ancient_mahogany",
+						"afc:wood/wood/tualang",
+						"afc:wood/log/fig",
+						"tfc:wood/stripped_wood/aspen",
+						"afc:wood/log/ancient_fig",
+						"tfc:stick_bundle",
+						"tfc:wood/log/blackwood",
+						"tfc:wood/wood/maple",
+						"tfc:wood/stripped_log/white_cedar",
+						"tfc:wood/wood/pine",
+						"afc:wood/log/ancient_eucalyptus",
+						"afc:wood/stripped_wood/mahogany",
+						"tfc:wood/stripped_log/chestnut",
+						"tfc:wood/wood/blackwood",
+						"afc:wood/log/ancient_cypress",
+						"tfc:wood/wood/hickory",
+						"tfc:wood/stripped_wood/oak",
+						"tfc:wood/stripped_log/pine",
+						"tfg:wood/wood/mahoe",
+						"afc:wood/wood/ancient_ipe",
+						"afc:wood/wood/mahogany",
+						"afc:wood/stripped_wood/ironwood",
+						"afc:wood/log/gum_arabic",
+						"tfg:wood/stripped_wood/beech",
+						"tfc:wood/wood/sycamore",
+						"afc:wood/wood/ancient_teak",
+						"afc:wood/wood/ancient_mahogany",
+						"tfc:wood/stripped_wood/blackwood",
+						"afc:wood/wood/black_oak",
+						"tfc:wood/log/sequoia",
+						"tfc:wood/wood/ash",
+						"afc:wood/log/mahogany",
+						"tfc:wood/wood/douglas_fir",
+						"tfg:wood/log/araucaria",
+						"tfc:wood/log/ash",
+						"tfc:wood/log/palm",
+						"afc:wood/log/poplar",
+						"tfc:wood/stripped_wood/spruce",
+						"afc:wood/stripped_wood/tualang",
+						"tfc:wood/wood/mangrove",
+						"tfc:wood/stripped_log/acacia",
+						"tfc:wood/wood/chestnut",
+						"tfc:wood/log/pine",
+						"tfc:wood/wood/palm",
+						"afc:wood/stripped_log/baobab",
+						"tfc:wood/log/maple",
+						"afc:wood/log/eucalyptus",
+						"afc:wood/wood/hevea",
+						"tfc:wood/stripped_wood/sycamore",
+						"tfc:wood/wood/spruce",
+						"afc:wood/stripped_log/cypress",
+						"afc:wood/wood/ancient_eucalyptus",
+						"tfc:wood/stripped_wood/birch",
+						"tfc:wood/log/mangrove",
+						"tfc:wood/stripped_log/sequoia",
+						"tfg:glacian_wood",
+						"afc:wood/wood/fig",
+						"tfc:wood/stripped_wood/hickory",
+						"tfc:wood/stripped_wood/mangrove",
+						"tfc:wood/stripped_log/aspen",
+						"tfc:wood/log/sycamore",
+						"tfg:wood/wood/araucaria",
+						"afc:wood/log/ancient_teak",
+						"tfc:wood/log/birch",
+						"tfc:wood/log/kapok",
+						"tfc:wood/wood/oak",
+						"tfc:wood/stripped_wood/willow",
+						"afc:wood/stripped_log/fig",
+						"tfc:wood/log/spruce",
+						"tfc:wood/log/white_cedar",
+						"afc:wood/wood/ancient_baobab",
+						"tfg:glacian_wood_stripped",
+						"tfc:wood/stripped_wood/sequoia",
+						"tfc:wood/stripped_wood/chestnut",
+						"afc:wood/stripped_wood/cypress",
+						"tfc:wood/wood/rosewood",
+						"afc:wood/stripped_log/teak",
+						"tfc:wood/log/hickory",
+						"tfg:wood/stripped_log/beech",
+						"tfc:wood/stripped_log/hickory",
+						"tfc:wood/stripped_wood/acacia",
+						"afc:wood/stripped_wood/hevea",
+						"afc:wood/wood/ancient_fig",
+						"ad_astra:strophar_stem",
+						"tfc:wood/wood/acacia",
+						"ad_astra:stripped_glacian_log",
+						"afc:wood/stripped_log/mahogany",
+						"ad_astra:glacian_log",
+						"afc:wood/wood/ancient_hevea",
+						"afc:wood/log/tualang",
+						"tfc:wood/stripped_wood/palm",
+						"afc:wood/wood/ironwood",
+						"tfc:wood/log/chestnut",
+						"tfc:wood/wood/white_cedar",
+						"afc:wood/wood/rainbow_eucalyptus",
+						"afc:wood/log/teak",
+						"afc:wood/wood/baobab",
+						"tfc:wood/wood/willow",
+						"afc:wood/stripped_wood/eucalyptus",
+						"afc:wood/wood/ancient_cypress",
+						"afc:wood/stripped_wood/ipe",
+						"afc:wood/log/ancient_hevea",
+						"afc:wood/log/black_oak",
+						"afc:wood/wood/redcedar",
+						"afc:wood/stripped_wood/teak",
+						"tfc:wood/stripped_log/palm",
+						"afc:wood/stripped_log/eucalyptus",
+						"afc:wood/wood/cypress",
+						"tfc:wood/stripped_wood/white_cedar",
+						"tfc:wood/stripped_log/kapok",
+						"tfc:wood/stripped_wood/pine",
+						"tfg:wood/log/mahoe",
+						"afc:wood/log/ipe",
+						"tfc:wood/log/oak",
+						"tfc:wood/log/willow",
+						"tfg:wood/stripped_wood/mahoe",
+						"wan_ancient_beasts:stripped_ginkgo_log",
+						"tfg:wood/log/beech",
+						"tfc:wood/stripped_wood/douglas_fir"
+					],
+					"amount": 16,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:wood_vinegar"
+					],
+					"amount": 3000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:charcoal"
+					],
+					"amount": 20,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:pyrolyse_oven/bio_chaff_to_fermented_biomass",
+			"category": "pyrolyse_oven",
+			"duration": 200,
+			"voltage": 10,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water"
+					],
+					"amount": 1500,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:bio_chaff"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "circuit",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:fermented_biomass"
+					],
+					"amount": 1500,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:pyrolyse_oven/block_coal_to_coke_creosote_nitrogen",
+			"category": "pyrolyse_oven",
+			"duration": 1296,
+			"voltage": 96,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:nitrogen"
+					],
+					"amount": 4500,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:coal_block"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:creosote"
+					],
+					"amount": 36000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:coke_block"
+					],
+					"amount": 8,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:pyrolyse_oven/apt_nitrogen",
+			"category": "pyrolyse_oven",
+			"duration": 360,
+			"voltage": 1920,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:nitrogen"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:apt_gem"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:ammonia"
+					],
+					"amount": 10000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:tungsten_oxide_dust"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:pyrolyse_oven/log_to_wood_gas_nitrogen",
+			"category": "pyrolyse_oven",
+			"duration": 320,
+			"voltage": 96,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:nitrogen"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "circuit",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"afc:wood/stripped_log/ipe",
+						"tfc:wood/stripped_log/oak",
+						"afc:wood/log/ancient_ironwood",
+						"tfc:wood/stripped_wood/rosewood",
+						"afc:wood/log/redcedar",
+						"ad_astra:aeronos_stem",
+						"tfc:wood/stripped_log/ash",
+						"tfg:wood/stripped_wood/araucaria",
+						"afc:wood/stripped_wood/baobab",
+						"tfc:wood/log/aspen",
+						"tfg:wood/stripped_log/mahoe",
+						"wan_ancient_beasts:ginkgo_log",
+						"afc:wood/log/ancient_baobab",
+						"afc:wood/stripped_wood/fig",
+						"tfc:wood/stripped_wood/maple",
+						"afc:wood/log/baobab",
+						"tfc:wood/wood/birch",
+						"afc:wood/wood/eucalyptus",
+						"tfc:wood/stripped_wood/ash",
+						"afc:wood/wood/ancient_ironwood",
+						"tfc:wood/stripped_log/blackwood",
+						"tfc:wood/stripped_log/rosewood",
+						"tfc:wood/wood/aspen",
+						"afc:wood/log/cypress",
+						"afc:wood/log/rubber_fig",
+						"tfc:wood/log/acacia",
+						"afc:wood/stripped_log/hevea",
+						"wan_ancient_beasts:stripped_ginkgo_wood",
+						"tfc:wood/stripped_log/spruce",
+						"afc:wood/wood/teak",
+						"tfc:wood/stripped_log/douglas_fir",
+						"tfc:wood/log/rosewood",
+						"afc:wood/log/ironwood",
+						"tfc:wood/stripped_wood/kapok",
+						"afc:wood/wood/gum_arabic",
+						"afc:wood/wood/rubber_fig",
+						"afc:wood/stripped_log/ironwood",
+						"afc:wood/wood/poplar",
+						"tfc:wood/log/douglas_fir",
+						"tfc:wood/wood/sequoia",
+						"tfc:wood/stripped_log/willow",
+						"afc:wood/log/rainbow_eucalyptus",
+						"afc:wood/log/hevea",
+						"afc:wood/wood/ancient_tualang",
+						"wan_ancient_beasts:ginkgo_wood",
+						"afc:wood/log/ancient_ipe",
+						"tfg:wood/wood/beech",
+						"afc:wood/log/ancient_tualang",
+						"afc:wood/stripped_log/tualang",
+						"tfc:wood/stripped_log/mangrove",
+						"afc:wood/wood/ipe",
+						"tfc:wood/stripped_log/birch",
+						"tfc:wood/stripped_log/maple",
+						"tfc:wood/wood/kapok",
+						"tfg:wood/stripped_log/araucaria",
+						"tfc:wood/stripped_log/sycamore",
+						"afc:wood/log/ancient_mahogany",
+						"afc:wood/wood/tualang",
+						"afc:wood/log/fig",
+						"tfc:wood/stripped_wood/aspen",
+						"afc:wood/log/ancient_fig",
+						"tfc:stick_bundle",
+						"tfc:wood/log/blackwood",
+						"tfc:wood/wood/maple",
+						"tfc:wood/stripped_log/white_cedar",
+						"tfc:wood/wood/pine",
+						"afc:wood/log/ancient_eucalyptus",
+						"afc:wood/stripped_wood/mahogany",
+						"tfc:wood/stripped_log/chestnut",
+						"tfc:wood/wood/blackwood",
+						"afc:wood/log/ancient_cypress",
+						"tfc:wood/wood/hickory",
+						"tfc:wood/stripped_wood/oak",
+						"tfc:wood/stripped_log/pine",
+						"tfg:wood/wood/mahoe",
+						"afc:wood/wood/ancient_ipe",
+						"afc:wood/wood/mahogany",
+						"afc:wood/stripped_wood/ironwood",
+						"afc:wood/log/gum_arabic",
+						"tfg:wood/stripped_wood/beech",
+						"tfc:wood/wood/sycamore",
+						"afc:wood/wood/ancient_teak",
+						"afc:wood/wood/ancient_mahogany",
+						"tfc:wood/stripped_wood/blackwood",
+						"afc:wood/wood/black_oak",
+						"tfc:wood/log/sequoia",
+						"tfc:wood/wood/ash",
+						"afc:wood/log/mahogany",
+						"tfc:wood/wood/douglas_fir",
+						"tfg:wood/log/araucaria",
+						"tfc:wood/log/ash",
+						"tfc:wood/log/palm",
+						"afc:wood/log/poplar",
+						"tfc:wood/stripped_wood/spruce",
+						"afc:wood/stripped_wood/tualang",
+						"tfc:wood/wood/mangrove",
+						"tfc:wood/stripped_log/acacia",
+						"tfc:wood/wood/chestnut",
+						"tfc:wood/log/pine",
+						"tfc:wood/wood/palm",
+						"afc:wood/stripped_log/baobab",
+						"tfc:wood/log/maple",
+						"afc:wood/log/eucalyptus",
+						"afc:wood/wood/hevea",
+						"tfc:wood/stripped_wood/sycamore",
+						"tfc:wood/wood/spruce",
+						"afc:wood/stripped_log/cypress",
+						"afc:wood/wood/ancient_eucalyptus",
+						"tfc:wood/stripped_wood/birch",
+						"tfc:wood/log/mangrove",
+						"tfc:wood/stripped_log/sequoia",
+						"tfg:glacian_wood",
+						"afc:wood/wood/fig",
+						"tfc:wood/stripped_wood/hickory",
+						"tfc:wood/stripped_wood/mangrove",
+						"tfc:wood/stripped_log/aspen",
+						"tfc:wood/log/sycamore",
+						"tfg:wood/wood/araucaria",
+						"afc:wood/log/ancient_teak",
+						"tfc:wood/log/birch",
+						"tfc:wood/log/kapok",
+						"tfc:wood/wood/oak",
+						"tfc:wood/stripped_wood/willow",
+						"afc:wood/stripped_log/fig",
+						"tfc:wood/log/spruce",
+						"tfc:wood/log/white_cedar",
+						"afc:wood/wood/ancient_baobab",
+						"tfg:glacian_wood_stripped",
+						"tfc:wood/stripped_wood/sequoia",
+						"tfc:wood/stripped_wood/chestnut",
+						"afc:wood/stripped_wood/cypress",
+						"tfc:wood/wood/rosewood",
+						"afc:wood/stripped_log/teak",
+						"tfc:wood/log/hickory",
+						"tfg:wood/stripped_log/beech",
+						"tfc:wood/stripped_log/hickory",
+						"tfc:wood/stripped_wood/acacia",
+						"afc:wood/stripped_wood/hevea",
+						"afc:wood/wood/ancient_fig",
+						"ad_astra:strophar_stem",
+						"tfc:wood/wood/acacia",
+						"ad_astra:stripped_glacian_log",
+						"afc:wood/stripped_log/mahogany",
+						"ad_astra:glacian_log",
+						"afc:wood/wood/ancient_hevea",
+						"afc:wood/log/tualang",
+						"tfc:wood/stripped_wood/palm",
+						"afc:wood/wood/ironwood",
+						"tfc:wood/log/chestnut",
+						"tfc:wood/wood/white_cedar",
+						"afc:wood/wood/rainbow_eucalyptus",
+						"afc:wood/log/teak",
+						"afc:wood/wood/baobab",
+						"tfc:wood/wood/willow",
+						"afc:wood/stripped_wood/eucalyptus",
+						"afc:wood/wood/ancient_cypress",
+						"afc:wood/stripped_wood/ipe",
+						"afc:wood/log/ancient_hevea",
+						"afc:wood/log/black_oak",
+						"afc:wood/wood/redcedar",
+						"afc:wood/stripped_wood/teak",
+						"tfc:wood/stripped_log/palm",
+						"afc:wood/stripped_log/eucalyptus",
+						"afc:wood/wood/cypress",
+						"tfc:wood/stripped_wood/white_cedar",
+						"tfc:wood/stripped_log/kapok",
+						"tfc:wood/stripped_wood/pine",
+						"tfg:wood/log/mahoe",
+						"afc:wood/log/ipe",
+						"tfc:wood/log/oak",
+						"tfc:wood/log/willow",
+						"tfg:wood/stripped_wood/mahoe",
+						"wan_ancient_beasts:stripped_ginkgo_log",
+						"tfg:wood/log/beech",
+						"tfc:wood/stripped_wood/douglas_fir"
+					],
+					"amount": 16,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:wood_gas"
+					],
+					"amount": 1500,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:charcoal"
+					],
+					"amount": 20,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:pyrolyse_oven/raw_coal_to_coal_gas",
+			"category": "pyrolyse_oven",
+			"duration": 288,
+			"voltage": 96,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:steam"
+					],
+					"amount": 4000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:ore/lignite"
+					],
+					"amount": 8,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:coal_gas"
+					],
+					"amount": 4000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:coke_gem"
+					],
+					"amount": 8,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:pyrolyse_oven/sugar_to_charcoal_nitrogen",
+			"category": "pyrolyse_oven",
+			"duration": 160,
+			"voltage": 96,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:nitrogen"
+					],
+					"amount": 500,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"afc:birch_sugar",
+						"minecraft:sugar",
+						"tfg:wraptor_sugar",
+						"afc:maple_sugar"
+					],
+					"amount": 23,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water"
+					],
+					"amount": 1500,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:charcoal_dust"
+					],
+					"amount": 12,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:pyrolyse_oven/liquid_woods_metal_boosted",
+			"category": "pyrolyse_oven",
+			"duration": 960,
+			"voltage": 120,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:nitrogen"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:woods_metal_dust"
+					],
+					"amount": 8,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:woods_metal"
+					],
+					"amount": 1152,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:pyrolyse_oven/activated_carbon_from_carbon",
+			"category": "pyrolyse_oven",
+			"duration": 320,
+			"voltage": 64,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:nitrogen"
+					],
+					"amount": 2000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "circuit",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:carbon_dust"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:activated_carbon_dust"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:pyrolyse_oven/magnesia_from_phlogopite",
+			"category": "pyrolyse_oven",
+			"duration": 400,
+			"voltage": 60,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:phlogopite_dust"
+					],
+					"amount": 5,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:carbon_dioxide"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:magnesia_dust"
+					],
+					"amount": 3,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:aluminium_dust"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:pyrolyse_oven/coke_to_coal_tar",
+			"category": "pyrolyse_oven",
+			"duration": 320,
+			"voltage": 96,
+			"inputs": [
+				{
+					"cap": "circuit",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:coke_gem"
+					],
+					"amount": 8,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:coal_tar"
+					],
+					"amount": 4000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:ash_dust"
+					],
+					"amount": 1.0,
+					"chanced": true,
+					"chance": 7500,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"plain": "Ingredient"
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:pyrolyse_oven/magnesia",
+			"category": "pyrolyse_oven",
+			"duration": 400,
+			"voltage": 60,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:magnesium_hydroxide_dust"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:magnesia_dust"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:pyrolyse_oven/raw_coal_to_coke_creosote",
+			"category": "pyrolyse_oven",
+			"duration": 576,
+			"voltage": 64,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:ore/lignite"
+					],
+					"amount": 8,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:creosote"
+					],
+					"amount": 8000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:coke_gem"
+					],
+					"amount": 8,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:pyrolyse_oven/gtceu_pyrolyse_oven_log_to_wood_tar",
+			"category": "pyrolyse_oven",
+			"duration": 1280,
+			"voltage": 64,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"afc:wood/stripped_log/ipe",
+						"tfc:wood/stripped_log/oak",
+						"afc:wood/log/ancient_ironwood",
+						"tfc:wood/stripped_wood/rosewood",
+						"afc:wood/log/redcedar",
+						"ad_astra:aeronos_stem",
+						"tfc:wood/stripped_log/ash",
+						"tfg:wood/stripped_wood/araucaria",
+						"afc:wood/stripped_wood/baobab",
+						"tfc:wood/log/aspen",
+						"tfg:wood/stripped_log/mahoe",
+						"wan_ancient_beasts:ginkgo_log",
+						"afc:wood/log/ancient_baobab",
+						"afc:wood/stripped_wood/fig",
+						"tfc:wood/stripped_wood/maple",
+						"afc:wood/log/baobab",
+						"tfc:wood/wood/birch",
+						"afc:wood/wood/eucalyptus",
+						"tfc:wood/stripped_wood/ash",
+						"afc:wood/wood/ancient_ironwood",
+						"tfc:wood/stripped_log/blackwood",
+						"tfc:wood/stripped_log/rosewood",
+						"tfc:wood/wood/aspen",
+						"afc:wood/log/cypress",
+						"afc:wood/log/rubber_fig",
+						"tfc:wood/log/acacia",
+						"afc:wood/stripped_log/hevea",
+						"wan_ancient_beasts:stripped_ginkgo_wood",
+						"tfc:wood/stripped_log/spruce",
+						"afc:wood/wood/teak",
+						"tfc:wood/stripped_log/douglas_fir",
+						"tfc:wood/log/rosewood",
+						"afc:wood/log/ironwood",
+						"tfc:wood/stripped_wood/kapok",
+						"afc:wood/wood/gum_arabic",
+						"afc:wood/wood/rubber_fig",
+						"afc:wood/stripped_log/ironwood",
+						"afc:wood/wood/poplar",
+						"tfc:wood/log/douglas_fir",
+						"tfc:wood/wood/sequoia",
+						"tfc:wood/stripped_log/willow",
+						"afc:wood/log/rainbow_eucalyptus",
+						"afc:wood/log/hevea",
+						"afc:wood/wood/ancient_tualang",
+						"wan_ancient_beasts:ginkgo_wood",
+						"afc:wood/log/ancient_ipe",
+						"tfg:wood/wood/beech",
+						"afc:wood/log/ancient_tualang",
+						"afc:wood/stripped_log/tualang",
+						"tfc:wood/stripped_log/mangrove",
+						"afc:wood/wood/ipe",
+						"tfc:wood/stripped_log/birch",
+						"tfc:wood/stripped_log/maple",
+						"tfc:wood/wood/kapok",
+						"tfg:wood/stripped_log/araucaria",
+						"tfc:wood/stripped_log/sycamore",
+						"afc:wood/log/ancient_mahogany",
+						"afc:wood/wood/tualang",
+						"afc:wood/log/fig",
+						"tfc:wood/stripped_wood/aspen",
+						"afc:wood/log/ancient_fig",
+						"tfc:stick_bundle",
+						"tfc:wood/log/blackwood",
+						"tfc:wood/wood/maple",
+						"tfc:wood/stripped_log/white_cedar",
+						"tfc:wood/wood/pine",
+						"afc:wood/log/ancient_eucalyptus",
+						"afc:wood/stripped_wood/mahogany",
+						"tfc:wood/stripped_log/chestnut",
+						"tfc:wood/wood/blackwood",
+						"afc:wood/log/ancient_cypress",
+						"tfc:wood/wood/hickory",
+						"tfc:wood/stripped_wood/oak",
+						"tfc:wood/stripped_log/pine",
+						"tfg:wood/wood/mahoe",
+						"afc:wood/wood/ancient_ipe",
+						"afc:wood/wood/mahogany",
+						"afc:wood/stripped_wood/ironwood",
+						"afc:wood/log/gum_arabic",
+						"tfg:wood/stripped_wood/beech",
+						"tfc:wood/wood/sycamore",
+						"afc:wood/wood/ancient_teak",
+						"afc:wood/wood/ancient_mahogany",
+						"tfc:wood/stripped_wood/blackwood",
+						"afc:wood/wood/black_oak",
+						"tfc:wood/log/sequoia",
+						"tfc:wood/wood/ash",
+						"afc:wood/log/mahogany",
+						"tfc:wood/wood/douglas_fir",
+						"tfg:wood/log/araucaria",
+						"tfc:wood/log/ash",
+						"tfc:wood/log/palm",
+						"afc:wood/log/poplar",
+						"tfc:wood/stripped_wood/spruce",
+						"afc:wood/stripped_wood/tualang",
+						"tfc:wood/wood/mangrove",
+						"tfc:wood/stripped_log/acacia",
+						"tfc:wood/wood/chestnut",
+						"tfc:wood/log/pine",
+						"tfc:wood/wood/palm",
+						"afc:wood/stripped_log/baobab",
+						"tfc:wood/log/maple",
+						"afc:wood/log/eucalyptus",
+						"afc:wood/wood/hevea",
+						"tfc:wood/stripped_wood/sycamore",
+						"tfc:wood/wood/spruce",
+						"afc:wood/stripped_log/cypress",
+						"afc:wood/wood/ancient_eucalyptus",
+						"tfc:wood/stripped_wood/birch",
+						"tfc:wood/log/mangrove",
+						"tfc:wood/stripped_log/sequoia",
+						"tfg:glacian_wood",
+						"afc:wood/wood/fig",
+						"tfc:wood/stripped_wood/hickory",
+						"tfc:wood/stripped_wood/mangrove",
+						"tfc:wood/stripped_log/aspen",
+						"tfc:wood/log/sycamore",
+						"tfg:wood/wood/araucaria",
+						"afc:wood/log/ancient_teak",
+						"tfc:wood/log/birch",
+						"tfc:wood/log/kapok",
+						"tfc:wood/wood/oak",
+						"tfc:wood/stripped_wood/willow",
+						"afc:wood/stripped_log/fig",
+						"tfc:wood/log/spruce",
+						"tfc:wood/log/white_cedar",
+						"afc:wood/wood/ancient_baobab",
+						"tfg:glacian_wood_stripped",
+						"tfc:wood/stripped_wood/sequoia",
+						"tfc:wood/stripped_wood/chestnut",
+						"afc:wood/stripped_wood/cypress",
+						"tfc:wood/wood/rosewood",
+						"afc:wood/stripped_log/teak",
+						"tfc:wood/log/hickory",
+						"tfg:wood/stripped_log/beech",
+						"tfc:wood/stripped_log/hickory",
+						"tfc:wood/stripped_wood/acacia",
+						"afc:wood/stripped_wood/hevea",
+						"afc:wood/wood/ancient_fig",
+						"ad_astra:strophar_stem",
+						"tfc:wood/wood/acacia",
+						"ad_astra:stripped_glacian_log",
+						"afc:wood/stripped_log/mahogany",
+						"ad_astra:glacian_log",
+						"afc:wood/wood/ancient_hevea",
+						"afc:wood/log/tualang",
+						"tfc:wood/stripped_wood/palm",
+						"afc:wood/wood/ironwood",
+						"tfc:wood/log/chestnut",
+						"tfc:wood/wood/white_cedar",
+						"afc:wood/wood/rainbow_eucalyptus",
+						"afc:wood/log/teak",
+						"afc:wood/wood/baobab",
+						"tfc:wood/wood/willow",
+						"afc:wood/stripped_wood/eucalyptus",
+						"afc:wood/wood/ancient_cypress",
+						"afc:wood/stripped_wood/ipe",
+						"afc:wood/log/ancient_hevea",
+						"afc:wood/log/black_oak",
+						"afc:wood/wood/redcedar",
+						"afc:wood/stripped_wood/teak",
+						"tfc:wood/stripped_log/palm",
+						"afc:wood/stripped_log/eucalyptus",
+						"afc:wood/wood/cypress",
+						"tfc:wood/stripped_wood/white_cedar",
+						"tfc:wood/stripped_log/kapok",
+						"tfc:wood/stripped_wood/pine",
+						"tfg:wood/log/mahoe",
+						"afc:wood/log/ipe",
+						"tfc:wood/log/oak",
+						"tfc:wood/log/willow",
+						"tfg:wood/stripped_wood/mahoe",
+						"wan_ancient_beasts:stripped_ginkgo_log",
+						"tfg:wood/log/beech",
+						"tfc:wood/stripped_wood/douglas_fir"
+					],
+					"amount": 16,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:wood_tar"
+					],
+					"amount": 1500,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:charcoal"
+					],
+					"amount": 20,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:pyrolyse_oven/log_to_charcoal_byproducts",
+			"category": "pyrolyse_oven",
+			"duration": 320,
+			"voltage": 96,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:nitrogen"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "circuit",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"afc:wood/stripped_log/ipe",
+						"tfc:wood/stripped_log/oak",
+						"afc:wood/log/ancient_ironwood",
+						"tfc:wood/stripped_wood/rosewood",
+						"afc:wood/log/redcedar",
+						"ad_astra:aeronos_stem",
+						"tfc:wood/stripped_log/ash",
+						"tfg:wood/stripped_wood/araucaria",
+						"afc:wood/stripped_wood/baobab",
+						"tfc:wood/log/aspen",
+						"tfg:wood/stripped_log/mahoe",
+						"wan_ancient_beasts:ginkgo_log",
+						"afc:wood/log/ancient_baobab",
+						"afc:wood/stripped_wood/fig",
+						"tfc:wood/stripped_wood/maple",
+						"afc:wood/log/baobab",
+						"tfc:wood/wood/birch",
+						"afc:wood/wood/eucalyptus",
+						"tfc:wood/stripped_wood/ash",
+						"afc:wood/wood/ancient_ironwood",
+						"tfc:wood/stripped_log/blackwood",
+						"tfc:wood/stripped_log/rosewood",
+						"tfc:wood/wood/aspen",
+						"afc:wood/log/cypress",
+						"afc:wood/log/rubber_fig",
+						"tfc:wood/log/acacia",
+						"afc:wood/stripped_log/hevea",
+						"wan_ancient_beasts:stripped_ginkgo_wood",
+						"tfc:wood/stripped_log/spruce",
+						"afc:wood/wood/teak",
+						"tfc:wood/stripped_log/douglas_fir",
+						"tfc:wood/log/rosewood",
+						"afc:wood/log/ironwood",
+						"tfc:wood/stripped_wood/kapok",
+						"afc:wood/wood/gum_arabic",
+						"afc:wood/wood/rubber_fig",
+						"afc:wood/stripped_log/ironwood",
+						"afc:wood/wood/poplar",
+						"tfc:wood/log/douglas_fir",
+						"tfc:wood/wood/sequoia",
+						"tfc:wood/stripped_log/willow",
+						"afc:wood/log/rainbow_eucalyptus",
+						"afc:wood/log/hevea",
+						"afc:wood/wood/ancient_tualang",
+						"wan_ancient_beasts:ginkgo_wood",
+						"afc:wood/log/ancient_ipe",
+						"tfg:wood/wood/beech",
+						"afc:wood/log/ancient_tualang",
+						"afc:wood/stripped_log/tualang",
+						"tfc:wood/stripped_log/mangrove",
+						"afc:wood/wood/ipe",
+						"tfc:wood/stripped_log/birch",
+						"tfc:wood/stripped_log/maple",
+						"tfc:wood/wood/kapok",
+						"tfg:wood/stripped_log/araucaria",
+						"tfc:wood/stripped_log/sycamore",
+						"afc:wood/log/ancient_mahogany",
+						"afc:wood/wood/tualang",
+						"afc:wood/log/fig",
+						"tfc:wood/stripped_wood/aspen",
+						"afc:wood/log/ancient_fig",
+						"tfc:stick_bundle",
+						"tfc:wood/log/blackwood",
+						"tfc:wood/wood/maple",
+						"tfc:wood/stripped_log/white_cedar",
+						"tfc:wood/wood/pine",
+						"afc:wood/log/ancient_eucalyptus",
+						"afc:wood/stripped_wood/mahogany",
+						"tfc:wood/stripped_log/chestnut",
+						"tfc:wood/wood/blackwood",
+						"afc:wood/log/ancient_cypress",
+						"tfc:wood/wood/hickory",
+						"tfc:wood/stripped_wood/oak",
+						"tfc:wood/stripped_log/pine",
+						"tfg:wood/wood/mahoe",
+						"afc:wood/wood/ancient_ipe",
+						"afc:wood/wood/mahogany",
+						"afc:wood/stripped_wood/ironwood",
+						"afc:wood/log/gum_arabic",
+						"tfg:wood/stripped_wood/beech",
+						"tfc:wood/wood/sycamore",
+						"afc:wood/wood/ancient_teak",
+						"afc:wood/wood/ancient_mahogany",
+						"tfc:wood/stripped_wood/blackwood",
+						"afc:wood/wood/black_oak",
+						"tfc:wood/log/sequoia",
+						"tfc:wood/wood/ash",
+						"afc:wood/log/mahogany",
+						"tfc:wood/wood/douglas_fir",
+						"tfg:wood/log/araucaria",
+						"tfc:wood/log/ash",
+						"tfc:wood/log/palm",
+						"afc:wood/log/poplar",
+						"tfc:wood/stripped_wood/spruce",
+						"afc:wood/stripped_wood/tualang",
+						"tfc:wood/wood/mangrove",
+						"tfc:wood/stripped_log/acacia",
+						"tfc:wood/wood/chestnut",
+						"tfc:wood/log/pine",
+						"tfc:wood/wood/palm",
+						"afc:wood/stripped_log/baobab",
+						"tfc:wood/log/maple",
+						"afc:wood/log/eucalyptus",
+						"afc:wood/wood/hevea",
+						"tfc:wood/stripped_wood/sycamore",
+						"tfc:wood/wood/spruce",
+						"afc:wood/stripped_log/cypress",
+						"afc:wood/wood/ancient_eucalyptus",
+						"tfc:wood/stripped_wood/birch",
+						"tfc:wood/log/mangrove",
+						"tfc:wood/stripped_log/sequoia",
+						"tfg:glacian_wood",
+						"afc:wood/wood/fig",
+						"tfc:wood/stripped_wood/hickory",
+						"tfc:wood/stripped_wood/mangrove",
+						"tfc:wood/stripped_log/aspen",
+						"tfc:wood/log/sycamore",
+						"tfg:wood/wood/araucaria",
+						"afc:wood/log/ancient_teak",
+						"tfc:wood/log/birch",
+						"tfc:wood/log/kapok",
+						"tfc:wood/wood/oak",
+						"tfc:wood/stripped_wood/willow",
+						"afc:wood/stripped_log/fig",
+						"tfc:wood/log/spruce",
+						"tfc:wood/log/white_cedar",
+						"afc:wood/wood/ancient_baobab",
+						"tfg:glacian_wood_stripped",
+						"tfc:wood/stripped_wood/sequoia",
+						"tfc:wood/stripped_wood/chestnut",
+						"afc:wood/stripped_wood/cypress",
+						"tfc:wood/wood/rosewood",
+						"afc:wood/stripped_log/teak",
+						"tfc:wood/log/hickory",
+						"tfg:wood/stripped_log/beech",
+						"tfc:wood/stripped_log/hickory",
+						"tfc:wood/stripped_wood/acacia",
+						"afc:wood/stripped_wood/hevea",
+						"afc:wood/wood/ancient_fig",
+						"ad_astra:strophar_stem",
+						"tfc:wood/wood/acacia",
+						"ad_astra:stripped_glacian_log",
+						"afc:wood/stripped_log/mahogany",
+						"ad_astra:glacian_log",
+						"afc:wood/wood/ancient_hevea",
+						"afc:wood/log/tualang",
+						"tfc:wood/stripped_wood/palm",
+						"afc:wood/wood/ironwood",
+						"tfc:wood/log/chestnut",
+						"tfc:wood/wood/white_cedar",
+						"afc:wood/wood/rainbow_eucalyptus",
+						"afc:wood/log/teak",
+						"afc:wood/wood/baobab",
+						"tfc:wood/wood/willow",
+						"afc:wood/stripped_wood/eucalyptus",
+						"afc:wood/wood/ancient_cypress",
+						"afc:wood/stripped_wood/ipe",
+						"afc:wood/log/ancient_hevea",
+						"afc:wood/log/black_oak",
+						"afc:wood/wood/redcedar",
+						"afc:wood/stripped_wood/teak",
+						"tfc:wood/stripped_log/palm",
+						"afc:wood/stripped_log/eucalyptus",
+						"afc:wood/wood/cypress",
+						"tfc:wood/stripped_wood/white_cedar",
+						"tfc:wood/stripped_log/kapok",
+						"tfc:wood/stripped_wood/pine",
+						"tfg:wood/log/mahoe",
+						"afc:wood/log/ipe",
+						"tfc:wood/log/oak",
+						"tfc:wood/log/willow",
+						"tfg:wood/stripped_wood/mahoe",
+						"wan_ancient_beasts:stripped_ginkgo_log",
+						"tfg:wood/log/beech",
+						"tfc:wood/stripped_wood/douglas_fir"
+					],
+					"amount": 16,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:charcoal_byproducts"
+					],
+					"amount": 4000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:charcoal"
+					],
+					"amount": 20,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:pyrolyse_oven/liquid_woods_metal",
+			"category": "pyrolyse_oven",
+			"duration": 1920,
+			"voltage": 120,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:woods_metal_dust"
+					],
+					"amount": 8,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:woods_metal"
+					],
+					"amount": 1152,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:pyrolyse_oven/rich_coal_to_coke_creosote",
+			"category": "pyrolyse_oven",
+			"duration": 576,
+			"voltage": 64,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:ore/bituminous_coal"
+					],
+					"amount": 8,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:creosote"
+					],
+					"amount": 8000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:coke_gem"
+					],
+					"amount": 16,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:pyrolyse_oven/gtceu_pyrolyse_oven_log_to_creosote",
+			"category": "pyrolyse_oven",
+			"duration": 1280,
+			"voltage": 64,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"afc:wood/stripped_log/ipe",
+						"tfc:wood/stripped_log/oak",
+						"afc:wood/log/ancient_ironwood",
+						"tfc:wood/stripped_wood/rosewood",
+						"afc:wood/log/redcedar",
+						"ad_astra:aeronos_stem",
+						"tfc:wood/stripped_log/ash",
+						"tfg:wood/stripped_wood/araucaria",
+						"afc:wood/stripped_wood/baobab",
+						"tfc:wood/log/aspen",
+						"tfg:wood/stripped_log/mahoe",
+						"wan_ancient_beasts:ginkgo_log",
+						"afc:wood/log/ancient_baobab",
+						"afc:wood/stripped_wood/fig",
+						"tfc:wood/stripped_wood/maple",
+						"afc:wood/log/baobab",
+						"tfc:wood/wood/birch",
+						"afc:wood/wood/eucalyptus",
+						"tfc:wood/stripped_wood/ash",
+						"afc:wood/wood/ancient_ironwood",
+						"tfc:wood/stripped_log/blackwood",
+						"tfc:wood/stripped_log/rosewood",
+						"tfc:wood/wood/aspen",
+						"afc:wood/log/cypress",
+						"afc:wood/log/rubber_fig",
+						"tfc:wood/log/acacia",
+						"afc:wood/stripped_log/hevea",
+						"wan_ancient_beasts:stripped_ginkgo_wood",
+						"tfc:wood/stripped_log/spruce",
+						"afc:wood/wood/teak",
+						"tfc:wood/stripped_log/douglas_fir",
+						"tfc:wood/log/rosewood",
+						"afc:wood/log/ironwood",
+						"tfc:wood/stripped_wood/kapok",
+						"afc:wood/wood/gum_arabic",
+						"afc:wood/wood/rubber_fig",
+						"afc:wood/stripped_log/ironwood",
+						"afc:wood/wood/poplar",
+						"tfc:wood/log/douglas_fir",
+						"tfc:wood/wood/sequoia",
+						"tfc:wood/stripped_log/willow",
+						"afc:wood/log/rainbow_eucalyptus",
+						"afc:wood/log/hevea",
+						"afc:wood/wood/ancient_tualang",
+						"wan_ancient_beasts:ginkgo_wood",
+						"afc:wood/log/ancient_ipe",
+						"tfg:wood/wood/beech",
+						"afc:wood/log/ancient_tualang",
+						"afc:wood/stripped_log/tualang",
+						"tfc:wood/stripped_log/mangrove",
+						"afc:wood/wood/ipe",
+						"tfc:wood/stripped_log/birch",
+						"tfc:wood/stripped_log/maple",
+						"tfc:wood/wood/kapok",
+						"tfg:wood/stripped_log/araucaria",
+						"tfc:wood/stripped_log/sycamore",
+						"afc:wood/log/ancient_mahogany",
+						"afc:wood/wood/tualang",
+						"afc:wood/log/fig",
+						"tfc:wood/stripped_wood/aspen",
+						"afc:wood/log/ancient_fig",
+						"tfc:stick_bundle",
+						"tfc:wood/log/blackwood",
+						"tfc:wood/wood/maple",
+						"tfc:wood/stripped_log/white_cedar",
+						"tfc:wood/wood/pine",
+						"afc:wood/log/ancient_eucalyptus",
+						"afc:wood/stripped_wood/mahogany",
+						"tfc:wood/stripped_log/chestnut",
+						"tfc:wood/wood/blackwood",
+						"afc:wood/log/ancient_cypress",
+						"tfc:wood/wood/hickory",
+						"tfc:wood/stripped_wood/oak",
+						"tfc:wood/stripped_log/pine",
+						"tfg:wood/wood/mahoe",
+						"afc:wood/wood/ancient_ipe",
+						"afc:wood/wood/mahogany",
+						"afc:wood/stripped_wood/ironwood",
+						"afc:wood/log/gum_arabic",
+						"tfg:wood/stripped_wood/beech",
+						"tfc:wood/wood/sycamore",
+						"afc:wood/wood/ancient_teak",
+						"afc:wood/wood/ancient_mahogany",
+						"tfc:wood/stripped_wood/blackwood",
+						"afc:wood/wood/black_oak",
+						"tfc:wood/log/sequoia",
+						"tfc:wood/wood/ash",
+						"afc:wood/log/mahogany",
+						"tfc:wood/wood/douglas_fir",
+						"tfg:wood/log/araucaria",
+						"tfc:wood/log/ash",
+						"tfc:wood/log/palm",
+						"afc:wood/log/poplar",
+						"tfc:wood/stripped_wood/spruce",
+						"afc:wood/stripped_wood/tualang",
+						"tfc:wood/wood/mangrove",
+						"tfc:wood/stripped_log/acacia",
+						"tfc:wood/wood/chestnut",
+						"tfc:wood/log/pine",
+						"tfc:wood/wood/palm",
+						"afc:wood/stripped_log/baobab",
+						"tfc:wood/log/maple",
+						"afc:wood/log/eucalyptus",
+						"afc:wood/wood/hevea",
+						"tfc:wood/stripped_wood/sycamore",
+						"tfc:wood/wood/spruce",
+						"afc:wood/stripped_log/cypress",
+						"afc:wood/wood/ancient_eucalyptus",
+						"tfc:wood/stripped_wood/birch",
+						"tfc:wood/log/mangrove",
+						"tfc:wood/stripped_log/sequoia",
+						"tfg:glacian_wood",
+						"afc:wood/wood/fig",
+						"tfc:wood/stripped_wood/hickory",
+						"tfc:wood/stripped_wood/mangrove",
+						"tfc:wood/stripped_log/aspen",
+						"tfc:wood/log/sycamore",
+						"tfg:wood/wood/araucaria",
+						"afc:wood/log/ancient_teak",
+						"tfc:wood/log/birch",
+						"tfc:wood/log/kapok",
+						"tfc:wood/wood/oak",
+						"tfc:wood/stripped_wood/willow",
+						"afc:wood/stripped_log/fig",
+						"tfc:wood/log/spruce",
+						"tfc:wood/log/white_cedar",
+						"afc:wood/wood/ancient_baobab",
+						"tfg:glacian_wood_stripped",
+						"tfc:wood/stripped_wood/sequoia",
+						"tfc:wood/stripped_wood/chestnut",
+						"afc:wood/stripped_wood/cypress",
+						"tfc:wood/wood/rosewood",
+						"afc:wood/stripped_log/teak",
+						"tfc:wood/log/hickory",
+						"tfg:wood/stripped_log/beech",
+						"tfc:wood/stripped_log/hickory",
+						"tfc:wood/stripped_wood/acacia",
+						"afc:wood/stripped_wood/hevea",
+						"afc:wood/wood/ancient_fig",
+						"ad_astra:strophar_stem",
+						"tfc:wood/wood/acacia",
+						"ad_astra:stripped_glacian_log",
+						"afc:wood/stripped_log/mahogany",
+						"ad_astra:glacian_log",
+						"afc:wood/wood/ancient_hevea",
+						"afc:wood/log/tualang",
+						"tfc:wood/stripped_wood/palm",
+						"afc:wood/wood/ironwood",
+						"tfc:wood/log/chestnut",
+						"tfc:wood/wood/white_cedar",
+						"afc:wood/wood/rainbow_eucalyptus",
+						"afc:wood/log/teak",
+						"afc:wood/wood/baobab",
+						"tfc:wood/wood/willow",
+						"afc:wood/stripped_wood/eucalyptus",
+						"afc:wood/wood/ancient_cypress",
+						"afc:wood/stripped_wood/ipe",
+						"afc:wood/log/ancient_hevea",
+						"afc:wood/log/black_oak",
+						"afc:wood/wood/redcedar",
+						"afc:wood/stripped_wood/teak",
+						"tfc:wood/stripped_log/palm",
+						"afc:wood/stripped_log/eucalyptus",
+						"afc:wood/wood/cypress",
+						"tfc:wood/stripped_wood/white_cedar",
+						"tfc:wood/stripped_log/kapok",
+						"tfc:wood/stripped_wood/pine",
+						"tfg:wood/log/mahoe",
+						"afc:wood/log/ipe",
+						"tfc:wood/log/oak",
+						"tfc:wood/log/willow",
+						"tfg:wood/stripped_wood/mahoe",
+						"wan_ancient_beasts:stripped_ginkgo_log",
+						"tfg:wood/log/beech",
+						"tfc:wood/stripped_wood/douglas_fir"
+					],
+					"amount": 16,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:creosote"
+					],
+					"amount": 4000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:charcoal"
+					],
+					"amount": 20,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:pyrolyse_oven/pyrolyse_vitrified_asbestos_dust",
+			"category": "pyrolyse_oven",
+			"duration": 80,
+			"voltage": 120,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:nitrogen"
+					],
+					"amount": 100,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:asbestos_dust"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:vitrified_asbestos_dust"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:pyrolyse_oven/activated_carbon_from_charcoal",
+			"category": "pyrolyse_oven",
+			"duration": 640,
+			"voltage": 64,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:nitrogen"
+					],
+					"amount": 2000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "circuit",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:charcoal_dust"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:activated_carbon_dust"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:pyrolyse_oven/block_coal_to_coal_gas",
+			"category": "pyrolyse_oven",
+			"duration": 1296,
+			"voltage": 96,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:steam"
+					],
+					"amount": 18000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:coal_block"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:coal_gas"
+					],
+					"amount": 18000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:coke_block"
+					],
+					"amount": 8,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:pyrolyse_oven/gtceu_pyrolyse_oven_log_to_creosote_nitrogen",
+			"category": "pyrolyse_oven",
+			"duration": 640,
+			"voltage": 96,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:nitrogen"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"afc:wood/stripped_log/ipe",
+						"tfc:wood/stripped_log/oak",
+						"afc:wood/log/ancient_ironwood",
+						"tfc:wood/stripped_wood/rosewood",
+						"afc:wood/log/redcedar",
+						"ad_astra:aeronos_stem",
+						"tfc:wood/stripped_log/ash",
+						"tfg:wood/stripped_wood/araucaria",
+						"afc:wood/stripped_wood/baobab",
+						"tfc:wood/log/aspen",
+						"tfg:wood/stripped_log/mahoe",
+						"wan_ancient_beasts:ginkgo_log",
+						"afc:wood/log/ancient_baobab",
+						"afc:wood/stripped_wood/fig",
+						"tfc:wood/stripped_wood/maple",
+						"afc:wood/log/baobab",
+						"tfc:wood/wood/birch",
+						"afc:wood/wood/eucalyptus",
+						"tfc:wood/stripped_wood/ash",
+						"afc:wood/wood/ancient_ironwood",
+						"tfc:wood/stripped_log/blackwood",
+						"tfc:wood/stripped_log/rosewood",
+						"tfc:wood/wood/aspen",
+						"afc:wood/log/cypress",
+						"afc:wood/log/rubber_fig",
+						"tfc:wood/log/acacia",
+						"afc:wood/stripped_log/hevea",
+						"wan_ancient_beasts:stripped_ginkgo_wood",
+						"tfc:wood/stripped_log/spruce",
+						"afc:wood/wood/teak",
+						"tfc:wood/stripped_log/douglas_fir",
+						"tfc:wood/log/rosewood",
+						"afc:wood/log/ironwood",
+						"tfc:wood/stripped_wood/kapok",
+						"afc:wood/wood/gum_arabic",
+						"afc:wood/wood/rubber_fig",
+						"afc:wood/stripped_log/ironwood",
+						"afc:wood/wood/poplar",
+						"tfc:wood/log/douglas_fir",
+						"tfc:wood/wood/sequoia",
+						"tfc:wood/stripped_log/willow",
+						"afc:wood/log/rainbow_eucalyptus",
+						"afc:wood/log/hevea",
+						"afc:wood/wood/ancient_tualang",
+						"wan_ancient_beasts:ginkgo_wood",
+						"afc:wood/log/ancient_ipe",
+						"tfg:wood/wood/beech",
+						"afc:wood/log/ancient_tualang",
+						"afc:wood/stripped_log/tualang",
+						"tfc:wood/stripped_log/mangrove",
+						"afc:wood/wood/ipe",
+						"tfc:wood/stripped_log/birch",
+						"tfc:wood/stripped_log/maple",
+						"tfc:wood/wood/kapok",
+						"tfg:wood/stripped_log/araucaria",
+						"tfc:wood/stripped_log/sycamore",
+						"afc:wood/log/ancient_mahogany",
+						"afc:wood/wood/tualang",
+						"afc:wood/log/fig",
+						"tfc:wood/stripped_wood/aspen",
+						"afc:wood/log/ancient_fig",
+						"tfc:stick_bundle",
+						"tfc:wood/log/blackwood",
+						"tfc:wood/wood/maple",
+						"tfc:wood/stripped_log/white_cedar",
+						"tfc:wood/wood/pine",
+						"afc:wood/log/ancient_eucalyptus",
+						"afc:wood/stripped_wood/mahogany",
+						"tfc:wood/stripped_log/chestnut",
+						"tfc:wood/wood/blackwood",
+						"afc:wood/log/ancient_cypress",
+						"tfc:wood/wood/hickory",
+						"tfc:wood/stripped_wood/oak",
+						"tfc:wood/stripped_log/pine",
+						"tfg:wood/wood/mahoe",
+						"afc:wood/wood/ancient_ipe",
+						"afc:wood/wood/mahogany",
+						"afc:wood/stripped_wood/ironwood",
+						"afc:wood/log/gum_arabic",
+						"tfg:wood/stripped_wood/beech",
+						"tfc:wood/wood/sycamore",
+						"afc:wood/wood/ancient_teak",
+						"afc:wood/wood/ancient_mahogany",
+						"tfc:wood/stripped_wood/blackwood",
+						"afc:wood/wood/black_oak",
+						"tfc:wood/log/sequoia",
+						"tfc:wood/wood/ash",
+						"afc:wood/log/mahogany",
+						"tfc:wood/wood/douglas_fir",
+						"tfg:wood/log/araucaria",
+						"tfc:wood/log/ash",
+						"tfc:wood/log/palm",
+						"afc:wood/log/poplar",
+						"tfc:wood/stripped_wood/spruce",
+						"afc:wood/stripped_wood/tualang",
+						"tfc:wood/wood/mangrove",
+						"tfc:wood/stripped_log/acacia",
+						"tfc:wood/wood/chestnut",
+						"tfc:wood/log/pine",
+						"tfc:wood/wood/palm",
+						"afc:wood/stripped_log/baobab",
+						"tfc:wood/log/maple",
+						"afc:wood/log/eucalyptus",
+						"afc:wood/wood/hevea",
+						"tfc:wood/stripped_wood/sycamore",
+						"tfc:wood/wood/spruce",
+						"afc:wood/stripped_log/cypress",
+						"afc:wood/wood/ancient_eucalyptus",
+						"tfc:wood/stripped_wood/birch",
+						"tfc:wood/log/mangrove",
+						"tfc:wood/stripped_log/sequoia",
+						"tfg:glacian_wood",
+						"afc:wood/wood/fig",
+						"tfc:wood/stripped_wood/hickory",
+						"tfc:wood/stripped_wood/mangrove",
+						"tfc:wood/stripped_log/aspen",
+						"tfc:wood/log/sycamore",
+						"tfg:wood/wood/araucaria",
+						"afc:wood/log/ancient_teak",
+						"tfc:wood/log/birch",
+						"tfc:wood/log/kapok",
+						"tfc:wood/wood/oak",
+						"tfc:wood/stripped_wood/willow",
+						"afc:wood/stripped_log/fig",
+						"tfc:wood/log/spruce",
+						"tfc:wood/log/white_cedar",
+						"afc:wood/wood/ancient_baobab",
+						"tfg:glacian_wood_stripped",
+						"tfc:wood/stripped_wood/sequoia",
+						"tfc:wood/stripped_wood/chestnut",
+						"afc:wood/stripped_wood/cypress",
+						"tfc:wood/wood/rosewood",
+						"afc:wood/stripped_log/teak",
+						"tfc:wood/log/hickory",
+						"tfg:wood/stripped_log/beech",
+						"tfc:wood/stripped_log/hickory",
+						"tfc:wood/stripped_wood/acacia",
+						"afc:wood/stripped_wood/hevea",
+						"afc:wood/wood/ancient_fig",
+						"ad_astra:strophar_stem",
+						"tfc:wood/wood/acacia",
+						"ad_astra:stripped_glacian_log",
+						"afc:wood/stripped_log/mahogany",
+						"ad_astra:glacian_log",
+						"afc:wood/wood/ancient_hevea",
+						"afc:wood/log/tualang",
+						"tfc:wood/stripped_wood/palm",
+						"afc:wood/wood/ironwood",
+						"tfc:wood/log/chestnut",
+						"tfc:wood/wood/white_cedar",
+						"afc:wood/wood/rainbow_eucalyptus",
+						"afc:wood/log/teak",
+						"afc:wood/wood/baobab",
+						"tfc:wood/wood/willow",
+						"afc:wood/stripped_wood/eucalyptus",
+						"afc:wood/wood/ancient_cypress",
+						"afc:wood/stripped_wood/ipe",
+						"afc:wood/log/ancient_hevea",
+						"afc:wood/log/black_oak",
+						"afc:wood/wood/redcedar",
+						"afc:wood/stripped_wood/teak",
+						"tfc:wood/stripped_log/palm",
+						"afc:wood/stripped_log/eucalyptus",
+						"afc:wood/wood/cypress",
+						"tfc:wood/stripped_wood/white_cedar",
+						"tfc:wood/stripped_log/kapok",
+						"tfc:wood/stripped_wood/pine",
+						"tfg:wood/log/mahoe",
+						"afc:wood/log/ipe",
+						"tfc:wood/log/oak",
+						"tfc:wood/log/willow",
+						"tfg:wood/stripped_wood/mahoe",
+						"wan_ancient_beasts:stripped_ginkgo_log",
+						"tfg:wood/log/beech",
+						"tfc:wood/stripped_wood/douglas_fir"
+					],
+					"amount": 16,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:creosote"
+					],
+					"amount": 4000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:charcoal"
+					],
+					"amount": 20,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:pyrolyse_oven/sugar_to_charcoal",
+			"category": "pyrolyse_oven",
+			"duration": 320,
+			"voltage": 64,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"afc:birch_sugar",
+						"minecraft:sugar",
+						"tfg:wraptor_sugar",
+						"afc:maple_sugar"
+					],
+					"amount": 23,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water"
+					],
+					"amount": 1500,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:charcoal_dust"
+					],
+					"amount": 12,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:pyrolyse_oven/log_to_coal_gas",
+			"category": "pyrolyse_oven",
+			"duration": 640,
+			"voltage": 64,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"steampowered:steam",
+						"steampowered:flowing_steam",
+						"gtceu:steam"
+					],
+					"amount": 1000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "circuit",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"afc:wood/stripped_log/ipe",
+						"tfc:wood/stripped_log/oak",
+						"afc:wood/log/ancient_ironwood",
+						"tfc:wood/stripped_wood/rosewood",
+						"afc:wood/log/redcedar",
+						"ad_astra:aeronos_stem",
+						"tfc:wood/stripped_log/ash",
+						"tfg:wood/stripped_wood/araucaria",
+						"afc:wood/stripped_wood/baobab",
+						"tfc:wood/log/aspen",
+						"tfg:wood/stripped_log/mahoe",
+						"wan_ancient_beasts:ginkgo_log",
+						"afc:wood/log/ancient_baobab",
+						"afc:wood/stripped_wood/fig",
+						"tfc:wood/stripped_wood/maple",
+						"afc:wood/log/baobab",
+						"tfc:wood/wood/birch",
+						"afc:wood/wood/eucalyptus",
+						"tfc:wood/stripped_wood/ash",
+						"afc:wood/wood/ancient_ironwood",
+						"tfc:wood/stripped_log/blackwood",
+						"tfc:wood/stripped_log/rosewood",
+						"tfc:wood/wood/aspen",
+						"afc:wood/log/cypress",
+						"afc:wood/log/rubber_fig",
+						"tfc:wood/log/acacia",
+						"afc:wood/stripped_log/hevea",
+						"wan_ancient_beasts:stripped_ginkgo_wood",
+						"tfc:wood/stripped_log/spruce",
+						"afc:wood/wood/teak",
+						"tfc:wood/stripped_log/douglas_fir",
+						"tfc:wood/log/rosewood",
+						"afc:wood/log/ironwood",
+						"tfc:wood/stripped_wood/kapok",
+						"afc:wood/wood/gum_arabic",
+						"afc:wood/wood/rubber_fig",
+						"afc:wood/stripped_log/ironwood",
+						"afc:wood/wood/poplar",
+						"tfc:wood/log/douglas_fir",
+						"tfc:wood/wood/sequoia",
+						"tfc:wood/stripped_log/willow",
+						"afc:wood/log/rainbow_eucalyptus",
+						"afc:wood/log/hevea",
+						"afc:wood/wood/ancient_tualang",
+						"wan_ancient_beasts:ginkgo_wood",
+						"afc:wood/log/ancient_ipe",
+						"tfg:wood/wood/beech",
+						"afc:wood/log/ancient_tualang",
+						"afc:wood/stripped_log/tualang",
+						"tfc:wood/stripped_log/mangrove",
+						"afc:wood/wood/ipe",
+						"tfc:wood/stripped_log/birch",
+						"tfc:wood/stripped_log/maple",
+						"tfc:wood/wood/kapok",
+						"tfg:wood/stripped_log/araucaria",
+						"tfc:wood/stripped_log/sycamore",
+						"afc:wood/log/ancient_mahogany",
+						"afc:wood/wood/tualang",
+						"afc:wood/log/fig",
+						"tfc:wood/stripped_wood/aspen",
+						"afc:wood/log/ancient_fig",
+						"tfc:stick_bundle",
+						"tfc:wood/log/blackwood",
+						"tfc:wood/wood/maple",
+						"tfc:wood/stripped_log/white_cedar",
+						"tfc:wood/wood/pine",
+						"afc:wood/log/ancient_eucalyptus",
+						"afc:wood/stripped_wood/mahogany",
+						"tfc:wood/stripped_log/chestnut",
+						"tfc:wood/wood/blackwood",
+						"afc:wood/log/ancient_cypress",
+						"tfc:wood/wood/hickory",
+						"tfc:wood/stripped_wood/oak",
+						"tfc:wood/stripped_log/pine",
+						"tfg:wood/wood/mahoe",
+						"afc:wood/wood/ancient_ipe",
+						"afc:wood/wood/mahogany",
+						"afc:wood/stripped_wood/ironwood",
+						"afc:wood/log/gum_arabic",
+						"tfg:wood/stripped_wood/beech",
+						"tfc:wood/wood/sycamore",
+						"afc:wood/wood/ancient_teak",
+						"afc:wood/wood/ancient_mahogany",
+						"tfc:wood/stripped_wood/blackwood",
+						"afc:wood/wood/black_oak",
+						"tfc:wood/log/sequoia",
+						"tfc:wood/wood/ash",
+						"afc:wood/log/mahogany",
+						"tfc:wood/wood/douglas_fir",
+						"tfg:wood/log/araucaria",
+						"tfc:wood/log/ash",
+						"tfc:wood/log/palm",
+						"afc:wood/log/poplar",
+						"tfc:wood/stripped_wood/spruce",
+						"afc:wood/stripped_wood/tualang",
+						"tfc:wood/wood/mangrove",
+						"tfc:wood/stripped_log/acacia",
+						"tfc:wood/wood/chestnut",
+						"tfc:wood/log/pine",
+						"tfc:wood/wood/palm",
+						"afc:wood/stripped_log/baobab",
+						"tfc:wood/log/maple",
+						"afc:wood/log/eucalyptus",
+						"afc:wood/wood/hevea",
+						"tfc:wood/stripped_wood/sycamore",
+						"tfc:wood/wood/spruce",
+						"afc:wood/stripped_log/cypress",
+						"afc:wood/wood/ancient_eucalyptus",
+						"tfc:wood/stripped_wood/birch",
+						"tfc:wood/log/mangrove",
+						"tfc:wood/stripped_log/sequoia",
+						"tfg:glacian_wood",
+						"afc:wood/wood/fig",
+						"tfc:wood/stripped_wood/hickory",
+						"tfc:wood/stripped_wood/mangrove",
+						"tfc:wood/stripped_log/aspen",
+						"tfc:wood/log/sycamore",
+						"tfg:wood/wood/araucaria",
+						"afc:wood/log/ancient_teak",
+						"tfc:wood/log/birch",
+						"tfc:wood/log/kapok",
+						"tfc:wood/wood/oak",
+						"tfc:wood/stripped_wood/willow",
+						"afc:wood/stripped_log/fig",
+						"tfc:wood/log/spruce",
+						"tfc:wood/log/white_cedar",
+						"afc:wood/wood/ancient_baobab",
+						"tfg:glacian_wood_stripped",
+						"tfc:wood/stripped_wood/sequoia",
+						"tfc:wood/stripped_wood/chestnut",
+						"afc:wood/stripped_wood/cypress",
+						"tfc:wood/wood/rosewood",
+						"afc:wood/stripped_log/teak",
+						"tfc:wood/log/hickory",
+						"tfg:wood/stripped_log/beech",
+						"tfc:wood/stripped_log/hickory",
+						"tfc:wood/stripped_wood/acacia",
+						"afc:wood/stripped_wood/hevea",
+						"afc:wood/wood/ancient_fig",
+						"ad_astra:strophar_stem",
+						"tfc:wood/wood/acacia",
+						"ad_astra:stripped_glacian_log",
+						"afc:wood/stripped_log/mahogany",
+						"ad_astra:glacian_log",
+						"afc:wood/wood/ancient_hevea",
+						"afc:wood/log/tualang",
+						"tfc:wood/stripped_wood/palm",
+						"afc:wood/wood/ironwood",
+						"tfc:wood/log/chestnut",
+						"tfc:wood/wood/white_cedar",
+						"afc:wood/wood/rainbow_eucalyptus",
+						"afc:wood/log/teak",
+						"afc:wood/wood/baobab",
+						"tfc:wood/wood/willow",
+						"afc:wood/stripped_wood/eucalyptus",
+						"afc:wood/wood/ancient_cypress",
+						"afc:wood/stripped_wood/ipe",
+						"afc:wood/log/ancient_hevea",
+						"afc:wood/log/black_oak",
+						"afc:wood/wood/redcedar",
+						"afc:wood/stripped_wood/teak",
+						"tfc:wood/stripped_log/palm",
+						"afc:wood/stripped_log/eucalyptus",
+						"afc:wood/wood/cypress",
+						"tfc:wood/stripped_wood/white_cedar",
+						"tfc:wood/stripped_log/kapok",
+						"tfc:wood/stripped_wood/pine",
+						"tfg:wood/log/mahoe",
+						"afc:wood/log/ipe",
+						"tfc:wood/log/oak",
+						"tfc:wood/log/willow",
+						"tfg:wood/stripped_wood/mahoe",
+						"wan_ancient_beasts:stripped_ginkgo_log",
+						"tfg:wood/log/beech",
+						"tfc:wood/stripped_wood/douglas_fir"
+					],
+					"amount": 16,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:coal_gas"
+					],
+					"amount": 2000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:charcoal"
+					],
+					"amount": 20,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:pyrolyse_oven/bio_chaff_to_biomass",
+			"category": "pyrolyse_oven",
+			"duration": 900,
+			"voltage": 10,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"minecraft:water"
+					],
+					"amount": 4000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:bio_chaff"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "circuit",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:biomass"
+					],
+					"amount": 5000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "tfg:pyrolyse_oven/raw_coal_to_tar",
+			"category": "pyrolyse_oven",
+			"duration": 288,
+			"voltage": 96,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfc:ore/lignite"
+					],
+					"amount": 6,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:coal_tar"
+					],
+					"amount": 3000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:dark_ash_dust"
+					],
+					"amount": 1,
+					"chanced": true,
+					"chance": 5000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:pyrolyse_oven/log_to_wood_gas",
+			"category": "pyrolyse_oven",
+			"duration": 640,
+			"voltage": 64,
+			"inputs": [
+				{
+					"cap": "circuit",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"afc:wood/stripped_log/ipe",
+						"tfc:wood/stripped_log/oak",
+						"afc:wood/log/ancient_ironwood",
+						"tfc:wood/stripped_wood/rosewood",
+						"afc:wood/log/redcedar",
+						"ad_astra:aeronos_stem",
+						"tfc:wood/stripped_log/ash",
+						"tfg:wood/stripped_wood/araucaria",
+						"afc:wood/stripped_wood/baobab",
+						"tfc:wood/log/aspen",
+						"tfg:wood/stripped_log/mahoe",
+						"wan_ancient_beasts:ginkgo_log",
+						"afc:wood/log/ancient_baobab",
+						"afc:wood/stripped_wood/fig",
+						"tfc:wood/stripped_wood/maple",
+						"afc:wood/log/baobab",
+						"tfc:wood/wood/birch",
+						"afc:wood/wood/eucalyptus",
+						"tfc:wood/stripped_wood/ash",
+						"afc:wood/wood/ancient_ironwood",
+						"tfc:wood/stripped_log/blackwood",
+						"tfc:wood/stripped_log/rosewood",
+						"tfc:wood/wood/aspen",
+						"afc:wood/log/cypress",
+						"afc:wood/log/rubber_fig",
+						"tfc:wood/log/acacia",
+						"afc:wood/stripped_log/hevea",
+						"wan_ancient_beasts:stripped_ginkgo_wood",
+						"tfc:wood/stripped_log/spruce",
+						"afc:wood/wood/teak",
+						"tfc:wood/stripped_log/douglas_fir",
+						"tfc:wood/log/rosewood",
+						"afc:wood/log/ironwood",
+						"tfc:wood/stripped_wood/kapok",
+						"afc:wood/wood/gum_arabic",
+						"afc:wood/wood/rubber_fig",
+						"afc:wood/stripped_log/ironwood",
+						"afc:wood/wood/poplar",
+						"tfc:wood/log/douglas_fir",
+						"tfc:wood/wood/sequoia",
+						"tfc:wood/stripped_log/willow",
+						"afc:wood/log/rainbow_eucalyptus",
+						"afc:wood/log/hevea",
+						"afc:wood/wood/ancient_tualang",
+						"wan_ancient_beasts:ginkgo_wood",
+						"afc:wood/log/ancient_ipe",
+						"tfg:wood/wood/beech",
+						"afc:wood/log/ancient_tualang",
+						"afc:wood/stripped_log/tualang",
+						"tfc:wood/stripped_log/mangrove",
+						"afc:wood/wood/ipe",
+						"tfc:wood/stripped_log/birch",
+						"tfc:wood/stripped_log/maple",
+						"tfc:wood/wood/kapok",
+						"tfg:wood/stripped_log/araucaria",
+						"tfc:wood/stripped_log/sycamore",
+						"afc:wood/log/ancient_mahogany",
+						"afc:wood/wood/tualang",
+						"afc:wood/log/fig",
+						"tfc:wood/stripped_wood/aspen",
+						"afc:wood/log/ancient_fig",
+						"tfc:stick_bundle",
+						"tfc:wood/log/blackwood",
+						"tfc:wood/wood/maple",
+						"tfc:wood/stripped_log/white_cedar",
+						"tfc:wood/wood/pine",
+						"afc:wood/log/ancient_eucalyptus",
+						"afc:wood/stripped_wood/mahogany",
+						"tfc:wood/stripped_log/chestnut",
+						"tfc:wood/wood/blackwood",
+						"afc:wood/log/ancient_cypress",
+						"tfc:wood/wood/hickory",
+						"tfc:wood/stripped_wood/oak",
+						"tfc:wood/stripped_log/pine",
+						"tfg:wood/wood/mahoe",
+						"afc:wood/wood/ancient_ipe",
+						"afc:wood/wood/mahogany",
+						"afc:wood/stripped_wood/ironwood",
+						"afc:wood/log/gum_arabic",
+						"tfg:wood/stripped_wood/beech",
+						"tfc:wood/wood/sycamore",
+						"afc:wood/wood/ancient_teak",
+						"afc:wood/wood/ancient_mahogany",
+						"tfc:wood/stripped_wood/blackwood",
+						"afc:wood/wood/black_oak",
+						"tfc:wood/log/sequoia",
+						"tfc:wood/wood/ash",
+						"afc:wood/log/mahogany",
+						"tfc:wood/wood/douglas_fir",
+						"tfg:wood/log/araucaria",
+						"tfc:wood/log/ash",
+						"tfc:wood/log/palm",
+						"afc:wood/log/poplar",
+						"tfc:wood/stripped_wood/spruce",
+						"afc:wood/stripped_wood/tualang",
+						"tfc:wood/wood/mangrove",
+						"tfc:wood/stripped_log/acacia",
+						"tfc:wood/wood/chestnut",
+						"tfc:wood/log/pine",
+						"tfc:wood/wood/palm",
+						"afc:wood/stripped_log/baobab",
+						"tfc:wood/log/maple",
+						"afc:wood/log/eucalyptus",
+						"afc:wood/wood/hevea",
+						"tfc:wood/stripped_wood/sycamore",
+						"tfc:wood/wood/spruce",
+						"afc:wood/stripped_log/cypress",
+						"afc:wood/wood/ancient_eucalyptus",
+						"tfc:wood/stripped_wood/birch",
+						"tfc:wood/log/mangrove",
+						"tfc:wood/stripped_log/sequoia",
+						"tfg:glacian_wood",
+						"afc:wood/wood/fig",
+						"tfc:wood/stripped_wood/hickory",
+						"tfc:wood/stripped_wood/mangrove",
+						"tfc:wood/stripped_log/aspen",
+						"tfc:wood/log/sycamore",
+						"tfg:wood/wood/araucaria",
+						"afc:wood/log/ancient_teak",
+						"tfc:wood/log/birch",
+						"tfc:wood/log/kapok",
+						"tfc:wood/wood/oak",
+						"tfc:wood/stripped_wood/willow",
+						"afc:wood/stripped_log/fig",
+						"tfc:wood/log/spruce",
+						"tfc:wood/log/white_cedar",
+						"afc:wood/wood/ancient_baobab",
+						"tfg:glacian_wood_stripped",
+						"tfc:wood/stripped_wood/sequoia",
+						"tfc:wood/stripped_wood/chestnut",
+						"afc:wood/stripped_wood/cypress",
+						"tfc:wood/wood/rosewood",
+						"afc:wood/stripped_log/teak",
+						"tfc:wood/log/hickory",
+						"tfg:wood/stripped_log/beech",
+						"tfc:wood/stripped_log/hickory",
+						"tfc:wood/stripped_wood/acacia",
+						"afc:wood/stripped_wood/hevea",
+						"afc:wood/wood/ancient_fig",
+						"ad_astra:strophar_stem",
+						"tfc:wood/wood/acacia",
+						"ad_astra:stripped_glacian_log",
+						"afc:wood/stripped_log/mahogany",
+						"ad_astra:glacian_log",
+						"afc:wood/wood/ancient_hevea",
+						"afc:wood/log/tualang",
+						"tfc:wood/stripped_wood/palm",
+						"afc:wood/wood/ironwood",
+						"tfc:wood/log/chestnut",
+						"tfc:wood/wood/white_cedar",
+						"afc:wood/wood/rainbow_eucalyptus",
+						"afc:wood/log/teak",
+						"afc:wood/wood/baobab",
+						"tfc:wood/wood/willow",
+						"afc:wood/stripped_wood/eucalyptus",
+						"afc:wood/wood/ancient_cypress",
+						"afc:wood/stripped_wood/ipe",
+						"afc:wood/log/ancient_hevea",
+						"afc:wood/log/black_oak",
+						"afc:wood/wood/redcedar",
+						"afc:wood/stripped_wood/teak",
+						"tfc:wood/stripped_log/palm",
+						"afc:wood/stripped_log/eucalyptus",
+						"afc:wood/wood/cypress",
+						"tfc:wood/stripped_wood/white_cedar",
+						"tfc:wood/stripped_log/kapok",
+						"tfc:wood/stripped_wood/pine",
+						"tfg:wood/log/mahoe",
+						"afc:wood/log/ipe",
+						"tfc:wood/log/oak",
+						"tfc:wood/log/willow",
+						"tfg:wood/stripped_wood/mahoe",
+						"wan_ancient_beasts:stripped_ginkgo_log",
+						"tfg:wood/log/beech",
+						"tfc:wood/stripped_wood/douglas_fir"
+					],
+					"amount": 16,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:wood_gas"
+					],
+					"amount": 1500,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:charcoal"
+					],
+					"amount": 20,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		},
+		{
+			"id": "gtceu:pyrolyse_oven/log_to_wood_vinegar",
+			"category": "pyrolyse_oven",
+			"duration": 640,
+			"voltage": 64,
+			"inputs": [
+				{
+					"cap": "circuit",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"afc:wood/stripped_log/ipe",
+						"tfc:wood/stripped_log/oak",
+						"afc:wood/log/ancient_ironwood",
+						"tfc:wood/stripped_wood/rosewood",
+						"afc:wood/log/redcedar",
+						"ad_astra:aeronos_stem",
+						"tfc:wood/stripped_log/ash",
+						"tfg:wood/stripped_wood/araucaria",
+						"afc:wood/stripped_wood/baobab",
+						"tfc:wood/log/aspen",
+						"tfg:wood/stripped_log/mahoe",
+						"wan_ancient_beasts:ginkgo_log",
+						"afc:wood/log/ancient_baobab",
+						"afc:wood/stripped_wood/fig",
+						"tfc:wood/stripped_wood/maple",
+						"afc:wood/log/baobab",
+						"tfc:wood/wood/birch",
+						"afc:wood/wood/eucalyptus",
+						"tfc:wood/stripped_wood/ash",
+						"afc:wood/wood/ancient_ironwood",
+						"tfc:wood/stripped_log/blackwood",
+						"tfc:wood/stripped_log/rosewood",
+						"tfc:wood/wood/aspen",
+						"afc:wood/log/cypress",
+						"afc:wood/log/rubber_fig",
+						"tfc:wood/log/acacia",
+						"afc:wood/stripped_log/hevea",
+						"wan_ancient_beasts:stripped_ginkgo_wood",
+						"tfc:wood/stripped_log/spruce",
+						"afc:wood/wood/teak",
+						"tfc:wood/stripped_log/douglas_fir",
+						"tfc:wood/log/rosewood",
+						"afc:wood/log/ironwood",
+						"tfc:wood/stripped_wood/kapok",
+						"afc:wood/wood/gum_arabic",
+						"afc:wood/wood/rubber_fig",
+						"afc:wood/stripped_log/ironwood",
+						"afc:wood/wood/poplar",
+						"tfc:wood/log/douglas_fir",
+						"tfc:wood/wood/sequoia",
+						"tfc:wood/stripped_log/willow",
+						"afc:wood/log/rainbow_eucalyptus",
+						"afc:wood/log/hevea",
+						"afc:wood/wood/ancient_tualang",
+						"wan_ancient_beasts:ginkgo_wood",
+						"afc:wood/log/ancient_ipe",
+						"tfg:wood/wood/beech",
+						"afc:wood/log/ancient_tualang",
+						"afc:wood/stripped_log/tualang",
+						"tfc:wood/stripped_log/mangrove",
+						"afc:wood/wood/ipe",
+						"tfc:wood/stripped_log/birch",
+						"tfc:wood/stripped_log/maple",
+						"tfc:wood/wood/kapok",
+						"tfg:wood/stripped_log/araucaria",
+						"tfc:wood/stripped_log/sycamore",
+						"afc:wood/log/ancient_mahogany",
+						"afc:wood/wood/tualang",
+						"afc:wood/log/fig",
+						"tfc:wood/stripped_wood/aspen",
+						"afc:wood/log/ancient_fig",
+						"tfc:stick_bundle",
+						"tfc:wood/log/blackwood",
+						"tfc:wood/wood/maple",
+						"tfc:wood/stripped_log/white_cedar",
+						"tfc:wood/wood/pine",
+						"afc:wood/log/ancient_eucalyptus",
+						"afc:wood/stripped_wood/mahogany",
+						"tfc:wood/stripped_log/chestnut",
+						"tfc:wood/wood/blackwood",
+						"afc:wood/log/ancient_cypress",
+						"tfc:wood/wood/hickory",
+						"tfc:wood/stripped_wood/oak",
+						"tfc:wood/stripped_log/pine",
+						"tfg:wood/wood/mahoe",
+						"afc:wood/wood/ancient_ipe",
+						"afc:wood/wood/mahogany",
+						"afc:wood/stripped_wood/ironwood",
+						"afc:wood/log/gum_arabic",
+						"tfg:wood/stripped_wood/beech",
+						"tfc:wood/wood/sycamore",
+						"afc:wood/wood/ancient_teak",
+						"afc:wood/wood/ancient_mahogany",
+						"tfc:wood/stripped_wood/blackwood",
+						"afc:wood/wood/black_oak",
+						"tfc:wood/log/sequoia",
+						"tfc:wood/wood/ash",
+						"afc:wood/log/mahogany",
+						"tfc:wood/wood/douglas_fir",
+						"tfg:wood/log/araucaria",
+						"tfc:wood/log/ash",
+						"tfc:wood/log/palm",
+						"afc:wood/log/poplar",
+						"tfc:wood/stripped_wood/spruce",
+						"afc:wood/stripped_wood/tualang",
+						"tfc:wood/wood/mangrove",
+						"tfc:wood/stripped_log/acacia",
+						"tfc:wood/wood/chestnut",
+						"tfc:wood/log/pine",
+						"tfc:wood/wood/palm",
+						"afc:wood/stripped_log/baobab",
+						"tfc:wood/log/maple",
+						"afc:wood/log/eucalyptus",
+						"afc:wood/wood/hevea",
+						"tfc:wood/stripped_wood/sycamore",
+						"tfc:wood/wood/spruce",
+						"afc:wood/stripped_log/cypress",
+						"afc:wood/wood/ancient_eucalyptus",
+						"tfc:wood/stripped_wood/birch",
+						"tfc:wood/log/mangrove",
+						"tfc:wood/stripped_log/sequoia",
+						"tfg:glacian_wood",
+						"afc:wood/wood/fig",
+						"tfc:wood/stripped_wood/hickory",
+						"tfc:wood/stripped_wood/mangrove",
+						"tfc:wood/stripped_log/aspen",
+						"tfc:wood/log/sycamore",
+						"tfg:wood/wood/araucaria",
+						"afc:wood/log/ancient_teak",
+						"tfc:wood/log/birch",
+						"tfc:wood/log/kapok",
+						"tfc:wood/wood/oak",
+						"tfc:wood/stripped_wood/willow",
+						"afc:wood/stripped_log/fig",
+						"tfc:wood/log/spruce",
+						"tfc:wood/log/white_cedar",
+						"afc:wood/wood/ancient_baobab",
+						"tfg:glacian_wood_stripped",
+						"tfc:wood/stripped_wood/sequoia",
+						"tfc:wood/stripped_wood/chestnut",
+						"afc:wood/stripped_wood/cypress",
+						"tfc:wood/wood/rosewood",
+						"afc:wood/stripped_log/teak",
+						"tfc:wood/log/hickory",
+						"tfg:wood/stripped_log/beech",
+						"tfc:wood/stripped_log/hickory",
+						"tfc:wood/stripped_wood/acacia",
+						"afc:wood/stripped_wood/hevea",
+						"afc:wood/wood/ancient_fig",
+						"ad_astra:strophar_stem",
+						"tfc:wood/wood/acacia",
+						"ad_astra:stripped_glacian_log",
+						"afc:wood/stripped_log/mahogany",
+						"ad_astra:glacian_log",
+						"afc:wood/wood/ancient_hevea",
+						"afc:wood/log/tualang",
+						"tfc:wood/stripped_wood/palm",
+						"afc:wood/wood/ironwood",
+						"tfc:wood/log/chestnut",
+						"tfc:wood/wood/white_cedar",
+						"afc:wood/wood/rainbow_eucalyptus",
+						"afc:wood/log/teak",
+						"afc:wood/wood/baobab",
+						"tfc:wood/wood/willow",
+						"afc:wood/stripped_wood/eucalyptus",
+						"afc:wood/wood/ancient_cypress",
+						"afc:wood/stripped_wood/ipe",
+						"afc:wood/log/ancient_hevea",
+						"afc:wood/log/black_oak",
+						"afc:wood/wood/redcedar",
+						"afc:wood/stripped_wood/teak",
+						"tfc:wood/stripped_log/palm",
+						"afc:wood/stripped_log/eucalyptus",
+						"afc:wood/wood/cypress",
+						"tfc:wood/stripped_wood/white_cedar",
+						"tfc:wood/stripped_log/kapok",
+						"tfc:wood/stripped_wood/pine",
+						"tfg:wood/log/mahoe",
+						"afc:wood/log/ipe",
+						"tfc:wood/log/oak",
+						"tfc:wood/log/willow",
+						"tfg:wood/stripped_wood/mahoe",
+						"wan_ancient_beasts:stripped_ginkgo_log",
+						"tfg:wood/log/beech",
+						"tfc:wood/stripped_wood/douglas_fir"
+					],
+					"amount": 16,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:wood_vinegar"
+					],
+					"amount": 3000,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"minecraft:charcoal"
+					],
+					"amount": 20,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			]
+		}
+	]
+}

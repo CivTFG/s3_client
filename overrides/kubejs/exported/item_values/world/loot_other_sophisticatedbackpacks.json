@@ -1,0 +1,897 @@
+{
+	"group": "other",
+	"namespace": "sophisticatedbackpacks",
+	"tables": [
+		{
+			"id": "sophisticatedbackpacks:inject/chests/bastion_treasure",
+			"json": {
+				"type": "minecraft:chest",
+				"random_sequence": "sophisticatedbackpacks:inject/chests/bastion_treasure",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"weight": 3.0,
+								"name": "sophisticatedbackpacks:iron_backpack"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 5.0,
+								"name": "sophisticatedbackpacks:gold_backpack"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 2.0,
+								"name": "sophisticatedbackpacks:feeding_upgrade"
+							},
+							{
+								"type": "minecraft:empty",
+								"weight": 90.0
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "sophisticatedbackpacks:iron_backpack",
+					"weight": 3.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "sophisticatedbackpacks:gold_backpack",
+					"weight": 5.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "sophisticatedbackpacks:feeding_upgrade",
+					"weight": 2.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:empty",
+					"id": null,
+					"weight": 90.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "sophisticatedbackpacks:inject/chests/woodland_mansion",
+			"json": {
+				"type": "minecraft:chest",
+				"random_sequence": "sophisticatedbackpacks:inject/chests/woodland_mansion",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"weight": 4.0,
+								"name": "sophisticatedbackpacks:iron_backpack"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 2.0,
+								"name": "sophisticatedbackpacks:gold_backpack"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 2.0,
+								"name": "sophisticatedbackpacks:advanced_magnet_upgrade"
+							},
+							{
+								"type": "minecraft:empty",
+								"weight": 92.0
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "sophisticatedbackpacks:iron_backpack",
+					"weight": 4.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "sophisticatedbackpacks:gold_backpack",
+					"weight": 2.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "sophisticatedbackpacks:advanced_magnet_upgrade",
+					"weight": 2.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:empty",
+					"id": null,
+					"weight": 92.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "sophisticatedbackpacks:inject/chests/spawn_bonus_chest",
+			"json": {
+				"type": "minecraft:chest",
+				"random_sequence": "sophisticatedbackpacks:inject/chests/spawn_bonus_chest",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"weight": 100.0,
+								"name": "sophisticatedbackpacks:backpack"
+							},
+							{
+								"type": "minecraft:empty",
+								"weight": 0.0
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "sophisticatedbackpacks:backpack",
+					"weight": 100.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:empty",
+					"id": null,
+					"weight": 0.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "sophisticatedbackpacks:inject/chests/nether_bridge",
+			"json": {
+				"type": "minecraft:chest",
+				"random_sequence": "sophisticatedbackpacks:inject/chests/nether_bridge",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"weight": 5.0,
+								"name": "sophisticatedbackpacks:iron_backpack"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 3.0,
+								"name": "sophisticatedbackpacks:gold_backpack"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 2.0,
+								"name": "sophisticatedbackpacks:feeding_upgrade"
+							},
+							{
+								"type": "minecraft:empty",
+								"weight": 90.0
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "sophisticatedbackpacks:iron_backpack",
+					"weight": 5.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "sophisticatedbackpacks:gold_backpack",
+					"weight": 3.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "sophisticatedbackpacks:feeding_upgrade",
+					"weight": 2.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:empty",
+					"id": null,
+					"weight": 90.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "sophisticatedbackpacks:inject/chests/abandoned_mineshaft",
+			"json": {
+				"type": "minecraft:chest",
+				"random_sequence": "sophisticatedbackpacks:inject/chests/abandoned_mineshaft",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"weight": 7.0,
+								"name": "sophisticatedbackpacks:backpack"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 5.0,
+								"name": "sophisticatedbackpacks:copper_backpack"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 3.0,
+								"name": "sophisticatedbackpacks:iron_backpack"
+							},
+							{
+								"type": "minecraft:item",
+								"name": "sophisticatedbackpacks:gold_backpack"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 2.0,
+								"name": "sophisticatedbackpacks:magnet_upgrade"
+							},
+							{
+								"type": "minecraft:empty",
+								"weight": 84.0
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "sophisticatedbackpacks:backpack",
+					"weight": 7.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "sophisticatedbackpacks:copper_backpack",
+					"weight": 5.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "sophisticatedbackpacks:iron_backpack",
+					"weight": 3.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "sophisticatedbackpacks:gold_backpack",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "sophisticatedbackpacks:magnet_upgrade",
+					"weight": 2.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:empty",
+					"id": null,
+					"weight": 84.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "sophisticatedbackpacks:inject/chests/simple_dungeon",
+			"json": {
+				"type": "minecraft:chest",
+				"random_sequence": "sophisticatedbackpacks:inject/chests/simple_dungeon",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"weight": 5.0,
+								"name": "sophisticatedbackpacks:backpack"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 3.0,
+								"name": "sophisticatedbackpacks:copper_backpack"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 2.0,
+								"name": "sophisticatedbackpacks:pickup_upgrade"
+							},
+							{
+								"type": "minecraft:empty",
+								"weight": 90.0
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "sophisticatedbackpacks:backpack",
+					"weight": 5.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "sophisticatedbackpacks:copper_backpack",
+					"weight": 3.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "sophisticatedbackpacks:pickup_upgrade",
+					"weight": 2.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:empty",
+					"id": null,
+					"weight": 90.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "sophisticatedbackpacks:inject/chests/shipwreck_treasure",
+			"json": {
+				"type": "minecraft:chest",
+				"random_sequence": "sophisticatedbackpacks:inject/chests/shipwreck_treasure",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"weight": 4.0,
+								"name": "sophisticatedbackpacks:iron_backpack"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 2.0,
+								"name": "sophisticatedbackpacks:gold_backpack"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 2.0,
+								"name": "sophisticatedbackpacks:advanced_magnet_upgrade"
+							},
+							{
+								"type": "minecraft:empty",
+								"weight": 92.0
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "sophisticatedbackpacks:iron_backpack",
+					"weight": 4.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "sophisticatedbackpacks:gold_backpack",
+					"weight": 2.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "sophisticatedbackpacks:advanced_magnet_upgrade",
+					"weight": 2.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:empty",
+					"id": null,
+					"weight": 92.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "sophisticatedbackpacks:inject/chests/end_city_treasure",
+			"json": {
+				"type": "minecraft:chest",
+				"random_sequence": "sophisticatedbackpacks:inject/chests/end_city_treasure",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"weight": 3.0,
+								"name": "sophisticatedbackpacks:diamond_backpack"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 5.0,
+								"name": "sophisticatedbackpacks:gold_backpack"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 2.0,
+								"name": "sophisticatedbackpacks:advanced_magnet_upgrade"
+							},
+							{
+								"type": "minecraft:empty",
+								"weight": 90.0
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "sophisticatedbackpacks:diamond_backpack",
+					"weight": 3.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "sophisticatedbackpacks:gold_backpack",
+					"weight": 5.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "sophisticatedbackpacks:advanced_magnet_upgrade",
+					"weight": 2.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:empty",
+					"id": null,
+					"weight": 90.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "sophisticatedbackpacks:inject/chests/desert_pyramid",
+			"json": {
+				"type": "minecraft:chest",
+				"random_sequence": "sophisticatedbackpacks:inject/chests/desert_pyramid",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"weight": 5.0,
+								"name": "sophisticatedbackpacks:copper_backpack"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 3.0,
+								"name": "sophisticatedbackpacks:iron_backpack"
+							},
+							{
+								"type": "minecraft:item",
+								"name": "sophisticatedbackpacks:gold_backpack"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 2.0,
+								"name": "sophisticatedbackpacks:magnet_upgrade"
+							},
+							{
+								"type": "minecraft:empty",
+								"weight": 89.0
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "sophisticatedbackpacks:copper_backpack",
+					"weight": 5.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "sophisticatedbackpacks:iron_backpack",
+					"weight": 3.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "sophisticatedbackpacks:gold_backpack",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "sophisticatedbackpacks:magnet_upgrade",
+					"weight": 2.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:empty",
+					"id": null,
+					"weight": 89.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		}
+	]
+}

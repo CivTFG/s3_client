@@ -1,0 +1,126 @@
+{
+	"group": "blocks",
+	"namespace": "craftingstation",
+	"tables": [
+		{
+			"id": "craftingstation:blocks/crafting_station_slab",
+			"json": {
+				"type": "minecraft:block",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:copy_name",
+										"source": "block_entity"
+									},
+									{
+										"function": "minecraft:set_count",
+										"conditions": [
+											{
+												"condition": "minecraft:block_state_property",
+												"block": "craftingstation:crafting_station_slab",
+												"properties": {
+													"type": "double"
+												}
+											}
+										],
+										"count": 2.0,
+										"add": false
+									},
+									{
+										"function": "minecraft:explosion_decay"
+									}
+								],
+								"name": "craftingstation:crafting_station_slab"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "craftingstation:crafting_station_slab",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:copy_name",
+						"minecraft:set_count",
+						"minecraft:explosion_decay"
+					],
+					"conditions": [],
+					"chain": [],
+					"countConditional": true
+				}
+			]
+		},
+		{
+			"id": "craftingstation:blocks/crafting_station",
+			"json": {
+				"type": "minecraft:block",
+				"pools": [
+					{
+						"name": "craftingstation",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:copy_name",
+										"source": "block_entity"
+									}
+								],
+								"name": "craftingstation:crafting_station"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "craftingstation:crafting_station",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [
+						"minecraft:copy_name"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		}
+	]
+}

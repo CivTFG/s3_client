@@ -1,0 +1,164 @@
+{
+	"configured": {
+		"gtceu:raw_oil_sprout": {
+			"type": "gtceu:fluid_sprout",
+			"json": {
+				"config": {
+					"fluid": "gtceu:oil_medium",
+					"size": {
+						"type": "minecraft:uniform",
+						"value": {
+							"min_inclusive": 9.0,
+							"max_inclusive": 13.0
+						}
+					},
+					"surface_offset": {
+						"type": "minecraft:uniform",
+						"value": {
+							"min_inclusive": 6.0,
+							"max_inclusive": 9.0
+						}
+					},
+					"sprout_chance": 0.4
+				},
+				"type": "gtceu:fluid_sprout"
+			},
+			"nested": [],
+			"blocks": [
+				"gtceu:oil_medium"
+			],
+			"blockTags": []
+		},
+		"gtceu:red_granite_blob": {
+			"type": "gtceu:stone_blob",
+			"json": {
+				"config": {
+					"state": {
+						"target": {
+							"tag": "minecraft:stone_ore_replaceables",
+							"predicate_type": "minecraft:tag_match"
+						},
+						"state": {
+							"Name": "gtceu:red_granite"
+						}
+					},
+					"size": {
+						"type": "minecraft:uniform",
+						"value": {
+							"min_inclusive": 20.0,
+							"max_inclusive": 30.0
+						}
+					}
+				},
+				"type": "gtceu:stone_blob"
+			},
+			"nested": [],
+			"blocks": [
+				"gtceu:red_granite"
+			],
+			"blockTags": [
+				"minecraft:stone_ore_replaceables"
+			]
+		},
+		"gtceu:rubber_tree": {
+			"type": "minecraft:tree",
+			"json": {
+				"config": {
+					"decorators": [],
+					"ignore_vines": true,
+					"force_dirt": false,
+					"dirt_provider": {
+						"state": {
+							"Name": "minecraft:dirt"
+						},
+						"type": "minecraft:simple_state_provider"
+					},
+					"minimum_size": {
+						"limit": 1.0,
+						"lower_size": 0.0,
+						"upper_size": 2.0,
+						"type": "minecraft:two_layers_feature_size"
+					},
+					"foliage_provider": {
+						"state": {
+							"Properties": {
+								"waterlogged": "false",
+								"persistent": "false",
+								"distance": "7"
+							},
+							"Name": "gtceu:rubber_leaves"
+						},
+						"type": "minecraft:simple_state_provider"
+					},
+					"foliage_placer": {
+						"radius": 1.0,
+						"offset": {
+							"type": "minecraft:uniform",
+							"value": {
+								"min_inclusive": 0.0,
+								"max_inclusive": 1.0
+							}
+						},
+						"height": 1.0,
+						"type": "minecraft:jungle_foliage_placer"
+					},
+					"trunk_provider": {
+						"state": {
+							"Properties": {
+								"natural": "true",
+								"axis": "y"
+							},
+							"Name": "gtceu:rubber_log"
+						},
+						"type": "minecraft:simple_state_provider"
+					},
+					"trunk_placer": {
+						"base_height": 5.0,
+						"height_rand_a": 1.0,
+						"height_rand_b": 3.0,
+						"type": "minecraft:forking_trunk_placer"
+					}
+				},
+				"type": "minecraft:tree"
+			},
+			"nested": [],
+			"blocks": [
+				"minecraft:dirt",
+				"gtceu:rubber_leaves",
+				"gtceu:rubber_log"
+			],
+			"blockTags": []
+		},
+		"gtceu:marble_blob": {
+			"type": "gtceu:stone_blob",
+			"json": {
+				"config": {
+					"state": {
+						"target": {
+							"tag": "minecraft:stone_ore_replaceables",
+							"predicate_type": "minecraft:tag_match"
+						},
+						"state": {
+							"Name": "gtceu:marble"
+						}
+					},
+					"size": {
+						"type": "minecraft:uniform",
+						"value": {
+							"min_inclusive": 20.0,
+							"max_inclusive": 30.0
+						}
+					}
+				},
+				"type": "gtceu:stone_blob"
+			},
+			"nested": [],
+			"blocks": [
+				"gtceu:marble"
+			],
+			"blockTags": [
+				"minecraft:stone_ore_replaceables"
+			]
+		}
+	}
+}

@@ -1,0 +1,858 @@
+{
+	"group": "chests",
+	"namespace": "chalk",
+	"tables": [
+		{
+			"id": "chalk:chests/simple_dungeon_chalk_loot",
+			"json": {
+				"type": "minecraft:chest",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 2.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"weight": 2.0,
+								"functions": [
+									{
+										"function": "minecraft:set_nbt",
+										"tag": "{Items:[{Count:1b,id:\"chalk:white_chalk\",tag:{Damage:23}},{Count:1b,id:\"minecraft:air\"},{Count:1b,id:\"minecraft:air\"},{Count:1b,id:\"minecraft:air\"},{Count:1b,id:\"minecraft:air\"},{Count:1b,id:\"chalk:light_gray_chalk\",tag:{Damage:0}},{Count:1b,id:\"minecraft:air\"},{Count:1b,id:\"chalk:red_chalk\",tag:{Damage:17}},{Count:1b,id:\"minecraft:air\"}]}"
+									}
+								],
+								"name": "chalk:chalk_box"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 2.0,
+								"functions": [
+									{
+										"function": "minecraft:set_nbt",
+										"tag": "{GlowUses:2,Items:[{Count:1b,id:\"minecraft:air\"},{Count:1b,id:\"chalk:light_gray_chalk\",tag:{Damage:6}},{Count:1b,id:\"minecraft:air\"},{Count:1b,id:\"minecraft:air\"},{Count:1b,id:\"chalk:white_chalk\",tag:{Damage:0}},{Count:1b,id:\"minecraft:air\"},{Count:1b,id:\"minecraft:air\"},{Count:1b,id:\"chalk:light_blue_chalk\",tag:{Damage:0}},{Count:7b,id:\"minecraft:glowstone_dust\"}]}"
+									}
+								],
+								"name": "chalk:chalk_box"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 2.0,
+								"functions": [
+									{
+										"function": "minecraft:set_nbt",
+										"tag": "{GlowUses:5,Items:[{Count:1b,id:\"chalk:blue_chalk\",tag:{Damage:3}},{Count:1b,id:\"minecraft:air\"},{Count:1b,id:\"chalk:pink_chalk\",tag:{Damage:50}},{Count:1b,id:\"minecraft:air\"},{Count:1b,id:\"minecraft:air\"},{Count:1b,id:\"minecraft:air\"},{Count:1b,id:\"minecraft:air\"},{Count:1b,id:\"chalk:yellow_chalk\",tag:{Damage:0}},{Count:5b,id:\"minecraft:glow_ink_sac\"}]}"
+									}
+								],
+								"name": "chalk:chalk_box"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 2.0,
+								"functions": [
+									{
+										"function": "minecraft:set_nbt",
+										"tag": "{Items:[{Count:1b,id:\"minecraft:air\"},{Count:1b,id:\"chalk:light_gray_chalk\",tag:{Damage:0}},{Count:1b,id:\"minecraft:air\"},{Count:1b,id:\"minecraft:air\"},{Count:1b,id:\"minecraft:air\"},{Count:1b,id:\"minecraft:air\"},{Count:1b,id:\"minecraft:air\"},{Count:1b,id:\"chalk:green_chalk\",tag:{Damage:0}},{Count:1b,id:\"minecraft:air\"}]}"
+									}
+								],
+								"name": "chalk:chalk_box"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 10.0,
+								"name": "chalk:white_chalk"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 8.0,
+								"name": "chalk:light_gray_chalk"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 4.0,
+								"name": "chalk:black_chalk"
+							},
+							{
+								"type": "minecraft:empty",
+								"weight": 60.0
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "chalk:chalk_box",
+					"weight": 2.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"count": null,
+					"functions": [
+						"minecraft:set_nbt"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "chalk:chalk_box",
+					"weight": 2.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"count": null,
+					"functions": [
+						"minecraft:set_nbt"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "chalk:chalk_box",
+					"weight": 2.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"count": null,
+					"functions": [
+						"minecraft:set_nbt"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "chalk:chalk_box",
+					"weight": 2.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"count": null,
+					"functions": [
+						"minecraft:set_nbt"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "chalk:white_chalk",
+					"weight": 10.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "chalk:light_gray_chalk",
+					"weight": 8.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "chalk:black_chalk",
+					"weight": 4.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:empty",
+					"id": null,
+					"weight": 60.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "chalk:chests/abandoned_mineshaft_chalk_loot",
+			"json": {
+				"type": "minecraft:chest",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 2.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"weight": 2.0,
+								"functions": [
+									{
+										"function": "minecraft:set_nbt",
+										"tag": "{Items:[{Count:1b,id:\"chalk:white_chalk\",tag:{Damage:23}},{Count:1b,id:\"minecraft:air\"},{Count:1b,id:\"minecraft:air\"},{Count:1b,id:\"minecraft:air\"},{Count:1b,id:\"minecraft:air\"},{Count:1b,id:\"chalk:light_gray_chalk\",tag:{Damage:0}},{Count:1b,id:\"minecraft:air\"},{Count:1b,id:\"chalk:red_chalk\",tag:{Damage:17}},{Count:1b,id:\"minecraft:air\"}]}"
+									}
+								],
+								"name": "chalk:chalk_box"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 2.0,
+								"functions": [
+									{
+										"function": "minecraft:set_nbt",
+										"tag": "{GlowUses:2,Items:[{Count:1b,id:\"minecraft:air\"},{Count:1b,id:\"chalk:light_gray_chalk\",tag:{Damage:6}},{Count:1b,id:\"minecraft:air\"},{Count:1b,id:\"minecraft:air\"},{Count:1b,id:\"chalk:white_chalk\",tag:{Damage:0}},{Count:1b,id:\"minecraft:air\"},{Count:1b,id:\"minecraft:air\"},{Count:1b,id:\"chalk:light_blue_chalk\",tag:{Damage:0}},{Count:7b,id:\"minecraft:glowstone_dust\"}]}"
+									}
+								],
+								"name": "chalk:chalk_box"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 2.0,
+								"functions": [
+									{
+										"function": "minecraft:set_nbt",
+										"tag": "{GlowUses:5,Items:[{Count:1b,id:\"chalk:blue_chalk\",tag:{Damage:3}},{Count:1b,id:\"minecraft:air\"},{Count:1b,id:\"chalk:pink_chalk\",tag:{Damage:50}},{Count:1b,id:\"minecraft:air\"},{Count:1b,id:\"minecraft:air\"},{Count:1b,id:\"minecraft:air\"},{Count:1b,id:\"minecraft:air\"},{Count:1b,id:\"chalk:yellow_chalk\",tag:{Damage:0}},{Count:5b,id:\"minecraft:glow_ink_sac\"}]}"
+									}
+								],
+								"name": "chalk:chalk_box"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 2.0,
+								"functions": [
+									{
+										"function": "minecraft:set_nbt",
+										"tag": "{Items:[{Count:1b,id:\"minecraft:air\"},{Count:1b,id:\"chalk:light_gray_chalk\",tag:{Damage:0}},{Count:1b,id:\"minecraft:air\"},{Count:1b,id:\"minecraft:air\"},{Count:1b,id:\"minecraft:air\"},{Count:1b,id:\"minecraft:air\"},{Count:1b,id:\"minecraft:air\"},{Count:1b,id:\"chalk:green_chalk\",tag:{Damage:0}},{Count:1b,id:\"minecraft:air\"}]}"
+									}
+								],
+								"name": "chalk:chalk_box"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 10.0,
+								"name": "chalk:white_chalk"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 8.0,
+								"name": "chalk:light_gray_chalk"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 4.0,
+								"name": "chalk:black_chalk"
+							},
+							{
+								"type": "minecraft:empty",
+								"weight": 60.0
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "chalk:chalk_box",
+					"weight": 2.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"count": null,
+					"functions": [
+						"minecraft:set_nbt"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "chalk:chalk_box",
+					"weight": 2.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"count": null,
+					"functions": [
+						"minecraft:set_nbt"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "chalk:chalk_box",
+					"weight": 2.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"count": null,
+					"functions": [
+						"minecraft:set_nbt"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "chalk:chalk_box",
+					"weight": 2.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"count": null,
+					"functions": [
+						"minecraft:set_nbt"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "chalk:white_chalk",
+					"weight": 10.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "chalk:light_gray_chalk",
+					"weight": 8.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "chalk:black_chalk",
+					"weight": 4.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:empty",
+					"id": null,
+					"weight": 60.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "chalk:chests/desert_pyramid_chalk_loot",
+			"json": {
+				"type": "minecraft:chest",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 2.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"weight": 2.0,
+								"functions": [
+									{
+										"function": "minecraft:set_nbt",
+										"tag": "{Items:[{Count:1b,id:\"chalk:white_chalk\",tag:{Damage:23}},{Count:1b,id:\"minecraft:air\"},{Count:1b,id:\"minecraft:air\"},{Count:1b,id:\"minecraft:air\"},{Count:1b,id:\"minecraft:air\"},{Count:1b,id:\"chalk:light_gray_chalk\",tag:{Damage:0}},{Count:1b,id:\"minecraft:air\"},{Count:1b,id:\"chalk:red_chalk\",tag:{Damage:17}},{Count:1b,id:\"minecraft:air\"}]}"
+									}
+								],
+								"name": "chalk:chalk_box"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 2.0,
+								"functions": [
+									{
+										"function": "minecraft:set_nbt",
+										"tag": "{GlowUses:2,Items:[{Count:1b,id:\"minecraft:air\"},{Count:1b,id:\"chalk:light_gray_chalk\",tag:{Damage:6}},{Count:1b,id:\"minecraft:air\"},{Count:1b,id:\"minecraft:air\"},{Count:1b,id:\"chalk:white_chalk\",tag:{Damage:0}},{Count:1b,id:\"minecraft:air\"},{Count:1b,id:\"minecraft:air\"},{Count:1b,id:\"chalk:light_blue_chalk\",tag:{Damage:0}},{Count:7b,id:\"minecraft:glowstone_dust\"}]}"
+									}
+								],
+								"name": "chalk:chalk_box"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 2.0,
+								"functions": [
+									{
+										"function": "minecraft:set_nbt",
+										"tag": "{Items:[{Count:1b,id:\"minecraft:air\"},{Count:1b,id:\"chalk:light_gray_chalk\",tag:{Damage:0}},{Count:1b,id:\"minecraft:air\"},{Count:1b,id:\"minecraft:air\"},{Count:1b,id:\"minecraft:air\"},{Count:1b,id:\"minecraft:air\"},{Count:1b,id:\"minecraft:air\"},{Count:1b,id:\"chalk:green_chalk\",tag:{Damage:0}},{Count:1b,id:\"minecraft:air\"}]}"
+									}
+								],
+								"name": "chalk:chalk_box"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 5.0,
+								"name": "chalk:white_chalk"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 5.0,
+								"name": "chalk:light_gray_chalk"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 5.0,
+								"name": "chalk:gray_chalk"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 5.0,
+								"name": "chalk:black_chalk"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 5.0,
+								"name": "chalk:yellow_chalk"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 5.0,
+								"name": "chalk:light_blue_chalk"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 5.0,
+								"name": "chalk:orange_chalk"
+							},
+							{
+								"type": "minecraft:empty",
+								"weight": 70.0
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "chalk:chalk_box",
+					"weight": 2.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"count": null,
+					"functions": [
+						"minecraft:set_nbt"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "chalk:chalk_box",
+					"weight": 2.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"count": null,
+					"functions": [
+						"minecraft:set_nbt"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "chalk:chalk_box",
+					"weight": 2.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"count": null,
+					"functions": [
+						"minecraft:set_nbt"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "chalk:white_chalk",
+					"weight": 5.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "chalk:light_gray_chalk",
+					"weight": 5.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "chalk:gray_chalk",
+					"weight": 5.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "chalk:black_chalk",
+					"weight": 5.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "chalk:yellow_chalk",
+					"weight": 5.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "chalk:light_blue_chalk",
+					"weight": 5.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "chalk:orange_chalk",
+					"weight": 5.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:empty",
+					"id": null,
+					"weight": 70.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "chalk:chests/village_chalk_loot",
+			"json": {
+				"type": "minecraft:chest",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": 2.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"weight": 5.0,
+								"name": "chalk:white_chalk"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 4.0,
+								"name": "chalk:light_gray_chalk"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 3.0,
+								"name": "chalk:gray_chalk"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 2.0,
+								"name": "chalk:black_chalk"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 5.0,
+								"name": "chalk:yellow_chalk"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 5.0,
+								"name": "chalk:light_blue_chalk"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 5.0,
+								"name": "chalk:orange_chalk"
+							},
+							{
+								"type": "minecraft:empty",
+								"weight": 70.0
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "chalk:white_chalk",
+					"weight": 5.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "chalk:light_gray_chalk",
+					"weight": 4.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "chalk:gray_chalk",
+					"weight": 3.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "chalk:black_chalk",
+					"weight": 2.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "chalk:yellow_chalk",
+					"weight": 5.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "chalk:light_blue_chalk",
+					"weight": 5.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "chalk:orange_chalk",
+					"weight": 5.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:empty",
+					"id": null,
+					"weight": 70.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		}
+	]
+}

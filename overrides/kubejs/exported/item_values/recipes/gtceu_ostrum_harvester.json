@@ -1,0 +1,57 @@
+{
+	"type": "gtceu:ostrum_harvester",
+	"recipes": [
+		{
+			"id": "tfg:ostrum_harvester/ostrum_harvesting",
+			"category": "ostrum_harvester",
+			"duration": 600,
+			"voltage": 30,
+			"inputs": [],
+			"outputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:ostrum_dust"
+					],
+					"amount": 3.0,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false,
+					"ranged": true,
+					"amountMin": 1,
+					"amountMax": 5
+				}
+			],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:drilling_fluid"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@2f6eb1f9",
+					"dimension": "ResourceKey[minecraft:dimension / ad_astra:mars]"
+				}
+			]
+		}
+	]
+}

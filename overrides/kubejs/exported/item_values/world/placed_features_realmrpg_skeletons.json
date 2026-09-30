@@ -1,0 +1,1162 @@
+{
+	"placed": {
+		"realmrpg_skeletons:crimson_skeletons": {
+			"feature": "realmrpg_skeletons:crimson_skeletons",
+			"json": {
+				"feature": "realmrpg_skeletons:crimson_skeletons",
+				"placement": [
+					{
+						"count": {
+							"type": "minecraft:uniform",
+							"value": {
+								"min_inclusive": 1.0,
+								"max_inclusive": 3.0
+							}
+						},
+						"type": "minecraft:count"
+					},
+					{
+						"type": "minecraft:in_square"
+					},
+					{
+						"height": {
+							"min_inclusive": {
+								"above_bottom": 5.0
+							},
+							"max_inclusive": {
+								"below_top": 5.0
+							},
+							"type": "minecraft:uniform"
+						},
+						"type": "minecraft:height_range"
+					},
+					{
+						"type": "minecraft:biome"
+					}
+				]
+			}
+		},
+		"realmrpg_skeletons:lush_cave_skeletons": {
+			"feature": "realmrpg_skeletons:lush_cave_skeletons",
+			"json": {
+				"feature": "realmrpg_skeletons:lush_cave_skeletons",
+				"placement": [
+					{
+						"count": {
+							"type": "minecraft:uniform",
+							"value": {
+								"min_inclusive": 1.0,
+								"max_inclusive": 3.0
+							}
+						},
+						"type": "minecraft:count"
+					},
+					{
+						"type": "minecraft:in_square"
+					},
+					{
+						"height": {
+							"min_inclusive": {
+								"above_bottom": 5.0
+							},
+							"max_inclusive": {
+								"below_top": 5.0
+							},
+							"type": "minecraft:uniform"
+						},
+						"type": "minecraft:height_range"
+					},
+					{
+						"type": "minecraft:biome"
+					}
+				]
+			}
+		},
+		"realmrpg_skeletons:desert_skeletons": {
+			"feature": "realmrpg_skeletons:desert_skeletons",
+			"json": {
+				"feature": "realmrpg_skeletons:desert_skeletons",
+				"placement": [
+					{
+						"max_rainfall": 100.0,
+						"type": "tfc:climate"
+					},
+					{
+						"count": {
+							"type": "minecraft:uniform",
+							"value": {
+								"min_inclusive": 1.0,
+								"max_inclusive": 4.0
+							}
+						},
+						"type": "minecraft:count"
+					},
+					{
+						"type": "minecraft:in_square"
+					},
+					{
+						"height": {
+							"min_inclusive": {
+								"absolute": 60.0
+							},
+							"max_inclusive": {
+								"below_top": 5.0
+							},
+							"type": "minecraft:uniform"
+						},
+						"type": "minecraft:height_range"
+					},
+					{
+						"type": "minecraft:biome"
+					}
+				]
+			}
+		},
+		"realmrpg_skeletons:overworld_surface_skeletons": {
+			"feature": "realmrpg_skeletons:overworld_surface_skeletons",
+			"json": {
+				"feature": "realmrpg_skeletons:overworld_surface_skeletons",
+				"placement": [
+					{
+						"count": {
+							"type": "minecraft:uniform",
+							"value": {
+								"min_inclusive": 0.0,
+								"max_inclusive": 2.0
+							}
+						},
+						"type": "minecraft:count"
+					},
+					{
+						"type": "minecraft:in_square"
+					},
+					{
+						"height": {
+							"min_inclusive": {
+								"absolute": 55.0
+							},
+							"max_inclusive": {
+								"below_top": 5.0
+							},
+							"type": "minecraft:uniform"
+						},
+						"type": "minecraft:height_range"
+					},
+					{
+						"type": "minecraft:biome"
+					}
+				]
+			}
+		},
+		"realmrpg_skeletons:dripstone_cave_skeletons": {
+			"feature": "realmrpg_skeletons:dripstone_cave_skeletons",
+			"json": {
+				"feature": "realmrpg_skeletons:dripstone_cave_skeletons",
+				"placement": [
+					{
+						"count": {
+							"type": "minecraft:uniform",
+							"value": {
+								"min_inclusive": 1.0,
+								"max_inclusive": 3.0
+							}
+						},
+						"type": "minecraft:count"
+					},
+					{
+						"type": "minecraft:in_square"
+					},
+					{
+						"height": {
+							"min_inclusive": {
+								"absolute": 4.0
+							},
+							"max_inclusive": {
+								"below_top": 55.0
+							},
+							"type": "minecraft:uniform"
+						},
+						"type": "minecraft:height_range"
+					},
+					{
+						"type": "minecraft:biome"
+					}
+				]
+			}
+		},
+		"realmrpg_skeletons:snow_skeletons": {
+			"feature": "realmrpg_skeletons:snow_skeletons",
+			"json": {
+				"feature": "realmrpg_skeletons:snow_skeletons",
+				"placement": [
+					{
+						"max_temperature": -12.0,
+						"type": "tfc:climate"
+					},
+					{
+						"count": {
+							"type": "minecraft:uniform",
+							"value": {
+								"min_inclusive": 3.0,
+								"max_inclusive": 5.0
+							}
+						},
+						"type": "minecraft:count"
+					},
+					{
+						"type": "minecraft:in_square"
+					},
+					{
+						"height": {
+							"min_inclusive": {
+								"absolute": 55.0
+							},
+							"max_inclusive": {
+								"below_top": 5.0
+							},
+							"type": "minecraft:uniform"
+						},
+						"type": "minecraft:height_range"
+					},
+					{
+						"type": "minecraft:biome"
+					}
+				]
+			}
+		},
+		"realmrpg_skeletons:end_hanging_skeletons": {
+			"feature": "realmrpg_skeletons:end_hanging_skeletons",
+			"json": {
+				"feature": "realmrpg_skeletons:end_hanging_skeletons",
+				"placement": [
+					{
+						"count": {
+							"type": "minecraft:uniform",
+							"value": {
+								"min_inclusive": 0.0,
+								"max_inclusive": 4.0
+							}
+						},
+						"type": "minecraft:count"
+					},
+					{
+						"type": "minecraft:in_square"
+					},
+					{
+						"height": {
+							"min_inclusive": {
+								"above_bottom": 5.0
+							},
+							"max_inclusive": {
+								"below_top": 5.0
+							},
+							"type": "minecraft:uniform"
+						},
+						"type": "minecraft:height_range"
+					},
+					{
+						"type": "minecraft:biome"
+					}
+				]
+			}
+		},
+		"realmrpg_skeletons:jumped_skeletons": {
+			"feature": "realmrpg_skeletons:jumped_skeletons",
+			"json": {
+				"feature": "realmrpg_skeletons:jumped_skeletons",
+				"placement": [
+					{
+						"count": {
+							"type": "minecraft:uniform",
+							"value": {
+								"min_inclusive": 1.0,
+								"max_inclusive": 2.0
+							}
+						},
+						"type": "minecraft:count"
+					},
+					{
+						"type": "minecraft:in_square"
+					},
+					{
+						"height": {
+							"min_inclusive": {
+								"above_bottom": 5.0
+							},
+							"max_inclusive": {
+								"below_top": 5.0
+							},
+							"type": "minecraft:uniform"
+						},
+						"type": "minecraft:height_range"
+					},
+					{
+						"type": "minecraft:biome"
+					}
+				]
+			}
+		},
+		"realmrpg_skeletons:sand_skeletons": {
+			"feature": "realmrpg_skeletons:sand_skeletons",
+			"json": {
+				"feature": "realmrpg_skeletons:sand_skeletons",
+				"placement": [
+					{
+						"count": {
+							"type": "minecraft:uniform",
+							"value": {
+								"min_inclusive": 1.0,
+								"max_inclusive": 4.0
+							}
+						},
+						"type": "minecraft:count"
+					},
+					{
+						"type": "minecraft:in_square"
+					},
+					{
+						"height": {
+							"min_inclusive": {
+								"absolute": 55.0
+							},
+							"max_inclusive": {
+								"below_top": 5.0
+							},
+							"type": "minecraft:uniform"
+						},
+						"type": "minecraft:height_range"
+					},
+					{
+						"type": "minecraft:biome"
+					}
+				]
+			}
+		},
+		"realmrpg_skeletons:snow_layer_skeletons": {
+			"feature": "realmrpg_skeletons:snow_layer_skeletons",
+			"json": {
+				"feature": "realmrpg_skeletons:snow_layer_skeletons",
+				"placement": [
+					{
+						"max_temperature": -10.0,
+						"type": "tfc:climate"
+					},
+					{
+						"count": {
+							"type": "minecraft:uniform",
+							"value": {
+								"min_inclusive": 4.0,
+								"max_inclusive": 8.0
+							}
+						},
+						"type": "minecraft:count"
+					},
+					{
+						"type": "minecraft:in_square"
+					},
+					{
+						"height": {
+							"min_inclusive": {
+								"absolute": 55.0
+							},
+							"max_inclusive": {
+								"below_top": 5.0
+							},
+							"type": "minecraft:uniform"
+						},
+						"type": "minecraft:height_range"
+					},
+					{
+						"type": "minecraft:biome"
+					}
+				]
+			}
+		},
+		"realmrpg_skeletons:anywhere_big_skeletons": {
+			"feature": "realmrpg_skeletons:anywhere_big_skeletons",
+			"json": {
+				"feature": "realmrpg_skeletons:anywhere_big_skeletons",
+				"placement": [
+					{
+						"count": {
+							"type": "minecraft:uniform",
+							"value": {
+								"min_inclusive": 0.0,
+								"max_inclusive": 2.0
+							}
+						},
+						"type": "minecraft:count"
+					},
+					{
+						"type": "minecraft:in_square"
+					},
+					{
+						"height": {
+							"min_inclusive": {
+								"above_bottom": 5.0
+							},
+							"max_inclusive": {
+								"below_top": 5.0
+							},
+							"type": "minecraft:uniform"
+						},
+						"type": "minecraft:height_range"
+					},
+					{
+						"type": "minecraft:biome"
+					}
+				]
+			}
+		},
+		"realmrpg_skeletons:surface_skeletons": {
+			"feature": "realmrpg_skeletons:surface_skeletons",
+			"json": {
+				"feature": "realmrpg_skeletons:surface_skeletons",
+				"placement": [
+					{
+						"count": {
+							"type": "minecraft:uniform",
+							"value": {
+								"min_inclusive": 0.0,
+								"max_inclusive": 2.0
+							}
+						},
+						"type": "minecraft:count"
+					},
+					{
+						"type": "minecraft:in_square"
+					},
+					{
+						"height": {
+							"min_inclusive": {
+								"above_bottom": 4.0
+							},
+							"max_inclusive": {
+								"below_top": 5.0
+							},
+							"type": "minecraft:uniform"
+						},
+						"type": "minecraft:height_range"
+					},
+					{
+						"type": "minecraft:biome"
+					}
+				]
+			}
+		},
+		"realmrpg_skeletons:deep_cave_skeletons": {
+			"feature": "realmrpg_skeletons:deep_cave_skeletons",
+			"json": {
+				"feature": "realmrpg_skeletons:deep_cave_skeletons",
+				"placement": [
+					{
+						"count": {
+							"type": "minecraft:uniform",
+							"value": {
+								"min_inclusive": 8.0,
+								"max_inclusive": 12.0
+							}
+						},
+						"type": "minecraft:count"
+					},
+					{
+						"type": "minecraft:in_square"
+					},
+					{
+						"height": {
+							"min_inclusive": {
+								"above_bottom": 2.0
+							},
+							"max_inclusive": {
+								"absolute": 4.0
+							},
+							"type": "minecraft:uniform"
+						},
+						"type": "minecraft:height_range"
+					},
+					{
+						"type": "minecraft:biome"
+					}
+				]
+			}
+		},
+		"realmrpg_skeletons:end_skeletons": {
+			"feature": "realmrpg_skeletons:end_skeletons",
+			"json": {
+				"feature": "realmrpg_skeletons:end_skeletons",
+				"placement": [
+					{
+						"count": {
+							"type": "minecraft:uniform",
+							"value": {
+								"min_inclusive": 1.0,
+								"max_inclusive": 3.0
+							}
+						},
+						"type": "minecraft:count"
+					},
+					{
+						"type": "minecraft:in_square"
+					},
+					{
+						"height": {
+							"min_inclusive": {
+								"above_bottom": 5.0
+							},
+							"max_inclusive": {
+								"below_top": 5.0
+							},
+							"type": "minecraft:uniform"
+						},
+						"type": "minecraft:height_range"
+					},
+					{
+						"type": "minecraft:biome"
+					}
+				]
+			}
+		},
+		"realmrpg_skeletons:dripstone_block_skeletons": {
+			"feature": "realmrpg_skeletons:dripstone_block_skeletons",
+			"json": {
+				"feature": "realmrpg_skeletons:dripstone_block_skeletons",
+				"placement": [
+					{
+						"count": {
+							"type": "minecraft:uniform",
+							"value": {
+								"min_inclusive": 1.0,
+								"max_inclusive": 3.0
+							}
+						},
+						"type": "minecraft:count"
+					},
+					{
+						"type": "minecraft:in_square"
+					},
+					{
+						"type": "minecraft:biome"
+					}
+				]
+			}
+		},
+		"realmrpg_skeletons:cave_skeletons": {
+			"feature": "realmrpg_skeletons:cave_skeletons",
+			"json": {
+				"feature": "realmrpg_skeletons:cave_skeletons",
+				"placement": [
+					{
+						"count": {
+							"type": "minecraft:uniform",
+							"value": {
+								"min_inclusive": 6.0,
+								"max_inclusive": 10.0
+							}
+						},
+						"type": "minecraft:count"
+					},
+					{
+						"type": "minecraft:in_square"
+					},
+					{
+						"height": {
+							"min_inclusive": {
+								"above_bottom": 2.0
+							},
+							"max_inclusive": {
+								"absolute": 55.0
+							},
+							"type": "minecraft:uniform"
+						},
+						"type": "minecraft:height_range"
+					},
+					{
+						"type": "minecraft:biome"
+					}
+				]
+			}
+		},
+		"realmrpg_skeletons:lava_overworld_skeletons": {
+			"feature": "realmrpg_skeletons:lava_overworld_skeletons",
+			"json": {
+				"feature": "realmrpg_skeletons:lava_overworld_skeletons",
+				"placement": [
+					{
+						"count": {
+							"type": "minecraft:uniform",
+							"value": {
+								"min_inclusive": 6.0,
+								"max_inclusive": 40.0
+							}
+						},
+						"type": "minecraft:count"
+					},
+					{
+						"type": "minecraft:in_square"
+					},
+					{
+						"height": {
+							"min_inclusive": {
+								"above_bottom": 4.0
+							},
+							"max_inclusive": {
+								"below_top": 5.0
+							},
+							"type": "minecraft:uniform"
+						},
+						"type": "minecraft:height_range"
+					},
+					{
+						"type": "minecraft:biome"
+					}
+				]
+			}
+		},
+		"realmrpg_skeletons:anywhere_skeletons": {
+			"feature": "realmrpg_skeletons:anywhere_skeletons",
+			"json": {
+				"feature": "realmrpg_skeletons:anywhere_skeletons",
+				"placement": [
+					{
+						"count": {
+							"type": "minecraft:uniform",
+							"value": {
+								"min_inclusive": 0.0,
+								"max_inclusive": 2.0
+							}
+						},
+						"type": "minecraft:count"
+					},
+					{
+						"type": "minecraft:in_square"
+					},
+					{
+						"height": {
+							"min_inclusive": {
+								"above_bottom": 5.0
+							},
+							"max_inclusive": {
+								"below_top": 5.0
+							},
+							"type": "minecraft:uniform"
+						},
+						"type": "minecraft:height_range"
+					},
+					{
+						"type": "minecraft:biome"
+					}
+				]
+			}
+		},
+		"realmrpg_skeletons:lava_nether_skeletons": {
+			"feature": "realmrpg_skeletons:lava_nether_skeletons",
+			"json": {
+				"feature": "realmrpg_skeletons:lava_nether_skeletons",
+				"placement": [
+					{
+						"count": {
+							"type": "minecraft:uniform",
+							"value": {
+								"min_inclusive": 0.0,
+								"max_inclusive": 1.0
+							}
+						},
+						"type": "minecraft:count"
+					},
+					{
+						"type": "minecraft:in_square"
+					},
+					{
+						"height": {
+							"min_inclusive": {
+								"above_bottom": 4.0
+							},
+							"max_inclusive": {
+								"below_top": 5.0
+							},
+							"type": "minecraft:uniform"
+						},
+						"type": "minecraft:height_range"
+					},
+					{
+						"type": "minecraft:biome"
+					}
+				]
+			}
+		},
+		"realmrpg_skeletons:lush_cave_hanging_skeletons": {
+			"feature": "realmrpg_skeletons:lush_cave_hanging_skeletons",
+			"json": {
+				"feature": "realmrpg_skeletons:lush_cave_hanging_skeletons",
+				"placement": [
+					{
+						"count": {
+							"type": "minecraft:uniform",
+							"value": {
+								"min_inclusive": 0.0,
+								"max_inclusive": 10.0
+							}
+						},
+						"type": "minecraft:count"
+					},
+					{
+						"type": "minecraft:in_square"
+					},
+					{
+						"height": {
+							"min_inclusive": {
+								"above_bottom": 5.0
+							},
+							"max_inclusive": {
+								"below_top": 5.0
+							},
+							"type": "minecraft:uniform"
+						},
+						"type": "minecraft:height_range"
+					},
+					{
+						"type": "minecraft:biome"
+					}
+				]
+			}
+		},
+		"realmrpg_skeletons:mushroom_skeletons": {
+			"feature": "realmrpg_skeletons:mushroom_skeletons",
+			"json": {
+				"feature": "realmrpg_skeletons:mushroom_skeletons",
+				"placement": [
+					{
+						"count": {
+							"type": "minecraft:uniform",
+							"value": {
+								"min_inclusive": 0.0,
+								"max_inclusive": 4.0
+							}
+						},
+						"type": "minecraft:count"
+					},
+					{
+						"type": "minecraft:in_square"
+					},
+					{
+						"height": {
+							"min_inclusive": {
+								"above_bottom": 4.0
+							},
+							"max_inclusive": {
+								"below_top": 5.0
+							},
+							"type": "minecraft:uniform"
+						},
+						"type": "minecraft:height_range"
+					},
+					{
+						"type": "minecraft:biome"
+					}
+				]
+			}
+		},
+		"realmrpg_skeletons:underwater_skeletons": {
+			"feature": "realmrpg_skeletons:underwater_skeletons",
+			"json": {
+				"feature": "realmrpg_skeletons:underwater_skeletons",
+				"placement": [
+					{
+						"count": {
+							"type": "minecraft:uniform",
+							"value": {
+								"min_inclusive": 1.0,
+								"max_inclusive": 3.0
+							}
+						},
+						"type": "minecraft:count"
+					},
+					{
+						"type": "minecraft:in_square"
+					},
+					{
+						"height": {
+							"min_inclusive": {
+								"above_bottom": 5.0
+							},
+							"max_inclusive": {
+								"below_top": 5.0
+							},
+							"type": "minecraft:uniform"
+						},
+						"type": "minecraft:height_range"
+					},
+					{
+						"type": "minecraft:biome"
+					}
+				]
+			}
+		},
+		"realmrpg_skeletons:monument_skeletons": {
+			"feature": "realmrpg_skeletons:monument_skeletons",
+			"json": {
+				"feature": "realmrpg_skeletons:monument_skeletons",
+				"placement": [
+					{
+						"count": {
+							"type": "minecraft:uniform",
+							"value": {
+								"min_inclusive": 2.0,
+								"max_inclusive": 5.0
+							}
+						},
+						"type": "minecraft:count"
+					},
+					{
+						"type": "minecraft:in_square"
+					},
+					{
+						"height": {
+							"min_inclusive": {
+								"above_bottom": 5.0
+							},
+							"max_inclusive": {
+								"below_top": 5.0
+							},
+							"type": "minecraft:uniform"
+						},
+						"type": "minecraft:height_range"
+					},
+					{
+						"type": "minecraft:biome"
+					}
+				]
+			}
+		},
+		"realmrpg_skeletons:warped_skeletons": {
+			"feature": "realmrpg_skeletons:warped_skeletons",
+			"json": {
+				"feature": "realmrpg_skeletons:warped_skeletons",
+				"placement": [
+					{
+						"count": {
+							"type": "minecraft:uniform",
+							"value": {
+								"min_inclusive": 1.0,
+								"max_inclusive": 3.0
+							}
+						},
+						"type": "minecraft:count"
+					},
+					{
+						"type": "minecraft:in_square"
+					},
+					{
+						"height": {
+							"min_inclusive": {
+								"above_bottom": 5.0
+							},
+							"max_inclusive": {
+								"below_top": 5.0
+							},
+							"type": "minecraft:uniform"
+						},
+						"type": "minecraft:height_range"
+					},
+					{
+						"type": "minecraft:biome"
+					}
+				]
+			}
+		},
+		"realmrpg_skeletons:deep_underground_chambers": {
+			"feature": "realmrpg_skeletons:deep_underground_chambers",
+			"json": {
+				"feature": "realmrpg_skeletons:deep_underground_chambers",
+				"placement": [
+					{
+						"chance": 33.0,
+						"type": "minecraft:rarity_filter"
+					},
+					{
+						"type": "minecraft:in_square"
+					},
+					{
+						"height": {
+							"min_inclusive": {
+								"above_bottom": 8.0
+							},
+							"max_inclusive": {
+								"absolute": 0.0
+							},
+							"type": "minecraft:uniform"
+						},
+						"type": "minecraft:height_range"
+					},
+					{
+						"predicate": {
+							"offset": [
+								0.0,
+								-1.0,
+								0.0
+							],
+							"blocks": "#realmrpg_skeletons:deep_underground_chamber_can_generate_on",
+							"type": "minecraft:matching_blocks"
+						},
+						"type": "minecraft:block_predicate_filter"
+					},
+					{
+						"predicate": {
+							"predicate": {
+								"offset": [
+									0.0,
+									-1.0,
+									0.0
+								],
+								"blocks": "#realmrpg_skeletons:skeletons_cannot_generate_on",
+								"type": "minecraft:matching_blocks"
+							},
+							"type": "minecraft:not"
+						},
+						"type": "minecraft:block_predicate_filter"
+					},
+					{
+						"type": "minecraft:biome"
+					}
+				]
+			}
+		},
+		"realmrpg_skeletons:nether_skeletons": {
+			"feature": "realmrpg_skeletons:nether_skeletons",
+			"json": {
+				"feature": "realmrpg_skeletons:nether_skeletons",
+				"placement": [
+					{
+						"count": {
+							"type": "minecraft:uniform",
+							"value": {
+								"min_inclusive": 3.0,
+								"max_inclusive": 7.0
+							}
+						},
+						"type": "minecraft:count"
+					},
+					{
+						"type": "minecraft:in_square"
+					},
+					{
+						"height": {
+							"min_inclusive": {
+								"above_bottom": 5.0
+							},
+							"max_inclusive": {
+								"below_top": 5.0
+							},
+							"type": "minecraft:uniform"
+						},
+						"type": "minecraft:height_range"
+					},
+					{
+						"type": "minecraft:biome"
+					}
+				]
+			}
+		},
+		"realmrpg_skeletons:crimson_hanging_skeletons": {
+			"feature": "realmrpg_skeletons:crimson_hanging_skeletons",
+			"json": {
+				"feature": "realmrpg_skeletons:crimson_hanging_skeletons",
+				"placement": [
+					{
+						"count": {
+							"type": "minecraft:uniform",
+							"value": {
+								"min_inclusive": 0.0,
+								"max_inclusive": 4.0
+							}
+						},
+						"type": "minecraft:count"
+					},
+					{
+						"type": "minecraft:in_square"
+					},
+					{
+						"height": {
+							"min_inclusive": {
+								"above_bottom": 5.0
+							},
+							"max_inclusive": {
+								"below_top": 5.0
+							},
+							"type": "minecraft:uniform"
+						},
+						"type": "minecraft:height_range"
+					},
+					{
+						"type": "minecraft:biome"
+					}
+				]
+			}
+		},
+		"realmrpg_skeletons:underground_chambers": {
+			"feature": "realmrpg_skeletons:underground_chambers",
+			"json": {
+				"feature": "realmrpg_skeletons:underground_chambers",
+				"placement": [
+					{
+						"chance": 33.0,
+						"type": "minecraft:rarity_filter"
+					},
+					{
+						"type": "minecraft:in_square"
+					},
+					{
+						"height": {
+							"min_inclusive": {
+								"above_bottom": 5.0
+							},
+							"max_inclusive": {
+								"absolute": 60.0
+							},
+							"type": "minecraft:uniform"
+						},
+						"type": "minecraft:height_range"
+					},
+					{
+						"predicate": {
+							"offset": [
+								0.0,
+								-1.0,
+								0.0
+							],
+							"blocks": "#realmrpg_skeletons:underground_chamber_can_generate_on",
+							"type": "minecraft:matching_blocks"
+						},
+						"type": "minecraft:block_predicate_filter"
+					},
+					{
+						"predicate": {
+							"predicate": {
+								"offset": [
+									0.0,
+									-1.0,
+									0.0
+								],
+								"blocks": "#realmrpg_skeletons:skeletons_cannot_generate_on",
+								"type": "minecraft:matching_blocks"
+							},
+							"type": "minecraft:not"
+						},
+						"type": "minecraft:block_predicate_filter"
+					},
+					{
+						"type": "minecraft:biome"
+					}
+				]
+			}
+		},
+		"realmrpg_skeletons:overworld_surface_big_skeletons": {
+			"feature": "realmrpg_skeletons:overworld_surface_big_skeletons",
+			"json": {
+				"feature": "realmrpg_skeletons:overworld_surface_big_skeletons",
+				"placement": [
+					{
+						"count": {
+							"type": "minecraft:uniform",
+							"value": {
+								"min_inclusive": 0.0,
+								"max_inclusive": 2.0
+							}
+						},
+						"type": "minecraft:count"
+					},
+					{
+						"type": "minecraft:in_square"
+					},
+					{
+						"height": {
+							"min_inclusive": {
+								"absolute": 55.0
+							},
+							"max_inclusive": {
+								"below_top": 5.0
+							},
+							"type": "minecraft:uniform"
+						},
+						"type": "minecraft:height_range"
+					},
+					{
+						"type": "minecraft:biome"
+					}
+				]
+			}
+		},
+		"realmrpg_skeletons:end_center_skeletons": {
+			"feature": "realmrpg_skeletons:end_center_skeletons",
+			"json": {
+				"feature": "realmrpg_skeletons:end_center_skeletons",
+				"placement": [
+					{
+						"count": {
+							"type": "minecraft:uniform",
+							"value": {
+								"min_inclusive": 1.0,
+								"max_inclusive": 3.0
+							}
+						},
+						"type": "minecraft:count"
+					},
+					{
+						"type": "minecraft:in_square"
+					},
+					{
+						"height": {
+							"min_inclusive": {
+								"above_bottom": 5.0
+							},
+							"max_inclusive": {
+								"below_top": 5.0
+							},
+							"type": "minecraft:uniform"
+						},
+						"type": "minecraft:height_range"
+					},
+					{
+						"type": "minecraft:biome"
+					}
+				]
+			}
+		},
+		"realmrpg_skeletons:webbed_skeletons": {
+			"feature": "realmrpg_skeletons:webbed_skeletons",
+			"json": {
+				"feature": "realmrpg_skeletons:webbed_skeletons",
+				"placement": [
+					{
+						"count": {
+							"type": "minecraft:uniform",
+							"value": {
+								"min_inclusive": 1.0,
+								"max_inclusive": 3.0
+							}
+						},
+						"type": "minecraft:count"
+					},
+					{
+						"type": "minecraft:in_square"
+					},
+					{
+						"height": {
+							"min_inclusive": {
+								"above_bottom": 5.0
+							},
+							"max_inclusive": {
+								"below_top": 5.0
+							},
+							"type": "minecraft:uniform"
+						},
+						"type": "minecraft:height_range"
+					},
+					{
+						"type": "minecraft:biome"
+					}
+				]
+			}
+		}
+	}
+}

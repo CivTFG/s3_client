@@ -1,0 +1,465 @@
+{
+	"type": "tfc:alloy",
+	"recipes": [
+		{
+			"id": "tfc:alloy/rose_gold",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:copper"
+					],
+					"fluidAmount": 32.4
+				},
+				{
+					"ids": [
+						"gtceu:gold"
+					],
+					"fluidAmount": 111.60000000000001
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": false,
+			"extraOutputs": [
+				{
+					"cap": "fluid",
+					"id": "gtceu:rose_gold",
+					"amount": 144.0
+				}
+			]
+		},
+		{
+			"id": "tfc:alloy/weak_red_steel",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:rose_gold"
+					],
+					"fluidAmount": 18.0
+				},
+				{
+					"ids": [
+						"gtceu:black_steel"
+					],
+					"fluidAmount": 75.60000000000001
+				},
+				{
+					"ids": [
+						"gtceu:brass"
+					],
+					"fluidAmount": 18.0
+				},
+				{
+					"ids": [
+						"gtceu:steel"
+					],
+					"fluidAmount": 32.4
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": false,
+			"extraOutputs": [
+				{
+					"cap": "fluid",
+					"id": "tfc:metal/weak_red_steel",
+					"amount": 144.0
+				}
+			]
+		},
+		{
+			"id": "tfc:alloy/brass",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:copper"
+					],
+					"fluidAmount": 108.0
+				},
+				{
+					"ids": [
+						"gtceu:zinc"
+					],
+					"fluidAmount": 36.0
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": false,
+			"extraOutputs": [
+				{
+					"cap": "fluid",
+					"id": "gtceu:brass",
+					"amount": 144.0
+				}
+			]
+		},
+		{
+			"id": "tfc:alloy/black_bronze",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:copper"
+					],
+					"fluidAmount": 90.94736842105263
+				},
+				{
+					"ids": [
+						"gtceu:gold"
+					],
+					"fluidAmount": 26.52631578947368
+				},
+				{
+					"ids": [
+						"gtceu:silver"
+					],
+					"fluidAmount": 26.52631578947368
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": false,
+			"extraOutputs": [
+				{
+					"cap": "fluid",
+					"id": "gtceu:black_bronze",
+					"amount": 144.0
+				}
+			]
+		},
+		{
+			"id": "tfc:alloy/weak_steel",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:nickel"
+					],
+					"fluidAmount": 28.8
+				},
+				{
+					"ids": [
+						"gtceu:steel"
+					],
+					"fluidAmount": 86.39999999999999
+				},
+				{
+					"ids": [
+						"gtceu:black_bronze"
+					],
+					"fluidAmount": 28.8
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": false,
+			"extraOutputs": [
+				{
+					"cap": "fluid",
+					"id": "tfc:metal/weak_steel",
+					"amount": 144.0
+				}
+			]
+		},
+		{
+			"id": "tfg:alloy/tin_alloy",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:iron"
+					],
+					"fluidAmount": 72.0
+				},
+				{
+					"ids": [
+						"gtceu:tin"
+					],
+					"fluidAmount": 72.0
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": false,
+			"extraOutputs": [
+				{
+					"cap": "fluid",
+					"id": "gtceu:tin_alloy",
+					"amount": 144.0
+				}
+			]
+		},
+		{
+			"id": "tfc:alloy/weak_blue_steel",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:black_steel"
+					],
+					"fluidAmount": 75.60000000000001
+				},
+				{
+					"ids": [
+						"gtceu:bismuth_bronze"
+					],
+					"fluidAmount": 18.0
+				},
+				{
+					"ids": [
+						"gtceu:steel"
+					],
+					"fluidAmount": 32.4
+				},
+				{
+					"ids": [
+						"gtceu:sterling_silver"
+					],
+					"fluidAmount": 18.0
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": false,
+			"extraOutputs": [
+				{
+					"cap": "fluid",
+					"id": "tfc:metal/weak_blue_steel",
+					"amount": 144.0
+				}
+			]
+		},
+		{
+			"id": "tfg:alloy/cobalt_brass",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:aluminium_silicate"
+					],
+					"fluidAmount": 15.91959798994975
+				},
+				{
+					"ids": [
+						"gtceu:cobalt"
+					],
+					"fluidAmount": 15.91959798994975
+				},
+				{
+					"ids": [
+						"gtceu:brass"
+					],
+					"fluidAmount": 112.1608040201005
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": false,
+			"extraOutputs": [
+				{
+					"cap": "fluid",
+					"id": "gtceu:cobalt_brass",
+					"amount": 144.0
+				}
+			]
+		},
+		{
+			"id": "tfg:alloy/invar",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:iron"
+					],
+					"fluidAmount": 93.60000000000001
+				},
+				{
+					"ids": [
+						"gtceu:nickel"
+					],
+					"fluidAmount": 50.400000000000006
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": false,
+			"extraOutputs": [
+				{
+					"cap": "fluid",
+					"id": "gtceu:invar",
+					"amount": 144.0
+				}
+			]
+		},
+		{
+			"id": "tfg:alloy/red_alloy",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:copper"
+					],
+					"fluidAmount": 28.8
+				},
+				{
+					"ids": [
+						"gtceu:redstone"
+					],
+					"fluidAmount": 115.2
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": false,
+			"extraOutputs": [
+				{
+					"cap": "fluid",
+					"id": "gtceu:red_alloy",
+					"amount": 144.0
+				}
+			]
+		},
+		{
+			"id": "tfc:alloy/sterling_silver",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:copper"
+					],
+					"fluidAmount": 43.2
+				},
+				{
+					"ids": [
+						"gtceu:silver"
+					],
+					"fluidAmount": 100.8
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": false,
+			"extraOutputs": [
+				{
+					"cap": "fluid",
+					"id": "gtceu:sterling_silver",
+					"amount": 144.0
+				}
+			]
+		},
+		{
+			"id": "tfc:alloy/bronze",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:copper"
+					],
+					"fluidAmount": 108.0
+				},
+				{
+					"ids": [
+						"gtceu:tin"
+					],
+					"fluidAmount": 36.0
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": false,
+			"extraOutputs": [
+				{
+					"cap": "fluid",
+					"id": "gtceu:bronze",
+					"amount": 144.0
+				}
+			]
+		},
+		{
+			"id": "tfg:alloy/potin",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:copper"
+					],
+					"fluidAmount": 96.0
+				},
+				{
+					"ids": [
+						"gtceu:lead"
+					],
+					"fluidAmount": 16.000000000000004
+				},
+				{
+					"ids": [
+						"gtceu:tin"
+					],
+					"fluidAmount": 32.0
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": false,
+			"extraOutputs": [
+				{
+					"cap": "fluid",
+					"id": "gtceu:potin",
+					"amount": 144.0
+				}
+			]
+		},
+		{
+			"id": "tfc:alloy/bismuth_bronze",
+			"mod": "tfc",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:copper"
+					],
+					"fluidAmount": 84.92307692307692
+				},
+				{
+					"ids": [
+						"gtceu:zinc"
+					],
+					"fluidAmount": 36.92307692307693
+				},
+				{
+					"ids": [
+						"gtceu:bismuth"
+					],
+					"fluidAmount": 22.15384615384616
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": false,
+			"extraOutputs": [
+				{
+					"cap": "fluid",
+					"id": "gtceu:bismuth_bronze",
+					"amount": 144.0
+				}
+			]
+		}
+	]
+}

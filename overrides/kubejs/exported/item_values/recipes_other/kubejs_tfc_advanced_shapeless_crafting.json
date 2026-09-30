@@ -1,0 +1,3215 @@
+{
+	"type": "kubejs_tfc:advanced_shapeless_crafting",
+	"recipes": [
+		{
+			"id": "tfg:shapeless/wheat_dough",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"firmalife:spoon"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/wheat_flour"
+					]
+				},
+				{
+					"ids": [
+						"firmalife:tirage_mixture"
+					]
+				},
+				{
+					"ids": [
+						"tfc:ceramic/bowl",
+						"minecraft:bowl"
+					]
+				}
+			],
+			"resultId": "firmalife:food/wheat_dough",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:shapeless/maize_flatbread_dough_2",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"firmalife:spoon"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/maize_flour"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/maize_flour"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:water_bucket",
+						"tfc:wooden_bucket",
+						"tfc:metal/bucket/red_steel",
+						"tfc:metal/bucket/blue_steel",
+						"tfc:silica_glass_bottle",
+						"tfc:hematitic_glass_bottle",
+						"tfc:olivine_glass_bottle",
+						"tfc:volcanic_glass_bottle",
+						"tfg:beaker",
+						"tfc:wood/barrel/acacia",
+						"tfc:wood/barrel/ash",
+						"tfc:wood/barrel/aspen",
+						"tfc:wood/barrel/birch",
+						"tfc:wood/barrel/blackwood",
+						"tfc:wood/barrel/chestnut",
+						"tfc:wood/barrel/douglas_fir",
+						"tfc:wood/barrel/hickory",
+						"tfc:wood/barrel/kapok",
+						"tfc:wood/barrel/mangrove",
+						"tfc:wood/barrel/maple",
+						"tfc:wood/barrel/oak",
+						"tfc:wood/barrel/palm",
+						"tfc:wood/barrel/pine",
+						"tfc:wood/barrel/rosewood",
+						"tfc:wood/barrel/sequoia",
+						"tfc:wood/barrel/spruce",
+						"tfc:wood/barrel/sycamore",
+						"tfc:wood/barrel/white_cedar",
+						"tfc:wood/barrel/willow",
+						"afc:wood/barrel/cypress",
+						"afc:wood/barrel/tualang",
+						"afc:wood/barrel/hevea",
+						"afc:wood/barrel/teak",
+						"afc:wood/barrel/eucalyptus",
+						"afc:wood/barrel/baobab",
+						"afc:wood/barrel/fig",
+						"afc:wood/barrel/mahogany",
+						"afc:wood/barrel/ironwood",
+						"afc:wood/barrel/ipe",
+						"beneath:wood/barrel/crimson",
+						"beneath:wood/barrel/warped",
+						"tfg:wood/barrel/araucaria",
+						"tfg:wood/barrel/beech",
+						"tfg:wood/barrel/mahoe",
+						"tfg:wood/barrel/glacian",
+						"tfg:wood/barrel/strophar",
+						"tfg:wood/barrel/aeronos",
+						"tfg:wood/barrel/ginkgo"
+					]
+				},
+				{
+					"ids": [
+						"tfc:ceramic/bowl",
+						"minecraft:bowl"
+					]
+				}
+			],
+			"resultId": "tfc:food/maize_dough",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:shapeless/maize_flatbread_dough_4",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"firmalife:spoon"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/maize_flour"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/maize_flour"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/maize_flour"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/maize_flour"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:water_bucket",
+						"tfc:wooden_bucket",
+						"tfc:metal/bucket/red_steel",
+						"tfc:metal/bucket/blue_steel",
+						"tfc:silica_glass_bottle",
+						"tfc:hematitic_glass_bottle",
+						"tfc:olivine_glass_bottle",
+						"tfc:volcanic_glass_bottle",
+						"tfg:beaker",
+						"tfc:wood/barrel/acacia",
+						"tfc:wood/barrel/ash",
+						"tfc:wood/barrel/aspen",
+						"tfc:wood/barrel/birch",
+						"tfc:wood/barrel/blackwood",
+						"tfc:wood/barrel/chestnut",
+						"tfc:wood/barrel/douglas_fir",
+						"tfc:wood/barrel/hickory",
+						"tfc:wood/barrel/kapok",
+						"tfc:wood/barrel/mangrove",
+						"tfc:wood/barrel/maple",
+						"tfc:wood/barrel/oak",
+						"tfc:wood/barrel/palm",
+						"tfc:wood/barrel/pine",
+						"tfc:wood/barrel/rosewood",
+						"tfc:wood/barrel/sequoia",
+						"tfc:wood/barrel/spruce",
+						"tfc:wood/barrel/sycamore",
+						"tfc:wood/barrel/white_cedar",
+						"tfc:wood/barrel/willow",
+						"afc:wood/barrel/cypress",
+						"afc:wood/barrel/tualang",
+						"afc:wood/barrel/hevea",
+						"afc:wood/barrel/teak",
+						"afc:wood/barrel/eucalyptus",
+						"afc:wood/barrel/baobab",
+						"afc:wood/barrel/fig",
+						"afc:wood/barrel/mahogany",
+						"afc:wood/barrel/ironwood",
+						"afc:wood/barrel/ipe",
+						"beneath:wood/barrel/crimson",
+						"beneath:wood/barrel/warped",
+						"tfg:wood/barrel/araucaria",
+						"tfg:wood/barrel/beech",
+						"tfg:wood/barrel/mahoe",
+						"tfg:wood/barrel/glacian",
+						"tfg:wood/barrel/strophar",
+						"tfg:wood/barrel/aeronos",
+						"tfg:wood/barrel/ginkgo"
+					]
+				},
+				{
+					"ids": [
+						"tfc:ceramic/bowl",
+						"minecraft:bowl"
+					]
+				}
+			],
+			"resultId": "tfc:food/maize_dough",
+			"resultCount": 8,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:shapeless/maize_flatbread_dough_3",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"firmalife:spoon"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/maize_flour"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/maize_flour"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/maize_flour"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:water_bucket",
+						"tfc:wooden_bucket",
+						"tfc:metal/bucket/red_steel",
+						"tfc:metal/bucket/blue_steel",
+						"tfc:silica_glass_bottle",
+						"tfc:hematitic_glass_bottle",
+						"tfc:olivine_glass_bottle",
+						"tfc:volcanic_glass_bottle",
+						"tfg:beaker",
+						"tfc:wood/barrel/acacia",
+						"tfc:wood/barrel/ash",
+						"tfc:wood/barrel/aspen",
+						"tfc:wood/barrel/birch",
+						"tfc:wood/barrel/blackwood",
+						"tfc:wood/barrel/chestnut",
+						"tfc:wood/barrel/douglas_fir",
+						"tfc:wood/barrel/hickory",
+						"tfc:wood/barrel/kapok",
+						"tfc:wood/barrel/mangrove",
+						"tfc:wood/barrel/maple",
+						"tfc:wood/barrel/oak",
+						"tfc:wood/barrel/palm",
+						"tfc:wood/barrel/pine",
+						"tfc:wood/barrel/rosewood",
+						"tfc:wood/barrel/sequoia",
+						"tfc:wood/barrel/spruce",
+						"tfc:wood/barrel/sycamore",
+						"tfc:wood/barrel/white_cedar",
+						"tfc:wood/barrel/willow",
+						"afc:wood/barrel/cypress",
+						"afc:wood/barrel/tualang",
+						"afc:wood/barrel/hevea",
+						"afc:wood/barrel/teak",
+						"afc:wood/barrel/eucalyptus",
+						"afc:wood/barrel/baobab",
+						"afc:wood/barrel/fig",
+						"afc:wood/barrel/mahogany",
+						"afc:wood/barrel/ironwood",
+						"afc:wood/barrel/ipe",
+						"beneath:wood/barrel/crimson",
+						"beneath:wood/barrel/warped",
+						"tfg:wood/barrel/araucaria",
+						"tfg:wood/barrel/beech",
+						"tfg:wood/barrel/mahoe",
+						"tfg:wood/barrel/glacian",
+						"tfg:wood/barrel/strophar",
+						"tfg:wood/barrel/aeronos",
+						"tfg:wood/barrel/ginkgo"
+					]
+				},
+				{
+					"ids": [
+						"tfc:ceramic/bowl",
+						"minecraft:bowl"
+					]
+				}
+			],
+			"resultId": "tfc:food/maize_dough",
+			"resultCount": 6,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:shapeless/maize_dough_2",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"firmalife:spoon"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/maize_flour"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/maize_flour"
+					]
+				},
+				{
+					"ids": [
+						"firmalife:tirage_mixture"
+					]
+				},
+				{
+					"ids": [
+						"firmalife:tirage_mixture"
+					]
+				},
+				{
+					"ids": [
+						"tfc:ceramic/bowl",
+						"minecraft:bowl"
+					]
+				}
+			],
+			"resultId": "firmalife:food/maize_dough",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:shapeless/maize_dough_3",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"firmalife:spoon"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/maize_flour"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/maize_flour"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/maize_flour"
+					]
+				},
+				{
+					"ids": [
+						"firmalife:tirage_mixture"
+					]
+				},
+				{
+					"ids": [
+						"firmalife:tirage_mixture"
+					]
+				},
+				{
+					"ids": [
+						"firmalife:tirage_mixture"
+					]
+				},
+				{
+					"ids": [
+						"tfc:ceramic/bowl",
+						"minecraft:bowl"
+					]
+				}
+			],
+			"resultId": "firmalife:food/maize_dough",
+			"resultCount": 6,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:shapeless/oat_flatbread_dough",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"firmalife:spoon"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/oat_flour"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:water_bucket",
+						"tfc:wooden_bucket",
+						"tfc:ceramic/jug",
+						"tfc:metal/bucket/red_steel",
+						"tfc:metal/bucket/blue_steel",
+						"tfc:silica_glass_bottle",
+						"tfc:hematitic_glass_bottle",
+						"tfc:olivine_glass_bottle",
+						"tfc:volcanic_glass_bottle",
+						"tfg:beaker",
+						"tfg:flask",
+						"tfc:wood/barrel/acacia",
+						"tfc:wood/barrel/ash",
+						"tfc:wood/barrel/aspen",
+						"tfc:wood/barrel/birch",
+						"tfc:wood/barrel/blackwood",
+						"tfc:wood/barrel/chestnut",
+						"tfc:wood/barrel/douglas_fir",
+						"tfc:wood/barrel/hickory",
+						"tfc:wood/barrel/kapok",
+						"tfc:wood/barrel/mangrove",
+						"tfc:wood/barrel/maple",
+						"tfc:wood/barrel/oak",
+						"tfc:wood/barrel/palm",
+						"tfc:wood/barrel/pine",
+						"tfc:wood/barrel/rosewood",
+						"tfc:wood/barrel/sequoia",
+						"tfc:wood/barrel/spruce",
+						"tfc:wood/barrel/sycamore",
+						"tfc:wood/barrel/white_cedar",
+						"tfc:wood/barrel/willow",
+						"afc:wood/barrel/cypress",
+						"afc:wood/barrel/tualang",
+						"afc:wood/barrel/hevea",
+						"afc:wood/barrel/teak",
+						"afc:wood/barrel/eucalyptus",
+						"afc:wood/barrel/baobab",
+						"afc:wood/barrel/fig",
+						"afc:wood/barrel/mahogany",
+						"afc:wood/barrel/ironwood",
+						"afc:wood/barrel/ipe",
+						"beneath:wood/barrel/crimson",
+						"beneath:wood/barrel/warped",
+						"tfg:wood/barrel/araucaria",
+						"tfg:wood/barrel/beech",
+						"tfg:wood/barrel/mahoe",
+						"tfg:wood/barrel/glacian",
+						"tfg:wood/barrel/strophar",
+						"tfg:wood/barrel/aeronos",
+						"tfg:wood/barrel/ginkgo"
+					]
+				},
+				{
+					"ids": [
+						"tfc:ceramic/bowl",
+						"minecraft:bowl"
+					]
+				}
+			],
+			"resultId": "tfc:food/oat_dough",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:shapeless/oat_flatbread_dough_2",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"firmalife:spoon"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/oat_flour"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/oat_flour"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:water_bucket",
+						"tfc:wooden_bucket",
+						"tfc:metal/bucket/red_steel",
+						"tfc:metal/bucket/blue_steel",
+						"tfc:silica_glass_bottle",
+						"tfc:hematitic_glass_bottle",
+						"tfc:olivine_glass_bottle",
+						"tfc:volcanic_glass_bottle",
+						"tfg:beaker",
+						"tfc:wood/barrel/acacia",
+						"tfc:wood/barrel/ash",
+						"tfc:wood/barrel/aspen",
+						"tfc:wood/barrel/birch",
+						"tfc:wood/barrel/blackwood",
+						"tfc:wood/barrel/chestnut",
+						"tfc:wood/barrel/douglas_fir",
+						"tfc:wood/barrel/hickory",
+						"tfc:wood/barrel/kapok",
+						"tfc:wood/barrel/mangrove",
+						"tfc:wood/barrel/maple",
+						"tfc:wood/barrel/oak",
+						"tfc:wood/barrel/palm",
+						"tfc:wood/barrel/pine",
+						"tfc:wood/barrel/rosewood",
+						"tfc:wood/barrel/sequoia",
+						"tfc:wood/barrel/spruce",
+						"tfc:wood/barrel/sycamore",
+						"tfc:wood/barrel/white_cedar",
+						"tfc:wood/barrel/willow",
+						"afc:wood/barrel/cypress",
+						"afc:wood/barrel/tualang",
+						"afc:wood/barrel/hevea",
+						"afc:wood/barrel/teak",
+						"afc:wood/barrel/eucalyptus",
+						"afc:wood/barrel/baobab",
+						"afc:wood/barrel/fig",
+						"afc:wood/barrel/mahogany",
+						"afc:wood/barrel/ironwood",
+						"afc:wood/barrel/ipe",
+						"beneath:wood/barrel/crimson",
+						"beneath:wood/barrel/warped",
+						"tfg:wood/barrel/araucaria",
+						"tfg:wood/barrel/beech",
+						"tfg:wood/barrel/mahoe",
+						"tfg:wood/barrel/glacian",
+						"tfg:wood/barrel/strophar",
+						"tfg:wood/barrel/aeronos",
+						"tfg:wood/barrel/ginkgo"
+					]
+				},
+				{
+					"ids": [
+						"tfc:ceramic/bowl",
+						"minecraft:bowl"
+					]
+				}
+			],
+			"resultId": "tfc:food/oat_dough",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:shapeless/oat_flatbread_dough_3",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"firmalife:spoon"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/oat_flour"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/oat_flour"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/oat_flour"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:water_bucket",
+						"tfc:wooden_bucket",
+						"tfc:metal/bucket/red_steel",
+						"tfc:metal/bucket/blue_steel",
+						"tfc:silica_glass_bottle",
+						"tfc:hematitic_glass_bottle",
+						"tfc:olivine_glass_bottle",
+						"tfc:volcanic_glass_bottle",
+						"tfg:beaker",
+						"tfc:wood/barrel/acacia",
+						"tfc:wood/barrel/ash",
+						"tfc:wood/barrel/aspen",
+						"tfc:wood/barrel/birch",
+						"tfc:wood/barrel/blackwood",
+						"tfc:wood/barrel/chestnut",
+						"tfc:wood/barrel/douglas_fir",
+						"tfc:wood/barrel/hickory",
+						"tfc:wood/barrel/kapok",
+						"tfc:wood/barrel/mangrove",
+						"tfc:wood/barrel/maple",
+						"tfc:wood/barrel/oak",
+						"tfc:wood/barrel/palm",
+						"tfc:wood/barrel/pine",
+						"tfc:wood/barrel/rosewood",
+						"tfc:wood/barrel/sequoia",
+						"tfc:wood/barrel/spruce",
+						"tfc:wood/barrel/sycamore",
+						"tfc:wood/barrel/white_cedar",
+						"tfc:wood/barrel/willow",
+						"afc:wood/barrel/cypress",
+						"afc:wood/barrel/tualang",
+						"afc:wood/barrel/hevea",
+						"afc:wood/barrel/teak",
+						"afc:wood/barrel/eucalyptus",
+						"afc:wood/barrel/baobab",
+						"afc:wood/barrel/fig",
+						"afc:wood/barrel/mahogany",
+						"afc:wood/barrel/ironwood",
+						"afc:wood/barrel/ipe",
+						"beneath:wood/barrel/crimson",
+						"beneath:wood/barrel/warped",
+						"tfg:wood/barrel/araucaria",
+						"tfg:wood/barrel/beech",
+						"tfg:wood/barrel/mahoe",
+						"tfg:wood/barrel/glacian",
+						"tfg:wood/barrel/strophar",
+						"tfg:wood/barrel/aeronos",
+						"tfg:wood/barrel/ginkgo"
+					]
+				},
+				{
+					"ids": [
+						"tfc:ceramic/bowl",
+						"minecraft:bowl"
+					]
+				}
+			],
+			"resultId": "tfc:food/oat_dough",
+			"resultCount": 6,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:shapeless/oat_flatbread_dough_4",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"firmalife:spoon"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/oat_flour"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/oat_flour"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/oat_flour"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/oat_flour"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:water_bucket",
+						"tfc:wooden_bucket",
+						"tfc:metal/bucket/red_steel",
+						"tfc:metal/bucket/blue_steel",
+						"tfc:silica_glass_bottle",
+						"tfc:hematitic_glass_bottle",
+						"tfc:olivine_glass_bottle",
+						"tfc:volcanic_glass_bottle",
+						"tfg:beaker",
+						"tfc:wood/barrel/acacia",
+						"tfc:wood/barrel/ash",
+						"tfc:wood/barrel/aspen",
+						"tfc:wood/barrel/birch",
+						"tfc:wood/barrel/blackwood",
+						"tfc:wood/barrel/chestnut",
+						"tfc:wood/barrel/douglas_fir",
+						"tfc:wood/barrel/hickory",
+						"tfc:wood/barrel/kapok",
+						"tfc:wood/barrel/mangrove",
+						"tfc:wood/barrel/maple",
+						"tfc:wood/barrel/oak",
+						"tfc:wood/barrel/palm",
+						"tfc:wood/barrel/pine",
+						"tfc:wood/barrel/rosewood",
+						"tfc:wood/barrel/sequoia",
+						"tfc:wood/barrel/spruce",
+						"tfc:wood/barrel/sycamore",
+						"tfc:wood/barrel/white_cedar",
+						"tfc:wood/barrel/willow",
+						"afc:wood/barrel/cypress",
+						"afc:wood/barrel/tualang",
+						"afc:wood/barrel/hevea",
+						"afc:wood/barrel/teak",
+						"afc:wood/barrel/eucalyptus",
+						"afc:wood/barrel/baobab",
+						"afc:wood/barrel/fig",
+						"afc:wood/barrel/mahogany",
+						"afc:wood/barrel/ironwood",
+						"afc:wood/barrel/ipe",
+						"beneath:wood/barrel/crimson",
+						"beneath:wood/barrel/warped",
+						"tfg:wood/barrel/araucaria",
+						"tfg:wood/barrel/beech",
+						"tfg:wood/barrel/mahoe",
+						"tfg:wood/barrel/glacian",
+						"tfg:wood/barrel/strophar",
+						"tfg:wood/barrel/aeronos",
+						"tfg:wood/barrel/ginkgo"
+					]
+				},
+				{
+					"ids": [
+						"tfc:ceramic/bowl",
+						"minecraft:bowl"
+					]
+				}
+			],
+			"resultId": "tfc:food/oat_dough",
+			"resultCount": 8,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:shapeless/oat_dough",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"firmalife:spoon"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/oat_flour"
+					]
+				},
+				{
+					"ids": [
+						"firmalife:tirage_mixture"
+					]
+				},
+				{
+					"ids": [
+						"tfc:ceramic/bowl",
+						"minecraft:bowl"
+					]
+				}
+			],
+			"resultId": "firmalife:food/oat_dough",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:shapeless/rice_flatbread_dough",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"firmalife:spoon"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/rice_flour"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:water_bucket",
+						"tfc:wooden_bucket",
+						"tfc:ceramic/jug",
+						"tfc:metal/bucket/red_steel",
+						"tfc:metal/bucket/blue_steel",
+						"tfc:silica_glass_bottle",
+						"tfc:hematitic_glass_bottle",
+						"tfc:olivine_glass_bottle",
+						"tfc:volcanic_glass_bottle",
+						"tfg:beaker",
+						"tfg:flask",
+						"tfc:wood/barrel/acacia",
+						"tfc:wood/barrel/ash",
+						"tfc:wood/barrel/aspen",
+						"tfc:wood/barrel/birch",
+						"tfc:wood/barrel/blackwood",
+						"tfc:wood/barrel/chestnut",
+						"tfc:wood/barrel/douglas_fir",
+						"tfc:wood/barrel/hickory",
+						"tfc:wood/barrel/kapok",
+						"tfc:wood/barrel/mangrove",
+						"tfc:wood/barrel/maple",
+						"tfc:wood/barrel/oak",
+						"tfc:wood/barrel/palm",
+						"tfc:wood/barrel/pine",
+						"tfc:wood/barrel/rosewood",
+						"tfc:wood/barrel/sequoia",
+						"tfc:wood/barrel/spruce",
+						"tfc:wood/barrel/sycamore",
+						"tfc:wood/barrel/white_cedar",
+						"tfc:wood/barrel/willow",
+						"afc:wood/barrel/cypress",
+						"afc:wood/barrel/tualang",
+						"afc:wood/barrel/hevea",
+						"afc:wood/barrel/teak",
+						"afc:wood/barrel/eucalyptus",
+						"afc:wood/barrel/baobab",
+						"afc:wood/barrel/fig",
+						"afc:wood/barrel/mahogany",
+						"afc:wood/barrel/ironwood",
+						"afc:wood/barrel/ipe",
+						"beneath:wood/barrel/crimson",
+						"beneath:wood/barrel/warped",
+						"tfg:wood/barrel/araucaria",
+						"tfg:wood/barrel/beech",
+						"tfg:wood/barrel/mahoe",
+						"tfg:wood/barrel/glacian",
+						"tfg:wood/barrel/strophar",
+						"tfg:wood/barrel/aeronos",
+						"tfg:wood/barrel/ginkgo"
+					]
+				},
+				{
+					"ids": [
+						"tfc:ceramic/bowl",
+						"minecraft:bowl"
+					]
+				}
+			],
+			"resultId": "tfc:food/rice_dough",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:shapeless/rye_dough_3",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"firmalife:spoon"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/rye_flour"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/rye_flour"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/rye_flour"
+					]
+				},
+				{
+					"ids": [
+						"firmalife:tirage_mixture"
+					]
+				},
+				{
+					"ids": [
+						"firmalife:tirage_mixture"
+					]
+				},
+				{
+					"ids": [
+						"firmalife:tirage_mixture"
+					]
+				},
+				{
+					"ids": [
+						"tfc:ceramic/bowl",
+						"minecraft:bowl"
+					]
+				}
+			],
+			"resultId": "firmalife:food/rye_dough",
+			"resultCount": 6,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:shapeless/rye_dough_2",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"firmalife:spoon"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/rye_flour"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/rye_flour"
+					]
+				},
+				{
+					"ids": [
+						"firmalife:tirage_mixture"
+					]
+				},
+				{
+					"ids": [
+						"firmalife:tirage_mixture"
+					]
+				},
+				{
+					"ids": [
+						"tfc:ceramic/bowl",
+						"minecraft:bowl"
+					]
+				}
+			],
+			"resultId": "firmalife:food/rye_dough",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:shapeless/barley_dough",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"firmalife:spoon"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/barley_flour"
+					]
+				},
+				{
+					"ids": [
+						"firmalife:tirage_mixture"
+					]
+				},
+				{
+					"ids": [
+						"tfc:ceramic/bowl",
+						"minecraft:bowl"
+					]
+				}
+			],
+			"resultId": "firmalife:food/barley_dough",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "firmalife:crafting/bacon",
+			"mod": "firmalife",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:food/pork"
+					]
+				},
+				{
+					"ids": [
+						"tfg:arsenic_bronze_knife",
+						"tfg:diamond_tipped_mo_50_re_knife",
+						"tfg:boron_carbide_knife",
+						"gtceu:black_bronze_knife",
+						"gtceu:bismuth_bronze_knife",
+						"gtceu:black_steel_knife",
+						"gtceu:duranium_knife",
+						"gtceu:tungsten_carbide_knife",
+						"gtceu:stone_knife",
+						"gtceu:vanadium_steel_knife",
+						"gtceu:damascus_steel_knife",
+						"gtceu:wrought_iron_knife",
+						"gtceu:naquadah_alloy_knife",
+						"gtceu:blue_steel_knife",
+						"gtceu:ultimet_knife",
+						"gtceu:neutronium_knife",
+						"gtceu:copper_knife",
+						"gtceu:ostrum_iodide_knife",
+						"gtceu:red_steel_knife",
+						"gtceu:hsse_knife",
+						"gtceu:steel_knife",
+						"gtceu:bronze_knife",
+						"gtceu:flint_knife",
+						"tfc:stone/knife/sedimentary",
+						"tfc:stone/knife/metamorphic",
+						"tfc:stone/knife/igneous_intrusive",
+						"tfc:stone/knife/igneous_extrusive"
+					]
+				},
+				{
+					"ids": [
+						"tfc:powder/salt"
+					]
+				}
+			],
+			"resultId": "firmalife:food/bacon",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:shapeless/maize_dough",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"firmalife:spoon"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/maize_flour"
+					]
+				},
+				{
+					"ids": [
+						"firmalife:tirage_mixture"
+					]
+				},
+				{
+					"ids": [
+						"tfc:ceramic/bowl",
+						"minecraft:bowl"
+					]
+				}
+			],
+			"resultId": "firmalife:food/maize_dough",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:shapeless/rye_flatbread_dough",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"firmalife:spoon"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/rye_flour"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:water_bucket",
+						"tfc:wooden_bucket",
+						"tfc:ceramic/jug",
+						"tfc:metal/bucket/red_steel",
+						"tfc:metal/bucket/blue_steel",
+						"tfc:silica_glass_bottle",
+						"tfc:hematitic_glass_bottle",
+						"tfc:olivine_glass_bottle",
+						"tfc:volcanic_glass_bottle",
+						"tfg:beaker",
+						"tfg:flask",
+						"tfc:wood/barrel/acacia",
+						"tfc:wood/barrel/ash",
+						"tfc:wood/barrel/aspen",
+						"tfc:wood/barrel/birch",
+						"tfc:wood/barrel/blackwood",
+						"tfc:wood/barrel/chestnut",
+						"tfc:wood/barrel/douglas_fir",
+						"tfc:wood/barrel/hickory",
+						"tfc:wood/barrel/kapok",
+						"tfc:wood/barrel/mangrove",
+						"tfc:wood/barrel/maple",
+						"tfc:wood/barrel/oak",
+						"tfc:wood/barrel/palm",
+						"tfc:wood/barrel/pine",
+						"tfc:wood/barrel/rosewood",
+						"tfc:wood/barrel/sequoia",
+						"tfc:wood/barrel/spruce",
+						"tfc:wood/barrel/sycamore",
+						"tfc:wood/barrel/white_cedar",
+						"tfc:wood/barrel/willow",
+						"afc:wood/barrel/cypress",
+						"afc:wood/barrel/tualang",
+						"afc:wood/barrel/hevea",
+						"afc:wood/barrel/teak",
+						"afc:wood/barrel/eucalyptus",
+						"afc:wood/barrel/baobab",
+						"afc:wood/barrel/fig",
+						"afc:wood/barrel/mahogany",
+						"afc:wood/barrel/ironwood",
+						"afc:wood/barrel/ipe",
+						"beneath:wood/barrel/crimson",
+						"beneath:wood/barrel/warped",
+						"tfg:wood/barrel/araucaria",
+						"tfg:wood/barrel/beech",
+						"tfg:wood/barrel/mahoe",
+						"tfg:wood/barrel/glacian",
+						"tfg:wood/barrel/strophar",
+						"tfg:wood/barrel/aeronos",
+						"tfg:wood/barrel/ginkgo"
+					]
+				},
+				{
+					"ids": [
+						"tfc:ceramic/bowl",
+						"minecraft:bowl"
+					]
+				}
+			],
+			"resultId": "tfc:food/rye_dough",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:shapeless/wheat_flatbread_dough_4",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"firmalife:spoon"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/wheat_flour"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/wheat_flour"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/wheat_flour"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/wheat_flour"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:water_bucket",
+						"tfc:wooden_bucket",
+						"tfc:metal/bucket/red_steel",
+						"tfc:metal/bucket/blue_steel",
+						"tfc:silica_glass_bottle",
+						"tfc:hematitic_glass_bottle",
+						"tfc:olivine_glass_bottle",
+						"tfc:volcanic_glass_bottle",
+						"tfg:beaker",
+						"tfc:wood/barrel/acacia",
+						"tfc:wood/barrel/ash",
+						"tfc:wood/barrel/aspen",
+						"tfc:wood/barrel/birch",
+						"tfc:wood/barrel/blackwood",
+						"tfc:wood/barrel/chestnut",
+						"tfc:wood/barrel/douglas_fir",
+						"tfc:wood/barrel/hickory",
+						"tfc:wood/barrel/kapok",
+						"tfc:wood/barrel/mangrove",
+						"tfc:wood/barrel/maple",
+						"tfc:wood/barrel/oak",
+						"tfc:wood/barrel/palm",
+						"tfc:wood/barrel/pine",
+						"tfc:wood/barrel/rosewood",
+						"tfc:wood/barrel/sequoia",
+						"tfc:wood/barrel/spruce",
+						"tfc:wood/barrel/sycamore",
+						"tfc:wood/barrel/white_cedar",
+						"tfc:wood/barrel/willow",
+						"afc:wood/barrel/cypress",
+						"afc:wood/barrel/tualang",
+						"afc:wood/barrel/hevea",
+						"afc:wood/barrel/teak",
+						"afc:wood/barrel/eucalyptus",
+						"afc:wood/barrel/baobab",
+						"afc:wood/barrel/fig",
+						"afc:wood/barrel/mahogany",
+						"afc:wood/barrel/ironwood",
+						"afc:wood/barrel/ipe",
+						"beneath:wood/barrel/crimson",
+						"beneath:wood/barrel/warped",
+						"tfg:wood/barrel/araucaria",
+						"tfg:wood/barrel/beech",
+						"tfg:wood/barrel/mahoe",
+						"tfg:wood/barrel/glacian",
+						"tfg:wood/barrel/strophar",
+						"tfg:wood/barrel/aeronos",
+						"tfg:wood/barrel/ginkgo"
+					]
+				},
+				{
+					"ids": [
+						"tfc:ceramic/bowl",
+						"minecraft:bowl"
+					]
+				}
+			],
+			"resultId": "tfc:food/wheat_dough",
+			"resultCount": 8,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:shapeless/wheat_flatbread_dough_3",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"firmalife:spoon"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/wheat_flour"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/wheat_flour"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/wheat_flour"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:water_bucket",
+						"tfc:wooden_bucket",
+						"tfc:metal/bucket/red_steel",
+						"tfc:metal/bucket/blue_steel",
+						"tfc:silica_glass_bottle",
+						"tfc:hematitic_glass_bottle",
+						"tfc:olivine_glass_bottle",
+						"tfc:volcanic_glass_bottle",
+						"tfg:beaker",
+						"tfc:wood/barrel/acacia",
+						"tfc:wood/barrel/ash",
+						"tfc:wood/barrel/aspen",
+						"tfc:wood/barrel/birch",
+						"tfc:wood/barrel/blackwood",
+						"tfc:wood/barrel/chestnut",
+						"tfc:wood/barrel/douglas_fir",
+						"tfc:wood/barrel/hickory",
+						"tfc:wood/barrel/kapok",
+						"tfc:wood/barrel/mangrove",
+						"tfc:wood/barrel/maple",
+						"tfc:wood/barrel/oak",
+						"tfc:wood/barrel/palm",
+						"tfc:wood/barrel/pine",
+						"tfc:wood/barrel/rosewood",
+						"tfc:wood/barrel/sequoia",
+						"tfc:wood/barrel/spruce",
+						"tfc:wood/barrel/sycamore",
+						"tfc:wood/barrel/white_cedar",
+						"tfc:wood/barrel/willow",
+						"afc:wood/barrel/cypress",
+						"afc:wood/barrel/tualang",
+						"afc:wood/barrel/hevea",
+						"afc:wood/barrel/teak",
+						"afc:wood/barrel/eucalyptus",
+						"afc:wood/barrel/baobab",
+						"afc:wood/barrel/fig",
+						"afc:wood/barrel/mahogany",
+						"afc:wood/barrel/ironwood",
+						"afc:wood/barrel/ipe",
+						"beneath:wood/barrel/crimson",
+						"beneath:wood/barrel/warped",
+						"tfg:wood/barrel/araucaria",
+						"tfg:wood/barrel/beech",
+						"tfg:wood/barrel/mahoe",
+						"tfg:wood/barrel/glacian",
+						"tfg:wood/barrel/strophar",
+						"tfg:wood/barrel/aeronos",
+						"tfg:wood/barrel/ginkgo"
+					]
+				},
+				{
+					"ids": [
+						"tfc:ceramic/bowl",
+						"minecraft:bowl"
+					]
+				}
+			],
+			"resultId": "tfc:food/wheat_dough",
+			"resultCount": 6,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:shapeless/wheat_flatbread_dough_2",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"firmalife:spoon"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/wheat_flour"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/wheat_flour"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:water_bucket",
+						"tfc:wooden_bucket",
+						"tfc:metal/bucket/red_steel",
+						"tfc:metal/bucket/blue_steel",
+						"tfc:silica_glass_bottle",
+						"tfc:hematitic_glass_bottle",
+						"tfc:olivine_glass_bottle",
+						"tfc:volcanic_glass_bottle",
+						"tfg:beaker",
+						"tfc:wood/barrel/acacia",
+						"tfc:wood/barrel/ash",
+						"tfc:wood/barrel/aspen",
+						"tfc:wood/barrel/birch",
+						"tfc:wood/barrel/blackwood",
+						"tfc:wood/barrel/chestnut",
+						"tfc:wood/barrel/douglas_fir",
+						"tfc:wood/barrel/hickory",
+						"tfc:wood/barrel/kapok",
+						"tfc:wood/barrel/mangrove",
+						"tfc:wood/barrel/maple",
+						"tfc:wood/barrel/oak",
+						"tfc:wood/barrel/palm",
+						"tfc:wood/barrel/pine",
+						"tfc:wood/barrel/rosewood",
+						"tfc:wood/barrel/sequoia",
+						"tfc:wood/barrel/spruce",
+						"tfc:wood/barrel/sycamore",
+						"tfc:wood/barrel/white_cedar",
+						"tfc:wood/barrel/willow",
+						"afc:wood/barrel/cypress",
+						"afc:wood/barrel/tualang",
+						"afc:wood/barrel/hevea",
+						"afc:wood/barrel/teak",
+						"afc:wood/barrel/eucalyptus",
+						"afc:wood/barrel/baobab",
+						"afc:wood/barrel/fig",
+						"afc:wood/barrel/mahogany",
+						"afc:wood/barrel/ironwood",
+						"afc:wood/barrel/ipe",
+						"beneath:wood/barrel/crimson",
+						"beneath:wood/barrel/warped",
+						"tfg:wood/barrel/araucaria",
+						"tfg:wood/barrel/beech",
+						"tfg:wood/barrel/mahoe",
+						"tfg:wood/barrel/glacian",
+						"tfg:wood/barrel/strophar",
+						"tfg:wood/barrel/aeronos",
+						"tfg:wood/barrel/ginkgo"
+					]
+				},
+				{
+					"ids": [
+						"tfc:ceramic/bowl",
+						"minecraft:bowl"
+					]
+				}
+			],
+			"resultId": "tfc:food/wheat_dough",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:shapeless/rye_dough",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"firmalife:spoon"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/rye_flour"
+					]
+				},
+				{
+					"ids": [
+						"firmalife:tirage_mixture"
+					]
+				},
+				{
+					"ids": [
+						"tfc:ceramic/bowl",
+						"minecraft:bowl"
+					]
+				}
+			],
+			"resultId": "firmalife:food/rye_dough",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:shapeless/wheat_flatbread_dough",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"firmalife:spoon"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/wheat_flour"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:water_bucket",
+						"tfc:wooden_bucket",
+						"tfc:ceramic/jug",
+						"tfc:metal/bucket/red_steel",
+						"tfc:metal/bucket/blue_steel",
+						"tfc:silica_glass_bottle",
+						"tfc:hematitic_glass_bottle",
+						"tfc:olivine_glass_bottle",
+						"tfc:volcanic_glass_bottle",
+						"tfg:beaker",
+						"tfg:flask",
+						"tfc:wood/barrel/acacia",
+						"tfc:wood/barrel/ash",
+						"tfc:wood/barrel/aspen",
+						"tfc:wood/barrel/birch",
+						"tfc:wood/barrel/blackwood",
+						"tfc:wood/barrel/chestnut",
+						"tfc:wood/barrel/douglas_fir",
+						"tfc:wood/barrel/hickory",
+						"tfc:wood/barrel/kapok",
+						"tfc:wood/barrel/mangrove",
+						"tfc:wood/barrel/maple",
+						"tfc:wood/barrel/oak",
+						"tfc:wood/barrel/palm",
+						"tfc:wood/barrel/pine",
+						"tfc:wood/barrel/rosewood",
+						"tfc:wood/barrel/sequoia",
+						"tfc:wood/barrel/spruce",
+						"tfc:wood/barrel/sycamore",
+						"tfc:wood/barrel/white_cedar",
+						"tfc:wood/barrel/willow",
+						"afc:wood/barrel/cypress",
+						"afc:wood/barrel/tualang",
+						"afc:wood/barrel/hevea",
+						"afc:wood/barrel/teak",
+						"afc:wood/barrel/eucalyptus",
+						"afc:wood/barrel/baobab",
+						"afc:wood/barrel/fig",
+						"afc:wood/barrel/mahogany",
+						"afc:wood/barrel/ironwood",
+						"afc:wood/barrel/ipe",
+						"beneath:wood/barrel/crimson",
+						"beneath:wood/barrel/warped",
+						"tfg:wood/barrel/araucaria",
+						"tfg:wood/barrel/beech",
+						"tfg:wood/barrel/mahoe",
+						"tfg:wood/barrel/glacian",
+						"tfg:wood/barrel/strophar",
+						"tfg:wood/barrel/aeronos",
+						"tfg:wood/barrel/ginkgo"
+					]
+				},
+				{
+					"ids": [
+						"tfc:ceramic/bowl",
+						"minecraft:bowl"
+					]
+				}
+			],
+			"resultId": "tfc:food/wheat_dough",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:shapeless/barley_flatbread_dough",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"firmalife:spoon"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/barley_flour"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:water_bucket",
+						"tfc:wooden_bucket",
+						"tfc:ceramic/jug",
+						"tfc:metal/bucket/red_steel",
+						"tfc:metal/bucket/blue_steel",
+						"tfc:silica_glass_bottle",
+						"tfc:hematitic_glass_bottle",
+						"tfc:olivine_glass_bottle",
+						"tfc:volcanic_glass_bottle",
+						"tfg:beaker",
+						"tfg:flask",
+						"tfc:wood/barrel/acacia",
+						"tfc:wood/barrel/ash",
+						"tfc:wood/barrel/aspen",
+						"tfc:wood/barrel/birch",
+						"tfc:wood/barrel/blackwood",
+						"tfc:wood/barrel/chestnut",
+						"tfc:wood/barrel/douglas_fir",
+						"tfc:wood/barrel/hickory",
+						"tfc:wood/barrel/kapok",
+						"tfc:wood/barrel/mangrove",
+						"tfc:wood/barrel/maple",
+						"tfc:wood/barrel/oak",
+						"tfc:wood/barrel/palm",
+						"tfc:wood/barrel/pine",
+						"tfc:wood/barrel/rosewood",
+						"tfc:wood/barrel/sequoia",
+						"tfc:wood/barrel/spruce",
+						"tfc:wood/barrel/sycamore",
+						"tfc:wood/barrel/white_cedar",
+						"tfc:wood/barrel/willow",
+						"afc:wood/barrel/cypress",
+						"afc:wood/barrel/tualang",
+						"afc:wood/barrel/hevea",
+						"afc:wood/barrel/teak",
+						"afc:wood/barrel/eucalyptus",
+						"afc:wood/barrel/baobab",
+						"afc:wood/barrel/fig",
+						"afc:wood/barrel/mahogany",
+						"afc:wood/barrel/ironwood",
+						"afc:wood/barrel/ipe",
+						"beneath:wood/barrel/crimson",
+						"beneath:wood/barrel/warped",
+						"tfg:wood/barrel/araucaria",
+						"tfg:wood/barrel/beech",
+						"tfg:wood/barrel/mahoe",
+						"tfg:wood/barrel/glacian",
+						"tfg:wood/barrel/strophar",
+						"tfg:wood/barrel/aeronos",
+						"tfg:wood/barrel/ginkgo"
+					]
+				},
+				{
+					"ids": [
+						"tfc:ceramic/bowl",
+						"minecraft:bowl"
+					]
+				}
+			],
+			"resultId": "tfc:food/barley_dough",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:shapeless/rye_flatbread_dough_2",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"firmalife:spoon"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/rye_flour"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/rye_flour"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:water_bucket",
+						"tfc:wooden_bucket",
+						"tfc:metal/bucket/red_steel",
+						"tfc:metal/bucket/blue_steel",
+						"tfc:silica_glass_bottle",
+						"tfc:hematitic_glass_bottle",
+						"tfc:olivine_glass_bottle",
+						"tfc:volcanic_glass_bottle",
+						"tfg:beaker",
+						"tfc:wood/barrel/acacia",
+						"tfc:wood/barrel/ash",
+						"tfc:wood/barrel/aspen",
+						"tfc:wood/barrel/birch",
+						"tfc:wood/barrel/blackwood",
+						"tfc:wood/barrel/chestnut",
+						"tfc:wood/barrel/douglas_fir",
+						"tfc:wood/barrel/hickory",
+						"tfc:wood/barrel/kapok",
+						"tfc:wood/barrel/mangrove",
+						"tfc:wood/barrel/maple",
+						"tfc:wood/barrel/oak",
+						"tfc:wood/barrel/palm",
+						"tfc:wood/barrel/pine",
+						"tfc:wood/barrel/rosewood",
+						"tfc:wood/barrel/sequoia",
+						"tfc:wood/barrel/spruce",
+						"tfc:wood/barrel/sycamore",
+						"tfc:wood/barrel/white_cedar",
+						"tfc:wood/barrel/willow",
+						"afc:wood/barrel/cypress",
+						"afc:wood/barrel/tualang",
+						"afc:wood/barrel/hevea",
+						"afc:wood/barrel/teak",
+						"afc:wood/barrel/eucalyptus",
+						"afc:wood/barrel/baobab",
+						"afc:wood/barrel/fig",
+						"afc:wood/barrel/mahogany",
+						"afc:wood/barrel/ironwood",
+						"afc:wood/barrel/ipe",
+						"beneath:wood/barrel/crimson",
+						"beneath:wood/barrel/warped",
+						"tfg:wood/barrel/araucaria",
+						"tfg:wood/barrel/beech",
+						"tfg:wood/barrel/mahoe",
+						"tfg:wood/barrel/glacian",
+						"tfg:wood/barrel/strophar",
+						"tfg:wood/barrel/aeronos",
+						"tfg:wood/barrel/ginkgo"
+					]
+				},
+				{
+					"ids": [
+						"tfc:ceramic/bowl",
+						"minecraft:bowl"
+					]
+				}
+			],
+			"resultId": "tfc:food/rye_dough",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:shapeless/rye_flatbread_dough_4",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"firmalife:spoon"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/rye_flour"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/rye_flour"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/rye_flour"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/rye_flour"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:water_bucket",
+						"tfc:wooden_bucket",
+						"tfc:metal/bucket/red_steel",
+						"tfc:metal/bucket/blue_steel",
+						"tfc:silica_glass_bottle",
+						"tfc:hematitic_glass_bottle",
+						"tfc:olivine_glass_bottle",
+						"tfc:volcanic_glass_bottle",
+						"tfg:beaker",
+						"tfc:wood/barrel/acacia",
+						"tfc:wood/barrel/ash",
+						"tfc:wood/barrel/aspen",
+						"tfc:wood/barrel/birch",
+						"tfc:wood/barrel/blackwood",
+						"tfc:wood/barrel/chestnut",
+						"tfc:wood/barrel/douglas_fir",
+						"tfc:wood/barrel/hickory",
+						"tfc:wood/barrel/kapok",
+						"tfc:wood/barrel/mangrove",
+						"tfc:wood/barrel/maple",
+						"tfc:wood/barrel/oak",
+						"tfc:wood/barrel/palm",
+						"tfc:wood/barrel/pine",
+						"tfc:wood/barrel/rosewood",
+						"tfc:wood/barrel/sequoia",
+						"tfc:wood/barrel/spruce",
+						"tfc:wood/barrel/sycamore",
+						"tfc:wood/barrel/white_cedar",
+						"tfc:wood/barrel/willow",
+						"afc:wood/barrel/cypress",
+						"afc:wood/barrel/tualang",
+						"afc:wood/barrel/hevea",
+						"afc:wood/barrel/teak",
+						"afc:wood/barrel/eucalyptus",
+						"afc:wood/barrel/baobab",
+						"afc:wood/barrel/fig",
+						"afc:wood/barrel/mahogany",
+						"afc:wood/barrel/ironwood",
+						"afc:wood/barrel/ipe",
+						"beneath:wood/barrel/crimson",
+						"beneath:wood/barrel/warped",
+						"tfg:wood/barrel/araucaria",
+						"tfg:wood/barrel/beech",
+						"tfg:wood/barrel/mahoe",
+						"tfg:wood/barrel/glacian",
+						"tfg:wood/barrel/strophar",
+						"tfg:wood/barrel/aeronos",
+						"tfg:wood/barrel/ginkgo"
+					]
+				},
+				{
+					"ids": [
+						"tfc:ceramic/bowl",
+						"minecraft:bowl"
+					]
+				}
+			],
+			"resultId": "tfc:food/rye_dough",
+			"resultCount": 8,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:shapeless/rye_flatbread_dough_3",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"firmalife:spoon"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/rye_flour"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/rye_flour"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/rye_flour"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:water_bucket",
+						"tfc:wooden_bucket",
+						"tfc:metal/bucket/red_steel",
+						"tfc:metal/bucket/blue_steel",
+						"tfc:silica_glass_bottle",
+						"tfc:hematitic_glass_bottle",
+						"tfc:olivine_glass_bottle",
+						"tfc:volcanic_glass_bottle",
+						"tfg:beaker",
+						"tfc:wood/barrel/acacia",
+						"tfc:wood/barrel/ash",
+						"tfc:wood/barrel/aspen",
+						"tfc:wood/barrel/birch",
+						"tfc:wood/barrel/blackwood",
+						"tfc:wood/barrel/chestnut",
+						"tfc:wood/barrel/douglas_fir",
+						"tfc:wood/barrel/hickory",
+						"tfc:wood/barrel/kapok",
+						"tfc:wood/barrel/mangrove",
+						"tfc:wood/barrel/maple",
+						"tfc:wood/barrel/oak",
+						"tfc:wood/barrel/palm",
+						"tfc:wood/barrel/pine",
+						"tfc:wood/barrel/rosewood",
+						"tfc:wood/barrel/sequoia",
+						"tfc:wood/barrel/spruce",
+						"tfc:wood/barrel/sycamore",
+						"tfc:wood/barrel/white_cedar",
+						"tfc:wood/barrel/willow",
+						"afc:wood/barrel/cypress",
+						"afc:wood/barrel/tualang",
+						"afc:wood/barrel/hevea",
+						"afc:wood/barrel/teak",
+						"afc:wood/barrel/eucalyptus",
+						"afc:wood/barrel/baobab",
+						"afc:wood/barrel/fig",
+						"afc:wood/barrel/mahogany",
+						"afc:wood/barrel/ironwood",
+						"afc:wood/barrel/ipe",
+						"beneath:wood/barrel/crimson",
+						"beneath:wood/barrel/warped",
+						"tfg:wood/barrel/araucaria",
+						"tfg:wood/barrel/beech",
+						"tfg:wood/barrel/mahoe",
+						"tfg:wood/barrel/glacian",
+						"tfg:wood/barrel/strophar",
+						"tfg:wood/barrel/aeronos",
+						"tfg:wood/barrel/ginkgo"
+					]
+				},
+				{
+					"ids": [
+						"tfc:ceramic/bowl",
+						"minecraft:bowl"
+					]
+				}
+			],
+			"resultId": "tfc:food/rye_dough",
+			"resultCount": 6,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:shapeless/rice_flatbread_dough_2",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"firmalife:spoon"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/rice_flour"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/rice_flour"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:water_bucket",
+						"tfc:wooden_bucket",
+						"tfc:metal/bucket/red_steel",
+						"tfc:metal/bucket/blue_steel",
+						"tfc:silica_glass_bottle",
+						"tfc:hematitic_glass_bottle",
+						"tfc:olivine_glass_bottle",
+						"tfc:volcanic_glass_bottle",
+						"tfg:beaker",
+						"tfc:wood/barrel/acacia",
+						"tfc:wood/barrel/ash",
+						"tfc:wood/barrel/aspen",
+						"tfc:wood/barrel/birch",
+						"tfc:wood/barrel/blackwood",
+						"tfc:wood/barrel/chestnut",
+						"tfc:wood/barrel/douglas_fir",
+						"tfc:wood/barrel/hickory",
+						"tfc:wood/barrel/kapok",
+						"tfc:wood/barrel/mangrove",
+						"tfc:wood/barrel/maple",
+						"tfc:wood/barrel/oak",
+						"tfc:wood/barrel/palm",
+						"tfc:wood/barrel/pine",
+						"tfc:wood/barrel/rosewood",
+						"tfc:wood/barrel/sequoia",
+						"tfc:wood/barrel/spruce",
+						"tfc:wood/barrel/sycamore",
+						"tfc:wood/barrel/white_cedar",
+						"tfc:wood/barrel/willow",
+						"afc:wood/barrel/cypress",
+						"afc:wood/barrel/tualang",
+						"afc:wood/barrel/hevea",
+						"afc:wood/barrel/teak",
+						"afc:wood/barrel/eucalyptus",
+						"afc:wood/barrel/baobab",
+						"afc:wood/barrel/fig",
+						"afc:wood/barrel/mahogany",
+						"afc:wood/barrel/ironwood",
+						"afc:wood/barrel/ipe",
+						"beneath:wood/barrel/crimson",
+						"beneath:wood/barrel/warped",
+						"tfg:wood/barrel/araucaria",
+						"tfg:wood/barrel/beech",
+						"tfg:wood/barrel/mahoe",
+						"tfg:wood/barrel/glacian",
+						"tfg:wood/barrel/strophar",
+						"tfg:wood/barrel/aeronos",
+						"tfg:wood/barrel/ginkgo"
+					]
+				},
+				{
+					"ids": [
+						"tfc:ceramic/bowl",
+						"minecraft:bowl"
+					]
+				}
+			],
+			"resultId": "tfc:food/rice_dough",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:shapeless/rice_flatbread_dough_3",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"firmalife:spoon"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/rice_flour"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/rice_flour"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/rice_flour"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:water_bucket",
+						"tfc:wooden_bucket",
+						"tfc:metal/bucket/red_steel",
+						"tfc:metal/bucket/blue_steel",
+						"tfc:silica_glass_bottle",
+						"tfc:hematitic_glass_bottle",
+						"tfc:olivine_glass_bottle",
+						"tfc:volcanic_glass_bottle",
+						"tfg:beaker",
+						"tfc:wood/barrel/acacia",
+						"tfc:wood/barrel/ash",
+						"tfc:wood/barrel/aspen",
+						"tfc:wood/barrel/birch",
+						"tfc:wood/barrel/blackwood",
+						"tfc:wood/barrel/chestnut",
+						"tfc:wood/barrel/douglas_fir",
+						"tfc:wood/barrel/hickory",
+						"tfc:wood/barrel/kapok",
+						"tfc:wood/barrel/mangrove",
+						"tfc:wood/barrel/maple",
+						"tfc:wood/barrel/oak",
+						"tfc:wood/barrel/palm",
+						"tfc:wood/barrel/pine",
+						"tfc:wood/barrel/rosewood",
+						"tfc:wood/barrel/sequoia",
+						"tfc:wood/barrel/spruce",
+						"tfc:wood/barrel/sycamore",
+						"tfc:wood/barrel/white_cedar",
+						"tfc:wood/barrel/willow",
+						"afc:wood/barrel/cypress",
+						"afc:wood/barrel/tualang",
+						"afc:wood/barrel/hevea",
+						"afc:wood/barrel/teak",
+						"afc:wood/barrel/eucalyptus",
+						"afc:wood/barrel/baobab",
+						"afc:wood/barrel/fig",
+						"afc:wood/barrel/mahogany",
+						"afc:wood/barrel/ironwood",
+						"afc:wood/barrel/ipe",
+						"beneath:wood/barrel/crimson",
+						"beneath:wood/barrel/warped",
+						"tfg:wood/barrel/araucaria",
+						"tfg:wood/barrel/beech",
+						"tfg:wood/barrel/mahoe",
+						"tfg:wood/barrel/glacian",
+						"tfg:wood/barrel/strophar",
+						"tfg:wood/barrel/aeronos",
+						"tfg:wood/barrel/ginkgo"
+					]
+				},
+				{
+					"ids": [
+						"tfc:ceramic/bowl",
+						"minecraft:bowl"
+					]
+				}
+			],
+			"resultId": "tfc:food/rice_dough",
+			"resultCount": 6,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:shapeless/rice_flatbread_dough_4",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"firmalife:spoon"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/rice_flour"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/rice_flour"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/rice_flour"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/rice_flour"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:water_bucket",
+						"tfc:wooden_bucket",
+						"tfc:metal/bucket/red_steel",
+						"tfc:metal/bucket/blue_steel",
+						"tfc:silica_glass_bottle",
+						"tfc:hematitic_glass_bottle",
+						"tfc:olivine_glass_bottle",
+						"tfc:volcanic_glass_bottle",
+						"tfg:beaker",
+						"tfc:wood/barrel/acacia",
+						"tfc:wood/barrel/ash",
+						"tfc:wood/barrel/aspen",
+						"tfc:wood/barrel/birch",
+						"tfc:wood/barrel/blackwood",
+						"tfc:wood/barrel/chestnut",
+						"tfc:wood/barrel/douglas_fir",
+						"tfc:wood/barrel/hickory",
+						"tfc:wood/barrel/kapok",
+						"tfc:wood/barrel/mangrove",
+						"tfc:wood/barrel/maple",
+						"tfc:wood/barrel/oak",
+						"tfc:wood/barrel/palm",
+						"tfc:wood/barrel/pine",
+						"tfc:wood/barrel/rosewood",
+						"tfc:wood/barrel/sequoia",
+						"tfc:wood/barrel/spruce",
+						"tfc:wood/barrel/sycamore",
+						"tfc:wood/barrel/white_cedar",
+						"tfc:wood/barrel/willow",
+						"afc:wood/barrel/cypress",
+						"afc:wood/barrel/tualang",
+						"afc:wood/barrel/hevea",
+						"afc:wood/barrel/teak",
+						"afc:wood/barrel/eucalyptus",
+						"afc:wood/barrel/baobab",
+						"afc:wood/barrel/fig",
+						"afc:wood/barrel/mahogany",
+						"afc:wood/barrel/ironwood",
+						"afc:wood/barrel/ipe",
+						"beneath:wood/barrel/crimson",
+						"beneath:wood/barrel/warped",
+						"tfg:wood/barrel/araucaria",
+						"tfg:wood/barrel/beech",
+						"tfg:wood/barrel/mahoe",
+						"tfg:wood/barrel/glacian",
+						"tfg:wood/barrel/strophar",
+						"tfg:wood/barrel/aeronos",
+						"tfg:wood/barrel/ginkgo"
+					]
+				},
+				{
+					"ids": [
+						"tfc:ceramic/bowl",
+						"minecraft:bowl"
+					]
+				}
+			],
+			"resultId": "tfc:food/rice_dough",
+			"resultCount": 8,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:shapeless/wheat_dough_2",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"firmalife:spoon"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/wheat_flour"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/wheat_flour"
+					]
+				},
+				{
+					"ids": [
+						"firmalife:tirage_mixture"
+					]
+				},
+				{
+					"ids": [
+						"firmalife:tirage_mixture"
+					]
+				},
+				{
+					"ids": [
+						"tfc:ceramic/bowl",
+						"minecraft:bowl"
+					]
+				}
+			],
+			"resultId": "firmalife:food/wheat_dough",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:shapeless/wheat_dough_3",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"firmalife:spoon"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/wheat_flour"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/wheat_flour"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/wheat_flour"
+					]
+				},
+				{
+					"ids": [
+						"firmalife:tirage_mixture"
+					]
+				},
+				{
+					"ids": [
+						"firmalife:tirage_mixture"
+					]
+				},
+				{
+					"ids": [
+						"firmalife:tirage_mixture"
+					]
+				},
+				{
+					"ids": [
+						"tfc:ceramic/bowl",
+						"minecraft:bowl"
+					]
+				}
+			],
+			"resultId": "firmalife:food/wheat_dough",
+			"resultCount": 6,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:shapeless/rice_dough",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"firmalife:spoon"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/rice_flour"
+					]
+				},
+				{
+					"ids": [
+						"firmalife:tirage_mixture"
+					]
+				},
+				{
+					"ids": [
+						"tfc:ceramic/bowl",
+						"minecraft:bowl"
+					]
+				}
+			],
+			"resultId": "firmalife:food/rice_dough",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:shapeless/hardtack_dough",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"firmalife:spoon"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/barley_flour",
+						"tfc:food/maize_flour",
+						"tfc:food/oat_flour",
+						"tfc:food/rice_flour",
+						"tfc:food/rye_flour",
+						"tfc:food/wheat_flour"
+					]
+				},
+				{
+					"ids": [
+						"tfc:powder/salt"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:water_bucket",
+						"tfc:wooden_bucket",
+						"tfc:ceramic/jug",
+						"tfc:metal/bucket/red_steel",
+						"tfc:metal/bucket/blue_steel",
+						"tfc:silica_glass_bottle",
+						"tfc:hematitic_glass_bottle",
+						"tfc:olivine_glass_bottle",
+						"tfc:volcanic_glass_bottle",
+						"tfg:beaker",
+						"tfg:flask",
+						"tfc:wood/barrel/acacia",
+						"tfc:wood/barrel/ash",
+						"tfc:wood/barrel/aspen",
+						"tfc:wood/barrel/birch",
+						"tfc:wood/barrel/blackwood",
+						"tfc:wood/barrel/chestnut",
+						"tfc:wood/barrel/douglas_fir",
+						"tfc:wood/barrel/hickory",
+						"tfc:wood/barrel/kapok",
+						"tfc:wood/barrel/mangrove",
+						"tfc:wood/barrel/maple",
+						"tfc:wood/barrel/oak",
+						"tfc:wood/barrel/palm",
+						"tfc:wood/barrel/pine",
+						"tfc:wood/barrel/rosewood",
+						"tfc:wood/barrel/sequoia",
+						"tfc:wood/barrel/spruce",
+						"tfc:wood/barrel/sycamore",
+						"tfc:wood/barrel/white_cedar",
+						"tfc:wood/barrel/willow",
+						"afc:wood/barrel/cypress",
+						"afc:wood/barrel/tualang",
+						"afc:wood/barrel/hevea",
+						"afc:wood/barrel/teak",
+						"afc:wood/barrel/eucalyptus",
+						"afc:wood/barrel/baobab",
+						"afc:wood/barrel/fig",
+						"afc:wood/barrel/mahogany",
+						"afc:wood/barrel/ironwood",
+						"afc:wood/barrel/ipe",
+						"beneath:wood/barrel/crimson",
+						"beneath:wood/barrel/warped",
+						"tfg:wood/barrel/araucaria",
+						"tfg:wood/barrel/beech",
+						"tfg:wood/barrel/mahoe",
+						"tfg:wood/barrel/glacian",
+						"tfg:wood/barrel/strophar",
+						"tfg:wood/barrel/aeronos",
+						"tfg:wood/barrel/ginkgo"
+					]
+				},
+				{
+					"ids": [
+						"tfc:ceramic/bowl",
+						"minecraft:bowl"
+					]
+				}
+			],
+			"resultId": "firmalife:food/hardtack_dough",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:shapeless/barley_dough_3",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"firmalife:spoon"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/barley_flour"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/barley_flour"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/barley_flour"
+					]
+				},
+				{
+					"ids": [
+						"firmalife:tirage_mixture"
+					]
+				},
+				{
+					"ids": [
+						"firmalife:tirage_mixture"
+					]
+				},
+				{
+					"ids": [
+						"firmalife:tirage_mixture"
+					]
+				},
+				{
+					"ids": [
+						"tfc:ceramic/bowl",
+						"minecraft:bowl"
+					]
+				}
+			],
+			"resultId": "firmalife:food/barley_dough",
+			"resultCount": 6,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:shapeless/barley_dough_2",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"firmalife:spoon"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/barley_flour"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/barley_flour"
+					]
+				},
+				{
+					"ids": [
+						"firmalife:tirage_mixture"
+					]
+				},
+				{
+					"ids": [
+						"firmalife:tirage_mixture"
+					]
+				},
+				{
+					"ids": [
+						"tfc:ceramic/bowl",
+						"minecraft:bowl"
+					]
+				}
+			],
+			"resultId": "firmalife:food/barley_dough",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:shapeless/rice_dough_2",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"firmalife:spoon"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/rice_flour"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/rice_flour"
+					]
+				},
+				{
+					"ids": [
+						"firmalife:tirage_mixture"
+					]
+				},
+				{
+					"ids": [
+						"firmalife:tirage_mixture"
+					]
+				},
+				{
+					"ids": [
+						"tfc:ceramic/bowl",
+						"minecraft:bowl"
+					]
+				}
+			],
+			"resultId": "firmalife:food/rice_dough",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:shapeless/rice_dough_3",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"firmalife:spoon"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/rice_flour"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/rice_flour"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/rice_flour"
+					]
+				},
+				{
+					"ids": [
+						"firmalife:tirage_mixture"
+					]
+				},
+				{
+					"ids": [
+						"firmalife:tirage_mixture"
+					]
+				},
+				{
+					"ids": [
+						"firmalife:tirage_mixture"
+					]
+				},
+				{
+					"ids": [
+						"tfc:ceramic/bowl",
+						"minecraft:bowl"
+					]
+				}
+			],
+			"resultId": "firmalife:food/rice_dough",
+			"resultCount": 6,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:shapeless/oat_dough_2",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"firmalife:spoon"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/oat_flour"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/oat_flour"
+					]
+				},
+				{
+					"ids": [
+						"firmalife:tirage_mixture"
+					]
+				},
+				{
+					"ids": [
+						"firmalife:tirage_mixture"
+					]
+				},
+				{
+					"ids": [
+						"tfc:ceramic/bowl",
+						"minecraft:bowl"
+					]
+				}
+			],
+			"resultId": "firmalife:food/oat_dough",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:shapeless/oat_dough_3",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"firmalife:spoon"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/oat_flour"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/oat_flour"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/oat_flour"
+					]
+				},
+				{
+					"ids": [
+						"firmalife:tirage_mixture"
+					]
+				},
+				{
+					"ids": [
+						"firmalife:tirage_mixture"
+					]
+				},
+				{
+					"ids": [
+						"firmalife:tirage_mixture"
+					]
+				},
+				{
+					"ids": [
+						"tfc:ceramic/bowl",
+						"minecraft:bowl"
+					]
+				}
+			],
+			"resultId": "firmalife:food/oat_dough",
+			"resultCount": 6,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:shapeless/maize_flatbread_dough",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"firmalife:spoon"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/maize_flour"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:water_bucket",
+						"tfc:wooden_bucket",
+						"tfc:ceramic/jug",
+						"tfc:metal/bucket/red_steel",
+						"tfc:metal/bucket/blue_steel",
+						"tfc:silica_glass_bottle",
+						"tfc:hematitic_glass_bottle",
+						"tfc:olivine_glass_bottle",
+						"tfc:volcanic_glass_bottle",
+						"tfg:beaker",
+						"tfg:flask",
+						"tfc:wood/barrel/acacia",
+						"tfc:wood/barrel/ash",
+						"tfc:wood/barrel/aspen",
+						"tfc:wood/barrel/birch",
+						"tfc:wood/barrel/blackwood",
+						"tfc:wood/barrel/chestnut",
+						"tfc:wood/barrel/douglas_fir",
+						"tfc:wood/barrel/hickory",
+						"tfc:wood/barrel/kapok",
+						"tfc:wood/barrel/mangrove",
+						"tfc:wood/barrel/maple",
+						"tfc:wood/barrel/oak",
+						"tfc:wood/barrel/palm",
+						"tfc:wood/barrel/pine",
+						"tfc:wood/barrel/rosewood",
+						"tfc:wood/barrel/sequoia",
+						"tfc:wood/barrel/spruce",
+						"tfc:wood/barrel/sycamore",
+						"tfc:wood/barrel/white_cedar",
+						"tfc:wood/barrel/willow",
+						"afc:wood/barrel/cypress",
+						"afc:wood/barrel/tualang",
+						"afc:wood/barrel/hevea",
+						"afc:wood/barrel/teak",
+						"afc:wood/barrel/eucalyptus",
+						"afc:wood/barrel/baobab",
+						"afc:wood/barrel/fig",
+						"afc:wood/barrel/mahogany",
+						"afc:wood/barrel/ironwood",
+						"afc:wood/barrel/ipe",
+						"beneath:wood/barrel/crimson",
+						"beneath:wood/barrel/warped",
+						"tfg:wood/barrel/araucaria",
+						"tfg:wood/barrel/beech",
+						"tfg:wood/barrel/mahoe",
+						"tfg:wood/barrel/glacian",
+						"tfg:wood/barrel/strophar",
+						"tfg:wood/barrel/aeronos",
+						"tfg:wood/barrel/ginkgo"
+					]
+				},
+				{
+					"ids": [
+						"tfc:ceramic/bowl",
+						"minecraft:bowl"
+					]
+				}
+			],
+			"resultId": "tfc:food/maize_dough",
+			"resultCount": 2,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:shapeless/barley_flatbread_dough_2",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"firmalife:spoon"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/barley_flour"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/barley_flour"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:water_bucket",
+						"tfc:wooden_bucket",
+						"tfc:metal/bucket/red_steel",
+						"tfc:metal/bucket/blue_steel",
+						"tfc:silica_glass_bottle",
+						"tfc:hematitic_glass_bottle",
+						"tfc:olivine_glass_bottle",
+						"tfc:volcanic_glass_bottle",
+						"tfg:beaker",
+						"tfc:wood/barrel/acacia",
+						"tfc:wood/barrel/ash",
+						"tfc:wood/barrel/aspen",
+						"tfc:wood/barrel/birch",
+						"tfc:wood/barrel/blackwood",
+						"tfc:wood/barrel/chestnut",
+						"tfc:wood/barrel/douglas_fir",
+						"tfc:wood/barrel/hickory",
+						"tfc:wood/barrel/kapok",
+						"tfc:wood/barrel/mangrove",
+						"tfc:wood/barrel/maple",
+						"tfc:wood/barrel/oak",
+						"tfc:wood/barrel/palm",
+						"tfc:wood/barrel/pine",
+						"tfc:wood/barrel/rosewood",
+						"tfc:wood/barrel/sequoia",
+						"tfc:wood/barrel/spruce",
+						"tfc:wood/barrel/sycamore",
+						"tfc:wood/barrel/white_cedar",
+						"tfc:wood/barrel/willow",
+						"afc:wood/barrel/cypress",
+						"afc:wood/barrel/tualang",
+						"afc:wood/barrel/hevea",
+						"afc:wood/barrel/teak",
+						"afc:wood/barrel/eucalyptus",
+						"afc:wood/barrel/baobab",
+						"afc:wood/barrel/fig",
+						"afc:wood/barrel/mahogany",
+						"afc:wood/barrel/ironwood",
+						"afc:wood/barrel/ipe",
+						"beneath:wood/barrel/crimson",
+						"beneath:wood/barrel/warped",
+						"tfg:wood/barrel/araucaria",
+						"tfg:wood/barrel/beech",
+						"tfg:wood/barrel/mahoe",
+						"tfg:wood/barrel/glacian",
+						"tfg:wood/barrel/strophar",
+						"tfg:wood/barrel/aeronos",
+						"tfg:wood/barrel/ginkgo"
+					]
+				},
+				{
+					"ids": [
+						"tfc:ceramic/bowl",
+						"minecraft:bowl"
+					]
+				}
+			],
+			"resultId": "tfc:food/barley_dough",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:shapeless/barley_flatbread_dough_3",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"firmalife:spoon"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/barley_flour"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/barley_flour"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/barley_flour"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:water_bucket",
+						"tfc:wooden_bucket",
+						"tfc:metal/bucket/red_steel",
+						"tfc:metal/bucket/blue_steel",
+						"tfc:silica_glass_bottle",
+						"tfc:hematitic_glass_bottle",
+						"tfc:olivine_glass_bottle",
+						"tfc:volcanic_glass_bottle",
+						"tfg:beaker",
+						"tfc:wood/barrel/acacia",
+						"tfc:wood/barrel/ash",
+						"tfc:wood/barrel/aspen",
+						"tfc:wood/barrel/birch",
+						"tfc:wood/barrel/blackwood",
+						"tfc:wood/barrel/chestnut",
+						"tfc:wood/barrel/douglas_fir",
+						"tfc:wood/barrel/hickory",
+						"tfc:wood/barrel/kapok",
+						"tfc:wood/barrel/mangrove",
+						"tfc:wood/barrel/maple",
+						"tfc:wood/barrel/oak",
+						"tfc:wood/barrel/palm",
+						"tfc:wood/barrel/pine",
+						"tfc:wood/barrel/rosewood",
+						"tfc:wood/barrel/sequoia",
+						"tfc:wood/barrel/spruce",
+						"tfc:wood/barrel/sycamore",
+						"tfc:wood/barrel/white_cedar",
+						"tfc:wood/barrel/willow",
+						"afc:wood/barrel/cypress",
+						"afc:wood/barrel/tualang",
+						"afc:wood/barrel/hevea",
+						"afc:wood/barrel/teak",
+						"afc:wood/barrel/eucalyptus",
+						"afc:wood/barrel/baobab",
+						"afc:wood/barrel/fig",
+						"afc:wood/barrel/mahogany",
+						"afc:wood/barrel/ironwood",
+						"afc:wood/barrel/ipe",
+						"beneath:wood/barrel/crimson",
+						"beneath:wood/barrel/warped",
+						"tfg:wood/barrel/araucaria",
+						"tfg:wood/barrel/beech",
+						"tfg:wood/barrel/mahoe",
+						"tfg:wood/barrel/glacian",
+						"tfg:wood/barrel/strophar",
+						"tfg:wood/barrel/aeronos",
+						"tfg:wood/barrel/ginkgo"
+					]
+				},
+				{
+					"ids": [
+						"tfc:ceramic/bowl",
+						"minecraft:bowl"
+					]
+				}
+			],
+			"resultId": "tfc:food/barley_dough",
+			"resultCount": 6,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:shapeless/barley_flatbread_dough_4",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"firmalife:spoon"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/barley_flour"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/barley_flour"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/barley_flour"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/barley_flour"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:water_bucket",
+						"tfc:wooden_bucket",
+						"tfc:metal/bucket/red_steel",
+						"tfc:metal/bucket/blue_steel",
+						"tfc:silica_glass_bottle",
+						"tfc:hematitic_glass_bottle",
+						"tfc:olivine_glass_bottle",
+						"tfc:volcanic_glass_bottle",
+						"tfg:beaker",
+						"tfc:wood/barrel/acacia",
+						"tfc:wood/barrel/ash",
+						"tfc:wood/barrel/aspen",
+						"tfc:wood/barrel/birch",
+						"tfc:wood/barrel/blackwood",
+						"tfc:wood/barrel/chestnut",
+						"tfc:wood/barrel/douglas_fir",
+						"tfc:wood/barrel/hickory",
+						"tfc:wood/barrel/kapok",
+						"tfc:wood/barrel/mangrove",
+						"tfc:wood/barrel/maple",
+						"tfc:wood/barrel/oak",
+						"tfc:wood/barrel/palm",
+						"tfc:wood/barrel/pine",
+						"tfc:wood/barrel/rosewood",
+						"tfc:wood/barrel/sequoia",
+						"tfc:wood/barrel/spruce",
+						"tfc:wood/barrel/sycamore",
+						"tfc:wood/barrel/white_cedar",
+						"tfc:wood/barrel/willow",
+						"afc:wood/barrel/cypress",
+						"afc:wood/barrel/tualang",
+						"afc:wood/barrel/hevea",
+						"afc:wood/barrel/teak",
+						"afc:wood/barrel/eucalyptus",
+						"afc:wood/barrel/baobab",
+						"afc:wood/barrel/fig",
+						"afc:wood/barrel/mahogany",
+						"afc:wood/barrel/ironwood",
+						"afc:wood/barrel/ipe",
+						"beneath:wood/barrel/crimson",
+						"beneath:wood/barrel/warped",
+						"tfg:wood/barrel/araucaria",
+						"tfg:wood/barrel/beech",
+						"tfg:wood/barrel/mahoe",
+						"tfg:wood/barrel/glacian",
+						"tfg:wood/barrel/strophar",
+						"tfg:wood/barrel/aeronos",
+						"tfg:wood/barrel/ginkgo"
+					]
+				},
+				{
+					"ids": [
+						"tfc:ceramic/bowl",
+						"minecraft:bowl"
+					]
+				}
+			],
+			"resultId": "tfc:food/barley_dough",
+			"resultCount": 8,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:shapeless/hardtack_dough_2",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"firmalife:spoon"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/barley_flour",
+						"tfc:food/maize_flour",
+						"tfc:food/oat_flour",
+						"tfc:food/rice_flour",
+						"tfc:food/rye_flour",
+						"tfc:food/wheat_flour"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/barley_flour",
+						"tfc:food/maize_flour",
+						"tfc:food/oat_flour",
+						"tfc:food/rice_flour",
+						"tfc:food/rye_flour",
+						"tfc:food/wheat_flour"
+					]
+				},
+				{
+					"ids": [
+						"tfc:powder/salt"
+					]
+				},
+				{
+					"ids": [
+						"tfc:powder/salt"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:water_bucket",
+						"tfc:wooden_bucket",
+						"tfc:metal/bucket/red_steel",
+						"tfc:metal/bucket/blue_steel",
+						"tfc:silica_glass_bottle",
+						"tfc:hematitic_glass_bottle",
+						"tfc:olivine_glass_bottle",
+						"tfc:volcanic_glass_bottle",
+						"tfg:beaker",
+						"tfc:wood/barrel/acacia",
+						"tfc:wood/barrel/ash",
+						"tfc:wood/barrel/aspen",
+						"tfc:wood/barrel/birch",
+						"tfc:wood/barrel/blackwood",
+						"tfc:wood/barrel/chestnut",
+						"tfc:wood/barrel/douglas_fir",
+						"tfc:wood/barrel/hickory",
+						"tfc:wood/barrel/kapok",
+						"tfc:wood/barrel/mangrove",
+						"tfc:wood/barrel/maple",
+						"tfc:wood/barrel/oak",
+						"tfc:wood/barrel/palm",
+						"tfc:wood/barrel/pine",
+						"tfc:wood/barrel/rosewood",
+						"tfc:wood/barrel/sequoia",
+						"tfc:wood/barrel/spruce",
+						"tfc:wood/barrel/sycamore",
+						"tfc:wood/barrel/white_cedar",
+						"tfc:wood/barrel/willow",
+						"afc:wood/barrel/cypress",
+						"afc:wood/barrel/tualang",
+						"afc:wood/barrel/hevea",
+						"afc:wood/barrel/teak",
+						"afc:wood/barrel/eucalyptus",
+						"afc:wood/barrel/baobab",
+						"afc:wood/barrel/fig",
+						"afc:wood/barrel/mahogany",
+						"afc:wood/barrel/ironwood",
+						"afc:wood/barrel/ipe",
+						"beneath:wood/barrel/crimson",
+						"beneath:wood/barrel/warped",
+						"tfg:wood/barrel/araucaria",
+						"tfg:wood/barrel/beech",
+						"tfg:wood/barrel/mahoe",
+						"tfg:wood/barrel/glacian",
+						"tfg:wood/barrel/strophar",
+						"tfg:wood/barrel/aeronos",
+						"tfg:wood/barrel/ginkgo"
+					]
+				},
+				{
+					"ids": [
+						"tfc:ceramic/bowl",
+						"minecraft:bowl"
+					]
+				}
+			],
+			"resultId": "firmalife:food/hardtack_dough",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:shapeless/hardtack_dough_3",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"firmalife:spoon"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/barley_flour",
+						"tfc:food/maize_flour",
+						"tfc:food/oat_flour",
+						"tfc:food/rice_flour",
+						"tfc:food/rye_flour",
+						"tfc:food/wheat_flour"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/barley_flour",
+						"tfc:food/maize_flour",
+						"tfc:food/oat_flour",
+						"tfc:food/rice_flour",
+						"tfc:food/rye_flour",
+						"tfc:food/wheat_flour"
+					]
+				},
+				{
+					"ids": [
+						"tfc:food/barley_flour",
+						"tfc:food/maize_flour",
+						"tfc:food/oat_flour",
+						"tfc:food/rice_flour",
+						"tfc:food/rye_flour",
+						"tfc:food/wheat_flour"
+					]
+				},
+				{
+					"ids": [
+						"tfc:powder/salt"
+					]
+				},
+				{
+					"ids": [
+						"tfc:powder/salt"
+					]
+				},
+				{
+					"ids": [
+						"tfc:powder/salt"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:water_bucket",
+						"tfc:wooden_bucket",
+						"tfc:metal/bucket/red_steel",
+						"tfc:metal/bucket/blue_steel",
+						"tfc:silica_glass_bottle",
+						"tfc:hematitic_glass_bottle",
+						"tfc:olivine_glass_bottle",
+						"tfc:volcanic_glass_bottle",
+						"tfg:beaker",
+						"tfc:wood/barrel/acacia",
+						"tfc:wood/barrel/ash",
+						"tfc:wood/barrel/aspen",
+						"tfc:wood/barrel/birch",
+						"tfc:wood/barrel/blackwood",
+						"tfc:wood/barrel/chestnut",
+						"tfc:wood/barrel/douglas_fir",
+						"tfc:wood/barrel/hickory",
+						"tfc:wood/barrel/kapok",
+						"tfc:wood/barrel/mangrove",
+						"tfc:wood/barrel/maple",
+						"tfc:wood/barrel/oak",
+						"tfc:wood/barrel/palm",
+						"tfc:wood/barrel/pine",
+						"tfc:wood/barrel/rosewood",
+						"tfc:wood/barrel/sequoia",
+						"tfc:wood/barrel/spruce",
+						"tfc:wood/barrel/sycamore",
+						"tfc:wood/barrel/white_cedar",
+						"tfc:wood/barrel/willow",
+						"afc:wood/barrel/cypress",
+						"afc:wood/barrel/tualang",
+						"afc:wood/barrel/hevea",
+						"afc:wood/barrel/teak",
+						"afc:wood/barrel/eucalyptus",
+						"afc:wood/barrel/baobab",
+						"afc:wood/barrel/fig",
+						"afc:wood/barrel/mahogany",
+						"afc:wood/barrel/ironwood",
+						"afc:wood/barrel/ipe",
+						"beneath:wood/barrel/crimson",
+						"beneath:wood/barrel/warped",
+						"tfg:wood/barrel/araucaria",
+						"tfg:wood/barrel/beech",
+						"tfg:wood/barrel/mahoe",
+						"tfg:wood/barrel/glacian",
+						"tfg:wood/barrel/strophar",
+						"tfg:wood/barrel/aeronos",
+						"tfg:wood/barrel/ginkgo"
+					]
+				},
+				{
+					"ids": [
+						"tfc:ceramic/bowl",
+						"minecraft:bowl"
+					]
+				}
+			],
+			"resultId": "firmalife:food/hardtack_dough",
+			"resultCount": 6,
+			"resultEmpty": false,
+			"extraOutputs": []
+		}
+	]
+}

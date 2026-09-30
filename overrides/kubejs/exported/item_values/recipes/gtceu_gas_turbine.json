@@ -1,0 +1,908 @@
+{
+	"type": "gtceu:gas_turbine",
+	"recipes": [
+		{
+			"id": "gtceu:gas_turbine/propene",
+			"category": "gas_turbine",
+			"duration": 6,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:propene"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [],
+			"tickOutputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@3c704ff8",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:the_nether]"
+				},
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@24f556fa",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:overworld]"
+				}
+			]
+		},
+		{
+			"id": "gtceu:gas_turbine/sulfuric_naphtha",
+			"category": "gas_turbine",
+			"duration": 5,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:sulfuric_naphtha"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [],
+			"tickOutputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@6d6d1f0c",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:the_nether]"
+				},
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@7ec0373e",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:overworld]"
+				}
+			]
+		},
+		{
+			"id": "gtceu:gas_turbine/coal_gas",
+			"category": "gas_turbine",
+			"duration": 3,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:coal_gas"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [],
+			"tickOutputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@7bd0c295",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:the_nether]"
+				},
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@5eefbbf0",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:overworld]"
+				}
+			]
+		},
+		{
+			"id": "tfg:gas_turbine/methane",
+			"category": "gas_turbine",
+			"duration": 3,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:methane"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [],
+			"tickOutputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@491ea38b",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:overworld]"
+				},
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@36980451",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:the_nether]"
+				}
+			]
+		},
+		{
+			"id": "gtceu:gas_turbine/propane",
+			"category": "gas_turbine",
+			"duration": 29,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:propane"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [],
+			"tickOutputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@4ba1ac7d",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:the_nether]"
+				},
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@6832bec2",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:overworld]"
+				}
+			]
+		},
+		{
+			"id": "gtceu:gas_turbine/butane",
+			"category": "gas_turbine",
+			"duration": 37,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:butane"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [],
+			"tickOutputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@540c4ab4",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:the_nether]"
+				},
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@224076e8",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:overworld]"
+				}
+			]
+		},
+		{
+			"id": "gtceu:gas_turbine/phenol",
+			"category": "gas_turbine",
+			"duration": 9,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:phenol"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [],
+			"tickOutputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@6444e499",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:the_nether]"
+				},
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@197d827d",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:overworld]"
+				}
+			]
+		},
+		{
+			"id": "tfg:gas_turbine/reformate_gas",
+			"category": "gas_turbine",
+			"duration": 12,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:reformate_gas"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [],
+			"tickOutputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@2f12220c",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:overworld]"
+				},
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@e44f630",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:the_nether]"
+				}
+			]
+		},
+		{
+			"id": "gtceu:gas_turbine/ethane",
+			"category": "gas_turbine",
+			"duration": 21,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:ethane"
+					],
+					"amount": 4,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [],
+			"tickOutputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@4d67bb4d",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:the_nether]"
+				},
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@387cb6f6",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:overworld]"
+				}
+			]
+		},
+		{
+			"id": "gtceu:gas_turbine/lpg",
+			"category": "gas_turbine",
+			"duration": 10,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:lpg"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [],
+			"tickOutputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@640f1b7",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:the_nether]"
+				},
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@2f9c7239",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:overworld]"
+				}
+			]
+		},
+		{
+			"id": "gtceu:gas_turbine/refinery_gas",
+			"category": "gas_turbine",
+			"duration": 5,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:refinery_gas"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [],
+			"tickOutputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@5f511954",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:the_nether]"
+				},
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@247df4e",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:overworld]"
+				}
+			]
+		},
+		{
+			"id": "tfg:gas_turbine/benzene",
+			"category": "gas_turbine",
+			"duration": 4,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:benzene"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [],
+			"tickOutputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@38b4bf8",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:overworld]"
+				},
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@4f4aec0a",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:the_nether]"
+				}
+			]
+		},
+		{
+			"id": "gtceu:gas_turbine/butadiene",
+			"category": "gas_turbine",
+			"duration": 102,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:butadiene"
+					],
+					"amount": 16,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [],
+			"tickOutputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@1806c70e",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:the_nether]"
+				},
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@2407c6ef",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:overworld]"
+				}
+			]
+		},
+		{
+			"id": "tfg:gas_turbine/syngas",
+			"category": "gas_turbine",
+			"duration": 4,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:syngas"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [],
+			"tickOutputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@7d0a9d1c",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:overworld]"
+				},
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@6538140b",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:the_nether]"
+				}
+			]
+		},
+		{
+			"id": "gtceu:gas_turbine/sulfuric_gas",
+			"category": "gas_turbine",
+			"duration": 25,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:sulfuric_gas"
+					],
+					"amount": 32,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [],
+			"tickOutputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@4ba88115",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:the_nether]"
+				},
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@51820631",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:overworld]"
+				}
+			]
+		},
+		{
+			"id": "gtceu:gas_turbine/butene",
+			"category": "gas_turbine",
+			"duration": 8,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:butene"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [],
+			"tickOutputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@78c99360",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:the_nether]"
+				},
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@5d74583e",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:overworld]"
+				}
+			]
+		},
+		{
+			"id": "gtceu:gas_turbine/ethylene",
+			"category": "gas_turbine",
+			"duration": 4,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:ethylene"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [],
+			"tickOutputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@52dbcaac",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:the_nether]"
+				},
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@1329ed48",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:overworld]"
+				}
+			]
+		},
+		{
+			"id": "gtceu:gas_turbine/natural_gas",
+			"category": "gas_turbine",
+			"duration": 5,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:natural_gas"
+					],
+					"amount": 8,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [],
+			"tickOutputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@27cf3ede",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:the_nether]"
+				},
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@580527b1",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:overworld]"
+				}
+			]
+		},
+		{
+			"id": "tfg:gas_turbine/nitrobenzene",
+			"category": "gas_turbine",
+			"duration": 10,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:nitrobenzene"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [],
+			"tickOutputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@548708b7",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:overworld]"
+				},
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@818ecc2",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:the_nether]"
+				}
+			]
+		},
+		{
+			"id": "tfg:gas_turbine/btx_fuel",
+			"category": "gas_turbine",
+			"duration": 57,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:btx_fuel"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [],
+			"tickOutputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@567f0ad1",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:overworld]"
+				},
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@27368700",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:the_nether]"
+				}
+			]
+		},
+		{
+			"id": "gtceu:gas_turbine/wood_gas",
+			"category": "gas_turbine",
+			"duration": 6,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:wood_gas"
+					],
+					"amount": 8,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [],
+			"tickOutputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@4b98e1e1",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:the_nether]"
+				},
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@4a97aac",
+					"dimension": "ResourceKey[minecraft:dimension / minecraft:overworld]"
+				}
+			]
+		}
+	]
+}

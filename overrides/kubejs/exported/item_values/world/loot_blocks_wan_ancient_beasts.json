@@ -1,0 +1,3487 @@
+{
+	"group": "blocks",
+	"namespace": "wan_ancient_beasts",
+	"tables": [
+		{
+			"id": "wan_ancient_beasts:blocks/amber_ginkgo_sapling",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "wan_ancient_beasts:blocks/amber_ginkgo_sapling",
+				"pools": [
+					{
+						"name": "wab",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "wan_ancient_beasts:amber_ginkgo_sapling"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "wan_ancient_beasts:amber_ginkgo_sapling",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "wan_ancient_beasts:blocks/stripped_ginkgo_log",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "wan_ancient_beasts:blocks/stripped_ginkgo_log",
+				"pools": [
+					{
+						"name": "wab",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "wan_ancient_beasts:stripped_ginkgo_log"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "wan_ancient_beasts:stripped_ginkgo_log",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "wan_ancient_beasts:blocks/amber_ginkgo_crop",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "wan_ancient_beasts:blocks/amber_ginkgo_crop",
+				"pools": [
+					{
+						"name": "wab",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "wan_ancient_beasts:amber_ginkgo_seeds"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "wan_ancient_beasts:amber_ginkgo_seeds",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "wan_ancient_beasts:blocks/petrified_wood",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "wan_ancient_beasts:blocks/petrified_wood",
+				"pools": [
+					{
+						"name": "wab",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "wan_ancient_beasts:petrified_wood"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "wan_ancient_beasts:petrified_wood",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "wan_ancient_beasts:blocks/verdant_ginkgo_sapling",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "wan_ancient_beasts:blocks/verdant_ginkgo_sapling",
+				"pools": [
+					{
+						"name": "wab",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "wan_ancient_beasts:verdant_ginkgo_sapling"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "wan_ancient_beasts:verdant_ginkgo_sapling",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "wan_ancient_beasts:blocks/ginkgo_wall_hanging_sign",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "wan_ancient_beasts:blocks/ginkgo_wall_hanging_sign",
+				"pools": [
+					{
+						"name": "wab",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "wan_ancient_beasts:ginkgo_hanging_sign"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "wan_ancient_beasts:ginkgo_hanging_sign",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "wan_ancient_beasts:blocks/crusher_spike",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "wan_ancient_beasts:blocks/crusher_spike",
+				"pools": [
+					{
+						"name": "wab",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "wan_ancient_beasts:crusher_spike"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "wan_ancient_beasts:crusher_spike",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "wan_ancient_beasts:blocks/snatcher_skull",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "wan_ancient_beasts:blocks/snatcher_skull",
+				"pools": [
+					{
+						"name": "wab",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "wan_ancient_beasts:snatcher_skull"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "wan_ancient_beasts:snatcher_skull",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "wan_ancient_beasts:blocks/equisetum",
+			"json": {
+				"type": "minecraft:block",
+				"pools": [
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:any_of",
+										"terms": [
+											{
+												"condition": "minecraft:match_tool",
+												"predicate": {
+													"tag": "tfc:sharp_tools"
+												}
+											},
+											{
+												"condition": "minecraft:match_tool",
+												"predicate": {
+													"tag": "forge:shears"
+												}
+											}
+										]
+									}
+								],
+								"name": "wan_ancient_beasts:equisetum"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "wan_ancient_beasts:equisetum",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:any_of",
+							"mentionsShears": true,
+							"terms": [
+								{
+									"type": "minecraft:match_tool"
+								},
+								{
+									"type": "minecraft:match_tool",
+									"mentionsShears": true
+								}
+							]
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "wan_ancient_beasts:blocks/crusher_skull",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "wan_ancient_beasts:blocks/crusher_skull",
+				"pools": [
+					{
+						"name": "wab",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "wan_ancient_beasts:crusher_skull"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "wan_ancient_beasts:crusher_skull",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "wan_ancient_beasts:blocks/moonflower",
+			"json": {
+				"type": "minecraft:block"
+			},
+			"drops": []
+		},
+		{
+			"id": "wan_ancient_beasts:blocks/ginkgo_sign",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "wan_ancient_beasts:blocks/ginkgo_sign",
+				"pools": [
+					{
+						"name": "wab",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "wan_ancient_beasts:ginkgo_sign"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "wan_ancient_beasts:ginkgo_sign",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "wan_ancient_beasts:blocks/sniffer_skull",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "wan_ancient_beasts:blocks/sniffer_skull",
+				"pools": [
+					{
+						"name": "wab",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "wan_ancient_beasts:sniffer_skull"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "wan_ancient_beasts:sniffer_skull",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "wan_ancient_beasts:blocks/ginkgo_stairs",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "wan_ancient_beasts:blocks/ginkgo_stairs",
+				"pools": [
+					{
+						"name": "wab",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "wan_ancient_beasts:ginkgo_stairs"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "wan_ancient_beasts:ginkgo_stairs",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "wan_ancient_beasts:blocks/soarer_skull",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "wan_ancient_beasts:blocks/soarer_skull",
+				"pools": [
+					{
+						"name": "wab",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "wan_ancient_beasts:soarer_skull"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "wan_ancient_beasts:soarer_skull",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "wan_ancient_beasts:blocks/bellflower_crop",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "wan_ancient_beasts:blocks/bellflower_crop",
+				"pools": [
+					{
+						"name": "wab",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "wan_ancient_beasts:bellflower_seeds"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "wan_ancient_beasts:bellflower_seeds",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "wan_ancient_beasts:blocks/stripped_petrified_log",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "wan_ancient_beasts:blocks/stripped_petrified_log",
+				"pools": [
+					{
+						"name": "wab",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "wan_ancient_beasts:stripped_petrified_log"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "wan_ancient_beasts:stripped_petrified_log",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "wan_ancient_beasts:blocks/petrified_log",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "wan_ancient_beasts:blocks/petrified_log",
+				"pools": [
+					{
+						"name": "wab",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "wan_ancient_beasts:petrified_log"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "wan_ancient_beasts:petrified_log",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "wan_ancient_beasts:blocks/ginkgo_slab",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "wan_ancient_beasts:blocks/ginkgo_slab",
+				"pools": [
+					{
+						"name": "wab",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"conditions": [
+											{
+												"condition": "minecraft:block_state_property",
+												"block": "wan_ancient_beasts:ginkgo_slab",
+												"properties": {
+													"type": "double"
+												}
+											}
+										],
+										"count": 2.0,
+										"add": false
+									},
+									{
+										"function": "minecraft:explosion_decay"
+									}
+								],
+								"name": "wan_ancient_beasts:ginkgo_slab"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "wan_ancient_beasts:ginkgo_slab",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 2.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count",
+						"minecraft:explosion_decay"
+					],
+					"conditions": [],
+					"chain": [],
+					"countConditional": true
+				}
+			]
+		},
+		{
+			"id": "wan_ancient_beasts:blocks/ginkgo_planks",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "wan_ancient_beasts:blocks/ginkgo_planks",
+				"pools": [
+					{
+						"name": "wab",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "wan_ancient_beasts:ginkgo_planks"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "wan_ancient_beasts:ginkgo_planks",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "wan_ancient_beasts:blocks/straw_stairs",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "wan_ancient_beasts:blocks/straw_stairs",
+				"pools": [
+					{
+						"name": "wab",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "wan_ancient_beasts:straw_stairs"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "wan_ancient_beasts:straw_stairs",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "wan_ancient_beasts:blocks/straw_slab",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "wan_ancient_beasts:blocks/straw_slab",
+				"pools": [
+					{
+						"name": "wab",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "wan_ancient_beasts:straw_slab"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "wan_ancient_beasts:straw_slab",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "wan_ancient_beasts:blocks/frozen_straw_block",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "wan_ancient_beasts:blocks/frozen_straw_block",
+				"pools": [
+					{
+						"name": "wab",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "wan_ancient_beasts:frozen_straw_block"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "wan_ancient_beasts:frozen_straw_block",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "wan_ancient_beasts:blocks/eater_skull",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "wan_ancient_beasts:blocks/eater_skull",
+				"pools": [
+					{
+						"name": "wab",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "wan_ancient_beasts:eater_skull"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "wan_ancient_beasts:eater_skull",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "wan_ancient_beasts:blocks/stripped_petrified_wood",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "wan_ancient_beasts:blocks/stripped_petrified_wood",
+				"pools": [
+					{
+						"name": "wab",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "wan_ancient_beasts:stripped_petrified_wood"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "wan_ancient_beasts:stripped_petrified_wood",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "wan_ancient_beasts:blocks/ginkgo_trapdoor",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "wan_ancient_beasts:blocks/ginkgo_trapdoor",
+				"pools": [
+					{
+						"name": "wab",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "wan_ancient_beasts:ginkgo_trapdoor"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "wan_ancient_beasts:ginkgo_trapdoor",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "wan_ancient_beasts:blocks/equisetum_crop",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "wan_ancient_beasts:blocks/equisetum_crop",
+				"pools": [
+					{
+						"name": "wab",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "wan_ancient_beasts:equisetum_seeds"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "wan_ancient_beasts:equisetum_seeds",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "wan_ancient_beasts:blocks/verdant_ginkgo_leaves",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "wan_ancient_beasts:blocks/verdant_ginkgo_leaves",
+				"pools": [
+					{
+						"name": "wab",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:alternatives",
+								"children": [
+									{
+										"type": "minecraft:item",
+										"conditions": [
+											{
+												"condition": "minecraft:any_of",
+												"terms": [
+													{
+														"condition": "minecraft:match_tool",
+														"predicate": {
+															"items": [
+																"minecraft:shears"
+															]
+														}
+													},
+													{
+														"condition": "minecraft:match_tool",
+														"predicate": {
+															"enchantments": [
+																{
+																	"enchantment": "minecraft:silk_touch",
+																	"levels": {
+																		"min": 1.0
+																	}
+																}
+															]
+														}
+													}
+												]
+											}
+										],
+										"name": "wan_ancient_beasts:verdant_ginkgo_leaves"
+									},
+									{
+										"type": "minecraft:item",
+										"conditions": [
+											{
+												"condition": "minecraft:survives_explosion"
+											},
+											{
+												"condition": "minecraft:table_bonus",
+												"enchantment": "minecraft:fortune",
+												"chances": [
+													0.05,
+													0.0625,
+													0.083333336,
+													0.1
+												]
+											}
+										],
+										"name": "wan_ancient_beasts:verdant_ginkgo_seeds"
+									}
+								]
+							}
+						]
+					},
+					{
+						"name": "wab",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:table_bonus",
+										"enchantment": "minecraft:fortune",
+										"chances": [
+											0.02,
+											0.022222223,
+											0.025,
+											0.033333335,
+											0.1
+										]
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 2.0
+										},
+										"add": false
+									},
+									{
+										"function": "minecraft:explosion_decay"
+									}
+								],
+								"name": "minecraft:stick"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:inverted",
+								"term": {
+									"condition": "minecraft:any_of",
+									"terms": [
+										{
+											"condition": "minecraft:match_tool",
+											"predicate": {
+												"items": [
+													"minecraft:shears"
+												]
+											}
+										},
+										{
+											"condition": "minecraft:match_tool",
+											"predicate": {
+												"enchantments": [
+													{
+														"enchantment": "minecraft:silk_touch",
+														"levels": {
+															"min": 1.0
+														}
+													}
+												]
+											}
+										}
+									]
+								}
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "wan_ancient_beasts:verdant_ginkgo_leaves",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:any_of",
+							"silkTouch": true,
+							"mentionsShears": true,
+							"terms": [
+								{
+									"type": "minecraft:match_tool",
+									"mentionsShears": true
+								},
+								{
+									"type": "minecraft:match_tool",
+									"silkTouch": true
+								}
+							]
+						}
+					],
+					"chain": [
+						"minecraft:alternatives#0"
+					]
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "wan_ancient_beasts:verdant_ginkgo_seeds",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:table_bonus",
+							"chances": [
+								0.05,
+								0.0625,
+								0.083333336,
+								0.1
+							],
+							"enchantment": "minecraft:fortune"
+						}
+					],
+					"chain": [
+						"minecraft:alternatives#1"
+					]
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:stick",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count",
+						"minecraft:explosion_decay"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:inverted",
+							"silkTouch": true,
+							"mentionsShears": true,
+							"term": {
+								"type": "minecraft:any_of",
+								"silkTouch": true,
+								"mentionsShears": true,
+								"terms": [
+									{
+										"type": "minecraft:match_tool",
+										"mentionsShears": true
+									},
+									{
+										"type": "minecraft:match_tool",
+										"silkTouch": true
+									}
+								]
+							},
+							"inverted": true
+						},
+						{
+							"type": "minecraft:table_bonus",
+							"chances": [
+								0.02,
+								0.022222223,
+								0.025,
+								0.033333335,
+								0.1
+							],
+							"enchantment": "minecraft:fortune"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "wan_ancient_beasts:blocks/ginkgo_pressure_plate",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "wan_ancient_beasts:blocks/ginkgo_pressure_plate",
+				"pools": [
+					{
+						"name": "wab",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "wan_ancient_beasts:ginkgo_pressure_plate"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "wan_ancient_beasts:ginkgo_pressure_plate",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "wan_ancient_beasts:blocks/snatcher_egg",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "wan_ancient_beasts:blocks/snatcher_egg",
+				"pools": [
+					{
+						"name": "wab",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "wan_ancient_beasts:snatcher_egg"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "wan_ancient_beasts:snatcher_egg",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "wan_ancient_beasts:blocks/ginkgo_fence_gate",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "wan_ancient_beasts:blocks/ginkgo_fence_gate",
+				"pools": [
+					{
+						"name": "wab",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "wan_ancient_beasts:ginkgo_fence_gate"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "wan_ancient_beasts:ginkgo_fence_gate",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "wan_ancient_beasts:blocks/quick_red_sand",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "wan_ancient_beasts:blocks/quick_red_sand"
+			},
+			"drops": []
+		},
+		{
+			"id": "wan_ancient_beasts:blocks/bellflower",
+			"json": {
+				"type": "minecraft:block",
+				"pools": [
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:any_of",
+										"terms": [
+											{
+												"condition": "minecraft:match_tool",
+												"predicate": {
+													"tag": "tfc:sharp_tools"
+												}
+											},
+											{
+												"condition": "minecraft:match_tool",
+												"predicate": {
+													"tag": "forge:shears"
+												}
+											}
+										]
+									}
+								],
+								"name": "wan_ancient_beasts:bellflower"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "wan_ancient_beasts:bellflower",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:any_of",
+							"mentionsShears": true,
+							"terms": [
+								{
+									"type": "minecraft:match_tool"
+								},
+								{
+									"type": "minecraft:match_tool",
+									"mentionsShears": true
+								}
+							]
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "wan_ancient_beasts:blocks/sundew_crop",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "wan_ancient_beasts:blocks/sundew_crop",
+				"pools": [
+					{
+						"name": "wab",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "wan_ancient_beasts:sundew_seeds"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "wan_ancient_beasts:sundew_seeds",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "wan_ancient_beasts:blocks/ginkgo_hanging_sign",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "wan_ancient_beasts:blocks/ginkgo_hanging_sign",
+				"pools": [
+					{
+						"name": "wab",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "wan_ancient_beasts:ginkgo_hanging_sign"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "wan_ancient_beasts:ginkgo_hanging_sign",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "wan_ancient_beasts:blocks/charger_egg",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "wan_ancient_beasts:blocks/charger_egg",
+				"pools": [
+					{
+						"name": "wab",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "wan_ancient_beasts:charger_egg"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "wan_ancient_beasts:charger_egg",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "wan_ancient_beasts:blocks/verdant_ginkgo_crop",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "wan_ancient_beasts:blocks/verdant_ginkgo_crop",
+				"pools": [
+					{
+						"name": "wab",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "wan_ancient_beasts:verdant_ginkgo_seeds"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "wan_ancient_beasts:verdant_ginkgo_seeds",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "wan_ancient_beasts:blocks/walker_egg",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "wan_ancient_beasts:blocks/walker_egg",
+				"pools": [
+					{
+						"name": "wab",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "wan_ancient_beasts:walker_egg"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "wan_ancient_beasts:walker_egg",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "wan_ancient_beasts:blocks/olden_moss_block",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "wan_ancient_beasts:blocks/olden_moss_block",
+				"pools": [
+					{
+						"name": "wab",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "wan_ancient_beasts:olden_moss_block"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "wan_ancient_beasts:olden_moss_block",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "wan_ancient_beasts:blocks/quick_sand",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "wan_ancient_beasts:blocks/quick_sand"
+			},
+			"drops": []
+		},
+		{
+			"id": "wan_ancient_beasts:blocks/ginkgo_button",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "wan_ancient_beasts:blocks/ginkgo_button",
+				"pools": [
+					{
+						"name": "wab",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "wan_ancient_beasts:ginkgo_button"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "wan_ancient_beasts:ginkgo_button",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "wan_ancient_beasts:blocks/ginkgo_wood",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "wan_ancient_beasts:blocks/ginkgo_wood",
+				"pools": [
+					{
+						"name": "wab",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "wan_ancient_beasts:ginkgo_wood"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "wan_ancient_beasts:ginkgo_wood",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "wan_ancient_beasts:blocks/ginkgo_fence",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "wan_ancient_beasts:blocks/ginkgo_fence",
+				"pools": [
+					{
+						"name": "wab",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "wan_ancient_beasts:ginkgo_fence"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "wan_ancient_beasts:ginkgo_fence",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "wan_ancient_beasts:blocks/olden_moss_carpet",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "wan_ancient_beasts:blocks/olden_moss_carpet",
+				"pools": [
+					{
+						"name": "wab",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "wan_ancient_beasts:olden_moss_carpet"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "wan_ancient_beasts:olden_moss_carpet",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "wan_ancient_beasts:blocks/glider_egg",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "wan_ancient_beasts:blocks/glider_egg",
+				"pools": [
+					{
+						"name": "wab",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "wan_ancient_beasts:glider_egg"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "wan_ancient_beasts:glider_egg",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "wan_ancient_beasts:blocks/surfer_skull",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "wan_ancient_beasts:blocks/surfer_skull",
+				"pools": [
+					{
+						"name": "wab",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "wan_ancient_beasts:surfer_skull"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "wan_ancient_beasts:surfer_skull",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "wan_ancient_beasts:blocks/amber_ginkgo_leaves",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "wan_ancient_beasts:blocks/amber_ginkgo_leaves",
+				"pools": [
+					{
+						"name": "wab",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:alternatives",
+								"children": [
+									{
+										"type": "minecraft:item",
+										"conditions": [
+											{
+												"condition": "minecraft:any_of",
+												"terms": [
+													{
+														"condition": "minecraft:match_tool",
+														"predicate": {
+															"items": [
+																"minecraft:shears"
+															]
+														}
+													},
+													{
+														"condition": "minecraft:match_tool",
+														"predicate": {
+															"enchantments": [
+																{
+																	"enchantment": "minecraft:silk_touch",
+																	"levels": {
+																		"min": 1.0
+																	}
+																}
+															]
+														}
+													}
+												]
+											}
+										],
+										"name": "wan_ancient_beasts:amber_ginkgo_leaves"
+									},
+									{
+										"type": "minecraft:item",
+										"conditions": [
+											{
+												"condition": "minecraft:survives_explosion"
+											},
+											{
+												"condition": "minecraft:table_bonus",
+												"enchantment": "minecraft:fortune",
+												"chances": [
+													0.05,
+													0.0625,
+													0.083333336,
+													0.1
+												]
+											}
+										],
+										"name": "wan_ancient_beasts:amber_ginkgo_seeds"
+									}
+								]
+							}
+						]
+					},
+					{
+						"name": "wab",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:table_bonus",
+										"enchantment": "minecraft:fortune",
+										"chances": [
+											0.02,
+											0.022222223,
+											0.025,
+											0.033333335,
+											0.1
+										]
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 2.0
+										},
+										"add": false
+									},
+									{
+										"function": "minecraft:explosion_decay"
+									}
+								],
+								"name": "minecraft:stick"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:inverted",
+								"term": {
+									"condition": "minecraft:any_of",
+									"terms": [
+										{
+											"condition": "minecraft:match_tool",
+											"predicate": {
+												"items": [
+													"minecraft:shears"
+												]
+											}
+										},
+										{
+											"condition": "minecraft:match_tool",
+											"predicate": {
+												"enchantments": [
+													{
+														"enchantment": "minecraft:silk_touch",
+														"levels": {
+															"min": 1.0
+														}
+													}
+												]
+											}
+										}
+									]
+								}
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "wan_ancient_beasts:amber_ginkgo_leaves",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:any_of",
+							"silkTouch": true,
+							"mentionsShears": true,
+							"terms": [
+								{
+									"type": "minecraft:match_tool",
+									"mentionsShears": true
+								},
+								{
+									"type": "minecraft:match_tool",
+									"silkTouch": true
+								}
+							]
+						}
+					],
+					"chain": [
+						"minecraft:alternatives#0"
+					]
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "wan_ancient_beasts:amber_ginkgo_seeds",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:table_bonus",
+							"chances": [
+								0.05,
+								0.0625,
+								0.083333336,
+								0.1
+							],
+							"enchantment": "minecraft:fortune"
+						}
+					],
+					"chain": [
+						"minecraft:alternatives#1"
+					]
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:stick",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count",
+						"minecraft:explosion_decay"
+					],
+					"conditions": [
+						{
+							"type": "minecraft:inverted",
+							"silkTouch": true,
+							"mentionsShears": true,
+							"term": {
+								"type": "minecraft:any_of",
+								"silkTouch": true,
+								"mentionsShears": true,
+								"terms": [
+									{
+										"type": "minecraft:match_tool",
+										"mentionsShears": true
+									},
+									{
+										"type": "minecraft:match_tool",
+										"silkTouch": true
+									}
+								]
+							},
+							"inverted": true
+						},
+						{
+							"type": "minecraft:table_bonus",
+							"chances": [
+								0.02,
+								0.022222223,
+								0.025,
+								0.033333335,
+								0.1
+							],
+							"enchantment": "minecraft:fortune"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "wan_ancient_beasts:blocks/glider_skull",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "wan_ancient_beasts:blocks/glider_skull",
+				"pools": [
+					{
+						"name": "wab",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "wan_ancient_beasts:glider_skull"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "wan_ancient_beasts:glider_skull",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "wan_ancient_beasts:blocks/raider_skull",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "wan_ancient_beasts:blocks/raider_skull",
+				"pools": [
+					{
+						"name": "wab",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "wan_ancient_beasts:raider_skull"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "wan_ancient_beasts:raider_skull",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "wan_ancient_beasts:blocks/walker_skull",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "wan_ancient_beasts:blocks/walker_skull",
+				"pools": [
+					{
+						"name": "wab",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "wan_ancient_beasts:walker_skull"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "wan_ancient_beasts:walker_skull",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "wan_ancient_beasts:blocks/raider_egg",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "wan_ancient_beasts:blocks/raider_egg",
+				"pools": [
+					{
+						"name": "wab",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "wan_ancient_beasts:raider_egg"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "wan_ancient_beasts:raider_egg",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "wan_ancient_beasts:blocks/ginkgo_log",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "wan_ancient_beasts:blocks/ginkgo_log",
+				"pools": [
+					{
+						"name": "wab",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "wan_ancient_beasts:ginkgo_log"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "wan_ancient_beasts:ginkgo_log",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "wan_ancient_beasts:blocks/suspicious_ice",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "wan_ancient_beasts:blocks/suspicious_ice"
+			},
+			"drops": []
+		},
+		{
+			"id": "wan_ancient_beasts:blocks/sundew",
+			"json": {
+				"type": "minecraft:block",
+				"pools": [
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:any_of",
+										"terms": [
+											{
+												"condition": "minecraft:match_tool",
+												"predicate": {
+													"tag": "tfc:sharp_tools"
+												}
+											},
+											{
+												"condition": "minecraft:match_tool",
+												"predicate": {
+													"tag": "forge:shears"
+												}
+											}
+										]
+									}
+								],
+								"name": "wan_ancient_beasts:sundew"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "wan_ancient_beasts:sundew",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:any_of",
+							"mentionsShears": true,
+							"terms": [
+								{
+									"type": "minecraft:match_tool"
+								},
+								{
+									"type": "minecraft:match_tool",
+									"mentionsShears": true
+								}
+							]
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "wan_ancient_beasts:blocks/surfer_egg",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "wan_ancient_beasts:blocks/surfer_egg",
+				"pools": [
+					{
+						"name": "wab",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "wan_ancient_beasts:surfer_egg"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "wan_ancient_beasts:surfer_egg",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "wan_ancient_beasts:blocks/paleo_table",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "wan_ancient_beasts:blocks/paleo_table",
+				"pools": [
+					{
+						"name": "wab",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "wan_ancient_beasts:paleo_table"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "wan_ancient_beasts:paleo_table",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "wan_ancient_beasts:blocks/eater_egg",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "wan_ancient_beasts:blocks/eater_egg",
+				"pools": [
+					{
+						"name": "wab",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "wan_ancient_beasts:eater_egg"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "wan_ancient_beasts:eater_egg",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "wan_ancient_beasts:blocks/ginkgo_door",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "wan_ancient_beasts:blocks/ginkgo_door",
+				"pools": [
+					{
+						"name": "wab",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:block_state_property",
+										"block": "wan_ancient_beasts:ginkgo_door",
+										"properties": {
+											"half": "lower"
+										}
+									}
+								],
+								"name": "wan_ancient_beasts:ginkgo_door"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "wan_ancient_beasts:ginkgo_door",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:block_state_property"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "wan_ancient_beasts:blocks/straw_block",
+			"json": {
+				"type": "minecraft:block"
+			},
+			"drops": []
+		},
+		{
+			"id": "wan_ancient_beasts:blocks/suspicious_red_sand",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "wan_ancient_beasts:blocks/suspicious_red_sand"
+			},
+			"drops": []
+		},
+		{
+			"id": "wan_ancient_beasts:blocks/rafflesia_crop",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "wan_ancient_beasts:blocks/rafflesia_crop",
+				"pools": [
+					{
+						"name": "wab",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "wan_ancient_beasts:rafflesia_seeds"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "wan_ancient_beasts:rafflesia_seeds",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "wan_ancient_beasts:blocks/soarer_egg",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "wan_ancient_beasts:blocks/soarer_egg",
+				"pools": [
+					{
+						"name": "wab",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "wan_ancient_beasts:soarer_egg"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "wan_ancient_beasts:soarer_egg",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "wan_ancient_beasts:blocks/ginkgo_wall_sign",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "wan_ancient_beasts:blocks/ginkgo_wall_sign",
+				"pools": [
+					{
+						"name": "wab",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "wan_ancient_beasts:ginkgo_sign"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "wan_ancient_beasts:ginkgo_sign",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "wan_ancient_beasts:blocks/rafflesia",
+			"json": {
+				"type": "minecraft:block",
+				"pools": [
+					{
+						"name": "loot_pool",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"conditions": [
+									{
+										"condition": "minecraft:any_of",
+										"terms": [
+											{
+												"condition": "minecraft:match_tool",
+												"predicate": {
+													"tag": "tfc:sharp_tools"
+												}
+											},
+											{
+												"condition": "minecraft:match_tool",
+												"predicate": {
+													"tag": "forge:shears"
+												}
+											}
+										]
+									}
+								],
+								"name": "wan_ancient_beasts:rafflesia"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "wan_ancient_beasts:rafflesia",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						},
+						{
+							"type": "minecraft:any_of",
+							"mentionsShears": true,
+							"terms": [
+								{
+									"type": "minecraft:match_tool"
+								},
+								{
+									"type": "minecraft:match_tool",
+									"mentionsShears": true
+								}
+							]
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "wan_ancient_beasts:blocks/nest",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "wan_ancient_beasts:blocks/nest",
+				"pools": [
+					{
+						"name": "wab",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "wan_ancient_beasts:nest"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "wan_ancient_beasts:nest",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "wan_ancient_beasts:blocks/stripped_ginkgo_wood",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "wan_ancient_beasts:blocks/stripped_ginkgo_wood",
+				"pools": [
+					{
+						"name": "wab",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "wan_ancient_beasts:stripped_ginkgo_wood"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "wan_ancient_beasts:stripped_ginkgo_wood",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "wan_ancient_beasts:blocks/charger_skull",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "wan_ancient_beasts:blocks/charger_skull",
+				"pools": [
+					{
+						"name": "wab",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "wan_ancient_beasts:charger_skull"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "wan_ancient_beasts:charger_skull",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "wan_ancient_beasts:blocks/crusher_egg",
+			"json": {
+				"type": "minecraft:block",
+				"random_sequence": "wan_ancient_beasts:blocks/crusher_egg",
+				"pools": [
+					{
+						"name": "wab",
+						"rolls": 1.0,
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"name": "wan_ancient_beasts:crusher_egg"
+							}
+						],
+						"conditions": [
+							{
+								"condition": "minecraft:survives_explosion"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "wan_ancient_beasts:crusher_egg",
+					"weight": 1.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 1.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [
+						{
+							"type": "minecraft:survives_explosion"
+						}
+					],
+					"chain": []
+				}
+			]
+		}
+	]
+}

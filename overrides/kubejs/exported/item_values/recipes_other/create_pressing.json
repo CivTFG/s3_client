@@ -1,0 +1,119 @@
+{
+	"type": "create:pressing",
+	"recipes": [
+		{
+			"id": "createdeco:pressing/coins/zinc_coin",
+			"mod": "createdeco",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"create:zinc_nugget"
+					]
+				}
+			],
+			"resultId": "createdeco:zinc_coin",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "createdeco:pressing/coins/brass_coin",
+			"mod": "createdeco",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"create:brass_nugget"
+					]
+				}
+			],
+			"resultId": "createdeco:brass_coin",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "createdeco:pressing/coins/gold_coin",
+			"mod": "createdeco",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:gold_nugget"
+					]
+				}
+			],
+			"resultId": "createdeco:gold_coin",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "createdeco:pressing/coins/industrial_iron_coin",
+			"mod": "createdeco",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"magistuarmory:steel_nugget",
+						"gtceu:steel_nugget"
+					]
+				}
+			],
+			"resultId": "createdeco:industrial_iron_coin",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "createdeco:pressing/coins/netherite_coin",
+			"mod": "createdeco",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:blue_steel_nugget"
+					]
+				}
+			],
+			"resultId": "createdeco:netherite_coin",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "createdeco:pressing/coins/copper_coin",
+			"mod": "createdeco",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"antiquelegacy:copper_nugget",
+						"create:copper_nugget"
+					]
+				}
+			],
+			"resultId": "createdeco:copper_coin",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "createdeco:pressing/coins/iron_coin",
+			"mod": "createdeco",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:wrought_iron_nugget"
+					]
+				}
+			],
+			"resultId": "createdeco:iron_coin",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		}
+	]
+}

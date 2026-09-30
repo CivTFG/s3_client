@@ -1,0 +1,686 @@
+{
+	"type": "vintageimprovements:vacuumizing",
+	"recipes": [
+		{
+			"id": "tfg:vacummizing/mars_water",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:semiheavy_ammoniacal_water"
+					],
+					"fluidAmount": 1000
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": false,
+			"extraOutputs": [
+				{
+					"cap": "fluid",
+					"id": "minecraft:water",
+					"amount": 250
+				},
+				{
+					"cap": "fluid",
+					"id": "gtceu:ammonia",
+					"amount": 250
+				}
+			]
+		},
+		{
+			"id": "tfg:vacuumizing/mars_latex",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:warpane"
+					],
+					"fluidAmount": 100
+				},
+				{
+					"ids": [
+						"tfg:crimsene"
+					],
+					"fluidAmount": 100
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": false,
+			"extraOutputs": [
+				{
+					"cap": "fluid",
+					"id": "tfg:latex",
+					"amount": 100
+				},
+				{
+					"cap": "fluid",
+					"id": "gtceu:ammonia",
+					"amount": 100
+				}
+			]
+		},
+		{
+			"id": "tfg:vi/vacuumizing/seed_oil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:seeds/barley",
+						"tfc:seeds/oat",
+						"tfc:seeds/rye",
+						"tfc:seeds/maize",
+						"tfc:seeds/wheat",
+						"tfc:seeds/rice",
+						"tfc:seeds/beet",
+						"tfc:seeds/cabbage",
+						"tfc:seeds/carrot",
+						"tfc:seeds/garlic",
+						"tfc:seeds/green_bean",
+						"tfc:seeds/melon",
+						"tfc:seeds/potato",
+						"tfc:seeds/pumpkin",
+						"tfc:seeds/onion",
+						"tfc:seeds/soybean",
+						"tfc:seeds/squash",
+						"tfc:seeds/sugarcane",
+						"tfc:seeds/tomato",
+						"tfc:seeds/jute",
+						"tfc:seeds/papyrus",
+						"tfc:seeds/red_bell_pepper",
+						"tfc:seeds/yellow_bell_pepper",
+						"firmalife:seeds/red_grape",
+						"firmalife:seeds/white_grape",
+						"tfg:sunflower_seeds",
+						"tfg:rapeseed_seeds",
+						"tfg:flax_seeds",
+						"tfg:cotton_seeds",
+						"tfg:lentil_seeds",
+						"tfg:radish_seeds",
+						"tfg:cucumber_seeds",
+						"tfg:peanut_seeds",
+						"tfg:cassava_seeds",
+						"tfg:beans_seeds",
+						"tfg:ghost_pepper_seeds",
+						"betterend:amber_root_seeds",
+						"betterend:blossom_berry_seeds",
+						"betterend:cave_pumpkin_plant_seeds",
+						"betterend:chorus_mushroom_seeds",
+						"betterend:shadow_berry_seeds",
+						"betterend:bolux_mushroom_seeds"
+					]
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": false,
+			"extraOutputs": [
+				{
+					"cap": "fluid",
+					"id": "gtceu:seed_oil",
+					"amount": 16
+				}
+			]
+		},
+		{
+			"id": "tfg:vi/vacuumizing/syngas_from_charcoal",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:charcoal"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:creosote"
+					],
+					"fluidAmount": 250
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": false,
+			"extraOutputs": [
+				{
+					"cap": "fluid",
+					"id": "tfg:syngas",
+					"amount": 100
+				}
+			]
+		},
+		{
+			"id": "tfg:vi/vacuumizing/syngas_from_anthracite",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"beneath:cursecoal"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:creosote"
+					],
+					"fluidAmount": 250
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": false,
+			"extraOutputs": [
+				{
+					"cap": "fluid",
+					"id": "tfg:syngas",
+					"amount": 400
+				}
+			]
+		},
+		{
+			"id": "tfg:vi/vacuumizing/syngas_from_coke",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:coke_gem"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:creosote"
+					],
+					"fluidAmount": 250
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": false,
+			"extraOutputs": [
+				{
+					"cap": "fluid",
+					"id": "tfg:syngas",
+					"amount": 400
+				}
+			]
+		},
+		{
+			"id": "tfg:vi/vacuumizing/latex_from_rubber_sapling",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:wood/sapling/kapok",
+						"afc:wood/sapling/red_silk_cotton",
+						"afc:wood/sapling/hevea",
+						"afc:wood/sapling/rubber_fig"
+					]
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": false,
+			"extraOutputs": [
+				{
+					"cap": "fluid",
+					"id": "tfg:latex",
+					"amount": 25
+				}
+			]
+		},
+		{
+			"id": "tfg:vi/vacuumizing/heavy_fuel_from_heavy_oil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:oil_heavy"
+					],
+					"fluidAmount": 1000
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": false,
+			"extraOutputs": [
+				{
+					"cap": "fluid",
+					"id": "gtceu:heavy_fuel",
+					"amount": 750
+				}
+			]
+		},
+		{
+			"id": "tfg:vi/vacuumizing/glue_from_rosin",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:conifer_rosin"
+					]
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": false,
+			"extraOutputs": [
+				{
+					"cap": "fluid",
+					"id": "gtceu:glue",
+					"amount": 50
+				}
+			]
+		},
+		{
+			"id": "tfg:vi/vacuumizing/palm_oil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:oil_palm_paste"
+					]
+				}
+			],
+			"resultId": "tfg:oil_palm_debris",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": [
+				{
+					"cap": "fluid",
+					"id": "tfg:palm_oil",
+					"amount": 500
+				}
+			]
+		},
+		{
+			"id": "tfg:vi/vacuumizing/rubber",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:rubber_dust"
+					]
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": false,
+			"extraOutputs": [
+				{
+					"cap": "fluid",
+					"id": "gtceu:rubber",
+					"amount": 144
+				}
+			]
+		},
+		{
+			"id": "tfg:vi/vacuumizing/light_fuel_from_oil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:oil"
+					],
+					"fluidAmount": 1000
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": false,
+			"extraOutputs": [
+				{
+					"cap": "fluid",
+					"id": "gtceu:light_fuel",
+					"amount": 250
+				}
+			]
+		},
+		{
+			"id": "tfg:vi/vacuumizing/rapeseed",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:rapeseed_product"
+					]
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": false,
+			"extraOutputs": [
+				{
+					"cap": "fluid",
+					"id": "gtceu:seed_oil",
+					"amount": 600
+				}
+			]
+		},
+		{
+			"id": "tfg:vi/vacuumizing/peanut",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:peanut_product"
+					]
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": false,
+			"extraOutputs": [
+				{
+					"cap": "fluid",
+					"id": "tfg:peanut_oil",
+					"amount": 500
+				}
+			]
+		},
+		{
+			"id": "tfg:vi/vacuumizing/syngas_from_bituminous_coal",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ore/bituminous_coal"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:creosote"
+					],
+					"fluidAmount": 250
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": false,
+			"extraOutputs": [
+				{
+					"cap": "fluid",
+					"id": "tfg:syngas",
+					"amount": 400
+				}
+			]
+		},
+		{
+			"id": "tfg:vi/vacuumizing/latex_from_rubber_plants",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:plant/goldenrod",
+						"tfc:plant/dandelion",
+						"beneath:gleamflower",
+						"beneath:food/fools_funnel",
+						"minecraft:spore_blossom"
+					]
+				},
+				{
+					"ids": [
+						"tfc:powder/soda_ash"
+					]
+				},
+				{
+					"ids": [
+						"tfc:salt_water"
+					],
+					"fluidAmount": 50
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": false,
+			"extraOutputs": [
+				{
+					"cap": "fluid",
+					"id": "tfg:latex",
+					"amount": 100
+				}
+			]
+		},
+		{
+			"id": "tfg:vi/vacuumizing/latex_from_rubber_logs",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:wood/log/kapok",
+						"tfc:wood/wood/kapok",
+						"tfc:wood/stripped_log/kapok",
+						"tfc:wood/stripped_wood/kapok",
+						"afc:wood/log/hevea",
+						"afc:wood/wood/hevea",
+						"afc:wood/stripped_log/hevea",
+						"afc:wood/stripped_wood/hevea",
+						"afc:wood/log/ancient_hevea",
+						"afc:wood/wood/ancient_hevea",
+						"afc:wood/log/rubber_fig",
+						"afc:wood/wood/rubber_fig"
+					]
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": false,
+			"extraOutputs": [
+				{
+					"cap": "fluid",
+					"id": "tfg:latex",
+					"amount": 100
+				}
+			]
+		},
+		{
+			"id": "tfg:vi/vacuumizing/light_fuel_from_raw_oil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:oil_medium"
+					],
+					"fluidAmount": 1000
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": false,
+			"extraOutputs": [
+				{
+					"cap": "fluid",
+					"id": "gtceu:naphtha",
+					"amount": 500
+				}
+			]
+		},
+		{
+			"id": "tfg:vi/vacuumizing/sunflower",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:sunflower_product"
+					]
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": false,
+			"extraOutputs": [
+				{
+					"cap": "fluid",
+					"id": "gtceu:seed_oil",
+					"amount": 500
+				}
+			]
+		},
+		{
+			"id": "tfg:vi/vacuumizing/light_fuel_from_light_oil",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:oil_light"
+					],
+					"fluidAmount": 1000
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": false,
+			"extraOutputs": [
+				{
+					"cap": "fluid",
+					"id": "gtceu:light_fuel",
+					"amount": 50
+				}
+			]
+		},
+		{
+			"id": "tfg:vi/vacuumizing/latex_from_rubber_leaves",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:wood/leaves/kapok",
+						"afc:wood/leaves/red_silk_cotton",
+						"afc:wood/leaves/hevea",
+						"afc:wood/leaves/rubber_fig"
+					]
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": false,
+			"extraOutputs": [
+				{
+					"cap": "fluid",
+					"id": "tfg:latex",
+					"amount": 10
+				}
+			]
+		},
+		{
+			"id": "tfg:vi/vacuumizing/glue_from_bone_meal",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:bone_meal"
+					]
+				},
+				{
+					"ids": [
+						"tfc:limewater"
+					],
+					"fluidAmount": 500
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": false,
+			"extraOutputs": [
+				{
+					"cap": "fluid",
+					"id": "gtceu:glue",
+					"amount": 50
+				}
+			]
+		},
+		{
+			"id": "tfg:vi/vacuumizing/glue_from_resin",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:sticky_resin"
+					]
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": false,
+			"extraOutputs": [
+				{
+					"cap": "fluid",
+					"id": "gtceu:glue",
+					"amount": 100
+				}
+			]
+		},
+		{
+			"id": "tfg:vi/vacuumizing/glue_melting",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:glue"
+					]
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": false,
+			"extraOutputs": [
+				{
+					"cap": "fluid",
+					"id": "gtceu:glue",
+					"amount": 50
+				}
+			]
+		},
+		{
+			"id": "tfg:vi/vacuumizing/syngas_from_lignite",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfc:ore/lignite"
+					]
+				},
+				{
+					"ids": [
+						"gtceu:creosote"
+					],
+					"fluidAmount": 250
+				}
+			],
+			"resultId": null,
+			"resultCount": null,
+			"resultEmpty": false,
+			"extraOutputs": [
+				{
+					"cap": "fluid",
+					"id": "tfg:syngas",
+					"amount": 200
+				}
+			]
+		}
+	]
+}

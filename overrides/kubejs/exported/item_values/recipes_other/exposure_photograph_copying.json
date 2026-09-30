@@ -1,0 +1,78 @@
+{
+	"type": "exposure:photograph_copying",
+	"recipes": [
+		{
+			"id": "exposure:photograph_copying_black_and_white",
+			"mod": "exposure",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:paper"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:black_dye",
+						"chalk:black_chalk",
+						"gtceu:chemical_black_dye",
+						"tfc:powder/charcoal",
+						"tfc:powder/coke"
+					]
+				}
+			],
+			"resultId": "exposure:photograph",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "exposure:photograph_copying",
+			"mod": "exposure",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"minecraft:paper"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:black_dye",
+						"chalk:black_chalk",
+						"gtceu:chemical_black_dye",
+						"tfc:powder/charcoal",
+						"tfc:powder/coke"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:yellow_dye",
+						"chalk:yellow_chalk",
+						"gtceu:chemical_yellow_dye",
+						"tfc:powder/limonite",
+						"tfc:powder/native_gold"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:cyan_dye",
+						"chalk:cyan_chalk",
+						"gtceu:chemical_cyan_dye"
+					]
+				},
+				{
+					"ids": [
+						"minecraft:magenta_dye",
+						"chalk:magenta_chalk",
+						"gtceu:chemical_magenta_dye"
+					]
+				}
+			],
+			"resultId": "exposure:photograph",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		}
+	]
+}

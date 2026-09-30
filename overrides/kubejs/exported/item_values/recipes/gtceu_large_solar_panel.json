@@ -1,0 +1,126 @@
+{
+	"type": "gtceu:large_solar_panel",
+	"recipes": [
+		{
+			"id": "gtceu:large_solar_panel/solar_panel_t1_emergency",
+			"category": "large_solar_panel",
+			"duration": 400,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:photo_cell_t1"
+					],
+					"amount": 1,
+					"chanced": true,
+					"chance": 100,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [],
+			"tickOutputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "DaytimeCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DaytimeCondition@68b08f6a",
+					"dimension": "undefined"
+				},
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@54a61246",
+					"dimension": "ResourceKey[minecraft:dimension / ad_astra:moon]"
+				}
+			]
+		},
+		{
+			"id": "gtceu:large_solar_panel/solar_panel_t1",
+			"category": "large_solar_panel",
+			"duration": 400,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "item",
+					"ids": [
+						"tfg:photo_cell_t1"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				},
+				{
+					"cap": "item",
+					"ids": [
+						"gtceu:programmed_circuit"
+					],
+					"amount": 1,
+					"chanced": false,
+					"chance": 0,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [],
+			"tickInputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"tfg:compressed_trimix_3"
+					],
+					"amount": 4,
+					"chanced": true,
+					"chance": 5000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"tickOutputs": [
+				{
+					"cap": "EnergyStack",
+					"ids": [],
+					"amount": null,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"conditions": [
+				{
+					"type": "DaytimeCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DaytimeCondition@422890cf",
+					"dimension": "undefined"
+				},
+				{
+					"type": "DimensionCondition",
+					"text": "com.gregtechceu.gtceu.common.recipe.condition.DimensionCondition@5f2e22e5",
+					"dimension": "ResourceKey[minecraft:dimension / ad_astra:moon]"
+				}
+			]
+		}
+	]
+}

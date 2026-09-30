@@ -1,0 +1,42 @@
+{
+	"type": "deafission:hb_export",
+	"recipes": [
+		{
+			"id": "tfg:hb_export/boron_coolant_to_dense_steam",
+			"category": "hb_export",
+			"duration": 100,
+			"voltage": 0,
+			"inputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:distilled_water"
+					],
+					"amount": 28800,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"outputs": [
+				{
+					"cap": "fluid",
+					"ids": [
+						"gtceu:dense_steam"
+					],
+					"amount": 115200,
+					"chanced": false,
+					"chance": 10000,
+					"maxChance": 10000,
+					"idsTruncated": false
+				}
+			],
+			"data": {
+				"ebf_temp": "1000s",
+				"hb_energy": "40b",
+				"hide_duration": "1b"
+			}
+		}
+	]
+}

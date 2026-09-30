@@ -1,0 +1,1650 @@
+{
+	"type": "tfg:artisan",
+	"recipes": [
+		{
+			"id": "tfg:artisan_table/tfg_hammer_head_extruder_mold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:empty_mold"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "tfg:hammer_head_extruder_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/resin_printed_circuit_board_4x",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:resin_circuit_board"
+					],
+					"amount": 4
+				},
+				{
+					"ids": [
+						"gtceu:copper_quadruple_wire"
+					],
+					"amount": 8
+				}
+			],
+			"resultId": "gtceu:resin_printed_circuit_board",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/tfg_wire_cutter_head_extruder_mold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:empty_mold"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "tfg:wire_cutter_head_extruder_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/gtceu_cylinder_casting_mold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:empty_mold"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "gtceu:cylinder_casting_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/phenolic_printed_circuit_board",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:phenolic_circuit_board"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"gtceu:silver_single_wire"
+					],
+					"amount": 8
+				}
+			],
+			"resultId": "gtceu:phenolic_printed_circuit_board",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/gtceu_ingot_extruder_mold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:empty_mold"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "gtceu:ingot_extruder_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/gtceu_small_pipe_extruder_mold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:empty_mold"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "gtceu:small_pipe_extruder_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/tfg_spade_head_extruder_mold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:empty_mold"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "tfg:spade_head_extruder_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/gtceu_cell_extruder_mold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:empty_mold"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "gtceu:cell_extruder_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/tfg_axe_head_extruder_mold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:empty_mold"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "tfg:axe_head_extruder_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/asphalt_road_stencil_fill",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:treated_wood_plate"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "tfg:asphalt_road_stencil_fill",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/tfg_chain_casting_mold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:empty_mold"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "tfg:chain_casting_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/gtceu_plate_extruder_mold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:empty_mold"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "gtceu:plate_extruder_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/gtceu_small_pipe_casting_mold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:empty_mold"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "gtceu:small_pipe_casting_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/gtceu_huge_pipe_extruder_mold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:empty_mold"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "gtceu:huge_pipe_extruder_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/gtceu_tiny_pipe_casting_mold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:empty_mold"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "gtceu:tiny_pipe_casting_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/tfg_file_head_extruder_mold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:empty_mold"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "tfg:file_head_extruder_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/tfg_chisel_head_extruder_mold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:empty_mold"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "tfg:chisel_head_extruder_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/phenolic_printed_circuit_board_4x",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:phenolic_circuit_board"
+					],
+					"amount": 4
+				},
+				{
+					"ids": [
+						"gtceu:silver_quadruple_wire"
+					],
+					"amount": 8
+				}
+			],
+			"resultId": "gtceu:phenolic_printed_circuit_board",
+			"resultCount": 4,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/tfg_pickaxe_head_extruder_mold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:empty_mold"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "tfg:pickaxe_head_extruder_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/gtceu_huge_pipe_casting_mold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:empty_mold"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "gtceu:huge_pipe_casting_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/tfg_wrench_tip_extruder_mold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:empty_mold"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "tfg:wrench_tip_extruder_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/tfg_mace_head_extruder_mold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:empty_mold"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "tfg:mace_head_extruder_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/gtceu_plate_casting_mold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:empty_mold"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "gtceu:plate_casting_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/gtceu_nugget_casting_mold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:empty_mold"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "gtceu:nugget_casting_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/tfg_screwdriver_tip_extruder_mold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:empty_mold"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "tfg:screwdriver_tip_extruder_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/gtceu_block_casting_mold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:empty_mold"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "gtceu:block_casting_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/gtceu_rotor_extruder_mold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:empty_mold"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "gtceu:rotor_extruder_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/gtceu_small_gear_casting_mold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:empty_mold"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "gtceu:small_gear_casting_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/asphalt_road_stencil_line_slash_r",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:treated_wood_plate"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "tfg:asphalt_road_stencil_line_slash_r",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/gtceu_gear_extruder_mold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:empty_mold"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "gtceu:gear_extruder_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/gtceu_rotor_casting_mold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:empty_mold"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "gtceu:rotor_casting_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/gtceu_large_pipe_casting_mold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:empty_mold"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "gtceu:large_pipe_casting_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/gtceu_gear_casting_mold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:empty_mold"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "gtceu:gear_casting_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/tfg_butchery_knife_head_extruder_mold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:empty_mold"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "tfg:butchery_knife_head_extruder_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/gtceu_pill_casting_mold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:empty_mold"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "gtceu:pill_casting_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/asphalt_road_stencil_slash_l",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:treated_wood_plate"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "tfg:asphalt_road_stencil_slash_l",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/asphalt_road_stencil_line_slash_l",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:treated_wood_plate"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "tfg:asphalt_road_stencil_line_slash_l",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/gtceu_tiny_pipe_extruder_mold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:empty_mold"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "gtceu:tiny_pipe_extruder_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/tfg_mattock_head_extruder_mold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:empty_mold"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "tfg:mattock_head_extruder_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/tfg_knife_head_extruder_mold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:empty_mold"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "tfg:knife_head_extruder_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/asphalt_road_stencil_slash_r",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:treated_wood_plate"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "tfg:asphalt_road_stencil_slash_r",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/tfg_hoe_head_extruder_mold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:empty_mold"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "tfg:hoe_head_extruder_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/gtceu_large_pipe_extruder_mold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:empty_mold"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "gtceu:large_pipe_extruder_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/tfg_bell_casting_mold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:empty_mold"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "tfg:bell_casting_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/tfg_mining_hammer_head_extruder_mold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:empty_mold"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "tfg:mining_hammer_head_extruder_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/gtceu_bottle_extruder_mold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:empty_mold"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "gtceu:bottle_extruder_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/tfg_saw_head_extruder_mold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:empty_mold"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "tfg:saw_head_extruder_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/tfg_whisk_extruder_mold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:empty_mold"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "tfg:whisk_extruder_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/worked_optical_borosilicate_blank",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"tfg:optical_borosilicate_blank"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"tfc:powder/flux"
+					],
+					"amount": 8
+				}
+			],
+			"resultId": "tfg:worked_optical_borosilicate_blank",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/asphalt_road_stencil_slash_rl",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:treated_wood_plate"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "tfg:asphalt_road_stencil_slash_rl",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/asphalt_road_stencil_double_line",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:treated_wood_plate"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "tfg:asphalt_road_stencil_double_line",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/asphalt_road_stencil_t",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:treated_wood_plate"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "tfg:asphalt_road_stencil_t",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/gtceu_foil_extruder_mold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:empty_mold"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "gtceu:foil_extruder_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/gtceu_anvil_casting_mold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:empty_mold"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "gtceu:anvil_casting_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/tfg_propick_head_extruder_mold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:empty_mold"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "tfg:propick_head_extruder_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/gtceu_name_casting_mold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:empty_mold"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "gtceu:name_casting_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/asphalt_road_stencil_corner",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:treated_wood_plate"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "tfg:asphalt_road_stencil_corner",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/resin_printed_circuit_board",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:resin_circuit_board"
+					],
+					"amount": 1
+				},
+				{
+					"ids": [
+						"gtceu:copper_single_wire"
+					],
+					"amount": 8
+				}
+			],
+			"resultId": "gtceu:resin_printed_circuit_board",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/asphalt_road_stencil_cross",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:treated_wood_plate"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "tfg:asphalt_road_stencil_cross",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/tfg_sword_head_extruder_mold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:empty_mold"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "tfg:sword_head_extruder_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/gtceu_bottle_casting_mold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:empty_mold"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "gtceu:bottle_casting_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/gtceu_small_gear_extruder_mold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:empty_mold"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "gtceu:small_gear_extruder_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/gtceu_rod_extruder_mold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:empty_mold"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "gtceu:rod_extruder_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/gtceu_ingot_casting_mold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:empty_mold"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "gtceu:ingot_casting_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/tfg_trapdoor_casting_mold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:empty_mold"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "tfg:trapdoor_casting_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/gtceu_ball_casting_mold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:empty_mold"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "gtceu:ball_casting_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/asphalt_road_stencil_line_slash_rl",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:treated_wood_plate"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "tfg:asphalt_road_stencil_line_slash_rl",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/asphalt_road_stencil_arrow",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:treated_wood_plate"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "tfg:asphalt_road_stencil_arrow",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/tfg_fish_hook_extruder_mold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:empty_mold"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "tfg:fish_hook_extruder_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/gtceu_normal_pipe_casting_mold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:empty_mold"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "gtceu:normal_pipe_casting_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/tfg_small_casing_extruder_mold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:empty_mold"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "tfg:small_casing_extruder_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/tfg_javelin_head_extruder_mold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:empty_mold"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "tfg:javelin_head_extruder_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/asphalt_road_stencil_line",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:treated_wood_plate"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "tfg:asphalt_road_stencil_line",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/tfg_lamp_casting_mold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:empty_mold"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "tfg:lamp_casting_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/asphalt_road_stencil_num_1",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:treated_wood_plate"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "tfg:asphalt_road_stencil_num_1",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/tfg_shell_casing_extruder_mold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:empty_mold"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "tfg:shell_casing_extruder_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/asphalt_road_stencil_num_0",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:treated_wood_plate"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "tfg:asphalt_road_stencil_num_0",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/tfg_scythe_head_extruder_mold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:empty_mold"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "tfg:scythe_head_extruder_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/gtceu_normal_pipe_extruder_mold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:empty_mold"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "gtceu:normal_pipe_extruder_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/asphalt_road_stencil_number",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:treated_wood_plate"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "tfg:asphalt_road_stencil_number",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/tfg_shovel_head_extruder_mold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:empty_mold"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "tfg:shovel_head_extruder_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/asphalt_road_stencil_num_9",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:treated_wood_plate"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "tfg:asphalt_road_stencil_num_9",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/asphalt_road_stencil_num_8",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:treated_wood_plate"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "tfg:asphalt_road_stencil_num_8",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/gtceu_block_extruder_mold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:empty_mold"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "gtceu:block_extruder_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/asphalt_road_stencil_num_7",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:treated_wood_plate"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "tfg:asphalt_road_stencil_num_7",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/gtceu_bolt_extruder_mold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:empty_mold"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "gtceu:bolt_extruder_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/asphalt_road_stencil_num_6",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:treated_wood_plate"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "tfg:asphalt_road_stencil_num_6",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/asphalt_road_stencil_num_5",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:treated_wood_plate"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "tfg:asphalt_road_stencil_num_5",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/asphalt_road_stencil_num_4",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:treated_wood_plate"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "tfg:asphalt_road_stencil_num_4",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/gtceu_ring_extruder_mold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:empty_mold"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "gtceu:ring_extruder_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/asphalt_road_stencil_num_3",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:treated_wood_plate"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "tfg:asphalt_road_stencil_num_3",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/tfg_large_casing_extruder_mold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:empty_mold"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "tfg:large_casing_extruder_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/gtceu_wire_extruder_mold",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:empty_mold"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "gtceu:wire_extruder_mold",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		},
+		{
+			"id": "tfg:artisan_table/asphalt_road_stencil_num_2",
+			"mod": "tfg",
+			"tfcTier": null,
+			"inputs": [
+				{
+					"ids": [
+						"gtceu:treated_wood_plate"
+					],
+					"amount": 1
+				}
+			],
+			"resultId": "tfg:asphalt_road_stencil_num_2",
+			"resultCount": 1,
+			"resultEmpty": false,
+			"extraOutputs": []
+		}
+	]
+}

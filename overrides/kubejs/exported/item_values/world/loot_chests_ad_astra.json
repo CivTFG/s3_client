@@ -1,0 +1,2391 @@
+{
+	"group": "chests",
+	"namespace": "ad_astra",
+	"tables": [
+		{
+			"id": "ad_astra:chests/dungeon/moon/dungeon_chest",
+			"json": {
+				"type": "minecraft:chest",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": {
+							"type": "minecraft:uniform",
+							"min": 3.0,
+							"max": 8.0
+						},
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"weight": 3.0,
+								"name": "ad_astra:space_painting"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 40.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 10.0,
+											"max": 20.0
+										},
+										"add": false
+									}
+								],
+								"name": "ad_astra:moon_sand"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 20.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 5.0,
+											"max": 10.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:ice"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 10.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 3.0
+										},
+										"add": false
+									}
+								],
+								"name": "ad_astra:cheese"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 7.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 2.0,
+											"max": 6.0
+										},
+										"add": false
+									}
+								],
+								"name": "ad_astra:raw_desh"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 10.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 8.0,
+											"max": 12.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:raw_iron"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 10.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 9.0,
+											"max": 18.0
+										},
+										"add": false
+									}
+								],
+								"name": "ad_astra:ice_shard"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 10.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 4.0,
+											"max": 8.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:rotten_flesh"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 10.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 3.0,
+											"max": 6.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:bone"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 30.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 3.0,
+											"max": 6.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:emerald"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 5.0,
+								"name": "minecraft:golden_apple"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 5.0,
+								"functions": [
+									{
+										"function": "minecraft:enchant_randomly"
+									}
+								],
+								"name": "minecraft:book"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "ad_astra:space_painting",
+					"weight": 3.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 3.0,
+						"max": 8.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "ad_astra:moon_sand",
+					"weight": 40.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 3.0,
+						"max": 8.0
+					},
+					"count": {
+						"min": 10.0,
+						"max": 20.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:ice",
+					"weight": 20.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 3.0,
+						"max": 8.0
+					},
+					"count": {
+						"min": 5.0,
+						"max": 10.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "ad_astra:cheese",
+					"weight": 10.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 3.0,
+						"max": 8.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 3.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "ad_astra:raw_desh",
+					"weight": 7.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 3.0,
+						"max": 8.0
+					},
+					"count": {
+						"min": 2.0,
+						"max": 6.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:raw_iron",
+					"weight": 10.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 3.0,
+						"max": 8.0
+					},
+					"count": {
+						"min": 8.0,
+						"max": 12.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "ad_astra:ice_shard",
+					"weight": 10.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 3.0,
+						"max": 8.0
+					},
+					"count": {
+						"min": 9.0,
+						"max": 18.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:rotten_flesh",
+					"weight": 10.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 3.0,
+						"max": 8.0
+					},
+					"count": {
+						"min": 4.0,
+						"max": 8.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bone",
+					"weight": 10.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 3.0,
+						"max": 8.0
+					},
+					"count": {
+						"min": 3.0,
+						"max": 6.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:emerald",
+					"weight": 30.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 3.0,
+						"max": 8.0
+					},
+					"count": {
+						"min": 3.0,
+						"max": 6.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:golden_apple",
+					"weight": 5.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 3.0,
+						"max": 8.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:book",
+					"weight": 5.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 3.0,
+						"max": 8.0
+					},
+					"count": null,
+					"functions": [
+						"minecraft:enchant_randomly"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "ad_astra:chests/village/moon/house",
+			"json": {
+				"type": "minecraft:chest",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": {
+							"type": "minecraft:uniform",
+							"min": 3.0,
+							"max": 8.0
+						},
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"weight": 40.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 6.0,
+											"max": 12.0
+										},
+										"add": false
+									}
+								],
+								"name": "ad_astra:moon_sand"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 10.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 3.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:iron_nugget"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 10.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 3.0,
+											"max": 12.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:iron_ingot"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 5.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 3.0
+										},
+										"add": false
+									}
+								],
+								"name": "ad_astra:desh_ingot"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 5.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 3.0,
+											"max": 12.0
+										},
+										"add": false
+									}
+								],
+								"name": "ad_astra:desh_nugget"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 15.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 2.0,
+											"max": 4.0
+										},
+										"add": false
+									}
+								],
+								"name": "ad_astra:cheese"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 5.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 2.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:emerald"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 10.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 2.0,
+											"max": 4.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:bread"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 10.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 3.0,
+											"max": 9.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:soul_torch"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 10.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 2.0,
+											"max": 4.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:coal"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "ad_astra:moon_sand",
+					"weight": 40.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 3.0,
+						"max": 8.0
+					},
+					"count": {
+						"min": 6.0,
+						"max": 12.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:iron_nugget",
+					"weight": 10.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 3.0,
+						"max": 8.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 3.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:iron_ingot",
+					"weight": 10.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 3.0,
+						"max": 8.0
+					},
+					"count": {
+						"min": 3.0,
+						"max": 12.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "ad_astra:desh_ingot",
+					"weight": 5.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 3.0,
+						"max": 8.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 3.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "ad_astra:desh_nugget",
+					"weight": 5.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 3.0,
+						"max": 8.0
+					},
+					"count": {
+						"min": 3.0,
+						"max": 12.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "ad_astra:cheese",
+					"weight": 15.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 3.0,
+						"max": 8.0
+					},
+					"count": {
+						"min": 2.0,
+						"max": 4.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:emerald",
+					"weight": 5.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 3.0,
+						"max": 8.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bread",
+					"weight": 10.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 3.0,
+						"max": 8.0
+					},
+					"count": {
+						"min": 2.0,
+						"max": 4.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:soul_torch",
+					"weight": 10.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 3.0,
+						"max": 8.0
+					},
+					"count": {
+						"min": 3.0,
+						"max": 9.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:coal",
+					"weight": 10.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 3.0,
+						"max": 8.0
+					},
+					"count": {
+						"min": 2.0,
+						"max": 4.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "ad_astra:chests/village/moon/blacksmith",
+			"json": {
+				"type": "minecraft:chest",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": {
+							"type": "minecraft:uniform",
+							"min": 3.0,
+							"max": 9.0
+						},
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"weight": 2.0,
+								"name": "ad_astra:launch_pad"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 10.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 2.0,
+											"max": 6.0
+										},
+										"add": false
+									}
+								],
+								"name": "ad_astra:desh_ingot"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 5.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 2.0,
+											"max": 4.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:emerald"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 10.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 3.0,
+											"max": 6.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:coal"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 3.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 2.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:diamond"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 5.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 2.0,
+											"max": 5.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:redstone"
+							}
+						]
+					},
+					{
+						"name": "pool1",
+						"rolls": {
+							"type": "minecraft:uniform",
+							"min": 1.0,
+							"max": 2.0
+						},
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"weight": 5.0,
+								"name": "ad_astra:fuel_bucket"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 10.0,
+								"name": "minecraft:bucket"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 5.0,
+								"name": "ad_astra:gas_tank"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 5.0,
+								"name": "ad_astra:space_helmet"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 5.0,
+								"name": "ad_astra:space_suit"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 5.0,
+								"name": "ad_astra:space_pants"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 5.0,
+								"name": "ad_astra:space_boots"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "ad_astra:launch_pad",
+					"weight": 2.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 3.0,
+						"max": 9.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "ad_astra:desh_ingot",
+					"weight": 10.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 3.0,
+						"max": 9.0
+					},
+					"count": {
+						"min": 2.0,
+						"max": 6.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:emerald",
+					"weight": 5.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 3.0,
+						"max": 9.0
+					},
+					"count": {
+						"min": 2.0,
+						"max": 4.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:coal",
+					"weight": 10.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 3.0,
+						"max": 9.0
+					},
+					"count": {
+						"min": 3.0,
+						"max": 6.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:diamond",
+					"weight": 3.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 3.0,
+						"max": 9.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:redstone",
+					"weight": 5.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 3.0,
+						"max": 9.0
+					},
+					"count": {
+						"min": 2.0,
+						"max": 5.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "ad_astra:fuel_bucket",
+					"weight": 5.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bucket",
+					"weight": 10.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "ad_astra:gas_tank",
+					"weight": 5.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "ad_astra:space_helmet",
+					"weight": 5.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "ad_astra:space_suit",
+					"weight": 5.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "ad_astra:space_pants",
+					"weight": 5.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 1.0,
+					"kind": "minecraft:item",
+					"id": "ad_astra:space_boots",
+					"weight": 5.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "ad_astra:chests/temple/mars/temple",
+			"json": {
+				"type": "minecraft:chest",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": {
+							"type": "minecraft:uniform",
+							"min": 3.0,
+							"max": 8.0
+						},
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"weight": 40.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 6.0,
+											"max": 14.0
+										},
+										"add": false
+									}
+								],
+								"name": "ad_astra:mars_sand"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 40.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 5.0,
+											"max": 10.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:ice"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 10.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 6.0,
+											"max": 12.0
+										},
+										"add": false
+									}
+								],
+								"name": "ad_astra:ice_shard"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 10.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 5.0,
+											"max": 15.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:iron_ingot"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 5.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 2.0
+										},
+										"add": false
+									}
+								],
+								"name": "ad_astra:raw_ostrum"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 30.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 6.0,
+											"max": 9.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:emerald"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 5.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 2.0,
+											"max": 4.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:diamond"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 5.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 6.0,
+											"max": 12.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:redstone"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 10.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 4.0,
+											"max": 8.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:bone"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 10.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 3.0,
+											"max": 6.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:string"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 10.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 5.0,
+											"max": 10.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:rotten_flesh"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 5.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 5.0,
+											"max": 10.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:stick"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 5.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 4.0,
+											"max": 8.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:glow_berries"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 6.0,
+								"name": "minecraft:golden_apple"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 2.0,
+								"name": "minecraft:enchanted_golden_apple"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 3.0,
+								"name": "minecraft:suspicious_stew"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 20.0,
+								"functions": [
+									{
+										"function": "minecraft:enchant_randomly"
+									}
+								],
+								"name": "minecraft:book"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "ad_astra:mars_sand",
+					"weight": 40.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 3.0,
+						"max": 8.0
+					},
+					"count": {
+						"min": 6.0,
+						"max": 14.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:ice",
+					"weight": 40.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 3.0,
+						"max": 8.0
+					},
+					"count": {
+						"min": 5.0,
+						"max": 10.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "ad_astra:ice_shard",
+					"weight": 10.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 3.0,
+						"max": 8.0
+					},
+					"count": {
+						"min": 6.0,
+						"max": 12.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:iron_ingot",
+					"weight": 10.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 3.0,
+						"max": 8.0
+					},
+					"count": {
+						"min": 5.0,
+						"max": 15.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "ad_astra:raw_ostrum",
+					"weight": 5.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 3.0,
+						"max": 8.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:emerald",
+					"weight": 30.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 3.0,
+						"max": 8.0
+					},
+					"count": {
+						"min": 6.0,
+						"max": 9.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:diamond",
+					"weight": 5.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 3.0,
+						"max": 8.0
+					},
+					"count": {
+						"min": 2.0,
+						"max": 4.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:redstone",
+					"weight": 5.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 3.0,
+						"max": 8.0
+					},
+					"count": {
+						"min": 6.0,
+						"max": 12.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bone",
+					"weight": 10.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 3.0,
+						"max": 8.0
+					},
+					"count": {
+						"min": 4.0,
+						"max": 8.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:string",
+					"weight": 10.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 3.0,
+						"max": 8.0
+					},
+					"count": {
+						"min": 3.0,
+						"max": 6.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:rotten_flesh",
+					"weight": 10.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 3.0,
+						"max": 8.0
+					},
+					"count": {
+						"min": 5.0,
+						"max": 10.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:stick",
+					"weight": 5.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 3.0,
+						"max": 8.0
+					},
+					"count": {
+						"min": 5.0,
+						"max": 10.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:glow_berries",
+					"weight": 5.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 3.0,
+						"max": 8.0
+					},
+					"count": {
+						"min": 4.0,
+						"max": 8.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:golden_apple",
+					"weight": 6.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 3.0,
+						"max": 8.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:enchanted_golden_apple",
+					"weight": 2.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 3.0,
+						"max": 8.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:suspicious_stew",
+					"weight": 3.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 3.0,
+						"max": 8.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:book",
+					"weight": 20.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 3.0,
+						"max": 8.0
+					},
+					"count": null,
+					"functions": [
+						"minecraft:enchant_randomly"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		},
+		{
+			"id": "ad_astra:chests/dungeon/moon/large_dungeon_chest",
+			"json": {
+				"type": "minecraft:chest",
+				"pools": [
+					{
+						"name": "main",
+						"rolls": {
+							"type": "minecraft:uniform",
+							"min": 3.0,
+							"max": 8.0
+						},
+						"bonus_rolls": 0.0,
+						"entries": [
+							{
+								"type": "minecraft:item",
+								"weight": 3.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 1.0,
+											"max": 2.0
+										},
+										"add": false
+									}
+								],
+								"name": "ad_astra:space_painting"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 40.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 10.0,
+											"max": 30.0
+										},
+										"add": false
+									}
+								],
+								"name": "ad_astra:moon_sand"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 20.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 5.0,
+											"max": 15.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:ice"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 10.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 2.0,
+											"max": 4.0
+										},
+										"add": false
+									}
+								],
+								"name": "ad_astra:cheese"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 10.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 5.0,
+											"max": 10.0
+										},
+										"add": false
+									}
+								],
+								"name": "ad_astra:raw_desh"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 10.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 10.0,
+											"max": 15.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:raw_iron"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 10.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 15.0,
+											"max": 20.0
+										},
+										"add": false
+									}
+								],
+								"name": "ad_astra:ice_shard"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 10.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 5.0,
+											"max": 10.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:rotten_flesh"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 10.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 4.0,
+											"max": 8.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:bone"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 30.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 4.0,
+											"max": 8.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:emerald"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 10.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 2.0,
+											"max": 4.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:diamond"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 10.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 3.0,
+											"max": 6.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:gold_ingot"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 5.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 6.0,
+											"max": 12.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:lapis_lazuli"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 5.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 6.0,
+											"max": 12.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:redstone"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 10.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 5.0,
+											"max": 10.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:coal"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 10.0,
+								"functions": [
+									{
+										"function": "minecraft:set_count",
+										"count": {
+											"type": "minecraft:uniform",
+											"min": 5.0,
+											"max": 10.0
+										},
+										"add": false
+									}
+								],
+								"name": "minecraft:stick"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 7.0,
+								"name": "minecraft:golden_apple"
+							},
+							{
+								"type": "minecraft:item",
+								"weight": 10.0,
+								"functions": [
+									{
+										"function": "minecraft:enchant_randomly"
+									}
+								],
+								"name": "minecraft:book"
+							}
+						]
+					}
+				]
+			},
+			"drops": [
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "ad_astra:space_painting",
+					"weight": 3.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 3.0,
+						"max": 8.0
+					},
+					"count": {
+						"min": 1.0,
+						"max": 2.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "ad_astra:moon_sand",
+					"weight": 40.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 3.0,
+						"max": 8.0
+					},
+					"count": {
+						"min": 10.0,
+						"max": 30.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:ice",
+					"weight": 20.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 3.0,
+						"max": 8.0
+					},
+					"count": {
+						"min": 5.0,
+						"max": 15.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "ad_astra:cheese",
+					"weight": 10.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 3.0,
+						"max": 8.0
+					},
+					"count": {
+						"min": 2.0,
+						"max": 4.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "ad_astra:raw_desh",
+					"weight": 10.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 3.0,
+						"max": 8.0
+					},
+					"count": {
+						"min": 5.0,
+						"max": 10.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:raw_iron",
+					"weight": 10.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 3.0,
+						"max": 8.0
+					},
+					"count": {
+						"min": 10.0,
+						"max": 15.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "ad_astra:ice_shard",
+					"weight": 10.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 3.0,
+						"max": 8.0
+					},
+					"count": {
+						"min": 15.0,
+						"max": 20.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:rotten_flesh",
+					"weight": 10.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 3.0,
+						"max": 8.0
+					},
+					"count": {
+						"min": 5.0,
+						"max": 10.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:bone",
+					"weight": 10.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 3.0,
+						"max": 8.0
+					},
+					"count": {
+						"min": 4.0,
+						"max": 8.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:emerald",
+					"weight": 30.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 3.0,
+						"max": 8.0
+					},
+					"count": {
+						"min": 4.0,
+						"max": 8.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:diamond",
+					"weight": 10.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 3.0,
+						"max": 8.0
+					},
+					"count": {
+						"min": 2.0,
+						"max": 4.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:gold_ingot",
+					"weight": 10.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 3.0,
+						"max": 8.0
+					},
+					"count": {
+						"min": 3.0,
+						"max": 6.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:lapis_lazuli",
+					"weight": 5.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 3.0,
+						"max": 8.0
+					},
+					"count": {
+						"min": 6.0,
+						"max": 12.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:redstone",
+					"weight": 5.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 3.0,
+						"max": 8.0
+					},
+					"count": {
+						"min": 6.0,
+						"max": 12.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:coal",
+					"weight": 10.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 3.0,
+						"max": 8.0
+					},
+					"count": {
+						"min": 5.0,
+						"max": 10.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:stick",
+					"weight": 10.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 3.0,
+						"max": 8.0
+					},
+					"count": {
+						"min": 5.0,
+						"max": 10.0
+					},
+					"functions": [
+						"minecraft:set_count"
+					],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:golden_apple",
+					"weight": 7.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 3.0,
+						"max": 8.0
+					},
+					"count": null,
+					"functions": [],
+					"conditions": [],
+					"chain": []
+				},
+				{
+					"pool": 0.0,
+					"kind": "minecraft:item",
+					"id": "minecraft:book",
+					"weight": 10.0,
+					"quality": 0.0,
+					"rolls": {
+						"min": 3.0,
+						"max": 8.0
+					},
+					"count": null,
+					"functions": [
+						"minecraft:enchant_randomly"
+					],
+					"conditions": [],
+					"chain": []
+				}
+			]
+		}
+	]
+}

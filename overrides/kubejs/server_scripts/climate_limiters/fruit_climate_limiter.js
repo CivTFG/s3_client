@@ -47,6 +47,40 @@ const ENABLED = true;
 const TEMP_TOLERANCE = 0;
 const RAIN_TOLERANCE = 0;
 
+// Rejecting a placement on the server leaves the client out of sync: the client has already
+// predicted "item placed, stack shrunk" and nothing tells it otherwise, so the sapling/seed
+// looks like it vanished from the inventory (it is still there on the server and reappears
+// after relogging). Pushing the full container contents (+ cursor stack) back fixes it.
+// sendAllDataToRemote, not broadcastChanges: the server-side stack never changed, so a
+// "changed slots only" broadcast would send nothing.
+function resyncInventory(player) {
+	try {
+		player.openInventory.sendAllDataToRemote();
+	} catch (e) {
+		console.warn("[climate limiter] inventory resync failed: " + e);
+	}
+}
+
+// Tells the player why (chat + action bar) and resyncs their inventory.
+function rejectPlacement(player, message) {
+	player.tell(Text.of(message).red());
+	try {
+		player.setStatusMessage(Text.of(message).red());
+	} catch (e) {}
+	resyncInventory(player);
+}
+
+// "7.3 C / 180 mm (needs -3..15.3 C / 210..320 mm)" so the player can see which limit was missed.
+function describeClimate(temp, rain, range) {
+	var text = Number(temp).toFixed(1) + " C";
+	var needs = range.minTemp + ".." + range.maxTemp + " C";
+	if (rain !== null && range.minRain !== undefined) {
+		text += " / " + Math.round(Number(rain)) + " mm";
+		needs += " / " + range.minRain + ".." + range.maxRain + " mm";
+	}
+	return text + " here, needs " + needs;
+}
+
 const FRUIT_CLIMATE = {
 	// TFC fruit trees (planted as tfc:plant/<name>_sapling)
 	"tfc:plant/banana_sapling":     { minTemp: 17, maxTemp: 35, minRain: 280, maxRain: 500 },
@@ -131,7 +165,8 @@ function checkClimate(level, pos, range) {
 	if (temp > range.maxTemp + TEMP_TOLERANCE) reasons.push("too hot");
 	if (hasRainData && rain < range.minRain - RAIN_TOLERANCE) reasons.push("too dry");
 	if (hasRainData && rain > range.maxRain + RAIN_TOLERANCE) reasons.push("too wet");
-	return `This plant can't grow in this climate (${reasons.join(", ")})`;
+	if (reasons.length === 0) reasons.push("outside the allowed range");
+	return `This plant can't grow in this climate (${reasons.join(", ")}): ` + describeClimate(temp, rain, range);
 }
 
 BlockEvents.placed(event => {
@@ -146,7 +181,7 @@ BlockEvents.placed(event => {
 	const rejection = checkClimate(level, block.pos, range);
 	if (rejection) {
 		event.cancel();
-		player.tell(Text.of(rejection).red());
+		rejectPlacement(player, rejection);
 	}
 });
 
@@ -161,7 +196,11 @@ BlockEvents.rightClicked(event => {
 	const rejection = checkClimate(level, block.pos, GRAPE_CLIMATE);
 	if (rejection) {
 		event.cancel();
-		player.tell(Text.of(rejection).red());
+		rejectPlacement(player, rejection);
+		// the client also predicted the seed's block change (GrapeSeedItem.useOn); re-send the real state
+		try {
+			level.sendBlockUpdated(block.pos, block.blockState, block.blockState, 3);
+		} catch (e) {}
 	}
 });
 

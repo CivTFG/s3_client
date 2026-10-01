@@ -29,6 +29,40 @@ const ENABLED = true;
 const TEMP_TOLERANCE = 0;
 const RAIN_TOLERANCE = 0;
 
+// Rejecting a placement on the server leaves the client out of sync: the client has already
+// predicted "item placed, stack shrunk" and nothing tells it otherwise, so the sapling/seed
+// looks like it vanished from the inventory (it is still there on the server and reappears
+// after relogging). Pushing the full container contents (+ cursor stack) back fixes it.
+// sendAllDataToRemote, not broadcastChanges: the server-side stack never changed, so a
+// "changed slots only" broadcast would send nothing.
+function resyncInventory(player) {
+	try {
+		player.openInventory.sendAllDataToRemote();
+	} catch (e) {
+		console.warn("[climate limiter] inventory resync failed: " + e);
+	}
+}
+
+// Tells the player why (chat + action bar) and resyncs their inventory.
+function rejectPlacement(player, message) {
+	player.tell(Text.of(message).red());
+	try {
+		player.setStatusMessage(Text.of(message).red());
+	} catch (e) {}
+	resyncInventory(player);
+}
+
+// "7.3 C / 180 mm (needs -3..15.3 C / 210..320 mm)" so the player can see which limit was missed.
+function describeClimate(temp, rain, range) {
+	var text = Number(temp).toFixed(1) + " C";
+	var needs = range.minTemp + ".." + range.maxTemp + " C";
+	if (rain !== null && range.minRain !== undefined) {
+		text += " / " + Math.round(Number(rain)) + " mm";
+		needs += " / " + range.minRain + ".." + range.maxRain + " mm";
+	}
+	return text + " here, needs " + needs;
+}
+
 const TREE_CLIMATE = {
 	acacia:      { minTemp: 8,     maxTemp: 38,   minRain: 90,  maxRain: 275 },
 	ash:         { minTemp: -1.1,  maxTemp: 13.4, minRain: 60,  maxRain: 240 },
@@ -79,7 +113,8 @@ BlockEvents.placed(event => {
 		if (rain < range.minRain - RAIN_TOLERANCE) reasons.push("too dry");
 		if (rain > range.maxRain + RAIN_TOLERANCE) reasons.push("too wet");
 
-		player.tell(Text.of(`This tree can't grow in this climate (${reasons.join(", ")})`).red());
+		if (reasons.length === 0) reasons.push("outside the allowed range");
+		rejectPlacement(player, `This tree can't grow in this climate (${reasons.join(", ")}): ` + describeClimate(temp, rain, range));
 	}
 });
 

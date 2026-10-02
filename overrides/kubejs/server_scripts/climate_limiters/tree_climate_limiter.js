@@ -41,6 +41,13 @@ function resyncInventory(player) {
 	} catch (e) {
 		console.warn("[climate limiter] inventory resync failed: " + e);
 	}
+	// Forge only restores the cancelled stack's count after the place event returns, so push
+	// the inventory once more a tick later, when the server-side stack is whole again.
+	try {
+		player.server.scheduleInTicks(1, () => {
+			try { player.openInventory.sendAllDataToRemote(); } catch (e) {}
+		});
+	} catch (e) {}
 }
 
 // Tells the player why (chat + action bar) and resyncs their inventory.
@@ -105,9 +112,7 @@ BlockEvents.placed(event => {
 	const rainOk = rain >= range.minRain - RAIN_TOLERANCE && rain <= range.maxRain + RAIN_TOLERANCE;
 
 	if (!tempOk || !rainOk) {
-		event.cancel();
-
-		const reasons = [];
+		var reasons = []; // var, not const: Rhino throws "redeclaration of var" for a const directly in an if-block (S3 progression CLAUDE.md Pitfall #20)
 		if (temp < range.minTemp - TEMP_TOLERANCE) reasons.push("too cold");
 		if (temp > range.maxTemp + TEMP_TOLERANCE) reasons.push("too hot");
 		if (rain < range.minRain - RAIN_TOLERANCE) reasons.push("too dry");
@@ -115,6 +120,8 @@ BlockEvents.placed(event => {
 
 		if (reasons.length === 0) reasons.push("outside the allowed range");
 		rejectPlacement(player, `This tree can't grow in this climate (${reasons.join(", ")}): ` + describeClimate(temp, rain, range));
+		// event.cancel() LAST: in KubeJS 6 it throws EventExit, so nothing after it in the handler runs.
+		event.cancel();
 	}
 });
 

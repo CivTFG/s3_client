@@ -59,6 +59,13 @@ function resyncInventory(player) {
 	} catch (e) {
 		console.warn("[climate limiter] inventory resync failed: " + e);
 	}
+	// Forge only restores the cancelled stack's count after the place event returns, so push
+	// the inventory once more a tick later, when the server-side stack is whole again.
+	try {
+		player.server.scheduleInTicks(1, () => {
+			try { player.openInventory.sendAllDataToRemote(); } catch (e) {}
+		});
+	} catch (e) {}
 }
 
 // Tells the player why (chat + action bar) and resyncs their inventory.
@@ -180,8 +187,9 @@ BlockEvents.placed(event => {
 
 	const rejection = checkClimate(level, block.pos, range);
 	if (rejection) {
-		event.cancel();
 		rejectPlacement(player, rejection);
+		// event.cancel() LAST: in KubeJS 6 it throws EventExit, so nothing after it in the handler runs.
+		event.cancel();
 	}
 });
 
@@ -195,12 +203,13 @@ BlockEvents.rightClicked(event => {
 
 	const rejection = checkClimate(level, block.pos, GRAPE_CLIMATE);
 	if (rejection) {
-		event.cancel();
 		rejectPlacement(player, rejection);
 		// the client also predicted the seed's block change (GrapeSeedItem.useOn); re-send the real state
 		try {
 			level.sendBlockUpdated(block.pos, block.blockState, block.blockState, 3);
 		} catch (e) {}
+		// event.cancel() LAST: in KubeJS 6 it throws EventExit, so nothing after it in the handler runs.
+		event.cancel();
 	}
 });
 

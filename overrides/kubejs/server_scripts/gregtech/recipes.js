@@ -137,6 +137,7 @@ const registerGTCEURecipes = (event) => {
 		.duration(20 * 10)
 		.EUt(2)
 
+	/* CivTFG: replaced by kubejs/server_scripts/s3_progression_mod/tfg_tweaks.js (adjusted copy, same id)
 	// Tape
 	event.shaped('gtceu:basic_tape', [
 		' A ',
@@ -152,6 +153,7 @@ const registerGTCEURecipes = (event) => {
 		.itemOutputs('2x gtceu:basic_tape')
 		.duration(100)
 		.EUt(GTValues.VA[GTValues.ULV])
+	*/
 
 
 	// GT Facades

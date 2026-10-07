@@ -28,6 +28,7 @@ const registerHandGliderRecipes = (event) => {
 		C: '#forge:screws/any_bronze',
 	}).id('hangglider:shaped/glider_wing')
 
+	/* CivTFG: replaced by kubejs/server_scripts/s3_progression_mod/tfg_tweaks.js (adjusted copy, same id)
 	//Reinforced Hang Glider Stuff
 	event.shaped('hangglider:reinforced_hang_glider', [
 		' A ',
@@ -62,6 +63,7 @@ const registerHandGliderRecipes = (event) => {
 		.itemOutputs(Item.of('hangglider:reinforced_hang_glider', "{Damage:0}"))
 		.duration(600)
 		.EUt(30)
+	*/
 
 	event.recipes.gtceu.assembler('tfg:hang_glider/reinforced_hang_glider_repairing')
 		.itemInputs('3x sns:reinforced_fabric', 'hangglider:reinforced_hang_glider')

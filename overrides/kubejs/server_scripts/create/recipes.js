@@ -262,6 +262,7 @@ const registerCreateRecipes = (event) => {
 		.EUt(GTValues.VA[GTValues.ULV])
 		.addMaterialInfo(true)
 
+	/* CivTFG: replaced by kubejs/server_scripts/s3_progression_mod/tfg_tweaks.js (adjusted copy, same id)
 	// Шкив для шланга
 	event.shaped('create:hose_pulley', [
 		'DAE',
@@ -284,6 +285,7 @@ const registerCreateRecipes = (event) => {
 		.EUt(GTValues.VA[GTValues.ULV])
 
 	TFGHelpers.registerMaterialInfo('create:hose_pulley', [GTMaterials.Copper, 3, GTMaterials.Rubber, 1/4]);
+	*/
 
 	// Слив из предметов
 	event.shaped('create:item_drain', [

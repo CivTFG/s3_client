@@ -1,11 +1,21 @@
 // priority: -100
 "use strict";
 
-// Recipe/transport tweaks on top of the TerraFirmaGreg pack. The pack's own scripts
-// (kubejs/server_scripts/**) are NOT edited - pack updates would overwrite that - instead this
-// script removes the affected recipes by id and registers adjusted copies. "priority: -100"
-// makes it load (and so run its ServerEvents.recipes handler) after TFG's own scripts, so the
-// recipes we remove already exist and ours are not overwritten afterwards.
+// Recipe/transport tweaks on top of the TerraFirmaGreg pack, registered as adjusted copies under
+// the original recipe ids. "priority: -100" makes it load after TFG's own scripts.
+//
+// KubeJS 6's event.remove/replaceInput/forEachRecipe only see ORIGINAL (datapack) recipes, never
+// recipes another script added - so a recipe the pack itself creates in KubeJS can't be removed
+// from here, and re-adding it under the same id logs "Duplicate added recipe" on every reload.
+// Those pack definitions are therefore commented out in the pack's own scripts, each marked
+// "CivTFG: replaced by .../tfg_tweaks.js" (pack scripts edited 2026-10-02, re-apply after a
+// pack update!):
+//   create/recipes.js              hose pulley (shaped + assembler + material info)
+//   gregtech/recipes.js            basic tape from glue (shaped + assembler)
+//   hangglider/recipes.js          reinforced hang glider (2 shaped + 2 assembler)
+//   immersive_aircraft/recipes.js  economy plane, biplane, scarlet biplane,
+//                                  airship, cargo airship (shaped + assembler), warship
+// event.remove below is only kept for real originals (GTCEU's own datapack recipe).
 //
 // Rhino rules (CLAUDE.md Pitfall #5/#20): no object-spread, `var` instead of const/let inside
 // bare blocks.
@@ -17,8 +27,6 @@
 ServerEvents.recipes(event => {
 
     // ---- 1a. Hose Pulley: black steel plate instead of rubber foil --------------------------
-    event.remove({ id: 'tfg:create/shaped/hose_pulley' })
-    event.remove({ id: 'create:assembler/hose_pulley' })
 
     event.shaped('create:hose_pulley', [
         'DAE',
@@ -51,8 +59,6 @@ ServerEvents.recipes(event => {
     // glue / sticky resin stays. The tag #tfg:rubber_foils = rubber, silicone rubber and
     // styrene-butadiene rubber foil (the tag the pack already uses for "rubber foil" inputs).
     // GTCEU's own recipe (sticky resin) is removed too, otherwise paper would still work there.
-    event.remove({ id: 'tfg:shaped/basic_tape_from_glue' })
-    event.remove({ id: 'gtceu:assembler/basic_tape_from_glue' })
     event.remove({ id: 'gtceu:assembler/basic_tape' })
 
     event.shaped('gtceu:basic_tape', [
@@ -85,10 +91,6 @@ ServerEvents.recipes(event => {
 
     // ---- 2a. Reinforced hang glider: long steel rod instead of long aluminium rod ----------
     // Repair recipes need no rod and are unchanged.
-    event.remove({ id: 'hangglider:shaped/reinforced_hang_glider' })
-    event.remove({ id: 'hangglider:shaped/reinforced_hang_glider2' })
-    event.remove({ id: 'tfg:assembler/hand_glider/reinforced_hang_glider' })
-    event.remove({ id: 'tfg:assembler/hand_glider/reinforced_hang_glider2' })
 
     event.shaped('hangglider:reinforced_hang_glider', [
         ' A ',
@@ -125,9 +127,6 @@ ServerEvents.recipes(event => {
         .EUt(30)
 
     // ---- 2b. Aircraft on phases: economy plane (LV) -> biplane (MV) -> scarlet biplane (HV) -
-    event.remove({ id: 'tfg:man_of_many_planes/mechanical_crafter/economy_plane' })
-    event.remove({ id: 'tfg:immersive_aircraft/mechanical_crafter/biplane' })
-    event.remove({ id: 'tfg:man_of_many_planes/mechanical_crafter/scarlet_biplane' })
 
     // Economy plane: immersive_aircraft:steel_boiler (H) -> immersive_aircraft:nether_engine
     // (the mod's MV engine), same cell, pattern otherwise unchanged.
@@ -192,4 +191,60 @@ ServerEvents.recipes(event => {
         H: 'tfc:metal/ingot/red_steel',
         I: 'tfg:basalt_fiber_plate'
     }).id('tfg:man_of_many_planes/mechanical_crafter/scarlet_biplane')
+
+    // ---- 2c. Airships on engine phases: airship (steam) -> cargo airship (LV) -> warship (MV) -
+    // Recipes otherwise unchanged from immersive_aircraft/recipes.js, only the engines differ.
+    // Airship: immersive_aircraft:engine -> steampowered:bronze_steam_engine
+    event.shaped('immersive_aircraft:airship', [
+        'ABA',
+        'CDE',
+        'FGA'
+    ], {
+        A: 'immersive_aircraft:sail',
+        B: 'tfg:airship_balloon',
+        C: 'steampowered:bronze_steam_engine',
+        D: '#create:seats',
+        E: 'firmaciv:rope_coil',
+        F: '#forge:rotors',
+        G: 'tfg:airship_hull'
+    }).id('tfg:immersive_aircraft/shaped/airship')
+
+    // Cargo airship: 2x immersive_aircraft:engine -> 2x tfg:lv_aircraft_engine (shaped + assembler)
+    event.shaped('immersive_aircraft:cargo_airship', [
+        'ABA',
+        'CDC',
+        'EFE'
+    ], {
+        A: '#forge:rotors',
+        B: '#forge:tools/hammers',
+        C: 'tfg:lv_aircraft_engine',
+        D: 'immersive_aircraft:airship',
+        E: 'gtceu:wood_crate',
+        F: '#forge:tools/screwdrivers'
+    }).id('tfg:immersive_aircraft/shaped/cargo_airship')
+
+    event.recipes.gtceu.assembler('tfg:immersive_aircraft/assembler/cargo_airship')
+        .itemInputs('immersive_aircraft:airship', '2x tfg:lv_aircraft_engine', '2x gtceu:wood_crate', '2x #forge:rotors')
+        .itemOutputs('immersive_aircraft:cargo_airship')
+        .duration(10 * 20)
+        .EUt(GTValues.VA[GTValues.LV])
+
+    // Warship: tfg:lv_aircraft_engine -> immersive_aircraft:nether_engine
+    event.recipes.create.mechanical_crafting('immersive_aircraft:warship', [
+        'ABCC ',
+        ' DDD ',
+        ' EEEF',
+        ' EGEH',
+        ' EEEF',
+        ' DDD '
+    ], {
+        A: 'tfg:redblu_steel_plated_airplane_propeller',
+        B: 'immersive_aircraft:nether_engine',
+        C: 'tfg:airship_balloon',
+        D: 'gtceu:wrought_iron_plate',
+        E: 'immersive_aircraft:hull',
+        F: 'gtceu:wrought_iron_rod',
+        G: 'immersive_aircraft:cargo_airship',
+        H: '#create:seats'
+    }).id('tfg:immersive_aircraft/mechanical_crafter/warship')
 })

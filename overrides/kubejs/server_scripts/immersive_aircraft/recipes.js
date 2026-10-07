@@ -853,6 +853,7 @@ function registerImmersiveAircraftRecipes(event) {
 		E: 'immersive_aircraft:engine'
 	}).id('tfg:immersive_aircraft/shaped/quadrocopter');
 
+	/* CivTFG: replaced by kubejs/server_scripts/s3_progression_mod/tfg_tweaks.js (adjusted copy, same id)
 	event.shaped('immersive_aircraft:airship', [
 		'ABA',
 		'CDE',
@@ -904,6 +905,7 @@ function registerImmersiveAircraftRecipes(event) {
 		G: 'immersive_aircraft:cargo_airship',
 		H: '#create:seats'
 	}).id('tfg:immersive_aircraft/mechanical_crafter/warship')
+	*/
 
 	event.recipes.create.mechanical_crafting('immersive_aircraft:gyrodyne', [
 		'   A   ',
@@ -923,6 +925,7 @@ function registerImmersiveAircraftRecipes(event) {
 		G: 'gtceu:wrought_iron_double_ingot'
 	}).id('tfg:immersive_aircraft/mechanical_crafter/gyrodyne')
 
+	/* CivTFG: replaced by kubejs/server_scripts/s3_progression_mod/tfg_tweaks.js (adjusted copy, same id)
 	event.recipes.create.mechanical_crafting('man_of_many_planes:economy_plane', [
 		' AABCBAA ',
 		'ADDBEBDDA',
@@ -980,6 +983,7 @@ function registerImmersiveAircraftRecipes(event) {
 		G: '#create:seats',
 		H: 'tfc:metal/ingot/red_steel'
 	}).id('tfg:man_of_many_planes/mechanical_crafter/scarlet_biplane')
+	*/
 
 	event.recipes.create.mechanical_crafting('immersive_aircraft:bamboo_hopper', [
 		'  A   A  ',
